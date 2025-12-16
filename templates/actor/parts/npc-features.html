@@ -1,0 +1,35 @@
+<div class="tab features" data-group="primary" data-tab="features">
+    <div class="npc-features">
+        <div class="form-group">
+            <label>{{ localize "BROKENTALES.NPC.Type" }}</label>
+            <select name="system.npcType">
+                {{#select system.npcType}}
+                {{#each config.npcTypes as |name type|}}
+                <option value="{{type}}">{{localize name}}</option>
+                {{/each}}
+                {{/select}}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>{{ localize "BROKENTALES.NPC.OppositionLevel" }}</label>
+            <select name="system.oppositionLevel">
+                {{#select system.oppositionLevel}}
+                {{#each config.oppositionLevels as |name level|}}
+                <option value="{{level}}">{{localize name}}</option>
+                {{/each}}
+                {{/select}}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>{{ localize "BROKENTALES.NPC.Description" }}</label>
+            <textarea name="system.description">{{system.description}}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label>{{ localize "BROKENTALES.NPC.Motivation" }}</label>
+            <textarea name="system.motivation">{{system.motivation}}</textarea>
+        </div>
+    </div>
+</div>

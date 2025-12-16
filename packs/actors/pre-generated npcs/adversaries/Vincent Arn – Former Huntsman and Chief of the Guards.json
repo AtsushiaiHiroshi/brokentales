@@ -1,0 +1,35 @@
+{
+    "name": "Vincent Arn - Former Huntsman and Chief of the Guards",
+    "type": "npc",
+    "data": {
+      "npcType": "adversary",
+      "oppositionLevel": "Medium",
+      "wounds": {
+        "max": 3,
+        "current": 3,
+        "extra": 0
+      },
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "xp": 0,
+      "background": "Vincent Arn served as a huntsman before climbing the ranks to become the chief of the guards under Gerard Dubois. Though loyal in appearance, he has aligned himself with Elizaveta for personal gain.",
+      "descriptors": [
+        "I am a skilled hunter. I have no qualms about doing whatever is needed. I want to enjoy a good life without working so hard."
+      ],
+"gifts": [
+  "Veteran: Vincent is skilled in taking advantage of any situation. When he has the support of at least two allies, he gains 1 Additional Success to Position Checks. If he is supported by at least three of his men, every action against him receives 1 Penalty and Vincent can inflict 1 additional Wound."
+],
+      "agenda": "I understand how the world works and who really runs the Dubois household. Pleasing Elizaveta is the best way to maintain my status.",
+      "conditions": [],
+      "notes": "Vincent leads the guards and is an extension of Elizaveta’s will. He is an experienced and dangerous obstacle."
+    },
+    "img": "icons/svg/guard.svg",
+    "flags": {},
+    "token": {
+      "name": "Vincent Arn",
+      "img": "icons/svg/guard.svg"
+    }
+  }
+  

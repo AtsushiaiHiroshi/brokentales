@@ -1,0 +1,379 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header">
+    <img
+      class="profile-img"
+      src="{{actor.img}}"
+      data-edit="img"
+      title="{{actor.name}}"
+      alt="{{actor.name}}"
+    />
+    <div class="header-fields">
+      <h1 class="charname">
+        <input
+          name="name"
+          type="text"
+          value="{{actor.name}}"
+          placeholder="{{localize 'BROKENTALES.Fields.Name'}}"
+        />
+      </h1>
+
+      {{!-- NPC Type and Opposition Level --}}
+      <div class="npc-header-info">
+        <div class="form-group npc-type-group">
+          <label>{{localize "BROKENTALES.Fields.NPCType"}}</label>
+          <select name="system.npcType" class="npc-type-select">
+            {{#select system.npcType}} {{#each config.npcTypes as |label
+            value|}}
+            <option value="{{value}}">{{localize label}}</option>
+            {{/each}} {{/select}}
+          </select>
+        </div>
+
+        <div class="form-group opposition-level-group">
+          <label>{{localize "BROKENTALES.Fields.OppositionLevel"}}</label>
+          <select name="system.oppositionLevel">
+            {{#select system.oppositionLevel}} {{#each config.oppositionLevels
+            as |label value|}}
+            <option value="{{value}}">{{localize label}}</option>
+            {{/each}} {{/select}}
+          </select>
+        </div>
+      </div>
+
+      {{!-- Roll Controls --}}
+      <div class="roll-controls">
+        <label for="dice-count"
+          >{{localize "BROKENTALES.Fields.DiceCount"}}</label
+        >
+        <input
+          type="number"
+          id="bt-dice-count"
+          name="dice-count"
+          value="2"
+          min="1"
+          max="6"
+        />
+
+        <div class="difficulty-buttons">
+          <button
+            type="button"
+            class="bt-roll-difficulty easy"
+            data-difficulty="2"
+            title="{{localize 'BROKENTALES.Fields.Easy'}}"
+          >
+            <i class="fas fa-dice-d6"></i> {{localize
+            "BROKENTALES.Fields.Easy"}}
+          </button>
+          <button
+            type="button"
+            class="bt-roll-difficulty normal"
+            data-difficulty="3"
+            title="{{localize 'BROKENTALES.Fields.Normal'}}"
+          >
+            <i class="fas fa-dice-d6"></i> {{localize
+            "BROKENTALES.Fields.Normal"}}
+          </button>
+          <button
+            type="button"
+            class="bt-roll-difficulty hard"
+            data-difficulty="4"
+            title="{{localize 'BROKENTALES.Fields.Hard'}}"
+          >
+            <i class="fas fa-dice-d6"></i> {{localize
+            "BROKENTALES.Fields.Hard"}}
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{!-- Sheet Navigation Tabs --}}
+  <nav class="sheet-tabs tabs" data-group="primary">
+    <a class="item" data-tab="main">{{localize "BROKENTALES.Tabs.Main"}}</a>
+    <a class="item" data-tab="items">{{localize "BROKENTALES.Tabs.Items"}}</a>
+    <a class="item" data-tab="effects"
+      >{{localize "BROKENTALES.Tabs.Effects"}}</a
+    >
+    <a class="item" data-tab="notes">{{localize "BROKENTALES.Tabs.Notes"}}</a>
+  </nav>
+
+  {{!-- Sheet Body --}}
+  <section class="sheet-body">
+    {{!-- Main Tab --}}
+    <div class="tab main" data-group="primary" data-tab="main">
+      <div class="grid-container">
+        {{!-- Left Column --}}
+        <div class="left-column">
+          {{!-- Attributes --}}
+          <div class="attributes">
+            {{#if (gt system.attributes.soma.max 0)}}
+            <div class="attribute soma">
+              <label>{{localize "BROKENTALES.Fields.Soma"}}</label>
+              <div class="attribute-value">
+                <button
+                  type="button"
+                  class="soma-adjust"
+                  data-action="spend"
+                  title="{{localize 'BROKENTALES.Spend'}}"
+                >
+                  <i class="fas fa-minus"></i>
+                </button>
+                <input
+                  type="number"
+                  name="system.attributes.soma.current"
+                  value="{{system.attributes.soma.current}}"
+                  data-dtype="Number"
+                  min="0"
+                  max="{{system.attributes.soma.max}}"
+                />
+                <span class="sep">/</span>
+                <input
+                  type="number"
+                  name="system.attributes.soma.max"
+                  value="{{system.attributes.soma.max}}"
+                  data-dtype="Number"
+                  min="0"
+                />
+                <button
+                  type="button"
+                  class="soma-adjust"
+                  data-action="recover"
+                  title="{{localize 'BROKENTALES.Recover'}}"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+            </div>
+            {{/if}}
+
+            <div class="attribute wounds">
+              <label>{{localize "BROKENTALES.Fields.Wounds"}}</label>
+              <div class="wounds-track">
+                {{#times system.attributes.wounds.max}} <input type="checkbox"
+                class="wound-checkbox" name="wound-{{this}}" {{checked (lt this
+                ../system.attributes.wounds.current)}}
+                data-wound-index="{{this}}"/> {{/times}}
+              </div>
+              <div class="wounds-extra">
+                <label>{{localize "BROKENTALES.Fields.WoundsExtra"}}</label>
+                <input
+                  type="checkbox"
+                  name="system.attributes.wounds.extra.value"
+                  {{checked
+                  system.attributes.wounds.extra.value}}
+                  data-dtype="Boolean"
+                />
+              </div>
+            </div>
+
+            <div class="attribute damage">
+              <label>{{localize "BROKENTALES.Fields.Damage"}}</label>
+              <input
+                type="text"
+                name="system.damage"
+                value="{{system.damage}}"
+                placeholder="1d6"
+              />
+            </div>
+
+            <div class="attribute state">
+              <label>{{localize "BROKENTALES.Fields.State"}}</label>
+              <input
+                type="text"
+                name="system.state"
+                value="{{system.state}}"
+                placeholder="{{localize 'BROKENTALES.NPC.StatePlaceholder'}}"
+              />
+            </div>
+          </div>
+
+          {{!-- Description --}}
+          <div class="form-group description-field">
+            <label>{{localize "BROKENTALES.Fields.Description"}}</label>
+            <textarea name="system.description" rows="4">
+{{system.description}}</textarea
+            >
+          </div>
+
+          {{!-- Background --}}
+          <div class="form-group background-field">
+            <label>{{localize "BROKENTALES.Fields.Background"}}</label>
+            <textarea name="system.background" rows="4">
+{{system.background}}</textarea
+            >
+          </div>
+
+          {{!-- Agenda (not for objects/obstacles) --}} {{#unless (or (eq
+          system.npcType "object") (eq system.npcType "obstacle"))}}
+          <div class="form-group agenda-field">
+            <label>{{localize "BROKENTALES.Fields.Agenda"}}</label>
+            <textarea name="system.agenda" rows="3">{{system.agenda}}</textarea>
+          </div>
+          {{/unless}}
+        </div>
+
+        {{!-- Right Column --}}
+        <div class="right-column">
+          {{!-- Descriptors List --}}
+          <section class="descriptors-section">
+            <h3>{{localize "BROKENTALES.Fields.Descriptors"}}</h3>
+            <div class="descriptors-list">
+              {{#each descriptors as |item id|}}
+              <div class="descriptor-block" data-item-id="{{item._id}}">
+                <div class="improvement-icon"></div>
+                <div class="descriptor-content">
+                  <h4 class="item-name">{{item.name}}</h4>
+                  <div class="item-description">
+                    {{item.system.description}}
+                  </div>
+                  <div class="item-controls">
+                    <a
+                      class="item-control item-edit"
+                      title="{{localize 'BROKENTALES.Edit'}}"
+                    >
+                      <i class="fas fa-edit"></i>
+                    </a>
+                    <a
+                      class="item-control item-delete"
+                      title="{{localize 'BROKENTALES.Delete'}}"
+                    >
+                      <i class="fas fa-trash"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {{/each}}
+            </div>
+            <div class="item-controls">
+              <a
+                class="item-control item-create"
+                data-type="descriptor"
+                title="{{localize 'BROKENTALES.Add'}}"
+              >
+                <i class="fas fa-plus"></i> {{localize
+                "BROKENTALES.Items.Descriptors"}}
+              </a>
+            </div>
+          </section>
+
+          {{!-- Gifts List --}}
+          <section class="gifts-section">
+            <h3>{{localize "BROKENTALES.Fields.Gifts"}}</h3>
+            <div class="gifts-list">
+              {{#each gifts as |item id|}}
+              <div class="gift-block" data-item-id="{{item._id}}">
+                <div class="gift-icon"></div>
+                <div class="gift-content">
+                  <h4 class="gift-name">{{item.name}}</h4>
+                  <div class="item-description">
+                    {{item.system.description}}
+                  </div>
+                  <div class="item-controls">
+                    <a
+                      class="item-control item-edit"
+                      title="{{localize 'BROKENTALES.Edit'}}"
+                    >
+                      <i class="fas fa-edit"></i>
+                    </a>
+                    <a
+                      class="item-control item-delete"
+                      title="{{localize 'BROKENTALES.Delete'}}"
+                    >
+                      <i class="fas fa-trash"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {{/each}}
+            </div>
+            <div class="item-controls">
+              <a
+                class="item-control item-create"
+                data-type="gift"
+                title="{{localize 'BROKENTALES.Add'}}"
+              >
+                <i class="fas fa-plus"></i> {{localize
+                "BROKENTALES.Items.Gifts"}}
+              </a>
+            </div>
+          </section>
+
+          {{!-- Dark Ego (only for broken_one) --}} {{#if (eq system.npcType
+          "broken_one")}}
+          <section class="dark-ego-section">
+            <h3>{{localize "BROKENTALES.Fields.DarkEgo"}}</h3>
+
+            <div class="form-group">
+              <label>{{localize "BROKENTALES.Fields.Trigger"}}</label>
+              <input
+                type="text"
+                name="system.darkEgo.trigger"
+                value="{{system.darkEgo.trigger}}"
+                placeholder="{{localize 'BROKENTALES.DarkEgo.TriggerPlaceholder'}}"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>{{localize "BROKENTALES.DarkEgo.Descriptor"}}</label>
+              <textarea name="system.darkEgo.descriptor" rows="2">
+{{system.darkEgo.descriptor}}</textarea
+              >
+            </div>
+
+            <div class="form-group">
+              <label>{{localize "BROKENTALES.DarkEgo.Gift"}}</label>
+              <textarea name="system.darkEgo.gift" rows="3">
+{{system.darkEgo.gift}}</textarea
+              >
+            </div>
+          </section>
+          {{/if}} {{!-- Equipment --}}
+          <section class="equipment-section">
+            {{#unless (eq system.npcType "object")}}
+            <div class="form-group weapons-field">
+              <label>{{localize "BROKENTALES.Fields.Weapons"}}</label>
+              <textarea name="system.weapons" rows="2">
+{{system.weapons}}</textarea
+              >
+            </div>
+            {{/unless}}
+
+            <div class="form-group objects-field">
+              <label>{{localize "BROKENTALES.Fields.Objects"}}</label>
+              <textarea name="system.objects" rows="2">
+{{system.objects}}</textarea
+              >
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    {{!-- Items Tab --}}
+    <div class="tab items" data-group="primary" data-tab="items">
+      {{> "systems/brokentales/templates/actor/parts/actor-items.html"}}
+    </div>
+
+    {{!-- Effects Tab --}}
+    <div class="tab effects" data-group="primary" data-tab="effects">
+      {{> "systems/brokentales/templates/actor/parts/actor-effects.html"}}
+    </div>
+
+    {{!-- Notes Tab --}}
+    <div class="tab notes" data-group="primary" data-tab="notes">
+      <div class="form-group">
+        <label>{{localize "BROKENTALES.Fields.Notes"}}</label>
+        {{editor system.notes target="system.notes" button=true owner=owner
+        editable=editable}}
+      </div>
+
+      {{#if system.systemNote}}
+      <div class="form-group system-note">
+        <label>{{localize "BROKENTALES.Fields.SystemNote"}}</label>
+        <div class="system-note-content">{{system.systemNote}}</div>
+      </div>
+      {{/if}}
+    </div>
+  </section>
+</form>

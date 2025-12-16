@@ -1,0 +1,35 @@
+{
+  "name": "George the Holy Dragon Slayer",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight against darkness never falters. As a child, I fell into a river and almost drowned, but was saved by a creature that I later discovered was a dragon. When I grew up, I took holy vows and joined the Church. In doing so, I discovered that what I believed to be my savior was actually a creature of darkness, ready to steal my soul. I vowed to fight the darkness, suppressing the feeling of gratitude toward the dragon that saved me, which has always plagued me. Such weakness represents a crack through which evil could slither in. No mercy for monsters, no forgiveness for those who would join and serve the forces of evil.",
+    "equipment": "Sacred armor, a sword and a spear blessed by the Pope himself, my proud war stallion, a cross engraved with the Keys of Saint Peter (universal symbol of power), Aldebrand the faithful squire, papal papers and seals, a cloak of fine workmanship.",
+    "descriptors": [
+      "I have dedicated my life to slaying monsters and aberrations, honing my body and my skill for that purpose. My strict discipline makes me rarely inclined to forgive the mistakes of others.",
+      "I have vowed to eradicate all evil from this world and nothing can escape my inquisitive gaze. I hate all secrets, for I know that the seed of evil may grow within anyone.",
+      "I am a saint in the eyes of ordinary people and no door remains closed for me. My word is that of the Church itself. What I say is not to be questioned."
+    ],
+    "gifts": [
+      "The Dragon Slayer: You’re skilled at slaying monsters and demonic creatures in the name of faith. You start each Scenario with 1 Fervor Token. When facing an enemy that is obviously monstrous, if you get a successful Outcome on a Position Check, you can spend 1 Fervor Token to inflict 1 additional Wound. When such an enemy attempts to overwhelm you using one of their Gifts, you can spend 1 Fervor Token to receive 2 Additional Successes to your Defense Check. When you suffer 1 Wound, you receive 1 Fervor Token.",
+      "Agent of the Papacy: When you speak to a crowd you can infuse their hearts with the light of faith. Spend 1 Fervor Token and you can create a Descriptor that represents a feeling of faith, anger, and a desire for justice against evil. Alternatively, create a Descriptor that represents trust and submission in such faith. The crowd will act accordingly for the rest of the Scene, but particularly powerful NPCs may be immune to your words. Receive 1 Additional Success on any Check you make using the sentiment you inspired. When you publicly expose evil, you receive 1 Fervor Token."
+    ],
+    "darkEgo": {
+      "trigger": "Invoke holy divine power by reproaching all sinners and providing an example of purity and righteousness.",
+      "gift": "The Saint: When you channel sacred divine power, everyone bows their heads. Ordinary people will show you reverence, while weaker enemy NPCs (at the Storyteller’s discretion) won’t target you unless you’re the only available option, nor will they try to get in your way. In your presence, anyone possessing powers linked to the supernatural lowers their Opposition Level by 1. Your holy aura emits an intense light that can illuminate the whole area around you at your will."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

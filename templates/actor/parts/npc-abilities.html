@@ -1,0 +1,28 @@
+<div class="tab abilities" data-group="primary" data-tab="abilities">
+    <div class="npc-abilities">
+        <div class="ability-list">
+            {{#each system.abilities as |ability id|}}
+            <div class="ability" data-ability-id="{{id}}">
+                <div class="ability-header">
+                    <input type="text" name="system.abilities.{{id}}.name" value="{{ability.name}}" placeholder="{{ localize 'BROKENTALES.NPC.AbilityName' }}"/>
+                    <div class="ability-controls">
+                        <a class="ability-control ability-delete" title="{{ localize 'BROKENTALES.Delete' }}"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="ability-body">
+                    <textarea name="system.abilities.{{id}}.description" placeholder="{{ localize 'BROKENTALES.NPC.AbilityDescription' }}">{{ability.description}}</textarea>
+                </div>
+                <div class="ability-footer">
+                    <label>{{ localize "BROKENTALES.NPC.AbilityCost" }}</label>
+                    <input type="number" name="system.abilities.{{id}}.cost" value="{{ability.cost}}" data-dtype="Number"/>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="ability-controls">
+            <a class="ability-control ability-create" title="{{ localize 'BROKENTALES.Add' }}">
+                <i class="fas fa-plus"></i> {{ localize "BROKENTALES.NPC.AddAbility" }}
+            </a>
+        </div>
+    </div>
+</div>

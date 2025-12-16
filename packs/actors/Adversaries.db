@@ -1,0 +1,101 @@
+{
+    "_id": "elizaveta",
+    "name": "Elizaveta - The Cruel Bride",
+    "type": "npc",
+    "data": {
+      "npcType": "adversary",
+      "oppositionLevel": "Medium",
+      "wounds": {
+        "max": 3,
+        "current": 3,
+        "extra": 0
+      },
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "xp": 0,
+      "background": "Elizaveta enjoys a life of comfort and prestige, secured through calculated manipulation and cold ambition. She is determined to protect her position, even if it means sacrificing her own daughter to keep secrets buried.",
+      "descriptors": [
+        "I am skillful and charming. I'll do whatever is needed to get what I want."
+      ],
+      "gifts": [],
+      "agenda": "To maintain the comforts and luxuries I have earned. That means ridding myself of my annoying daughter Iskra.",
+      "conditions": [],
+      "notes": "She is the mother of Iskra and the central antagonist behind the girl's tragic backstory."
+    },
+    "img": "icons/svg/female.svg",
+    "flags": {},
+    "token": {
+      "name": "Elizaveta",
+      "img": "icons/svg/female.svg"
+    }
+}
+{
+    "_id": "gerard",
+    "name": "Gerard Dubois the Incapable Noble",
+    "type": "npc",
+    "data": {
+      "npcType": "adversary",
+      "oppositionLevel": "Easy",
+      "wounds": {
+        "max": 1,
+        "current": 1,
+        "extra": 0
+      },
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "xp": 0,
+      "background": "Gerard Dubois is the current baron of Durfort, a position inherited from his renowned father. Though he postures with authority, his reputation pales in comparison to the legacy of the man who came before him.",
+      "descriptors": [
+        "I am the noble baron of Durfort and my word is law. I live in the shadow of my late father’s glory."
+      ],
+      "gifts": [],
+      "agenda": "Put an end to the menacing werewolves and cover up any possible mischief.",
+      "conditions": [],
+      "notes": "Gerard relies heavily on others to act in his name, particularly Vincent Arn and the town guards."
+    },
+    "img": "icons/svg/mystery-man.svg",
+    "flags": {},
+    "token": {
+      "name": "Gerard Dubois",
+      "img": "icons/svg/mystery-man.svg"
+    }
+}
+{
+    "_id": "vincent",
+    "name": "Vincent Arn - Former Huntsman and Chief of the Guards",
+    "type": "npc",
+    "data": {
+      "npcType": "adversary",
+      "oppositionLevel": "Medium",
+      "wounds": {
+        "max": 3,
+        "current": 3,
+        "extra": 0
+      },
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "xp": 0,
+      "background": "Vincent Arn served as a huntsman before climbing the ranks to become the chief of the guards under Gerard Dubois. Though loyal in appearance, he has aligned himself with Elizaveta for personal gain.",
+      "descriptors": [
+        "I am a skilled hunter. I have no qualms about doing whatever is needed. I want to enjoy a good life without working so hard."
+      ],
+      "gifts": [
+        "Veteran: Vincent is skilled in taking advantage of any situation. When he has the support of at least two allies, he gains 1 Additional Success to Position Checks. If he is supported by at least three of his men, every action against him receives 1 Penalty and Vincent can inflict 1 additional Wound."
+      ],
+      "agenda": "I understand how the world works and who really runs the Dubois household. Pleasing Elizaveta is the best way to maintain my status.",
+      "conditions": [],
+      "notes": "Vincent leads the guards and is an extension of Elizaveta’s will. He is an experienced and dangerous obstacle."
+    },
+    "img": "icons/svg/guard.svg",
+    "flags": {},
+    "token": {
+      "name": "Vincent Arn",
+      "img": "icons/svg/guard.svg"
+    }
+}

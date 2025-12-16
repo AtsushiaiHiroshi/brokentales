@@ -1,0 +1,40 @@
+{
+    "name": "Didier the Grumpy Old Man",
+    "type": "npc",
+    "data": {
+      "npcType": "villager",
+      "attributes": {
+        "soma": {
+          "max": 0,
+          "current": 0
+        },
+        "wounds": {
+          "max": 1,
+          "current": 0,
+          "extra": 0
+        },
+        "xp": 0
+      },
+      "background": "",
+      "descriptors": [
+        "I hate all foreigners and I miss the old baron. He knew how to stand up for himself. Not like that lax Gerard who even married a foreigner!"
+      ],
+      "agenda": "Criticize the current leadership and stir up resentment in the village.",
+      "gifts": [],
+      "darkEgo": {
+        "trigger": "",
+        "gift": ""
+      },
+      "weapons": [],
+      "objects": [],
+      "conditions": [],
+      "notes": ""
+    },
+    "flags": {
+      "btActorType": "villager",
+      "btNpcSubtype": "minor",
+      "btCustomOL": "5"
+    },
+    "img": "icons/svg/mystery-man.svg"
+  }
+  

@@ -1,0 +1,144 @@
+<form class="sheet actor npc-sheet" style="background: url('systems/brokentales/styles/background/broken_tales_sheet.webp') no-repeat center center; background-size: cover;">
+  <header class="sheet-header">
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'BROKENTALES.Fields.Name'}}" />
+      </h1>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    <div class="grid-container">
+      <!-- Columna Izquierda -->
+      <div class="left-column">
+        <!-- Tipo de PNJ -->
+        <div class="resource">
+          <label>{{localize "BROKENTALES.Fields.NPCType"}}</label>
+          <select name="data.npcType" class="npc-type-select">
+            <option value="villager" {{#if (eq data.npcType "villager")}}selected{{/if}}>{{localize "BROKENTALES.Fields.Villager"}}</option>
+            <option value="creature" {{#if (eq data.npcType "creature")}}selected{{/if}}>{{localize "BROKENTALES.Fields.Creature"}}</option>
+            <option value="adversary" {{#if (eq data.npcType "adversary")}}selected{{/if}}>{{localize "BROKENTALES.Fields.Adversary"}}</option>
+            <option value="broken_one" {{#if (eq data.npcType "broken_one")}}selected{{/if}}>{{localize "BROKENTALES.Fields.broken_one"}}</option>
+            <option value="threat" {{#if (eq data.npcType "threat")}}selected{{/if}}>{{localize "BROKENTALES.Fields.ThreatType"}}</option>
+            <option value="object" {{#if (eq data.npcType "object")}}selected{{/if}}>{{localize "BROKENTALES.Fields.Object"}}</option>
+            <option value="obstacle" {{#if (eq data.npcType "obstacle")}}selected{{/if}}>{{localize "BROKENTALES.Fields.Obstacle"}}</option>
+          </select>
+        </div>
+
+        <!-- Sistema de Dualidad (si aplica) -->
+        {{#if data.systemNote}}
+        <div class="system-note">
+          <label>{{localize "BROKENTALES.Fields.SystemNote"}}</label>
+          <textarea name="data.systemNote" readonly>{{data.systemNote}}</textarea>
+        </div>
+        {{/if}}
+
+        <!-- Descriptores -->
+        {{#each data.descriptors as |descriptor index|}}
+        <div class="descriptor-block">
+          <div class="improvement-icon"></div>
+          <div class="descriptor-content">
+            <textarea name="data.descriptors.{{index}}">{{descriptor}}</textarea>
+          </div>
+        </div>
+        {{/each}}
+
+        <!-- Dones -->
+        {{#each data.gifts as |gift index|}}
+        <div class="gift-block">
+          <div class="gift-icon"></div>
+          <div class="gift-content">
+            <div class="gift-name">{{gift}}</div>
+            <textarea name="data.gifts.{{index}}">{{gift}}</textarea>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+
+      <!-- Columna Derecha -->
+      <div class="right-column">
+        <!-- Background -->
+        <div class="background-field">
+          <label>{{localize "BROKENTALES.Fields.Background"}}</label>
+          <textarea name="data.background">{{data.background}}</textarea>
+        </div>
+
+        {{#if (eq data.npcType "broken_one")}}
+        <!-- Ego Oscuro (solo para broken_one) -->
+        <div class="dark-ego-section">
+          <div class="descriptor-block">
+            <div class="improvement-icon"></div>
+            <div class="descriptor-content">
+              <textarea name="data.darkEgo.descriptor">{{data.darkEgo.descriptor}}</textarea>
+            </div>
+          </div>
+          <div class="gift-block">
+            <div class="gift-icon"></div>
+            <div class="gift-content">
+              <div class="dark-ego-title">{{localize "BROKENTALES.Fields.DarkEgo"}} - {{data.darkEgo.gift}}</div>
+              <textarea name="data.darkEgo.gift">{{data.darkEgo.gift}}</textarea>
+            </div>
+          </div>
+          <div class="dark-ego-trigger">
+            <div class="activator-title">{{localize "BROKENTALES.Fields.Trigger"}}</div>
+            <input type="text" name="data.darkEgo.trigger" value="{{data.darkEgo.trigger}}" />
+          </div>
+        </div>
+        {{/if}}
+
+        <!-- Agenda -->
+        {{#unless (or (eq data.npcType "object") (eq data.npcType "obstacle"))}}
+        <div class="resource">
+          <label>{{localize "BROKENTALES.Fields.Agenda"}}</label>
+          <textarea name="data.agenda">{{data.agenda}}</textarea>
+        </div>
+        {{/unless}}
+
+        <!-- Equipment & Objects -->
+        <div class="equipment-section">
+          {{#unless (eq data.npcType "object")}}
+          <div class="weapons-section">
+            <div class="equipment-title">{{localize "BROKENTALES.Fields.Weapons"}}</div>
+            <textarea name="data.weapons">{{data.weapons}}</textarea>
+          </div>
+          {{/unless}}
+
+          <div class="objects-section">
+            <div class="equipment-title">{{localize "BROKENTALES.Fields.Objects"}}</div>
+            <textarea name="data.objects">{{data.objects}}</textarea>
+          </div>
+        </div>
+
+        <!-- Stats del lado derecho -->
+        <div class="stats-right">
+          <div class="stat-circle">
+            <label>{{localize "BROKENTALES.Fields.Soma"}}</label>
+            <input type="number" name="data.attributes.soma.current" value="{{data.attributes.soma.current}}" data-dtype="Number"/>
+          </div>
+          <div class="stat-circle">
+            <label>XP</label>
+            <input type="number" name="data.xp" value="{{data.xp}}" data-dtype="Number"/>
+          </div>
+        </div>
+
+        <!-- Wounds -->
+        <div class="wounds-section">
+          <label>{{localize "BROKENTALES.Fields.Wounds"}}</label>
+          {{#times data.attributes.wounds.max}}
+          <input type="checkbox" class="wound-checkbox" name="data.attributes.wounds.current" value="{{this}}" {{checked (lt this ../data.attributes.wounds.current)}} />
+          {{/times}}
+          <div class="additional-wound">
+            <label>{{localize "BROKENTALES.Fields.WoundsExtra"}}</label>
+            <input type="checkbox" name="data.attributes.wounds.extra.value" {{checked data.attributes.wounds.extra.value}} />
+          </div>
+        </div>
+
+        <!-- Estado -->
+        <div class="resource">
+          <label>{{localize "BROKENTALES.Fields.State"}}</label>
+          <input name="data.attributes.state" type="text" value="{{data.attributes.state}}" />
+        </div>
+      </div>
+    </div>
+  </section>
+</form>

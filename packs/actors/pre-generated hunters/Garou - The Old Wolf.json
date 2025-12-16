@@ -1,0 +1,35 @@
+{
+  "name": "Garou the Old Wolf",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived proudly at the head of my pack, leading a thousand raids and eating succulent, tender morsels of human flesh. But I am not so old I cannot face those who hate me the most, though I may be hunted and reviled. Now that I’m part of the Order, I use my strength to defend the weak hunters who are my companions, knowing that with a single bite I could end their insignificant lives.",
+    "equipment": "Fangs and claws (natural weapons), a necklace of stones and wood that I carry in a paw—token of the only human I do not consider food, knick-knacks, keys, and other junk that I sometimes vomit up from my large stomach.",
+    "descriptors": [
+      "My senses are unfailing. Nothing can escape my sense of smell and that is why the Order uses me as a guardian. I hate strong smells and loud noises because they feel like burning irons to acute senses.",
+      "A true predator knows how to appear as the most helpless of lambs. I know how to disguise myself. My confidence is boundless and I often tend to underestimate danger, ready to risk anything for a tasty bite.",
+      "I am fiercer and more powerful than any human and my fangs can pierce even metal. My proud wolf spirit is everything to me."
+    ],
+    "gifts": [
+      "Find Them Forever After: Once you catch someone’s scent, you never forget it. During a Scene, you can spend 1 Soma to memorize the scent of a person you are interacting with. You will always recognize it and it will be easy for you to follow its traces even after some time. If you concentrate, you can hear a noise even at great distances. When someone approaches you, the Storyteller will warn you long before anyone else in the Scene would notice.",
+      "Wolf Among the Lambs: You may spend 1 Soma to assume the shape of a common human. Create a Descriptor that represents you and includes at least one of these words: Old, Helpless, Weak. In your human form you can speak and act without problems, but, as soon as you use your Dark Ego, you will immediately lose the effect of Wolf Among the Lambs. You receive 1 Additional Success when you use the Descriptor you created to deceive someone and catch them off guard."
+    ],
+    "darkEgo": {
+      "trigger": "You assume the form of a Wolf or reveal yourself for what you really are, scaring off weak humans.",
+      "gift": "The Big Bad Wolf: You are hardened by a lifetime in the great mountains and your skill is matched only by your courage. When you unleash your rage, create a Descriptor for it that includes at least one of these words: Strong, Fierce, Unstoppable. You can employ the strength of three men, gnaw through stone as easily as flesh, or break down any barrier. When you act using this special Descriptor for Position Checks, you get 1 Additional Success. Once per Scene, you can unleash your rage and receive 3 Additional Successes instead of 1."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

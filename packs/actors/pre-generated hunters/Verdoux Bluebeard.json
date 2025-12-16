@@ -1,0 +1,35 @@
+{
+  "name": "Verdoux Bluebeard",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived an unconventional life, between accomplishing impossible tasks and keeping unspeakable secrets. It has opened my eyes to the world beyond the prosaic limits to which most are accustomed. In an effort to escape my adventurous life, I have more than once tried to start a family. However, my efforts have always ended in ruin, a price I must pay for the secrets I keep. I have lost six lovers, each killed by enemies and dangers that I naively hoped I could exclude from my life. That is why I volunteered for the Order, took an oath to weed out the darkness in this world, and sought revenge for the lives that were stolen from me.",
+    "equipment": "Nobleman’s clothes, a long black cape, a large bunch of keys, a fine dueling blade, snuff of excellent quality, a few doses of deadly Aqua Tofana, a large amount of coins and precious trinkets, and a heart-shaped locket hanging from a gold chain with the names of my lost loves engraved within.",
+    "descriptors": [
+      "My specialty is problem solving and I have a talent for analyzing every situation, allowing me to find resources and discover clues. Managing danger requires calm and concentration, and so I hate acting precipitously.",
+      "I am an educated man who has studied the arts and sciences. I use this knowledge to uncover truths and reveal mysteries. I hate secrets, but only when I don’t know them.",
+      "Under the facade of a respectable man hides a skilled, unscrupulous problem-solver. I know how to kill and how to act with decisiveness. Everyone has done something they are not proud of and I can’t stand seeing the hypocrites who pretend as if they are morally superior to others."
+    ],
+    "gifts": [
+      "Problem Solver: If you’ve seen it once, you can do it yourself even better. You may spend 1 Soma to replicate the effect of a Gift from a Hunter or NPC you witnessed during the Scenario. Particular Gifts may still be off limits or only yield a part of their effect at the Storyteller’s discretion. You cannot replicate more than one Gift at a time. Once per Scene, you may ask the Storyteller to reveal to you a Gift of an NPC that you had time to study.",
+      "The Key to Each Door: Once per Scene, you can use one of the magic keys you own. Choose an effect:\n1. Open a closed door, no matter how many locks or defenses it has.\n2. If a subject touches your key, discover the strongest feeling they are experiencing.\n3. Close and lock a door so that no conventional methods will be able to open it.\n4. If you put your key in the mouth of a dead person you will see some of their memories. The Storyteller will describe them to you, focusing on your areas of interest."
+    ],
+    "darkEgo": {
+      "trigger": "Reveal your dark side by injuring someone or acting aggressively despite your outwardly calm and staid appearance.",
+      "gift": "The Unscrupulous Assassin: You may appear as a civilized gentleman, but appearances can be deceiving. When necessary, you will not hesitate to kill. If you eliminate an NPC by inflicting a final Wound, you can also immediately eliminate a second Minor NPC. When you successfully defend yourself from a violent action, you can immediately eliminate a Minor NPC in response. Either way, the target must be within range of your wrath. After inflicting 1 Wound to someone, you can move freely as an additional action, allowing you to reach your true goal without anyone preventing you from doing so."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Baba Yaga the Child Witch",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 5,
+        "current": 5
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware of my abilities. To most, I seem cynical and cruel. That is because they do not understand that they are pawns, insignificant pieces in the bloody games that witches and warlocks play. The Order does not look down on my age, which is why it has given me the leadership I deserve.",
+    "equipment": "An old and worn-out black cloak, a bag of magical ingredients, a small curved dagger, a rag doll, the Ring of the Order, a lucky elderberry branch, and the keys of a strange hut in a tree which is always in my vicinity.",
+    "descriptors": [
+      "I am a sorceress and my magical powers allow me to do whatever I want. I need the right amount of time to cast my spells.",
+      "I am very skilled at reading people, that is why the Order has chosen me as leader of the Hunters. I love manipulating people and I often do it merely to amuse myself.",
+      "Like any respectable sorceress, I carry my trusty bag full of herbs, poisons, and all kinds of magic tools. My childlike appearance is often useful, but sometimes it leads others to underestimate me. I hate that."
+    ],
+    "gifts": [
+      "Magic: When you want to achieve something, you may use witchcraft. Choose what you want with a sentence like: I want to fly on that old broom, or I want to look like a demon in the eyes of those fools. Your spell must be focused on an object in your possession, such as a broom to fly or a mask you can wear to look like a demon. Pay a cost from 0 to 2 Soma, decided by the Storyteller, to activate your spell for the duration of a Scene. Remember that you can’t ask for someone’s sudden death, but you can inflict Wounds with your actions through magic.",
+      "Listen to my Words: Once per Scene, when you talk to someone, you can ask the Storyteller a question about them. The question must be regarding their behaviour, such as any vices or their desires they might have. You gain 1 Additional Success in any action where you exploit what you’ve discovered."
+    ],
+    "darkEgo": {
+      "trigger": "Scare ordinary people or dispense punishment through your magic.",
+      "gift": "The Evil Witch: Receive 1 Additional Success on any Check when you use one of your spells, either through the Magic Gift or by inserting it into your narrative through the Descriptors. Moreover, you can unleash your evil aura to gain one or more of the following effects:\n1. Animals and ordinary people are tormented by your presence and will flee in terror.\n2. You gain 1 Additional Success if you use your magic to punish someone for breaking a promise or agreement you made earlier.\n3. In the area around you, you can summon daylight or darkness."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

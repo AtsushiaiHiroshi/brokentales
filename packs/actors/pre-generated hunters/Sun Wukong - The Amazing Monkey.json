@@ -1,0 +1,35 @@
+{
+  "name": "Sun Wukong the Amazing Monkey",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my beloved China. I grew up as a circus animal at London’s Royal Circus but, deep within I carry the conviction that I am destined for something else. I rebelled by killing all my captors, fleeing across a vast and labyrinthine city. When the Order reached me, I thought it was the end, but the Hunters took me with them as their guardian and defender. The more I live as a Hunter, the closer I draw to transcendence. Now I am aware that, someday, I will discover who I really am.",
+    "equipment": "A circus stick with three extendable segments, old and worn circus clothes, a golden diadem so tight on my forehead that it cannot be removed, and a sheet with the drawing of a Chinese landscape — gift from a child who once watched one of my shows.",
+    "descriptors": [
+      "I am a skilled guardian. My body is strong and hardened, my senses sharp and alert. Years of captivity have made me submissive, and I struggle not to follow every order I am given.",
+      "I am stronger and faster than any human and I am a highly skilled fighter. I don’t shy away from a challenge because I always believe I can win.",
+      "My essence is magical, and this makes me resistant to enchantments that might snare stupid humans. My spiritual presence is imposing, and I struggle to hide what I am, especially in the eyes of those accustomed to magic."
+    ],
+    "gifts": [
+      "Guardian Disciple: You can intercept a danger before it overwhelms your ally. You may spend 1 Soma to get between an ally and a danger by standing in their place. Receive 1 Additional Success to any Defense Check you have to perform doing so. Once per Scenario, you can ignore 1 Wound you suffer.",
+      "Monkey King: You are able to perform athletic feats unthinkable to a mere mortal. You may spend 1 Soma and choose an effect:\n1. You can jump incredibly far, up to thirty feet. You can bring another person with you by carrying them on your shoulders. You also ignore any damage related to a fall.\n2. Use your tail to manipulate an object and perform an additional action.\n3. Ignore any physical impediments to movement by using your impressive skills."
+    ],
+    "darkEgo": {
+      "trigger": "Act with passion and strength, showing everyone the incredible power that lies within your body.",
+      "gift": "Descendant of the Awakening of the Void and the Emptiness: When you release your true power, your body emits a divine light and no one can stop you. Take 1 Wound to get 2 Additional Successes to any physical Checks you have to perform. For the rest of the Scene spells have little effect on you and you get 2 Additional Successes to any Defense Check you make to protect yourself from arcane effects. When you deal a hit to someone, you can spend 1 Soma to inflict 1 additional Wound. The effects of this Gift cease if you behave in a composed and obedient manner, as your role as guardian dictates."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

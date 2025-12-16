@@ -1,0 +1,239 @@
+{
+  "id": "brokentales",
+  "title": "Broken Tales",
+  "description": "A dark fairy tale roleplaying game system for Foundry VTT",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "type": "system",
+  "authors": [
+    {
+      "name": "Broken Tales System Developer",
+      "discord": "https://discord.gg/zrmWwTvXSH",
+      "url": "https://github.com/brokentales/foundryvtt-brokentales"
+    },
+    {
+      "name": "Atsushiai Hiroshi",
+      "discord": "Atsushiai",
+      "url": "https://github.com/AtsushiaiHiroshi"
+    }
+  ],
+  "esmodules": [
+    "module/brokentales.mjs",
+    "module/documents/actor.mjs",
+    "module/documents/item.mjs",
+    "module/sheets/actor-sheet.mjs",
+    "module/sheets/item-sheet.mjs",
+    "module/helpers/config.mjs",
+    "module/helpers/templates.mjs",
+    "module/helpers/settings.mjs"
+  ],
+  "scripts": [],
+  "styles": [
+    "styles/brokentales.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "pre-generated-hunters",
+      "label": "Pre-Generated Hunters",
+      "path": "packs/actors/pre-generated-hunters",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "adversaries",
+      "label": "Adversaries",
+      "path": "packs/pre-generated-npcs/adversaries",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "broken-ones",
+      "label": "Broken Ones",
+      "path": "packs/pre-generated-npcs/broken-ones",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "path": "packs/pre-generated-npcs/creatures",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "threats",
+      "label": "Threats",
+      "path": "packs/pre-generated-npcs/threats",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "villagers",
+      "label": "Villagers",
+      "path": "packs/pre-generated-npcs/villager",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenario-gifts",
+      "label": "Scenario Gifts",
+      "path": "packs/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps-en",
+      "label": "Maps (English)",
+      "path": "packs/maps/en",
+      "type": "Scene",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps-es",
+      "label": "Mapas (Español)",
+      "path": "packs/maps/es",
+      "type": "Scene",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists-environment",
+      "label": "Playlists - Environment",
+      "path": "packs/playlists/environment",
+      "type": "Playlist",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists-sound",
+      "label": "Playlists - Sound Effects",
+      "path": "packs/playlists/sound",
+      "type": "Playlist",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenarios-campaign",
+      "label": "Scenarios - Campaign",
+      "path": "packs/scenarios/campaign",
+      "type": "JournalEntry",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenarios-oneshot",
+      "label": "Scenarios - One-Shot",
+      "path": "packs/scenarios/one-shot",
+      "type": "JournalEntry",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Actors",
+      "sorting": "m",
+      "packs": ["pre-generated-hunters"],
+      "folders": [
+        {
+          "name": "NPCs",
+          "sorting": "m",
+          "packs": ["adversaries", "broken-ones", "creatures", "threats", "villagers"]
+        }
+      ]
+    },
+    {
+      "name": "Items",
+      "sorting": "m",
+      "packs": ["scenario-gifts"]
+    },
+    {
+      "name": "Scenes",
+      "sorting": "m",
+      "packs": ["maps-en", "maps-es"]
+    },
+    {
+      "name": "Audio",
+      "sorting": "m",
+      "packs": ["playlists-environment", "playlists-sound"]
+    },
+    {
+      "name": "Scenarios",
+      "sorting": "m",
+      "packs": ["scenarios-campaign", "scenarios-oneshot"]
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/brokentales/foundryvtt-brokentales",
+  "manifest": "https://github.com/brokentales/foundryvtt-brokentales/releases/latest/download/system.json",
+  "download": "https://github.com/brokentales/foundryvtt-brokentales/archive/refs/heads/main.zip",
+  "background": "styles/background/broken_tales_sheet.webp",
+  "initiative": "1d6 + @attributes.soma.value",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "attributes.soma",
+  "secondaryTokenAttribute": "attributes.wounds"
+}

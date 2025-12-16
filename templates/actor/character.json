@@ -1,0 +1,31 @@
+{
+    "type": "character",
+    "name": "",
+    "data": {
+      "attributes": {
+        "soma": { "max": 6, "current": 6 },
+        "wounds": { 
+          "max": 3, 
+          "current": 0, 
+          "extra": {
+            "value": 0,
+            "max": 1
+          }
+        },
+        "xp": 0
+      },
+      "background": "",
+      "equipment": "",
+      "descriptors": [],
+      "gifts": [],
+      "darkEgo": {
+        "trigger": "",
+        "gift": "",
+        "descriptor": ""
+      },
+      "conditions": [],
+      "notes": ""
+    }
+  }
+
+<input type="number" name="data.attributes.soma.current" value="{{data.attributes.soma.current}}" min="0" max="{{data.attributes.soma.max}}" />

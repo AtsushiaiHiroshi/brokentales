@@ -1,0 +1,35 @@
+{
+  "name": "The Woman from the Woods",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood. I possess extraordinary strength and a feral instinct, such that any civilized society ought to chain me like a monster. I know that in my past is a sin so great, my memory could not bear the weight of it. But, I want to remember and perhaps by serving the Order I will be able to do so. I have a natural soft spot for children, and I can’t stand to see them get hurt. The Order uses me as a weapon in the most serious matters when it is necessary to act decisively and demonstrate that a Hunter is a force to be reckoned with.",
+    "equipment": "A doll and a little wooden soldier — the only items I had with me when I was found. A worn-out gray travel dress stained with blood. A sharp butcher’s knife. A hair ribbon, gift from a Hunter of the Order. A cookbook filled with recipes for cakes and sweets.",
+    "descriptors": [
+      "I am incredibly strong. Despite my petite looks, I am tougher than the sturdiest of men. I struggle to control my strength and often end up damaging things unintentionally.",
+      "Sometimes I manifest strange abilities, the legacy of a past that I no longer remember. But, when I need it, the world around me shapes itself to protect and shelter me. I hate being out in the open and being the center of attention.",
+      "I love human flesh and can gain insight about people just looking at them. I am helplessly attracted to those who have a particular physical trait that stimulates my appetite, such as a good smell or velvety skin."
+    ],
+    "gifts": [
+      "The Woman from the Wood: You receive 1 Additional Success to any Position Check that requires you to resort to your strength. If you eliminate a living being by causing a Wound, you can do it in an extremely disturbing way. Anyone who witnesses it, at the discretion of the Storyteller, will lower their Opposition Level by 1 for the next action.",
+      "Home Sweet Home: You can spend 1 Soma to draw on the strange powers of the witch you once were. When you do so, choose one of the following effects:\n1. Create a shelter for one person, perfectly camouflaged within the environment.\n2. Reshape a plant to create ladders, shields, or other simple structures.\n3. Make something disgusting/rotten edible and sweet, restoring 1 Wound to whoever eats it (except yourself)."
+    ],
+    "darkEgo": {
+      "trigger": "Blatantly manifest your desire to devour human flesh, regardless of the consequences.",
+      "gift": "Soft and Succulent Flesh: The truth is that you crave human flesh, especially when raw and taken from evil people. When you inflict a Wound through violent action on someone you deem evil, and if you reach an Outcome with an Increment, you may inflict 1 additional Wound. Once per Scene when you consume human flesh, you recover 1 Wound and the Storyteller will reveal some memories of the victim, giving you contextualized information about what you are looking for."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

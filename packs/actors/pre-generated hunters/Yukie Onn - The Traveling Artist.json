@@ -1,0 +1,35 @@
+{
+  "name": "Yukie Onn the Traveling Artist",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I found true love with Akihiro, son of a powerful noble family. When they forbade him from seeing me, we fled together to the remote region of Ezo. Even there we were not beyond the reach of Akihiro’s family and they pursued us into the high, snow-capped mountains. We had escaped every assassin, but could not outwit the snowstorm that trapped us. I survived, but only because Akihiro sacrificed the warmth of his life to save mine. But the cold has left me changed. It has become part of me and now the only thing that can make me feel warm is the hot blood of others. After taking revenge on all those who took Akihiro from me, I fled far away, using my talent for art to gain prestige and the protection of wealthy western nobles. Now, in the service of the Order, I save others from suffering the injustice that I have experienced, by punishing selfishness and wickedness.",
+    "equipment": "A travel kimono, a stage kimono and theatrical effects, a small ice sphere that never melts, a butterfly-shaped hair clip (reminder of Akihiro), a finely crafted shamisen, a pair of fine fans, and several daggers hidden in the kimono.",
+    "descriptors": [
+      "I am a highly skilled artist. Music, dance, and painting hold no mysteries for me. My otherworldly charm captivates ordinary people, always drawing attention to me.",
+      "I cannot feel pain and my frail appearance hides surprising physical abilities. Blood is the only thing that can warm me and its smell alone makes me shiver.",
+      "My body is pure ice and, because of this, I can manipulate ice as I please. However, I hate to manifest my power because it is dangerous to those around me and, as an artist, my purpose is to make people smile."
+    ],
+    "gifts": [
+      "Otherworldly Charm: When you perform or flaunt your talents, all eyes will be on you. Receive 1 Additional Success for each Position Check you make to attract attention or charm someone. If you get an Outcome with an Increment, you may declare that a subject who has seen you has fallen in love with you. The Storyteller will create a specific Agenda for them that leads them to seek your attention.",
+      "Blood-Hot: Once per Scene, you can consume a person’s blood when inflicting 1 non-fatal Wound. You recover 1 Wound, 1 Soma and receive some information about your victim such as a memory, an emotion or their heart’s desire. When you drink blood roll a die: if you roll a 1, you lose control and you will kill your victim by draining their blood, unless someone stops you."
+    ],
+    "darkEgo": {
+      "trigger": "Shed your disguise as a simple artist and reveal your true, bitterly cold form or react passionately when fear and intimidation are used for selfish reasons.",
+      "gift": "Ice-Cold: You have control over your body temperature and, consequently, you can freeze the environment or objects in your immediate vicinity. When you manipulate ice, choose an effect by creating a Descriptor that represents it such as: Frozen Door or Aura of Frost and spend 1 Soma to manifest it for the whole Scene. As an additional effect, your frost can inflict 1 Wound on those who interact with it or make what you freeze incredibly fragile or incredibly hard. Whoever exploits the effects of frost in their favor gains 1 Additional Success for their action. Your frost has no direct effect on living things."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

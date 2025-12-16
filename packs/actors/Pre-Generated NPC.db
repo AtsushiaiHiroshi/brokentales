@@ -1,0 +1,16 @@
+[
+    {"_id":"elizaveta","name":"Elizaveta - The Cruel Bride","type":"npc","data":{"npcType":"adversary"},"flags":{"core":{"sourceId":"Compendium.brokentales.adversaries.elizaveta-the-Cruel-bride"}}},
+    {"_id":"gerard","name":"Gerard Dubois the Incapable Noble","type":"npc","data":{"npcType":"adversary"},"flags":{"core":{"sourceId":"Compendium.brokentales.adversaries.gerard-dubois-the-incapable-noble"}}},
+    {"_id":"vincent","name":"Vincent Arn - Former Huntsman and Chief of the Guards","type":"npc","data":{"npcType":"adversary"},"flags":{"core":{"sourceId":"Compendium.brokentales.adversaries.vincent-arn-former-huntsman-and-chief-of-the-guards"}}},
+    {"_id":"iskra","name":"Red-Hood Iskra","type":"npc","data":{"npcType":"broken_one"},"flags":{"core":{"sourceId":"Compendium.brokentales.broken-ones.red-hood-iskra"}}},
+    {"_id":"anastazia","name":"Anastazia the Sorrowful Spirit","type":"npc","data":{"npcType":"broken_one"},"flags":{"core":{"sourceId":"Compendium.brokentales.broken-ones.anastazia-the-sorrowful-spirit"}}},
+    {"_id":"greskar","name":"Greskar the Big Black Wolf","type":"npc","data":{"npcType":"creature"},"flags":{"core":{"sourceId":"Compendium.brokentales.creatures.greskar-the-big-black-wolf"}}},
+    {"_id":"blackwolves","name":"Black Wolves of Greskar's Pack","type":"npc","data":{"npcType":"creature"},"flags":{"core":{"sourceId":"Compendium.brokentales.creatures.black-wolves-of-greskar-s-pack"}}},
+    {"_id":"anne","name":"Anne the Little Chatterer","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.anne-little-chatterer"}}},
+    {"_id":"corinne","name":"Corinne the Housekeeper","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.corinne-the-housekeeper"}}},
+    {"_id":"didier","name":"Didier the Grumpy Old Man","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.didier-the-grumpy-old-man"}}},
+    {"_id":"genevieve","name":"Genevieve the Chemist","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.genevieve-the-chemist"}}},
+    {"_id":"marcel","name":"Marcel the Time-Waster","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.marcel-the-time-waster"}}},
+    {"_id":"nicholas","name":"Nicholas the Huntsman","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.nicholas-the-huntsman"}}},
+    {"_id":"guards","name":"The Guards of Gerard Dubois","type":"npc","data":{"npcType":"villager"},"flags":{"core":{"sourceId":"Compendium.brokentales.villagers.guards-of-gerard-dubois"}}}
+]

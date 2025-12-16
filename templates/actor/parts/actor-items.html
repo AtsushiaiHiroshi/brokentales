@@ -1,0 +1,96 @@
+<div class="items-section">
+  <div class="items-grid">
+    {{!-- Descriptors --}}
+    <section class="items-category descriptors">
+      <h3>{{localize "BROKENTALES.Items.Descriptors"}}</h3>
+      <ol class="items-list">
+        {{#each descriptors as |item id|}}
+        <li class="item flexrow" data-item-id="{{item._id}}">
+          <div class="item-image">
+            <img
+              src="{{item.img}}"
+              title="{{item.name}}"
+              alt="{{item.name}}"
+              width="24"
+              height="24"
+            />
+          </div>
+          <h4 class="item-name">{{item.name}}</h4>
+          <div class="item-controls">
+            <a
+              class="item-control item-edit"
+              title="{{localize 'BROKENTALES.Edit'}}"
+            >
+              <i class="fas fa-edit"></i>
+            </a>
+            <a
+              class="item-control item-delete"
+              title="{{localize 'BROKENTALES.Delete'}}"
+            >
+              <i class="fas fa-trash"></i>
+            </a>
+          </div>
+        </li>
+        {{/each}}
+      </ol>
+      <div class="item-controls">
+        <a class="item-control item-create" data-type="descriptor">
+          <i class="fas fa-plus"></i> {{localize "BROKENTALES.Add"}}
+        </a>
+      </div>
+    </section>
+
+    {{!-- Gifts --}}
+    <section class="items-category gifts">
+      <h3>{{localize "BROKENTALES.Items.Gifts"}}</h3>
+      <ol class="items-list">
+        {{#each gifts as |item id|}}
+        <li class="item flexrow" data-item-id="{{item._id}}">
+          <div class="item-image">
+            <img
+              src="{{item.img}}"
+              title="{{item.name}}"
+              alt="{{item.name}}"
+              width="24"
+              height="24"
+            />
+          </div>
+          <h4 class="item-name">{{item.name}}</h4>
+          {{#if item.system.cost.soma}}
+          <div class="item-cost">
+            <span class="soma-cost"
+              >{{item.system.cost.soma}} <i class="fas fa-bolt"></i
+            ></span>
+          </div>
+          {{/if}}
+          <div class="item-controls">
+            <a
+              class="item-control gift-use"
+              title="{{localize 'BROKENTALES.Use'}}"
+            >
+              <i class="fas fa-magic"></i>
+            </a>
+            <a
+              class="item-control item-edit"
+              title="{{localize 'BROKENTALES.Edit'}}"
+            >
+              <i class="fas fa-edit"></i>
+            </a>
+            <a
+              class="item-control item-delete"
+              title="{{localize 'BROKENTALES.Delete'}}"
+            >
+              <i class="fas fa-trash"></i>
+            </a>
+          </div>
+        </li>
+        {{/each}}
+      </ol>
+      <div class="item-controls">
+        <a class="item-control item-create" data-type="gift">
+          <i class="fas fa-plus"></i> {{localize "BROKENTALES.Add"}}
+        </a>
+      </div>
+    </section>
+  </div>
+</div>

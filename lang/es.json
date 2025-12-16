@@ -1,0 +1,214 @@
+{
+  "BROKENTALES": {
+    "SystemTitle": "Broken Tales",
+    "SystemDescription": "Un juego de rol de cuentos de hadas oscuros",
+
+    "Actor": {
+      "Character": "Cazador",
+      "NPC": "PNJ"
+    },
+
+    "Item": {
+      "Descriptor": "Descriptor",
+      "Gift": "Don"
+    },
+
+    "SheetClassActor": "Hoja de Actor de Broken Tales",
+    "SheetClassItem": "Hoja de Objeto de Broken Tales",
+
+    "Tabs": {
+      "Main": "Principal",
+      "Features": "Características",
+      "Items": "Objetos",
+      "Effects": "Efectos",
+      "Abilities": "Habilidades",
+      "Description": "Descripción",
+      "Attributes": "Atributos",
+      "Details": "Detalles",
+      "Notes": "Notas"
+    },
+
+    "Fields": {
+      "Name": "Nombre",
+      "Background": "Trasfondo",
+      "Equipment": "Equipo",
+      "Descriptors": "Descriptores",
+      "Gifts": "Dones",
+      "DarkEgo": "Ego Oscuro",
+      "Trigger": "Activador",
+      "Conditions": "Condiciones",
+      "Notes": "Notas",
+      "Soma": "Soma",
+      "SomaCurrent": "Soma Actual",
+      "SomaMax": "Soma Máximo",
+      "Wounds": "Heridas",
+      "WoundsCurrent": "Heridas Actuales",
+      "WoundsMax": "Heridas Máximas",
+      "WoundsExtra": "Herida Extra",
+      "Damage": "Daño",
+      "State": "Estado",
+      "Description": "Descripción",
+      "XP": "Experiencia",
+      "NPCType": "Tipo de PNJ",
+      "Villager": "Aldeano",
+      "broken_one": "Corrompido",
+      "Creature": "Criatura",
+      "Adversary": "Adversario",
+      "ThreatType": "Amenaza",
+      "Object": "Objeto",
+      "Obstacle": "Obstáculo",
+      "DiceCount": "Cantidad de Dados",
+      "Difficulty": "Dificultad",
+      "Agenda": "Agenda",
+      "OppositionLevel": "Nivel de Oposición",
+      "Easy": "Fácil",
+      "Normal": "Normal",
+      "Hard": "Difícil",
+      "Weapons": "Armas",
+      "Objects": "Objetos",
+      "SystemNote": "Nota del Sistema",
+      "Roll": "Tirada",
+      "RepeatRoll": "Repetir Tirada",
+      "Cost": "Coste",
+      "Uses": "Usos",
+      "Effect": "Efecto"
+    },
+
+    "Items": {
+      "Descriptors": "Descriptores",
+      "Gifts": "Dones"
+    },
+
+    "Descriptor": {
+      "Type": "Tipo",
+      "Narrative": "Narrativo",
+      "Mechanical": "Mecánico",
+      "IsImprovement": "Es una Mejora",
+      "UsesHint": "Dejar el máximo en 0 para usos ilimitados"
+    },
+
+    "Gift": {
+      "Type": "Tipo",
+      "Narrative": "Narrativo",
+      "Mechanical": "Mecánico",
+      "Effect": "Efecto",
+      "SomaCost": "Coste de Soma",
+      "SomaCostHint": "Cantidad de Soma necesaria para activar este Don",
+      "IsUnique": "Es Único",
+      "IsUniqueHint": "Los Dones únicos solo pueden tomarse una vez",
+      "UseGift": "Usar Don"
+    },
+
+    "DarkEgo": {
+      "Descriptor": "Descriptor del Ego Oscuro",
+      "Gift": "Don del Ego Oscuro",
+      "TriggerPlaceholder": "Describe el desencadenante para activar tu Ego Oscuro..."
+    },
+
+    "NPC": {
+      "StatePlaceholder": "Activo, Herido, Incapacitado...",
+      "AbilityName": "Nombre de Habilidad",
+      "AbilityDescription": "Descripción de Habilidad",
+      "AbilityCost": "Coste",
+      "AddAbility": "Añadir Habilidad"
+    },
+
+    "Roll": {
+      "Title": "Tirada de Broken Tales ({dice}d6)",
+      "TitleWithDifficulty": "🎲 Tirada de Broken Tales",
+      "Character": "Personaje",
+      "Results": "Resultados",
+      "Successes": "Éxitos",
+      "Difficulty": "Dificultad",
+      "CriticalFailure": "❌ ¡Fallo Crítico! Ha salido un 1.",
+      "Failure": "❌ Fallo. Necesitabas {difficulty}, solo conseguiste {successes} éxitos.",
+      "SuccessExact": "⚠️ Éxito con coste (exactamente {successes} éxitos).",
+      "SuccessPlus": "✨ ¡Éxito! ({successes} éxitos)",
+      "NoPrevious": "No se encontró ninguna tirada previa de Broken Tales en el chat.",
+      "MissingActor": "No se pudo identificar al actor de la última tirada.",
+      "Error": "Algo salió mal con la tirada."
+    },
+
+    "Effects": {
+      "Active": "Efectos Activos",
+      "AddEffect": "Añadir Efecto",
+      "Effects": "Efectos",
+      "Enable": "Activar",
+      "Disable": "Desactivar",
+      "New": "Nuevo Efecto"
+    },
+
+    "Settings": {
+      "DiceSound": {
+        "Name": "Reproducir Sonidos de Dados",
+        "Hint": "Reproducir efectos de sonido al lanzar dados"
+      },
+      "AutoWounds": {
+        "Name": "Seguimiento Automático de Heridas",
+        "Hint": "Rastrear automáticamente las heridas y verificar la muerte"
+      },
+      "ConfirmSoma": {
+        "Name": "Confirmar Gasto de Soma",
+        "Hint": "Mostrar diálogo de confirmación al gastar Soma"
+      },
+      "ChatPortraits": {
+        "Name": "Mostrar Retratos en el Chat",
+        "Hint": "Mostrar retratos de actores en los mensajes del chat"
+      }
+    },
+
+    "Status": {
+      "Wounded": "Herido",
+      "Dying": "Muriendo",
+      "Corrupted": "Corrompido",
+      "Blessed": "Bendecido"
+    },
+
+    "Add": "Añadir",
+    "Edit": "Editar",
+    "Delete": "Eliminar",
+    "Use": "Usar",
+    "Spend": "Gastar",
+    "Recover": "Recuperar",
+    "Cancel": "Cancelar",
+    "Confirm": "Confirmar",
+    "Yes": "Sí",
+    "No": "No",
+
+    "Dialog": {
+      "Continue": "¿Desea continuar?",
+      "SpendSoma": "¿Gastar {amount} Soma?",
+      "DeleteItem": "¿Eliminar este objeto permanentemente?",
+      "DeleteEffect": "¿Eliminar este efecto permanentemente?"
+    },
+
+    "Notifications": {
+      "SomaSpent": "{name} gastó {amount} Soma",
+      "SomaRecovered": "{name} recuperó {amount} Soma",
+      "NotEnoughSoma": "¡{name} no tiene suficiente Soma!",
+      "WoundTaken": "{name} recibió 1 Herida",
+      "WoundHealed": "{name} curó 1 Herida",
+      "CharacterDead": "¡{name} ha muerto!",
+      "GiftUsed": "{name} usó {gift}"
+    },
+
+    "ScenarioGifts": {
+      "VoiceOfSpirits": {
+        "name": "Voz de los Espíritus",
+        "requirement": "Has entrado en contacto con un Espíritu con el Don Espíritu.",
+        "effect": "Al calmar tu mente y concentrarte, puedes abrirte al mundo espiritual y comunicarte con almas en pena. Gasta 1 Soma para contactar a una creatura con el Don Espíritu que hayas encontrado antes. No sufres la Herida causada por el estrés de ésta conexión espiritual."
+      },
+      "WolfKiller": {
+        "name": "Asesino de Lobos",
+        "requirement": "Te has enfrentado al menos una vez a los lobos en combate.",
+        "effect": "Sabes cómo lidiar con las fieras y no dejarte rodear. Al obtener al menos un Resultado Estándar en una Tirada de Oposición o Defensa contra una jauría de bestias, puedes eliminar inmediatamente a 1 PNJ animal Menor con 1 Herida."
+      },
+      "Sweetie": {
+        "name": "¿A dónde vas sola, dulzura?",
+        "requirement": "Has encontrado a Iskra sola en el bosque.",
+        "effect": "Te atrae la niña que finge ser un lobo y sueñas con devorarla. Una vez por Escena, puedes gastar 1 Soma para saber exactamente dónde está. Si la anticipas y llegas antes, obtienes 1 Éxito Adicional en todas tus Tiradas para herirla o devorarla. Mientras esté presente en la Escena, sufres 1 Penalizador en todas tus Tiradas de Defensa.",
+        "specialFor": "Don Especial para Garou el Viejo Lobo"
+      }
+    }
+  }
+}

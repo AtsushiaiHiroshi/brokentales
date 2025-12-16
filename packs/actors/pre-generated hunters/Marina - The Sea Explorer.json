@@ -1,0 +1,35 @@
+{
+  "name": "Marina the Sea Explorer",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed me to easily hide my talents as a witch from prying eyes. Year after year, I have accumulated all kinds of magical and mundane wealth. But the Order found me and forced me to sign the most one-sided contract of my entire career as a trader. Now I must put my skills and my charisma at the service of the Order, trying to earn as much as possible to redeem the enormous debt that they have made me incur through deceit.",
+    "equipment": "Exotic and colorful dresses, a large bag full of treasures, a travel bag, rings and fine jewelry made out of seashells, a vial of sea water, cosmetics and perfumes.",
+    "descriptors": [
+      "I am a sea witch, and as such, I have the power to shape water and move it at will. I hate enclosed places, cut off from the presence of my beloved sea.",
+      "Nobody knows my true form, which I hide under an appearance of eternal youth. I can change shape to some extent, while still remaining in human form. I am hopelessly attracted to all forms of beauty and I often get lost in contemplating it.",
+      "I have a massive collection of magical relics and treasures. I am very stingy with my collection and constantly seeking to add to my wealth so I can redeem my freedom."
+    ],
+    "gifts": [
+      "Sea Magic: You can unleash your witch powers and control seawater, manipulating it as if it were solid. You can use it as a weapon or as an object to support your actions, giving it the consistency of a whip that can reach up to thirty feet. When you act, you can take a second supporting action, such as picking up something, moving someone you want to defend, or hindering an enemy’s movement thanks to the water you manipulate. You can also use this Gift with fresh water, but you will need to spend 1 Soma to do so.",
+      "Mutable Appearance: Once per Scene you can change your appearance. Create a Descriptor that represents your new appearance. Nobody can pierce your deception, except through magical means or Gifts that allow one to discover the truth. In addition, you may spend 1 Soma to take the specific appearance of a person you have already met, mimicking their voice and manners as well. You can keep your new appearance until the Scene is over."
+    ],
+    "darkEgo": {
+      "trigger": "Turn a request for help or a conversation into a negotiation, making it clear how amazing your treasures are.",
+      "gift": "Treasures of the Sea: At the beginning of the Scenario, you receive 2 Treasure Tokens. When you show off your Treasures, spend 1 Treasure Token and 1 Soma, and create a Descriptor that represents it such as Wolf-Slaying Dagger or Lens of Truth. Receive 1 Additional Success for any Check in which your Treasure may be helpful. Alternatively, spend 1 Token to draw a Potion from your pouch to give to someone. Create a Descriptor to represent its magical effect such as Seeing in the dark or Extraordinary strength. Whoever drinks it will be granted the Descriptor you created for 1 Scene, plus 1 Additional Success on the first action in which they use the advantage given by the potion. When you obtain a new treasure or close a favorable deal, you receive 1 Treasure Token."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

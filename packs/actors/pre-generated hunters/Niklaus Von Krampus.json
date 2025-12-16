@@ -1,0 +1,35 @@
+{
+  "name": "Niklaus von Krampus",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented exorcist and this vocation of mine led me to the remote village of Borgo Maleanime. There, I fought a particularly insidious demon, who concealed itself among the ranks of a gang of young thugs who merely pretended to be demons to scare people. It was a tough fight, but I finally got the better of the fiend. Or so I thought. Something in the exorcism did not go as expected and now the demon dwells inside me, sowing fear and pain whenever it re-emerges. The Order welcomed me into its ranks as an exorcist and I gladly accepted this role, with the hope that the missions entrusted to me would allow me to find a way to rid myself, once and for all, of that which hides within me.",
+    "equipment": "An old cassock worn from many travels, exorcism vestments and tools, a shepherd’s curved staff of wood and iron to beat the devil with, an old pouch containing mysterious items taken while the demon is in control, precious small relics received as offerings, and an old, time-worn bible.",
+    "descriptors": [
+      "I am a skilled exorcist. I know how to identify and fight evil through prayer and the sacred arts. Despite what I am, I hate holy places and manifestations of faith and religion, as they cause the demon inside me to stir.",
+      "I am good at understanding people and helping them. Now, thanks to the demon that dwells in me, I can even perceive the dark side of people. Every so often, however, the demon takes over, making me behave strangely in front of ordinary people.",
+      "The demon in me grants me its power, allowing me to act with savage strength and speed. It is not easy to contain this ferocity and, often, I end up hurting or destroying things I did not wish to."
+    ],
+    "gifts": [
+      "Exorcist: When you face a clearly supernatural being, you gain 1 Additional Success on all Checks. You can also invoke sacred rites and prayers to disturb the evil you face. If a subject, artifact, or supernatural manifestation uses a Gift that you know of or have already seen in action, you can spend 1 Soma to prevent its use. Each time you activate this Gift, roll 1 die. If you roll a 5 or a 6, you gain 1 Devil Token.",
+      "The Inner Demon: Once per Scene, you can release the inner demon, whether that’d be yours or someone else’s. In your case, create a Descriptor that represents an emotion that includes the word Anger, Envy, or Wickedness. You receive 2 Additional Successes the first time you use this Descriptor for a Position Check. If you unleash someone else’s inner demon, the Storyteller will create a Descriptor for them that showcases their hidden, dark side. When using this Gift on particularly powerful individuals, the Storyteller may request a Position Check from you to succeed. Each time you use this Gift, you receive 1 Devil Token."
+    ],
+    "darkEgo": {
+      "trigger": "Give free rein to your demonic side or listen to the sound of bells or cowbells for at least one minute.",
+      "gift": "The Demon Revealed: While generally retaining control, every now and then you have to allow the demon to manifest and unleash its anger. Create a Descriptor that represents your demonic form and that includes at least one of these words: Monstrous, Fierce, Beastly. Your physical abilities go far beyond those of a mere mortal, but you will behave like a devil, enjoying the evil and fear you inspire. When you act using this special Descriptor, you gain 1 Additional Success. You can spend 1 Devil Token to inflict 1 additional Wound or to spend as Soma for a Check. Once per Scenario, the Storyteller can spend 1 Devil Token to activate this Gift against your will."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

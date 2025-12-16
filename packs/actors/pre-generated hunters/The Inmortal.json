@@ -1,0 +1,35 @@
+{
+  "name": "The Immortal",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 7,
+        "current": 7
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursuit, I have been stained by every sin. The secret behind my unending existence is that I have hidden my soul, removing it from my body. Unfortunately, the Order found its hiding place and now it is held beyond my reach in a fortified church, leaving me no choice but to submit to their commands. Guilty of one thousand and one crimes, the Order demands I balance each with one thousand and one acts of virtue. According to those foolish preachers, they are leading me down the path of redemption. In truth, the Order treats me as a servant, giving to me only the most thankless tasks, knowing that I can not be subdued by death. I remain humble and silent, waiting for the day when I will discover where they have hidden my soul. Then I will unleash my revenge and annihilate the entire Papacy...",
+    "equipment": "Poor clothes, a worn out sickle (reminder of times past), a small bag with precious items collected during adventures, a key that opens one of many secret refuges, a papal ring as a symbol of indenture to the Church, and a little toy given by someone helped with the first good deed.",
+    "descriptors": [
+      "I have knowledge and wisdom drawn from centuries of existence, which I can conjure to mind when needed. I often get lost in the memories of my past glories, forgetting about the world around me.",
+      "The Order uses my powers for their own purposes and I have had to become skilled at understanding and supporting the needs of my allies as a result. Although I hate to admit it, over time I have begun to take some pleasure in doing good deeds.",
+      "My body is but a tool which I can manipulate at will, far beyond common human limits. In spite of my old and emaciated appearance, I feel neither fatigue nor pain. With matters of the flesh no longer of concern, I value beautiful things and works of art above anything else."
+    ],
+    "gifts": [
+      "Memories of an Infinite Life: You have been alive for an indefinite time and know almost everything. Once per Scene, you may ask for information about the past or a specific subject or place, which is only available to you due to your long history. The Storyteller will provide relevant and useful details. Once per Scene, you may also change the above Descriptor associated with this Gift to one that represents a skill you have conjured to your immortal mind. This new Descriptor is yours until the end of the Scene, and you receive 1 Additional Success the first time you use it for a Check.",
+      "The Servant: Once per Scene, as an additional action, you can grant 1 Additional Success to an ally’s action if you can narratively support them. You can also always spend your Soma to pay the activation cost of your allies’ Gifts."
+    ],
+    "darkEgo": {
+      "trigger": "Use your indifference to pain or death to your advantage, revealing your true nature for anyone to see.",
+      "gift": "The Immortal: When you suffer 1 Wound, you can immediately spend 1 Soma to remain conscious, allowing you to suffer many Wounds without dying. You are in full control of your body, even parts that have been cut off. You can see through a torn eye or continue to use your severed hand. At the end of the Scene in which you activated your Dark Ego, you recover all Wounds suffered except the first one. Your body regenerates and severed parts reattach in a horrific spectacle."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

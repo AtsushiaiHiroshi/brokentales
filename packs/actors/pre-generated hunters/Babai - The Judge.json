@@ -1,0 +1,35 @@
+{
+  "name": "Babai the Judge",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare mutation and fear is now unknown to me. People have always called me Bogeyman, fearing the justice that I represented. Perhaps my own absence of fear made me even more terrifying in the eyes of mortals. The Order has given me a new assignment because even in the fight against darkness, someone needs to be ready to judge what is right and what is wrong.",
+    "descriptors": [
+      "I am good at understanding, evaluating, and grasping every hidden detail, which is why the Order wanted me as a judge. I am cold, methodical, and cannot stand when plans change abruptly.",
+      "My body is made of pure shadow and I can become intangible for brief moments. I hate sunlight and cannot properly focus when not surrounded by a comforting shadow.",
+      "My presence intimidates people, touching the fear that dwells deep in their hearts. The presence of children and their innocent way of looking at the world makes me uneasy."
+    ],
+    "gifts": [
+      "Eye of the Judge: Once per Scene, when you meet a group of NPCs you will immediately understand who is the most and the least capable of them. Moreover, the Storyteller will also reveal to you if there are relationships such as love, hate, or fidelity between two NPCs of your choice. Receive 1 Additional Success when you use the information you have discovered to intimidate or question someone.",
+      "Like a Shadow: You can spend 1 Soma to manipulate the shadows to your advantage, choose from:\n1. Acquire a small object, even if it is held by someone, as long as you can see it.\n2. Make an object in your immediate vicinity topple down.\n3. Stretch a shadow and manipulate its shape to make it look different.\nAdditionally, you always receive 1 Additional Success on any Defense Check you make while in a shaded area. If you get a successful Outcome, as an additional effect you can move from one shadow to another and no one can prevent it."
+    ],
+    "darkEgo": {
+      "trigger": "Enter or leave a shadow by manifesting your true nature and scaring someone.",
+      "gift": "If you don’t Stop, I’ll Call the Bogeyman!: You are like a sinuous shadow that can reach anywhere. During a Scene, you can arrive at a location by covering any distance and overcoming any obstacle if one of your allies or an NPC calls your name. When you manifest your true nature, everyone who witnesses it will be frightened and will not act against you unless you threaten them first. The Storyteller may ask you for a Position Check to frighten particularly powerful characters. Receive 1 Additional Success on all Defense Checks you make against the actions of someone who is now fearful."
+    },
+    "equipment": "A precious elegant black dress, a cape and a top hat, a sturdy cane with a hidden blade, a monocle lens, an exquisitely crafted Larva (typical mask of the Venice Carnival), an accurate pocket watch.",
+    "conditions": [],
+    "notes": ""
+  }
+}

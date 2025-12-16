@@ -1,0 +1,95 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "attributes": {
+          "soma": {
+            "current": 0,
+            "max": 6
+          },
+          "wounds": {
+            "current": 0,
+            "max": 3,
+            "extra": {
+              "value": 0,
+              "max": 1
+            }
+          },
+          "xp": 0
+        },
+        "conditions": [],
+        "notes": "",
+        "systemNote": ""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "background": "",
+      "equipment": "",
+      "descriptors": [],
+      "gifts": [],
+      "darkEgo": {
+        "trigger": "",
+        "gift": "",
+        "descriptor": ""
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "npcType": "villager",
+      "oppositionLevel": 3,
+      "description": "",
+      "background": "",
+      "equipment": "",
+      "descriptors": [],
+      "gifts": [],
+      "agenda": "",
+      "darkEgo": {
+        "trigger": "",
+        "gift": "",
+        "descriptor": ""
+      },
+      "weapons": [],
+      "objects": [],
+      "damage": "1d6",
+      "state": "",
+      "isMainNPC": false
+    }
+  },
+  "Item": {
+    "types": ["descriptor", "gift", "scenarioGift"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "descriptor": {
+      "templates": ["base"],
+      "type": "narrative",
+      "uses": {
+        "value": 0,
+        "max": 1
+      },
+      "isImprovement": false,
+      "isDarkEgo": false
+    },
+    "gift": {
+      "templates": ["base"],
+      "type": "mechanical",
+      "cost": {
+        "soma": 0
+      },
+      "effect": "",
+      "isUnique": false,
+      "isDarkEgo": false
+    },
+    "scenarioGift": {
+      "templates": ["base"],
+      "requirement": "",
+      "effect": "",
+      "scenario": "",
+      "specialFor": ""
+    }
+  }
+}

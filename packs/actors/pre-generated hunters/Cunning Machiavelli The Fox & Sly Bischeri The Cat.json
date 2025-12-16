@@ -1,0 +1,37 @@
+{
+  "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mistake by choosing a weird old lady as a mark. She turned out to be a goddamn witch. The witch cursed us… And from that day on, every twelve hours, one becomes a Fox and the other a Cat. Bound by this spell, we found a way to make a lot of money, deceiving stupid nobles and rich merchants. The Order has noticed us and taken us under its wing, with the promise of breaking the curse that afflicts us.",
+    "equipment": "Night (Cunning): Comfortable and light clothes, hidden small knives, counterfeit cards and stamps, fake coins and jewelry, a volume of the Biblioteca Universale Sacro-Profana Encyclopedia.\n\nDay (Sly): Worn-out clothes, sharp long knife, old stick to pretend to be blind, torn purse with a hole, sack full of stolen junk.",
+    "descriptors": [
+      "Cunning's Descriptor: I have a natural talent for telling lies, which the Order often uses to its advantage. Despite my origins, I know a great deal about many things because lying requires planning and preparation.",
+      "Sly's Descriptor: A life on the road has taught me to be a skilled thief. Everyone for themselves is my motto.",
+      "Common Descriptor: I will stop at nothing to get what I want, and it only takes me a few seconds to evaluate what is happening and find the right way to take advantage of it. I hate acting alone because there's no one to take the blame."
+    ],
+    "gifts": [
+      "Believe in Miracles (Cunning): Once per Scene, you can tell everyone something that will be accepted without question until the lie is uncovered. The deception becomes obvious at the end of the Scene or once exposed. Gain +1 Success on any Check where you exploit the lie.",
+      "Rogue (Sly): By pretending to be weak during a Scene, NPCs will overlook you unless you acted against them. By spending 1 Soma, you can flee any Scene involving a crowd.",
+      "Partner in Crime (Common): Once per Scene, when an ally acts with your support, they receive +1 Additional Success. Additionally, if an ally achieves an Outcome with an Increment, you may immediately take an extra action."
+    ],
+    "darkEgo": {
+      "trigger": "Trick or deceive someone, taking advantage of your partner's support.",
+      "gift": "The Fox and the Cat: You and your partner share Soma and Wounds. The human form can spend 1 Soma to use the Gift of the animal form. Once per Scene, if your partner helps you, you gain +2 Additional Successes on a Position Check."
+    },
+    "conditions": [],
+    "notes": "",
+    "systemNote": "During the night, use Cunning’s Descriptor, Gift, and equipment, while Sly will be a cat. During the day, use Sly’s Descriptor, Gift, and equipment, while Cunning will be a fox."
+  }
+}

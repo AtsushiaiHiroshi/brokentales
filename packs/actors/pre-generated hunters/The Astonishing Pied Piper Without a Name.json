@@ -1,0 +1,35 @@
+{
+  "name": "The Astonishing Pied Piper Without a Name",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 5,
+        "current": 5
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned to use the power of music to reach into the souls of both humans and animals. Unfortunately, I have lost count of the number of times I have performed dishonorable acts while pursuing the perfect melody. Having been guilty of various crimes and having taken revenge on those who mocked my sincere love for music, I serenely waited for my execution. The Order freed me in exchange for a promise to serve them and put my skills to work in the fight against Darkness. It was in the darkest moments that I glimpsed the perfect melody, so perhaps as a Hunter, I can find it and make it my own.",
+    "equipment": "A precious pipe of the finest workmanship, a theater mask, a cloak of many colors, multicolored chalks and powders, an old ocarina (the first instrument I ever played), and Hamelin, my faithful trained mouse.",
+    "descriptors": [
+      "With my pipe I can play any melody and touch the hearts of living beings. Art needs time to express itself.",
+      "I am a skilled acrobat and musician. My talent is unrivaled and the Order has chosen me for my ability to capture people’s attention and stimulate their emotions. When I am in the grip of artistic inspiration, I am totally divorced from reality.",
+      "As an artist I have traveled to many places and I know many myths and legends. I’m hungry for knowledge and I’m fascinated by everything I don’t know."
+    ],
+    "gifts": [
+      "Soul Music: When you play your pipes you can spend 1 Soma to sing a special melody. Choose from:\n1. Imparting an emotion: Create a Descriptor that represents the emotional state you wish to convey. Everybody present will receive that Descriptor for the current Scene. You may have to make a Position Check to affect opponents.\n2. Bewitching animals: You may give simple commands to animals that hear your melody. If they show an aggressive attitude, you have to make a successful Position Check for your melody to take effect. As long as you are playing, you may ask the animals to do simple actions such as moving or following a simple command.",
+      "Skilled Acrobat: When you sing, dance, or move with grace, you always put on a great show. As an additional action, you can spend 1 Soma and decide on one of the following effects:\n1. You can make an incredible leap, many feet high, without anyone being able to stop you.\n2. You may take an object, even if it is worn by an enemy.\n3. You can perform a minor action with a stunt, such as opening a door or flipping a switch, and then return exactly to where you started."
+    ],
+    "darkEgo": {
+      "trigger": "Demonstrate your art to its fullest extent, with a show that cannot be ignored.",
+      "gift": "The Power of Music: Once per Scene, you can make a sound that can be heard by whomever you wish, even from a great distance. Everyone who hears it suffers 1 Wound, fragile objects break, and frightened animals flee. Alternatively, you can play a gentle melody and the wind itself will obey you, carrying your message to whomever you wish, wherever they are. When using The Power of Music, you can also activate a Soul Music effect on one or more targets of your choice."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Iskra the Young Wolf",
+    "type": "npc",
+    "npcType": "broken_one",
+    "data": {
+      "attributes": {
+        "soma": {
+          "max": 6,
+          "current": 6
+        },
+        "wounds": {
+          "max": 3,
+          "current": 0,
+          "extra": 0
+        },
+        "xp": 0
+      },
+      "background": "I was abandoned by my mother in a large forest and survived by joining a pack of werewolves. After a year of honing my predatory skills, I tracked down the woman I once called 'Mother' and sank my fangs into her throat. My pack was dismantled by a group of Hunters and the Order captured me. After another year of education and training, I finally found in the Order my new pack and made the Hunters my trusted hunting companions. I serve the Order with strength and dedication, happy to do everything the alpha Hunter asks of me.",
+      "equipment": "A red cape of fine workmanship embroidered with the coat of arms of the Order, a wolf mask carved in wood, a broken clay doll (a memento of one of my few happy memories of my mother), a fang from the leader of my old pack, and a rag doll depicting a well-dressed girl — a gift from my beloved grandmother.",
+      "descriptors": [
+        "When I am calm, I still look like a small and helpless child and, thanks to this, adults tend to underestimate me. I struggle to behave like a normal child, but I can’t keep my wolfish side leashed forever.",
+        "I perform my best when I’m cooperating with my hunting companions. I quickly learn the strengths and weaknesses of the pack. I follow every order of anyone I consider more important than me within the pack, without hesitation or remorse.",
+        "I am a wolf child and I defend myself with fangs and claws. My sense of smell is infallible. I’m young and I know little about the world, so I am easily intimidated when I face something I don’t know."
+      ],
+      "gifts": [
+        "The Red Hood: You can spend 1 Soma to look exactly like a common child. Create a Descriptor that contains one of the words Pretty, Small, or Sweet. As long as you maintain your disguise, no adult will notice you or consider you a potential danger. Receive 2 Additional Successes to the first action you take when you decide to drop your disguise and reveal who you are.",
+        "Pack: When you coordinate and act with one or more of your teammates against a common threat, you both get 1 Additional Success for your Position Check. At the end of the Scene, if you have resolved a significant issue thanks to the collaboration with your companions, you recover 1 Soma.",
+        "Dark Ego - The Young Wolf: Unleash your feral side, ready to bite anyone who opposes your pack. If you get an Outcome with an Increment on a Position Check, you can spend the Increment to take an additional action immediately. You can also inflict 1 Wound on yourself to perform an additional action after your normal action. You can’t perform more than 3 actions per Exchange. You may spend 1 Soma to memorize the smell of a person you are interacting with. You will always recognize them and it will be easy for you to follow their tracks even after a long time."
+      ],
+      "darkEgo": {
+        "trigger": "Give free rein to your feral side or fulfill a task for your pack with your wolf skills.",
+        "gift": "Dark Ego - The Young Wolf"
+      },
+      "conditions": [],
+      "notes": ""
+    }
+  }
+  

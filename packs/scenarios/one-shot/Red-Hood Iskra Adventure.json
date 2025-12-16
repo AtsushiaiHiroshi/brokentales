@@ -1,0 +1,84 @@
+{
+  "name": "Iskra de la Caperucita Roja",
+  "type": "JournalEntry",
+  "img": "icons/svg/book.svg",
+  "system": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "observer": 0,
+    "player": 0
+  },
+  "flags": {
+    "core": {
+      "sourceId": ""
+    }
+  },
+  "pages": [
+    {
+      "name": "Introduction",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Red-Hood Iskra</h2><p>A dark and tragic one-shot for Broken Tales, designed for a single 3–5 hour session. Players will uncover the mystery of a girl abandoned in the forest and raised by wolves. A story of revenge, betrayal, and morally testing choices.</p>"
+      }
+    },
+    {
+      "name": "Opening Scene",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>The Hunters arrive at the village during a storm. A red-caped girl is seen atop a hill, surrounded by black wolves. The village is terrified. <strong>@Actor[Elizaveta]{Elizaveta}</strong>, a noblewoman, offers sanctuary and guidance. <strong>@Actor[GerardDubois]{Gerard Dubois}</strong>, her husband, warns of a cursed child, <strong>@Actor[RedHoodIskra]{Iskra}</strong>, who seeks vengeance.</p>"
+      }
+    },
+    {
+      "name": "Key NPCs",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<ul><li><strong>@Actor[RedHoodIskra]{Red-Hood Iskra}:</strong> Girl raised by wolves, powerful, not inherently evil.</li><li><strong>@Actor[Elizaveta]{Elizaveta}:</strong> Noble hiding a dark truth, possibly Iskra’s mother.</li><li><strong>@Actor[GerardDubois]{Gerard Dubois}:</strong> Priest and Elizaveta’s husband who condemned Iskra.</li><li><strong>@Actor[Greskar]{Greskar, the Big Black Wolf}:</strong> Leader of the pack, loyal to Iskra.</li><li><strong>@Actor[Anastazia]{Anastazia, the Sorrowful Spirit}:</strong> Iskra’s grandmother, a restless ghost.</li><li><strong>@Actor[VincentArn]{Vincent Arn}:</strong> Captain of the guard, key adversary.</li><li><strong>Villagers, wolves, guards:</strong> Minor NPCs across the village and forest.</li></ul>"
+      }
+    },
+    {
+      "name": "Scene Structure",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<ol><li><strong>The Village:</strong> Investigation, suspicion, and rising tension.</li><li><strong>The Forest:</strong> Rituals, spirits, tracks, and encounters with <strong>@Actor[BlackWolves]{black wolves}</strong>.</li><li><strong>The Showdown:</strong> Final confrontation in the mansion or forest core. Truth about Elizaveta revealed.</li></ol>"
+      }
+    },
+    {
+      "name": "Resolution Options",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<p>Players may:</p><ul><li>Side with <strong>@Actor[RedHoodIskra]{Iskra}</strong> to help her seek justice.</li><li>Attempt to redeem her through empathy.</li><li>Stop her to protect innocents or uphold the Order’s will.</li></ul><p>The ending should feel morally ambiguous. Killing her ends the threat, but continues the betrayal. Saving her may defy the Order but break the cycle.</p>"
+      }
+    },
+    {
+      "name": "Scenario Gifts",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<ul><li><strong>@Item[VoiceOfSpirits]{Voice of the Spirits}</strong>: Spiritual communication without harm.</li><li><strong>@Item[WolfKiller]{Wolf-killer}</strong>: Eliminate 1 minor beast NPC on defense.</li><li><strong>@Item[Sweetie]{Where are you going alone, sweetie?}</strong>: Special Gift for <strong>@Actor[Garou]{Garou the Old Wolf}</strong>.</li></ul>"
+      }
+    },
+    {
+      "name": "Director Notes",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<ul><li><strong>Gerard</strong> and <strong>Elizaveta</strong> should lie or deflect at first.</li><li>Push players to question their morality.</li><li><strong>Iskra</strong> is a victim, not a monster—she seeks justice.</li><li>Use <strong>@Actor[Anastazia]{Anastazia}</strong> as a conscience or narrative twist.</li><li>Trigger Iskra’s second Gift when she’s cornered or betrayed.</li></ul>"
+      }
+    },
+    {
+      "name": "🎵 Soundtrack",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>🎼 Soundtrack</h2><p>Click to play ambient tracks for key scenes.</p><h3>🏛️ 01. The Dubois Court</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/01_the_dubois_court.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button><h3>🏘️ 02. The Durfort Village</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/02_the_durfort_village.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button><h3>🌲 03. The Gevaudan Forest</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/03_gevaudan_forest.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button><h3>🪦 04. The Old Cemetery</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/04_old_cemetery.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button><h3>🕳️ 05. The Cave</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/05_the_cave.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button><h3>🐺 06. Feral Showdown</h3><button type='button' onclick=\"AudioHelper.play({src: 'packs/playlists/environment/06_feral_showdown.mp3', volume: 0.8, autoplay: true})\">🎵 Play Track</button>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Guards of Gerard Dubois",
+    "type": "npc",
+    "data": {
+      "attributes": {
+        "soma": {
+          "max": 0,
+          "current": 0
+        },
+        "wounds": {
+          "max": 1,
+          "current": 0,
+          "extra": 0
+        },
+        "xp": 0
+      },
+      "background": "",
+      "descriptors": [
+        "We are duty-bound — as long as we get paid."
+      ],
+      "agenda": "Vincent is the boss. We’ll follow his lead.",
+      "gifts": [],
+      "darkEgo": {
+        "trigger": "",
+        "gift": ""
+      },
+      "weapons": [],
+      "objects": [],
+      "conditions": [],
+      "notes": ""
+    },
+    "flags": {
+      "btActorType": "villager",
+      "btNpcSubtype": "minor",
+      "btCustomOL": "5"
+    },
+    "img": "icons/svg/mystery-man.svg"
+  }
+  

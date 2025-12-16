@@ -1,0 +1,58 @@
+<form class="{{cssClass}} brokentales" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+        <div class="header-fields">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'BROKENTALES.Name' }}"/>
+            </h1>
+        </div>
+    </header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">{{ localize "BROKENTALES.Tabs.Description" }}</a>
+        <a class="item" data-tab="attributes">{{ localize "BROKENTALES.Tabs.Attributes" }}</a>
+        <a class="item" data-tab="effects">{{ localize "BROKENTALES.Tabs.Effects" }}</a>
+    </nav>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        {{!-- Description Tab --}}
+        <div class="tab description" data-group="primary" data-tab="description">
+            {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+        </div>
+
+        {{!-- Attributes Tab --}}
+        <div class="tab attributes" data-group="primary" data-tab="attributes">
+            <div class="form-group">
+                <label>{{ localize "BROKENTALES.Item.Type" }}</label>
+                <select name="system.itemType">
+                    {{#select system.itemType}}
+                    {{#each config.itemTypes as |name type|}}
+                    <option value="{{type}}">{{localize name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>{{ localize "BROKENTALES.Item.Rarity" }}</label>
+                <select name="system.rarity">
+                    {{#select system.rarity}}
+                    {{#each config.itemRarities as |name rarity|}}
+                    <option value="{{rarity}}">{{localize name}}</option>
+                    {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>{{ localize "BROKENTALES.Item.Price" }}</label>
+                <input type="number" name="system.price" value="{{system.price}}" data-dtype="Number"/>
+            </div>
+        </div>
+
+        {{!-- Effects Tab --}}
+        {{> "systems/brokentales/templates/item/parts/item-effects.html"}}
+    </section>
+</form>

@@ -1,0 +1,35 @@
+{
+  "name": "James the Swordsman",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 7,
+        "current": 7
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewomen. After years of successes and victories, a mysterious child defeated me with deception. This despicable boy led me into the lair of a dangerous beast and, after imprisoning me, left me to be eaten by the monster. I survived, though I lost a hand... I know for certain he who I seek is no human, and I joined the Order to hunt down the child I hate above all else, and thus have my revenge.",
+    "equipment": "A fine dueling blade, a black powder gun, a finely crafted hook, a purple-red cloak, traveling boots, a precious pair of binoculars, and several valuable rings.",
+    "descriptors": [
+      "I am a skilled swordsman and possess fine manners, which is why the Order considers me an excellent candidate to move among High Society. I love indulging in good food and dissolute company.",
+      "I have learned to face monsters and aberrations without being intimidated. The Beast is on my trail because, having tasted my flesh, it can no longer do without it…",
+      "I am a man of the world and nothing can really surprise me anymore. I never question myself. After all, I’m the best at what I do."
+    ],
+    "gifts": [
+      "With a Sword or a Smile: Once per Scene you may perform a gesture of extreme precision with your weapon, such as slipping an object off someone or writing something on a surface. The person observing your skill will either be impressed or intimidated, depending on the Storyteller’s decision. You receive 1 Additional Success when you use the emotion you have aroused to your advantage.",
+      "Tick-Tock, Here Comes The Beast: While outdoors, you may ask the Storyteller for the Beast to come in search of your flesh. The Beast is a monstrous NPC with the following characteristics: OL Hard 7 – (4 Wounds).\n\nDescriptor (the Beast): I am a great and mighty beast. I overwhelm everything I come across on my way to snatch my prey.\n\nGift – Ravenous Madness: The Beast has an insane craving for your flesh, and will unleash its rage on anyone standing in its way. With its titanic strength, it can tear down trees and walls, and hurl a man away with a single swipe of its huge paws. The Beast is also quite stupid and will leave the Scene as soon as you are out of sight. You receive 2 Additional Successes to any Defense Check against it. If the Beast suffers the fourth Wound, it will dissolve. However, it will regenerate and can be used in the next Scene."
+    ],
+    "darkEgo": {
+      "trigger": "You challenge an enemy or otherwise make clear who and how skilled you are.",
+      "gift": "I Will Have My Satisfaction: When you choose an opponent, there is no escape for them. Once per Scene, you can take an additional action against the target of your challenge (even if you had already acted during this Exchange) to anticipate their move and stop their action with yours. If an opponent inflicts a Wound on you, you savor the taste of the challenge and receive 1 Additional Success at each Check against them for the rest of the Scenario."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}

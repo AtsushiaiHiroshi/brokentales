@@ -1,0 +1,330 @@
+/**
+ * Broken Tales - Roll System Styling
+ * Enhanced visual design for roll results and Dark Ego activation
+ */
+
+/* ============================================ */
+/* Roll Card Base Styles                       */
+/* ============================================ */
+
+.bt-roll-card {
+  background: linear-gradient(135deg, #2a0a0a 0%, #1a0505 100%);
+  border: 2px solid #8b0000;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 4px 12px rgba(139, 0, 0, 0.4);
+  font-family: var(--font-primary);
+  color: #f5f5f5;
+}
+
+.bt-roll-card h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #cc0000;
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #8b0000;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.bt-roll-card .roll-info {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+
+.bt-roll-card .roll-results {
+  margin: 12px 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border-left: 3px solid #cc0000;
+}
+
+.bt-roll-card .dice-display {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(204, 0, 0, 0.6);
+}
+
+.bt-roll-card .dice-display .crit-fail {
+  color: #ff3333;
+  text-shadow: 0 0 12px rgba(255, 51, 51, 0.8);
+  animation: pulse-red 1.5s infinite;
+}
+
+/* ============================================ */
+/* Outcome Styles                              */
+/* ============================================ */
+
+.bt-roll-card .outcome {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Critical Failure */
+.bt-roll-card .outcome.failure {
+  background: linear-gradient(135deg, #8b0000 0%, #660000 100%);
+  border: 2px solid #ff3333;
+  color: #ffffff;
+  animation: shake 0.5s;
+}
+
+/* Exact Success (Success with Cost) */
+.bt-roll-card .outcome.success-exact {
+  background: linear-gradient(135deg, #cc8800 0%, #996600 100%);
+  border: 2px solid #ffaa00;
+  color: #ffffff;
+}
+
+/* Success +1 */
+.bt-roll-card .outcome.success-plus1 {
+  background: linear-gradient(135deg, #228b22 0%, #186618 100%);
+  border: 2px solid #32cd32;
+  color: #ffffff;
+}
+
+/* Success +2 or more */
+.bt-roll-card .outcome.success-plus2 {
+  background: linear-gradient(135deg, #1e90ff 0%, #1565c0 100%);
+  border: 2px solid #4fc3f7;
+  color: #ffffff;
+  animation: glow-blue 2s infinite;
+}
+
+/* ============================================ */
+/* Dark Ego Card                               */
+/* ============================================ */
+
+.bt-dark-ego-card {
+  background: linear-gradient(135deg, #1a0033 0%, #0d001a 100%);
+  border: 3px solid #9933ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 6px 16px rgba(153, 51, 255, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.bt-dark-ego-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle,
+    rgba(153, 51, 255, 0.1) 0%,
+    transparent 70%
+  );
+  animation: rotate-gradient 10s linear infinite;
+}
+
+.bt-dark-ego-card h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #cc66ff;
+  margin: 0 0 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9933ff;
+  text-shadow: 0 0 10px rgba(153, 51, 255, 0.8);
+  position: relative;
+  z-index: 1;
+}
+
+.bt-dark-ego-card p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #e6ccff;
+  position: relative;
+  z-index: 1;
+}
+
+.bt-dark-ego-card p em {
+  font-style: italic;
+  color: #ffccff;
+  opacity: 0.9;
+}
+
+/* ============================================ */
+/* Dialog Styles                               */
+/* ============================================ */
+
+.bt-roll-dialog .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.bt-roll-dialog label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #cc0000;
+  font-family: var(--font-primary);
+}
+
+.bt-roll-dialog input,
+.bt-roll-dialog select {
+  padding: 8px;
+  border: 2px solid #8b0000;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-primary);
+  font-size: 1em;
+}
+
+.bt-roll-dialog input:focus,
+.bt-roll-dialog select:focus {
+  outline: none;
+  border-color: #cc0000;
+  box-shadow: 0 0 8px rgba(204, 0, 0, 0.4);
+}
+
+/* ============================================ */
+/* Animations                                  */
+/* ============================================ */
+
+@keyframes pulse-red {
+  0%,
+  100% {
+    text-shadow: 0 0 12px rgba(255, 51, 51, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 51, 51, 1);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes glow-blue {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(79, 195, 247, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(79, 195, 247, 0.8);
+  }
+}
+
+@keyframes rotate-gradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================ */
+/* Sheet Integration                           */
+/* ============================================ */
+
+.brokentales .bt-difficulty-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.brokentales .bt-difficulty-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.brokentales .bt-roll-difficulty {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #8b0000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brokentales .bt-roll-difficulty:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(204, 0, 0, 0.6);
+}
+
+.brokentales .bt-roll-difficulty.easy {
+  background-color: #228b22;
+  border-color: #32cd32;
+}
+
+.brokentales .bt-roll-difficulty.normal {
+  background-color: #cc8800;
+  border-color: #ffaa00;
+}
+
+.brokentales .bt-roll-difficulty.hard {
+  background-color: #8b0000;
+  border-color: #ff3333;
+}
+
+.brokentales #bt-dice-count {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #8b0000;
+  border-radius: 4px;
+  font-family: var(--font-primary);
+}
+
+/* ============================================ */
+/* Responsive Design                           */
+/* ============================================ */
+
+@media (max-width: 768px) {
+  .bt-roll-card {
+    padding: 12px;
+    font-size: 0.9em;
+  }
+
+  .bt-roll-card h2 {
+    font-size: 1.2em;
+  }
+
+  .bt-difficulty-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .bt-difficulty-buttons {
+    justify-content: center;
+  }
+}

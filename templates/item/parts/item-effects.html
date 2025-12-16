@@ -1,0 +1,27 @@
+<div class="tab effects" data-group="primary" data-tab="effects">
+    {{!-- Effects Tab --}}
+    <section class="item-effects">
+        <h3>{{ localize "BROKENTALES.Effects.Effects" }}</h3>
+        <div class="effect-list">
+            {{#each effects as |effect|}}
+            <div class="effect" data-effect-id="{{effect._id}}">
+                <div class="effect-header flexrow">
+                    <h4>{{effect.label}}</h4>
+                    <div class="effect-controls">
+                        <a class="effect-control effect-edit" title="{{ localize 'BROKENTALES.Edit' }}"><i class="fas fa-edit"></i></a>
+                        <a class="effect-control effect-delete" title="{{ localize 'BROKENTALES.Delete' }}"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="effect-description">
+                    {{effect.description}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="effect-controls">
+            <a class="effect-control effect-create" title="{{ localize 'BROKENTALES.Add' }}">
+                <i class="fas fa-plus"></i> {{ localize "BROKENTALES.Effects.AddEffect" }}
+            </a>
+        </div>
+    </section>
+</div>

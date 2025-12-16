@@ -1,0 +1,35 @@
+{
+  "name": "Regina the Thief of Hearts",
+  "type": "character",
+  "data": {
+    "attributes": {
+      "soma": {
+        "max": 6,
+        "current": 6
+      },
+      "wounds": {
+        "max": 3,
+        "current": 0,
+        "extra": 0
+      },
+      "xp": 0
+    },
+    "background": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. Lacking the benefit of noble birth, the power I held was pried from the hands of those less deserving to wield it, no matter the cost. I ruled armies of thugs, and broke the hearts of both men and women. After each conquest, I set out in search of a bigger challenge. Because there is still so much out there that should be rightfully mine, I always want more. The Order has given me a new purpose, a new perspective, and new creatures to enslave.",
+    "equipment": "A long leather whip with metal studs and spikes, a beautiful fan to hide my face, dresses for every occasion, a long burgundy cape, gold and jewels gifted by countless suitors, and a sharp stiletto I wear as a hairpin.",
+    "descriptors": [
+      "I am determined to get what I want, and nothing will get in my way. I will kill, humiliate, or conquer anything that stands between me and my objective. As you can imagine, I sincerely hate being told no!",
+      "Thanks to my contacts and charisma, I always have an ace up my sleeve: followers ready to help me and allies who owe me favors. Maintaining an empire of beneficial connections requires commitment and resources.",
+      "I have an enviable charm and love to dress up to fit the role I have chosen. Even when I try to restrain myself, I never go unnoticed."
+    ],
+    "gifts": [
+      "I Want It!: When you act with clear and direct intention to achieve an objective, you get 1 Additional Success on each Position Check. Once per Session, you can turn a Failure into an Outcome with Increment. Describe how you grit your teeth and fight to get what you want.",
+      "The Queen: During a Scene you always have a couple of trusted servants with you, ready to execute your every order. Create a Descriptor for each, which represents the skill for which you hold them in your service. Your servants will do their best to satisfy your every wish. Decide how you pay them. The Storyteller, when and if they deem it necessary, will ask you to honor their services so as not to lose the use of this Gift for the rest of the Scene. You can check this Descriptor multiple times to get XP."
+    ],
+    "darkEgo": {
+      "trigger": "Take control of a situation and impose your decisions by dramatically drawing attention to yourself.",
+      "gift": "As I Want!: You know that your way is the only right way to do things. During the Scene, as an additional action, you can choose another character who will be issued a command. In the case of an ally, if they do exactly what you tell them, they will receive 1 Additional Success to their action or increase their Opposition Level by 1. If you give a peremptory order to ensnare an enemy, they will lower their Opposition Level by 1 or, if you’ve already seen it in action, you can prevent them from using one of their Gifts. Once per Scene, you can shout, drawing everyone’s attention to you. For a few moments, they will pause to listen to what you have to say."
+    },
+    "conditions": [],
+    "notes": ""
+  }
+}
