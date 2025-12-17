@@ -1,0 +1,45 @@
+<form class="sheet item" autocomplete="off">
+  <header class="sheet-header">
+    <div class="header-fields">
+      <h1 class="itemname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'BROKENTALES.Fields.Name'}}" />
+      </h1>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    <div class="grid-container">
+
+      <!-- Description -->
+      <div class="resource full-width">
+        <label>{{localize "BROKENTALES.Fields.Description"}}</label>
+        <textarea name="system.description">{{system.description}}</textarea>
+      </div>
+
+      <!-- Scenario -->
+      <div class="resource">
+        <label>Scenario</label>
+        <input type="text" name="system.scenario" value="{{system.scenario}}" placeholder="Scenario name" />
+      </div>
+
+      <!-- Special For -->
+      <div class="resource">
+        <label>Special For</label>
+        <input type="text" name="system.specialFor" value="{{system.specialFor}}" placeholder="Character or situation" />
+      </div>
+
+      <!-- Requirement -->
+      <div class="resource full-width">
+        <label>Requirement</label>
+        <textarea name="system.requirement">{{system.requirement}}</textarea>
+      </div>
+
+      <!-- Effect -->
+      <div class="resource full-width">
+        <label>{{localize "BROKENTALES.Fields.Effect"}}</label>
+        <textarea name="system.effect">{{system.effect}}</textarea>
+      </div>
+
+    </div>
+  </section>
+</form>
