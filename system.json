@@ -49,7 +49,7 @@
     {
       "name": "pre-generated-hunters",
       "label": "Pre-Generated Hunters",
-      "path": "packs/actors/pre-generated-hunters",
+      "path": "packs/compendiums/actors/pre-generated-hunters",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -60,7 +60,7 @@
     {
       "name": "pre-generated-npcs",
       "label": "Pre-Generated NPCs",
-      "path": "packs/actors/pre-generated-npcs",
+      "path": "packs/compendiums/actors/pre-generated-npcs",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -71,7 +71,7 @@
     {
       "name": "adversaries",
       "label": "Adversaries",
-      "path": "packs/actors/adversaries",
+      "path": "packs/compendiums/actors/adversaries",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -82,7 +82,7 @@
     {
       "name": "broken-ones",
       "label": "Broken Ones",
-      "path": "packs/actors/broken-ones",
+      "path": "packs/compendiums/actors/broken-ones",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -93,7 +93,7 @@
     {
       "name": "creatures",
       "label": "Creatures",
-      "path": "packs/actors/creatures",
+      "path": "packs/compendiums/actors/creatures",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -104,7 +104,7 @@
     {
       "name": "villagers",
       "label": "Villagers",
-      "path": "packs/actors/villagers",
+      "path": "packs/compendiums/actors/villagers",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -115,7 +115,7 @@
     {
       "name": "scenario-gifts",
       "label": "Scenario Gifts",
-      "path": "packs/actors/scenario-gifts",
+      "path": "packs/compendiums/scenario-gifts/scenario-gifts",
       "type": "Item",
       "system": "brokentales",
       "ownership": {
@@ -148,7 +148,7 @@
     {
       "name": "playlists-environment",
       "label": "Playlists - Environment",
-      "path": "packs/playlists/environment",
+      "path": "packs/compendiums/environment/environment",
       "type": "Playlist",
       "system": "brokentales",
       "ownership": {
@@ -159,7 +159,7 @@
     {
       "name": "playlists-sound",
       "label": "Playlists - Sound Effects",
-      "path": "packs/playlists/sound",
+      "path": "packs/compendiums/sounds/sound",
       "type": "Playlist",
       "system": "brokentales",
       "ownership": {
