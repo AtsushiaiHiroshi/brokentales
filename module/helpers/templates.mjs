@@ -27,12 +27,8 @@ export async function preloadHandlebarsTemplates() {
     // Item sheets
     "systems/brokentales/templates/item/descriptor.html",
     "systems/brokentales/templates/item/gift.html",
+    "systems/brokentales/templates/item/scenarioGift.html",
     "systems/brokentales/templates/item/item-sheet.html",
-
-    // Chat templates
-    "systems/brokentales/templates/chat/roll-card.html",
-    "systems/brokentales/templates/chat/dark-ego-card.html",
-    "systems/brokentales/templates/chat/item-card.html",
   ]);
 }
 

@@ -155,7 +155,7 @@ export class BrokenTalesActorSheet extends ActorSheet {
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
-      i.img = i.img || Item.DEFAULT_ICON;
+      i.img = i.img || "icons/svg/item-bag.svg";
 
       // Append to descriptors.
       if (i.type === "descriptor") {
