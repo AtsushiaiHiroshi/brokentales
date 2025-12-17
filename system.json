@@ -58,9 +58,20 @@
       }
     },
     {
+      "name": "pre-generated-npcs",
+      "label": "Pre-Generated NPCs",
+      "path": "packs/actors/pre-generated-npcs",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "adversaries",
       "label": "Adversaries",
-      "path": "packs/pre-generated-npcs/adversaries",
+      "path": "packs/actors/adversaries",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -71,7 +82,7 @@
     {
       "name": "broken-ones",
       "label": "Broken Ones",
-      "path": "packs/pre-generated-npcs/broken-ones",
+      "path": "packs/actors/broken-ones",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -82,18 +93,7 @@
     {
       "name": "creatures",
       "label": "Creatures",
-      "path": "packs/pre-generated-npcs/creatures",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "threats",
-      "label": "Threats",
-      "path": "packs/pre-generated-npcs/threats",
+      "path": "packs/actors/creatures",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -104,7 +104,7 @@
     {
       "name": "villagers",
       "label": "Villagers",
-      "path": "packs/pre-generated-npcs/villager",
+      "path": "packs/actors/villagers",
       "type": "Actor",
       "system": "brokentales",
       "ownership": {
@@ -115,7 +115,7 @@
     {
       "name": "scenario-gifts",
       "label": "Scenario Gifts",
-      "path": "packs/scenario-gifts",
+      "path": "packs/actors/scenario-gifts",
       "type": "Item",
       "system": "brokentales",
       "ownership": {
@@ -194,18 +194,12 @@
     {
       "name": "Actors",
       "sorting": "m",
-      "packs": ["pre-generated-hunters"],
+      "packs": ["pre-generated-hunters", "pre-generated-npcs"],
       "folders": [
         {
-          "name": "NPCs",
+          "name": "NPCs by Type",
           "sorting": "m",
-          "packs": [
-            "adversaries",
-            "broken-ones",
-            "creatures",
-            "threats",
-            "villagers"
-          ]
+          "packs": ["adversaries", "broken-ones", "creatures", "villagers"]
         }
       ]
     },

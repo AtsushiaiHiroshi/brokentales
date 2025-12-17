@@ -1,8 +1,8 @@
-{
+﻿{
     "_id": "greskar",
     "name": "Greskar the Big Black Wolf",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "creature",
       "attributes": {
         "soma": {
@@ -12,7 +12,7 @@
         "wounds": {
           "max": 4,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -38,7 +38,7 @@
     "_id": "black-wolves",
     "name": "Black Wolves of Greskar's Pack",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "creature",
       "attributes": {
         "soma": {
@@ -48,7 +48,7 @@
         "wounds": {
           "max": 2,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },

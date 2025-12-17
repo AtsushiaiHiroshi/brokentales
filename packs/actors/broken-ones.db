@@ -1,14 +1,14 @@
-{
+﻿{
     "_id": "anastazia",
     "name": "Anastazia the Sorrowful Spirit",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "broken_one",
-      "oppositionLevel": "Hard",
+      "oppositionLevel": 7,
       "wounds": {
         "max": 3,
-        "current": 3,
-        "extra": 0
+        "current": 0,
+        "extra": { "value": 0, "max": 1 }
       },
       "soma": {
         "max": 0,
@@ -38,7 +38,7 @@
     "_id": "iskra-young-wolf",
     "name": "Iskra the Young Wolf",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "broken_one",
       "attributes": {
         "soma": {
@@ -48,7 +48,7 @@
         "wounds": {
           "max": 3,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -82,7 +82,7 @@
     "_id": "red-hood-iskra",
     "name": "Red-Hood Iskra",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "broken_one",
       "attributes": {
         "soma": {
@@ -92,7 +92,7 @@
         "wounds": {
           "max": 4,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },

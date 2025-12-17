@@ -1,8 +1,8 @@
-{
+﻿{
     "id": "anne-little-chatterer",
     "name": "Anne the Little Chatterer",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -12,7 +12,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -42,7 +42,7 @@
     "id": "corinne-the-housekeeper",
     "name": "Corinne the Housekeeper",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -52,7 +52,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -82,7 +82,7 @@
     "id": "didier-the-grumpy-old-man",
     "name": "Didier the Grumpy Old Man",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -92,7 +92,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -122,7 +122,7 @@
     "id": "genevieve-the-chemist",
     "name": "Genevieve the Chemist",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -132,7 +132,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -162,7 +162,7 @@
     "id": "marcel-the-time-waster",
     "name": "Marcel the Time-Waster",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -172,7 +172,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -202,7 +202,7 @@
     "id": "nicholas-the-huntsman",
     "name": "Nicholas the Huntsman",
     "type": "npc",
-    "data": {
+    "system": {
       "npcType": "villager",
       "attributes": {
         "soma": {
@@ -212,7 +212,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },
@@ -242,7 +242,7 @@
     "id": "guards-of-gerard-dubois",
     "name": "The Guards of Gerard Dubois",
     "type": "npc",
-    "data": {
+    "system": {
       "attributes": {
         "soma": {
           "max": 0,
@@ -251,7 +251,7 @@
         "wounds": {
           "max": 1,
           "current": 0,
-          "extra": 0
+          "extra": { "value": 0, "max": 1 }
         },
         "xp": 0
       },

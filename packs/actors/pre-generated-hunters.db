@@ -1,8 +1,8 @@
-{
+﻿{
   "_id": "Babai the Judge",
   "name": "Babai the Judge",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -11,7 +11,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -42,7 +42,7 @@
   "_id": "Baba Yaga the Child Witch",
   "name": "Baba Yaga the Child Witch",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 5,
@@ -51,7 +51,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -82,7 +82,7 @@
   "_id": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
   "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -91,7 +91,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -124,7 +124,7 @@
   "_id": "garou",
   "name": "Garou the Old Wolf",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -133,7 +133,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -164,7 +164,7 @@
   "_id": "George the Holy Dragon Slayer",
   "name": "George the Holy Dragon Slayer",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -173,7 +173,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -204,7 +204,7 @@
   "_id": "James the Swordsman",
   "name": "James the Swordsman",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 7,
@@ -213,7 +213,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -244,7 +244,7 @@
   "_id": "Marina the Sea Explorer",
   "name": "Marina the Sea Explorer",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -253,7 +253,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -284,7 +284,7 @@
   "_id": "Niklaus von Krampus",
   "name": "Niklaus von Krampus",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -293,7 +293,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -324,7 +324,7 @@
   "_id": "Regina the Thief of Hearts",
   "name": "Regina the Thief of Hearts",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -333,7 +333,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -364,7 +364,7 @@
   "_id": "Sun Wukong the Amazing Monkey",
   "name": "Sun Wukong the Amazing Monkey",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -373,7 +373,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -404,7 +404,7 @@
   "_id": "The Astonishing Pied Piper Without a Name",
   "name": "The Astonishing Pied Piper Without a Name",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 5,
@@ -413,7 +413,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -444,7 +444,7 @@
   "_id": "The Immortal",
   "name": "The Immortal",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 7,
@@ -453,7 +453,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -484,7 +484,7 @@
   "_id": "The Woman from the Woods",
   "name": "The Woman from the Woods",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -493,7 +493,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -524,7 +524,7 @@
   "_id": "Verdoux Bluebeard",
   "name": "Verdoux Bluebeard",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -533,7 +533,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
@@ -564,7 +564,7 @@
   "_id": "Yukie Onn the Traveling Artist",
   "name": "Yukie Onn the Traveling Artist",
   "type": "character",
-  "data": {
+  "system": {
     "attributes": {
       "soma": {
         "max": 6,
@@ -573,7 +573,7 @@
       "wounds": {
         "max": 3,
         "current": 0,
-        "extra": 0
+        "extra": { "value": 0, "max": 1 }
       },
       "xp": 0
     },
