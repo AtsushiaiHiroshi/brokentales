@@ -4,6 +4,112 @@
    =================================================== */
 
 /* ---------------------------------------------------
+   0. FOUNDRY UI FIXES - ENSURE CORE UI IS VISIBLE
+   --------------------------------------------------- */
+/* CRITICAL: Ensure Foundry VTT core UI elements are always visible */
+
+/* Main UI containers */
+#ui-left,
+#ui-right,
+#ui-top,
+#ui-bottom {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Sidebar - MUST be visible for scenes, actors, items, etc. */
+#sidebar {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 300px !important;
+  z-index: 100 !important;
+  pointer-events: auto !important;
+}
+
+/* Sidebar tabs navigation */
+#sidebar-tabs {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  flex-direction: row !important;
+  pointer-events: auto !important;
+}
+
+/* Individual sidebar tab buttons */
+#sidebar-tabs > .item,
+#sidebar-tabs > a,
+.sidebar-tab {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* Sidebar content areas */
+#scenes,
+#actors,
+#items,
+#journal,
+#tables,
+#cards,
+#playlists,
+#compendium,
+#settings,
+#chat,
+#combat {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Scene navigation */
+#navigation {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Controls (left sidebar tools) */
+#controls {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Players list */
+#players {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Hotbar */
+#hotbar {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Logo */
+#logo {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* ---------------------------------------------------
    1. FONT IMPORTS AND DEFINITIONS
    --------------------------------------------------- */
 @font-face {
