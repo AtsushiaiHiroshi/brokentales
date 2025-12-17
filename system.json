@@ -124,6 +124,17 @@
       }
     },
     {
+      "name": "iskra-items",
+      "label": "Red-Hood Iskra - Items & Clues",
+      "path": "packs/compendiums/items/iskra-items",
+      "type": "Item",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "maps-en",
       "label": "Maps (English)",
       "path": "packs/maps/en",
@@ -206,7 +217,7 @@
     {
       "name": "Items",
       "sorting": "m",
-      "packs": ["scenario-gifts"]
+      "packs": ["scenario-gifts", "iskra-items"]
     },
     {
       "name": "Scenes",

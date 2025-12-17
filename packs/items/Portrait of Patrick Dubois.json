@@ -1,0 +1,21 @@
+{
+    "_id": "PatrickDuboisPainting",
+    "name": "Portrait of Patrick Dubois",
+    "type": "descriptor",
+    "img": "icons/sundries/misc/portrait-painting-frame.webp",
+    "system": {
+        "description": "An enormous painting of Patrick Dubois, Gerard's late father, hanging in the ceremonial hall. The portrait shows a stern and sullen-looking man who seems to judge his son's incompetence from beyond the grave with ill-concealed contempt. Every room in the palace is filled with flattering paintings of Patrick, a constant reminder of Gerard's inadequacy.",
+        "type": "item",
+        "uses": {
+            "value": 0,
+            "max": 1
+        },
+        "isImprovement": false,
+        "isDarkEgo": false
+    },
+    "flags": {
+        "scenarioId": "red-hood-iskra",
+        "location": "Dubois Palace - Ceremonial Hall",
+        "importance": "atmospheric"
+    }
+}

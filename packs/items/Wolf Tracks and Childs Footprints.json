@@ -1,0 +1,21 @@
+{
+    "_id": "WolfTracks",
+    "name": "Wolf Tracks and Child's Footprints",
+    "type": "descriptor",
+    "img": "icons/sundries/misc/paw-print.webp",
+    "system": {
+        "description": "In the old cemetery, there are many wolf tracks scattered throughout the grounds. Hidden among them are the prints of two small bare feet, almost certainly belonging to a little girl. These tracks lead deep into the Gévaudan forest, toward the wolves' den. This evidence suggests that a child is somehow involved with the wolf pack.",
+        "type": "clue",
+        "uses": {
+            "value": 0,
+            "max": 1
+        },
+        "isImprovement": false,
+        "isDarkEgo": false
+    },
+    "flags": {
+        "scenarioId": "red-hood-iskra",
+        "location": "Old Cemetery",
+        "importance": "tracking-clue"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "BloodDrawings",
+    "name": "Blood Drawings in the Den",
+    "type": "descriptor",
+    "img": "icons/sundries/documents/document-torn-brown-red.webp",
+    "system": {
+        "description": "Crude drawings on the cave walls of the wolves' den, depicting a mother and daughter holding hands. They are drawn in blood, a haunting testament to Iskra's lost innocence and her desperate longing for the maternal love she was denied. These drawings reveal the tragic humanity still present within the wolf-girl.",
+        "type": "clue",
+        "uses": {
+            "value": 0,
+            "max": 1
+        },
+        "isImprovement": false,
+        "isDarkEgo": false
+    },
+    "flags": {
+        "scenarioId": "red-hood-iskra",
+        "location": "Wolves' Lair - Iskra's personal den",
+        "importance": "emotional-clue"
+    }
+}

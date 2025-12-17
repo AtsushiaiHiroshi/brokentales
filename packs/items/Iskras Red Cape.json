@@ -1,0 +1,21 @@
+{
+    "_id": "IskrasRedCape",
+    "name": "Iskra's Red Cape",
+    "type": "descriptor",
+    "img": "icons/equipment/back/cloak-layered-red.webp",
+    "system": {
+        "description": "A threadbare red cape, the last gift from Iskra's mother before she sent her daughter to her supposed death in the forest. Despite its worn condition, Iskra still wears it as both a memory and a symbol of her quest for revenge. The cape is stained with mud and blood from her time living as a wolf.",
+        "type": "item",
+        "uses": {
+            "value": 0,
+            "max": 1
+        },
+        "isImprovement": false,
+        "isDarkEgo": false
+    },
+    "flags": {
+        "scenarioId": "red-hood-iskra",
+        "location": "Worn by Iskra",
+        "importance": "iconic-item"
+    }
+}
