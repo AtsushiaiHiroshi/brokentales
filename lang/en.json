@@ -10,7 +10,11 @@
 
     "Item": {
       "Descriptor": "Descriptor",
-      "Gift": "Gift"
+      "Gift": "Gift",
+      "ScenarioGift": "Scenario Gift",
+      "Type": "Type",
+      "Price": "Price",
+      "Rarity": "Rarity"
     },
 
     "SheetClassActor": "Broken Tales Actor Sheet",
@@ -26,6 +30,12 @@
       "Attributes": "Attributes",
       "Details": "Details",
       "Notes": "Notes"
+    },
+
+    "Attributes": {
+      "Soma": "Soma",
+      "Wounds": "Wounds",
+      "XP": "Experience Points"
     },
 
     "Fields": {
@@ -110,7 +120,11 @@
       "AbilityName": "Ability Name",
       "AbilityDescription": "Ability Description",
       "AbilityCost": "Cost",
-      "AddAbility": "Add Ability"
+      "AddAbility": "Add Ability",
+      "Description": "Description",
+      "Motivation": "Motivation",
+      "OppositionLevel": "Opposition Level",
+      "Type": "Type"
     },
 
     "Roll": {
@@ -123,6 +137,7 @@
       "CriticalFailure": "❌ Critical Failure! A 1 was rolled.",
       "Failure": "❌ Failure. Needed {difficulty}, only got {successes} successes.",
       "SuccessExact": "⚠️ Success with cost (exactly {successes} successes).",
+      "SuccessPlus1": "✅ Success! ({successes} successes)",
       "SuccessPlus": "✨ Success! ({successes} successes)",
       "NoPrevious": "No previous Broken Tales roll found in chat.",
       "MissingActor": "Could not identify the actor from the last roll.",
@@ -190,6 +205,14 @@
       "WoundHealed": "{name} healed 1 Wound",
       "CharacterDead": "{name} has died!",
       "GiftUsed": "{name} used {gift}"
+    },
+
+    "Narrative": "Narrative",
+    "Mechanical": "Mechanical",
+    "Improvement": "Improvement",
+
+    "Scenarios": {
+      "RedHoodIskra": "Red Hood - Iskra"
     },
 
     "ScenarioGifts": {

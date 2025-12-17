@@ -10,7 +10,11 @@
 
     "Item": {
       "Descriptor": "Descriptor",
-      "Gift": "Don"
+      "Gift": "Don",
+      "ScenarioGift": "Don de Escenario",
+      "Type": "Tipo",
+      "Price": "Precio",
+      "Rarity": "Rareza"
     },
 
     "SheetClassActor": "Hoja de Actor de Broken Tales",
@@ -26,6 +30,12 @@
       "Attributes": "Atributos",
       "Details": "Detalles",
       "Notes": "Notas"
+    },
+
+    "Attributes": {
+      "Soma": "Soma",
+      "Wounds": "Heridas",
+      "XP": "Puntos de Experiencia"
     },
 
     "Fields": {
@@ -110,7 +120,11 @@
       "AbilityName": "Nombre de Habilidad",
       "AbilityDescription": "Descripción de Habilidad",
       "AbilityCost": "Coste",
-      "AddAbility": "Añadir Habilidad"
+      "AddAbility": "Añadir Habilidad",
+      "Description": "Descripción",
+      "Motivation": "Motivación",
+      "OppositionLevel": "Nivel de Oposición",
+      "Type": "Tipo"
     },
 
     "Roll": {
@@ -123,6 +137,7 @@
       "CriticalFailure": "❌ ¡Fallo Crítico! Ha salido un 1.",
       "Failure": "❌ Fallo. Necesitabas {difficulty}, solo conseguiste {successes} éxitos.",
       "SuccessExact": "⚠️ Éxito con coste (exactamente {successes} éxitos).",
+      "SuccessPlus1": "✅ ¡Éxito! ({successes} éxitos)",
       "SuccessPlus": "✨ ¡Éxito! ({successes} éxitos)",
       "NoPrevious": "No se encontró ninguna tirada previa de Broken Tales en el chat.",
       "MissingActor": "No se pudo identificar al actor de la última tirada.",
@@ -190,6 +205,14 @@
       "WoundHealed": "{name} curó 1 Herida",
       "CharacterDead": "¡{name} ha muerto!",
       "GiftUsed": "{name} usó {gift}"
+    },
+
+    "Narrative": "Narrativo",
+    "Mechanical": "Mecánico",
+    "Improvement": "Mejora",
+
+    "Scenarios": {
+      "RedHoodIskra": "Caperucita Roja - Iskra"
     },
 
     "ScenarioGifts": {
