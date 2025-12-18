@@ -113,6 +113,17 @@
       }
     },
     {
+      "name": "threats",
+      "label": "Threats",
+      "path": "packs/compendiums/actors/threats",
+      "type": "Actor",
+      "system": "brokentales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "scenario-gifts",
       "label": "Scenario Gifts",
       "path": "packs/compendiums/scenario-gifts/scenario-gifts",
@@ -210,7 +221,13 @@
         {
           "name": "NPCs by Type",
           "sorting": "m",
-          "packs": ["adversaries", "broken-ones", "creatures", "villagers"]
+          "packs": [
+            "adversaries",
+            "broken-ones",
+            "creatures",
+            "threats",
+            "villagers"
+          ]
         }
       ]
     },
