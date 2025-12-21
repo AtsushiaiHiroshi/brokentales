@@ -1,4 +1,3 @@
-
 # Broken Tales - Foundry VTT System Development
 
 ## 🎯 Project Overview
@@ -12,7 +11,20 @@ You are working on **Broken Tales**, a dark fairy tale RPG system for Foundry VT
 ### **Foundry Virtual Tabletop**
 
 - **[Foundry VTT API Documentation](https://foundryvtt.com/api/)**: Documentación oficial completa de la API
-- **[Foundry VTT Knowledge Base](https://foundryvtt.com/kb/)**: Guías oficiales de desarrollo de sistemas y módulos
+- **[Foundry VTT Knowledge Base](https://foundryvtt.com/kb/)**: Guías oficiales de desarrollo de sistemas y módulos:
+  - https://foundryvtt.com/article/intro-development/
+  - https://foundryvtt.com/article/module-development/
+  - https://foundryvtt.com/article/module-sub-types/
+  - https://foundryvtt.com/article/system-data-models/
+  - https://foundryvtt.com/article/system-development/
+  - https://foundryvtt.com/article/localization/
+  - https://foundryvtt.com/article/asset-management/
+  - https://foundryvtt.com/article/migration/
+  - https://foundryvtt.com/article/frameworks/
+    - https://handlebarsjs.com/guide/
+    - https://jquery.com/ / https://api.jquery.com/
+    - https://pixijs.com/8.x/guides/getting-started/intro
+    - https://gsap.com/docs/v3/
 
 ### **Estándares Web**
 
@@ -88,6 +100,7 @@ brokentales/
    - Soma: 6 max (supernatural resource)
    - Wounds: 3 max + 1 extra wound
    - XP, Descriptors, Gifts, Dark Ego
+
 2. **NPC**:
 
    - Types: villager, creature, adversary, broken_one, threat, object, obstacle
@@ -109,13 +122,13 @@ brokentales/
 
 ```javascript
 // ✅ CORRECT - Use "system" (Foundry v10+)
-actor.system.attributes.soma.current
-actor.system.attributes.wounds.current
-actor.system.descriptors
-actor.system.gifts
+actor.system.attributes.soma.current;
+actor.system.attributes.wounds.current;
+actor.system.descriptors;
+actor.system.gifts;
 
 // ❌ WRONG - Never use "data" (deprecated)
-actor.data.attributes  // FORBIDDEN
+actor.data.attributes; // FORBIDDEN
 ```
 
 **Reference**: [Foundry VTT Data Architecture](https://foundryvtt.com/api/classes/foundry.abstract.DataModel.html)
@@ -126,12 +139,12 @@ actor.data.attributes  // FORBIDDEN
 
 ```javascript
 // ✅ CORRECT - Must be NUMBER
-systemData.oppositionLevel = 5;  // Normal
-systemData.oppositionLevel = 3;  // Easy
-systemData.oppositionLevel = 7;  // Hard
+systemData.oppositionLevel = 5; // Normal
+systemData.oppositionLevel = 3; // Easy
+systemData.oppositionLevel = 7; // Hard
 
 // ❌ WRONG - Never string
-systemData.oppositionLevel = "Normal";  // FORBIDDEN
+systemData.oppositionLevel = "Normal"; // FORBIDDEN
 ```
 
 **Reference**: [Type Safety Best Practices](https://github.com/dereknguyen269/programing-best-practices#type-safety)
@@ -143,13 +156,13 @@ systemData.oppositionLevel = "Normal";  // FORBIDDEN
 ```javascript
 // ✅ CORRECT - Check critical FIRST
 const hasCriticalFailure = results.includes(1);
-const successes = hasCriticalFailure 
-  ? 0  // Negates ALL successes
-  : results.filter(r => r >= 2).length;
+const successes = hasCriticalFailure
+  ? 0 // Negates ALL successes
+  : results.filter((r) => r >= 2).length;
 
 // ❌ WRONG - Calculating successes before checking critical
-const successes = results.filter(r => r >= 2).length;  // WRONG ORDER
-const criticalFailure = results.includes(1);           // TOO LATE
+const successes = results.filter((r) => r >= 2).length; // WRONG ORDER
+const criticalFailure = results.includes(1); // TOO LATE
 ```
 
 **Reference**: Game design document - Critical failures negate all successes
@@ -182,7 +195,7 @@ import { BrokenTalesActor } from "./documents/actor.mjs";
 export class BrokenTalesActorSheet extends ActorSheet {}
 
 // ❌ WRONG - No CommonJS
-const actor = require('./actor.js');  // FORBIDDEN - Not ES6
+const actor = require("./actor.js"); // FORBIDDEN - Not ES6
 ```
 
 **Reference**: [MDN - JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
@@ -246,15 +259,15 @@ const actor = require('./actor.js');  // FORBIDDEN - Not ES6
 async function rollWithDifficulty(diceCount, difficulty, somaBonus = 0) {
   const roll = new Roll(`${diceCount}d6`);
   await roll.evaluate({ async: true });
-  const results = roll.dice[0].results.map(r => r.result);
-  
+  const results = roll.dice[0].results.map((r) => r.result);
+
   // CRITICAL: Check failure FIRST (game mechanic)
   const hasCriticalFailure = results.includes(1);
-  const baseSuccesses = hasCriticalFailure 
-    ? 0 
-    : results.filter(r => r >= 2).length;
+  const baseSuccesses = hasCriticalFailure
+    ? 0
+    : results.filter((r) => r >= 2).length;
   const totalSuccesses = baseSuccesses + somaBonus;
-  
+
   // Determine outcome based on total vs difficulty
   return {
     roll,
@@ -262,7 +275,7 @@ async function rollWithDifficulty(diceCount, difficulty, somaBonus = 0) {
     hasCriticalFailure,
     baseSuccesses,
     totalSuccesses,
-    success: totalSuccesses >= difficulty
+    success: totalSuccesses >= difficulty,
   };
 }
 ```
@@ -280,26 +293,29 @@ async function rollWithDifficulty(diceCount, difficulty, somaBonus = 0) {
 
 ```javascript
 // ❌ Never use var (ES6: const/let)
-var x = 1;  // FORBIDDEN
+var x = 1; // FORBIDDEN
 
 // ❌ Never use == or != (type coercion issues)
-if (x == "1") {}  // FORBIDDEN - use ===
+if (x == "1") {
+} // FORBIDDEN - use ===
 
 // ❌ Never use eval or Function constructor (security)
-eval(code);  // FORBIDDEN - XSS vulnerability
-new Function(code);  // FORBIDDEN
+eval(code); // FORBIDDEN - XSS vulnerability
+new Function(code); // FORBIDDEN
 
 // ❌ Never use innerHTML without sanitization (XSS)
-element.innerHTML = userInput;  // FORBIDDEN
+element.innerHTML = userInput; // FORBIDDEN
 
 // ❌ Never use console.log in production
-console.log("debug");  // FORBIDDEN - use proper logging
+console.log("debug"); // FORBIDDEN - use proper logging
 
 // ❌ Never hardcode paths (portability)
-const path = "C:/Users/...";  // FORBIDDEN - use relative paths
+const path = "C:/Users/..."; // FORBIDDEN - use relative paths
 
 // ❌ Never ignore errors (debugging nightmare)
-try { code } catch(e) {}  // FORBIDDEN - must handle errors
+try {
+  code;
+} catch (e) {} // FORBIDDEN - must handle errors
 ```
 
 **Reference**: [Programming Best Practices - Anti-patterns](https://github.com/dereknguyen269/programing-best-practices#anti-patterns)
@@ -314,7 +330,8 @@ const x = 1;
 let y = 2;
 
 // ✅ Use === and !== (type safety)
-if (x === 1) {}
+if (x === 1) {
+}
 
 // ✅ Use foundry.utils for object operations (Foundry API)
 const merged = foundry.utils.mergeObject(obj1, obj2);
@@ -457,9 +474,9 @@ console.log("Wounds - current:", wounds.current, "max:", wounds.max);
 ### 5. Test Critical Failure Logic
 
 ```javascript
-const results = [1, 4, 5];  // Contains critical failure
+const results = [1, 4, 5]; // Contains critical failure
 const hasCrit = results.includes(1);
-const successes = hasCrit ? 0 : results.filter(r => r >= 2).length;
+const successes = hasCrit ? 0 : results.filter((r) => r >= 2).length;
 console.log("Has crit:", hasCrit, "Successes:", successes);
 // Should log: "Has crit: true Successes: 0"
 ```
@@ -486,13 +503,18 @@ console.log("Has crit:", hasCrit, "Successes:", successes);
 
 ```javascript
 // Global system namespace
-game.brokentales.rollWithDifficulty(actor, diceCount, difficulty, somaBonus)
-game.brokentales.showRollDialog(actor)
-game.brokentales.repeatLastRoll()
+game.brokentales.rollWithDifficulty(actor, diceCount, difficulty, somaBonus);
+game.brokentales.showRollDialog(actor);
+game.brokentales.repeatLastRoll();
 
 // Configuration
-CONFIG.BROKENTALES.difficulties = { easy: 2, normal: 3, hard: 5 }
-CONFIG.BROKENTALES.npcTypes = ["villager", "creature", "adversary", "broken_one"]
+CONFIG.BROKENTALES.difficulties = { easy: 2, normal: 3, hard: 5 };
+CONFIG.BROKENTALES.npcTypes = [
+  "villager",
+  "creature",
+  "adversary",
+  "broken_one",
+];
 ```
 
 ### Translation Keys Pattern

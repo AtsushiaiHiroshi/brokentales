@@ -101,27 +101,57 @@ For detailed information about actor types, see `.github/instructions/actor_type
 
 ## ⚙️ Current Features
 
+- **Complete Item Collection**: 83 items and clues across all 10 scenarios
+  - All adventures from the core book fully extracted
+  - Clues with location, importance level, and scenario tracking
+  - Objects with quantity, weight, value, and properties
 - Full support for Hunter (Character) and NPC types
   - **7 NPC Types**: Villagers, Adversaries, Creatures, Broken Ones, Threats, Objects*, Obstacles* (\*in development)
   - **3 NPC Categories**: Minor, Main, and Dark Presence
   - **3 Opposition Levels**: Easy (3), Normal (5), Hard (7)
 - Automatic dice roll system using custom macros (Powered by the Apocalypse inspired)
 - Full English language interface with Spanish translation available
-- Comprehensive compendium collection including:
+- **Comprehensive compendium collection** including:
   - Pre-generated Hunters and NPCs of all types
-  - Scenario-specific Gifts
-  - Environmental and background music
-  - Complete one-shot adventure (Red-Hood Iskra)
-  - 8+ additional scenarios extracted from core book
+  - **10 Complete Scenario Collections**:
+    1. Red-Hood Iskra (10 items)
+    2. A Soldier's Duty (6 items)
+    3. Wonderbedlam (6 items)
+    4. Tuvstarr's Reflection (7 items)
+    5. The City of Pigs (8 items)
+    6. Saint George - The Dragon Slayer (6 items)
+    7. OZena - The Suffering and Desperate (12 items)
+    8. The Smile in the Darkness (8 items)
+    9. Of Flesh and Wood (12 items)
+    10. One Thousand and One Nightmares (8 items)
+  - Scenario-specific Gifts for each adventure
+  - NPCs organized by scenario and type
+  - Environmental and background music playlists
+  - Maps in English and Spanish
 - Ready for extension: add more moves, gifts, conditions as needed
 
 ---
 
-## 🔮 Future Work (Optional)
+## � System Statistics (v1.1.0)
 
-- Advanced macros for quick activation of Gifts and Descriptors.
-- Compendiums with official Broken Tales powers and characters.
-- Advanced sheet styling and dynamic effects.
+- **Total Items & Clues**: 83 across 10 scenarios
+- **Pre-Generated Hunters**: 12+ playable characters
+- **NPCs**: 100+ across all scenario categories
+- **Scenarios**: 10 complete adventures
+- **Languages**: English, Spanish
+- **Foundry Compatibility**: v11 - v13.350
+
+---
+
+## 🔮 Future Work
+
+- Advanced macros for quick activation of Gifts and Descriptors
+- Automated XP tracking system
+- Interlude mechanics between sessions
+- Active Effects integration for conditions
+- Macro hotbar integration for Gifts
+- Dice So Nice module integration
+- Additional language support
 
 ---
 
