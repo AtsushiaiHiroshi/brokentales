@@ -141,9 +141,15 @@
     "Roll": {
       "Title": "Broken Tales Roll ({dice}d6)",
       "TitleWithDifficulty": "🎲 Broken Tales Roll",
+      "SomaBoostTitle": "⚡ Soma Boost Roll ({dice}d6)",
+      "DarkEgoTitle": "👿 Dark Ego Activation ({dice}d6)",
       "Character": "Character",
       "Results": "Results",
       "Successes": "Successes",
+      "TotalSuccesses": "Total Successes",
+      "BonusSuccesses": "Bonus Successes",
+      "SomaSpent": "Soma Spent",
+      "NotEnoughSoma": "{name} doesn't have enough Soma",
       "Difficulty": "Difficulty",
       "CriticalFailure": "❌ Critical Failure! A 1 was rolled.",
       "Failure": "❌ Failure. Needed {difficulty}, only got {successes} successes.",
@@ -154,6 +160,24 @@
       "MissingActor": "Could not identify the actor from the last roll.",
       "Error": "Something went wrong with the roll."
     },
+
+    "Dialog": {
+      "Continue": "Do you wish to continue?",
+      "ContinueTitle": "Continue",
+      "SpendSoma": "Spend {amount} Soma?",
+      "DeleteItem": "Delete this item permanently?",
+      "DeleteEffect": "Delete this effect permanently?",
+      "Yes": "Yes",
+      "No": "No"
+    },
+
+    "Error": {
+      "InvalidSoma": "The actor does not have a valid Soma attribute",
+      "InvalidAttributes": "The actor does not have the required attributes (Soma or Wounds)",
+      "NoDarkEgo": "The actor does not have a valid Dark Ego"
+    },
+
+    "Unnamed": "Unnamed",
 
     "Effects": {
       "Active": "Active Effects",
@@ -200,13 +224,6 @@
     "Confirm": "Confirm",
     "Yes": "Yes",
     "No": "No",
-
-    "Dialog": {
-      "Continue": "Do you want to continue?",
-      "SpendSoma": "Spend {amount} Soma?",
-      "DeleteItem": "Delete this item permanently?",
-      "DeleteEffect": "Delete this effect permanently?"
-    },
 
     "Notifications": {
       "SomaSpent": "{name} spent {amount} Soma",

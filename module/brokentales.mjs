@@ -9,6 +9,7 @@
 import { BROKENTALES, registerHandlebarsHelpers } from "./helpers/config.mjs";
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
 import { registerSystemSettings } from "./helpers/settings.mjs";
+import { continueDialog } from "./helpers/dialog.mjs";
 
 // Import document classes
 import { BrokenTalesActor } from "./documents/actor.mjs";
@@ -100,6 +101,214 @@ Hooks.once("ready", async function () {
     }
     return await actor.showRollDialog();
   };
+
+  // ✅ Add soma boost roll for macros
+  game.brokenTales.somaRoll = async (diceCount = 3, somaSpent = 1) => {
+    const actor = game.user.character;
+    if (!actor) {
+      ui.notifications.error(
+        game.i18n.localize("BROKENTALES.Roll.MissingActor")
+      );
+      return;
+    }
+
+    const soma = actor.system?.attributes?.soma;
+    if (!soma || typeof soma.current !== "number") {
+      ui.notifications.error(
+        game.i18n.localize("BROKENTALES.Error.InvalidSoma")
+      );
+      return;
+    }
+
+    if (soma.current < somaSpent) {
+      ui.notifications.warn(
+        game.i18n.format("BROKENTALES.Roll.NotEnoughSoma", {
+          name: actor.name,
+        })
+      );
+      return;
+    }
+
+    // Spend soma
+    await actor.update({
+      "system.attributes.soma.current": soma.current - somaSpent,
+    });
+
+    // Perform roll
+    const roll = new Roll(`${diceCount}d6`, actor.getRollData());
+    await roll.evaluate({ async: true });
+
+    const results = roll.dice[0].results.map((r) => r.result);
+    const hasCriticalFailure = results.includes(1);
+    const baseSuccesses = hasCriticalFailure
+      ? 0
+      : results.filter((r) => r >= 2).length;
+    const totalSuccesses = baseSuccesses + somaSpent;
+
+    // Build flavor message
+    let flavor = `<strong>${game.i18n.format(
+      "BROKENTALES.Roll.SomaBoostTitle",
+      {
+        dice: diceCount,
+      }
+    )}</strong><br>`;
+    flavor += `${game.i18n.localize(
+      "BROKENTALES.Roll.Results"
+    )}: [${results.join(", ")}]<br>`;
+    flavor += `${game.i18n.localize(
+      "BROKENTALES.Roll.SomaSpent"
+    )}: <strong>${somaSpent}</strong><br>`;
+
+    if (hasCriticalFailure) {
+      flavor += `<strong style="color:red;">${game.i18n.localize(
+        "BROKENTALES.Roll.CriticalFailure"
+      )}</strong>`;
+    } else {
+      flavor += `<strong style="color:blue;">${game.i18n.localize(
+        "BROKENTALES.Roll.TotalSuccesses"
+      )}:</strong> ${totalSuccesses}`;
+    }
+
+    // Send to chat
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor }),
+      flavor: flavor,
+    });
+  };
+
+  // ✅ Add Dark Ego activation roll for macros
+  game.brokenTales.darkEgoRoll = async (diceCount = 3, bonusSuccesses = 1) => {
+    const actor = game.user.character;
+    if (!actor) {
+      ui.notifications.error(
+        game.i18n.localize("BROKENTALES.Roll.MissingActor")
+      );
+      return;
+    }
+
+    const systemData = actor.system;
+    if (!systemData?.attributes?.soma || !systemData?.attributes?.wounds) {
+      ui.notifications.error(
+        game.i18n.localize("BROKENTALES.Error.InvalidAttributes")
+      );
+      return;
+    }
+
+    if (!systemData.darkEgo || !systemData.darkEgo.trigger) {
+      ui.notifications.error(game.i18n.localize("BROKENTALES.Error.NoDarkEgo"));
+      return;
+    }
+
+    // Perform roll
+    const roll = new Roll(`${diceCount}d6`, actor.getRollData());
+    await roll.evaluate({ async: true });
+
+    const results = roll.dice[0].results.map((r) => r.result);
+    const hasCriticalFailure = results.includes(1);
+    const baseSuccesses = hasCriticalFailure
+      ? 0
+      : results.filter((r) => r >= 2).length;
+    const totalSuccesses = baseSuccesses + bonusSuccesses;
+
+    // Build flavor message
+    let flavor = `<strong>${game.i18n.format("BROKENTALES.Roll.DarkEgoTitle", {
+      dice: diceCount,
+    })}</strong><br>`;
+    flavor += `<div><strong>${game.i18n.localize(
+      "BROKENTALES.Fields.DarkEgo"
+    )}:</strong> ${
+      systemData.darkEgo.gift || game.i18n.localize("BROKENTALES.Unnamed")
+    }</div>`;
+    flavor += `<div><em>${game.i18n.localize(
+      "BROKENTALES.Fields.Trigger"
+    )}:</em> ${systemData.darkEgo.trigger}</div><br>`;
+    flavor += `${game.i18n.localize(
+      "BROKENTALES.Roll.Results"
+    )}: [${results.join(", ")}]<br>`;
+    flavor += `${game.i18n.localize(
+      "BROKENTALES.Roll.BonusSuccesses"
+    )}: <strong>${bonusSuccesses}</strong><br>`;
+
+    if (hasCriticalFailure) {
+      flavor += `<strong style="color:red;">${game.i18n.localize(
+        "BROKENTALES.Roll.CriticalFailure"
+      )}</strong>`;
+    } else {
+      flavor += `<strong style="color:purple;">${game.i18n.localize(
+        "BROKENTALES.Roll.TotalSuccesses"
+      )}:</strong> ${totalSuccesses}`;
+    }
+
+    // Send to chat
+    roll.toMessage({
+      speaker: ChatMessage.getSpeaker({ actor }),
+      flavor: flavor,
+    });
+  };
+
+  // ✅ Add repeat last roll function for macros
+  game.brokenTales.repeatLastRoll = async () => {
+    const messages = game.messages.contents.slice().reverse();
+
+    for (const msg of messages) {
+      if (!msg.flavor || !msg.rolls) continue;
+
+      const isBrokenRoll =
+        msg.flavor.includes(game.i18n.localize("BROKENTALES.Roll.Title")) ||
+        msg.flavor.includes(
+          game.i18n.localize("BROKENTALES.Roll.TitleWithDifficulty")
+        ) ||
+        msg.flavor.includes(
+          game.i18n.localize("BROKENTALES.Roll.SomaBoostTitle")
+        ) ||
+        msg.flavor.includes(
+          game.i18n.localize("BROKENTALES.Roll.DarkEgoTitle")
+        );
+
+      const roll = msg.rolls[0];
+
+      if (isBrokenRoll && roll) {
+        const diceCount = roll.terms?.[0]?.number || 3;
+        const difficultyMatch = msg.flavor.match(
+          new RegExp(
+            `${game.i18n.localize(
+              "BROKENTALES.Roll.Difficulty"
+            )}\\s*:\\s*(\\d+)`,
+            "i"
+          )
+        );
+        const difficulty = difficultyMatch ? parseInt(difficultyMatch[1]) : 3;
+
+        const somaMatch = msg.flavor.match(
+          /Soma\s+(?:Bonus|Spent):\s*\+?(\d+)/i
+        );
+        const somaBonus = somaMatch ? parseInt(somaMatch[1]) : 0;
+
+        const actor = game.actors.get(msg.speaker?.actor);
+
+        if (!actor) {
+          ui.notifications.warn(
+            game.i18n.localize("BROKENTALES.Roll.MissingActor")
+          );
+          return;
+        }
+
+        // Repeat the roll
+        await game.brokenTales.rollWithDifficulty(
+          actor,
+          diceCount,
+          difficulty,
+          somaBonus
+        );
+        return;
+      }
+    }
+
+    ui.notifications.warn(game.i18n.localize("BROKENTALES.Roll.NoPrevious"));
+  };
+
+  // ✅ Add dialog utility
+  game.brokenTales.continueDialog = continueDialog;
 
   console.log("Broken Tales | System ready");
 });

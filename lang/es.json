@@ -141,9 +141,15 @@
     "Roll": {
       "Title": "Tirada de Broken Tales ({dice}d6)",
       "TitleWithDifficulty": "🎲 Tirada de Broken Tales",
+      "SomaBoostTitle": "⚡ Tirada con Soma ({dice}d6)",
+      "DarkEgoTitle": "👿 Activación de Ego Oscuro ({dice}d6)",
       "Character": "Personaje",
       "Results": "Resultados",
       "Successes": "Éxitos",
+      "TotalSuccesses": "Total de Éxitos",
+      "BonusSuccesses": "Éxitos Bonus",
+      "SomaSpent": "Soma Gastado",
+      "NotEnoughSoma": "{name} no tiene suficiente Soma",
       "Difficulty": "Dificultad",
       "CriticalFailure": "❌ ¡Fallo Crítico! Ha salido un 1.",
       "Failure": "❌ Fallo. Necesitabas {difficulty}, solo conseguiste {successes} éxitos.",
@@ -154,6 +160,24 @@
       "MissingActor": "No se pudo identificar al actor de la última tirada.",
       "Error": "Algo salió mal con la tirada."
     },
+
+    "Dialog": {
+      "Continue": "¿Deseas continuar?",
+      "ContinueTitle": "Continuar",
+      "SpendSoma": "¿Gastar {amount} Soma?",
+      "DeleteItem": "¿Eliminar este objeto permanentemente?",
+      "DeleteEffect": "¿Eliminar este efecto permanentemente?",
+      "Yes": "Sí",
+      "No": "No"
+    },
+
+    "Error": {
+      "InvalidSoma": "El actor no tiene un atributo de Soma válido",
+      "InvalidAttributes": "El actor no tiene los atributos necesarios (Soma o Heridas)",
+      "NoDarkEgo": "El actor no tiene un Ego Oscuro válido"
+    },
+
+    "Unnamed": "Sin nombre",
 
     "Effects": {
       "Active": "Efectos Activos",
@@ -200,13 +224,6 @@
     "Confirm": "Confirmar",
     "Yes": "Sí",
     "No": "No",
-
-    "Dialog": {
-      "Continue": "¿Desea continuar?",
-      "SpendSoma": "¿Gastar {amount} Soma?",
-      "DeleteItem": "¿Eliminar este objeto permanentemente?",
-      "DeleteEffect": "¿Eliminar este efecto permanentemente?"
-    },
 
     "Notifications": {
       "SomaSpent": "{name} gastó {amount} Soma",

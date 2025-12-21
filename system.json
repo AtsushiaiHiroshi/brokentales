@@ -29,7 +29,8 @@
     "module/sheets/item-sheet.mjs",
     "module/helpers/config.mjs",
     "module/helpers/templates.mjs",
-    "module/helpers/settings.mjs"
+    "module/helpers/settings.mjs",
+    "module/helpers/dialog.mjs"
   ],
   "scripts": [],
   "styles": ["templates/styles/brokentales.css"],
