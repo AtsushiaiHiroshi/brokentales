@@ -1,0 +1,49 @@
+{
+  "name": "Frog Face",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a wealthy, deformed noble, using my resources to achieve my purposes"
+    ],
+    "agenda": [
+      "Find someone truly in love and force them to kiss me to regain a normal appearance"
+    ],
+    "gifts": [
+      {
+        "name": "By Any Means",
+        "description": "Frog Face's only desire is to break the 'curse' that afflicts him. When he is trying to obtain something that obviously brings him closer to his goal, his Opposition Level becomes Hard 7."
+      },
+      {
+        "name": "True Love's Kiss",
+        "description": "After years of experimental medicine, Frog Face's saliva has acquired strange attributes. Whoever is kissed or licked by Frog Face will go into a daze for the rest of the Scene, lowering their Opposition Level by 2 (in the case of an NPC) or receiving 2 Penalties at each Check (in the case of a Hunter). A Hunter can make a Defense Check to resist the effects of True Love's Kiss."
+      }
+    ],
+    "background": "Once upon a time, the heir of a noble family was born deformed. His face was broad and covered with pustules, his eyes huge and yellow, and his skin a frog-like green. Destroyed by grief, the young man's mother wished to keep him hidden from the world until he came of age. However, his father's untimely death made him the new head of the family. Locked in a world of fairytales and lies by his mother, the young scion was convinced that he was the victim of a curse that only a kiss from someone truly in love could break. For years, Frog Face tried to find love and break the spell, receiving in return only rejection and contempt. On the verge of madness, Frog Face decided that if he couldn't have true love, he would take someone else's. Since that day, Frog Face travels accompanied by his trusty servant Heinrich. The two spy on people and when they find a couple in love, they kidnap one of the two lovers to snatch a kiss. This perpetuates a vicious circle of hope and disappointment that always culminates in the killing of those who, in the eyes of Frog Face, do not nurture a love pure enough to break the curse.",
+    "notes": "COMPANION: Heinrich the Trustworthy (see separate NPC)\nDescriptor: I am the old family coachman, the only one who knows the truth about my master. Over time, the grief for his fate has driven me mad.\n3 Wounds, OL Medium 5\nAgenda: To help my lord realize his crazy dream, preserving him from a truth he would not accept.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "The Frog Prince",
+    "role": "Deformed noble seeking true love's kiss through kidnapping and murder"
+  }
+}

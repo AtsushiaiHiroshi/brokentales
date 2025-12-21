@@ -1,0 +1,56 @@
+{
+  "name": "Sherazade - The Weaver of Tales",
+  "type": "npc",
+  "img": "icons/magic/symbols/runes-star-orange.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "biography": "Sherazade is an emissary of the One Who Plots in the Shadows, a powerful and enigmatic entity who weaves tales that trap souls within them. She appears as a mysterious storyteller whose words have the power to transport listeners into incredible worlds where they become characters in her narratives. Sherazade's true nature is unclear—she may be a spirit, a witch, a fae creature, or something entirely other. What is certain is that her stories are not mere entertainment; they are prisons, tests, and transformative experiences. When Sherazade tells a tale, the Hunters awaken within the story itself, living it from the inside, their memories of the real world fading like dreams. In the Tuvstarr's Reflection scenario, Sherazade has woven the Hunters into the tragic tale of Princess Tuvstarr and the corrupted kingdom. The Hunters must solve the mystery, make their choices, and see the story through to its conclusion before Sherazade will release them. She watches from outside the narrative, a detached observer interested in how her 'heroes' will act—will they succeed? Will they perish? Will they make the hard choices? Sherazade speaks in formal, theatrical language, always referring to the Hunters as 'our heroes' or 'dear hosts.' Her motivations are unclear, but she serves the One Who Plots in the Shadows, and her stories seem designed to test, change, or consume those who experience them. At the end of each tale, she bids farewell with gratitude, promising that 'our heroes will be caught in another story before too long...'",
+    "attributes": {
+      "soma": {
+        "current": 5,
+        "max": 5
+      },
+      "wounds": {
+        "current": 0,
+        "max": 5,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a weaver of tales whose words create living worlds",
+      "I serve the One Who Plots in the Shadows",
+      "I observe from outside the narrative, watching how the story unfolds",
+      "I speak in theatrical, formal language befitting a storyteller"
+    ],
+    "gifts": [
+      {
+        "name": "The Weaver of Tales",
+        "description": "Sherazade possesses the power to trap souls within stories she tells. **Story Prison:** When Sherazade tells a tale, listeners are transported into the narrative world, awakening as characters within the story. Their memories of the real world fade, and they must live through the tale to escape. **Narrative Control:** Within her stories, Sherazade controls the fundamental rules of the world (but not the choices characters make). She determines what is possible, what exists, and how events can unfold. **Observer Status:** Sherazade herself remains outside the story, watching events unfold. She cannot be harmed or interacted with by those trapped within the narrative. **Release Condition:** The only way to escape a Sherazade story is to see it through to its conclusion—solve the mystery, make the key choices, and reach an ending (happy or tragic)."
+      },
+      {
+        "name": "Scene Tree Architect",
+        "description": "Sherazade structures her stories as Scene Trees with branching paths and consequences. **Branching Narratives:** Her stories have multiple paths and outcomes based on the choices characters make. **Consequences Matter:** Actions taken in one scene affect what is possible in later scenes. **Multiple Endings:** Each story can conclude in different ways—triumph, tragedy, redemption, or damnation—depending on the characters' choices. **No Railroading:** While Sherazade sets the scenario, she does not force specific outcomes. Characters have true agency within the story's framework."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Test these heroes by trapping them in my stories and seeing how they respond",
+      "Serve the One Who Plots in the Shadows by gathering souls and experiences",
+      "Watch with interest as the narrative unfolds—will they succeed or perish?",
+      "Speak of future tales, for 'our heroes will be caught in another story before too long'"
+    ],
+    "notes": "Sherazade is a meta-entity who exists outside the normal NPC framework. She is not meant to be fought or defeated directly—instead, she represents the narrative structure itself. Voice: Theatrical, formal, storyteller's cadence, addresses Hunters as 'dear hosts' and 'our heroes.' Framing: Appears at the beginning ('Good evening my dear hosts...') and ending ('We have come to the end of this story... With gratitude, Sherazade the Weaver of Tales') of scenarios. Cannot be harmed or interacted with within her stories—she is outside the narrative looking in. Role: Serves the One Who Plots in the Shadows, suggesting she's gathering something from these experiences (souls? Stories? Character development?). Future implications: Her closing words always promise another story, suggesting she'll return to trap the Hunters in future scenarios. Special mechanics: Gifts can be acquired WITHOUT Interludes in her stories (unique rule). Use Sherazade for: 1) Framing one-shot adventures as 'stories within stories.' 2) Introducing new Hunters to the system through a trial-by-fire narrative. 3) Connecting to the One Who Plots in the Shadows' larger machinations. 4) Creating memorable, fairy-tale-like scenarios with strong themes and moral choices.",
+    "flags": {
+      "darkPresence": true,
+      "presenceType": "antagonist",
+      "inspiration": "Scheherazade from One Thousand and One Nights + meta-narrative storyteller",
+      "role": "Emissary of the One Who Plots in the Shadows, traps souls in living stories",
+      "connection": "Serves the One Who Plots in the Shadows"
+    }
+  }
+}

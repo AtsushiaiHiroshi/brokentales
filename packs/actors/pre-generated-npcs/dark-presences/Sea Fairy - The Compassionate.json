@@ -1,0 +1,51 @@
+{
+  "name": "Sea Fairy - The Compassionate",
+  "type": "npc",
+  "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "The Sea Fairy is an ancient and powerful being whose entire existence is tied to the ocean. She dwells in a pool at the center of a cave network beneath the steep cliffs, a place accessible only to those brave or desperate enough to navigate the dangerous descent and submerged tunnels. Six years ago, as Enar's body was consumed by fish in the depths, his heart—still beating with love for Satu—fell into the abyss and caught the Fairy's attention. Moved by the purity of love in such a wounded heart, she took pity on him and infused it with new life, using her powerful sea magic to regenerate his body. But the Fairy did not anticipate that Enar's accumulated hatred and resentment would drive him insane, twisting her gift of life into a curse of immortal vengeance. Now she is deeply sad because Enar has forsaken the love that kept him alive in favor of blind hatred. She would like to help him find peace, but she cannot leave the sea—doing so would destroy her. The Fairy guards Enar's heart at the bottom of the sea, the focus of his immortal existence. She knows it is the only way to truly end his suffering, but she needs someone from the land to bring Satu to say goodbye, or to destroy the heart if redemption is impossible. The Sea Fairy has heard of Marina the Sea Explorer and knows her reputation for using powers selfishly to enrich herself. She will never agree to help Marina unless the Hunter first proves she is capable of good deeds and selfless acts.",
+    "attributes": {
+      "soma": {
+        "current": 3,
+        "max": 3
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a fairy of the sea and my magic allows me to perform true miracles",
+      "My entire existence is tied to the sea and leaving it would destroy me",
+      "I am sorrowful that my gift to Enar was twisted by his hatred",
+      "I have heard of Marina and know her reputation for selfishness"
+    ],
+    "gifts": [
+      {
+        "name": "Sea Magic",
+        "description": "The Sea Fairy wields powerful magic tied to the ocean and can perform miracles. The Fairy can always use one of the following effects: **1. Water of Life:** A target within 30 feet recovers 1 Wound. If the target has been dead for no more than a day, they can even come back to life with their soul restored. This is true resurrection magic. **2. The Fury of the Sea:** The water of the sea rises up and engulfs everything in a 30-foot radius, sweeping away all threats. Those within the area must pass a Defense Check against OL Hard 7 or be overwhelmed by the waves, thrown away, and suffer 1 Wound. The Sea Fairy can deliberately choose to protect specific individuals in the area. **3. The Waves of the Sea:** The Sea Fairy can travel instantaneously to any point in the ocean within 6 miles. If she desires, she can take up to 2 subjects with her through the water. This allows her to guide someone to Enar's heart at the bottom of the sea."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "I am sad because Enar has forsaken the love that kept him alive in favor of blind hatred",
+      "I would like to do something for him, but I cannot go to the mainland to stop his fury or find his beloved",
+      "I will never agree to help Marina unless she first shows me that she is capable of good deeds"
+    ],
+    "notes": "The Sea Fairy is neutral but leans toward helping the Hunters if they prove worthy. Voice: Melodic, tinged with sadness, speaks in poetic language. She resurrected Enar out of compassion but regrets how it turned out. She guards his heart at the sea bottom and can guide one person there via 'Waves of the Sea' if convinced to help. Requirement: Hunters must prove good intentions toward Enar (not just kill him, but give him peace). Special Marina interaction: Refuses to help Marina initially due to her selfish reputation; Marina must perform a selfless good deed first to earn her trust. If killed by Marina, becomes 'Coral of the Sea Fairy' scenario gift (see scenario gifts). Cannot leave the sea—going on land destroys her. Erik recognizes shells from her caves on Enar's body (Day 2 clue). Lives in central pool of cave network beneath the cliff. Knows the full truth of Enar's story. Can resurrect the dead (powerful ally if befriended). Will kill Christian if he comes alone on Day 2 (she knows he helped execute Enar)."
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "The Little Mermaid and sea fairy folklore",
+    "role": "Tragic enabler who granted Enar immortality, now seeks to undo her mistake",
+    "specialInteraction": "Refuses to help Marina unless she proves capable of selflessness"
+  }
+}

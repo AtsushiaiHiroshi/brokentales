@@ -1,0 +1,44 @@
+{
+  "name": "Lowe the Brave Fighter - The Transformed Coward",
+  "type": "npc",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Lowe was once called a coward—a lion-faced man who adapted to whoever seemed to be winning, never standing firm for anything. But through his journey with Dorothea (OZena) and the trials they faced, Lowe has undergone a dramatic transformation. He has found his courage and embraced true heroism. Now Lowe the Brave Fighter stands firm when others flee, speaks with confidence, and meets eyes directly. He no longer adapts to the winning side—he has chosen his loyalty (to Henkle or to the Hunters depending on Dorothea's fate and how the previous scenarios concluded) and defends it without wavering. His transformation represents the completion of a character arc, from cowardly opportunist to genuine hero. When the Hunters encounter him in Smaragd, he will either stand as their enemy (defending Henkle) or as a potential ally (if Dorothea vouched for them or if he's been shown evidence of Henkle's betrayal). His presence is commanding and his newfound courage is infectious to allies around him. If he survives the confrontation and is redeemed, Lowe thanks the Hunters for showing him that courage isn't the absence of fear—it's acting despite it. He may become a Hunter himself or return to his own time to live boldly.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I was called a coward, but I have found my courage",
+      "I am a lion-faced warrior who stands firm when others flee",
+      "I will protect those I care about, no matter the cost",
+      "My loyalty is chosen, not purchased"
+    ],
+    "gifts": [
+      {
+        "name": "Hero",
+        "description": "Lowe has overcome his cowardice and embraced heroism. **Fearless:** Immune to fear effects and mind control attempts. **Inspiring Presence:** Allied NPCs within 30 feet gain +1 to their Opposition Level when fighting alongside Lowe. **Last Stand:** When reduced to 0 Wounds, Lowe can take one final dramatic action before falling unconscious (attack, speech, or helping an ally)."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Defend those I've chosen to protect",
+      "Prove that courage can be found, not just born with",
+      "Stand firm regardless of who seems to be winning"
+    ],
+    "notes": "Lowe's transformation is complete—he no longer exhibits cowardly behavior. If shown evidence of Henkle's betrayal, he turns against the doctor immediately, heartbroken but resolute. He works well with Hirnloser and Dose as a coordinated team. Voice: Strong and confident, no longer hesitant. Mannerisms: Direct eye contact, protective stance. If redeemed, he offers to help the Hunters in future scenarios."
+  }
+}

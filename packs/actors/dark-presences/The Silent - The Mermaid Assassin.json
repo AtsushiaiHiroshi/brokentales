@@ -1,0 +1,50 @@
+{
+  "name": "The Silent (The Mermaid Assassin)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an unscrupulous killer, I hate humanity and the body to which I am condemned",
+      "My voice is reduced to a faint whisper, which weakened my Siren powers but did not take them away"
+    ],
+    "agenda": [
+      "I work for anyone who can afford to pay with magic and arcane items, which I intend to use to become a Mermaid again"
+    ],
+    "gifts": [
+      {
+        "name": "The Siren's Whisper",
+        "description": "The Silent has given away her voice, but she can still whisper. Any opponent acting against the Silent must pass a Defense Check before taking their action, or be dazed and miss the opportunity to act. A target cannot be affected by this Gift more than once per Scene."
+      },
+      {
+        "name": "The Siren's Charm",
+        "description": "The Silent possesses an otherworldly beauty that can awaken the lustful desire of those around her. Once per Scene, if the Silent wants, every subject in her presence will receive the Descriptor: I desire the Silent with all my heart and would do anything to have her. A Hunter can make a Defense Check to resist. Particularly powerful NPCs, at the discretion of the Storyteller, may not succumb to the Siren's Charm."
+      }
+    ],
+    "background": "Once upon a time, there was a young Mermaid who was captured by a fisherman. Sensing her worth, the greedy fisherman gave the Mermaid as a tribute to the local nobleman. He displayed her as an exotic animal, fascinating everyone, but particularly the nobleman's son. Over time, the young man began to look at the Mermaid with different eyes, and his curiosity turned into passion. The young Mermaid was consumed by a forbidden desire, which led her to feel sincere love for her prince. The feeling was, unfortunately, not reciprocated. As soon as the opportunity arose, the nobleman's son left the family home to get married. The Mermaid was sold to a circus, destined to end her days as a sideshow monster frightening fools with her misery. The meeting with a mysterious witch named Marina changed her destiny. In exchange for her voice, she obtained a shapeshifting potion. \"Be careful,\" said the witch. \"Do you really wish to give up what you are to pursue a fleeting love?\" The Mermaid didn't think twice about it and drank the potion to become fully human. She returned to her prince only to find that he barely remembered her and their time together. The Mermaid's heart darkened. On a full moon night, she drank the blood of her lost love, and with it that of his entire new family.",
+    "notes": "SPECIAL AGENDA (Marina the Sea Explorer): I hate Marina for what she did to me. Even though she warned me about what would happen, her power can ruin people's lives. I want her to make me a Mermaid again before I kill her.\n\nThe Silent is a tragic assassin-for-hire. Her Siren's Whisper forces Defense Checks before enemies can act, and her Charm can turn entire groups against each other. She works only for payment in magic items that might restore her true form. Extremely dangerous in social situations.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "The Little Mermaid",
+    "role": "Tragic mermaid-turned-assassin seeking to reclaim her true form"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Saint Theodore - The Furious",
+  "type": "npc",
+  "img": "icons/weapons/axes/axe-double-engraved-red.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Saint Theodore is one of Saint George's six Paladins, and he is consumed by the ecstasy of battle. For Theodore, combat is the sweetest of pleasures—a religious experience that brings him closer to divine purpose. His fury in battle makes him one of the most dangerous Paladins. Theodore always inflicts additional wounds when he strikes, and even successful Defense Checks cannot fully protect against his rage-fueled attacks. The only way to avoid his bonus damage is to spend an Increment to nullify it. In combat, Theodore is aggressive and relentless, seeking out the strongest opponents and engaging them with wild abandon. He laughs during battle, quotes scripture with fervor, and treats each exchange of blows as a sacrament. Unlike Demetrius who protects, or Martha who shows compassion, Theodore exists to destroy those Saint George has deemed enemies. His weakness is his predictability—his love of battle means he can be baited, manipulated into charging, or separated from his fellow Paladins by appealing to his desire for glorious combat. However, underestimating Theodore is fatal. He's an expert warrior whose fury is backed by years of training. He views the Hunters as worthy opponents—monsters who will provide him with the greatest battle of his life. Smart Hunters will find ways to neutralize him without engaging in direct combat, as facing him head-on plays to his greatest strength.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "The ecstasy of battle is for me the sweetest of pleasures"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - Furious",
+        "description": "Theodore always inflicts 1 Additional Wound when raging against an enemy. He still inflicts 1 Wound even if the Defense Check is a successful Outcome. The only way to avoid the effect of this Gift is to spend an Increment to cancel the Wound. This means Theodore is guaranteed to deal at least 1 Wound on every attack unless the defender has Increment available. When he achieves a successful attack normally, he deals 2 Wounds total (1 base + 1 from Furious)."
+      }
+    ],
+    "conditions": [],
+    "notes": "Theodore is Paladin #3 (roll 1d6 to determine). Most dangerous in direct combat—ALWAYS deals at least 1 Wound unless Increment spent. Predictable due to battle-lust: can be baited, separated, or manipulated into charging. Laughs during combat, quotes scripture fervently, treats battle as sacrament. Seeks strongest opponents. Avoid engaging him directly if possible—neutralize through environment, traps, or forcing him to waste attacks on obstacles. Voice: Loud, passionate, laughs frequently. Mannerisms: Aggressive stance, eager movements, grins during combat."
+  }
+}

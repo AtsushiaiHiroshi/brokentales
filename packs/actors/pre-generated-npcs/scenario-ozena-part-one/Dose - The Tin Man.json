@@ -1,0 +1,54 @@
+{
+  "name": "Dose - The Tin Man",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I suffer from leprosy and other diseases",
+      "To protect others from contagion, I sealed myself in metal armor",
+      "I cannot feel anything through the metal, and I fear I am becoming hollow inside, losing my humanity piece by piece"
+    ],
+    "agenda": [
+      "Protect my companions",
+      "Find a cure so I can feel again",
+      "Prevent myself from becoming a monster"
+    ],
+    "gifts": [
+      {
+        "name": "Of Steel",
+        "description": "Dose's entire body (except for a small door over his heart) is covered in crude metal armor bolted and strapped onto him. He is immune to all physical attacks unless: 1) An attacker specifically targets the heart door (requires 1 Increment from their Outcome), or 2) An attack is magical or supernatural in nature. When the heart door is opened or targeted, Dose loses this immunity for the rest of the Scene."
+      },
+      {
+        "name": "Giant",
+        "description": "Dose has 1 additional Wound beyond what his importance would normally grant."
+      }
+    ],
+    "background": "Dose was a patient from early 1900s America who suffered from leprosy and other contagious diseases. To protect others from infection, he sealed himself in crude metal armor bolted and strapped to his body. The armor prevents him from feeling anything—no touch, no warmth, no pain. Over time, Dose has begun to fear he's becoming hollow inside, losing his humanity piece by piece like rust eating away at metal. He was thrown back in time by Dr. Henkle's malfunctioning Compass Rose along with OZena and the others. He follows OZena hoping to find a cure that will allow him to feel again. He helps kidnap Klaus in the swamp to test the Hunters' character.",
+    "notes": "ROLEPLAYING:\n- Voice: Muffled and echoing through his helmet\n- Mannerisms: Stiff, mechanical movements; constantly adjusts his armor\n- Pathos: Desperately wants to feel something, anything\n\nWEAKNESS: The small door over his heart is his only vulnerability. Targeting it requires skill (1 Increment from Outcome) but negates his armor immunity for the rest of the Scene.\n\nKEY MOMENT: If the Hunters show Dose compassion, he's deeply moved and may refuse to fight them later. His humanity is the key to his redemption.\n\nDEVELOPMENT: In Part Three of the campaign, he falls in love and his heart returns—metaphorically regaining his lost humanity.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz - Tin Man",
+    "role": "Armored companion seeking to regain feeling and humanity",
+    "timeDisplaced": true,
+    "originalEra": "Early 1900s America"
+  }
+}

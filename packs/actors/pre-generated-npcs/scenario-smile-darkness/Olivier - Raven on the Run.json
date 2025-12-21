@@ -1,0 +1,39 @@
+{
+  "name": "Olivier - The Raven on the Run",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": false,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I'm a thug always looking to fill my pockets with coin, no matter how dirty the job."
+    ],
+    "agenda": [
+      "Collect the money I have hidden in the catacombs and flee far from Paris before the fire spirit finds me"
+    ],
+    "gifts": [],
+    "background": "A barely eighteen-year-old boy who works for Father Adrien as part of the Ravens, smugglers who transport absinthe through the catacombs. Olivier witnessed Adrien murder Yvonne but stayed silent. Now Yvonne's spirit is hunting him - his companion Thierry has already been burnt alive. Olivier confided in Adrien but realized the priest would do nothing to help him. Now desperately trying to collect his hidden money and leave the city before nightfall. If found before sunset, will be preparing his escape at the Ravens' Hideout. If not found in time, his charred corpse will be discovered after 10pm.",
+    "notes": "Time-sensitive NPC - must be found before nightfall to save him. Will reveal the truth about Yvonne's death if put under pressure. Knows about Adrien's absinthe operation and connection to the Ravens.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "The Smile in the Darkness",
+    "inspiration": "The Little Match Girl (Hans Christian Andersen)",
+    "role": "Victim - Witness"
+  }
+}

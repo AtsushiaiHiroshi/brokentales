@@ -1,0 +1,38 @@
+{
+  "_id": "AlissaNorfolk",
+  "name": "Alissa of Norfolk",
+  "type": "npc",
+  "img": "icons/environment/people/commoner-woman-tan.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I have been physically tested by my stay in Wonder",
+      "My mind is still strong",
+      "My love for Alicia kept me in the real world"
+    ],
+    "agenda": "Escape from Wonder and my old life and make a future with Alicia",
+    "background": "Alissa is the daughter of the Duke of Norfolk himself. Five months ago, she was taken to Wonder asylum due to her 'too rebellious and unseemly attitude for a young noblewoman.' The truth is that Alissa had refused several promising marriage proposals to remain with her lover Alicia, indifferent to her duty as the Duke's heir. After the first month at Wonder, her letters to her family became more and more terrified and delusional, until they abruptly ceased. According to her words, Wonder is hell on earth where strange presences move in the dark rooms. When she proved incredibly resistant to Alice's 'cures,' the Director imprisoned her in the Hall of the Mind, invading her mind daily with nightmares to quell her rebellious spirit. Despite the physical toll, her love for Alicia has kept her mind strong and anchored to reality."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "rescue-target",
+    "relationship": "lover-of-alicia",
+    "status": "imprisoned-hall-of-mind"
+  }
+}

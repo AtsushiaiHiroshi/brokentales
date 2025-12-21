@@ -1,0 +1,41 @@
+{
+  "_id": "CaterpillarWonderlands",
+  "name": "Caterpillar of the Wonderful Lands",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/worm-slug-green.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a huge carnivorous caterpillar over two meters long",
+      "I feed on fresh meat and then lay my eggs in the carcasses of creatures I've devoured"
+    ],
+    "gifts": [
+      {
+        "name": "Hunter Caterpillar",
+        "description": "When a Caterpillar moves, any human-sized subject in its path risks being overwhelmed. Whoever is in the Caterpillar's way must perform a Defense Check in order not to end up knocked down. The Caterpillar inflicts 1 Additional Wound against people prone on the ground."
+      }
+    ],
+    "background": "These horrifying creatures inhabit the Caterpillars' Greenhouse, one of the three Cure Rooms in Wonder. Massive carnivorous caterpillars over two meters long, they hunt patients who wander into their domain, feeding on fresh meat and using corpses to lay their eggs. The dense yellow fog and alien plants of the greenhouse provide perfect cover for their hunting."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "greenhouse-predator",
+    "location": "caterpillars-greenhouse"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "The Wishing Well's Price",
+  "type": "item",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-jagged-blue.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Three: The Emerald Village",
+    "description": "You have learned the truth about Smaragd's Wishing Well: it grants wishes, but corrupts them in cruel ways. The villagers prove this—one wished for wealth and became living gold statue, another for eternal beauty and became porcelain doll, another to never sleep and went mad from exhaustion. You can make ONE wish at the well, but you understand the price. Before wishing, make a Check vs OL Hard (7): on success, phrase your wish carefully enough that corruption is minimized (GM interprets fairly but still with consequence). On failure, wish is granted in most twisted way possible. Alternatively, use your knowledge to resist the well's temptation: once per Scene, when an NPC or enemy tries to use the well, you can intervene and explain the cost—make Social Check to convince them. This represents wisdom to see through false promises.",
+    "tags": ["knowledge", "temptation", "wishes", "wisdom"],
+    "requirements": "Investigate the Villagers of Emerald and learn their wish-corruption stories, OR witness Henkle or enemy using the well",
+    "somaCost": 0,
+    "limitations": "You can only make ONE wish per campaign—choose wisely. If you wish for something selfless (helping others, stopping Henkle, saving companions), GM should minimize corruption. Selfish wishes corrupt more severely. The well cannot grant impossible wishes (resurrection, time travel without Compass Rose, true love). Some villagers may become hostile if you try to destroy their 'gift' even if it's a curse."
+  }
+}

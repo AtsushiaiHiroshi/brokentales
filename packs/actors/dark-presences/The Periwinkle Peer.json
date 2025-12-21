@@ -1,0 +1,51 @@
+{
+  "name": "The Periwinkle Peer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the best at everything I do and I must win every challenge",
+      "I do not excel in science and academic knowledge, but no one must discover this weakness of mine",
+      "I prefer to show off my physical prowess and skill"
+    ],
+    "agenda": [
+      "I must prove my perfection, even if it means drowning doubters in blood"
+    ],
+    "gifts": [
+      {
+        "name": "Obsession for Perfection",
+        "description": "The Periwinkle Peer draws strength from the drive to win every challenge. When an enemy succeeds in a Defense Check against his action, the Peer gets +1 to his Opposition Level for the rest of the Scene. This bonus is cumulative. Once per Scene, when the Peer receives his final Wound, he will mock his enemy in a fit of rage and grit his teeth to keep from being knocked out, immediately recovering 1 Wound."
+      },
+      {
+        "name": "Divine Charm",
+        "description": "The Periwinkle Peer possesses good looks and charm out of the ordinary. With his mere presence, he is able to beguile anyone. During a Scene in which he is present, the Storyteller can create an Agenda for a Minor NPC that describes their infatuation with the Peer. This Agenda is more important than all of the NPC's past ties, and also any pacts they might have struck with the Hunters. The Peer can also influence Major NPCs (at the Storyteller's discretion) or a Hunter. In this case, the Player will create a Descriptor that represents how The Periwinkle Peer impressed the Hunter. This new Descriptor lasts until the next Interlude and can be marked as usual to get XP."
+      }
+    ],
+    "background": "Once upon a time, there was a handsome nobleman born the heir to a wealthy family. The Young Lord was famous for his prized, periwinkle blue cloak, which would catch every eye whenever he entered a room. But despite everyone's admiration and every young woman claiming him as a lover, the lordling was obsessed with only one thing: perfection. The Young Lord's parents were the only ones who knew of their son's bedeviling compulsion, which in the past had driven him to kill his brother, executed for the crime of being a better horseman. Blinded by love, the Young Lord's parents pushed him into a military career. The Young Lord rose through the ranks quickly, driven as he ever was to excel. Then, he learned of sordid intrigues that could be used to garner preferment and promotion. His madness resurfaced, eventually driving him to murder once more. A wanted man and a deserter, today the Young Lord wanders endlessly, always looking for challenges to prove his superiority, putting himself at the service of anyone who praises his perfection.",
+    "notes": "The Periwinkle Peer is a dangerous sociopath driven by an obsession with perfection. His Obsession for Perfection gift makes him progressively more dangerous as the fight continues, and he can recover from what should be his final wound. His Divine Charm makes him incredibly manipulative, able to turn NPCs and even Hunters against each other. Be careful engaging with him - flattery will draw his attention, but criticism might trigger murderous rage.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "Prince Charming",
+    "role": "Charming but sociopathic perfectionist and murderer"
+  }
+}

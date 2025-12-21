@@ -5,7 +5,7 @@
  */
 
 export async function preloadHandlebarsTemplates() {
-  return loadTemplates([
+  return foundry.applications.handlebars.loadTemplates([
     // Actor partials
     "systems/brokentales/templates/actor/parts/actor-features.html",
     "systems/brokentales/templates/actor/parts/actor-items.html",

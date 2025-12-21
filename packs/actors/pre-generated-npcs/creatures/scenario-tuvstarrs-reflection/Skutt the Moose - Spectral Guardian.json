@@ -1,0 +1,42 @@
+{
+  "_id": "SkuttMoose",
+  "name": "Skutt the Moose - Spectral Guardian",
+  "type": "npc",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a majestic and magnificent moose",
+      "Ravaged by the decay of death and Tuvstarr's magic which keeps me alive"
+    ],
+    "agenda": "I have to find someone to save Tuvstarr from the black pond and the illusion she fell into, because I can't get in / Protect Tuvstarr above all else, even if it means having the world rot away",
+    "gifts": [
+      {
+        "name": "Spectral Presence",
+        "description": "Skutt cannot truly be eliminated as long as Tuvstarr's wish keeps him alive. The moose can move through fog, disappearing and reappearing even many feet away. Within the fog, no one can stop or impede Skutt's movement. When he suffers his third Wound, Skutt falls apart, only to revive in the following Scene."
+      }
+    ],
+    "background": "Once the majestic King of the Woods, Skutt met Princess Tuvstarr and couldn't refuse when she asked to see the world. He took her to the black pond where wishes come true, but when she disappeared into the waters, a crack appeared in the sky and froze the sun forever. When a knight attacked him, Skutt killed the warrior but was mortally wounded by a spear. However, Tuvstarr's wish that he exist forever wouldn't let him die. Now he is rotting, crawling with worms that hatch into ghostly moths around his horns. A torn knightly cloak hangs from his antlers, and a spear remains half-driven into his body. He wanders in shame, surrounded by fog and the stench of death, desperately seeking someone who can save Tuvstarr without endangering her."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "tragic-guardian",
+    "status": "undead-spectral"
+  }
+}

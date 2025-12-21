@@ -1,0 +1,47 @@
+{
+  "name": "OZena (Dorothea Gray)",
+  "type": "npc",
+  "img": "icons/equipment/feet/boots-armored-steel.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Dorothea Gray was a young woman in early 1900s America with dreams of becoming a doctor. Her life was destroyed when she contracted ozena—a terrible degenerative disease that slowly destroyed her nasal cavity, leaving her face hideously disfigured and making her a social outcast. Desperate for a cure, she sought out Dr. Norman Henkle, a brilliant but unscrupulous researcher who claimed to have a treatment. What Henkle actually possessed was the incomplete Compass Rose, a powerful artifact capable of throwing people through time and space. The malfunctioning Compass Rose threw Dorothea and three other patients—along with Henkle himself—backward in time to 1780 Germany, into the heart of the Black Forest. Trapped in a fairy tale world where her modern disease was incomprehensible to 18th-century people, Dorothea's desperation turned to madness. Henkle manipulated her, claiming the four witches who held pieces of the Compass Rose were evil and must be eliminated to gather the artifact, activate it, and return home with a cure. Dorothea became OZena—a killer who hunts witches while accompanied by three other displaced patients: Lowe (suffering from leontiasis), Hirnloser (a psychiatric patient), and Dose (afflicted with leprosy). She wears a silver mask to hide her disfigurement and magical Silver Slippers that allow her to teleport. OZena is a tragic figure—once a good person, broken by suffering and manipulation. She has already murdered Johanne in the Black Village and possibly Margareta in the Yellow Village. With each killing, she becomes more monstrous, but she's too desperate to stop. Every witch she kills weighs on her conscience, but Henkle keeps promising that just one more piece will be enough. Deep down, Dorothea knows she's become a murderer, but she can't face that truth while hope for a cure remains. Her companions are increasingly troubled by what they're becoming. If the Hunters can show her evidence of Henkle's manipulation and lies, she may be redeemed. But if left unchecked, OZena will kill all four witches and help Henkle activate the Compass Rose—an act that could tear reality apart.",
+    "descriptors": [
+      "I suffer from ozena, a disease that destroyed my nose and my life",
+      "I was thrown back in time and the only way home is to gather the pieces of the Compass Rose",
+      "I will do whatever it takes to end my suffering—even murder",
+      "I wear a silver mask to hide my disfigurement and Silver Slippers to teleport"
+    ],
+    "agenda": [
+      "Collect all four pieces of the Compass Rose by any means necessary",
+      "Return home to my own time where I might find a cure",
+      "End my physical and psychological suffering",
+      "Protect my companions Lowe, Hirnloser, and Dose",
+      "Prove to myself that the witches I killed deserved it"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "The Silver Slippers",
+        "description": "OZena wears a pair of enchanted silver shoes that allow her to teleport in two ways. **Short-Range Teleport:** Once per Exchange, OZena can teleport up to 30 feet to any location she can see. This doesn't count as an action and can be used to avoid attacks, reposition instantly, or surprise enemies. **Long-Distance Teleport:** Once per Scene, OZena can teleport to any location within 1 mile that she has previously visited. This requires her full action but allows her to escape almost any situation or arrive exactly where she needs to be. The Silver Slippers are permanently attached to her feet through fairy tale magic and cannot be removed without killing her. If she dies, the Slippers can be recovered as a powerful artifact.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "OZena is the tragic protagonist-turned-antagonist of the Ozena campaign. She represents what happens when desperation and manipulation break a good person. Her roleplaying should emphasize: Voice muffled by her silver mask, tinged with pain and desperation; keeps one hand on her mask self-consciously; eyes constantly scanning for threats or escape routes; moves with purpose and efficiency. She was genuinely good once—wanted to help people as a doctor—but suffering and Henkle's lies have twisted her. Every witch she kills makes her more monstrous internally even as she tries to justify it. Her redemption is possible if Hunters show her: evidence of Henkle's lies about the witches being evil, proof that he's been withholding potential cures to maintain control, his plans to abandon her once he has what he needs, or compassion for her suffering rather than just judgment. If redeemed, she removes her mask (accepting her disfigurement), vows to stop Henkle, and reveals his plans. She can become an ally for Part Three. If killed or left unredeemed, her death is tragic—a victim who became a villain. Her final words might be about wanting to go home or asking if the Hunters think she was evil. The One Who Plots in the Shadows orchestrated her entire story as a pawn to destabilize the Black Forest region."
+  }
+}

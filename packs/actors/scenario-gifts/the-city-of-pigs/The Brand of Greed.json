@@ -1,0 +1,13 @@
+{
+  "name": "The Brand of Greed",
+  "type": "item",
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "Bardolf Greed has granted you The Brand of Greed, a special pass that marks you as one of his trusted associates. This ornate document bears Bardolf's personal seal and signature, and it is recognized throughout Whitehaven as a symbol of ultimate authority. With The Brand, you get free access to any place in the city—factories, the slaughterhouse, the mine, even Greed's mansion—without anyone being able to object to your entrance. Guards, workers, and officials must comply immediately or face Bardolf's wrath. Additionally, you get 1 Additional Success when you exploit the Brand's importance and Bardolf's backing against any city dweller. Threaten them with Bardolf's displeasure, demand cooperation in his name, or leverage his resources—the Brand makes it clear you speak with his voice. However, carrying The Brand also marks you as an enemy to the Pig Heads and workers' rebellion. Arthur, Frank, and Clarence will see you as Bardolf's agent and tool of oppression.",
+    "somaCost": 0,
+    "requirement": "Gain the trust and respect of Bardolf Greed by demonstrating cunning, ability, and willingness to put productivity and profit above workers' lives.",
+    "scenario": "The City of Pigs",
+    "notes": "This Gift represents siding with industrial tyranny over workers' rebellion. Bardolf only trusts those who demonstrate his own values: ruthlessness, cunning, and prioritizing property over people. The free access to all locations is incredibly powerful for investigation but comes with a moral cost. The +1 Additional Success when exploiting the Brand against city dwellers makes social encounters easier but reinforces your position as Bardolf's enforcer. The Browne brothers will react with hostility—any attempt to negotiate with them while carrying The Brand receives penalties. This Gift creates fascinating moral dilemmas: use Bardolf's authority to stop the Pig Heads' violence, or recognize that the workers have legitimate grievances? The Brand can also be used cleverly—forge documents in Bardolf's name, access restricted areas to gather evidence against him, or even frame him for crimes. Storytellers should emphasize how workers react to seeing The Brand: fear, resentment, and disgust. This Gift is most useful for Hunters who want to infiltrate Bardolf's organization or who genuinely believe the Pig Heads' revolution will cause more harm than good."
+  }
+}

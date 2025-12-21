@@ -1,0 +1,21 @@
+{
+  "_id": "IskrasWolfMask",
+  "name": "Iskra's Wolf Mask",
+  "type": "descriptor",
+  "img": "icons/equipment/head/mask-carved-wood-tan.webp",
+  "system": {
+    "description": "A rudimentary wooden mask carved by Iskra's own hands to hide her face. The mask depicts a wolf's features and serves both to conceal her identity and to express her adopted nature as part of Greskar's wolf pack. The craftsmanship is crude but effective, showing her adaptation to survival in the wild.",
+    "type": "item",
+    "uses": {
+      "value": 0,
+      "max": 1
+    },
+    "isImprovement": false,
+    "isDarkEgo": false
+  },
+  "flags": {
+    "scenarioId": "red-hood-iskra",
+    "location": "Worn by Iskra",
+    "importance": "iconic-item"
+  }
+}

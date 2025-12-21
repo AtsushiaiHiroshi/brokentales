@@ -1,0 +1,43 @@
+{
+  "_id": "GallantKnight",
+  "name": "The Gallant Knight",
+  "type": "npc",
+  "img": "icons/equipment/shield/heater-steel-boss-red.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a respected and experienced knight of the kingdom",
+      "My skill is only matched by my honor"
+    ],
+    "agenda": "Respect my knightly duties and serve the young Princess Tuvstarr / Save the kingdom from what's happening",
+    "gifts": [
+      {
+        "name": "Gallant Knight",
+        "description": "The Knight is incredibly skilled, but he would never use his full abilities against anyone he doesn't consider truly evil. When defending against an enemy attack, his mastery increases his OL by 1. The Knight will never inflict the final Wound on a target if he doesn't feel it truly deserves death."
+      }
+    ],
+    "background": "An old but strong knight sent by the King and Queen to retrieve Princess Tuvstarr. He found his way to the black pond, entered the deep waters, and arrived in the Dream World. There, his grey hair became less grey, his pains lessened, and old wounds became mere white scars. When he met Tuvstarr and tried to bring her back, she offered to let him stay in this paradise. He agreed, vowing to protect her from any threat, abandoning his quest. He sits under a tree eating an apple, his sword beside him. However, he can be convinced to pick up his quest once more if told that his brothers all died in the search and shown the two-tailed fox crest of his fallen comrade. He carries the Lance of the Fallen Knight and will ask for it to be returned to the castle in the real world."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "tempted-hero",
+    "location": "dream-world",
+    "status": "can-be-convinced"
+  }
+}

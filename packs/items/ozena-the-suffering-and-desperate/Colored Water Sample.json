@@ -1,0 +1,13 @@
+{
+  "name": "Colored Water Sample",
+  "type": "object",
+  "img": "icons/consumables/potions/potion-bottle-corked-labeled-yellow.webp",
+  "system": {
+    "description": "A vial containing water from the village well. The liquid has an unnatural yellow tint and seems to shimmer slightly in the light.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 0,
+    "equipped": false,
+    "properties": ["Investigation tool", "May cause strange dreams"]
+  }
+}

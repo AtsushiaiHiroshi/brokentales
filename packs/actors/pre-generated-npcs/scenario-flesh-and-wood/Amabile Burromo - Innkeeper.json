@@ -1,0 +1,37 @@
+{
+  "name": "Amabile Burromo - Innkeeper",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a skilled business owner and I manage my inn without delegating anything to anyone. I trust myself only."
+    ],
+    "agenda": ["To make profitable deals, without worrying about scruples"],
+    "gifts": [],
+    "background": "The greedy owner of Villa Balocchi, a sumptuous recently refurbished inn on the edge of Sinalunga. Amabile is in open competition with the historic town inn, the Gambero Rosso. He provides lodging for Carlo, letting the puppet sleep in a small back room. Carlo pays with stones temporarily turned into gold coins through his lies - Amabile has thrown them into his safe without noticing the trick yet. Cares only about profit and asks no questions about his guests.",
+    "notes": "Unscrupulous businessman. Will eventually discover Carlo's payment fraud. Can provide information about Carlo if properly motivated (bribed or threatened).",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Of Flesh and Wood",
+    "inspiration": "Pinocchio (Carlo Collodi)",
+    "role": "Supporting Character - Greedy Innkeeper"
+  }
+}

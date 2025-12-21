@@ -1,0 +1,14 @@
+{
+  "name": "Infusion of Purity",
+  "type": "item",
+  "img": "icons/consumables/potions/potion-bottle-corked-labeled-green.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Two: The Red Village",
+    "description": "You have learned Wolfgang's secret recipe to break blood magic: **Infusion of Purity** requires burdock root (courage), nettle (protection), hyssop (purification), and **elderberry** (life). When you spend 1 Increment preparing and consuming this infusion, you gain immunity to blood magic for one Scene: Helga cannot control your blood, puppet you if wounded, or drain your life force. Additionally, if Helga is wounded while you have active Infusion in your system and your blood touches her, it acts as poison—negating her Blood Witch regeneration and causing her to age rapidly. This infusion represents nature's power to cleanse corruption. Wolfgang grows these herbs in his secret greenhouse—you must either rescue him or find his hidden garden.",
+    "tags": ["consumable", "protection", "anti-magic", "crafting"],
+    "requirements": "Rescue Wolfgang from blood servitude and learn his recipe, OR discover his hidden greenhouse and decipher his botanical notes",
+    "somaCost": 0,
+    "limitations": "Requires 1 Increment to prepare and consume. Ingredients must be fresh—dried herbs lose potency. Only works against blood magic, not other supernatural threats. Effect lasts one Scene (30-60 minutes). Elderberry is the rare component—Wolfgang may have limited supply."
+  }
+}

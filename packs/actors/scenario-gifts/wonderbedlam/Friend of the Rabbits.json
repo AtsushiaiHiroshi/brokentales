@@ -1,0 +1,13 @@
+{
+  "name": "Friend of the Rabbits",
+  "type": "item",
+  "img": "icons/creatures/mammals/rabbit-corgi-green-purple.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You have earned the trust of the White Rabbits that carry messages throughout Wonder's impossible architecture. These magical creatures no longer fear you and will approach you willingly. You receive 2 Additional Successes when you attempt to capture or interact with a White Rabbit (reducing the Threat effectively to trivial difficulty). Once you've picked up a White Rabbit and gained its trust, your new little friends will deliver messages for you to any room in Wonder, even through seemingly closed doors, walls, or impossible distances. The rabbits can navigate Wonder's reality-bending structure instinctively, reaching locations that might be inaccessible to Hunters. You can send messages to allies separated in different Cure Rooms, communicate with Hatta Carter in the Basement, or even deliver warnings to Alice Liddell in the Hall of the Mind. The rabbits return to you after delivering their message, bringing back simple yes/no responses or brief replies (up to one sentence) from the recipient.",
+    "somaCost": 0,
+    "requirement": "Successfully capture at least one White Rabbit during your exploration of Wonder's Cure Rooms, treating it gently and earning its trust rather than harming it.",
+    "scenario": "Wonderbedlam",
+    "notes": "This Gift transforms the White Rabbits from obstacles (Threat encounters) into valuable allies. The +2 Additional Successes makes capturing them easy once you have the Gift, representing that they now approach willingly rather than fleeing. The message delivery mechanic is incredibly useful in Wonder's confusing layout: coordinate with separated party members, negotiate with Alice remotely, get hints from Hatta about upcoming areas, or warn Alicia about dangers. The rabbits can traverse Wonder's magic doors and walls because they're part of the building's living architecture. Storytellers should roleplay the rabbits as curious and playful—they might add their own observations to messages ('The lady with the lynx seemed angry') or bring back items ('The rabbit found this key'). The Gift doesn't work outside Wonder—the rabbits are bound to the bedlam. If Alice realizes Hunters have this Gift, she may try to intercept messages or send false ones. The cryptic clues about doors ('knock with hand', 'ask if anyone home') become easier to decipher with rabbit assistance."
+  }
+}

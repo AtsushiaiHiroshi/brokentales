@@ -1,0 +1,36 @@
+{
+  "_id": "AliciaYoungLove",
+  "name": "Alicia - The Young Girl in Love",
+  "type": "npc",
+  "img": "icons/environment/people/commoner-woman.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a young rebel from the slums who knows how to get by on her own",
+      "Thanks to my tenacity, I can overcome every obstacle"
+    ],
+    "agenda": "I want to save Alissa from this cursed place and run away with her to live out our love in peace",
+    "background": "Alicia is Alissa's young lover who has infiltrated Wonder in an attempt to free her imprisoned partner. In addition to their romantic bond, Alicia is driven by guilt, convinced that Alissa was sent to Wonder due to the two girls' relationship. Alissa had even refused several promising marriage proposals to remain with Alicia, indifferent to her duty as the Duke of Norfolk's heir. Despite her courage and tenacity, Alicia soon became a prisoner of the deranged rooms of Wonder."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "infiltrator-rescuer",
+    "relationship": "lover-of-alissa"
+  }
+}

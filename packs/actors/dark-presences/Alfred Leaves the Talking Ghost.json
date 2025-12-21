@@ -1,0 +1,52 @@
+{
+  "name": "Alfred Leaves the Talking Ghost",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": false,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a usurer of secrets, and will sell them at a high price",
+      "If I die, I become a ghost until I am reborn in flesh and blood"
+    ],
+    "agenda": [
+      "When I am alive, I want to discover all the secrets I can, in order to report them to the One Who Plots in the Shadow",
+      "When I am dead, I walk around like a ghost and feel the need to share the secrets I know"
+    ],
+    "gifts": [
+      {
+        "name": "The Returning Ghost",
+        "description": "When Alfred is killed he becomes a ghost and, after one or more Scenes (at the Storyteller's discretion), he will come back to life. When this happens, his Opposition Level goes up one rank (at first Medium 5 and then Hard 7) and he gains 1 Wound. After being killed the third time, Alfred will revert to his normal profile, forgetting who killed him. In ghost form, Alfred has no memories of when he was alive and wanders like a restless soul in the city cemetery. The Opposition Level remains Easy 3 and the Agenda changes."
+      },
+      {
+        "name": "Trader of Secrets",
+        "description": "When the talking Ghost engages in a conversation with someone, he will compel them to share a secret or sin they have committed. A Hunter can oppose the effect of this Gift with a Defense Check. The Talking Ghost always knows a secret related to one or more of the NPCs linked to the Scenario in which he appears."
+      }
+    ],
+    "background": "Once upon a time, there was a rich and powerful criminal named Alfred Leaves. Secrets were his weapons and his business, and there was no one in London who did not have unfinished business with him. Or, more simply, had some unspeakably shameful secret uncovered by Leaves. He became more and more obsessed with secrets, his thirst for knowledge extending far beyond the affairs of miserable mortals. Who had created the world? What was there after death? In a frenzied madness, Alfred Leaves took his life by striking himself on the temple with a heavy hammer. Returning as a ghost, Leaves encountered the One Who Plots in the Shadow. Finally, everything was clear to him. After a few days, Leaves woke up, alive once more and ready to restart his business of secrets on behalf of a new and dark master.",
+    "notes": "SPECIAL AGENDA (Carlo the Living Puppet): I hate lying, because it does nothing but devalue a secret. That little animated puppet is the ultimate representation of the power of lying and I want to stop him from speaking.\n\nAlfred is a recurring enemy who returns stronger each time: OL 3 → OL 5 → OL 7, gaining wounds with each revival. After the third death, he resets and forgets. His Trader of Secrets gift forces people to reveal secrets (Defense Check to resist). He serves the One Who Plots in the Shadow. In ghost form, he loses his living memories but still compels secret-sharing.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "Pinocchio's Jiminy Cricket",
+    "role": "Secret trader who serves the Shadow, returns stronger after each death",
+    "storymancerCollective": true
+  }
+}

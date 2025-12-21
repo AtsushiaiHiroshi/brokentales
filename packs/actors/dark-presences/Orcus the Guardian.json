@@ -1,0 +1,50 @@
+{
+  "name": "Orcus the Guardian",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a giant of incredible strength and repulsive appearance",
+      "I serve the Order as the Hunters' Guardian and execute every order to the best of my ability"
+    ],
+    "agenda": [
+      "Do my best to serve the Hunters, but avoid killing anyone with my strength"
+    ],
+    "gifts": [
+      {
+        "name": "Strength of the Ogre",
+        "description": "Once per Scene, a Hunter can invoke Orcus's help and use one of the following effects: 1. Orcus can lift, move, or break either an object or part of the environment, with a force equal to that of five men. 2. If Orcus can use his strength to support another Hunter's action, the Hunter he aids will receive 2 Additional Successes. When this Gift is used, roll a die: with a 5 or 6, Orcus unintentionally causes irreparable damage to an object, the environment, or a person while using the Gift."
+      },
+      {
+        "name": "Guardian of the Hunters",
+        "description": "Once per Scene, a Hunter can invoke the protection of Orcus, who will take 1 Wound in his place. When you use this Gift, roll a die: on a 6, Orcus takes the Wound but inflicts 1 Wound on the Hunter by accidentally overwhelming them with his incredible strength."
+      }
+    ],
+    "background": "Once upon a time, there was a gigantic and deformed man no one wanted to befriend. Orcus was mocked and excluded from society, until one day he met a gentle nobleman who knew how to look beyond his repugnant aspect. The nobleman made Orcus his personal bodyguard. One day, during a trip to the nearby capital, the nobleman's carriage was attacked by assassins. Orcus defended the nobleman and his family with all his might. Lost in the heat of battle, he seized the carriage itself to use as a weapon. He used it to crush his enemies and, unwittingly, killed all the passengers too. Orcus was destroyed by grief, and the Judge who oversaw the trial that followed showed him mercy. He would serve his sentence as a guard for the Judge. But the tragedy only repeated itself. During a hunt, the unwary Judge slipped off a cliff and was saved by the providential intervention of Orcus who, with his immense strength, threw the man and his horse back onto the road. The impact, however, was fatal. The Judge ended up smashed like a ripe apple. From job to job, Orcus was always welcomed by someone attracted by his abilities, who ultimately ended up dying in some absurd way. After going from master to master, Orcus eventually found a home in the Order, perhaps the only place where his Herculean strength could safely be put to good use.",
+    "notes": "Orcus is a tragic ally - incredibly strong but prone to accidentally killing those he tries to help. His gifts can provide +2 Successes or take Wounds for Hunters, but there's always a risk (5-6 on d6) of collateral damage. He genuinely wants to help but his strength is a curse. Treat him with kindness and understanding - he's suffered greatly from his accidents.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "ally",
+    "inspiration": "The Evil Orc",
+    "role": "Tragic giant who serves the Order but accidentally harms those he tries to protect"
+  }
+}

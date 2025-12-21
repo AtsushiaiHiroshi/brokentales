@@ -8,7 +8,6 @@
     "verified": "13.350",
     "maximum": "13.350"
   },
-  "type": "system",
   "authors": [
     {
       "name": "Broken Tales System Developer",
@@ -664,8 +663,10 @@
   "download": "https://github.com/brokentales/foundryvtt-brokentales/archive/refs/heads/main.zip",
   "background": "templates/styles/background/broken_tales_sheet.webp",
   "initiative": "1d6 + @attributes.soma.value",
-  "gridDistance": 1,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "primaryTokenAttribute": "attributes.soma",
   "secondaryTokenAttribute": "attributes.wounds"
 }

@@ -1,0 +1,48 @@
+{
+  "name": "Enar - The Eternal Soldier",
+  "type": "npc",
+  "img": "icons/creatures/unholy/undead-ghost-scream-teal.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "biography": "Six years ago, Private Enar was a young Carolean soldier stationed in Vaasa who fell deeply in love with Satu, a beautiful dancer. He deserted his post to remain near her, but was discovered by his comrades. Captain Andersen—secretly jealous because he too loved Satu—ordered Enar's leg cut off and his body thrown into the sea as punishment for desertion, a sentence far beyond what military law demanded. Enar didn't die immediately; he remained alive beneath the waves for a long time as fish slowly devoured his flesh. His love for Satu sustained him even as his body was consumed, piece by piece, until only his heart remained. As it fell into the abyss, it caught the attention of a Sea Fairy who took pity on the wounded heart and infused it with new life. Enar's body began to regenerate, but the accumulated hatred and resentment from his slow death drove him completely insane. Worse, his resurrection was tainted—algae, shells, timbers from an old wreck, and sea debris fused with his regenerating limbs, transforming him into an immortal monster. Now Enar is bound to the world only by infinite grudge. After six years beneath the waves, his greatest enemy Andersen has finally found happiness with a family—the perfect time for Enar to return and take it all away. Appearing every night an hour after sunset, Enar is systematically killing his former comrades before finally confronting Andersen. But Enar's ultimate goal is darker: after destroying everyone Andersen loves, he wants to 'merge' with Satu, fusing their bodies and souls together for eternity in a twisted mockery of the love he once felt.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an immortal being, the result of all the hatred I harbored in my exile into the abyss",
+      "I have the strength of five men and my body feels no pain",
+      "My body is a fusion of flesh, algae, shells, and shipwreck timbers",
+      "I am completely insane, driven only by hatred and twisted love"
+    ],
+    "gifts": [
+      {
+        "name": "The Eternal Soldier",
+        "description": "Enar's body is the result of powerful magic tainted by hatred and cannot be permanently destroyed by conventional means. **Immortal Form:** When Enar suffers his final (4th) Wound, his body dissolves into seawater and soaks into the ground. **Daily Regeneration:** The following day, Enar completely regenerates himself at the bottom of the sea, where his heart resides—the very focus of his existence. **True Death:** Only by recovering Enar's heart from the bottom of the sea and destroying it can Enar be permanently eliminated. The Sea Fairy can lead someone to the heart's location. **Regeneration Limit:** Enar regenerates once per day at sunset, emerging from the sea fully restored."
+      },
+      {
+        "name": "Rage of the Sea",
+        "description": "Thanks to the magic granted by the Sea Fairy, Enar has gained supernatural powers tied to the ocean. When Enar acts, he can always choose to add one of the following additional effects to his action: **1. Algae Whip:** A string of algae stretches from Enar's body and performs a second independent action (attack, grab, or manipulate). This functions as a bonus action with OL 5. **2. Wave Form:** Enar's body becomes seawater for a few moments, allowing him to slip away and instantly teleport up to 30 feet before regrouping into solid form. This can be used to avoid attacks or reposition. **3. Shell Barrage:** Three large seashells are shot from Enar's body in different directions. This counts as 3 simultaneous attacks with OL Medium 5. The shells must target 3 different enemies within 60 feet."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Take revenge on Andersen, but not before I have eliminated all my former companions",
+      "Make Andersen suffer by destroying everything he loves",
+      "After eliminating Andersen and his people, I want to meld with Satu so that our bodies and souls are united for eternity"
+    ],
+    "notes": "Enar is the primary antagonist—a tragic villain driven by justified rage twisted into madness. Voice: Gurgling, inhuman, occasionally echoes his former humanity. Schedule: Day 1 sunset - attacks estate (kills Christian if Hunters absent). Day 1 night - in the sea. Day 2 sunset - attacks Sundsvall (kills Nils/Hans if Hunters absent). Day 3 sunset - final assault on estate to kill Andersen and claim Satu. If Erik is revealed as Andersen's son, Enar targets the child to inflict maximum pain. Appears one hour after sunset each night. Body constantly drips seawater, smells of brine and rot. Shells fall from his body (Erik recognizes them as cliff shells). Cannot be permanently killed without destroying his heart at the bottom of the sea—Sea Fairy can guide someone there if convinced. His 'merging' with Satu would be horrific body horror. Can be redeemed if Satu says goodbye to his heart."
+  }
+}

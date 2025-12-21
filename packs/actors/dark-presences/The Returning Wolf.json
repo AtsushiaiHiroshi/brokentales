@@ -1,0 +1,53 @@
+{
+  "name": "The Returning Wolf",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the Returning Wolf: I am bad, hungry, and now I am the hunter"
+    ],
+    "agenda": [
+      "I am hell-bent on revenge on the human world",
+      "I am a revenant animated by undying acrimony for the soft-skinned creatures that invaded my woods and yet had the audacity to condemn me to death",
+      "My only goal now is to glut my endless hunger for human flesh and fear",
+      "I have a particular hatred for children, the elderly, and Hunters, whom I see as responsible for my many deaths"
+    ],
+    "gifts": [
+      {
+        "name": "Frightening Revenant",
+        "description": "The Wolf reveals horrific mutilations, each revealing something about his deaths. His empty eyes are as cold and bottomless as the well he was drowned in. His pelt is a patchwork of burns and skinned flesh. His belly is full of slashes and stitches. His growl is a terrifying sound, grinding painfully from a chest full of heavy stones and broken bones. No NPCs will approach or fight the Wolf, being paralyzed by terror. Particularly powerful NPCs, at the Storyteller's discretion, can ignore this effect. When a Hunter acts against the Returning Wolf, they suffer 1 Penalty for each action taken."
+      },
+      {
+        "name": "The Better to Eat You With",
+        "description": "The Wolf can swallow his enemies whole, trapping them inside his belly and crushing them to death with the heavy stones the grandmother sewed inside it. When the Returning Wolf inflicts 1 Wound, it can swallow the victim whole as an additional effect. In the next action, the victim can only try to free themselves. If they fail the Position Check, or if they decide to stay in the belly of the Returning Wolf, they receive 1 additional Wound."
+      }
+    ],
+    "background": "In the days when his heart still beat and his lungs still drew breath, this wicked animal used to prowl the woods, avoiding the huntsman who had long hunted him for his pelt, and stalking for a tasty bite amongst unsuspecting human travelers. Imbued with the powers of human speech and cunning, the wolf tricked his victims into betraying their loved ones into his clutches as well. He fed well until the fateful day he ate up the little girl in the red hood and her grandmother. That was the day the huntsman caught and slew the Wolf. As the story of his death spread and changed from telling to telling, he was tortured and executed in a dozen gruesome ways: drowned in a trough, boiled in a pot, smashed into the ground, cut down, cut open and his belly filled with heavy stones. The many tellings bled together and the Wolf, mangled by countless hands and condemned by countless tongues, has returned to claim revenge for every death he was subjected to. He is everything that has been said about him. Big. Bad. And out for blood.",
+    "notes": "Dark Presence by Peter Chiykowski.\n\nSPECIAL AGENDAS:\n- Iskra the Young Wolf: I harbor a deep hatred for this little pest. She is somewhat linked to my pain. I want to swallow her and let her slowly die in my stomach.\n- Garou the Old Wolf: I want to warn the poor fool so that he understands what he will face if he keeps by the side of these blasted humans.\n\nThe Returning Wolf is a revenant embodying every gruesome death from folklore. NPCs won't fight him (terror). Hunters get -1 Penalty per action. Can swallow victims whole - trapped victims take 1 additional Wound next turn if they don't escape. Terrifying opponent with special hatred for children, elderly, and Hunters.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "The Bad Wolf",
+    "role": "Undead wolf revenant seeking revenge for his many folkloric deaths",
+    "creator": "Peter Chiykowski"
+  }
+}

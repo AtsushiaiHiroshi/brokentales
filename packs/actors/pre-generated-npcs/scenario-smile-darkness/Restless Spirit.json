@@ -1,0 +1,42 @@
+{
+  "name": "Restless Spirit",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "creature",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are restless souls and yearn for the essence of the living."
+    ],
+    "agenda": ["We sense Yvonne's wrath, driving us to prey on the living"],
+    "gifts": [
+      {
+        "name": "Spirit",
+        "description": "This NPC is in a spirit form and can only be damaged by magic. The touch of a Spirit absorbs life energy and inflicts 1 Wound. Physical protection and barriers cannot help against this Gift. If the Spirit is harmed by non-magical means, it still will suffer a Wound. However, when the Spirit has no Wounds left, it disappears and rematerializes immediately. In doing so, all its Wounds are healed, except those inflicted by magical means."
+      }
+    ],
+    "background": "Restless souls that roam the Catacombs of Paris, particularly concentrated in the Halls of the Spirits. These spirits yearn for the life energy of the living and will not hesitate to target them. They are influenced by Yvonne's wrath and anger. Yvonne can summon 3 of these spirits once per Scene to obey her will. Hunters with the Voice of the Spirits Gift can communicate with them to learn of Yvonne's presence.",
+    "notes": "Common enemies in the catacombs. Can only be permanently damaged by magic. Useful for conveying information about Yvonne if Hunters can communicate with spirits.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "The Smile in the Darkness",
+    "inspiration": "The Little Match Girl (Hans Christian Andersen)",
+    "role": "Minion - Spirit"
+  }
+}

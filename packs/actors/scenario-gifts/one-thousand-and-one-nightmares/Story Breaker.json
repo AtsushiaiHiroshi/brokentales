@@ -1,0 +1,14 @@
+{
+  "name": "Story Breaker",
+  "type": "item",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "One Thousand and One Nightmares",
+    "description": "Sherazade traps victims inside stories—either locking them in narrative loops where they relive false memories, or creating 'what-if' scenarios that never happened. You've learned to recognize when you're inside a story rather than reality. Watch for narrative inconsistencies: characters acting wrong, impossible events, details that don't match your memories. Once per Scene when trapped in a story, make a Mental Check vs Sherazade's OL 7: on success, you break the narrative—story shatters like glass and you return to reality, immune to story imprisonment for rest of Scene. On failure, you're deeper in the story and must find its 'ending' before you can escape (GM creates story-specific exit condition). You can also attempt to free ONE other trapped victim when you break out.",
+    "tags": ["mental", "escape", "anti-narrative", "reality"],
+    "requirements": "Be trapped in at least one of Sherazade's stories and escape, OR witness someone else trapped and deduce the pattern",
+    "somaCost": 0,
+    "limitations": "Requires Mental Check each time—repeated story trapping becomes harder to break. Some stories are more seductive than reality (what-if where loved one never died)—GM may impose disadvantage if story offers something you desperately want. Breaking story while others remain trapped may anger them (they don't realize it's false). Sherazade adapts—after you break first story, her subsequent stories are more complex (higher OL or multiple layers)."
+  }
+}

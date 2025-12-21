@@ -1,0 +1,13 @@
+{
+  "name": "Coral of the Sea Fairy",
+  "type": "item",
+  "img": "icons/commodities/treasure/pearl-pink.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You dispatched that hateful fairy and harnessed her soul in a lump of coral. Now her power is yours. You can use 1 Treasure Token to unlock this Gift for the duration of the Scenario. Spend 1 Soma to tap into the Coral's power and choose one of the following effects: **1. Water of Life:** A target recovers 1 Wound. **2. The Fury of the Sea:** The water of the sea engulfs everything, sweeping away all threats. Those who are within 30 feet must pass a Defense Check against OL Hard 7 to avoid being overwhelmed by the waves and being thrown away, suffering 1 Wound. **3. The Waves of the Sea:** You can travel to any point of the sea within 6 miles. This shift is instantaneous and you can take up to 2 subjects with you. **CURSE:** Sea creatures sense what you have done and will attack you without hesitation to try to free the soul of the Fairy.",
+    "somaCost": 1,
+    "requirement": "Kill the Sea Fairy. (Special gift for Marina the Sea Explorer only)",
+    "scenario": "A Soldier's Duty",
+    "notes": "This is a DARK Gift only available to Marina the Sea Explorer if she murders the Sea Fairy. The Fairy refuses to help Marina initially due to her selfish reputation. If Marina kills her anyway, she can trap the Fairy's soul in coral and steal her powers. Requires spending 1 Treasure Token to unlock, then costs 1 Soma per use. The curse is permanent: all sea creatures (fish, whales, merfolk, sea monsters, etc.) become hostile and attack Marina on sight to free the trapped soul. This is a morally dark choice with serious consequences. The coral must be carried on Marina's person."
+  }
+}

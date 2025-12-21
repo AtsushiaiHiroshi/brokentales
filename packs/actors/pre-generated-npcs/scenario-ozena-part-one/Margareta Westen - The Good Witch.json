@@ -1,0 +1,52 @@
+{
+  "name": "Margareta Westen - The Good Witch",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a wealthy noblewoman who was born with a facial deformity",
+      "Society rejected me, so I use my magic and my fortune to create a haven where the rejected can live in peace and dignity"
+    ],
+    "agenda": [
+      "Protect my village and the outcasts who live here",
+      "Use my magic to ease suffering",
+      "Stop OZena before she kills more witches"
+    ],
+    "gifts": [
+      {
+        "name": "Witch - Emotion Manipulation",
+        "description": "Margareta can perform a Check to alter the emotional state of anyone she can see. She can make them feel calm, afraid, angry, or loving. This lasts for one Scene. Victims can resist with a Check against her Opposition Level."
+      },
+      {
+        "name": "Witch - Telekinesis",
+        "description": "Margareta can move objects with her mind. She can lift and throw items weighing up to 200 pounds. In combat, she can use this to disarm opponents, create barriers, or hurl objects as weapons (treating this as a normal attack)."
+      }
+    ],
+    "background": "Margareta Westen is the Good Witch of the Yellow Village of Gelb. Born a wealthy noblewoman with a facial deformity, she was rejected by society despite her status. Using her inherited fortune and her magical gifts, she created a haven in the Black Forest where outcasts, the deformed, and the rejected can live in peace and dignity. She provides for their needs and uses her magic to ease their suffering. Margareta holds one piece of the Compass Rose—the Yellow (West) piece—which she guards as part of a coven of four witches who split the artifact to keep it safe. She knows that OZena has already killed Johanne in Schiltach and fears she may be next.",
+    "notes": "ROLEPLAYING:\n- Voice: Warm and maternal, with a slight German accent\n- Mannerisms: Touches people gently when speaking to them, maintains eye contact, smiles despite her facial deformity\n- Motivation: Genuinely wants to help outcasts, has built a thriving community\n- Secret: She knows OZena was once a good person driven mad by desperation\n- Weakness: Her compassion makes her vulnerable—she hesitates to harm even those who threaten her\n\nWHAT SHE KNOWS:\n- The Compass Rose is split into four pieces held by four witches\n- Johanne was murdered two weeks ago in Schiltach\n- OZena travels with three companions: Lowe, Hirnloser, and Dose\n- Dr. Henkle is manipulating OZena from Smaragd\n\nHer piece of the Compass Rose resembles a yellow compass needle made of amber that hums with magical energy and points toward Smaragd.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz - Glinda the Good Witch",
+    "role": "Target of assassination, protector of outcasts, guardian of Compass Rose piece",
+    "compassRosePiece": "West (Yellow)"
+  }
+}

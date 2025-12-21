@@ -1,0 +1,13 @@
+{
+  "name": "Marionettes' Destroyer",
+  "type": "item",
+  "img": "icons/magic/death/skull-horned-worn-fire-orange.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You know how to calm restless spirits by giving them a proper greeting when their soul is freed. You are not affected by the Boundless Rage Gift used by Marionettes. Additionally, you receive 1 Additional Success when defending against beings that are animated or controlled by spirits or magic (including possessed individuals, animated constructs, and undead thralls).",
+    "somaCost": 0,
+    "requirement": "Defeat any Marionette OR understand that they are souls imprisoned against their will.",
+    "scenario": "Of Flesh and Wood",
+    "notes": "The Marionettes are tortured souls bound by Azzurra into wooden bodies covered in flayed human flesh. They hate their existence and attack with Boundless Rage (final desperate OL 7 attack when defeated). This Gift allows the Hunter to free them peacefully and grants protection against necromantic animation and possession effects. Works against Azzurra's animated servants, possessed victims, and similar spirit-controlled entities."
+  }
+}

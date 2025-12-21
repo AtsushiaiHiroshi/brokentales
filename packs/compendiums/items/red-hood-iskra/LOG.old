@@ -1,0 +1,16 @@
+2025/12/21-01:25:45.629 a5d0 Recovering log #3
+2025/12/21-01:25:45.629 a5d0 Level-0 table #5: started
+2025/12/21-01:25:45.678 a5d0 Level-0 table #5: 7801 bytes OK
+2025/12/21-01:25:45.779 a5d0 Delete type=0 #3
+2025/12/21-01:25:45.779 a5d0 Delete type=3 #2
+2025/12/21-01:26:01.065 add4 Level-0 table #8: started
+2025/12/21-01:26:01.150 add4 Level-0 table #8: 3836 bytes OK
+2025/12/21-01:26:01.208 add4 Delete type=0 #6
+2025/12/21-01:26:01.505 add4 Manual compaction at level-0 from '!items!BloodDrawings' @ 72057594037927935 : 1 .. '!items!null' @ 0 : 0; will stop at '!items!null' @ 21 : 1
+2025/12/21-01:26:01.509 add4 Compacting 2@0 + 0@1 files
+2025/12/21-01:26:01.547 add4 Generated table #9@0: 11 keys, 4368 bytes
+2025/12/21-01:26:01.547 add4 Compacted 2@0 + 0@1 files => 4368 bytes
+2025/12/21-01:26:01.605 add4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/21-01:26:01.605 add4 Delete type=2 #5
+2025/12/21-01:26:01.605 add4 Delete type=2 #8
+2025/12/21-01:26:01.714 add4 Manual compaction at level-0 from '!items!null' @ 21 : 1 .. '!items!null' @ 0 : 0; will stop at (end)

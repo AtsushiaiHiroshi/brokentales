@@ -1,0 +1,13 @@
+{
+  "name": "A True Friend",
+  "type": "item",
+  "img": "icons/magic/life/heart-hand-glowing-white.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "Carlo understands that he can trust you and will run to your aid if you need it. You can spend 1 Soma to have Carlo appear in the Scene as your NPC ally. Carlo will use the power of his lies (creating Descriptors that become temporarily real) to help you to the best of his ability. Carlo's presence lasts for the remainder of the Scene or until he suffers his 3rd Wound.",
+    "somaCost": 1,
+    "requirement": "Gain Carlo's trust despite all his lies.",
+    "scenario": "Of Flesh and Wood",
+    "notes": "Carlo is a living puppet animated by fairy magic whose lies become reality. His Gift 'Lies' allows him to create Descriptors centered on himself (examples: 'I can walk through walls', 'I am invisible to human eyes', 'I am strong as ten men'). Effects are literal and last 1 Scene. Gaining his trust requires: 1) Believing him over Azzurra, 2) Protecting him from Geppetto/Antonio, 3) Treating him as a person not an object. Once trusted, Carlo becomes a powerful ally who can reshape reality temporarily to aid the Hunter. This bond is permanent across scenarios—Carlo remembers his true friend."
+  }
+}

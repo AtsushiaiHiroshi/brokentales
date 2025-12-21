@@ -1,0 +1,52 @@
+{
+  "name": "The Masked Swashbuckler (Puss in Boots)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a cunning cat who can pretend to be human thanks to a magical mask",
+      "I put myself at the service of the highest bidder without qualms",
+      "I use my countless lives to get the better of every problem"
+    ],
+    "agenda": [
+      "To serve my customer without asking questions",
+      "Mocking those who trust others too much"
+    ],
+    "gifts": [
+      {
+        "name": "Nine Lives Like a Cat",
+        "description": "The Masked Swashbuckler still has eight lives left, so he can return to action once he is eliminated. When he is eliminated, the Storyteller can make him disappear from the current Scene in a blatant way or by revealing his death, even if the Hunters just wanted him disabled. In the following Scene, The Masked Swashbuckler will rejoin the action with the following perks: 1. Once per Scene, he can prevent an enemy from using a Gift he has already seen in action previously. This effect interrupts the target and their action is wasted. 2. His Opposition Level is increased by 1 when defending against an enemy he has already faced in a duel. 3. Once per Scene, he can take advantage of a magical item that he has previously procured to defeat his enemy. The item is disposable and the Storyteller must create a Descriptor to accompany it, such as The Invisibility Potion or The Stone of Blinding Light."
+      },
+      {
+        "name": "Cat Mask",
+        "description": "Thanks to his magical mask, the Masked Swashbuckler can freely transform between human and cat, taking advantage of this to approach his enemy. The transformation is instantaneous, but it cannot be done in front of witnesses."
+      }
+    ],
+    "background": "Once upon a time, there was a cunning Cat who made his young master's fortune. But alas, as often happens, instead of thanking him the now rich scion was quick to abandon his faithful companion. Disappointed, the Cat put himself at the service of three other masters, but once success and wealth were achieved, they all got rid of him. Thus it was that the Cat swore to work only for himself. In the adventures that followed, the Cat released an ancient spirit from which he obtained a wish. Having heard of this miracle, the original ungrateful master showed up, pitiful now after developing a rare disease. He begged for forgiveness, repenting of his arrogance, and asked the Cat to wish for a cure. In return, he promised eternal gratitude. The Cat accepted and made the wish. But, as soon as the miracle was performed the Cat's old master killed him, fearful of his incredible abilities. But even a fool knows that cats have nine lives, though his master might have forgotten. The next day the Cat returned from the dead. Enraged by the betrayal, the Cat swore revenge. He put on a mask capable of making him appear human, allowing him to masquerade as a noble duelist. He began to travel to courts and drawing rooms, taking revenge on his ungrateful masters. After killing them one by one, the Cat developed a taste for blood and decided that from that day on, his only master would be money.",
+    "notes": "The Masked Swashbuckler is a mercenary assassin with 9 lives total. When defeated, he returns in the next Scene with enhanced abilities: can cancel enemy Gifts seen before, +1 OL vs previous opponents, and gains a disposable magic item. He can transform between cat and human form. Extremely persistent - killing him once is never enough. Works for the highest bidder without loyalty.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "Puss in Boots",
+    "role": "Shapeshifting cat assassin-for-hire with nine lives"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_id": "LizardAutomaton",
+  "name": "Lizard Automaton",
+  "type": "npc",
+  "img": "icons/creatures/magical/construct-iron-stomping-green.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an automaton in the service of Hatta Carter",
+      "Thanks to my large tail I can perform several actions at the same time"
+    ],
+    "gifts": [
+      {
+        "name": "Tail",
+        "description": "The Automaton always acts twice, once with its front legs and once with its long tail, but cannot focus both its actions on the same target."
+      }
+    ],
+    "background": "The second automaton built by Hatta Carter during his imprisonment in the Basement of Wonder. Created as a companion for lonely tea parties, this mechanical lizard is equipped with a powerful tail that allows it to perform multiple actions simultaneously. More robust than its Rabbit counterpart, it serves as both companion and guardian to the mad inventor."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "automaton-guardian",
+    "creator": "hatta-carter",
+    "location": "basement"
+  }
+}

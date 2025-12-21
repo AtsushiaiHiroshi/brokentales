@@ -1,0 +1,39 @@
+{
+  "name": "Erik - The Innocent",
+  "type": "npc",
+  "img": "icons/environment/people/child-sleeping.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "Erik is a lively, curious six-year-old boy who can never sit still. He is the son of Satu and Captain Andersen, conceived through rape six years ago, though Erik knows nothing of his dark origins. For most of his life, Erik lived in poverty with his mother, working alongside her in difficult conditions. Then, months ago, a wealthy man—Andersen—appeared and took them both to live in a beautiful mansion on a grand estate. Erik doesn't fully understand who Andersen is or why he brought them here. He senses there is a complicated relationship between the man and his mother, but no one will explain it to him. Erik is fascinated by the Hunters and will approach them with endless questions, not fully grasping the danger surrounding the estate. He is an innocent caught in the middle of adult sins and vengeance. Erik collects shells and on Day 2, he will recognize the shells that fall from Enar's body as matching those found at the cliff where the Sea Fairy lives—this becomes a crucial clue. If Erik is put in danger, both Satu and Andersen will put their lives at risk to protect him. If Enar discovers that Erik is Andersen's son, the child becomes his new primary target, as killing him is the perfect way to make Andersen feel the pain he inflicted.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a lively child who can never sit still",
+      "I am curious about everything and everyone",
+      "I collect shells and know the stories about the Sea Fairy",
+      "I don't understand why my mother is so sad"
+    ],
+    "gifts": [],
+    "conditions": [],
+    "agenda": [
+      "Understand who Andersen really is, and why he took my mom and me out of the misery we lived in",
+      "Explore the estate and meet the interesting visitors (the Hunters)",
+      "Make my mother smile again like she used to"
+    ],
+    "notes": "Erik is the emotional center of the scenario—his innocence contrasts with the darkness around him. Voice: High-pitched, excited, full of questions. Randomly encountered on estate (roll 3-4 on d6). Provides crucial Day 2 clue by recognizing Enar's shells as matching those from the cliff caves. If endangered, both parents will confess everything to save him. If Enar learns he's Andersen's son (through overheard conversation or confession), Erik becomes primary target. Doesn't understand the tension in the house. Loves exploring, collecting things, asking questions. Represents the innocent future both Satu and Andersen are fighting to protect. His existence is proof of Andersen's crime but also his path to redemption. Can become tragic victim if Hunters fail to protect him."
+  }
+}

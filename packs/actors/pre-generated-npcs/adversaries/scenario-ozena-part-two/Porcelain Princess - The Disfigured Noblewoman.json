@@ -1,0 +1,39 @@
+{
+  "name": "Porcelain Princess - The Disfigured Noblewoman",
+  "type": "npc",
+  "img": "icons/equipment/head/mask-carved-white-blue.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "The Porcelain Princess appears as a beautiful woman wearing an elaborate porcelain mask and elegant gown, but beneath the mask, her face is hideously disfigured by disease. She was once a noblewoman who society rejected after illness destroyed her beauty. In desperation, she sought out Helga and accepted the witch's offer: power and purpose in exchange for eternal service. Now she manages Helga's cult in the village of Rot, organizing blood rituals and maintaining order among the mind-controlled villagers. She is surrounded by her Porcelain Dolls—twelve masked servants carrying various weapons who stand perfectly still until commanded. The Princess knows why the Hunters have come and offers them three choices: leave now and Helga will spare OZena (a lie), join the cult and receive Helga's blessing (eternal servitude), or try to rescue OZena and die in the attempt. If the Hunters refuse her deal, she signals her Dolls to attack. If defeated and spared, she may remove her mask voluntarily, revealing her disfigurement and explaining how Helga's promises of beauty were lies. She possesses a key to Helga's mansion and a vial of glowing blood, gasping when defeated: 'You fools... you've doomed her. Helga will drink OZena's blood before you reach her!'",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I was a noblewoman disfigured by disease",
+      "Society rejected me, so I embraced Helga's offer",
+      "Power in exchange for service",
+      "I manage her cult and keep the villagers in line"
+    ],
+    "gifts": [
+      {
+        "name": "Cult Leader",
+        "description": "The Porcelain Princess commands the Porcelain Dolls with perfect coordination. As long as she lives and can see them, the Dolls act with +1 OL when following her direct commands. She can command all twelve Dolls to move as a single coordinated unit, creating tactical advantages in combat. If she's killed or incapacitated, the Dolls become disoriented and act independently at their base OL."
+      }
+    ],
+    "conditions": [],
+    "notes": "The Porcelain Princess holds the key to Helga's mansion and knows the ritual schedule. If the Infusion of Purity is used on her, she's freed from blood magic control and may become an ally, revealing the truth about Helga's corruption. She carries a vial of blood that glows—this is OZena's blood, being prepared for the ritual. The Princess genuinely believed Helga would restore her beauty but has been betrayed like all of Helga's servants."
+  }
+}

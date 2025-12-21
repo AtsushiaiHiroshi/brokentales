@@ -1,0 +1,13 @@
+{
+  "name": "Paladin's Oath",
+  "type": "item",
+  "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You have earned the respect of one of Saint George's Paladins through your actions, and they have shared with you the sacred oath that binds them to their cause. Choose one of the six Paladins you encountered. You gain insight into their special ability and can invoke their spirit once per Scene to aid you. **Trebizond** (create exotic equipment Descriptor, +1 OL when using it), **Demetrius** (take 1 Wound for ally, +1 OL rest of Scene), **Theodore** (inflict 1 Additional Wound when raging, or 1 Wound even on successful Defense), **Martha** (enemies get 2 Penalties when targeting you if other allies present), **Syrus** (negate one Hunter Gift effect per Scene), or **Margaret** (gain +1 OL for each Wound Saint George has suffered). You can only invoke the chosen Paladin's power once per Scene, and it lasts for a single action. The Paladin you choose reflects your own values and fighting style.",
+    "somaCost": 1,
+    "requirement": "Defeat or befriend one of Saint George's Paladins during a Witch Hunt, learning their Downside and recognizing their humanity despite being on opposite sides.",
+    "scenario": "Saint George the Dragon Slayer",
+    "notes": "This Gift represents forming a bond with one of the Paladins, recognizing that they are not monsters but warriors bound by duty and loyalty. The 1 Soma cost represents channeling their spirit for aid. Each Paladin offers a different tactical option: Trebizond for versatility, Demetrius for protection, Theodore for offense, Martha for defense, Syrus for control, Margaret for power scaling. The Storyteller should roleplay the chosen Paladin's spirit appearing briefly to assist—perhaps offering advice, manifesting as an aura, or their voice encouraging the Hunter. Martha is the most likely to secretly help Hunters during a Witch Hunt, as her Downside shows she believes Broken Tales should be understood, not eradicated. If Saint George is redeemed, the Paladin you bonded with may become a recurring ally NPC."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Companion's Transformation",
+  "type": "item",
+  "img": "icons/magic/light/explosion-star-orange.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Three: The Emerald Village",
+    "description": "You have befriended one of OZena's three companions (Lowe, Hirnloser, or Dose) and witnessed their character arc complete: the coward finding courage, the 'brainless' proving genius, or the hollow finding heart through love. Their transformation inspires you. Choose one companion you've built relationship with. Once per scenario, channel their realized virtue: **Lowe's Courage** (reroll any Fear/Intimidation Check, taking better result), **Hirnloser's Genius** (ask GM one specific tactical question—'What's the hidden weakness?' 'What would genius do?'—and receive honest answer), or **Dose's Love** (when protecting someone you care for, +2 to Defense or one automatic success on Protect action). This gift represents how witnessing others' growth helps us find our own strength.",
+    "tags": ["inspiration", "character-development", "virtue", "social"],
+    "requirements": "Build meaningful relationship with at least one companion across multiple Parts, witness or facilitate their Part Three transformation",
+    "somaCost": 0,
+    "limitations": "Can only channel virtue of companion you've actually befriended—can't choose all three. If that companion dies or betrays you before their arc completes, lose this gift. Using this gift in their presence grants them +1 to their next Check (your faith empowers them)."
+  }
+}

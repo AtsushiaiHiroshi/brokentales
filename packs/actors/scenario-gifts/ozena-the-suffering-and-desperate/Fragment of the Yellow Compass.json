@@ -1,0 +1,14 @@
+{
+  "name": "Fragment of the Yellow Compass",
+  "type": "item",
+  "img": "icons/sundries/misc/compass-brass-blue-brown.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part One: The Yellow Village",
+    "description": "You possess the western (yellow) piece of the Compass Rose that Margareta guarded. This golden needle hums with temporal energy and points toward the nearest Compass Rose piece (currently southeast toward Helga's red piece in Rot). While carrying this fragment, you experience temporal echoes: glimpses of past and future in this location. Once per Scene, consult the fragment to receive a vision—GM reveals one useful fact about the immediate past or near future. Warning: carrying Compass Rose pieces makes you a target for those seeking to control time itself.",
+    "tags": ["temporal", "navigation", "visions", "artifact"],
+    "requirements": "Obtained from Margareta (through persuasion, combat, or inheriting after her death)",
+    "somaCost": 0,
+    "limitations": "Visions are fragmentary and open to interpretation. Fragment grows heavier as you collect more pieces (physical burden of temporal power). Henkle can sense when pieces are brought together."
+  }
+}

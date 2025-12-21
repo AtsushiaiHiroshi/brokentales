@@ -1,0 +1,40 @@
+{
+  "_id": "CheshireLynx",
+  "name": "Cheshire - The Faithful Lynx",
+  "type": "npc",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a snappy and aggressive lynx",
+      "I roam the halls of Wonder guided by the will of my mistress"
+    ],
+    "gifts": [
+      {
+        "name": "Elusive",
+        "description": "Thanks to the power infused in Wonder, Cheshire can disappear and reappear a short distance away, and move through doors and walls. Cheshire can always move without anyone being able to stop her. All actions to attack or capture Cheshire receive 1 Penalty because of the constant appearance and disappearance of the lynx. This Gift is not affected by the Place of Pure Madness Gift."
+      }
+    ],
+    "background": "Alice Liddell controls this large, trained lynx through her power. By moving through the narrow conduits of the asylum, Cheshire acts as the eyes of her mistress, watching over Wonder and reporting any disturbances."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "surveillance-guardian"
+  }
+}

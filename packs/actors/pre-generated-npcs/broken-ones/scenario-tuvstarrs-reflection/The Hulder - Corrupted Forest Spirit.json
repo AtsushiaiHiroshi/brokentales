@@ -1,0 +1,48 @@
+{
+  "_id": "TheHulder",
+  "name": "The Hulder - Corrupted Forest Spirit",
+  "type": "npc",
+  "img": "icons/creatures/unholy/spirit-undead-ghost-blue.webp",
+  "system": {
+    "npcType": "broken_one",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an ancient forest spirit",
+      "I have eaten so many living things that I have become fat and swollen",
+      "The pieces of the animals and people I have devoured are dripping from my slobbering lips"
+    ],
+    "agenda": "Devour everything I meet",
+    "gifts": [
+      {
+        "name": "Corrupted Spirit",
+        "description": "The Hulder has a feminine form, thin but her skin is spongy and slimy. Her breath smells of rot. She doesn't realize what a grotesque monster she has become, as in her mind she is still beautiful and seductive. When she suffers 1 Wound, the Hulder vomits a cloud of foul vapor that reeks of rot. All the subjects hit by the cloud suffer 1 Wound in turn. The effect of this Gift can be avoided with a Defense Check."
+      },
+      {
+        "name": "Swollen with Flesh and Blood",
+        "description": "If killed, the Hulder will emit a long, heart-breaking cry that will echo in the woods, and all the dead she has eaten will scream in agony in a cacophonous chorus. Anyone who hears the cry loses 2 Soma and receives 1 Penalty on any action for the rest of the Scene."
+      }
+    ],
+    "background": "A spiritual forest entity with feminine traits that once lived in symbiosis with trees but is now corrupt and repulsive. When Princess Tuvstarr traded her white dress for passage through the woods, the Hulder took the thin fabric and immediately felt unlike anything before. With the dress, she felt strong and beautiful, but also prey to a voracious hunger. Now the dress is nothing more than a dirty piece of cloth tied over her eyes like a blindfold. The Hulder obsessively repeats how beautiful, graceful and lovely she is, unaware of the grotesque monster she has become. A trail of blood and slime marks her path. Her sense of smell is almost non-existent, but she charges furiously at any noise. The best way to defeat her is to tear the dress from her eyes near a reflective surface - when she sees her true reflection, she will scream in agony and crawl away to throw up everything she ate, returning to her original form filled with shame and guilt."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "corrupted-guardian",
+    "location": "dark-forest",
+    "weakness": "reflection"
+  }
+}

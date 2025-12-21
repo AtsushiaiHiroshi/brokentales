@@ -1,0 +1,37 @@
+{
+  "_id": "MarthaBrowne",
+  "name": "Martha Browne - The Mother",
+  "type": "npc",
+  "img": "icons/environment/people/elder-female-gray.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the mother of three brothers",
+      "I am so old that I have almost completely lost my sight",
+      "My son Frank takes care of me, but he doesn't tell me anything",
+      "I am convinced that Arthur is not dead, for my instinct as a mother tells me so"
+    ],
+    "background": "The elderly mother of Clarence, Frank, and Arthur Browne. She is so old that she has almost completely lost her sight. Her son Frank takes care of her, but he doesn't tell her anything about their plans or the Pig Heads revolution. Despite everyone telling her that Arthur died in the mine collapse, Martha is convinced that he is not dead - her instinct as a mother tells her so, and she is right. Arthur is alive, trapped beneath the mine, feeding on the flesh of The God Under the Mine and orchestrating the gang's war against Bardolf Greed."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "innocent-mother",
+    "knowledge": "unaware-of-truth"
+  }
+}

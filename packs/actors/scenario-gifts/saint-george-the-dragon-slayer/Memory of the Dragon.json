@@ -1,0 +1,13 @@
+{
+  "name": "Memory of the Dragon",
+  "type": "item",
+  "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You have discovered the truth about Saint George's past—that his friendship with the Dragon was real, that the plague was orchestrated, and that the entire tragedy was manipulated by the One Who Plots in the Shadows. This terrible knowledge has awakened something within you: the memory of the Dragon's perspective. Once per Session, you can spend 2 Soma to access the Dragon's ancient wisdom. For the rest of the Scene, you gain the Descriptor **'I remember what the Dragon knew about ancient laws and betrayals.'** This grants you knowledge about: the true nature of binding oaths and ancient laws, how to recognize manipulation by the One Who Plots, the history of conflict between humans and magical creatures, and ways to resist corruption. Additionally, while this Descriptor is active, Saint George (if present) will become visibly shaken when you speak with the Dragon's wisdom, reducing his Opposition Level by 1 as his resolve wavers with painful memories.",
+    "somaCost": 2,
+    "requirement": "Investigate Saint George's background thoroughly and discover concrete evidence that his entire story was orchestrated—the unnatural plague, the mysterious benefactor who funded his training, and the ancient laws that truly bound the Dragon.",
+    "scenario": "Saint George the Dragon Slayer",
+    "notes": "This is the most powerful and narrative Gift from this scenario. The 2 Soma cost reflects the emotional and mental weight of channeling the Dragon's memories. The Descriptor is deliberately open-ended, allowing creative use: convincing Saint George of his manipulation, understanding how ancient oaths work, recognizing other victims of the One Who Plots, or resisting similar corruption. The effect on Saint George (reduce OL by 1 when you speak with Dragon's wisdom) is crucial for his redemption arc—hearing his friend's voice through the Hunter forces him to confront what he did. This Gift essentially gives Hunters access to a deceased NPC's knowledge, making it invaluable for the campaign's larger mystery. The Storyteller should roleplay moments where the Hunter's eyes change, their voice deepens, and they speak with ancient authority when invoking this Gift. If used skillfully, this Gift can completely redeem Saint George and turn him into the most valuable ally against the One Who Plots in the Shadows."
+  }
+}

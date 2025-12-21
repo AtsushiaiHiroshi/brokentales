@@ -1,0 +1,43 @@
+{
+  "_id": "HattaCarter",
+  "name": "Hatta Carter - The Mad Inventor",
+  "type": "npc",
+  "img": "icons/equipment/head/top-hat-brown-striped.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a skilled inventor, the most brilliant of my time",
+      "My emotional fragility leads me to frequent mood swings and aggressiveness"
+    ],
+    "agenda": "I want the company of witty people and not cold automata. I long for the chats I had with Alice",
+    "gifts": [
+      {
+        "name": "Time Clocks",
+        "description": "Hatta can manipulate one of his clocks to influence time:\n\n1. Slow: Once per Scene, Hatta increases his OL by 2 when defending against a threat.\n\n2. Speed Up: Once per Scene, Hatta and one of his Automata can act, immediately stopping anyone's action regardless of the situation in the narrative. If an Automaton has already acted, it can act again thanks to this Gift."
+      }
+    ],
+    "background": "Hatta Carter is the most skilled inventor in all of England, famous for his theories on automatons. Alice Liddell hired him to research Wonder and make sense of the physics-defying nature of the asylum. Thanks to his hard work, the structure now responds to Alice's will, becoming a place from which it is impossible to escape without her consent. However, Alice has imprisoned the mad inventor in the Basement, keeping him alive for future bedlam expansion projects. Driven to madness by loneliness, Hatta has built two Automata (a Rabbit and a Lizard) as pretend tea companions."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "imprisoned-inventor",
+    "location": "basement",
+    "companions": ["rabbit-automaton", "lizard-automaton"]
+  }
+}

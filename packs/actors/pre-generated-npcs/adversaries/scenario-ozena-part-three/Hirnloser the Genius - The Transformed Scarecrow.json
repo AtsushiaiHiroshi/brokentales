@@ -1,0 +1,44 @@
+{
+  "name": "Hirnloser the Genius - The Transformed Scarecrow",
+  "type": "npc",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Hirnloser was once mocked as a scarecrow without a brain, speaking in confusing riddles and seeming disconnected from reality. But through the journey with Dorothea (OZena), he has discovered that his mind is his greatest weapon. Hirnloser the Genius now sees patterns others miss and solutions others cannot imagine. His speech is clear, precise, and brilliant—no more riddles, only razor-sharp analysis. He rapidly evaluates situations and proposes tactical solutions, showing pride in his extraordinary intellect. His transformation represents the realization that he was never actually stupid—he simply thought differently, and now he's learned to channel that difference into genius. When the Hunters encounter him in Smaragd, he will be the tactical coordinator for Henkle's defenses (if hostile) or a valuable strategic ally (if convinced of Henkle's betrayal). He carries tools and equipment for every situation, always prepared. If he survives and is redeemed, Hirnloser is furious at being fooled by Henkle and immediately offers his intellect to help stop the doctor. He may choose to stay in 1780 to become a true inventor and scholar, or return to revolutionize early 20th century psychiatry with his insights about the human mind.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "They said I had no brain, but I have discovered my genius",
+      "I see patterns others miss, solutions others cannot imagine",
+      "I am no scarecrow—I am a master tactician",
+      "My mind is my greatest weapon"
+    ],
+    "gifts": [
+      {
+        "name": "Genius",
+        "description": "Hirnloser has realized his intellect is extraordinary. **Tactical Insight:** Once per Scene, Hirnloser can describe a brilliant tactic or plan that automatically succeeds (no Check required)—positioning advantage, environmental exploitation, perfect timing, etc. **Countermeasure:** Three times per Scene, Hirnloser can prevent a Hunter from activating a Gift by explaining exactly how to counter it, forcing them to use a different approach. **Prepared:** Hirnloser always has the right tool, item, or piece of information for the current situation—he's thought ahead and prepared contingencies."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Prove that intelligence can overcome any obstacle",
+      "Protect my companions with superior planning",
+      "Never be fooled or manipulated again"
+    ],
+    "notes": "Hirnloser's transformation means he no longer speaks in riddles—his communication is crystal clear and often intimidatingly intelligent. If shown evidence of Henkle's manipulation, he becomes furious at being fooled and turns his genius against the doctor. He coordinates with Lowe and Dose as a tactical unit. Voice: Clear, precise, academic. Mannerisms: Adjusts spectacles, constantly calculating. If redeemed, becomes an invaluable ally with his strategic mind."
+  }
+}

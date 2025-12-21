@@ -1,0 +1,41 @@
+{
+  "name": "Henrich - The Worried Father",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": false,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a simple farmer who loves his son more than anything",
+      "I will do whatever it takes to help him, even if it means venturing into a village full of monsters"
+    ],
+    "agenda": [
+      "Find help for my son Klaus who suffers from ozena",
+      "Protect my son from harm"
+    ],
+    "gifts": [],
+    "background": "Henrich is a simple farmer whose adult son Klaus suffers from ozena—a terrible disease that has destroyed his nose. They heard rumors that Margareta Westen, the Good Witch of Gelb, might be able to help. When they arrived in Gelb, they were terrified by the sight of so many deformed and disfigured people living there. Henrich is nervous but determined to help his son, even if it means facing his fears.",
+    "notes": "Minor NPC encountered on the road to Gelb. If the Hunters are kind and offer to help, Henrich agrees to guide them to the village. If they threaten or intimidate him, he runs away. Lowe the Coward is observing this encounter from a distance, judging the Hunters' character.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz",
+    "role": "Worried father seeking help for his afflicted son"
+  }
+}

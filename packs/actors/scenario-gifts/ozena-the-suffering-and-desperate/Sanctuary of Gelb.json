@@ -1,0 +1,14 @@
+{
+  "name": "Sanctuary of Gelb",
+  "type": "item",
+  "img": "icons/environment/settlement/house-small.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part One: The Yellow Village",
+    "description": "You have earned the trust and gratitude of the outcasts in the village of Gelb. The villagers—people with leontiasis, elephantiasis, severe burns, missing limbs—see you as protector rather than threat. While in Gelb, you have sanctuary: free lodging, meals, basic medical care. Villagers warn you of dangers, share rumors about Rot and Smaragd, offer their unique skills. Once per scenario, call upon a villager's specialized knowledge (herbalism, tracking, local history). If Margareta survived, she provides magical insight. If she died protecting them, they honor you as her successor and will risk their lives to help you stop Henkle.",
+    "tags": ["social", "sanctuary", "allies", "knowledge"],
+    "requirements": "Save Klaus from kidnappers, show compassion to outcasts, or defeat those threatening Gelb",
+    "somaCost": 0,
+    "limitations": "Villagers are not warriors—they provide support, not combat aid. If you betray their trust or harm them, lose this gift permanently. Henkle or OZena may target Gelb to hurt you."
+  }
+}

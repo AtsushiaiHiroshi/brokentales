@@ -1,0 +1,39 @@
+{
+  "name": "Trebizond - Princess of a Distant Country",
+  "type": "npc",
+  "img": "icons/weapons/thrown/net-weighted-purple.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Trebizond is a princess from a distant country who serves as one of Saint George's six Paladins. She brings an exotic perspective and arsenal to the Paladins, using unfamiliar weapons and objects from her homeland that surprise and confound opponents. Unlike some of the more rigid Paladins, Trebizond possesses an unshakeable curiosity about new things—a trait that can be both her strength and her weakness. She's fascinated by the cultures and peoples she encounters during her travels with Saint George, and this curiosity sometimes distracts her from her holy mission. Her special equipment includes items like Magic-Finding Dust that reveals hidden enchantments, whips as sharp as blades that can strike from distance, exotic poisons that induce specific effects, or mechanical devices from her homeland that seem almost magical. When she creates a special equipment Descriptor and uses it, her Opposition Level increases to 6, making her a formidable combatant. Smart Hunters can exploit her curiosity—offering to show her something unique or fascinating might distract her or even make her question Saint George's absolute judgments. Of all the Paladins, she's the most likely to be swayed by experiencing something that challenges her worldview.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "Sometimes I am seized by unshakeable curiosity about new things"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - From a Far Country",
+        "description": "Trebizond can make use of exotic weapons and objects to surprise opponents. Once per Scene, she can create a Descriptor that represents special equipment, such as 'Magic-Finding Dust' or 'A Whip as Sharp as a Blade' or 'Poison from the Eastern Lands' or 'Mechanical Crossbow of My Homeland'. When using her special equipment, Trebizond increases her Opposition Level by 1 (to 6). The equipment lasts for the Scene and provides tactical advantages beyond just the OL bonus."
+      }
+    ],
+    "conditions": [],
+    "notes": "Trebizond is Paladin #1 (roll 1d6 to determine which Paladin appears). Her curiosity is both strength and weakness—she might be distracted by fascinating objects or stories, or convinced to question orders if shown something truly unique. She works well with other Paladins but sometimes pursues her own interests. Can be separated from group by exploiting her curiosity. Voice: Accented, expressive, asks many questions. Mannerisms: Examines everything closely, touches unfamiliar objects."
+  }
+}

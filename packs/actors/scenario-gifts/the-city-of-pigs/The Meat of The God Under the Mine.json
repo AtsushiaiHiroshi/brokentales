@@ -1,0 +1,13 @@
+{
+  "name": "The Meat of The God Under the Mine",
+  "type": "item",
+  "img": "icons/consumables/meat/steak-raw-red.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You possess a piece of the divine flesh torn from The God Under the Mine. The meat regenerates slowly, allowing repeated use. Once per Scene, you can consume a portion of the flesh to temporarily gain supernatural power. When you do, immediately heal 1 Wound and gain 1 Additional Success on all physical actions you take for the rest of that Scene (attacks, climbing, running, lifting, swimming, etc.). The power courses through your body, making you stronger, faster, and more resilient. However, you must wait an entire Scene for the remaining flesh to regenerate before you can use this Gift again. **WARNING:** If you use this Gift in 2 consecutive Scenes without waiting for regeneration, the flesh is completely consumed and you permanently lose this Gift. The temptation to rely on divine power comes with a cost.",
+    "somaCost": 0,
+    "requirement": "Obtain a piece of the flesh of The God Under the Mine—either by visiting the slaughterhouse and finding Frank's stash, or by defeating one of the Spawn of the God and harvesting its meat.",
+    "scenario": "The City of Pigs",
+    "notes": "This is a powerful but dangerous Gift that embodies the central temptation of the scenario. The meat grants genuine power (+1 Additional Success on ALL physical actions for entire Scene, plus heal 1 Wound), making it extremely useful in combat. The regeneration mechanic (must wait full Scene between uses) encourages strategic timing. The permanent loss condition (use 2 consecutive Scenes = Gift consumed) creates dramatic tension—do you risk losing the Gift to survive a dire situation? This mirrors Arthur Browne's own corruption: he started using the God's flesh out of desperation but became addicted to its power. Hunters who use this Gift frequently may begin to show physical changes (pig-like features) at the Storyteller's discretion, foreshadowing transformation into Pig Heads. The Gift doesn't require Soma, making it accessible but also tempting to overuse. Frank Browne has been secretly mixing this flesh with beef to create Pig Heads—Hunters with this Gift understand firsthand why workers would transform."
+  }
+}

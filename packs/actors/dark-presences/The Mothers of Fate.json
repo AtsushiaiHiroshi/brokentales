@@ -1,0 +1,51 @@
+{
+  "name": "The Mothers of Fate (Cloris, Panis, Galis)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are three sisters, we never show our real identity, but we twist fate to our pleasure thanks to our powerful magic"
+    ],
+    "agenda": [
+      "Pretending to be friendly and kind, while manipulating others' choices according to our will",
+      "Appearing out of nowhere in time of need, thanks to our magic"
+    ],
+    "gifts": [
+      {
+        "name": "The Way Forward",
+        "description": "The knowledge of the three sisters is absolute and unlimited; they know the past, present, and future. By asking the Mothers of Fate for advice or information, you will be able to obtain guidance to follow to achieve your goals or information that few know. This all comes at a high price. Once per Session you can ask the Storyteller a direct question about a person, a place, or a secret, to which they will answer in detail and with specifics. In exchange, the Hunter must perform a task for the Mothers, but which the Hunter will not remember. The Hunter receives 1 Pact Token, which the Storyteller can spend during a Scene to introduce the effects of the action the Hunter performed for the Mothers. The action can be anything, even in open contrast to the Hunter's moral stances. They will be aware of what they have done only when the truth is revealed."
+      },
+      {
+        "name": "As if by Magic",
+        "description": "The power of the Mothers of Fate is such that it can change reality for a short period of time. By unconditionally accepting a request from the Mothers of Fate and spending 1 Soma, once per Session, the Hunter can ask the Mothers to modify the surrounding environment, adding or removing any object, creating an advantage for themselves or whoever they wish."
+      }
+    ],
+    "background": "Cloris, Panis, and Galis, called the Mothers of Fate. Since the dawn of time, there have been figures who control people's destiny, plot in the shadows, and hide in plain sight. They are the ones we go to for advice and whom we trust blindly. They use their proximity to manipulate people, enjoying their intrigues and rejoicing when everything goes according to their plans. These figures are always represented as three sisters who, since ancient times, have been weaving and cutting the threads of everyone's destiny. Their true identity is unknown as they have always hidden behind the name of Fairy Godmothers. When the three sisters insinuate themselves into the stories they wove, they always did so by changing their appearance and name, all to get closer to the protagonists and manipulate them according to their will. Some rumors say that it is possible to make deals with them, but always at a very high price.",
+    "notes": "Dark Presence by Francesco Panitti.\n\nThe Mothers of Fate are 3 sisters (1 Wound each, 3 total) who manipulate destiny itself. Their gifts are incredibly powerful but dangerous:\n- The Way Forward: Ask any question, get complete answer, but you unknowingly perform a task for them (Pact Token). The Storyteller reveals what you did later - could be anything, even against your morals.\n- As if by Magic: Spend 1 Soma to alter reality (add/remove objects) if you accept their request.\n\nThey appear as helpful Fairy Godmothers but are master manipulators weaving fate to their designs. Never show their true identity.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "ally",
+    "inspiration": "Fairy Godmothers / The Fates",
+    "role": "Three manipulative sisters who control destiny while appearing as helpful godmothers",
+    "creator": "Francesco Panitti"
+  }
+}

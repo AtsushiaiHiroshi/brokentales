@@ -1,0 +1,50 @@
+{
+  "name": "Ambrose the Sorcerer (Old Merlin)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": false,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an ancient sorcerer, my body is weak, but my magical power is unmatched"
+    ],
+    "agenda": [
+      "Pretending to be a wise old man who is always ready to help others with the proper advice",
+      "Gaining personal advantage by manipulating others"
+    ],
+    "gifts": [
+      {
+        "name": "Ancient Sorcerer",
+        "description": "Merlin's power is incredible, achieving practically anything he can think of through the use of magic. Those who rely on his advice will be able, once per Session, to activate the magic power that the wizard has infused within them. The magical effects must be decided at the time that Merlin blesses the character by defining an appropriate Descriptor such as: Taking flight like a bird or Having skin as hard as a stone. Whoever carries Merlin's magic can activate its power once, obtaining the Descriptor for the entire Scene. Once the Scene resolves the magic is drained from the player and cannot be activated again."
+      },
+      {
+        "name": "Wise Advice",
+        "description": "Merlin will never intervene personally but can appear in a dream or vision to his protégés. Once per Scenario, a Hunter can spend 1 Soma to summon Merlin's help. The sorcerer will appear with helpful information or to bless the character with one of his spells."
+      }
+    ],
+    "background": "Deep mysteries still surround wielders of magic and their secret, centuries-old struggle for control of the arcane world. Some legends tell of the two most outstanding practitioners of arcane arts: Baba Yaga, the witch forced into the body of a child, and Ambrose, constrained into the body of a tired old man. Under the false name of Merlin, Ambrose has been pulling the strings of humanity's destiny for centuries. He pretends to be of service to those who need him most, while in truth his actions only strengthen his position. Many seek the old hermit Merlin for advice or help, unaware that the only support he dispenses is that which supports himself. With each new petitioner, the ancient sorcerer grows ever closer to absolute power.",
+    "notes": "SPECIAL AGENDAS:\n- Baba Yaga: I both respect and hate Yaga. Hers is the only power that can stand against mine. While the laws of magic prevent me from killing her directly, nothing prevents me from maneuvering her into danger.\n- Morgana of the Lake: I fear the power of the greatest sorceress of all time. Thanks to an agreement with Baba Yaga, we have sealed the memory of young Morgana. I will do whatever it takes to keep her from awakening.\n- Marina the Sea Explorer: I respect Marina as a skilled witch and I seek her aid against Baba Yaga. Obviously, once my great enemy is defeated, I will have to make sure that Marina does not take her place.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "Merlin from Arthurian Myth",
+    "role": "Ancient manipulative sorcerer who aids for personal gain"
+  }
+}

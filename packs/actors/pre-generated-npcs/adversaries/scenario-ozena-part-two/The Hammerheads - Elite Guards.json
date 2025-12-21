@@ -1,0 +1,39 @@
+{
+  "name": "The Hammerheads - Elite Guards",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-barbute-banded-steel.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "The Hammerheads are Helga's elite guards, warriors who wear massive hammer-shaped helmets that extend down to completely cover their heads and chests. These specially designed helmets provide incredible protection for the upper body but leave the lower body vulnerable. The Hammerheads are blood-bound servants like the Porcelain Dolls, mind-controlled by Helga's magic and forced to serve as her personal bodyguards. They work in pairs with coordinated tactics: one engages directly while the other flanks, using their heavy helmets as weapons by headbutting opponents. They protect Helga fanatically, willing to die for her without hesitation. The only way to damage a Hammerhead is to specifically target their lower body (legs, abdomen), which requires accepting 1 Penalty on the attack Check, or to use magic and area attacks that don't require precise targeting. If the Infusion of Purity breaks Helga's blood magic control over them, they immediately stop fighting and flee in confusion. Beneath the helmets are ordinary soldiers from nearby towns, kidnapped and enslaved by Helga's cult. Some have been serving for years, completely losing their original identities. The helmets are works of craftsmanship—heavy iron shaped like massive hammers, with eye slits and breathing holes, weighing over 40 pounds. Only the strongest warriors can wear them in combat.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are Helga's elite guards",
+      "Warriors who wear massive hammer-shaped helmets",
+      "Our helmets protect our heads and torsos completely",
+      "We serve the Red Witch without question"
+    ],
+    "gifts": [
+      {
+        "name": "Hammerhead Helmet",
+        "description": "The Hammerheads wear specially designed helmets that extend down to cover their heads and chests completely. **Head/Chest Immunity:** Attacks targeting the head or chest automatically miss or deal no damage. **Vulnerable Lower Body:** Attackers can target the lower body (legs, abdomen), but this requires 1 Penalty on the attack Check. Magic or area attacks that don't require precise targeting bypass this protection. The helmet can also be used as a battering weapon for headbutt attacks."
+      }
+    ],
+    "conditions": [],
+    "notes": "Hammerheads typically work in pairs: one engages directly while the other flanks. They use coordinated tactics and their helmets to headbutt opponents. They protect Helga fanatically in her mansion. If the Infusion breaks Helga's control, they stop fighting and flee. There are usually 4-6 Hammerheads guarding Helga's ritual chamber. Smart players will target their legs or use magic to bypass the helmet protection. The helmets make them slow but nearly invulnerable from the waist up."
+  }
+}

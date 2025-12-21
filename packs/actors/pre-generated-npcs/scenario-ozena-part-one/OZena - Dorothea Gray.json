@@ -1,0 +1,54 @@
+{
+  "name": "OZena (Dorothea Gray)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I suffer from ozena, a disease that destroyed my nose and my life",
+      "I was thrown back in time, and the only way home is to gather the pieces of the Compass Rose",
+      "I will do whatever it takes to end my suffering—even murder"
+    ],
+    "agenda": [
+      "Collect all four pieces of the Compass Rose",
+      "Get home to my own time",
+      "Find a cure for my disease"
+    ],
+    "gifts": [
+      {
+        "name": "The Silver Slippers - Short-Range Teleport",
+        "description": "Once per Exchange, OZena can teleport up to 30 feet to any location she can see. This doesn't count as an action and can be used to avoid attacks or reposition instantly."
+      },
+      {
+        "name": "The Silver Slippers - Long-Distance Teleport",
+        "description": "Once per Scene, OZena can teleport to any location within 1 mile that she has previously visited. This requires her full action. The Silver Slippers are permanently attached to her feet and cannot be removed without killing her."
+      }
+    ],
+    "background": "Dorothea Gray grew up in early 1900s America with dreams of becoming a doctor. Her life was destroyed when she contracted ozena—a terrible disease that slowly destroyed her nasal cavity, leaving her face disfigured. Desperate for a cure, she sought out Dr. Norman Henkle, who possessed a partially completed artifact called the Compass Rose. The incomplete artifact malfunctioned, throwing Dorothea and three other patients backward in time to 1780 Germany. Dr. Henkle convinced the desperate Dorothea that four witches held the pieces of the Compass Rose and were evil, and that killing them was necessary to return home. Dorothea became OZena—a killer who has already murdered Johanne in Schiltach. Her face is horribly disfigured, with her nose completely gone. She covers the lower half of her face with a silver mask. She wears enchanted Silver Slippers that allow her to teleport.",
+    "notes": "ROLEPLAYING:\n- Voice: Muffled by her mask, tinged with pain and desperation\n- Mannerisms: Keeps one hand on her mask, moves with purpose, eyes constantly scanning\n- Motivation: She was a good person broken by suffering and manipulation\n- Tragedy: Every witch she kills makes her more monstrous, but she's too desperate to stop\n- Redemption: She can be saved if the Hunters show her the truth about Henkle\n\nWHAT SHE KNOWS:\n- Dr. Henkle can send people through time using the Compass Rose\n- The Compass Rose needs all four pieces to function safely\n- She's already killed Johanne and taken the North (Black) piece\n- Henkle told her the witches are evil and must be eliminated\n\nWHAT SHE DOESN'T KNOW:\n- Henkle is lying about the witches being evil\n- The incomplete Compass Rose is more dangerous than helpful\n- Henkle plans to abandon her once he has what he needs\n- Her actions are part of a larger scheme by the One Who Plots in the Shadows",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz - Dorothy",
+    "role": "Tragic antagonist hunting witches, can be redeemed",
+    "timeDisplaced": true,
+    "originalEra": "Early 1900s America"
+  }
+}

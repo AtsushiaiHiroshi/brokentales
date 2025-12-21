@@ -1,0 +1,39 @@
+{
+  "name": "Satu - The Broken Dancer",
+  "type": "npc",
+  "img": "icons/equipment/hand/gauntlet-armored-leather-grey.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": true,
+    "biography": "Satu was once a beautiful and talented dancer in Vaasa, a small Finnish coastal town, where she performed and brought joy to audiences. Six years ago, she fell deeply in love with Private Enar, a young Carolean soldier stationed there. When Enar deserted to stay with her, his comrades discovered him and Captain Andersen ordered his brutal execution—cutting off his leg and throwing him into the sea. Satu never knew the true extent of Andersen's cruelty, only that Enar vanished. Then Andersen, mad with jealousy and obsession, returned and raped her. The assault left her pregnant with Erik. Andersen disappeared afterward, leaving Satu to sink into poverty, forced to work as an assistant cook while raising her son alone. Six years passed in hardship until Andersen—now retired and wealthy—sought her out, driven by guilt. Over months of effort, he earned her grudging forgiveness by freeing her from poverty and bringing her and Erik to live in his mansion. Satu now exists as a shadow of her former self, no longer dancing, barely speaking, accepting this life only because it provides safety and comfort for Erik. She suspects the monster appearing each night is Enar but hides from his gaze out of fear, shame, and confusion. She doesn't know if she wants him to succeed or fail. Her only certainty is that Erik—the sole reason she keeps going—must survive, even if it means staying with the man who destroyed her life.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a former dancer who has lost everything",
+      "I am but a shadow of my former self",
+      "I carry the trauma of what Andersen did to me",
+      "My son Erik is the only reason I keep going"
+    ],
+    "gifts": [],
+    "conditions": [],
+    "agenda": [
+      "Defend my son Erik, the only reason that I keep going",
+      "Hide from Enar because I don't know how to face him after everything",
+      "Endure this life with Andersen for Erik's sake, even though it breaks me"
+    ],
+    "notes": "Satu is a tragic figure—victim of both Andersen's violence and Enar's twisted love. Voice: Quiet, broken, rarely makes eye contact. She has guessed the monster is Enar but won't confront him out of fear and shame (she lives with his rapist/murderer). If Erik is endangered, both she and Andersen will sacrifice themselves to save him. If the truth comes out and Hunters offer her a choice, she may flee to the cliff to confront Enar alone (Day 3 potential). Her saying goodbye to Enar's heart at the sea bottom can give him peace (Sea Fairy can arrange this). She never dances anymore—that part of her died. Accepts life with Andersen not out of forgiveness but pragmatism for Erik's future. Complex feelings: grief for Enar, hatred for Andersen, love for Erik, shame for her circumstances. If Enar succeeds in 'merging' with her, it would be body horror—she would be trapped in a fusion of flesh and sea matter, conscious but unable to escape."
+  }
+}

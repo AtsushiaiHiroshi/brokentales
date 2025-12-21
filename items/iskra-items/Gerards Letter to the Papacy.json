@@ -1,0 +1,21 @@
+{
+  "_id": "GerardsLetter",
+  "name": "Gerard's Letter to the Papacy",
+  "type": "descriptor",
+  "img": "icons/sundries/scrolls/scroll-worn-tan-brown.webp",
+  "system": {
+    "description": "A letter written in Lord Gerard Dubois' trembling hand, sent to the Papacy begging for help. The letter reads: 'The beasts that menace the Gévaudan are unnatural, fashioned by something other than God.' This desperate plea brought the Order's Hunters to Durfort.",
+    "type": "item",
+    "uses": {
+      "value": 0,
+      "max": 1
+    },
+    "isImprovement": false,
+    "isDarkEgo": false
+  },
+  "flags": {
+    "scenarioId": "red-hood-iskra",
+    "location": "Dubois Palace",
+    "importance": "story-hook"
+  }
+}

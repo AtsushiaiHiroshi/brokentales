@@ -1,0 +1,40 @@
+{
+  "name": "Enar - The Eternal Soldier",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "broken_one",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": { "current": 0, "max": 0 },
+      "wounds": { "current": 0, "max": 4, "extra": { "value": 0, "max": 1 } }
+    },
+    "descriptors": [
+      "I am an immortal being, the result of all the hatred I harbored in my exile into the abyss",
+      "I have the strength of five men and my body feels no pain"
+    ],
+    "agenda": [
+      "Take revenge on Andersen, but not before I have eliminated all my former companions",
+      "After eliminating Andersen and his people, I want to meld with Satu so that our bodies and souls are united for eternity"
+    ],
+    "gifts": [
+      {
+        "name": "The Eternal Soldier",
+        "description": "When Enar suffers his final Wound, his body becomes seawater and soaks into the ground. The following day, Enar completely regenerates himself at the bottom of the sea, where his heart is. Only by recovering the heart and destroying it can Enar be permanently eliminated."
+      },
+      {
+        "name": "Rage of the Sea",
+        "description": "Thanks to magic granted by the Sea Fairy, Enar can always choose an additional effect: 1. Algae Whip: A string of algae stretches from Enar's body and can perform a second independent action. 2. Wave: Enar's body becomes seawater, allowing him to slip away and cover 30 feet. 3. Shells: 3 large seashells are shot at 3 different targets (OL Medium 5 each)."
+      }
+    ],
+    "background": "Six years ago, Enar was a soldier in love with dancer Satu. Commander Andersen, consumed by jealousy, raped Satu and falsely accused Enar of abandoning his post. As punishment, Enar was chained to rocks and left to drown in the sea. The injustice and hatred transformed him into an immortal monster. A Sea Fairy granted him powers to seek revenge. Enar systematically hunts down and kills his former companions. His heart rests at the bottom of the sea—destroy it to kill him permanently.",
+    "notes": "MAIN ANTAGONIST. 4 Wounds, OL Hard 7, regenerates daily unless heart is destroyed. Can act twice per turn with Algae Whip or use Wave/Shells. When at 2 Wounds, Erik enters—Enar realizes Erik is Andersen's son and targets the child. Recognizes shells from the cliff where his heart lies.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "A Soldier's Duty",
+    "inspiration": "The Little Mermaid",
+    "role": "Tragic immortal seeking revenge"
+  }
+}

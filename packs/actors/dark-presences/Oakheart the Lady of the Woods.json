@@ -1,0 +1,51 @@
+{
+  "name": "Oakheart the Lady of the Woods",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "creature",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a twisted, lonely being who wanders the forests and rewards companionship and kindness with boons"
+    ],
+    "agenda": [
+      "Find companions willing to look beyond my appearance and treat me with kindness",
+      "I am attracted to those who are particularly beautiful, as I secretly desire a lover"
+    ],
+    "gifts": [
+      {
+        "name": "Rotten Face",
+        "description": "Oakheart removes her mask, revealing her terrifying face. Any creature who glimpses it is driven temporarily mad. The madness can take the form of single-minded terror or gibbering catatonia. Create a Descriptor to represent the insanity induced by the vision of Oakheart's face, and inflict 1 Wound on anyone who sees it. Alternatively, Oakheart can bestow its hideous face on a Hunter, who will receive the ability to use this Gift once during the Scenario."
+      },
+      {
+        "name": "Blossom Boon",
+        "description": "After experiencing love or true friendship with a person, Oakheart's withered branches burst into bloom, raining petals on her and her new bond. This generates 3 Petal Tokens. Each can be used to heal 1 Wound. Alternatively, you can use 1 Petal to calm a subject in the grip of negative feelings, so that they can ignore Descriptors and Agendas related to the altered state for the rest of the Scene."
+      }
+    ],
+    "background": "Those who venture into darkened woods and lonely forests whisper of a twisted woman with skin made of bark, legs made of coiling roots, and a face hidden by a crude wooden mask. Offered as the mortal bride to a forest god centuries ago, the woman was transformed into a hideous being to please her new groom but soon watched her husband wither and die as the forest was cut down. Now bereft of her home and her love, she wanders the woods in search of companionship. Dubbed \"Oakheart,\" it's rumored that any mortal who glimpses her true face is instantly driven mad by her terrifying countenance, but some wanderers claim to have been aided or even rescued by the creature, who seems attracted to young and beautiful travelers.",
+    "notes": "Dark Presence by Chris van der Linden and Chris \"Mono\" Mahon.\n\nOakheart is a tragic ally seeking companionship. Her Rotten Face can drive enemies mad (1 Wound + insanity Descriptor), or she can gift this ability to a Hunter. If shown love/friendship, she blooms and grants 3 Petal Tokens that heal wounds or calm negative emotions. She's attracted to beautiful travelers. Approach with kindness to gain a powerful forest ally.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "ally",
+    "inspiration": "Blodeuwedd",
+    "role": "Tragic forest creature seeking companionship, rewards kindness with healing",
+    "creators": ["Chris van der Linden", "Chris Mono Mahon"]
+  }
+}

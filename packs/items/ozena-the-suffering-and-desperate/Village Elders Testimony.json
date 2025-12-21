@@ -1,0 +1,12 @@
+{
+  "name": "Village Elder's Testimony",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-sealed-red-brown.webp",
+  "system": {
+    "description": "Written account from the village elder describing the three colored villages and their mysterious afflictions. Mentions strange dreams and whispers in the night.",
+    "location": "Village Elder's House - Yellow Village",
+    "importance": "important",
+    "found": false,
+    "scenario": "ozena-the-suffering-and-desperate"
+  }
+}

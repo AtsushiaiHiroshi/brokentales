@@ -1,0 +1,39 @@
+{
+  "name": "Manycorpses - The Fused Lovers",
+  "type": "npc",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "biography": "Manycorpses is one of Helga's most terrifying creations—multiple human bodies fused together into one horrifying abomination through blood magic. These were once lovers who came to Helga begging to never be separated. She granted their wish in the cruelest way possible, merging their bodies into a single twisted entity. Now Manycorpses appears as a grotesque amalgamation of limbs, torsos, and heads, all moving in unnatural coordination. It guards Helga's greenhouse on the outskirts of Rot, attacking any intruders on sight. The creature can act twice per Exchange and moves along walls and ceilings like a spider, making it incredibly dangerous in combat. Its multiple voices sometimes speak in unison, expressing the trapped souls' anguish and desire for separation. When killed, Manycorpses speaks with multiple overlapping voices: 'Thank you... we can finally be... separate... at last...' The creature's death is both a mercy and a tragedy—a reminder of Helga's cruelty and the price of desperate wishes.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am many bodies merged into one through blood magic",
+      "I was lovers who begged to never be separated",
+      "Now we are together forever, twisted and wrong",
+      "Serving the witch who did this to us is our only purpose"
+    ],
+    "gifts": [
+      {
+        "name": "Aberration",
+        "description": "Manycorpses is a magical aberration with horrifying capabilities. **Act Twice:** Can perform two actions per Exchange instead of one, attacking different targets or performing complex maneuvers. **Wall-Walking:** Can move along walls and ceilings as easily as floors, attacking from unexpected angles and giving defenders 1 Penalty on Defense Checks due to the disorienting assault from above or behind."
+      }
+    ],
+    "conditions": [],
+    "notes": "Manycorpses guards the greenhouse containing Wolfgang's alchemical laboratory. Inside are plants for the Infusion of Purity (burdock, nettle, hyssop) but no elderberry. Defeating or bypassing this creature is necessary to access Wolfgang's notes revealing the complete recipe. The creature's multiple limbs allow it to grapple multiple opponents simultaneously, and its wall-crawling ability makes it nearly impossible to corner or trap."
+  }
+}

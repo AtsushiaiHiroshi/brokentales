@@ -1,0 +1,43 @@
+{
+  "_id": "SwampFairies",
+  "name": "The Fairies",
+  "type": "npc",
+  "img": "icons/magic/light/orbs-smoke-blue.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are Fairies, spirits of nature",
+      "We move gracefully in a world of clumsy humans"
+    ],
+    "agenda": "Defend the crown that Tuvstarr has given us and dance forever wrapped in its sweet light",
+    "gifts": [
+      {
+        "name": "Madness",
+        "description": "Made mad by the light of the crown, the Fairies rage at anyone who tries to touch it. Two or more Fairies can attack together to make a single action with a bonus to the OL equal to the number of fairies involved. If the action succeeds, in addition to inflicting 1 Wound, the target will be thrown into the swamp to be drowned. Once in the water, the target can attempt to break out of the flurry of drowned, dead hands pulling from the bottom with a Defense Check against OL Medium 5."
+      }
+    ],
+    "background": "Ethereal spirits of nature who look like pale women with long hair. They glide, dance, and writhe in the air as if adrift in an invisible current. Their eyes are shut and they moan with pleasure as they bask in the light from Tuvstarr's golden crown. Corrupted by the crown's splendor, they guard it obsessively in the swamps, surrounded by the bodies of all those who have drowned there over the centuries - corpses that have emerged from the earth to watch the Fairies dance. The Fairies are dreamlike and ethereal, their bodies passing through each other. Around the crown there are always twelve fairies. If someone blocks the light from the crown, they will awaken screaming in agony at seeing how corrupted the lands have become."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "crown-guardians",
+    "location": "swamp",
+    "usage": "use-multiple-twelve"
+  }
+}

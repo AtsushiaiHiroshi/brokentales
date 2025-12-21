@@ -1,0 +1,13 @@
+{
+  "name": "Art of Command",
+  "type": "item",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You've observed a good leader and figured out how to hone your strategies. Once per Scene, you can give an order to one of your allies and if they try to carry it out, they will receive 2 Additional Successes to any Check.",
+    "somaCost": 0,
+    "requirement": "Withstand an onslaught from Enar by fighting alongside Andersen.",
+    "scenario": "A Soldier's Duty",
+    "notes": "This Gift is learned by observing Andersen's tactical command during battle. The Hunter must fight alongside Andersen during one of Enar's attacks (Day 1, 2, or 3) and survive the encounter. The order must be specific and tactical. This Gift is similar to Andersen's 'Commander' Gift but slightly less powerful (once per Scene vs. 3 times per Scene)."
+  }
+}

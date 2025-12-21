@@ -179,12 +179,25 @@ export function registerHandlebarsHelpers() {
     return value ? "checked" : "";
   });
 
-  // Localize and format
+  // Localize and format helpers with type validation
   Handlebars.registerHelper("localize", function (key) {
+    // Validate that key is a string before calling localize
+    if (typeof key !== "string") {
+      console.warn(
+        "BrokenTales | localize helper received non-string key:",
+        key
+      );
+      return key;
+    }
     return game.i18n.localize(key);
   });
 
   Handlebars.registerHelper("format", function (key, data) {
+    // Validate that key is a string before calling format
+    if (typeof key !== "string") {
+      console.warn("BrokenTales | format helper received non-string key:", key);
+      return key;
+    }
     return game.i18n.format(key, data);
   });
 }

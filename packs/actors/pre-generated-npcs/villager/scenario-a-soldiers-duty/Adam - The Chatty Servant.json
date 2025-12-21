@@ -1,0 +1,39 @@
+{
+  "name": "Adam - The Chatty Servant",
+  "type": "npc",
+  "img": "icons/environment/people/commoner-woman-cat.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "Adam is a young man in his twenties who works on Andersen's estate to pay off a debt he owes to the former commander. Unlike the twenty-plus other servants who can come and go freely, Adam cannot escape to the nearby city—he is bound by his obligation until the debt is cleared. Despite his circumstances, Adam is remarkably talkative and sociable, perhaps because he craves connection and conversation to break up the monotony of estate work. He observes everything that happens in the household and has no qualms about sharing gossip with visitors, including the Hunters. Adam knows there is a complex and troubled relationship between Andersen and Satu, and he's observed that the woman comes from the Captain's past, though he doesn't know the sordid details. He's also noticed that Andersen is very considerate of young Erik and clearly regards the boy as a son, though again Adam doesn't know why. Adam provides the Hunters with useful social intelligence about the estate's inhabitants and dynamics. He can be encountered wandering the estate grounds and will eagerly approach visitors to chat.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a talkative young servant bound by debt to Andersen",
+      "I observe everything that happens on this estate",
+      "I enjoy conversation and sharing what I know",
+      "I cannot leave the estate until my debt is paid"
+    ],
+    "gifts": [],
+    "conditions": [],
+    "agenda": [
+      "Pass the time by talking with interesting visitors",
+      "Eventually pay off my debt and return to the city",
+      "Understand the strange dynamics between Andersen, Satu, and Erik"
+    ],
+    "notes": "Adam serves as an information source for Hunters exploring the estate. Voice: Fast-talking, gossipy, friendly. Encountered on a roll of 5-6 when exploring estate. Provides social context: complex relationship between Andersen and Satu, they have a shared past, Andersen treats Erik like a son. Doesn't know about the rape, murder, or Enar's return—just observes surface behavior. Over 20 servants work on the estate but most are inexperienced fighters and would flee if Enar attacks. Only Andersen and Christian are skilled combatants. Adam himself is not a fighter. Willing to help Hunters in non-combat ways (showing them around, delivering messages, providing supplies). Represents the ordinary people caught up in extraordinary circumstances."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Hugin and Munin",
+  "type": "item",
+  "img": "icons/creatures/birds/corvid-raven-purple.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "Once per Scene, you can ask for advice from Hugin and Munin, the ravens of Father Odin. Ask the Storyteller a question, choosing from among: **'Where should I go?'** **'How can I defeat that enemy?'** **'What is missing in my search?'** The Storyteller will answer with a cryptic sentence, which always includes a useful hint. Additionally, you get 1 Additional Success on all Defense Checks against an attack from a non-human creature, thanks to the blessing of Odin himself. **Cost:** At the beginning of each Scene, you must spend 1 Soma to feed the spirits of Hugin and Munin, or lose the use of this Gift for the rest of the Scenario.",
+    "somaCost": 1,
+    "requirement": "Meet Hugin and Munin in the Wild Forest and make a pact with them. (NO INTERLUDE REQUIRED in Sherazade stories)",
+    "scenario": "Tuvstarr's Reflection",
+    "notes": "Hugin (Thought) and Munin (Memory) are Odin's ravens from Norse mythology. In Tuvstarr's Reflection, even the ancient gods want to stop the corruption spreading across the land. Random encounter 2 in the Wild Forest. The ravens approach and mentally communicate, offering their blessing. The cryptic answers guide without giving away solutions. The +1 success vs non-human creatures helps against Fairies, Hulder, Skutt, trolls, etc. Must pay 1 Soma at scene start to keep the gift active (feeding their spirits). Special rule: Unlike normal Scenario Gifts, this can be acquired WITHOUT an Interlude—immediately upon making the pact."
+  }
+}

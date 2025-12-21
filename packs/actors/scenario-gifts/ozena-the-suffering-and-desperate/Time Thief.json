@@ -1,0 +1,14 @@
+{
+  "name": "Time Thief",
+  "type": "item",
+  "img": "icons/magic/time/hourglass-tilted-gray.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Three: The Emerald Village",
+    "description": "You have learned Henkle's secret: his Hot-Air Balloon is powered by Time Tokens harvested from temporal anomalies caused by the Compass Rose's presence in 1780. You can disrupt his escape plan by stealing or destroying his Time Tokens. Once per Scene, when Henkle would gain a Time Token (combat start, delaying him, Hunters lost in Illusory Labyrinth), make a Check vs his OL (5): on success, you intercept the temporal energy—Henkle gains no Token, and you gain insight into time flow (ask GM one yes/no question about immediate future: 'Will the balloon launch this Scene?' 'Is reinforcement arriving?'). If you accumulate 3 Time Tokens before Henkle does, you can either: sabotage his balloon permanently (it will never fly), or redirect the time portal to send companions home instead of Henkle escaping.",
+    "tags": ["sabotage", "temporal", "tactical", "counter-villain"],
+    "requirements": "Discover Henkle's Time Token mechanic through investigation, eavesdropping, or studying the Hot-Air Balloon",
+    "somaCost": 0,
+    "limitations": "Henkle notices when Tokens are stolen—he becomes hostile and focuses on eliminating you. Each stolen Token causes temporal headache (GM may impose -1 to Mental Checks while carrying multiple Tokens). If you die while carrying Tokens, they dissipate harmlessly but Henkle can collect new ones. Redirecting time portal requires having both Tokens AND at least two Compass Rose pieces."
+  }
+}

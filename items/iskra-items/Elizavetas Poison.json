@@ -1,0 +1,21 @@
+{
+  "_id": "PoisonVial",
+  "name": "Elizaveta's Poison",
+  "type": "descriptor",
+  "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+  "system": {
+    "description": "A powerful poison that Elizaveta keeps hidden in the palace. If Iskra is captured, Elizaveta will attempt to use this poison to eliminate her unwanted daughter once and for all. The poison is potent enough to kill even someone with supernatural resilience.",
+    "type": "item",
+    "uses": {
+      "value": 1,
+      "max": 1
+    },
+    "isImprovement": false,
+    "isDarkEgo": false
+  },
+  "flags": {
+    "scenarioId": "red-hood-iskra",
+    "location": "Dubois Palace - Elizaveta's possession",
+    "importance": "threat"
+  }
+}

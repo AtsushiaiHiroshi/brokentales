@@ -1,0 +1,13 @@
+{
+  "name": "Blessing of the Sea",
+  "type": "item",
+  "img": "icons/magic/water/orb-ice-opaque.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You are blessed by the mighty Sea Fairy and therefore sea-related abilities have no effect on you. You receive 2 Additional Successes on each Defense Check you make to defend yourself against a Gift, spell, or action made using a Descriptor that includes the word 'sea'.",
+    "somaCost": 0,
+    "requirement": "Prove to the Sea Fairy your intention to do something for poor Enar.",
+    "scenario": "A Soldier's Duty",
+    "notes": "This blessing protects against Enar's 'Rage of the Sea' Gift and any other sea-based threats. The Sea Fairy grants this after the Hunter demonstrates compassion for Enar rather than just wanting to kill him. The blessing is permanent for the Scenario but only affects sea-related powers."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "StalloTroll",
+  "name": "Stallo - The Old Troll",
+  "type": "npc",
+  "img": "icons/creatures/unholy/giant-troll-forest-blue.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an old troll and my appetite is matched only by my strength",
+      "A bird has made its nest on my head and when it gets angry it starts to peck me in the eye, which is incredibly annoying!"
+    ],
+    "gifts": [
+      {
+        "name": "Troll",
+        "description": "Stallo possesses enormous strength and each Position Check for a physical action attempted against him receives 1 Penalty. At the end of each of his actions, Stallo recovers 1 Wound he suffered. When he reaches 0 Wounds, the troll will collapse to the ground, only to regenerate within minutes."
+      }
+    ],
+    "background": "An old troll sleeping under a tree in the cursed forest. A bird has built a nest in his hair, and when disturbed it pecks at his eye, causing him great annoyance. If awakened by too much noise or for any other reason, Stallo will try to eat the intruders. His enormous strength and regenerative abilities make him a formidable opponent, though he can be avoided if travelers are careful and quiet."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "forest-hazard",
+    "behavior": "sleeps-until-disturbed"
+  }
+}

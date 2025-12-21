@@ -1,0 +1,14 @@
+{
+  "name": "Shadow Hunter",
+  "type": "item",
+  "img": "icons/magic/light/projectile-beam-yellow-blue.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "One Thousand and One Nightmares",
+    "description": "You have learned the weakness of Sherazade's Shadows—those OL 5, 1 Wound copies of past enemies with Shadow Body Gifts. Shadows can appear and disappear from darkness (+1 OL in shadows), regenerate unless in full light, and are only permanently destroyed by direct sunlight. With this Gift: (1) You can force Shadows to manifest by creating bright light (lanterns, magic, fire)—they cannot use Shadow Body while you illuminate them. (2) Once per Scene, make an opposed Check vs a Shadow's OL 5: on success, you've maneuvered it into a sunbeam, moonbeam through window, or reflected light—Shadow is destroyed permanently without Wound roll. (3) You recognize which past enemy a Shadow is copying, giving you +1 to Checks against it based on previous knowledge of its tactics.",
+    "tags": ["combat", "light", "knowledge", "anti-shadow"],
+    "requirements": "Survive at least one encounter with Sherazade's Shadows and study their mechanics, OR research shadow-creature lore",
+    "somaCost": 0,
+    "limitations": "Requires light source to be effective—useless in total darkness. Creating bright light may alert other enemies. Sunlight destruction only works if you can create/find actual sunlight (challenging indoors or at night). Some locations Sherazade chooses for confrontations have no windows or light sources—plan accordingly."
+  }
+}

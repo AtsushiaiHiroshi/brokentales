@@ -1,0 +1,42 @@
+{
+  "name": "Antonio Ciliegia - Gullible Alchemist",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an old alchemist who has never discovered anything concrete. Despite my skills and my experience, luck is never on my side."
+    ],
+    "agenda": ["Obtaining the secret of eternal life thanks to alchemy"],
+    "gifts": [
+      {
+        "name": "Unlucky Alchemist",
+        "description": "Antonio can rely on a series of alchemical compounds contained in vials that he hides in his tunic. When using a vial he rolls 1 die. On a 5 or 6 something goes wrong and Antonio suffers 1 Wound due to his proverbial bad luck. 1. Fire: The target and the surrounding area catch fire. All targets involved suffer 1 Wound. If the fire is not extinguished, burning targets suffer 1 Wound per action. 2. Thunder: The target is knocked over thirty feet away and ends up on the ground. If they hit something they will suffer 1 Wound. 3. Glue: an adhesive compound that quickly solidifies in the air. The target will be paralyzed until the compound is removed. The Glue can take 2 Wounds."
+      }
+    ],
+    "background": "Known as Mastro 'Cherry' Ciliegia because of his squat and red nose. An old alchemist who partnered with Geppetto to discover the secret of eternal life. Works on a magic oak tree and has been kidnapping people in Sinalunga to flay them for their skin. Now hiding in Villa Cilesterino with Azzurra's spirit.",
+    "notes": "His apprentice Nino is currently tied up in the Secret Laboratory. Antonio's workshop was the original scene of the experiments before they fled to Villa Cilesterino.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Of Flesh and Wood",
+    "inspiration": "Pinocchio (Carlo Collodi)",
+    "role": "Antagonist - Alchemist"
+  }
+}

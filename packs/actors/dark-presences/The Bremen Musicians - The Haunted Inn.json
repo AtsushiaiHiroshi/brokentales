@@ -1,0 +1,50 @@
+{
+  "name": "The Bremen Musicians (The Haunted Inn)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a place full of violence and suffering, able to awaken the deepest fears in the souls of those who approach"
+    ],
+    "agenda": [
+      "Feed the fears of the patrons, corrupting their minds so they will revel in the violence that follows"
+    ],
+    "gifts": [
+      {
+        "name": "Cacophony",
+        "description": "Whether it be the words of the Judge, the spells of the Witch, the barking of the Hunter's hound, or the braying of the Monster, the cacophony of horrible noises emitted by the entities inhabiting the Inn is more than enough to make even the sturdiest soul waver. Any action performed inside the Inn during the manifestation of one of its aspects receives a 1 Penalty."
+      },
+      {
+        "name": "A Past of Suffering",
+        "description": "When one of the Musicians is hit, the suffering of the Inn's victims overwhelms the attacker, causing cuts and bruises, then forcing them to relive a moment in which they lost something important. Inflicting 1 Wound to one of the Musicians requires a Defense Check in order not to suffer 1 Wound in turn. Once a total of 4 Wounds is inflicted on the Musicians, they quiet down for the rest of the Scene, to regenerate completely in the following one. The only way to truly destroy them is to raze the Inn itself."
+      }
+    ],
+    "background": "Near Bremen in the deep north of Germany, there is a small Inn that more experienced travelers recommend avoiding, called \"The Musicians\". The Inn was home for many refugees and slaves who were abused by their masters or fleeing their past. It was a safe place where the long arm of the law could not find them. Over time, the Inn has also attracted bandits and criminals of the worst kind, eventually becoming a haunted place that travelers avoid and mothers use to scare children who do not want to sleep. From the main hall, you can hear a cacophony of horrible noises that no human being could produce. Due to the violence that has taken place there, the Inn has acquired a life of its own by making the pain and fear of all those who have sought refuge there its own. Whoever stays, by mistake or desperation, will encounter one of the four aspects that the Inn is able to manifest, namely the Musicians: the Witch, always followed by her black cat; the Hunter, armed with a knife and accompanied by his hound; the Judge, whose cock's feather writes the faults of those who meet his gaze; and the Monster, a shapeless creature whose braying can lead to madness.",
+    "notes": "Dark Presence by Claudio Serena.\n\nThe Bremen Musicians is actually a haunted Inn with 4 aspects (1 Wound each): The Witch (with black cat), The Hunter (with hound), The Judge (writes sins with cock feather), and The Monster (maddening braying). All actions inside receive -1 Penalty from Cacophony. Attacking Musicians requires Defense Check or suffer 1 Wound in return. After 4 total Wounds inflicted, they quiet for the Scene but regenerate next Scene. Only destroying the Inn itself permanently stops them.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "The Bremen Town Musicians",
+    "role": "Haunted Inn manifesting as four terrifying aspects that feed on fear",
+    "creator": "Claudio Serena"
+  }
+}

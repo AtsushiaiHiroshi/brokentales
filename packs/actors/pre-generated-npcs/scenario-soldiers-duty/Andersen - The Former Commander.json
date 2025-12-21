@@ -1,0 +1,47 @@
+{
+  "name": "Andersen - The Former Commander",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a war veteran with strong leadership skills",
+      "In addition to being a good leader, I am also a capable fighter"
+    ],
+    "agenda": [
+      "Defend my new family from the danger that Enar represents",
+      "Redeem myself in the eyes of Satu and make her understand that I am now a different man",
+      "Prevent anyone from discovering what I have done"
+    ],
+    "gifts": [
+      {
+        "name": "Commander",
+        "description": "Andersen is skilled at giving orders and managing a battle. Up to 3 times per Scene, Andersen can issue an order to an ally who will receive 1 Additional Success (+1 to OL in the case of an NPC) while executing it."
+      }
+    ],
+    "background": "Andersen is a former military commander who now lives on a luxurious estate near Sundsvall. Six years ago, he led a company of soldiers that included Enar. When Andersen discovered that Enar and the dancer Satu were in love, he became consumed with jealousy. Andersen abused his authority, raping Satu and then falsely accusing Enar of abandoning his post. As punishment, Enar was chained to rocks and left to drown in the sea. The injustice drove Enar to become an immortal monster seeking revenge. Unknown to Enar, Andersen fathered a son with Satu—Erik—whom Andersen now raises as his own. Andersen has tried to atone for his crimes by becoming a benefactor, but his past has caught up with him as Enar systematically hunts down and kills all members of the former company.",
+    "notes": "Andersen is a skilled commander capable of coordinating defenses and enhancing allies with his orders. He genuinely wants to protect Satu and Erik, but his dark secret haunts him. He has a diary containing evidence of his crimes. If Erik is put in danger, Andersen will confess everything to save the child. The estate has ~20 servants but few can fight—defense relies on Andersen and Christian.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "A Soldier's Duty",
+    "inspiration": "The Little Mermaid - The Prince",
+    "role": "Former commander hiding dark secret, father to Erik, target of Enar's revenge"
+  }
+}

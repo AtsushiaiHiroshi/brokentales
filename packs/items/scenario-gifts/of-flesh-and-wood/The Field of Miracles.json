@@ -1,0 +1,13 @@
+{
+  "name": "The Field of Miracles",
+  "type": "item",
+  "img": "icons/environment/wilderness/terrain-hill-rocky.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "You know Sinalunga well because it is where one of your secret shelters is located—the legendary Field of Miracles. Once per Scene you can spend 1 Soma so you or another subject can leave the Scene immediately and hide in the Field of Miracles. No one can find the exact location of the shelter while you are there. When you are at the Field, once per Session you can recover 1 Wound you have suffered through rest and recuperation.",
+    "somaCost": 1,
+    "requirement": "Arrive in Sinalunga. (SPECIAL GIFT - Only for The Fox and the Cat)",
+    "scenario": "Of Flesh and Wood",
+    "notes": "This is a special character-specific Scenario Gift only available to the pre-generated Hunter 'Cunning Machiavelli the Fox & Sly Bischeri the Cat'. The Field of Miracles is a reference to Pinocchio's story where the Fox and Cat trick Pinocchio. In this case, it's a legitimate secret hideout in Sinalunga that The Fox and the Cat use for their schemes. Mechanical benefits: 1) Emergency escape (1 Soma to leave Scene instantly with ally), 2) Perfect hiding place (unfindable), 3) Healing sanctuary (1 Wound/Session when resting there). This represents their extensive criminal network and safe houses across Europe."
+  }
+}

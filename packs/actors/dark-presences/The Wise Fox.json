@@ -1,0 +1,49 @@
+{
+  "name": "The Wise Fox",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 6,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an immortal spirit incarnated in the body of a talking fox and I have always watched over human affairs"
+    ],
+    "agenda": [
+      "To help the humans I deem deserving while asking a fair price in exchange"
+    ],
+    "gifts": [
+      {
+        "name": "A Good Advice",
+        "description": "Once per Scene, the Wise Fox can appear to someone who has done a good deed, to bring advice, an object, or information that will be decisive for the current Scene. Before dispensing his help, however, the Fox will ask for a price to be paid. Select between: 1. Spilled Blood: Whoever benefits from the advice must self-inflict 1 Wound by shedding blood as a symbol of commitment. 2. Good Action: Whoever wants to receive the Fox's help will first have to perform the requested action. This action, although apparently absurd, can be contextualized by the Storyteller in a future Scenario faced by the Hunters. The effort required must include difficult or dangerous situations to overcome. 3. Demonstrate Commitment: To receive the benefit of the advice, a Hunter has to go through an entire Scene without using Gifts."
+      },
+      {
+        "name": "Offer Help",
+        "description": "Once per Scene, the Wise Fox can appear and help one who previously paid the cost he required. A Hunter may spend 1 Soma to get advice from the Wise Fox, thus receiving 2 Additional Successes on a Position Check."
+      }
+    ],
+    "background": "Since time immemorial some have set aside the wise words that advised hard work and responsibility, preferring fast and easy rewards. When the lessons of the wise are ignored, pain is the teacher of last resort, bringing with it the awareness that every mistake has a price. A benevolent and kind Spirit knew this well and for centuries had tried to teach mortals in order to spare them the pain of a harsher lesson, only to see them inevitably choose the less sensible path. Eventually, the Spirit decided to help those in need, but only if they could meet his price. In this way, he thought, his help would be more appreciated by humans, who value something more the more it costs them.",
+    "notes": "The Wise Fox is a powerful ally who helps those who prove themselves worthy by paying a price. His advice can be game-changing, providing critical information or +2 Successes. However, he always demands payment first: spilled blood (1 Wound), a dangerous task, or commitment (no Gifts for a Scene). He appears to those who do good deeds. With 6 Wounds and OL 7, he's nearly unkillable if attacked.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "ally",
+    "inspiration": "The Golden Bird",
+    "role": "Immortal spirit who helps the worthy for a price"
+  }
+}

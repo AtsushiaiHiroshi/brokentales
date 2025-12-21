@@ -1,0 +1,42 @@
+{
+  "name": "Azzurra De Baciocchi - The Spirit of the Witch",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "broken_one",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the spirit of an old and powerful witch. My powers allow me to summon the souls of the dead and bind them to my will."
+    ],
+    "agenda": ["To come back to life thanks to Carlo's power"],
+    "gifts": [
+      {
+        "name": "Ancient Spirit",
+        "description": "Azzurra's body is immaterial and can only be damaged by magic. Azzurra can interact with the world by evoking the souls of the dead, choosing between various effects. 1. Poltergeist: Throw up to 3 objects at once. The force with which the objects are thrown is such that they can cause a Wound. 2. Cacophony of the Dead: Frighten everyone with the agonized voices of the damned. Anyone who hears the cacophony must pass a Defense Check or lose 2 Soma points. 3. Possession: Take possession of a target's body and cause them to perform a single action, albeit not a self-destructive one. Azzurra must change the spirits' effect with each action and must use all three before she can use an effect again."
+      }
+    ],
+    "background": "The former noble owner of Villa Cilesterino, Azzurra was burned at the stake in 1513 for witchcraft - accused of sacrificing young women in search of eternal youth. Her spirit still haunts the abandoned villa. When Geppetto and Antonio fled to her manor, she deceived them by animating their mannequins with her powers and convincing them their research was working. Azzurra needs Carlo's fairy magic to bring herself back to life. She has created a magical brazier in the Secret Laboratory where Carlo is to be burned in a ritual requiring innocent blood.",
+    "notes": "Commands 4 Marionettes and Medoro the bear. Can sense anyone on her property. Will not hesitate to confront intruders. The entire Villa Cilesterino is under her supernatural influence.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Of Flesh and Wood",
+    "inspiration": "Pinocchio (Carlo Collodi)",
+    "role": "Main Antagonist - Witch Spirit"
+  }
+}

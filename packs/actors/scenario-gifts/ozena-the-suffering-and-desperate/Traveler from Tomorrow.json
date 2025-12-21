@@ -1,0 +1,14 @@
+{
+  "name": "Traveler from Tomorrow",
+  "type": "item",
+  "img": "icons/magic/time/clock-stopwatch-white-gray.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part One: The Yellow Village",
+    "description": "Through encounters with OZena, Lowe, Hirnloser, and Dose, you've learned they're from the future (early 1900s America). You can recognize anachronistic references: when Hirnloser mentions 'electricity' or Dose talks about 'hospitals,' you understand these are things that don't exist yet in 1780. Once per Scene, leverage your knowledge of their future origin: gain +1 to Social Checks when convincing them you know their secret, recognize which of OZena's behaviors are desperate cries for help versus true malice, identify objects or knowledge that came from their era. This gift represents empathy—understanding they're displaced and suffering, not inherently evil.",
+    "tags": ["knowledge", "social", "empathy", "time-travel"],
+    "requirements": "Have meaningful conversation with at least one time-displaced character, piece together clues about their origin",
+    "somaCost": 0,
+    "limitations": "This knowledge doesn't grant future technology or science. You understand they're from the future but can't replicate their world. Henkle will become hostile if he realizes you know too much."
+  }
+}

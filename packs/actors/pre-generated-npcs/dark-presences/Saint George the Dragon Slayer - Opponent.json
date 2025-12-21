@@ -1,0 +1,45 @@
+{
+  "name": "Saint George the Dragon Slayer - Opponent",
+  "type": "npc",
+  "img": "icons/weapons/swords/sword-winged-red.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "When Saint George becomes convinced the Hunters are no better than the monsters they hunt, he transitions from ally to opponent, initiating a Witch Hunt to eliminate them. This transformation occurs when Suspicion Tokens equal twice the number of Hunters—accumulated when Hunters use Dark Ego for selfish purposes, harm innocents, or demonstrate monstrous behavior in his presence. As an opponent, Saint George is relentless and terrifying. He publicly confronts the Hunters, accusing them of crimes, reveals evidence he's been gathering of their misdeeds, and gives them one chance to surrender and face judgment. When they refuse, he summons his Paladins (a number equal to the Hunters) and the Witch Hunt begins. During the Witch Hunt, Saint George appears at the worst possible moments—turning allies against the Hunters, disrupting investigations, forcing them to constantly look over their shoulders. His Gift allows him to not only deal devastating wounds but also to nullify actions by Hunters with magical or monstrous Descriptors. He regenerates Fervor Tokens each Scenario, making him a persistent and increasingly dangerous threat. The only way to end the Witch Hunt is to accumulate Judgment Tokens by proving through actions that the Hunters use their powers for good, or to defeat Saint George in combat and reveal the truth about his manipulated past.",
+    "attributes": {
+      "soma": {
+        "current": 4,
+        "max": 4
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the Dragon Slayer, and I have seen the truth",
+      "These so-called Hunters are monsters wearing human skin",
+      "They must be eliminated before they corrupt more innocents",
+      "The Church and humanity must be protected from corrupted agents"
+    ],
+    "gifts": [
+      {
+        "name": "Witch Hunt",
+        "description": "When he becomes an Opponent Dark Presence, Saint George acquires Fervor Tokens equal to the number of Hunters. When facing a Hunter he's been tracking down, he can spend 1 Fervor Token to inflict 1 additional Wound on top of normal damage, or just 1 Wound if the Hunter succeeds on their Defense Check. The only way to avoid this Wound is to have an Outcome with Increment and spend it to nullify the Gift's effect. Saint George can also spend 1 Fervor Token to transform any Position Check's result for an action against him into a Failure, so long as the Hunter performing it has at least one Descriptor related to magic or a monstrous characteristic. Saint George regenerates Fervor Tokens equal to the number of Hunters at the beginning of each Scenario."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Hunt down and eliminate the Hunters who have proven themselves villains",
+      "Protect the Church and humanity from corrupted Order agents",
+      "Bring justice to those who abuse their power",
+      "Prevent more innocents from being harmed by these monsters"
+    ],
+    "notes": "Saint George as OPPONENT is a persistent antagonist who appears throughout the campaign. The transition should be dramatic: public confrontation, evidence revealed, one chance to surrender, then summons Paladins (number = Hunters). During Witch Hunt: appears at worst moments, turns allies against Hunters, disrupts plans. Can still be redeemed by accumulating Judgment Tokens (twice number of Hunters) through good deeds. Brings unique Paladins equal to Hunter number (roll 1d6 to determine which). Voice: Harsh and accusatory, filled with righteous fury. Mannerisms: Points accusingly, quotes scripture, unwavering conviction."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fragment of the Red Compass",
+  "type": "item",
+  "img": "icons/sundries/misc/compass-brass-red-orange.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Two: The Red Village",
+    "description": "You possess the southern (red) piece of the Compass Rose that Helga guarded. This bloodstone needle pulses like a heartbeat and points toward the nearest Compass Rose piece (now north toward the emerald center piece in Smaragd). While carrying this fragment, you sense the life force of creatures within 30 feet—useful for detecting hidden enemies or determining if someone is dying. Once per Scene, activate the fragment to track one specific person you've met: the needle points toward them for one Scene, even through walls. Warning: this piece is stained with centuries of blood magic—carrying it may attract blood-hungry creatures or cause disturbing visions of Helga's victims.",
+    "tags": ["temporal", "navigation", "life-sense", "artifact"],
+    "requirements": "Obtained from Helga (through combat, negotiation, or inheriting after her death)",
+    "somaCost": 0,
+    "limitations": "Life-sense is passive but overwhelming in crowded areas. Tracking requires you to have previously met the target. Each additional Compass Rose piece you carry increases the burden—GM may call for Fortitude Checks to resist temporal displacement headaches. Henkle desperately wants this piece."
+  }
+}

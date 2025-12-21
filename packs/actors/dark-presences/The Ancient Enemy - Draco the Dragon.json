@@ -1,0 +1,50 @@
+{
+  "name": "The Ancient Enemy (Draco the Dragon)",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "creature",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 6,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an ancient and powerful creature",
+      "My body was formed in the fires of creation and common weapons can do nothing against me"
+    ],
+    "agenda": [
+      "To live in solitude and avoid contact with humans, even if deep in my heart I still want to believe that there is a mortal worthy of my respect"
+    ],
+    "gifts": [
+      {
+        "name": "Colossal Body",
+        "description": "Draco possesses a colossal body and is capable of flying at great speed. During a Scene or Exchange, he can act 3 times instead of once: with his powerful bite, with his front legs, and with his long tail. Draco's strength is so great that each of his actions inflicts 1 additional Wound. Finally, Draco can spit flames from his mouth once per Scene, making an area attack in front of him, engulfing everything in flames."
+      },
+      {
+        "name": "The Power of the Myth",
+        "description": "Draco is one of the most powerful beings of any myth and, in the course of a Scene, he can use the following powers at will: 1. Shapeshifter: Take on the appearance of an ordinary human or an animal. 2. Magicbreaker: Immediately cancel the effect of a spell or arcane object that has been used in his presence (the user can attempt a Defense Check to avoid the effect of this power). 3. Gift of the Dragon: Shed a piece of his body, such as a scale or a tooth, which can be used to forge objects with extraordinary powers."
+      }
+    ],
+    "background": "Once upon a time, there lived an ancient and mighty creature who had been a witness to the world's unfolding since time immemorial. Frightened mortals called it Draco, fearing its proud bearing and immeasurable power. But despite his fearsome appearance, Draco wasn't evil, just curious. In hopes of creating another of his kind, as he had watched countless mortals do, Draco laid an egg once every century. Each time, evil and unscrupulous men took possession of it before it could be hatched, leaving him alone. After a thousand years, despair stole Draco's ability to lay more eggs. The bitter truth was, to lay an egg was to condemn it to an evil fate. Even today, it is said that Draco keeps waiting for a person with a pure soul, able to show kindness and compassion enough to warm his heart, thereby giving him hope for the future. Meanwhile, the lying legends of a great dragon, an ancient Enemy of mortals, have spread, reinforced by self-serving tales grown into myths and superstitions. More and more fools seek glory by setting out in search of the Ancient Enemy, invoking the grace of God's protection, to slay the legend once and for all.",
+    "notes": "SPECIAL AGENDA (St. George the Dragon Slayer): I hate St. George because he is a symbol of those who judge others blindly, overawed by faith. I want to humiliate him and make those who believe in him see St. George as the lowest of the low.\n\nDraco is NOT EVIL - he is a tragic figure seeking someone pure of heart. He can be an incredibly powerful ally if shown kindness and compassion. With 6 Wounds and the ability to act 3 times per turn with +1 Wound per action, plus flame breath, he is nearly unstoppable in combat. His shapeshifting and magic-breaking abilities make him versatile. Approach with respect and kindness, not violence.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "The Dragon",
+    "role": "Ancient lonely dragon seeking hope and companionship, not evil despite legends"
+  }
+}

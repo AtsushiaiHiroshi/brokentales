@@ -1,0 +1,55 @@
+{
+  "name": "Azzurra De Baciocchi - The Spirit Who Spurns Death",
+  "type": "npc",
+  "img": "icons/magic/death/skull-horned-goat-blue.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "biography": "Azzurra De Baciocchi was a noblewoman burned at the stake in 1513 for witchcraft after being accused of sacrificing young women in search of eternal youth. Her soul refused to pass on, anchoring itself to Villa Cilesterino, the manor that was once her home. For centuries she has wandered as a spirit, trapped between worlds, longing for her past glories and the life that was stolen from her. When the gullible alchemists Antonio and Geppetto fled to her abandoned villa after their experiments with Carlo the living puppet went wrong, Azzurra saw an opportunity. The foolish pair told her everything about their research into immortality using enchanted wood covered in human flesh. Azzurra, an ancient and powerful witch even in death, recognized the potential immediately. She deceived them by animating their mannequins with her necromantic powers, convincing them their research was succeeding. Now Azzurra needs only one thing: Carlo himself, the living puppet animated by fairy magic. If she can harness his power to bring lies to life, she can use it to resurrect herself fully—flesh, blood, and bone—reclaiming the life and beauty that was taken from her on the pyre. She has turned Antonio and Geppetto into her unwitting servants, sending them to hunt for Carlo while she prepares the ritual in the secret laboratory beneath the villa. Her spirit is connected to Villa Cilesterino itself, aware of anyone who enters her property, able to summon the souls of the dead to do her bidding.",
+    "attributes": {
+      "soma": {
+        "current": 3,
+        "max": 3
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the spirit of an old and powerful witch",
+      "My powers allow me to summon the souls of the dead and bind them to my will",
+      "I am connected to Villa Cilesterino and aware of all who enter",
+      "I will reclaim the life that was stolen from me"
+    ],
+    "gifts": [
+      {
+        "name": "Ancient Spirit",
+        "description": "Azzurra's body is immaterial and can only be damaged by magic, blessed weapons, or supernatural attacks. **Immunity to Physical Harm:** Normal weapons pass through her harmlessly. Only magical or blessed attacks can wound her spirit. **Necromantic Power:** Azzurra can interact with the physical world by evoking the souls of the dead and binding them to her will. She must choose between various effects and must cycle through all three before repeating: **1. Poltergeist:** Throw up to 3 objects at once with telekinetic force. The objects become deadly projectiles that can inflict 1 Wound on hit. Can target different enemies. **2. Cacophony of the Dead:** Unleash the agonized voices of the damned in a terrifying chorus. Everyone within 30 feet who hears the cacophony must pass a Defense Check or lose 2 Soma points as their minds are assaulted by the screams of tortured souls. **3. Possession:** Take temporary possession of a target's body and force them to perform a single action of Azzurra's choosing. The action cannot be directly self-destructive (like jumping off a cliff) but can be harmful (like attacking an ally). The victim is aware but unable to resist. **Cycle Requirement:** Azzurra must use each effect once before she can repeat an effect. This prevents her from spamming the most powerful option."
+      },
+      {
+        "name": "Villa Guardian",
+        "description": "Azzurra's spirit is bound to Villa Cilesterino and draws power from the location. **Awareness:** Azzurra is immediately aware when anyone enters her property and can sense their location within the grounds. **Animate Marionettes:** Azzurra's necromantic power animates the wooden mannequins created by Antonio and Geppetto, binding tortured souls into them and compelling them to violent acts. **Control Medoro:** The sick bear Medoro is enthralled by her magic and obeys her commands. **Sanctuary:** While within Villa Cilesterino, Azzurra can disappear and reappear in any room or location on the property, moving through walls and floors freely."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Come back to life thanks to Carlo's fairy magic power",
+      "Deceive the Hunters by pretending to be a good spirit protecting Sinalunga",
+      "Reclaim the beauty, youth, and life stolen from me when I burned at the stake"
+    ],
+    "notes": "Azzurra is a tragic villain—unjustly executed (or was she?) for witchcraft, she's become the very monster they accused her of being. Voice: Cultured, aristocratic, seductive but with undertones of ancient bitterness and rage. Strategy: Pretends to be a benevolent spirit, claims Carlo is the evil force and asks Hunters to capture him for her. If Hunters trust her, she takes Carlo and begins the resurrection ritual. If Hunters see through her deception, she attacks with Marionettes and Medoro, fleeing if badly wounded to regenerate. Cannot leave Villa Cilesterino—her spirit is bound there. Requires Carlo's fairy magic to complete her resurrection. Has kept Nino (Antonio's apprentice) alive in the secret laboratory—she needs innocent blood for the ritual. Immaterial body means only magic/blessed weapons harm her. Can be defeated but will reform unless her connection to the villa is severed (destroying her remains, exorcism, etc.). Complex morality: Was she truly evil in life or made evil by unjust execution? Storyteller can decide. Works well as manipulator—she's had centuries to perfect deception. Antonio and Geppetto are useful idiots she's manipulating. The Marionettes are tragic—tortured souls forced into wooden bodies, begging for death."
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "antagonist",
+    "inspiration": "Pinocchio's Blue Fairy inverted + vengeful witch archetype",
+    "role": "Vengeful spirit seeking resurrection through Carlo's fairy magic",
+    "historicalNote": "Burned at stake in 1513 for witchcraft and sacrificing young women"
+  }
+}

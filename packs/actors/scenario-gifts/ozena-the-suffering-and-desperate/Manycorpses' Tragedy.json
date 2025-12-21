@@ -1,0 +1,14 @@
+{
+  "name": "Manycorpses' Tragedy",
+  "type": "item",
+  "img": "icons/magic/death/skull-horned-worn-white.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "scenario": "Ozena, the Suffering and Desperate - Part Two: The Red Village",
+    "description": "You witnessed or learned the tragic story of Manycorpses—two lovers fused by Helga's blood magic into a monstrous form, forced to serve the witch who destroyed them. This knowledge has hardened your resolve against blood magic's corruption and taught you about the power of love even in monstrous forms. Once per scenario, when facing a creature or person transformed by dark magic, you can attempt to reach their humanity: make a Social Check opposed by their Opposition Level. On success, they hesitate for one Exchange (losing their action), or if they were once good, they may actively help you for one Scene before the magic reasserts control. This represents your ability to see the person beneath the monster.",
+    "tags": ["social", "empathy", "anti-corruption", "monster-humanization"],
+    "requirements": "Witness Manycorpses' tragedy, learn their story from servants, OR speak with them and recognize their suffering",
+    "somaCost": 0,
+    "limitations": "Only works on beings who were once fully human/humane and transformed against their will. Does not work on creatures who chose corruption or were always monstrous. The transformed being suffers greatly when fighting their compulsion—using this gift is merciful but painful for them."
+  }
+}

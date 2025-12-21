@@ -1,0 +1,12 @@
+{
+  "name": "Map of Three Villages",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-blueprint-map.webp",
+  "system": {
+    "description": "Hand-drawn map showing the locations of the Yellow, Red, and Emerald villages. Strange symbols mark certain locations.",
+    "location": "Found in abandoned cart",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "ozena-the-suffering-and-desperate"
+  }
+}

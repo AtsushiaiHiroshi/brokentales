@@ -1,0 +1,46 @@
+{
+  "_id": "ArthurBrowne",
+  "name": "Arthur Browne - The Big Brother",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-bull-horned-orange.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the eldest of the Pig Heads and act as the mastermind of the gang",
+      "Living in my natural prison has taught me how to see even in total darkness"
+    ],
+    "agenda": "Take revenge on Bardolf for corrupting everything I built in Whitehaven and regain control of the city / Transforming all the inhabitants of Whitehaven into Pig Heads",
+    "gifts": [
+      {
+        "name": "The Flesh of The God Under the Mine",
+        "description": "Arthur can tear pieces of flesh from the God's head to harness its powers. When he spends an action, the piece becomes a Spawn of the God and begins to grow disgustingly, engaging all nearby enemies. Arthur can tear one piece of meat off per action, up to a maximum of 3."
+      },
+      {
+        "name": "Gang Leader",
+        "description": "Eating the flesh of The God Under the Mine gives the Browne brothers the ability to transform into monstrous beings. Once per Scene, the NPC can mutate, gaining the following benefits: 1. Recover a Wound once they reach 0. Though apparently dead, the NPC will revive within minutes of falling; 2. Once per Scene, act a second time during the Exchange, even consecutively; 3. Once per Scene, increase the Opposition Level by 2 for a single action where they can harness their superhuman strength."
+      }
+    ],
+    "background": "Arthur Browne worked for years to make Whitehaven a quiet town where every resident could have a home and a job. When Bardolf Greed bought the town's favor, he seized property and leveled houses to build factories, throwing the three Browne brothers out on the street. Arthur was forced to work in the mines, where a collapse left him trapped by falling rubble and left for dead. The collapse was caused by the awakening of The God Under the Mine. Alive and trapped underground, Arthur found the God's head and after days of agony fed on divine flesh, discovering it confers incredible powers. Consumed with grief and wild hope, his brother Frank dug a tunnel to create communication. United in vengeance and endowed with the power of divine flesh, the three brothers began their personal war against Bardolf Greed, leading the Pig Heads gang from beneath the city."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "main-antagonist",
+    "location": "cave-under-mine"
+  }
+}

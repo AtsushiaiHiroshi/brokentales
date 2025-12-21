@@ -1,0 +1,49 @@
+{
+  "name": "Dose the Tin Man - Original Version",
+  "type": "npc",
+  "img": "icons/equipment/chest/breastplate-metal-orange.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Dose suffers from leprosy and other contagious diseases. To protect others from contamination, he sealed himself in crude metal armor—plates, mail, and sheets bolted and strapped onto his body, covering everything except a small door over his heart. He's a patient from early 1900s America who was displaced through time along with OZena, Lowe, and Hirnloser when Dr. Henkle's incomplete Compass Rose malfunctioned. The metal armor has become both Dose's protection and his prison. He cannot feel anything through the metal—no touch, no warmth, no sensation at all. He fears he is becoming hollow inside, losing his humanity piece by piece, becoming nothing but empty metal shaped like a man. His voice is muffled and echoing through his helmet, his movements stiff and mechanical. In the swamp scene, Dose guards Klaus alongside Hirnloser. His armor makes him nearly invulnerable to physical attacks unless someone specifically targets the small door over his heart (requiring Increment). If the Hunters show Dose compassion or understanding, he's deeply moved—he desperately wants to feel something, anything. This is his ORIGINAL form—by Part Three, he transforms into Dose the Giant in Love when he falls in love with a villager in Smaragd, and his beloved's touch gradually replaces his metal armor with living flesh.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I suffer from leprosy and sealed myself in metal armor",
+      "To protect others from contagion",
+      "I cannot feel anything through the metal",
+      "I fear I am becoming hollow inside, losing my humanity"
+    ],
+    "gifts": [
+      {
+        "name": "Of Steel",
+        "description": "Dose's entire body (except for a small door over his heart) is covered in crude metal armor bolted and strapped onto him. He is immune to all physical attacks (swords, arrows, blunt weapons) unless: (1) An attacker specifically targets the heart door, which requires 1 Increment from their Outcome to aim precisely, or (2) An attack is magical or supernatural in nature, which bypasses the physical armor. When the heart door is opened or successfully targeted, Dose loses this immunity for the rest of the Scene as his vulnerability is exposed."
+      },
+      {
+        "name": "Giant",
+        "description": "Dose's massive armored form grants him 1 additional Wound beyond what his importance would normally grant (4 total instead of 3 for Main NPC)."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Protect my companions from harm",
+      "Find a cure so I can feel again",
+      "Prevent myself from becoming a monster",
+      "Get home where maybe modern medicine can help me"
+    ],
+    "notes": "This is Dose's ORIGINAL FORM in Part One (before transformation to Giant in Love in Part Three). Nearly invulnerable to physical attacks except heart door (needs Increment). Magic bypasses armor. Desperately wants to feel something. If shown compassion, deeply moved and may refuse to fight later. Guards Klaus in swamp alongside Hirnloser. Character arc: Hollow metal man → Finds love, armor replaced by flesh. Voice: Muffled, echoing through helmet. Mannerisms: Stiff movements, constantly adjusts armor, clanking sounds. 4 Wounds total due to Giant gift."
+  }
+}

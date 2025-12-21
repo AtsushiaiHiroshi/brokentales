@@ -1,0 +1,51 @@
+{
+  "name": "Hua Mulan the Sword Demon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 7,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a skilled warrior and have won a thousand battles",
+      "I hate injustice and I know that the way of the sword is the only answer"
+    ],
+    "agenda": [
+      "Punishing injustice and righting wrongs using the only tongue the vile can understand – the language of the blade",
+      "Deep in my heart I hope to find someone who can show me what true justice is"
+    ],
+    "gifts": [
+      {
+        "name": "Legendary Warrior",
+        "description": "The Sword Demon's prowess is unmatched. During the course of a Scene, an enemy will not be able to use the same Gift twice against the Sword Demon. Having seen them in action once, the Demon will always find a way to anticipate the enemy and counter their strategy."
+      },
+      {
+        "name": "The Demon Blade",
+        "description": "Any edged weapon wielded by the Sword Demon becomes lethal. With her weapon, the Demon can cut through solid objects, stop arrows, and even dispel magic. Thanks to her iron will, the Sword Demon can defend herself against any type of attack, canceling the narrative advantage given by any Descriptors."
+      }
+    ],
+    "background": "Once upon a time, there was a young girl who lived in the Far East. When they drafted her old father for war, the young woman pretended to be a boy to take his place, as women were not allowed to be soldiers at the time. Under the false name of Hua Mulan, the young warrior won every battle and brought glory to her army, but when her true identity was discovered, envious generals took advantage of it to accuse her of deception and betrayal. Branded and exiled, the warrior fled her home, eventually reaching Europe after a long and wandering journey. Tired and embittered at finding the same sort of injustice wherever she went, Hua Mulan decided she would run no more. She made a disguise of her ancestral armor, hiding her face behind the features of a snarling demon. Under the name of the Sword Demon, the warrior now wanders around Europe, wielding her blade against everything that represents the status quo, such as the Order itself.",
+    "notes": "The Sword Demon is a powerful opponent who can be an enemy or potential ally depending on the Hunters' approach to justice. Her Demon Blade gift makes her incredibly dangerous as she can cancel Descriptor advantages and dispel magic. Treat her with respect and show understanding of true justice to potentially gain her as an ally.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "Legend of Hua Mulan",
+    "role": "Legendary warrior seeking true justice, enemy of the status quo"
+  }
+}

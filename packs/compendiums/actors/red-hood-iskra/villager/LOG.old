@@ -1,0 +1,15 @@
+2025/12/21-01:25:47.856 d650 Recovering log #3
+2025/12/21-01:25:47.856 d650 Level-0 table #5: started
+2025/12/21-01:25:47.906 d650 Level-0 table #5: 8705 bytes OK
+2025/12/21-01:25:48.010 d650 Delete type=0 #3
+2025/12/21-01:25:48.010 d650 Delete type=3 #2
+2025/12/21-01:26:02.652 add4 Level-0 table #8: started
+2025/12/21-01:26:02.652 add4 Level-0 table #8: 0 bytes OK
+2025/12/21-01:26:02.696 add4 Delete type=0 #6
+2025/12/21-01:26:03.018 add4 Manual compaction at level-0 from '!actors!088c222bd97cf07d' @ 72057594037927935 : 1 .. '!actors!a0766b6d7b5474ac' @ 0 : 0; will stop at '!actors!a0766b6d7b5474ac' @ 7 : 1
+2025/12/21-01:26:03.018 add4 Compacting 1@0 + 0@1 files
+2025/12/21-01:26:03.083 add4 Generated table #9@0: 7 keys, 7377 bytes
+2025/12/21-01:26:03.083 add4 Compacted 1@0 + 0@1 files => 7377 bytes
+2025/12/21-01:26:03.139 add4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/12/21-01:26:03.139 add4 Delete type=2 #5
+2025/12/21-01:26:03.343 add4 Manual compaction at level-0 from '!actors!a0766b6d7b5474ac' @ 7 : 1 .. '!actors!a0766b6d7b5474ac' @ 0 : 0; will stop at (end)

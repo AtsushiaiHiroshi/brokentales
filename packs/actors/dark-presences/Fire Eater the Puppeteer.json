@@ -1,0 +1,51 @@
+{
+  "name": "Fire Eater the Puppeteer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a skilled alchemist and puppet master",
+      "Hidden within my clothes are all kinds of tools and weapons, each useful for disassembling and reassembling bodies, whether of flesh or wood"
+    ],
+    "agenda": [
+      "Listening intently to the personal stories of those I meet and judging who deserves to join my puppet collection",
+      "Treating everyone equally, innocents and murderers alike, because life as a puppet is a blessing"
+    ],
+    "gifts": [
+      {
+        "name": "The Puppets' Rite",
+        "description": "Fire Eater can animate a Puppet by harnessing the soul of a dying person within it. From that moment on, the Puppet will be linked to its creator until he decides to free it. A Puppet has the following profile:\nDescriptor: I'm an animated puppet and I do everything my creator says... [plus a feature related to what they were in life]\n1 Wound\nOpposition Level: Easy 3\nGift - Puppet: At zero Wounds a Puppet will shatter, but if repaired it will immediately recover its Wound and return to action. Acting on the part of the Descriptor related to their past life can awaken the dormant consciousness of the harnessed soul, allowing the Puppet to act independently of its master."
+      },
+      {
+        "name": "Master of Puppets",
+        "description": "Fire Eater is always surrounded by at least 6 Puppets. In his presence, increase each Puppet's Opposition Level by 1. When he would suffer 1 Wound, Fire Eater can sacrifice a Puppet instead."
+      }
+    ],
+    "background": "Once upon a time, there was a skilled puppeteer obsessed with the idea of creating the perfect puppet. \"If only my puppets looked like real humans,\" he said. \"Then my puppet shows could really reach people's hearts.\" After years of study, Fire Eater found an ancient alchemy book containing a bloody ritual capable of binding a person's soul to an artificial body. From that day on, the puppets in Fire Eater's traveling coach were never the same... Each puppet became the receptacle of a lost soul, added to the puppeteer's grim collection.",
+    "notes": "SPECIAL AGENDA (Carlo the Living Puppet): I'm always looking for the perfect puppet. Once I find it, I will make it mine, no matter the cost.\n\nFire Eater is accompanied by at least 6 Puppets (OL 3, 1 Wound each, increased to OL 4 in his presence). He can sacrifice them to avoid wounds. Each puppet contains a trapped soul that might be awakened by appealing to their past life. The puppets can be repaired if shattered. Extremely dangerous in numbers.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "Pinocchio",
+    "role": "Alchemist puppeteer who traps souls in wooden bodies"
+  }
+}

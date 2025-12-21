@@ -1,0 +1,13 @@
+{
+  "name": "Voice of the Spirits",
+  "type": "item",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "itemType": "scenarioGift",
+    "description": "With the right peace and focus, you can open your mind to the spirit world and communicate with restless souls. Spend 1 Soma to contact any creature with the Spirit Gift that you've previously encountered. You can communicate with the Spirit telepathically and understand what it says, even across distances. This communion lasts for the duration of a Scene or until you release it.",
+    "somaCost": 1,
+    "requirement": "You have been in contact with either the Spirit or Spiritualist Gifts (encountered Yvonne, Restless Spirits, or met Alizée).",
+    "scenario": "The Smile in the Darkness",
+    "notes": "This Gift allows communication with any spirit the Hunter has previously met, including Yvonne, the Restless Spirits in the catacombs, or any other creature with the Spirit Gift. It doesn't control spirits, only enables dialogue. Useful for: 1) Negotiating with Yvonne, 2) Learning information from Restless Spirits about her presence, 3) Understanding spirit motivations. The connection is empathic and telepathic—spirits can't lie through it but can refuse to answer."
+  }
+}

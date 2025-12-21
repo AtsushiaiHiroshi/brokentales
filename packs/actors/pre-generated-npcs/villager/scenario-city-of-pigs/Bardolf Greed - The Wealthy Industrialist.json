@@ -1,0 +1,42 @@
+{
+  "_id": "BardolfGreed",
+  "name": "Bardolf Greed - The Wealthy Industrialist",
+  "type": "npc",
+  "img": "icons/environment/people/commoner-noble-grey.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 7,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a wealthy and skilled businessman who always knows how to find a good deal, the one that turns a profit for me",
+      "My body is old, but my mind remains infallible"
+    ],
+    "agenda": "Own every business and aspect of trade in Whitehaven, so that the whole city is under my total control",
+    "gifts": [
+      {
+        "name": "Smell the Deal",
+        "description": "Bardolf is a master of negotiation and reading others. After talking to a subject, Bardolf can obtain one of the following pieces of information: 1. Discover a secret regarding the person he is speaking with; 2. Obtain an object or piece of information valuable to the other party in the negotiation, and which he can use as leverage. A Hunter can make a Defense Check to prevent Bardolf from using this Gift on them."
+      }
+    ],
+    "background": "A wealthy industrialist in his seventies who made his fortune through shrewd deals and trade. Reaching the ripe old age of seventy without an heir, Bardolf decided to dedicate his life to money. He moved to Whitehaven, an unremarkable town whose only resource was rich mines beneath the city. Within years, he transformed it into an industrial city by trapping all inhabitants into employment with starvation wages. He seized property, leveled houses to build factories and dormitories, and forced the Browne brothers (who cared for the community) out on the street. His greed and exploitation led to a mine collapse that awakened The God Under the Mine, and now a gang called the Pig Heads wages war against him. His face is plump with thick lupine sideburns, shrewd eyes peek over small round glasses, and he never feels safe despite his personal guards."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "victim-antagonist",
+    "status": "quest-giver"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Christian - The Relentless",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-barbute-black.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Christian earned the nickname \"the Relentless\" during the Swedish-Russian war for his cold determination and unwavering execution of orders. He was one of the six surviving Caroleans who participated in Enar's punishment six years ago, though he was unaware of Andersen's personal motivations—he simply followed orders as he always does. Christian never fully adapted to civilian life and still carries himself like a soldier, always ready for the next mission. When Andersen called for help against the mysterious monster killing their former comrades, Christian immediately answered, driven by loyalty to his old commander and a desire to prove himself the better man by eliminating Enar. He is stationed at Andersen's estate as part of the defense force. Christian's greatest strength—his absolute obedience to orders—is also his weakness, as he never questions the morality of his actions.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a former soldier called the Relentless by all because of my cold determination",
+      "I act without any qualms when it comes to executing an order",
+      "I never question my commander's decisions",
+      "I am still a soldier in my heart, even in civilian clothes"
+    ],
+    "gifts": [
+      {
+        "name": "The Relentless",
+        "description": "When carrying out an order, Christian becomes an unstoppable force. **Iron Will:** Christian is immune to any effect that affects his behavior while executing orders, such as fear, charm, confusion, or mind control. **Unwavering Focus:** Christian increases his Opposition Level by +1 when he tries to eliminate an obstacle that stands between him and the subject of an order he must carry out. **Single-Minded:** Once given an order, Christian will not stop until it is completed or he is incapacitated."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Help Andersen in memory of the old days and a military life I can't forget",
+      "Eliminate Enar to prove I am the better man",
+      "Follow orders without question, as a good soldier should"
+    ],
+    "notes": "Christian is loyal to a fault and represents military discipline taken to an extreme. He participated in Enar's execution without remorse because it was an order. Voice: Curt, military, emotionless. If Enar attacks on Day 1 and Hunters aren't present, Christian dies defending the estate. If sent to investigate the cliff on Day 2 without Hunters, the Sea Fairy will kill him for his role in Enar's death. He works seamlessly with Andersen, anticipating orders. Never wavers or shows doubt."
+  }
+}
