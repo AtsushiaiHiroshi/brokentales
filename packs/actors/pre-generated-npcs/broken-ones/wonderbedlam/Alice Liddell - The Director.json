@@ -1,0 +1,43 @@
+{
+  "_id": "AliceLiddell",
+  "name": "Alice Liddell - The Director",
+  "type": "npc",
+  "img": "icons/environment/people/cleric-orange.webp",
+  "system": {
+    "npcType": "broken_one",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the director of Wonder",
+      "Thanks to the power of madness, I can enter people's minds to heal them"
+    ],
+    "agenda": "Safeguard what I have built within Wonder and all the incredible discoveries that the magic of madness can give to mankind / Solve every problem by transforming it into a Patient to be treated",
+    "gifts": [
+      {
+        "name": "Alice from Other Worlds",
+        "description": "As an action, Alice can attempt to possess the body of a person or animal by looking into their eyes. Hunters can make a Defense Check to prevent this. Alice can both act through the body she controls and continue to use her Gifts and Descriptors. The possession ends when Alice's body suffers 1 Wound. Alice cannot control more than 3 common subjects or a single Hunter at the same time."
+      }
+    ],
+    "background": "Alice Liddell, daughter of an English aristocrat in great favor with the Crown, developed a complex mental illness as a child, suffering from visions and delusions about a fantasy world. 'Treated' in secret with drugs and experimental therapies, she learned to appear sane and eventually graduated with a degree in medicine at age twenty-seven. The culmination of her career is Wonder, a 'hospital' for wealthy families' children. However, inside Wonder, Alice has created a world of sheer madness where patients must follow her perverse ideas to be 'cured.' Her lucid madness has gained such strength from patients' suffering that she can now shape reality itself. Wonder has become a building out of space and time, where doors lead anywhere unless you know the right words. Alice controls a trained lynx named Cheshire and has imprisoned the inventor Hatta Carter to maintain her impossible asylum."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "main-antagonist",
+    "location": "hall-of-the-mind",
+    "power-source": "lucid-madness"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Golden Heart-Shaped Necklace",
+  "type": "clue",
+  "img": "icons/equipment/neck/necklace-gold-heart.webp",
+  "system": {
+    "description": "A golden heart-shaped necklace that Princess Tuvstarr lost in the black pond in the depths of the woods, according to the original fairy tale by Helge Kjellin. This precious piece of jewelry represents Tuvstarr's final connection to her old life before she plunged her heart and soul into the black water to enter the Dream World. The necklace symbolizes the innocent heart of the Princess before she was consumed by her wish for a perfect world.",
+    "location": "Lost in the black pond (original fairy tale)",
+    "importance": "important",
+    "found": false,
+    "scenario": "tuvstarrs-reflection"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "magicaloakwood001",
+  "name": "The Magical Oak Wood",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Mystical oak tree that Antonio and Geppetto worked on, hoping to obtain the fantastic ingredients for eternal life. During experiments, the two alchemists discovered the magical oak had a life of its own. Animated by fairy magic whose only purpose is to bedevil humans, this enchanted piece of wood could bring lies to life. The oak transformed itself into Carlo, the living wooden puppet.",
+    "location": "Originally at Old Carpenter's Shop, manifested as Carlo",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

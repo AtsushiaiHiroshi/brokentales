@@ -1,0 +1,39 @@
+{
+  "name": "Saint Demetrius - The Guardian",
+  "type": "npc",
+  "img": "icons/equipment/shield/heater-crystal-blue.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Saint Demetrius is one of Saint George's six Paladins, renowned for his unwavering dedication to protecting his companions. He places the defense of his allies before his own life, embodying the ideal of selfless service. Demetrius is the shield of the Paladin group—always positioned to intercept attacks meant for others, always ready to throw himself in harm's way. His Gift allows him to take wounds in place of his allies, and when he does so, his Opposition Level increases as his protective fury grows. This makes him increasingly dangerous the more he sacrifices himself. In combat, Demetrius positions himself between enemies and his fellow Paladins, particularly protecting Saint George himself. Smart Hunters can exploit this—by threatening his allies, they can force Demetrius to take multiple wounds, potentially taking him out of the fight while he tries to save everyone. However, this also makes him more dangerous with each wound taken. Demetrius is utterly devoted to his duty and sees no greater honor than dying to protect those he serves. He views the Hunters as threats to his brothers and sisters in faith, and will not hesitate to interpose himself between them and any Paladin—especially if Saint Martha is threatened, as she represents compassion within the group.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "I put the defense of my companions before my own life"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - Guardian",
+        "description": "Once per Exchange, Demetrius can take 1 Wound in place of one of his allies (must be within 30 feet and line of sight). When he does this, he increases his Opposition Level by 1 for the rest of the Scene (cumulative—if he takes wounds multiple Scenes, the bonuses stack). This makes him progressively more dangerous as he sacrifices himself. The wound transfer happens automatically if Demetrius chooses—the ally takes no damage, and Demetrius takes the full wound instead."
+      }
+    ],
+    "conditions": [],
+    "notes": "Demetrius is Paladin #2 (roll 1d6 to determine which appears). His protective nature can be exploited—threaten his allies to force him to take wounds, potentially eliminating him while making him more dangerous. He always positions between enemies and allies, especially protecting Saint Martha. Works best with other Paladins as he has allies to protect. If isolated, loses much of his effectiveness. Can't be reasoned with—duty and protection are absolute. Voice: Calm and resolute, reassuring to allies. Mannerisms: Shield raised, defensive stance, watches for threats to allies."
+  }
+}

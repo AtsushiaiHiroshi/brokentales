@@ -1,0 +1,39 @@
+{
+  "name": "Saint Martha - The Friendly",
+  "type": "npc",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Saint Martha is one of Saint George's six Paladins, and she stands apart from the others in a crucial way: she does not believe that Broken Tales should be eradicated, only understood. This compassionate perspective makes her the conscience of the Paladin group and a potential ally for Hunters who can reach her. Martha believes there's a difference between monsters who choose evil and those who are simply misunderstood or corrupted against their will. She joined Saint George's Paladins hoping to protect innocents and bring understanding between humans and the supernatural, not to wage war. When Saint George initiates a Witch Hunt against the Hunters, Martha secretly doubts his judgment—especially if she's witnessed the Hunters performing good deeds or showing mercy. Her Gift makes Hunters reluctant to attack her (receiving 2 Penalties if other Paladins are available as targets), representing both her non-threatening demeanor and the moral difficulty of striking someone who radiates compassion. Smart Hunters will recognize Martha as the key to ending the Witch Hunt peacefully. If they can show her evidence of Saint George's manipulation, or demonstrate through their actions that they're genuinely trying to help people, Martha may be convinced to speak on their behalf or even actively assist them. She's the Paladin most likely to betray Saint George if convinced he's wrong—not out of treachery, but out of a higher loyalty to true justice and compassion.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "I do not think Broken Tales should be eradicated, only understood"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - Friendly",
+        "description": "Any Hunter who acts against Martha when there are other Paladins as potential targets will receive 2 Penalties on their action. This represents both Martha's non-threatening demeanor that makes it psychologically difficult to attack her, and her positioning that makes her a harder target when allies are nearby. This only applies when at least one other Paladin is present and available as a target—if Martha is isolated, she loses this protection."
+      }
+    ],
+    "conditions": [],
+    "notes": "Martha is Paladin #4 (roll 1d6 to determine). KEY CHARACTER for peaceful resolution—she doubts Saint George's Witch Hunt and can be convinced to help Hunters. Shows compassion, believes in understanding rather than destruction. If shown evidence of manipulation or witnesses Hunters' good deeds, may speak for them or actively assist. Protected by Gift when with other Paladins (2 Penalties to attack her). Most likely to betray Saint George out of higher loyalty to justice. Can be the bridge to redemption. Voice: Gentle, questioning, compassionate. Mannerisms: Hesitates before violence, shows concern for all parties."
+  }
+}

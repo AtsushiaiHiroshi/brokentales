@@ -1,0 +1,47 @@
+{
+  "_id": "SherazadeWeaver",
+  "name": "Sherazade - The Weaver of Tales",
+  "type": "npc",
+  "img": "icons/magic/symbols/runes-star-magenta.webp",
+  "system": {
+    "npcType": "broken_one",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a storyteller who can bring the characters I invent to life",
+      "My charm is so beguiling that it cannot be ignored"
+    ],
+    "agenda": "Punish all those who believe they can change the world for the better / Find peace and smile once again",
+    "gifts": [
+      {
+        "name": "Words like Honey",
+        "description": "Sherazade can tell one of her stories to bring out a memory, an emotion, or a fear. Highlight 1 Keyword from this brief story. If a Hunter or NPC hears the story and is linked to the Keyword, the related emotion will awaken, leading them to open up to Sherazade and share something about themselves."
+      },
+      {
+        "name": "A Thousand and One Nights",
+        "description": "One of the characters from a Scenario already faced by the Hunters comes to life as a Shadow. Create a Descriptor to represent it. The Shadow thus created will be at the service of Sherazade and will do whatever they are ordered. Shadows cannot speak nor act in places where there is more light than shadow. During a Scene, Sherazade can create a number of Shadows equal to the Hunters she is facing plus one. For each Hunter who has been affected by Words like Honey, Sherazade can summon an additional Shadow."
+      }
+    ],
+    "background": "A young storyteller who, together with her sister Dinarzad, was captured and taken to the court of a wealthy Sultan. The Sultan played a cruel game: every night Sherazade had to tell him a story. If he liked it, Dinarzad's execution would be postponed for a day. After thirty days, they would earn freedom. Sherazade succeeded for over thirty nights, but the Sultan had executed Dinarzad on the first night, certain of failure and eager to see Sherazade's despair. When he revealed this, throwing himself at her feet in love, all her stories took shape as black shadows that seized the Sultan and held him in terrible darkness for eternity. Empty of emotion, she wandered the world and met a tired writer who, like her, had seen every happy memory destroyed by others' selfishness. The two forged a bitter alliance to bring new life into stories now broken by the wish of the Child Savior. She seduces courts with dark stories about Hunters, then brings characters from those stories to life as monstrous shadows to steal mortal souls."
+  },
+  "flags": {
+    "scenarioId": "one-thousand-one-nightmares",
+    "role": "recurring-antagonist",
+    "dark-presence-type": "opponent",
+    "special": "meta-scenario-antagonist"
+  }
+}

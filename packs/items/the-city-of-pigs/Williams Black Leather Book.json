@@ -1,0 +1,12 @@
+{
+  "name": "William's Black Leather Book",
+  "type": "clue",
+  "img": "icons/sundries/books/book-worn-brown.webp",
+  "system": {
+    "description": "A large black leather book meticulously maintained by William the Man of Law, Bardolf Greed's trusted lawyer. William records everything during Bardolf's meetings and interviews. This book contains detailed accounts of all of Bardolf's business dealings, both legal and illicit, including the management of both the Factories and mine. The book could contain evidence of Greed's shady business practices, worker exploitation, starvation wages, and the circumstances surrounding the mine collapse.",
+    "location": "William the Man of Law carries it at all times",
+    "importance": "important",
+    "found": false,
+    "scenario": "the-city-of-pigs"
+  }
+}

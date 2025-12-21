@@ -1,0 +1,20 @@
+{
+  "_id": "yvonnecandle001",
+  "name": "Yvonne's Untouched Candle",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Small candle miraculously untouched by flames, found under ashes where little Yvonne's charred body was discovered. Yvonne was ragged orphan who sold candles to survive on Paris streets. This candle survived the fire that killed her when Father Adrien strangled and burned her to hide his absinthe smuggling secret. Represents Yvonne's innocent profession and tragic end. Found scattered in various tunnels where burned-alive victims' bodies were discovered.",
+    "location": "The Burns - scattered patches of ash in catacombs tunnels",
+    "importance": "important",
+    "found": false,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

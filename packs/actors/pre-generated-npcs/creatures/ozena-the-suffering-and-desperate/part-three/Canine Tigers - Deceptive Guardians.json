@@ -1,0 +1,39 @@
+{
+  "name": "Canine Tigers - Deceptive Guardians",
+  "type": "npc",
+  "img": "icons/creatures/mammals/dog-hunting-褐色-tan.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "Canine Tigers are creatures created by the magical wishing well near Smaragd. They appear as large, friendly dogs—the kind that would greet visitors with wagging tails and playful behavior. This appearance is deceptive. When a Canine Tiger suffers its first wound, it undergoes a horrifying transformation: its Opposition Level skyrockets, it enters a berserker rage, and it becomes fierce as a tiger, attacking the nearest living thing regardless of whether it's ally or enemy. This dual nature makes Canine Tigers particularly dangerous tactical complications. They may initially seem like potential allies or harmless creatures that the Hunters don't need to worry about. Clever enemies might deliberately wound a Canine Tiger to turn it into a threat. Once enraged, a Canine Tiger cannot be reasoned with or calmed—it fights until destroyed or until all nearby creatures flee out of range. The creatures were created by villagers who wished for 'guardians that would never seem threatening,' and the well granted their wish in its typically twisted way: guardians that appear harmless until it's too late. Dr. Henkle uses them strategically throughout Smaragd, positioning them where Hunters might accidentally injure them during other combats.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We appear as large friendly dogs",
+      "But we were created by the wishing well to be guardians",
+      "We are docile until wounded",
+      "Then we become fierce as tigers"
+    ],
+    "gifts": [
+      {
+        "name": "Fierce as Tiger",
+        "description": "Canine Tigers appear docile and even friendly at first. But when a Canine Tiger suffers its first Wound: **Transformation:** Its Opposition Level immediately increases from 3 to 7. **Berserker Rage:** It enters a rage and attacks the nearest living thing (ally or enemy) without discrimination. **Unstoppable:** It cannot be reasoned with, calmed, or controlled in any way. **Relentless:** It fights until destroyed or until all nearby creatures flee beyond its reach. Storytellers should use Canine Tigers as complications—they may seem harmless until someone accidentally wounds one during another combat."
+      }
+    ],
+    "conditions": [],
+    "notes": "Canine Tigers are excellent tactical complications. Place them in combat zones where they might get caught in crossfire. When unwounded, they're OL 3 and friendly-seeming. Once wounded, they become OL 7 berserkers. Henkle uses them strategically—he knows they'll transform and create chaos. Smart Hunters might avoid wounding them or use them tactically by deliberately wounding one near enemies. A wounded Canine Tiger attacking a wish-warped villager might even break the wish's hold temporarily."
+  }
+}

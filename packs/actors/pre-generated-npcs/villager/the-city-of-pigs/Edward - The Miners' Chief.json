@@ -1,0 +1,37 @@
+{
+  "_id": "EdwardChief",
+  "name": "Edward - The Miners' Chief",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-barbute-ochre.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a long-time friend of Arthur and mourn his death",
+      "Everyone in the mine does what I say",
+      "I hate foreigners who want to poke their nose into my work",
+      "I allow Frank into the mine often to visit the place where Arthur died"
+    ],
+    "background": "The chief of the miners at Whitehaven's coal mine, an honest and dutiful man who ensures the mine works at full capacity under watchful control. Edward is a long-time friend of Arthur Browne and mourns his death in the mine collapse. Everyone in the mine follows his orders without question. He hates foreigners who want to poke their noses into his work, protecting the mine's operations for Bardolf Greed. Out of respect for their friendship and grief, Edward allows Frank Browne into the mine often to visit the place where Arthur supposedly died. What Edward doesn't know is that Arthur is still alive beneath the mine, and Frank uses these visits to bring supplies and communicate with his brother through the hidden well leading to the cave where The God Under the Mine's head emerges from the rock."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "mine-overseer",
+    "knowledge": "unknowingly-aiding-brownes"
+  }
+}

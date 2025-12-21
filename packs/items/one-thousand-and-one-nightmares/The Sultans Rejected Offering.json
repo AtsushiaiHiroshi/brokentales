@@ -1,0 +1,20 @@
+{
+  "_id": "sultansoffering001",
+  "name": "The Sultan's Rejected Offering",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "After thirty nights of beautiful stories, the Sultan threw himself at Sherazade's feet weeping, offering her all his wealth, power, and everything she might desire to forget her sister Dinarzad and become his bride. The Sultan had executed Dinarzad the first night, certain of Sherazade's failure. This betrayal and false offering reveals the Sultan's cruel nature and Sherazade's traumatic origin. Understanding that Sherazade rejected infinite wealth for love of her sister explains her current emptiness and her bitter alliance with the stooped writer to bring new life to broken stories.",
+    "location": "Part of Sherazade's backstory, discoverable through investigation",
+    "importance": "important",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

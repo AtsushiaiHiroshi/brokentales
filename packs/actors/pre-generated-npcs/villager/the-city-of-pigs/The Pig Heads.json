@@ -1,0 +1,41 @@
+{
+  "_id": "PigHeads",
+  "name": "The Pig Heads",
+  "type": "npc",
+  "img": "icons/equipment/head/mask-carved-pig-tan.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are a band of revolutionaries in the service of the three brothers",
+      "The God's flesh gives us power and fills us with the anger we need to wage our war"
+    ],
+    "gifts": [
+      {
+        "name": "Pigs' Gang",
+        "description": "When they act, each member of the gang changes to become stronger. Their head becomes that of a pig and only another Pig Head will be able to communicate with them. Their mutation grants a random power, roll 1 die:\n\n1. Strength, able to inflict 1 additional Wound once per Scene\n2. Speed, once per Scene acts 2 times consecutively\n3. Resistance, +1 Wound\n4. Abomination, +1 to Opposition Level\n5. Grunt, once per Scene can emit a loud squeal, enemies who hear it receive 1 Penalty on their next action\n6. Out of control, the OL rises to Hard 7 but, at the end of their action, the NPC explodes into a cloud of flesh and blood."
+      }
+    ],
+    "background": "A criminal gang that wanders through the backways of Whitehaven. They kidnap or injure only factory workers to make them unable to work, wearing grotesque pig masks to hide their faces. Nobody recognizes them because of the masks. In reality, they are miners who have eaten meat contaminated with the flesh of The God Under the Mine, distributed secretly by Frank Browne at the slaughterhouse. When the mutation begins to take effect, Clarence Browne approaches them, offering the opportunity to join the gang in their personal war against Bardolf Greed. With over fifty Pig Heads now working in the mines, Arthur counts the days before he can launch his personal revolution. The God's flesh gives them the power to transform, their heads becoming those of pigs with various enhanced abilities."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "gang-members",
+    "usage": "use-multiple-fifty-plus"
+  }
+}

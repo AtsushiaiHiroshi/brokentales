@@ -1,0 +1,82 @@
+<form class="sheet item" autocomplete="off">
+  <header class="sheet-header">
+    <div class="header-fields">
+      <h1 class="itemname">
+        <input
+          name="name"
+          type="text"
+          value="{{item.name}}"
+          placeholder="{{localize 'BROKENTALES.Fields.Name'}}"
+        />
+      </h1>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    <div class="grid-container">
+      <!-- Description -->
+      <div class="resource full-width">
+        <label>{{localize "BROKENTALES.Fields.Description"}}</label>
+        <textarea name="system.description" rows="6">
+{{system.description}}</textarea
+        >
+      </div>
+
+      <!-- Quantity -->
+      <div class="resource">
+        <label>Quantity</label>
+        <input
+          type="number"
+          name="system.quantity"
+          value="{{system.quantity}}"
+          min="0"
+        />
+      </div>
+
+      <!-- Weight -->
+      <div class="resource">
+        <label>Weight</label>
+        <input
+          type="number"
+          name="system.weight"
+          value="{{system.weight}}"
+          min="0"
+          step="0.1"
+        />
+      </div>
+
+      <!-- Value -->
+      <div class="resource">
+        <label>Value</label>
+        <input
+          type="number"
+          name="system.value"
+          value="{{system.value}}"
+          min="0"
+        />
+      </div>
+
+      <!-- Equipped -->
+      <div class="resource">
+        <label>Equipped</label>
+        <input
+          type="checkbox"
+          name="system.equipped"
+          {{checked
+          system.equipped}}
+        />
+      </div>
+
+      <!-- Properties -->
+      <div class="resource full-width">
+        <label>Properties</label>
+        <input
+          type="text"
+          name="system.properties"
+          value="{{system.properties}}"
+          placeholder="Special properties (comma separated)"
+        />
+      </div>
+    </div>
+  </section>
+</form>

@@ -1,0 +1,12 @@
+{
+  "name": "Nils' War Diary",
+  "type": "clue",
+  "img": "icons/sundries/books/book-worn-brown-tan.webp",
+  "system": {
+    "description": "A worn diary belonging to Nils the Poor Devil, containing detailed accounts of what happened six years ago. The pages reveal Enar's identity, his relationship with Satu, and the brutal punishment inflicted upon him by his comrades - though the abuse perpetrated by Andersen was never discovered by his fellow soldiers. The writing makes it clear that the punishment reserved for Enar was beyond reason.",
+    "location": "Nils' house in Sundsvall",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "a-soldiers-duty"
+  }
+}

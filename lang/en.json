@@ -12,6 +12,8 @@
       "Descriptor": "Descriptor",
       "Gift": "Gift",
       "ScenarioGift": "Scenario Gift",
+      "Clue": "Clue",
+      "Object": "Object",
       "Type": "Type",
       "Price": "Price",
       "Rarity": "Rarity"
@@ -81,7 +83,16 @@
       "RepeatRoll": "Repeat Roll",
       "Cost": "Cost",
       "Uses": "Uses",
-      "Effect": "Effect"
+      "Effect": "Effect",
+      "Location": "Location",
+      "Importance": "Importance",
+      "Found": "Found",
+      "Scenario": "Scenario",
+      "Quantity": "Quantity",
+      "Weight": "Weight",
+      "Value": "Value",
+      "Equipped": "Equipped",
+      "Properties": "Properties"
     },
 
     "Items": {

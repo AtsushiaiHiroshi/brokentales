@@ -1,0 +1,46 @@
+{
+  "name": "Hirnloser the Scarecrow - The Genius",
+  "type": "npc",
+  "img": "icons/equipment/head/hood-cowl-worn-tan.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Hirnloser was a psychiatric patient in early 1900s America. The doctors diagnosed him as mentally ill, saying his brain didn't work correctly. After years of being told he was mad and broken, Hirnloser came to believe he literally had no brain at all—a delusion that paradoxically freed his mind. In the asylum, he developed an unusual way of perceiving the world, seeing patterns and truths that others missed beneath surface appearances. When thrown back to 1780 by the Compass Rose malfunction, Hirnloser found himself in a world that didn't understand mental illness any better than his own time. He attached himself to Dorothea because she, unlike the doctors, gave him purpose instead of just dismissing him as insane. Hirnloser moves in jerky, unsettling ways like a scarecrow animated by magic. He speaks in riddles, rhymes, and fragmented sentences that seem nonsensical but often contain profound insights. Despite his madness (or because of it), he perceives truths others cannot: he knows Henkle is manipulating them, understands that the witches aren't actually evil, and sees the larger patterns of their situation. But his fractured communication makes it nearly impossible for others to understand his warnings. Throughout the campaign, Hirnloser undergoes transformation. By Part Three, if he survives and experiences the truth being validated, he becomes Hirnloser the Genius. His speech clears, becoming precise and brilliant. He realizes his mind was never broken—it was extraordinary, seeing connections others couldn't. As The Genius, he provides tactical insights, prepares countermeasures, and always has the right tool. His Gift allows him to prevent Hunter Gifts through explanation, describe tactics that automatically succeed, and be prepared for any situation. His arc represents society's failure to recognize neurodivergent brilliance.",
+    "descriptors": [
+      "I am a psychiatric patient from early 1900s—they said I was mad, that my brain didn't work right",
+      "Now I believe I have no brain at all, but I see things others cannot",
+      "I speak in riddles and move like a scarecrow, but I perceive the truth beneath surfaces",
+      "By Part Three, I realize my mind is my greatest weapon—I am a genius"
+    ],
+    "agenda": [
+      "Follow OZena because she gives me purpose and doesn't dismiss me as just 'mad'",
+      "Understand the truth of this strange world we're trapped in",
+      "Prove I'm more than the madman they say I am",
+      "In Part Three: Use my brilliant mind to help or hinder the Hunters"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Genius (Part Three Transformation)",
+        "description": "**ONLY IN PART THREE:** Hirnloser has realized his intellect is extraordinary. **Tactical Insight:** Once per Scene, Hirnloser can describe a brilliant tactic or strategy that automatically succeeds without requiring a Check. This could be identifying a weakness, setting a perfect ambush, or solving a complex problem instantly. **Countermeasure:** Three times per Scene, Hirnloser can prevent a Hunter from activating a Gift by rapidly explaining how to counter it, neutralizing the advantage. **Prepared:** Hirnloser always has the right tool, item, or piece of information for the current situation, as if he anticipated it. His transformation into The Genius represents validation that his mind was never broken—just different and more advanced than those who judged him.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Hirnloser is the truth-teller whose madness makes him hard to understand. In Parts One and Two: speaks only in riddles and rhymes; movements are jerky and unsettling, tilts head at odd angles; stares intensely at things others don't notice; his riddles contain actual truth if decoded (example: 'The scarecrow sees what you cannot. The tin man feels nothing but knows everything. The lion roars but runs away. And the girl with silver shoes walks the yellow road to death' = warning about OZena's path to destruction). If captured by Hunters, he reveals important truths in riddles: 'The wizard in emerald is not what he seems. He steals what he cannot create. The rose blooms red with blood.' In Part Three transformation: speech becomes clear, precise, analytical; shows pride in his intellect; rapidly analyzes situations; no longer rhymes or speaks cryptically. Key moment: when his 'mad' warnings are proven correct, he has breakthrough realization that he was never insane—society just couldn't understand his brilliance. If Hunters show him respect and try to decode his riddles, he becomes more coherent and may help them. If dismissed as 'just crazy,' he becomes hostile, bitter that even in fairy tale world he's not believed. Ultimate fate: may stay in 1780 to become true inventor/scholar or return to revolutionize early 1900s psychiatry with insights about neurodivergent minds."
+  }
+}

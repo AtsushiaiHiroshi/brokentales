@@ -1,0 +1,12 @@
+{
+  "name": "Letter from Nils to the Riksråd",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+  "system": {
+    "description": "An urgent letter sent by Nils (called the Poor Devil) to the Riksråd, the great council of the Kingdom of Sweden, imploring them to help him and his former comrades. The letter describes how six valiant soldiers - all that remained of their company after the bloody war between Sweden and Russia - are being killed one by one by a monster that seems able to take a bullet without batting an eye. Two comrades have already fallen to the monster's fury when the letter was written.",
+    "location": "Given to Hunters by the Order",
+    "importance": "crucial",
+    "found": true,
+    "scenario": "a-soldiers-duty"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Anastazia the Sorrowful Spirit",
+  "type": "npc",
+  "img": "icons/svg/ghost.svg",
+  "flags": {},
+  "token": {
+    "name": "Anastazia the Sorrowful Spirit",
+    "img": "icons/svg/ghost.svg"
+  },
+  "system": {
+    "npcType": "broken_one",
+    "oppositionLevel": 7,
+    "wounds": {
+      "max": 3,
+      "current": 3,
+      "extra": 0
+    },
+    "soma": {
+      "max": 0,
+      "current": 0
+    },
+    "xp": 0,
+    "background": "Anastazia is a restless spirit, bound to the memory of her granddaughter Iskra. She can no longer speak directly to the living, only through dreams, whispers, and visions.",
+    "descriptors": [
+      "I am a restless spirit, bound to the memory of my granddaughter. My condition as a spirit does not allow me to communicate with the living except through dreams, whispers, and visions."
+    ],
+    "gifts": [
+      "Spirit: Anastazia is a spirit and can only be damaged by magic. She may appear in a dream to a target, who may resist with a Defense Check or accept contact voluntarily. The target suffers 1 Wound from stress but will receive from Anastazia a vision of a present or past event with a barely whispered phrase.",
+      "Loving Grandmother: Anastazia always follows Iskra and protects her from danger. Thanks to her strong will, she can interact with the material world by moving objects and manipulating the environment, even inflicting a Wound on a target. If a subject is likely to help save her granddaughter, Anastazia will simply fill their mind with memories of her."
+    ],
+    "agenda": "Preventing further harm to Iskra and finding a way to save my granddaughter’s soul.",
+    "conditions": [],
+    "notes": "Anastazia is incorporeal. The Storyteller may allow her to manifest for narrative effect."
+  }
+}

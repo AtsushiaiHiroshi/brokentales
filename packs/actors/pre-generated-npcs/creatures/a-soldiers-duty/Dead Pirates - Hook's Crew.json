@@ -1,0 +1,44 @@
+{
+  "name": "Dead Pirates - Hook's Crew",
+  "type": "npc",
+  "img": "icons/magic/death/skull-horned-worn-white-blue.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "A dozen pirates died in the caves beneath the cliff after their ship was wrecked on the rocks. Their souls, unable to find peace, now haunt the tunnel network leading to the Sea Fairy's central pool. These walking corpses are heaps of swollen, rotten flesh that move slowly but relentlessly. They recognize James the Swordsman if he is present—he killed their captain in a duel, which led to their ship's destruction—and will prioritize tasting his flesh first. The Dead Pirates are driven purely by hatred for the living and hunger for vengeance. They shamble through the dark tunnels, their putrescent bodies dripping seawater and decay. Even when dismembered, their body parts continue to move and attack. They are a dangerous obstacle for anyone seeking the Sea Fairy, and their numbers (about a dozen) make them a significant threat despite their individual weakness.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a lost soul who only wishes for revenge on those who are still alive",
+      "My body is a heap of swollen and rotten flesh that moves slowly",
+      "I am part of Hook's crew, doomed to haunt these caves forever",
+      "Even dismembered, my body parts continue to attack"
+    ],
+    "gifts": [
+      {
+        "name": "Walking Dead",
+        "description": "The Dead Pirate's body is rotten and putrescent, but it does not stop even if dismembered. **Final Action:** After suffering his only Wound, a Dead Pirate can still take his action before being eliminated, if he has not already acted in the current Exchange. This allows for a final desperate attack or grab. **Pack Tactics:** If a Dead Pirate acts against an outnumbered enemy (more pirates than defenders in melee range), his Opposition Level is increased by +1. **Relentless Advance:** Dead Pirates ignore fear, pain, and morale effects. They never retreat or surrender. **Slow Movement:** Dead Pirates move at half speed but can attack normally once in range."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Taste the flesh of the living to satisfy our eternal hunger",
+      "Take revenge on James the Swordsman for killing our captain and causing our deaths",
+      "Prevent anyone from reaching the Sea Fairy's sanctuary"
+    ],
+    "notes": "Encounter occurs on a 5-6 when rolling for Cliff threats. Approximately 12 Dead Pirates in total—use multiple in combat. Voice: Gurgling moans, water-logged groans. Special interaction: If James the Swordsman is present, they focus on him first, shouting 'You killed our captain! It's your fault we wrecked!' through rotted mouths. Slow but dangerous in numbers. Tunnels are narrow, which works to their advantage (limits how many Hunters can fight at once). Bodies drip seawater and smell of rot and brine. Dismembered limbs continue to crawl and attack. Can grab and pull victims underwater in flooded tunnel sections. No strategy beyond mindless revenge."
+  }
+}

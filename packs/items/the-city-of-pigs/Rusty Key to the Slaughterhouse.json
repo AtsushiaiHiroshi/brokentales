@@ -1,0 +1,17 @@
+{
+  "name": "Rusty Key to the Slaughterhouse",
+  "type": "object",
+  "img": "icons/sundries/misc/key-simple-metal-brown.webp",
+  "system": {
+    "description": "A rusty old key found in Clarence's shack in the apple orchard. The key is labeled 'slaughterhouse' and grants access to Frank Browne's workplace where he secretly mixes the flesh of The God Under the Mine with common meat to infect unsuspecting miners. This key is crucial evidence linking Clarence to the Pig Heads gang and their operations at the slaughterhouse.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 10,
+    "equipped": false,
+    "properties": [
+      "Unlocks slaughterhouse",
+      "Evidence of conspiracy",
+      "Rusty and old"
+    ]
+  }
+}

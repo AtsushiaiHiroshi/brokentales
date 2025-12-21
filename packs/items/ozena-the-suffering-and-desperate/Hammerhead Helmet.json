@@ -1,0 +1,28 @@
+{
+  "_id": "hammerhelm001",
+  "name": "Hammerhead Helmet",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Heavy and distinctive helmet worn by the Hammerheads, Helga's enslaved mercenaries. Helmet opens like flower on shoulders, granting total head and chest protection. Wearer immune to any wound that cannot penetrate thick layer of metal. Enemies can aim at lower body parts to bypass helmet protection, but receive 1 Penalty on their Check. The Hammerheads were once ferocious team of skilled mercenaries, now tamed by Helga's blood magic to serve her will.",
+    "quantity": 1,
+    "weight": 15,
+    "value": 600,
+    "equipped": true,
+    "properties": [
+      "Heavy armor",
+      "Head and chest protection",
+      "Opens like flower",
+      "Immune to head wounds",
+      "Lower body vulnerable"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

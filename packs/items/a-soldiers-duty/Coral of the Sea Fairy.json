@@ -1,0 +1,19 @@
+{
+  "name": "Coral of the Sea Fairy",
+  "type": "object",
+  "img": "icons/commodities/treasure/pearl-natural-red.webp",
+  "system": {
+    "description": "A lump of blood-red coral containing the trapped soul of the Sea Fairy. This cursed item was created by killing the fairy and harnessing her essence. The coral pulses with ancient sea magic and grants its possessor limited access to the fairy's powers, including healing waters, summoning waves, and instant sea travel. However, sea creatures sense what has been done and will attack the bearer without hesitation to free the fairy's soul. (Special Scenario Gift for Marina the Sea Explorer)",
+    "quantity": 1,
+    "weight": 2,
+    "value": 1000,
+    "equipped": false,
+    "properties": [
+      "Magical",
+      "Cursed",
+      "Grants sea powers",
+      "Attracts hostile sea creatures",
+      "Unique"
+    ]
+  }
+}

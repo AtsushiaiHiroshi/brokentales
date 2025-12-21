@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  3,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  false,
+                   "notes":  "Gift: Walking Dead (act after final wound), Hook\u0027s crew from shipwreck",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Lost souls seeking revenge, swollen rotten flesh"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Revenge on living"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  1
+                                                 }
+                                  }
+               },
+    "name":  "Dead Pirates",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

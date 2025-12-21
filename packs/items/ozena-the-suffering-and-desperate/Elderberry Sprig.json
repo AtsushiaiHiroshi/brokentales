@@ -1,0 +1,20 @@
+{
+  "_id": "elderberry001",
+  "name": "Elderberry Sprig",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Rare elderberry plant sprig, crucial missing ingredient for completing the Infusion of Purity. Elderberry does not grow in the Rot area of the Black Forest. Helga had small stash from her last trip. During Dorothea's fight with Manycorpses greenhouse creature, she grabbed this sprig in the chaos and escaped. Can be retrieved from Dorothea's green cape thrown carelessly in corner of room where she is imprisoned. Without this ingredient, the Infusion cannot be completed and blood curse cannot be broken.",
+    "location": "Dorothea's green cape in Helga's mansion",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

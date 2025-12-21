@@ -1,0 +1,20 @@
+{
+  "_id": "wishingwell001",
+  "name": "The Wishing Well of Smaragd",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Ancient wishing well in center of Smaragd village whose true nature inhabitants always ignored. After centuries of inactivity, awakened by Henkle's own desire to become magician. Now grants Henkle power to make people's wishes come true, but his madness twists every wish with tainted results. Villagers make wishes hoping to fix Henkle's previous corrupted wishes, trapped in endless cycle of warped desires. Well is source of Henkle's magical powers and all aberrations in Smaragd.",
+    "location": "Center of Smaragd village in Black Forest",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

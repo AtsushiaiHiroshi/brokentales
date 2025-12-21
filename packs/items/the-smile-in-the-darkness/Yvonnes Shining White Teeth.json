@@ -1,0 +1,20 @@
+{
+  "_id": "yvonneteeth001",
+  "name": "Yvonne's Shining White Teeth",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Only intact part of Yvonne's charred body after Father Adrien burned her alive. Small corpse found with teeth shining white and locked in deathly grin - horrifying smile frozen in death. This macabre detail is what identified the body as Yvonne. The 'smile in the darkness' that gives scenario its name. Teeth remained pristine white despite fire that consumed rest of body. Many poor people who depend on Adrien witnessed scene but kept quiet to not lose priest's favor. Body thrown into mass grave without ceremony before Yvonne reborn as vengeful spirit.",
+    "location": "Yvonne's charred remains in catacombs",
+    "importance": "crucial",
+    "found": true,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "The Wild Swans Gang",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are a band of brothers and we specialize in fighting the Order's emissaries",
+      "Thanks to the curse that has been inflicted on us, we can transform into swans"
+    ],
+    "agenda": [
+      "Defeat the Hunters of the Order and find Elisa",
+      "Save Elisa from the clutches of the Order, even if it means destroying it"
+    ],
+    "gifts": [
+      {
+        "name": "Changed into a Swan",
+        "description": "A member of the Wild Swans Gang can transform into a swan at will. The transformation is immediate. When it happens, it gives him the new Descriptor: I am a wild swan – I can fly well, but I maintain my human consciousness. The gang member's clothing, items, and other possessions are never lost during the transformation."
+      },
+      {
+        "name": "The Swans Gang",
+        "description": "When a member of the gang acts and has at least one partner to support him, he increases his Opposition Level by 1. If at least 3 members focus on supporting the same action, whoever performs it increases the Opposition Level by 3 points."
+      }
+    ],
+    "background": "Once upon a time, there were eleven bold brothers, sons of an amiable nobleman. All were deeply attached to their younger sister Elisa and treated her like a queen. When the father remarried, the new wife, jealous of all the attention that the family reserved for Elisa, made a pact with Morgana, the famous witch, to cast a powerful curse. The brothers were turned into swans and Elisa was blamed for it. Accused of being a sorcerer and cast out by her father, Elisa wandered for months looking for a new home. Finally, she reached another region, where she was welcomed by a local noble who soon fell in love with her beauty. Elisa began living happily, regularly meeting her brothers, who in the meantime had been looking for a way to break the curse cast upon them. Elisa started to study magic to help them, but this attracted the attention of the prelate of the country who, fearing the worst, requested the Order's intervention. Upon reaching Elisa's presence, the Hunters noted her propensity for magic and took her away, turning her over to the papal inquisitors. When the eleven brothers found out, they cried bitter tears for their sister's fate and swore revenge against the Order, waging war in the hope of finding Elisa alive.",
+    "notes": "SPECIAL AGENDA (Morgana of the Lake): We learned that everything that happened to us is the fault of Morgana the Witch, so we want to kidnap and force her to save Elisa with her magic.\n\nIMPORTANT: There are 11 gang members total, each with 1 Wound and OL Medium 5. They become significantly more powerful when working together - 3+ members supporting an action increases OL by 3! They can transform into swans for mobility and reconnaissance. They are driven by love for their sister and hatred of the Order.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "The Wild Swans",
+    "role": "11 cursed brothers seeking revenge on the Order for taking their sister"
+  }
+}

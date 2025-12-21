@@ -1,0 +1,45 @@
+{
+  "name": "Hirnloser the Scarecrow - Original Version",
+  "type": "npc",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Hirnloser is a psychiatric patient from early 1900s America who was institutionalized for mental illness. The doctors said he was mad, that his brain didn't work right. Over time, Hirnloser internalized this diagnosis and came to believe he has no brain at all—that he's empty-headed like a scarecrow. He was displaced through time along with OZena, Lowe, and Dose when Dr. Henkle's incomplete Compass Rose malfunctioned. Despite his apparent madness, Hirnloser sees things others cannot—the truth beneath the surface, patterns in chaos, connections between events. He speaks constantly in riddles, rhymes, and fragmented sentences, his movements jerky and unsettling. At the village dance in Gelb, he approaches the Hunters and speaks cryptically: 'The scarecrow sees what you cannot. The tin man feels nothing but knows everything. The lion roars but runs away. And the girl with the silver shoes walks the yellow road to death.' In the swamp scene, Hirnloser guards Klaus but can be reasoned with if Hunters show understanding. If captured, he reveals important truths in riddles: 'The wizard in emerald is not what he seems. He steals what he cannot create. The rose blooms red with blood.' This is his ORIGINAL form—by Part Three, he transforms into Hirnloser the Genius when he realizes his mind is his greatest gift.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a psychiatric patient from the early 1900s",
+      "The doctors said my brain didn't work right",
+      "I believe I have no brain at all, just straw and emptiness",
+      "But I see things others cannot—the truth beneath the surface"
+    ],
+    "gifts": [
+      {
+        "name": "Mad Insight",
+        "description": "Despite (or because of) his madness, Hirnloser perceives truths others miss. Once per Scene, he can ask the Storyteller one question about the current situation and receive a truthful answer, though it will be delivered in riddles or cryptic language. Additionally, Hirnloser cannot be deceived by illusions or lies—he always sees the truth, even if he can't articulate it clearly."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Follow OZena because she gives me purpose",
+      "Understand the truth of this strange world",
+      "Prove I'm more than the madman they say I am",
+      "Protect my companions in my own strange way"
+    ],
+    "notes": "This is Hirnloser's ORIGINAL FORM in Part One (before transformation to Genius in Part Three). Speaks in riddles/rhymes/fragments. Jerky movements, tilts head oddly, intense stares. Appears at village dance, guards Klaus in swamp. If captured, reveals important clues about Henkle in riddles. Can be reasoned with if shown understanding. Character arc: Madman who thinks he has no brain → Genius who realizes his mind is his weapon. Voice: Fragmented, singsong, cryptic. Mannerisms: Jerky movements, odd angles, dancing steps."
+  }
+}

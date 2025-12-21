@@ -1,0 +1,18 @@
+{
+  "name": "Hatta's Time Clocks",
+  "type": "object",
+  "img": "icons/sundries/misc/clock-stopwatch-gold-black.webp",
+  "system": {
+    "description": "Specialized clockwork devices created by Hatta Carter, the most skilled inventor in all of England. These experimental clocks can manipulate the flow of time itself. One clock can slow time (allowing Hatta to defend more effectively), while another can speed it up (allowing Hatta and his Automata to act instantly, stopping anyone's action regardless of the situation). The clocks represent Hatta's brilliant theories on automatons and physics-defying mechanics.",
+    "quantity": 2,
+    "weight": 3,
+    "value": 800,
+    "equipped": false,
+    "properties": [
+      "Magical",
+      "Time manipulation",
+      "Experimental technology",
+      "Unique invention"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "ninoapprentice001",
+  "name": "Nino the Flayed Apprentice",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Mastro Antonio's apprentice carpenter, the 11th missing person whose body was never found with the others in the well. Nino is tied to a table in the Secret Laboratory, alive but with his legs now ruined by Antonio's slow, methodical flaying. Azzurra wants him kept alive because she needs innocent blood for her resurrection rite. Nino represents the most immediate and horrific evidence of the alchemists' crimes, and rescuing him may be crucial to stopping Azzurra's ritual.",
+    "location": "Villa Cilesterino - Secret Laboratory, tied to table",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

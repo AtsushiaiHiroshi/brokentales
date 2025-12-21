@@ -1,0 +1,20 @@
+{
+  "_id": "geppettoschisel001",
+  "name": "Geppetto's Carpenter Chisel",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "A carpenter's chisel that Geppetto lost while moving the corpses at the bottom of the old well. This tool belongs to the set of chisels displayed on the wall of Mastro Antonio's old carpenter shop. When the Hunters find it at the bottom of the well among remaining corpses and blood traces, they can match it to the missing tool from the set in the workshop, directly linking the alchemists to the murders.",
+    "location": "The Old Well - bottom, among blood traces and remains",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

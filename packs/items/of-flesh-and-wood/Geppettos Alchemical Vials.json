@@ -1,0 +1,29 @@
+{
+  "_id": "geppettosalchemyvials001",
+  "name": "Geppetto's Alchemical Vials",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Series of alchemical compounds contained in vials that Geppetto hides under his tacky yellow wig. When thrown, vials produce random effects: 1-2 Explosive (1 Wound to everyone within thirty feet, thick black smoke engulfs area), 3-4 Stench (nauseating odor giving 1 Penalty to all actions for rest of Scene), 5-6 Air Bomb (all subjects within thirty feet knocked back and fall to ground, 1 Wound if hit obstacle). Geppetto is immune to his own concoctions' effects.",
+    "quantity": 6,
+    "weight": 1,
+    "value": 200,
+    "equipped": false,
+    "properties": [
+      "Alchemical compounds",
+      "Hidden under yellow wig",
+      "Random explosive effects",
+      "Stench clouds",
+      "Knockback bombs",
+      "User immune to effects"
+    ],
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "bloodstainedmannequins001",
+  "name": "The Bloodstained Mannequins",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Two human-sized wooden mannequins hanging on the wall at the back of the Old Carpenter's Shop. Skillfully made but horrifyingly stained with blood and decomposing human skin. These are the first two Marionettes produced by Antonio and Geppetto's experiments, later animated by Azzurra's magic to contain cursed souls. The mannequins show clear evidence of the alchemists' gruesome work combining wood with flayed human flesh. They will spring on the Hunters as soon as they approach.",
+    "location": "Old Carpenter's Shop - back wall, near alchemical laboratory remains",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

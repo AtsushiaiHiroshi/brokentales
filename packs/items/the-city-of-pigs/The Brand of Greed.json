@@ -1,0 +1,18 @@
+{
+  "name": "The Brand of Greed",
+  "type": "object",
+  "img": "icons/sundries/documents/document-sealed-red-brown.webp",
+  "system": {
+    "description": "A special pass granted by Bardolf Greed only to those who demonstrate exceptional cunning and ability, earning his trust and respect. The Brand of Greed provides free access to any place in Whitehaven - including the factories, mine, and slaughterhouse - without any person in charge being able to object to the bearer's entrance. This document represents Bardolf's personal endorsement and carries significant weight among the city's workers and guards. Possessing this Brand allows one to exploit its importance when dealing with city dwellers.",
+    "quantity": 1,
+    "weight": 0.1,
+    "value": 100,
+    "equipped": false,
+    "properties": [
+      "Official document",
+      "All-access pass",
+      "Bardolf's endorsement",
+      "Authority symbol"
+    ]
+  }
+}

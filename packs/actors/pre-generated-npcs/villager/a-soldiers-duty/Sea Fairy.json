@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  5,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  true,
+                   "notes":  "Gifts: Water of Life (heal/resurrect), Fury of Sea (30ft area OL 7), Waves (teleport 6 miles + 2 people)",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Fairy of the sea, my magic performs miracles"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Sad that Enar chose hatred over love"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  3
+                                                 }
+                                  }
+               },
+    "name":  "Sea Fairy",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

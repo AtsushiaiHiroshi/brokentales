@@ -1,0 +1,28 @@
+{
+  "_id": "helgakey001",
+  "name": "Key to Helga's Palace",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Key to enter Helga's well-maintained palace in village of Rot. Only building in village not dilapidated. Heavy reinforced door and barred windows make entry difficult. Porcelain Princess holds this key as Helga's favorite and cult manager. Can be obtained by defeating Princess or persuading her away from Helga's service. No one can come before Helga without approval of Porcelain Princess. Entering without key means encountering Hammerheads guards.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 100,
+    "equipped": false,
+    "properties": [
+      "Palace access",
+      "Held by Porcelain Princess",
+      "Bypasses Hammerhead guards",
+      "Heavy reinforced door",
+      "Required for entry"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

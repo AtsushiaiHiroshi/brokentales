@@ -1,0 +1,46 @@
+{
+  "name": "Lowe the Coward - The Brave Fighter",
+  "type": "npc",
+  "img": "icons/creatures/mammals/lion-humanoid-roar.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Lowe suffers from leontiasis, a rare disease that causes his facial bones to grow abnormally, making his face resemble a lion's. In early 1900s America, he was mocked, feared, and called a coward because he learned to adapt and survive by siding with whoever held power. When Dr. Henkle's Compass Rose malfunctioned and threw them to 1780, Lowe found himself in a world where his appearance was even more terrifying to superstitious villagers. He follows Dorothea (OZena) because she gives him purpose and companionship—she doesn't judge his appearance or his survival tactics. Lowe is actually the most rational of OZena's three companions. He questions her increasingly violent methods but fears abandoning her would mean losing the only family he has. He's not evil—he's pragmatic. He'll side with whoever is winning because that's how he's learned to survive. But deep down, he wishes he had the courage to stand up for what's right rather than what's safe. Throughout the campaign, Lowe undergoes character development. If the Hunters show him kindness and understanding, he begins to question Henkle's manipulation. By Part Three, he can transform into Lowe the Brave Fighter—a lion-faced warrior who has finally found his courage. He becomes immune to fear, inspires allies, and stands firm even when outmatched. His cowardice was never weakness—it was survival. When he finally finds something worth fighting for (whether OZena's redemption or stopping Henkle's madness), he becomes truly heroic. If the Hunters treat him with contempt or violence, he remains hostile and defensive, convinced they're no better than the witch hunters of the 18th century.",
+    "descriptors": [
+      "I suffer from leontiasis, a disease that makes my face look like a lion's",
+      "People call me a coward because I adapt to survive—I'll side with whoever is winning",
+      "I just want to belong somewhere and protect those who accept me",
+      "I'm more rational than my companions but too afraid to speak up"
+    ],
+    "agenda": [
+      "Survive and get home to my own time",
+      "Protect my companions Dorothea, Hirnloser, and Dose",
+      "Avoid unnecessary violence when possible",
+      "Find the courage to do what's right instead of what's safe"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Hero (Part Three Transformation)",
+        "description": "**ONLY IN PART THREE:** Lowe has overcome his cowardice and embraced heroism. **Fearless:** Lowe is immune to all fear effects, intimidation, and mind control attempts. **Inspiring Presence:** Allied NPCs within 30 feet of Lowe gain +1 to their Opposition Level, emboldened by his courage. **Last Stand:** When reduced to 0 Wounds, Lowe can take one final action before falling—a dramatic last strike, final words, or heroic sacrifice. His transformation into The Brave Fighter represents finding something worth fighting for regardless of the odds.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Lowe is a tragic figure who represents survival versus heroism. In Parts One and Two, he's conflicted—observes Hunters from distance in Part One to assess if they're threats or potential allies; may negotiate in swamp encounter if Hunters were kind to Henrich and Klaus; attacks alongside OZena in Part Two if she's hostile, but hesitates if shown evidence of Henkle's lies. Voice is hesitant and apologetic initially, becomes more confident in Part Three. Mannerisms: avoids direct eye contact initially, keeps distance, ready to flee; in Part Three stands tall, meets eyes directly, protective stance. Key moment: if Hunters show compassion for his condition rather than disgust, he gains respect for them and is more likely to negotiate or even betray Henkle. If OZena is killed or captured in Part Two and Lowe blames the Hunters, he becomes hostile in Part Three, viewing them as murderers. His ultimate fate: if redeemed, he may stay in 1780 to live boldly or return home to revolutionize treatment of disfigured people; if killed, his last words thank someone for treating him with dignity. Storytellers should emphasize that his 'cowardice' was intelligent survival—he adapted because that's how outcasts survive in cruel worlds."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Marionette - Cursed Soul",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "creature",
+    "isMainNPC": false,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are souls cursed by Azzurra in the wooden bodies of marionettes. We hate all living beings and want to be destroyed to be free again."
+    ],
+    "agenda": ["Attacking every human we meet"],
+    "gifts": [
+      {
+        "name": "Boundless Rage",
+        "description": "Azzurra's power animates and forces the Marionettes to do evil acts. When a Marionette suffers the last Wound it will immediately spring on the enemy with incredible momentum as Azzurra's power compels them one last time. The Marionette can take a final action with OL Hard 7. This action must be aimed at harming a living being."
+      }
+    ],
+    "background": "Human-sized wooden mannequins skillfully crafted by Antonio and Geppetto, stained with blood and decomposing skin. These were the first two produced by the alchemists' experiments and were later animated by Azzurra's dark magic. Cursed souls are trapped within these wooden bodies, forced to attack all living beings. They long for destruction to be freed. Two Marionettes are found in Antonio's old carpenter shop, and four more guard the gardens of Villa Cilesterino.",
+    "notes": "Minor NPCs with 2 wounds. Will attack on sight. Their Gift makes them extremely dangerous in their final moments. Can be freed/calmed if Hunters understand they are imprisoned souls.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Of Flesh and Wood",
+    "inspiration": "Pinocchio (Carlo Collodi)",
+    "role": "Minion - Animated Construct"
+  }
+}

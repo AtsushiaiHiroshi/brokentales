@@ -1,0 +1,39 @@
+{
+  "name": "Saint Margaret - The Ambitious",
+  "type": "npc",
+  "img": "icons/weapons/polearms/spear-hooked-gold.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Saint Margaret is one of Saint George's six Paladins, but unlike the others who serve out of devotion or duty, Margaret serves out of ambition. She wants to affirm her role in the Church and ultimately overthrow 'that arrogant Saint George' to take his position. This secret agenda makes her simultaneously the most dangerous and the most exploitable of the Paladins. Margaret's Gift makes her stronger the more Saint George is weakened—her Opposition Level increases by 1 for each Wound Saint George has suffered, and she can take an immediate additional action whenever Saint George takes damage. This means that in prolonged battles where Saint George is being worn down, Margaret becomes progressively more powerful, potentially even surpassing her master. She fights with extra vigor when Saint George is threatened, not out of loyalty, but because his suffering empowers her. Margaret is brilliant, ruthless, and calculating. She's playing a long game, waiting for the perfect moment to make her move against Saint George. Smart Hunters can exploit this in multiple ways: they might make a deal with Margaret to betray Saint George in exchange for helping her achieve her ambitions, they might reveal her treachery to Saint George to sow discord among the Paladins, or they might deliberately wound Saint George to make Margaret more powerful and uncontrollable, forcing the other Paladins to deal with her. Of all the Paladins, Margaret is the most likely to make a deal with the Hunters—but she's also the least trustworthy, as her ambition outweighs any sense of honor or loyalty.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "I want to affirm my role in the Church and overthrow that arrogant Saint George"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - Ambition",
+        "description": "Margaret increases her Opposition Level by 1 for each Wound that Saint George has suffered (if Saint George has 2 Wounds, Margaret's OL becomes 7). Once per Scene, when Saint George suffers 1 Wound, Margaret can immediately perform 1 additional action as she seizes the opportunity. This makes Margaret progressively more dangerous as battles wear on and Saint George is weakened, potentially making her more powerful than her master by the end of a prolonged fight."
+      }
+    ],
+    "conditions": [],
+    "notes": "Margaret is Paladin #6 (roll 1d6 to determine). MOST DANGEROUS in prolonged battles—gains +1 OL per Saint George Wound, bonus action when he's hurt. Secret ambition to overthrow Saint George makes her exploitable: can make deals with Hunters, reveal her treachery to cause Paladin discord, or deliberately empower her by wounding Saint George to make her uncontrollable. Most likely to negotiate with Hunters but LEAST trustworthy—ambition trumps honor. Brilliant, ruthless, calculating. Voice: Smooth, confident, hints of superiority. Mannerisms: Watches Saint George constantly, smiles when he's wounded, calculates constantly."
+  }
+}

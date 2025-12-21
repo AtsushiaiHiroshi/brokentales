@@ -47,7 +47,7 @@ Hooks.once("init", async function () {
 
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("brokentales", BrokenTalesItemSheet, {
-    types: ["descriptor", "gift", "scenarioGift"],
+    types: ["descriptor", "gift", "scenarioGift", "clue", "object"],
     makeDefault: true,
     label: "BROKENTALES.SheetClassItem",
   });

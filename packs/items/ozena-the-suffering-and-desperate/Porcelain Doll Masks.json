@@ -1,0 +1,28 @@
+{
+  "_id": "porcelainmasks001",
+  "name": "Porcelain Doll Masks",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Grotesque porcelain doll masks worn by members of Helga's cult, the Crimson Kiss. Guards wear these distinctive masks while serving the Porcelain Princess, Helga's favorite who manages the cult. The Princess herself wears a beautiful doll mask to cover her disfigured face, hoping Helga will heal her appearance. Masks are symbols of the cult's devotion and obedience to the Red Witch. Each guard armed differently and highly dangerous.",
+    "quantity": 10,
+    "weight": 1,
+    "value": 50,
+    "equipped": false,
+    "properties": [
+      "Cult symbol",
+      "Covers disfigurement",
+      "Mark of Crimson Kiss",
+      "Worn by guards",
+      "Porcelain material"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

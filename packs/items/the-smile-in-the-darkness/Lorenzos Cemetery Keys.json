@@ -1,0 +1,28 @@
+{
+  "_id": "cemeterykeys001",
+  "name": "Lorenzo's Cemetery Keys",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Complete set of keys to open hatches accessing underground pit in Cemetery of the Innocents. Held by Lorenzo Scannapecore, Italian plague doctor hired by Paris to manage excessive corpses in mass graves. Keys open large reinforced trap doors leading to huge pit where bodies of those who cannot afford burial are thrown. Underground pit contains crowds of restless spirits invisible to mundane eyes, accumulating spiritual energy from passage of comet Morituris. Lorenzo sent cemetery keepers away to secretly host Alizée, fugitive nun he loves.",
+    "quantity": 1,
+    "weight": 1,
+    "value": 50,
+    "equipped": false,
+    "properties": [
+      "Opens cemetery hatches",
+      "Access to underground pit",
+      "Held by Lorenzo",
+      "Mass grave entry",
+      "Spirit-filled location"
+    ],
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

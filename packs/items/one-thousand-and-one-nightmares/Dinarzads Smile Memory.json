@@ -1,0 +1,20 @@
+{
+  "_id": "dinarzadssmile001",
+  "name": "Dinarzad's Smile Memory",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Sherazade has her sister Dinarzad's smile etched in her mind as the last happy moment she can recall. This memory is so powerful that not even the Sultan's great wealth could erase it. When the Sultan offered Sherazade all his riches and power to forget Dinarzad's death and become his bride, this cherished memory gave her the strength to summon all her stories as black shadows to seize the Sultan. Understanding this emotional anchor is key to reaching Sherazade's wounded soul and potentially turning her from enemy to ally.",
+    "location": "Sherazade's deepest memory, discoverable through interaction",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

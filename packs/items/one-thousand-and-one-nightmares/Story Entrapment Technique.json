@@ -1,0 +1,20 @@
+{
+  "_id": "storyentrapment001",
+  "name": "Story Entrapment Technique",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Sherazade's ability to trap the Hunters inside the stories she tells. Hunters awaken within a story she's performing, experiencing it as both audience members and participants. The story always begins with Sherazade's introduction: 'Good evening my dear hosts, my name is Sherazade and I am a weaver of tales. My words will take you to incredible worlds... however this story is not like the others and these feats are not just imaginary.' Understanding this technique allows Hunters to potentially reverse it, using magic or Order Treasures to drag Sherazade into one of her own stories.",
+    "location": "Manifests when Hunters are trapped in Sherazade's narratives",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

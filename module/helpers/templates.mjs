@@ -28,6 +28,8 @@ export async function preloadHandlebarsTemplates() {
     "systems/brokentales/templates/item/descriptor.html",
     "systems/brokentales/templates/item/gift.html",
     "systems/brokentales/templates/item/scenarioGift.html",
+    "systems/brokentales/templates/item/clue.html",
+    "systems/brokentales/templates/item/object.html",
     "systems/brokentales/templates/item/item-sheet.html",
   ]);
 }

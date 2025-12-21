@@ -1,0 +1,37 @@
+{
+  "name": "Black Wolves of Greskar's Pack",
+  "type": "npc",
+  "flags": {
+    "btActorType": "creature",
+    "btNpcSubtype": "minor",
+    "btCustomOL": "3"
+  },
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "npcType": "creature",
+    "attributes": {
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "wounds": {
+        "max": 1,
+        "current": 0,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      },
+      "xp": 0
+    },
+    "descriptors": [
+      "We are fierce black wolves, we hate humans and obey only our pack leader."
+    ],
+    "agenda": "Follow without hesitation every order from the pack’s alpha.",
+    "gifts": [
+      "The Power of the Pack: Any action taken while being engaged by two or more Wolves receives 1 Penalty."
+    ],
+    "conditions": [],
+    "notes": ""
+  }
+}

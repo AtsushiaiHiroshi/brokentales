@@ -1,0 +1,45 @@
+{
+  "name": "The God Under the Mine",
+  "type": "npc",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "A creature as ancient as the world itself, trapped beneath the bedrock of Whitehaven for millennia. The God Under the Mine is an enormous pig-like entity whose body is embedded deep in the rock, with only its massive head emerging into an accessible cavern. Eons of inactivity have left it catatonic and unresponsive to almost all stimuli—only pain can stir it even slightly from its eternal slumber. Despite its dormancy, the God's flesh possesses incredible regenerative properties and grants supernatural powers to those who consume it. Arthur Browne discovered the God after being left for dead in a mine collapse, and in his agony, fed on the divine flesh, discovering its transformative powers. The God's rapidly regenerating tissue has become the source of the Pig Heads' mutations, turning ordinary workers into monstrous revolutionaries. The God itself appears to have no will or agenda beyond existing in its ancient prison. When damaged, it emits powerful grunts that knock back attackers and taints the air with fetid breath, but these seem to be automatic defensive responses rather than conscious actions. If reduced to zero Wounds, the God falls into an even deeper sleep to fully regenerate. Arthur Browne has learned to tear pieces of flesh from the God's head to create Spawn—disgusting abominations of meat and tentacles that grow larger and more dangerous over time. The God's true nature and origin remain a mystery. Is it truly divine? A prehistoric creature? A manifestation of greed and corruption given form? Whatever it is, it has become the unwitting power source for a workers' rebellion against industrial tyranny.",
+    "descriptors": [
+      "I am a creature as old as the world, trapped beneath the bedrock",
+      "Millennia of inactivity have made me catatonic",
+      "There is nothing that can really wake me up",
+      "Only pain can stir me even slightly"
+    ],
+    "agenda": [
+      "Exist in eternal slumber beneath Whitehaven",
+      "React defensively when injured with grunts and fetid breath",
+      "Regenerate endlessly regardless of damage taken"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 6,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "The Head of the God",
+        "description": "Only the enormous head of the God emerges from the rock, and pieces of meat can be obtained from it. When he suffers 1 Wound, the God emits a loud grunt that sends everyone flying (a Defense Check can avoid this effect). As an additional effect of the grunt, the God's fetid breath taints the air, granting 1 Penalty to the next action of all affected subjects, excluding Arthur Browne. When reduced to 0 Wounds, the God falls into a deep sleep to fully regenerate in the following Scene. The God's flesh regenerates rapidly—Arthur can tear pieces from it to create Spawn of the God Under the Mine.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "The God is immobile, embedded in bedrock with only its head accessible. It has 6 Wounds, making it one of the most durable entities in the scenario. Arthur Browne is immune to the God's fetid breath effect. The God automatically regenerates fully when reduced to 0 Wounds by falling into deep sleep for one Scene. Pieces of the God's flesh can be consumed to gain supernatural powers (see Scenario Gift: The Meat of The God Under the Mine). The God's flesh is also the source of the Pig Heads' mutations when mixed with regular meat and consumed unknowingly. If Arthur creates a third Spawn in the same Scene by tearing flesh from the God, the accumulated pain drives the God mad, causing it to try to move—triggering a catastrophic mine collapse that could kill everyone underground."
+  }
+}

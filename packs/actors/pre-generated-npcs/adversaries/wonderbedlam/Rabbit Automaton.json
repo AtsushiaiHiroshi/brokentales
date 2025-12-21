@@ -1,0 +1,42 @@
+{
+  "_id": "RabbitAutomaton",
+  "name": "Rabbit Automaton",
+  "type": "npc",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an automaton in the service of Hatta Carter",
+      "Thanks to my strong legs I can make incredible jumps and crush everything when landing"
+    ],
+    "gifts": [
+      {
+        "name": "Leap",
+        "description": "When it acts, the Automaton can free itself from any engagement with ease by jumping away. If it lands on a victim, it increases its OL by 1 for the attack and if it inflicts 1 Wound, the target will also be knocked to the ground."
+      }
+    ],
+    "background": "One of two automatons built by Hatta Carter during his imprisonment in the Basement of Wonder. Created out of loneliness to serve as a pretend tea companion, this mechanical rabbit is equipped with powerful legs that allow it to make devastating leaps. It serves its creator faithfully, defending him from any who would disturb his solitude."
+  },
+  "flags": {
+    "scenarioId": "wonderbedlam",
+    "role": "automaton-guardian",
+    "creator": "hatta-carter",
+    "location": "basement"
+  }
+}

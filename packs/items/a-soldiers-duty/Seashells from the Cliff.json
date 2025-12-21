@@ -1,0 +1,12 @@
+{
+  "name": "Seashells from the Cliff",
+  "type": "clue",
+  "img": "icons/commodities/treasure/token-shell-yellow.webp",
+  "system": {
+    "description": "Seashells that fell from Enar's transformed body during combat. Erik recognizes these as identical to shells he collected when he lived with his mother in a small cliffside village. According to old stories, under that cliff there is a dense network of caves where a Sea Fairy is said to reside - the same fairy who gave Enar his immortal form.",
+    "location": "Andersen's estate (after first encounter with Enar)",
+    "importance": "important",
+    "found": false,
+    "scenario": "a-soldiers-duty"
+  }
+}

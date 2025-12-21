@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  5,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  true,
+                   "notes":  "Gift: Immune to behavior effects when carrying out orders, +1 OL when eliminating obstacles",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Former soldier, cold determination"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Help Andersen, eliminate Enar"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  3
+                                                 }
+                                  }
+               },
+    "name":  "Christian the Relentless",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

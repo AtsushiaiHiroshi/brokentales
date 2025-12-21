@@ -1,0 +1,47 @@
+{
+  "_id": "FrankBrowne",
+  "name": "Frank Browne - The Middle Brother",
+  "type": "npc",
+  "img": "icons/equipment/hand/gauntlet-tooled-purple.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the middleman of the Pig Heads and act as the strongarm of the gang",
+      "I have control over all cultists",
+      "The power of The God Under the Mine has given me strength and endurance equal to that of five men"
+    ],
+    "agenda": "Take revenge on Bardolf for what he did to me and find a remedy for the wounds that have marred me since the day of the accident / Mix the flesh of The God Under the Mine with beef from the slaughterhouse and feed it to the miners to add to the ranks of the gang",
+    "gifts": [
+      {
+        "name": "The Pincer",
+        "description": "Frank replaced his left arm with a home-made mechanical arm with many functions. During a Scene, Frank can use each of the following one time: 1. Crush, a hit with the pincer inflicts 1 additional Wound; 2. Pulley, the pincer can launch from the arm and raise or lower Frank about thirty feet. Frank can carry 2 other subjects with him."
+      },
+      {
+        "name": "Gang Leader",
+        "description": "Eating the flesh of The God Under the Mine gives the Browne brothers the ability to transform into monstrous beings. Once per Scene, the NPC can mutate, gaining the following benefits: 1. Recover a Wound once they reach 0. Though apparently dead, the NPC will revive within minutes of falling; 2. Once per Scene, act a second time during the Exchange, even consecutively; 3. Once per Scene, increase the Opposition Level by 2 for a single action where they can harness their superhuman strength."
+      }
+    ],
+    "background": "The middle Browne brother who lost an arm and a leg during the mine collapse that awakened The God Under the Mine and left Arthur trapped. Consuming with grief and driven by wild hope that Arthur wasn't dead, Frank dug a long vertical tunnel, eventually managing to create a communication channel with his brother. United in vengeance and endowed with the power of divine flesh, the three brothers began their personal war against Bardolf Greed. Frank has managed to get hired as a butcher at the big meat factory in the city and secretly mixes the flesh of the God with common meat, infecting the unsuspecting miners who eat it. When the mutation begins to take effect, Clarence approaches the targets, offering them the opportunity to join the gang. Frank replaced his missing arm with a home-made mechanical pincer with multiple functions. He takes care of their elderly mother Martha but tells her nothing of their plans."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "lieutenant-infiltrator",
+    "location": "slaughterhouse"
+  }
+}

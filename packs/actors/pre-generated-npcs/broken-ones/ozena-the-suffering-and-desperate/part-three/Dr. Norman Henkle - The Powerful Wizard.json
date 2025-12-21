@@ -1,0 +1,49 @@
+{
+  "name": "Dr. Norman Henkle - The Powerful Wizard",
+  "type": "npc",
+  "img": "icons/magic/time/clock-face-tan.webp",
+  "system": {
+    "npcType": "broken_one",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Dr. Norman Henkle is a brilliant researcher from the early 1900s who was transported to 1780 through mysterious circumstances (orchestrated by the One Who Plots in the Shadows). In this primitive era, his future knowledge makes him appear to be a powerful wizard. He appears as a charming man in his 40s, dressed in anachronistic clothing mixing 1900s and 1780s fashion. He carries himself with absolute confidence and speaks with a silver tongue that has convinced countless people to follow him. When he arrived in Smaragd with his patients (Dorothea, Lowe, Hirnloser, and Dose), he used his knowledge of penicillin (150 years before its actual discovery) to cure an epidemic, and the grateful villagers made him their leader. He discovered the magical wishing well and learned to manipulate it, transforming Smaragd into his fortress. He manipulated Dorothea into murdering the other witches to collect Compass Rose pieces, planning to use the incomplete artifact to escape—either returning to his time as a powerful wizard or conquering both eras. His genius is mostly stolen—surface knowledge of many subjects but deep understanding of none. He's a master manipulator but completely amoral, seeing everyone (including his patients) as tools. His ultimate plan is to activate the Compass Rose while in his hot-air balloon, believing he can control his destination. He doesn't care that the incomplete artifact will tear reality and throw people randomly through time.",
+    "attributes": {
+      "soma": {
+        "current": 2,
+        "max": 2
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a brilliant researcher from 1900s, appearing as a wizard in 1780",
+      "My future knowledge makes me a god among primitives",
+      "I will escape this era at any cost",
+      "Everyone is a tool to be used and discarded"
+    ],
+    "gifts": [
+      {
+        "name": "Hot-Air Balloon",
+        "description": "Henkle has constructed a hot-air balloon using future knowledge as his escape vehicle. **Time Tokens:** During the Scenario, place 1 Time Token on this Gift each time: a combat encounter occurs in Smaragd (max 1 per Scene), Hunters waste time lost in the Labyrinth, or Henkle successfully delays/distracts Hunters. **Ready to Launch:** When 3 Time Tokens accumulate, the balloon is fully inflated and ready. Henkle can board and launch as a single action. **Escape:** Once airborne, extremely difficult to stop—requires creative methods (shooting balloon, magic, climbing tether). If he escapes, activates Compass Rose while airborne."
+      },
+      {
+        "name": "Silver Tongue",
+        "description": "Henkle is a master manipulator who has convinced entire villages to follow him. **Deception Mastery:** When attempting to deceive, persuade, or manipulate, his Opposition Level increases by +2 (becomes 7). **NPC Vulnerability:** Any NPC who isn't a Hunter must make a Check against OL 7 to resist believing his lies. He's particularly effective at finding what people want and promising it. **Weakness - Plagiarist:** His genius is mostly stolen. If confronted by someone with true expertise in a topic he's claiming mastery of, his façade crumbles and his OL drops to 3 for that Exchange."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Activate the Compass Rose and escape this primitive era",
+      "Protect my stolen research and knowledge",
+      "Eliminate anyone who threatens my plans",
+      "Maintain my image as a benevolent wizard until I can escape"
+    ],
+    "notes": "Henkle doesn't want to fight—he wants to escape. He offers deals constantly: join him, let him go, trade a cure for passage. His primary goal is buying time for the balloon to launch (track Time Tokens). If cornered, becomes desperate and vicious, all charm vanishing. He attempts suicide rather than face capture. Voice: Smooth, charming, American accent. Mannerisms: Constantly smiling (doesn't reach eyes), grand gestures, touches people to establish connection, checks escape routes constantly. If defeated, his research on time travel and the wishing well is incredibly valuable to the Order."
+  }
+}

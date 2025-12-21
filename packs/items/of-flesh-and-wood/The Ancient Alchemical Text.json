@@ -1,0 +1,20 @@
+{
+  "_id": "ancientalchemytext001",
+  "name": "The Ancient Alchemical Text",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Ancient text in possession of Antonio and Geppetto that revealed the alchemical formula for eternal life. According to the text, the key component is a body made of enchanted wood - mystical material that would bestow immortality. However, to live among humans without frightening them, the wooden body must be covered in flesh. This text led the two alchemists to their gruesome experiments combining wood and human skin.",
+    "location": "Villa Cilesterino - Secret Laboratory or Old Carpenter's Shop",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

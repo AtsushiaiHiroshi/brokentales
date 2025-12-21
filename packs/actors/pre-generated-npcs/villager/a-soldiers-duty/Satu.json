@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  3,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  false,
+                   "notes":  "Mother of Erik, victim of Andersen\u0027s abuse, Enar\u0027s lost love",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Former dancer who lost everything, shadow of former self"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Defend my son Erik"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  1
+                                                 }
+                                  }
+               },
+    "name":  "Satu",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

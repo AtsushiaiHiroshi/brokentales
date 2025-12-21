@@ -1,0 +1,20 @@
+{
+  "_id": "absinthelab001",
+  "name": "Adrien's Absinthe Laboratory",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Secret distillation laboratory in church basement where Father Adrien produces illegal absinthe. Large cellar adapted for distilling operations with distinctive absinthe smell recognizable to anyone with slightest knowledge of distillation. Heavy trap door connects cellars to catacombs where Adrien passes loads of absinthe to his henchmen. Discovery of this laboratory by little Yvonne led to her murder. Adrien strangled girl unconscious and burned her alive to hide his smuggling operation. Source of priest's wealth used to fund escape to New World.",
+    "location": "Church of Saint Pierre basement cellar",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

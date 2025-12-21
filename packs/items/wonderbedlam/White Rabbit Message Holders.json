@@ -1,0 +1,12 @@
+{
+  "name": "White Rabbit Message Holders",
+  "type": "clue",
+  "img": "icons/containers/bags/pouch-simple-leather-brown-red.webp",
+  "system": {
+    "description": "Small message holders tied around the necks of the white rabbits that wander through Wonder's Cure Rooms. Each rabbit carries a cryptic clue about how to access the Basement. The messages include hints like: 'It's not always convenient to knock on a door with your hand,' 'Knocking on a door is the bare minimum to be expected of a respectable person,' and 'When you arrive at a door, it is polite to ask if anyone is home.' These clues, when understood together, reveal the formula: 'Is anyone under the house?' which opens the door painted on the floor in the Entrance Hall.",
+    "location": "Cure Rooms - carried by White Rabbits",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "wonderbedlam"
+  }
+}

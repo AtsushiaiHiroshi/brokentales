@@ -1,0 +1,20 @@
+{
+  "_id": "cometmorituris001",
+  "name": "The Comet Morituris",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Long-tailed comet passing over Paris on December 31st, bright as small sun at midnight. According to legend, passage gives power to spirits and charges spiritual world with energy. Name 'Morituris' means 'those who are about to die' in Latin. Comet's passage allows Yvonne to channel mystical energy of unquiet dead souls into inferno capable of burning all Paris. Visible from sky during stroke of midnight. Adds 1 Grudge Token to underground pit at midnight. Lorenzo Scannapecore is skilled astrologer who can explain comet's spiritual significance and timing.",
+    "location": "Sky over Paris, visible December 31st at midnight",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

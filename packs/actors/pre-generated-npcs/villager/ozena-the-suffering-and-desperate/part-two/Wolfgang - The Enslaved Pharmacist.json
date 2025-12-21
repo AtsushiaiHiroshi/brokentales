@@ -1,0 +1,34 @@
+{
+  "name": "Wolfgang - The Enslaved Pharmacist",
+  "type": "npc",
+  "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "Wolfgang is not a real druid—he's a pharmacist from a nearby town who was kidnapped by Helga for his knowledge of herbs and medicines. He's forced to serve her under the threat that she'll kill his family if he disobeys. He maintains the animated forest trap by sprinkling blood at the roots of the trees. Wolfgang appears in druidic robes holding a wooden staff, but his nervous demeanor betrays his true nature. He desperately wants to escape Helga's control but feels trapped by his situation. If the Hunters promise to free him and protect his family, he can provide valuable information about the village layout, safe paths through the forest, and Helga's plans. He knows about the Infusion of Purity—a potion that can break blood magic curses—but Helga won't let him include elderberry in the recipe, claiming it's too rare. The truth is that a complete Infusion would break her control over him and the other servants.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I'm a simple pharmacist forced to pretend to be a druid",
+      "Helga threatens my family if I don't obey",
+      "I hate what I've become, but I don't know how to escape",
+      "I know herbs and medicines, not magic"
+    ],
+    "gifts": [],
+    "conditions": [],
+    "notes": "Wolfgang can be a valuable ally if the Hunters gain his trust. He knows: the recipe for Infusion of Purity (burdock, nettle, hyssop, elderberry), safe paths through the animated forest, the layout of Helga's mansion, and that elderberry is the key ingredient Helga forbids. If freed from blood magic control, he'll help the Hunters escape and provide medical assistance."
+  }
+}

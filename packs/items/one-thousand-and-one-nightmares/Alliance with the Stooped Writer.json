@@ -1,0 +1,20 @@
+{
+  "_id": "stoopedwriteralliance001",
+  "name": "Alliance with the Stooped Writer",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Empty of any emotion after her sister's death and revenge on the Sultan, Sherazade wandered all over the known world. She finally met a tired and stooped man - a writer who, like her, had seen every happy memory destroyed by the selfishness of others. The two forged a bitter alliance to bring new life into the stories now broken by the wish of the Child Savior. This alliance connects Sherazade directly to the overarching campaign narrative involving the Child Savior and The One Who Plots in the Shadows.",
+    "location": "Part of Sherazade's history, clues on page 246 of manual",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

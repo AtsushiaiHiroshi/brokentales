@@ -51,193 +51,623 @@
       "label": "Pre-Generated Hunters",
       "path": "packs/compendiums/actors/pre-generated-hunters",
       "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "pre-generated-npcs",
-      "label": "Pre-Generated NPCs",
-      "path": "packs/compendiums/actors/pre-generated-npcs",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "adversaries",
-      "label": "Adversaries",
-      "path": "packs/compendiums/actors/adversaries",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "broken-ones",
-      "label": "Broken Ones",
-      "path": "packs/compendiums/actors/broken-ones",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "creatures",
-      "label": "Creatures",
-      "path": "packs/compendiums/actors/creatures",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "villagers",
-      "label": "Villagers",
-      "path": "packs/compendiums/actors/villagers",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "threats",
-      "label": "Threats",
-      "path": "packs/compendiums/actors/threats",
-      "type": "Actor",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "scenario-gifts",
-      "label": "Scenario Gifts",
-      "path": "packs/compendiums/scenario-gifts/scenario-gifts",
-      "type": "Item",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "iskra-items",
       "label": "Red-Hood Iskra - Items & Clues",
-      "path": "packs/compendiums/items/iskra-items",
+      "path": "packs/compendiums/items/red-hood-iskra",
       "type": "Item",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-items",
+      "label": "Ozena - Items & Clues",
+      "path": "packs/compendiums/items/ozena-the-suffering-and-desperate",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-items",
+      "label": "Wonderbedlam - Items & Clues",
+      "path": "packs/compendiums/items/wonderbedlam",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "city-of-pigs-items",
+      "label": "The City of Pigs - Items & Clues",
+      "path": "packs/compendiums/items/the-city-of-pigs",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "smile-in-darkness-items",
+      "label": "The Smile in the Darkness - Items & Clues",
+      "path": "packs/compendiums/items/the-smile-in-the-darkness",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-items",
+      "label": "Tuvstarr's Reflection - Items & Clues",
+      "path": "packs/compendiums/items/tuvstarrs-reflection",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "flesh-and-wood-items",
+      "label": "Of Flesh and Wood - Items & Clues",
+      "path": "packs/compendiums/items/of-flesh-and-wood",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "saint-george-items",
+      "label": "Saint George - Items & Clues",
+      "path": "packs/compendiums/items/saint-george-the-dragon-slayer",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "one-thousand-nightmares-items",
+      "label": "One Thousand Nightmares - Items & Clues",
+      "path": "packs/compendiums/items/one-thousand-and-one-nightmares",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "soldiers-duty-items",
+      "label": "A Soldier's Duty - Items & Clues",
+      "path": "packs/compendiums/items/a-soldiers-duty",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-adversaries",
+      "label": "Red-Hood Iskra - Adversaries",
+      "path": "packs/compendiums/actors/red-hood-iskra/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-broken-ones",
+      "label": "Red-Hood Iskra - Broken Ones",
+      "path": "packs/compendiums/actors/red-hood-iskra/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-creatures",
+      "label": "Red-Hood Iskra - Creatures",
+      "path": "packs/compendiums/actors/red-hood-iskra/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-villagers",
+      "label": "Red-Hood Iskra - Villagers",
+      "path": "packs/compendiums/actors/red-hood-iskra/villagers",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-npcs",
+      "label": "Red-Hood Iskra - NPCs",
+      "path": "packs/compendiums/actors/red-hood-iskra/pre-generated-npcs",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "red-hood-iskra-gifts",
+      "label": "Red-Hood Iskra - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/red-hood-iskra/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-adversaries",
+      "label": "Ozena - Adversaries",
+      "path": "packs/compendiums/actors/ozena-the-suffering-and-desperate/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-broken-ones",
+      "label": "Ozena - Broken Ones",
+      "path": "packs/compendiums/actors/ozena-the-suffering-and-desperate/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-creatures",
+      "label": "Ozena - Creatures",
+      "path": "packs/compendiums/actors/ozena-the-suffering-and-desperate/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-villagers",
+      "label": "Ozena - Villagers",
+      "path": "packs/compendiums/actors/ozena-the-suffering-and-desperate/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-dark-presences",
+      "label": "Ozena - Dark Presences",
+      "path": "packs/compendiums/actors/ozena-the-suffering-and-desperate/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "ozena-gifts",
+      "label": "Ozena - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/ozena-the-suffering-and-desperate/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-adversaries",
+      "label": "Wonderbedlam - Adversaries",
+      "path": "packs/compendiums/actors/wonderbedlam/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-broken-ones",
+      "label": "Wonderbedlam - Broken Ones",
+      "path": "packs/compendiums/actors/wonderbedlam/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-creatures",
+      "label": "Wonderbedlam - Creatures",
+      "path": "packs/compendiums/actors/wonderbedlam/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-villagers",
+      "label": "Wonderbedlam - Villagers",
+      "path": "packs/compendiums/actors/wonderbedlam/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-dark-presences",
+      "label": "Wonderbedlam - Dark Presences",
+      "path": "packs/compendiums/actors/wonderbedlam/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "wonderbedlam-gifts",
+      "label": "Wonderbedlam - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/wonderbedlam/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-adversaries",
+      "label": "The City of Pigs - Adversaries",
+      "path": "packs/compendiums/actors/the-city-of-pigs/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-broken-ones",
+      "label": "The City of Pigs - Broken Ones",
+      "path": "packs/compendiums/actors/the-city-of-pigs/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-creatures",
+      "label": "The City of Pigs - Creatures",
+      "path": "packs/compendiums/actors/the-city-of-pigs/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-villagers",
+      "label": "The City of Pigs - Villagers",
+      "path": "packs/compendiums/actors/the-city-of-pigs/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-dark-presences",
+      "label": "The City of Pigs - Dark Presences",
+      "path": "packs/compendiums/actors/the-city-of-pigs/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-city-of-pigs-gifts",
+      "label": "The City of Pigs - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/the-city-of-pigs/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-adversaries",
+      "label": "The Smile in the Darkness - Adversaries",
+      "path": "packs/compendiums/actors/the-smile-in-the-darkness/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-broken-ones",
+      "label": "The Smile in the Darkness - Broken Ones",
+      "path": "packs/compendiums/actors/the-smile-in-the-darkness/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-creatures",
+      "label": "The Smile in the Darkness - Creatures",
+      "path": "packs/compendiums/actors/the-smile-in-the-darkness/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-villagers",
+      "label": "The Smile in the Darkness - Villagers",
+      "path": "packs/compendiums/actors/the-smile-in-the-darkness/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-dark-presences",
+      "label": "The Smile in the Darkness - Dark Presences",
+      "path": "packs/compendiums/actors/the-smile-in-the-darkness/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "the-smile-in-darkness-gifts",
+      "label": "The Smile in the Darkness - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/the-smile-in-the-darkness/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-adversaries",
+      "label": "Tuvstarr's Reflection - Adversaries",
+      "path": "packs/compendiums/actors/tuvstarrs-reflection/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-broken-ones",
+      "label": "Tuvstarr's Reflection - Broken Ones",
+      "path": "packs/compendiums/actors/tuvstarrs-reflection/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-creatures",
+      "label": "Tuvstarr's Reflection - Creatures",
+      "path": "packs/compendiums/actors/tuvstarrs-reflection/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-villagers",
+      "label": "Tuvstarr's Reflection - Villagers",
+      "path": "packs/compendiums/actors/tuvstarrs-reflection/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "tuvstarrs-reflection-gifts",
+      "label": "Tuvstarr's Reflection - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/tuvstarrs-reflection/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-adversaries",
+      "label": "Of Flesh and Wood - Adversaries",
+      "path": "packs/compendiums/actors/of-flesh-and-wood/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-broken-ones",
+      "label": "Of Flesh and Wood - Broken Ones",
+      "path": "packs/compendiums/actors/of-flesh-and-wood/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-creatures",
+      "label": "Of Flesh and Wood - Creatures",
+      "path": "packs/compendiums/actors/of-flesh-and-wood/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-villagers",
+      "label": "Of Flesh and Wood - Villagers",
+      "path": "packs/compendiums/actors/of-flesh-and-wood/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-dark-presences",
+      "label": "Of Flesh and Wood - Dark Presences",
+      "path": "packs/compendiums/actors/of-flesh-and-wood/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "of-flesh-and-wood-gifts",
+      "label": "Of Flesh and Wood - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/of-flesh-and-wood/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "saint-george-adversaries",
+      "label": "Saint George - Adversaries",
+      "path": "packs/compendiums/actors/saint-george-the-dragon-slayer/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "saint-george-dark-presences",
+      "label": "Saint George - Dark Presences",
+      "path": "packs/compendiums/actors/saint-george-the-dragon-slayer/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "saint-george-gifts",
+      "label": "Saint George - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/saint-george-the-dragon-slayer/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "one-thousand-nightmares-adversaries",
+      "label": "One Thousand Nightmares - Adversaries",
+      "path": "packs/compendiums/actors/one-thousand-and-one-nightmares/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "one-thousand-nightmares-dark-presences",
+      "label": "One Thousand Nightmares - Dark Presences",
+      "path": "packs/compendiums/actors/one-thousand-and-one-nightmares/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "one-thousand-nightmares-gifts",
+      "label": "One Thousand Nightmares - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/one-thousand-and-one-nightmares/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-adversaries",
+      "label": "A Soldier's Duty - Adversaries",
+      "path": "packs/compendiums/actors/a-soldiers-duty/adversaries",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-broken-ones",
+      "label": "A Soldier's Duty - Broken Ones",
+      "path": "packs/compendiums/actors/a-soldiers-duty/broken-ones",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-creatures",
+      "label": "A Soldier's Duty - Creatures",
+      "path": "packs/compendiums/actors/a-soldiers-duty/creatures",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-villagers",
+      "label": "A Soldier's Duty - Villagers",
+      "path": "packs/compendiums/actors/a-soldiers-duty/villager",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-dark-presences",
+      "label": "A Soldier's Duty - Dark Presences",
+      "path": "packs/compendiums/actors/a-soldiers-duty/dark-presences",
+      "type": "Actor",
+      "system": "brokentales"
+    },
+    {
+      "name": "a-soldiers-duty-gifts",
+      "label": "A Soldier's Duty - Scenario Gifts",
+      "path": "packs/compendiums/scenario-gifts/a-soldiers-duty/scenario-gifts",
+      "type": "Item",
+      "system": "brokentales"
     },
     {
       "name": "maps-en",
       "label": "Maps (English)",
       "path": "packs/maps/en",
       "type": "Scene",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "maps-es",
       "label": "Mapas (Español)",
       "path": "packs/maps/es",
       "type": "Scene",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "playlists-environment",
       "label": "Playlists - Environment",
-      "path": "packs/compendiums/environment/environment",
+      "path": "packs/compendiums/environment",
       "type": "Playlist",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "playlists-sound",
       "label": "Playlists - Sound Effects",
-      "path": "packs/compendiums/sounds/sound",
+      "path": "packs/compendiums/sounds",
       "type": "Playlist",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "scenarios-campaign",
       "label": "Scenarios - Campaign",
       "path": "packs/scenarios/campaign",
       "type": "JournalEntry",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     },
     {
       "name": "scenarios-oneshot",
       "label": "Scenarios - One-Shot",
       "path": "packs/scenarios/one-shot",
       "type": "JournalEntry",
-      "system": "brokentales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+      "system": "brokentales"
     }
   ],
   "packFolders": [
     {
-      "name": "Actors",
+      "name": "Pre-Generated Characters",
       "sorting": "m",
-      "packs": ["pre-generated-hunters", "pre-generated-npcs"],
-      "folders": [
-        {
-          "name": "NPCs by Type",
-          "sorting": "m",
-          "packs": [
-            "adversaries",
-            "broken-ones",
-            "creatures",
-            "threats",
-            "villagers"
-          ]
-        }
+      "packs": ["pre-generated-hunters"]
+    },
+    {
+      "name": "Red-Hood Iskra",
+      "sorting": "m",
+      "packs": [
+        "iskra-items",
+        "red-hood-iskra-adversaries",
+        "red-hood-iskra-broken-ones",
+        "red-hood-iskra-creatures",
+        "red-hood-iskra-villagers",
+        "red-hood-iskra-npcs",
+        "red-hood-iskra-gifts"
       ]
     },
     {
-      "name": "Items",
+      "name": "Ozena - The Suffering and Desperate",
       "sorting": "m",
-      "packs": ["scenario-gifts", "iskra-items"]
+      "packs": [
+        "ozena-items",
+        "ozena-adversaries",
+        "ozena-broken-ones",
+        "ozena-creatures",
+        "ozena-villagers",
+        "ozena-dark-presences",
+        "ozena-gifts"
+      ]
     },
     {
-      "name": "Scenes",
+      "name": "Wonderbedlam",
+      "sorting": "m",
+      "packs": [
+        "wonderbedlam-items",
+        "wonderbedlam-adversaries",
+        "wonderbedlam-broken-ones",
+        "wonderbedlam-creatures",
+        "wonderbedlam-villagers",
+        "wonderbedlam-dark-presences",
+        "wonderbedlam-gifts"
+      ]
+    },
+    {
+      "name": "The City of Pigs",
+      "sorting": "m",
+      "packs": [
+        "city-of-pigs-items",
+        "the-city-of-pigs-adversaries",
+        "the-city-of-pigs-broken-ones",
+        "the-city-of-pigs-creatures",
+        "the-city-of-pigs-villagers",
+        "the-city-of-pigs-dark-presences",
+        "the-city-of-pigs-gifts"
+      ]
+    },
+    {
+      "name": "The Smile in the Darkness",
+      "sorting": "m",
+      "packs": [
+        "smile-in-darkness-items",
+        "the-smile-in-darkness-adversaries",
+        "the-smile-in-darkness-broken-ones",
+        "the-smile-in-darkness-creatures",
+        "the-smile-in-darkness-villagers",
+        "the-smile-in-darkness-dark-presences",
+        "the-smile-in-darkness-gifts"
+      ]
+    },
+    {
+      "name": "Tuvstarr's Reflection",
+      "sorting": "m",
+      "packs": [
+        "tuvstarrs-reflection-items",
+        "tuvstarrs-reflection-adversaries",
+        "tuvstarrs-reflection-broken-ones",
+        "tuvstarrs-reflection-creatures",
+        "tuvstarrs-reflection-villagers",
+        "tuvstarrs-reflection-gifts"
+      ]
+    },
+    {
+      "name": "Of Flesh and Wood",
+      "sorting": "m",
+      "packs": [
+        "flesh-and-wood-items",
+        "of-flesh-and-wood-adversaries",
+        "of-flesh-and-wood-broken-ones",
+        "of-flesh-and-wood-creatures",
+        "of-flesh-and-wood-villagers",
+        "of-flesh-and-wood-dark-presences",
+        "of-flesh-and-wood-gifts"
+      ]
+    },
+    {
+      "name": "Saint George - The Dragon Slayer",
+      "sorting": "m",
+      "packs": [
+        "saint-george-items",
+        "saint-george-adversaries",
+        "saint-george-dark-presences",
+        "saint-george-gifts"
+      ]
+    },
+    {
+      "name": "One Thousand and One Nightmares",
+      "sorting": "m",
+      "packs": [
+        "one-thousand-nightmares-items",
+        "one-thousand-nightmares-adversaries",
+        "one-thousand-nightmares-dark-presences",
+        "one-thousand-nightmares-gifts"
+      ]
+    },
+    {
+      "name": "A Soldier's Duty",
+      "sorting": "m",
+      "packs": [
+        "soldiers-duty-items",
+        "a-soldiers-duty-adversaries",
+        "a-soldiers-duty-broken-ones",
+        "a-soldiers-duty-creatures",
+        "a-soldiers-duty-villagers",
+        "a-soldiers-duty-dark-presences",
+        "a-soldiers-duty-gifts"
+      ]
+    },
+    {
+      "name": "Maps",
       "sorting": "m",
       "packs": ["maps-en", "maps-es"]
     },

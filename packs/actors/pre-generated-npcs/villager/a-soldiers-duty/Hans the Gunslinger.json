@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  5,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  true,
+                   "notes":  "Gifts: Experimental pistols (3 targets, OL 7 quick draw), Smoke Bombs (30ft area, 1 Penalty)",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Former soldier, best marksman, never miss"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Convince Nils to keep secret or remove him"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  4
+                                                 }
+                                  }
+               },
+    "name":  "Hans the Gunslinger",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

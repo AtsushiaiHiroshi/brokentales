@@ -1,0 +1,47 @@
+{
+  "_id": "ClarenceBrowne",
+  "name": "Clarence Browne - The Younger Brother",
+  "type": "npc",
+  "img": "icons/equipment/head/mask-carved-scream-tan.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am the youngest of the Pig Heads",
+      "Despite believing in our fight, I am not going to waste much time on it",
+      "From hanging around, I know Whitehaven like the back of my hand"
+    ],
+    "agenda": "Having fun and lazing around all day, carrying on the Pig Head's cause in my spare time",
+    "gifts": [
+      {
+        "name": "Slacker",
+        "description": "Clarence is a master of the art of disappearing when things get tough. In the presence of even a small crowd, Clarence can leave a Scene when it is his turn to act, without anything or anyone being able to stop him. When using this Gift, Clarence hides in the orchard, passing the entire following Scene there."
+      },
+      {
+        "name": "Gang Leader",
+        "description": "Eating the flesh of The God Under the Mine gives the Browne brothers the ability to transform into monstrous beings. Once per Scene, the NPC can mutate, gaining the following benefits: 1. Recover a Wound once they reach 0. Though apparently dead, the NPC will revive within minutes of falling; 2. Once per Scene, act a second time during the Exchange, even consecutively; 3. Once per Scene, increase the Opposition Level by 2 for a single action where they can harness their superhuman strength."
+      }
+    ],
+    "background": "The youngest of the three Browne brothers. When Bardolf Greed threw them out on the street and forced them to accept jobs as miners or starve, Clarence soon quit, choosing the life of a slacker over labor in the mines. After the mine collapse that injured Frank and trapped Arthur, Clarence became part of the Pig Heads revolution but maintains his lazy lifestyle. He lives in a rickety rundown house with a thatched roof in the abandoned apple orchard that the Browne family once gifted to the city. Clarence always pretends to be drunk with strangers to take them off guard. When the mutation from eating the God's flesh begins to take effect on miners, Clarence approaches the targets, offering them the opportunity to join the gang. He has a special relationship with Emma, his childhood friend, who he has always promised to take away from Whitehaven, though she knows he will never abandon his brothers. From hanging around the city, Clarence knows Whitehaven like the back of his hand."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "recruiter-scout",
+    "location": "orchard"
+  }
+}

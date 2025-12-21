@@ -1,0 +1,49 @@
+<form class="sheet item" autocomplete="off">
+  <header class="sheet-header">
+    <div class="header-fields">
+      <h1 class="itemname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'BROKENTALES.Fields.Name'}}" />
+      </h1>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    <div class="grid-container">
+
+      <!-- Description -->
+      <div class="resource full-width">
+        <label>{{localize "BROKENTALES.Fields.Description"}}</label>
+        <textarea name="system.description" rows="8">{{system.description}}</textarea>
+      </div>
+
+      <!-- Location -->
+      <div class="resource full-width">
+        <label>Location</label>
+        <input type="text" name="system.location" value="{{system.location}}" placeholder="Where this clue can be found" />
+      </div>
+
+      <!-- Importance -->
+      <div class="resource">
+        <label>Importance</label>
+        <select name="system.importance">
+          <option value="minor" {{#if (eq system.importance "minor")}}selected{{/if}}>Minor</option>
+          <option value="important" {{#if (eq system.importance "important")}}selected{{/if}}>Important</option>
+          <option value="crucial" {{#if (eq system.importance "crucial")}}selected{{/if}}>Crucial</option>
+        </select>
+      </div>
+
+      <!-- Found Status -->
+      <div class="resource">
+        <label>Found</label>
+        <input type="checkbox" name="system.found" {{checked system.found}} />
+      </div>
+
+      <!-- Scenario -->
+      <div class="resource">
+        <label>Scenario</label>
+        <input type="text" name="system.scenario" value="{{system.scenario}}" placeholder="Scenario name" />
+      </div>
+
+    </div>
+  </section>
+</form>

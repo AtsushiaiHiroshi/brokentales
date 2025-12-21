@@ -1,0 +1,20 @@
+{
+  "_id": "blackshadowseizure001",
+  "name": "Black Shadows from Stories",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "When Sherazade rejected the Sultan's offering, all the stories she had told over thirty nights took physical shape as black shadows. These shadows emerged from the walls to seize the Sultan and hold him in terrible darkness for eternity. This was the first manifestation of Sherazade's power to bring her stories to life as vengeful entities. The black shadows represent the dark transformation of beautiful tales into weapons of punishment. This origin story explains why her current Shadows are 'darker, sadder versions' of the originals.",
+    "location": "Manifested at the Sultan's court, now part of Sherazade's Gift",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

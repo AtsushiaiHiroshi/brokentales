@@ -1,0 +1,20 @@
+{
+  "_id": "yvonnebedding001",
+  "name": "Yvonne's Alcove with Withered Flowers",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Small stone alcove in catacombs with bed of straw and rags where foundling Yvonne slept. Old vase of withered flowers indicates no one has used it for more than week. Poor old woman Marie can tell Hunters that foundling named Yvonne slept here. Girl hasn't been back for over week since her murder. Alcove represents Yvonne's meager living conditions - ragged orphan who sold candles to survive, scorned by all except Father Adrien. Location where Yvonne's spirit returns during day, sadly absorbed in memory of her death. Withered flowers perhaps left by someone who cared.",
+    "location": "The Catacombs of Paris - Yvonne's sleeping alcove",
+    "importance": "important",
+    "found": false,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

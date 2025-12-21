@@ -1,0 +1,28 @@
+{
+  "_id": "hotairballoon001",
+  "name": "Henkle's Hot-Air Balloon",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Hot-air balloon made of patched fabric constructed by Norman Henkle inside huge oak tree molded into shape of grotesque castle. Device from future (1900) never before seen in 1780. Henkle plans to board balloon to activate incomplete Compass Rose and return to his time. Accumulates Time Tokens based on Hunter actions - when third Time Token placed, balloon is ready for takeoff. If Henkle activates incomplete Rose from balloon, huge tornado will hit entire Black Forest, affecting everyone and taking Henkle to unknown place.",
+    "quantity": 1,
+    "weight": 200,
+    "value": 1500,
+    "equipped": false,
+    "properties": [
+      "Flying device from future",
+      "Made of patched fabric",
+      "Inside tree castle",
+      "Escape vehicle",
+      "Activates Compass Rose"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

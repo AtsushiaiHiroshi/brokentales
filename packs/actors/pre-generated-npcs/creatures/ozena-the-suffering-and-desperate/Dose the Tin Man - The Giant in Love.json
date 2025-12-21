@@ -1,0 +1,56 @@
+{
+  "name": "Dose the Tin Man - The Giant in Love",
+  "type": "npc",
+  "img": "icons/equipment/chest/breastplate-banded-steel.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Dose suffers from leprosy and other contagious diseases. In early 1900s America, to protect others from infection, he made the agonizing decision to seal himself inside crude metal armor—plates bolted and strapped onto his body, covering him completely except for a small door over his heart. The armor protected others but isolated him completely. He could no longer feel anything through the metal—no warmth, no gentle touch, no human contact. Over time, he began to fear he was becoming hollow inside, losing his humanity piece by piece, transforming into nothing but empty metal. When the Compass Rose threw him to 1780, Dose found himself in a world where his appearance—a walking metal man—terrified villagers who thought him a demon or golem. He follows Dorothea because she accepts him despite his armor, and because protecting her gives meaning to his hollowness. His voice is muffled and echoing through his helmet. His movements are stiff and mechanical. He constantly adjusts his armor, a nervous habit from years of maintaining the seal. Dose desperately wants to feel something—anything—again. In Part Three, if he survives, Dose experiences the most dramatic transformation: he falls in love with a villager of Smaragd. The power of that love begins to physically transform him. Where his beloved touches his armor, it falls away and living flesh grows in its place. Dose the Giant in Love still retains metal armor over most of his body (providing immunity to physical attacks), but patches of exposed flesh show on his arms, chest, and face. The area around his heart—his most vulnerable spot—is now unprotected flesh, covered only by the small door. When fighting to protect his beloved, Dose can act twice in one Exchange, love giving him superhuman determination. His movements become more fluid, more human. He speaks constantly about his beloved, showing emotion rather than mechanical detachment.",
+    "descriptors": [
+      "I suffer from leprosy encased in metal armor to protect others from contagion",
+      "I cannot feel anything through the metal and fear I'm becoming hollow inside",
+      "I desperately want to feel human connection again but armor keeps me isolated",
+      "By Part Three: I've fallen in love and my armor is being replaced by living flesh where love touches"
+    ],
+    "agenda": [
+      "Protect my companions who accept me despite my armor",
+      "Find a cure so I can feel again and be truly human",
+      "Prevent myself from becoming completely hollow—a monster without humanity",
+      "In Part Three: Protect my beloved at any cost and embrace my returning humanity"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Of Steel (Parts One and Two)",
+        "description": "Dose's entire body (except for a small door over his heart) is covered in crude metal armor bolted and strapped onto him. He is immune to ALL physical attacks (swords, arrows, blunt force, etc.) unless: An attacker specifically targets the heart door, which requires spending 1 Increment from their Outcome to aim precisely, OR the attack is magical or supernatural in nature (fire, lightning, curses, etc.). When the heart door is opened or successfully targeted, Dose loses this immunity for the rest of the Scene, as the impact disrupts the armor's integrity. His armor makes him nearly invincible to mundane weapons but creates a critical vulnerability.",
+        "somaCost": 0
+      },
+      {
+        "name": "Giant",
+        "description": "Dose has 1 additional Wound beyond what his importance would normally grant (giving him 3 Wounds total plus 1 extra Wound for 4 total). His massive armored form and enhanced endurance make him extraordinarily difficult to bring down.",
+        "somaCost": 0
+      },
+      {
+        "name": "Of Steel and Love (Part Three Transformation)",
+        "description": "**ONLY IN PART THREE:** Dose's armor is slowly being replaced by living flesh wherever his beloved touches him. **Partial Immunity:** Dose still has metal armor covering most of his body, providing immunity to physical attacks except where flesh is exposed (face, arms, chest patches). **Vulnerable Heart:** The area around his heart is now unprotected flesh covered only by the small door. Attacking this spot requires 1 Increment but completely bypasses his armor immunity. **Love's Strength:** When fighting to protect his beloved, Dose can act twice in one Exchange instead of once, empowered by desperate love and the return of human emotion.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Dose is the Tin Man seeking a heart—but discovers he had one all along when he finds love. Roleplaying notes: Voice muffled and echoing through helmet, speaks about wanting to feel things; movements stiff and mechanical in Parts One/Two, becomes more fluid in Part Three; constantly adjusts armor (nervous habit); in Part Three shows patches of exposed flesh and speaks constantly about beloved with emotion and wonder. Key transformation moment: when beloved first touches his face and armor falls away revealing human skin, Dose weeps for first time in years—can finally feel tears. If Hunters show him compassion (acknowledging his sacrifice to protect others through isolation), he's deeply moved and may refuse to fight them later. If treated as just a monster or obstacle, he fights mechanically without emotion. His tragedy: he voluntarily imprisoned himself in armor out of selfless desire to protect others from disease, but that protection cost him his humanity. His redemption: love literally brings his humanity back, flesh replacing metal where love touches. Ultimate fate: if he survives and is redeemed, he chooses to stay in 1780 with his beloved, watching the last pieces of armor fall away as he becomes fully human again. If killed, his final words are about wishing he could have felt one more time. The small heart door can be recovered as tragic memento—symbol of his vulnerability and humanity."
+  }
+}

@@ -12,6 +12,8 @@
       "Descriptor": "Descriptor",
       "Gift": "Don",
       "ScenarioGift": "Don de Escenario",
+      "Clue": "Pista",
+      "Object": "Objeto",
       "Type": "Tipo",
       "Price": "Precio",
       "Rarity": "Rareza"
@@ -81,7 +83,16 @@
       "RepeatRoll": "Repetir Tirada",
       "Cost": "Coste",
       "Uses": "Usos",
-      "Effect": "Efecto"
+      "Effect": "Efecto",
+      "Location": "Ubicación",
+      "Importance": "Importancia",
+      "Found": "Encontrado",
+      "Scenario": "Escenario",
+      "Quantity": "Cantidad",
+      "Weight": "Peso",
+      "Value": "Valor",
+      "Equipped": "Equipado",
+      "Properties": "Propiedades"
     },
 
     "Items": {

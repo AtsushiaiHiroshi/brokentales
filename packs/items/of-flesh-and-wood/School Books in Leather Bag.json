@@ -1,0 +1,20 @@
+{
+  "_id": "schoolbooksbag001",
+  "name": "School Books in Leather Bag",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Old leather bag containing books for the local school, found among other things of interest in the Old Carpenter's Shop. These books belong to Carlo and show his attempt to live as a normal child attending school in Sinalunga. The presence of school supplies in the abandoned workshop connects Carlo to the carpenter's shop and suggests his recent presence there before he escaped.",
+    "location": "Old Carpenter's Shop - among items of interest",
+    "importance": "minor",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

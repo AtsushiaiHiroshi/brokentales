@@ -1,0 +1,28 @@
+{
+  "_id": "infusionpurity001",
+  "name": "Infusion of Purity",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Special potion that breaks Helga's blood magic curse. Produced at Helga's greenhouse from rare ingredients: Burdock, Nettle, Hyssop, and Elderberry. The potion renders anyone immune to Blood Magic for the course of a Scene and cancels mind control effects. Those under Blood Magic influence have slight crimson tinge to their eyes. Helga planned to sell this antidote to rich and powerful nobles after poisoning them with her magical blood. Missing Elderberry prevents completion.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 800,
+    "equipped": false,
+    "properties": [
+      "Anti-magic potion",
+      "Breaks blood curse",
+      "Grants immunity for one Scene",
+      "Cancels mind control",
+      "Requires: Burdock, Nettle, Hyssop, Elderberry"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

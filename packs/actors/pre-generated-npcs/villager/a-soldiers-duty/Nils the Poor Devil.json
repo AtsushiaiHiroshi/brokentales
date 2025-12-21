@@ -1,0 +1,42 @@
+{
+    "img":  "icons/svg/mystery-man.svg",
+    "system":  {
+                   "conditions":  [
+
+                                  ],
+                   "oppositionLevel":  5,
+                   "gifts":  [
+
+                             ],
+                   "isMainNPC":  true,
+                   "notes":  "Has diary revealing truth about Enar\u0027s punishment",
+                   "background":  "",
+                   "descriptors":  [
+                                       "Old soldier who lost his legs in war"
+                                   ],
+                   "npcType":  "villager",
+                   "agenda":  [
+                                  "Find way to bring Enar peace, guilt haunts me"
+                              ],
+                   "attributes":  {
+                                      "soma":  {
+                                                   "current":  0,
+                                                   "max":  0
+                                               },
+                                      "wounds":  {
+                                                     "current":  0,
+                                                     "extra":  {
+                                                                   "value":  0,
+                                                                   "max":  1
+                                                               },
+                                                     "max":  3
+                                                 }
+                                  }
+               },
+    "name":  "Nils the Poor Devil",
+    "flags":  {
+                  "scenario":  "A Soldier\u0027s Duty",
+                  "inspiration":  "The Little Mermaid"
+              },
+    "type":  "npc"
+}

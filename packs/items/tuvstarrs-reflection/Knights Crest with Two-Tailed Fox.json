@@ -1,0 +1,12 @@
+{
+  "name": "Knight's Crest with Two-Tailed Fox",
+  "type": "clue",
+  "img": "icons/sundries/gaming/shield-heraldry-gray-red.webp",
+  "system": {
+    "description": "A knightly crest bearing the heraldic symbol of a fox with two tails. This crest belonged to one of the fallen knights who died searching for Princess Tuvstarr in the corrupted forest. The crest can be found on the body of the knight's dead warhorse or near his plate armor at the bottom of the black pond. Showing this crest to the Gallant Knight proves that his brothers-in-arms all perished in the search, and can convince him to abandon his comfortable exile in the Dream World and resume his quest to save the kingdom.",
+    "location": "Dead knight's body in the forest or armor near black pond",
+    "importance": "important",
+    "found": false,
+    "scenario": "tuvstarrs-reflection"
+  }
+}

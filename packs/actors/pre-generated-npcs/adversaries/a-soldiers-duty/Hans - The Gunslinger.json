@@ -1,0 +1,48 @@
+{
+  "name": "Hans - The Gunslinger",
+  "type": "npc",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Hans was one of the company's best marksmen during the war, famous for never missing his mark. He invested more than half his war earnings in a pair of experimental pistols from an inventor—guns that can fire multiple shots without reloading. He always keeps them hidden under his heavy overcoat along with smoke bombs for tactical advantage. Hans was one of the six survivors who participated in Enar's execution six years ago. Unlike the others, Hans is primarily concerned with keeping the secret of what they did to Enar. When the mysterious murders began, Hans grew paranoid about Nils, the Poor Devil, who has been showing signs of guilt and might confess to the authorities. On Day 1, Hans travels to Sundsvall with the intent to interrogate Nils and, if necessary, silence him permanently. Hans is ruthless, practical, and willing to kill to protect himself and his reputation. He views Nils's conscience as a liability that must be eliminated.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 4,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a former soldier, once one of the company's best marksmen",
+      "I never miss my mark",
+      "I always have a loaded weapon hidden under my heavy overcoat",
+      "I will do whatever it takes to protect my secrets"
+    ],
+    "gifts": [
+      {
+        "name": "Gunslinger",
+        "description": "Hans owns a pair of prized experimental pistols bought from an inventor. **Rapid Fire:** Hans's guns can fire multiple shots simultaneously. With one attack, Hans can aim at up to 3 targets within a 30-foot square area. **Reload Master:** While firing one pistol, Hans can reload the other as an additional action without penalty. **Quick Draw:** When Hans draws a pistol from under his coat, he can make an immediate attack with Opposition Level Hard 7, catching enemies off-guard. **Marksman:** Hans receives +1 Additional Success when making called shots or targeting specific body parts."
+      },
+      {
+        "name": "Smoke Bombs",
+        "description": "Hans carries smoke bombs for tactical advantage. **Deploy Smoke:** While firing a pistol, Hans can drop a smoke bomb as an additional action. **Thick Smoke:** The smoke covers a 30-foot square area. Everyone inside receives 1 Penalty for every action requiring sight, except Hans who is immune. **Tactical Escape:** Hans can always disengage from opponents in the smoke without anyone preventing him, slipping away unseen. **Duration:** Smoke lasts for the remainder of the Scene or until dispersed by strong wind."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Convince Nils to keep our secret or remove him",
+      "Survive this nightmare by eliminating threats before they eliminate me",
+      "Protect my reputation and freedom at any cost"
+    ],
+    "notes": "Hans is morally grey—willing to murder Nils to keep secrets. Voice: Quiet, calculating, paranoid undertones. On Day 1, if Hunters aren't in Sundsvall, Hans kills Nils. On Day 2, if Hans killed Nils, he ambushes Enar in Sundsvall but dies in the fight. If Nils is alive on Day 2, Enar attacks Nils and Hans may help defend. His experimental pistols are his pride—losing them would devastate him. Uses smoke bombs tactically to control battlefield. Sees conscience as weakness."
+  }
+}

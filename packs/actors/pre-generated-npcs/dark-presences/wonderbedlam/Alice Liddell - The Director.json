@@ -1,0 +1,46 @@
+{
+  "name": "Alice Liddell - The Director",
+  "type": "npc",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-red.webp",
+  "system": {
+    "npcType": "dark_presence",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Alice Liddell is the brilliant and disturbing founder of Wonder, an asylum in York that defies all logic and reason. Throughout her life, Alice suffered from mental illness, but unlike most patients, she was capable of understanding her condition and containing it. This self-awareness led to a fascination with the mysterious workings of the mind. Despite having no medical background, she worked tirelessly to graduate as a psychiatrist, driven by a singular vision: to create Wonder, a bedlam where the inmates themselves could create their own path to recovery. Alice grew to despise conventional treatments that destroyed patients and reduced them to zombies. In secret, she studied magic and conceived a ritual that could turn Wonder into a sentient entity—a living building where the environment itself could assist in the healing process, molding itself around each Patient according to their individual problems. To build this marvel, she partnered with Hatta Carter, a renowned inventor who was himself mad. Together they created Wonder, an architectural impossibility powered by the magic of madness itself. But when construction finished, Alice betrayed Hatta, imprisoning him in the Basement. She feared his uncontrolled madness would ruin what they had built. Alice discovered she could control Wonder with her will alone, bending the impossible place to her wishes. Her own warped perception of the world, filtered through her controlled insanity, allowed her to grant it concrete form through Wonder's magic. With this power, she could enter the minds of her patients and replace trauma with new memories. Many patients have been permanently 'healed' by having all their problems erased from existence—though at the cost of losing their true identities. Alice genuinely believes she is helping people, using indelicate methods in the name of scientific progress. She sees trauma and mental illness as problems to be solved by transformation and erasure. Her current project involves Alissa of Norfolk, a noblewoman suffering post-partum depression after her child's death. Alice plans to erase Alissa's memories entirely, giving her a new identity free from burden. Alice is cold, calculating, and possesses an eerie calmness. She will negotiate rather than fight, valuing Wonder's preservation above all else. But she is also capable of possession, taking control of others' bodies—including her trained lynx Cheshire or even the Hunters themselves—to achieve her goals.",
+    "descriptors": [
+      "I am the director of Wonder",
+      "Thanks to the power of madness, I can enter people's minds to heal them",
+      "I am a renowned psychiatrist who understands mental illness from the inside",
+      "I control Wonder's impossible architecture with my will alone"
+    ],
+    "agenda": [
+      "Safeguard what I have built within Wonder and all the incredible discoveries that the magic of madness can give to mankind",
+      "Solve every problem by transforming it into a Patient to be treated",
+      "Erase trauma by erasing identity—rebirth without burdens is the ultimate cure",
+      "Protect Wonder from destruction at any cost"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 3,
+        "max": 3
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Alice from Other Worlds",
+        "description": "As an action, Alice can attempt to possess the body of a person or animal by looking into their eyes. Hunters can make a Defense Check to prevent this possession. While possessing another body, Alice can both act through the body she controls AND continue to use her own Gifts and Descriptors—her consciousness exists in both places simultaneously. The possession ends immediately when Alice's original body suffers 1 Wound. Alice cannot control more than 3 common subjects or a single Hunter at the same time. She commonly uses this Gift to possess her lynx Cheshire, allowing her to observe from afar and attack by surprise. Alice can also possess Patients throughout Wonder, using them as her eyes and ears. If cornered, she may attempt to possess one of the Hunters, forcing them to attack their companions or defend her.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Alice Liddell is the main antagonist of Wonderbedlam but is not inherently evil—she genuinely believes she is healing people through her radical methods. She will attempt to negotiate before fighting, offering deals to protect Wonder. Common tactics: offering drugged tea (Threat - Alice's special tea, OL Hard 7, puts victims to sleep for 8+ hours), possessing Alicia and passing her off as Alissa while claiming Alicia is a split personality, controlling Cheshire the lynx to attack by surprise then fleeing through walls, and ultimately bargaining to preserve Wonder. Alice's real body is vulnerable—if it suffers just 1 Wound, all possessions end immediately. She will try to keep her body protected in the Hall of the Mind while acting through possessed creatures. Alice knows the complete layout of Wonder and all its secrets, including how to activate the Place of Pure Madness effects. If the Hunters reveal the truth about Hatta Carter's imprisonment and Alice's betrayal, she will feel guilt but justify it as necessary for the greater good. Alice's ultimate fear is that Wonder will be destroyed, ending her life's work and the living miracle of architectural madness she created."
+  }
+}

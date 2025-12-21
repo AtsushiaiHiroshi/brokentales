@@ -1,0 +1,37 @@
+{
+  "_id": "SkuttDream",
+  "name": "Skutt the Moose - Dream Projection",
+  "type": "npc",
+  "img": "icons/creatures/mammals/elk-moose-blue-green.webp",
+  "system": {
+    "npcType": "creature",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a majestic and magnificent moose",
+      "I protect the sweet Princess Tuvstarr with all my might"
+    ],
+    "agenda": "Protect Tuvstarr from all threats and make her happy / Listen to a small part of my soul that cries out that this perfect world is just a wishful illusion",
+    "background": "This is not the real Skutt, but a dream projection created by Princess Tuvstarr. He appears healthy and majestic, always near the Princess, following her as she rides him through the kingdom. Since he is a dream, this Skutt has no recollection of the Hunters or the real world. However, a spark of the original Skutt resides in his dream projection - a part of his soul that knows this perfect world is just an illusion. This spark can be exploited by the Hunters to push him to remember the real world and what has happened because of Tuvstarr's wish. Unlike his corrupted spectral counterpart in the real world, this Skutt is whole, beautiful, and strong - everything the real Skutt once was before tragedy struck."
+  },
+  "flags": {
+    "scenarioId": "tuvstarrs-reflection",
+    "role": "dream-guardian",
+    "location": "dream-world",
+    "nature": "illusion-with-spark-of-truth"
+  }
+}

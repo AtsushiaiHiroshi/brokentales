@@ -1,0 +1,20 @@
+{
+  "_id": "magicalbrazier001",
+  "name": "The Magical Brazier",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Magical brazier created by Antonio in the Secret Laboratory under Azzurra's guidance. This alchemical device is specifically designed to burn Carlo, the living puppet, as part of Azzurra's dark ritual to use the fairy magic animating him to bring herself back to life. The brazier represents the culmination of Antonio's research and Azzurra's manipulation of the alchemists. It is the key instrument for the witch's resurrection ritual.",
+    "location": "Villa Cilesterino - Secret Laboratory cellar",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

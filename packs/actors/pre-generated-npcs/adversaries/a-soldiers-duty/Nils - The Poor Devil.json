@@ -1,0 +1,39 @@
+{
+  "name": "Nils - The Poor Devil",
+  "type": "npc",
+  "img": "icons/equipment/leg/greaves-armored-steel.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Old Nils earned the nickname \"the Poor Devil\" after losing both his legs in the war between Sweden and Russia. Despite his disability and the hardships he endured, Nils invested his war earnings wisely and donated much of his wealth to the neediest in his community of Sundsvall, where he is beloved by all. He was one of the six surviving Caroleans who participated in Enar's punishment six years ago, and unlike his comrades, the guilt has never left him. Nils kept a detailed diary documenting everything that happened—how they judged Enar for desertion, how Captain Andersen ordered his leg cut off and his body thrown into the sea, and how the punishment seemed excessive and cruel. Though Nils doesn't know about Andersen's rape of Satu (that secret was kept even from the soldiers), he senses the injustice of what they did. When the mysterious murders began killing his former comrades one by one, Nils's guilt told him the truth: Enar has returned for revenge. Unable to move due to his injuries and unwilling to see more bloodshed, Nils reached out through his network of friends to summon the Order of Hunters, hoping they can stop Enar and bring peace to his tormented former brother-in-arms. But Hans is coming to silence him, and Enar is coming for revenge.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an old soldier who lost his legs in the war",
+      "I am beloved in my community for my generosity",
+      "I am haunted by guilt for what we did to Enar",
+      "I have many friends and connections who would help me"
+    ],
+    "gifts": [],
+    "conditions": [],
+    "agenda": [
+      "The guilt for what we did to Enar haunts me, I want to find a way to bring him peace",
+      "Tell the truth about what happened six years ago, no matter the consequences",
+      "Protect my community from the violence that has followed us home from the war"
+    ],
+    "notes": "Nils represents conscience and redemption. He summoned the Hunters because he believes Enar deserves peace, not just to be killed again. Voice: Tired, remorseful, wise. His diary in Sundsvall reveals Enar's identity, his relationship with Satu, and details of the execution—but NOT Andersen's rape. On Day 1, Hans arrives to interrogate him; if Hunters aren't present, Hans kills him. On Day 2, if alive, Enar comes for him; if Hunters aren't present, Enar kills him. His house is modest despite his wealth. He cannot walk and uses a wheelchair or crutches. Respected elder figure who could testify about Andersen's crimes if he survives."
+  }
+}

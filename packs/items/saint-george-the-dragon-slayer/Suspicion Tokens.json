@@ -1,0 +1,12 @@
+{
+  "name": "Suspicion Tokens",
+  "type": "clue",
+  "img": "icons/sundries/gaming/token-eye-black-red.webp",
+  "system": {
+    "description": "Markers of Saint George's growing distrust and suspicion toward the Hunters he accompanies. The Judgment of the Saint Gift tracks these tokens whenever a Hunter activates their Dark Ego, uses magical Gifts, or terrorizes ordinary people in Saint George's presence. During scenes, the Storyteller can spend Suspicion Tokens to impose penalties on Hunter Checks. These tokens carry over between scenarios, building toward a breaking point. When Suspicion Tokens equal twice the number of Hunters, Saint George initiates a Witch Hunt and becomes an Opponent Dark Presence, turning against the very Hunters he once supported.",
+    "location": "Tracked by the Storyteller throughout the campaign",
+    "importance": "crucial",
+    "found": true,
+    "scenario": "saint-george-the-dragon-slayer"
+  }
+}

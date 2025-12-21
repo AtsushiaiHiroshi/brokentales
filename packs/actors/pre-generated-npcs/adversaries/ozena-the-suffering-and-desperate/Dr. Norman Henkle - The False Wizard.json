@@ -1,0 +1,59 @@
+{
+  "name": "Dr. Norman Henkle - The False Wizard",
+  "type": "npc",
+  "img": "icons/magic/air/air-burst-spiral-blue-gray.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "background": "Dr. Norman Henkle was a researcher in early 1900s America studying mental illness. He discovered the Compass Rose in his asylum's archives, recognized its power, and experimented on patients (Lowe, Hirnloser, Dose, Dorothea). The Rose malfunctioned, throwing them backward in time to 1780 Germany. Trapped and terrified, Henkle hid his ignorance behind knowledge from the future—mentioning penicillin, steam engines, germ theory made him seem like a wizard. He murdered or drove out Griselda (the fourth witch), fortified Smaragd as his castle, and manipulated OZena into killing the other witches so he could collect all Compass Rose pieces and return home (or conquer this era). He planned OZena's death after she delivered Helga's piece. He is a false wizard: charismatic manipulator with future knowledge but no real magic, vulnerable when confronted by actual experts. His Hot-Air Balloon is his escape plan—powered by Time Tokens harvested from temporal anomalies caused by the Rose's presence. He's the true villain: not broken by suffering like OZena, but a calculating sociopath who caused all of this.",
+    "descriptors": [
+      "I am false wizard from the future (1900s) trapped in 1780, using future knowledge to fake magic",
+      "I orchestrated everything: experimenting on patients, causing time displacement, manipulating OZena",
+      "My Hot-Air Balloon powered by Time Tokens is my escape plan back to my era or to rule this one",
+      "I murdered/drove out Griselda and fortified Smaragd, now collecting Compass Rose pieces",
+      "I am master manipulator with Silver Tongue but plagiarist—vulnerable when facing true experts"
+    ],
+    "agenda": [
+      "Collect all four Compass Rose pieces to control time portal",
+      "Use OZena to murder witches then eliminate her after she delivers Helga's piece",
+      "Harvest Time Tokens from temporal anomalies to power my Hot-Air Balloon",
+      "Return to my own era as a powerful time traveler, or conquer 1780 with future knowledge",
+      "Prevent anyone from discovering I'm not a real wizard",
+      "Kill the Hunters before they expose my deception or stop my plans"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Hot-Air Balloon (Time Tokens)",
+        "description": "Henkle's escape plan is a Hot-Air Balloon powered by temporal anomalies. He harvests **Time Tokens** which function as countdown: he places 1 Token when combat starts, 1 Token when significantly delayed, 1 Token when Hunters lost in Illusory Labyrinth. When he accumulates **3 Time Tokens**, his balloon is ready to launch. At 3 Tokens, he attempts escape: takes 1 Exchange to board, 1 more Exchange to launch, must succeed Navigation Check or balloon drifts (Hunters make Athletics Check to catch ropes). Once airborne, extremely difficult to stop. Balloon can be sabotaged: destroying control mechanism (OL 5 Check), cutting tether ropes (Athletics Check), puncturing envelope (ranged attack).",
+        "somaCost": 0
+      },
+      {
+        "name": "Silver Tongue",
+        "description": "Henkle is master manipulator. When engaging in social manipulation, persuasion, deception, or intimidation based on his false wizard persona, increase his Opposition Level by +2 to **OL 7 (Hard)**. This applies to: convincing NPCs he's a wizard, persuading villagers to obey, manipulating OZena, deceiving Hunters about his intentions. NPCs are especially vulnerable—they almost always believe him unless given overwhelming evidence he's lying.",
+        "somaCost": 0
+      },
+      {
+        "name": "Plagiarist (Weakness)",
+        "description": "Henkle's power is entirely borrowed—future knowledge pretending to be magic. If confronted by a **true expert** in a field he's faking (real wizard, genuine scholar, actual doctor from his era), his Opposition Level **drops to OL 3 (Easy)** for that Scene. He becomes flustered, makes mistakes, contradicts himself. Examples: real magic user recognizes he has no magical aura, historian catches anachronisms, doctor realizes his medical knowledge stops at 1900s. This is his critical vulnerability.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Henkle is the true villain—not tragic like OZena but calculating sociopath. Voice: smooth American accent, anachronistic slang. Manner: constantly smiling, checks escape routes, fake wizard gestures (meaningless hand-waving). Combat: avoids direct confrontation, uses minions (Villagers of Emerald, Canine Tigers), focuses on harvesting Time Tokens while others fight. If exposed as fraud: panics, makes desperate mistakes, tries to escape immediately. If balloon destroyed: loses composure entirely, may offer desperate bargains. **Redemption**: NONE. Unlike OZena, he's irredeemable—caused suffering deliberately for power. **Ultimate Confrontation**: Hunters can: destroy balloon forcing him to face justice, expose him to Villagers causing revolt, trap him in 1780 forever, or let him escape (bittersweet—villain escapes but crisis ends). **If OZena Redeemed**: she becomes his nemesis, removes Silver Slippers to stop him, accepts being trapped in 1780 to ensure he can't escape. **Compass Rose Finale**: If Henkle activates complete Rose, creates massive time portal—Hunters must decide: stop him, send companions home, or prevent temporal catastrophe."
+  }
+}

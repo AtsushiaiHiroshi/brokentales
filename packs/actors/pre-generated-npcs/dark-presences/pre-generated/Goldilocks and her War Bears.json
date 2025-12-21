@@ -1,0 +1,47 @@
+{
+  "name": "Goldilocks and her War Bears",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a young mercenary who combines fighting skills with uncontrolled fury",
+      "My loyal war bears are my family and no one can lay a finger on me"
+    ],
+    "agenda": [
+      "Live without anyone telling me what I should or can do",
+      "Take care of my beautiful blonde hair, the only part of my body that hasn't been spoiled"
+    ],
+    "gifts": [
+      {
+        "name": "War Bears",
+        "description": "Goldilocks is always accompanied by her three trusty War Bears. The Bears only obey her and it is not possible to influence their behavior or scare them, not even with magic. When Goldilocks acts, she can expend one of her Bears' actions to obtain a single special effect: 1. Inflict 1 additional Wound with a successful attack. 2. Cancel 1 Wound suffered, which a Bear will take instead. 3. Increase the Opposition Level of an action by 1.\n\nThe Three Bears:\nFang - 3 Wounds, Opposition Level Easy 3\nBlack - 1 Wound, Opposition Level Hard 7\nClaw - 2 Wounds, Opposition Level Medium 5\nDescriptor: We are Goldilocks' children and fight alongside her with unstoppable fury.\nAgenda: Defending our mother at any cost."
+      }
+    ],
+    "background": "Once upon a time, there was a young orphan who, to escape the clutches of a gang of thieves, took refuge in a forest. After wandering for days, the young woman found a bear's den and, seized by desperation and hunger, ate the honey she found there. Exhausted and cold, she recklessly fell asleep in the den. When the bear came home it pounced on her, but the girl managed to defend herself with an old knife found stuck in the bones of a careless hunter. The young woman got the better of the feral animal and slit its throat. Before dying the bear inflicted dozens of deep wounds that spoiled her good looks forever. Desperate but determined to survive, Goldilocks heard a moan coming from the bottom of the den. She found three newborn bears, orphans of the mother she just killed. She took the cubs with her and, from that day, promised that no one would ever toy with her life again. Years later, a rumor was heard often across the battlefields, of Goldilocks and her war bears who were revered and feared as the most dangerous of all mercenaries.",
+    "notes": "Goldilocks is a mercenary with three War Bears that significantly enhance her combat abilities. The bears can absorb wounds for her, grant +1 Wound on attacks, or boost her OL. The three bears have different profiles:\n- Fang: 3W, OL 3 (tank)\n- Black: 1W, OL 7 (elite striker)\n- Claw: 2W, OL 5 (balanced)\nThey cannot be scared or influenced, even with magic. Total combat package: Goldilocks (3W, OL 5) + 3 Bears (6W total). Extremely dangerous mercenary unit.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "opponent",
+    "inspiration": "Goldilocks and the Three Bears",
+    "role": "Scarred mercenary with three loyal war bears, most dangerous fighters-for-hire"
+  }
+}

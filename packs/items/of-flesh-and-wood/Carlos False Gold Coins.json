@@ -1,0 +1,20 @@
+{
+  "_id": "carlosfalsegold001",
+  "name": "Carlo's False Gold Coins",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Stones that Carlo temporarily turns into gold coins using his lies power to pay Amabile Burromo, the greedy innkeeper at Villa Balocchi. The puppet creates these false coins to pay for his lodging in a small back room. Throwing the coins into a safe in his room, the innkeeper hasn't yet noticed the trick - the gold will eventually revert to ordinary stones once Carlo's lie magic fades. Evidence of Carlo's deceptive nature and his ability to manipulate reality through lies.",
+    "location": "Villa Balocchi - Amabile's safe in his room",
+    "importance": "important",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

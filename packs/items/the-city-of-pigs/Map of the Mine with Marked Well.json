@@ -1,0 +1,12 @@
+{
+  "name": "Map of the Mine with Marked Well",
+  "type": "clue",
+  "img": "icons/sundries/documents/blueprint-damaged.webp",
+  "system": {
+    "description": "A sketched map of Whitehaven's mine found in Clarence's shack in the orchard. The map has a specific point marked with the word 'well' - indicating the location of a narrow shaft that leads down to Arthur Browne's hidden cave. This is the secret entrance to The God Under the Mine's chamber, where Arthur has been living since the mine collapse that supposedly killed him. The map shows abandoned areas of the mine and the exact location of the vertical tunnel Frank dug to communicate with his trapped brother.",
+    "location": "Clarence's shack in the apple orchard",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "the-city-of-pigs"
+  }
+}

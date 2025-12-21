@@ -1,0 +1,12 @@
+{
+  "name": "Sign from the Browne Family",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-symbol-shield.webp",
+  "system": {
+    "description": "A weathered sign next to a tool shed in the abandoned apple orchard that reads 'Gift courtesy of the Browne family.' This sign is evidence of Arthur, Clarence, and Frank Browne's previous community leadership and their efforts to provide employment and support for Whitehaven's residents before Bardolf Greed's arrival. The orchard once employed many inhabitants of Whitehaven and represents the brothers' former dedication to the town's welfare - a stark contrast to their current violent rebellion as the Pig Heads gang.",
+    "location": "The apple orchard outside Whitehaven",
+    "importance": "minor",
+    "found": false,
+    "scenario": "the-city-of-pigs"
+  }
+}

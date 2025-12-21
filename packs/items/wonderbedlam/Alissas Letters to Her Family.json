@@ -1,0 +1,12 @@
+{
+  "name": "Alissa's Letters to Her Family",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-letter-torn-brown.webp",
+  "system": {
+    "description": "A series of increasingly terrified and delusional letters written by Alissa of Norfolk to her family during her first month at Wonder asylum. The letters describe how Wonder is 'hell on earth, where strange presences move in the dark rooms, animated by an evil will.' After the first month, the letters became more desperate until they abruptly ceased. These letters prompted the Duke of Norfolk to secretly approach the Order for help, asking the Hunters to save his daughter and shed light on the dark dealings happening in the asylum.",
+    "location": "Duke of Norfolk's possession (quest background)",
+    "importance": "important",
+    "found": true,
+    "scenario": "wonderbedlam"
+  }
+}

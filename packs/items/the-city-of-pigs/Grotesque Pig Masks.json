@@ -1,0 +1,13 @@
+{
+  "name": "Grotesque Pig Masks",
+  "type": "object",
+  "img": "icons/equipment/head/mask-carved-pig.webp",
+  "system": {
+    "description": "Macabre pig masks worn by the revolutionary gang called the Pig Heads, led by the three Browne brothers. These grotesque masks hide the identities of the gang members as they terrorize Whitehaven, kidnapping and injuring Bardolf Greed's factory workers. The masks are a symbol of their transformation and rebellion, representing both their literal mutations from consuming The God's flesh and their symbolic rejection of being treated like animals by Greed's exploitative industries. When gang members activate their powers, their heads physically become pig-like, making the masks unnecessary.",
+    "quantity": 1,
+    "weight": 1,
+    "value": 20,
+    "equipped": false,
+    "properties": ["Disguise", "Gang symbol", "Intimidating", "Hides identity"]
+  }
+}

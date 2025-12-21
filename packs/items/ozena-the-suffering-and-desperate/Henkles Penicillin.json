@@ -1,0 +1,28 @@
+{
+  "_id": "penicillin001",
+  "name": "Henkle's Penicillin",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Modern medicine from year 1900 brought by Norman Henkle from the future. Doctor's bag contains Penicillin which Henkle used to halt epidemic in village of Smaragd. This miraculous cure elevated him to status of holy man among villagers. Along with wishing well powers, this established Henkle's authority and reputation as powerful wizard. Medicine from future is impossible to replicate in 1780 Black Forest, making it invaluable and irreplaceable.",
+    "quantity": 5,
+    "weight": 0.5,
+    "value": 2000,
+    "equipped": false,
+    "properties": [
+      "Future medicine",
+      "From year 1900",
+      "Cures epidemic",
+      "Miraculous healing",
+      "Impossible to replicate in 1780"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

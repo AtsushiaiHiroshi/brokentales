@@ -1,0 +1,12 @@
+{
+  "name": "Knightly Plate Armor at Pond Bottom",
+  "type": "clue",
+  "img": "icons/equipment/chest/breastplate-scale-steel.webp",
+  "system": {
+    "description": "A knight's plate armor lying at the bottom of the black pond, visible in Tuvstarr's reflection. The shield bears a fox with two tails as heraldic symbol, matching the crest that can be found in the forest. This armor belonged to the Gallant Knight who entered the Dream World before the Hunters arrived. Footsteps on the muddy shore lead from this armor into the black water, marking the path between the real world and the Dream World. The armor serves as evidence that knights have been here and provides a crucial link to understanding how to reach Tuvstarr.",
+    "location": "Bottom of the black pond (visible in reflection)",
+    "importance": "important",
+    "found": false,
+    "scenario": "tuvstarrs-reflection"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_id": "carlosoldsho es001",
+  "name": "Carlo's Elegant Old Shoes",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Pair of old, elegant shoes that Geppetto gave to Carlo for his first day of school. Despite Carlo using his lies power to disguise himself as a real child and not matching Geppetto's description, these distinctive shoes on his feet are the only clue that allows the Hunters to identify the living puppet among the schoolchildren. The shoes are recognizable and connect Carlo to Geppetto's fabricated story of the lost son.",
+    "location": "On Carlo's feet at the School or Villa Balocchi",
+    "importance": "important",
+    "found": false,
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

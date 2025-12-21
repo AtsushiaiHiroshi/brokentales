@@ -1,0 +1,42 @@
+{
+  "name": "Marcel the Time-Waster",
+  "type": "npc",
+  "flags": {
+    "btActorType": "villager",
+    "btNpcSubtype": "minor",
+    "btCustomOL": "3"
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "attributes": {
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "wounds": {
+        "max": 1,
+        "current": 0,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      },
+      "xp": 0
+    },
+    "background": "",
+    "descriptors": [
+      "I frequently wander the town and may be found anywhere. Once, I saw a young girl at the Oak Glade, but no one believed my story because I am too young."
+    ],
+    "agenda": "Be heard and prove that what he saw in the Oak Glade is real.",
+    "gifts": [],
+    "darkEgo": {
+      "trigger": "",
+      "gift": ""
+    },
+    "weapons": [],
+    "objects": [],
+    "conditions": [],
+    "notes": ""
+  }
+}

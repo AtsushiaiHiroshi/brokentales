@@ -1,0 +1,28 @@
+{
+  "_id": "helgablood001",
+  "name": "Helga's Blood Vials",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Vials containing Helga's magical blood used to enslave and control people. The Porcelain Princess carries five or six vials for newcomers to drink. Swallowing even one drop makes victim totally subject to Helga's will. Victims can be commanded like puppets, forced to perform any action. Eyes of enslaved show slight crimson tinge. Wolfgang uses blood drops to animate forest trees as guardian traps. Can be used to control plants and people's bodies with blood magic. Only Infusion of Purity can break the curse.",
+    "quantity": 6,
+    "weight": 0.5,
+    "value": 400,
+    "equipped": false,
+    "properties": [
+      "Blood magic",
+      "Mind control substance",
+      "Enslaves drinkers to Helga",
+      "Animates plants",
+      "Crimson eye tinge on victims"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Hirnloser - The Scarecrow",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a psychiatric patient from the early 1900s",
+      "The doctors said I was mad, that my brain didn't work right",
+      "Now I believe I have no brain at all, but I see things others cannot—the truth beneath the surface"
+    ],
+    "agenda": [
+      "Follow OZena because she gives me purpose",
+      "Understand the truth of this strange world",
+      "Prove I'm more than the madman they say I am"
+    ],
+    "gifts": [],
+    "background": "Hirnloser was a psychiatric patient from early 1900s America who was thrown back in time by Dr. Henkle's Compass Rose. The doctors said he was mad, that his brain didn't work right, and over time Hirnloser came to believe he has no brain at all. Despite (or because of) his perceived madness, he sees truths others miss—patterns, connections, and hidden meanings that escape rational minds. He speaks in riddles, rhymes, and fragmented sentences, moving with jerky, unsettling motions. He followed OZena because she gave him purpose when no one else would. He appears at Margareta's village dance and later helps kidnap Klaus to test the Hunters.",
+    "notes": "ROLEPLAYING:\n- Speech: Riddles, rhymes, fragmented sentences\n- Mannerisms: Jerky movements, tilts head at odd angles, stares intensely\n- Insight: Despite madness, perceives truths others miss\n\nKEY MOMENT: At the dance, he speaks this riddle: 'The scarecrow sees what you cannot. The tin man feels nothing but knows everything. The lion roars but runs away. And the girl with the silver shoes walks the yellow road to death.'\n\nIf captured, he reveals: 'The wizard in emerald is not what he seems. He steals what he cannot create. The rose blooms red with blood.'\n\nDEVELOPMENT: In Part Three of the campaign, he becomes The Genius when he realizes his mind is his greatest gift.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz - Scarecrow",
+    "role": "Mad prophet who sees hidden truths, kidnapper testing the Hunters",
+    "timeDisplaced": true,
+    "originalEra": "Early 1900s America"
+  }
+}

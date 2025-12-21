@@ -1,0 +1,29 @@
+{
+  "_id": "antoniosalchemyvials001",
+  "name": "Antonio's Alchemical Vials",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Series of alchemical compounds in vials that Antonio Ciliegia hides in his tunic. However, due to his proverbial bad luck, on rolls of 5-6 something goes wrong and Antonio suffers 1 Wound. Effects: 1. Fire (target and area catch fire, 1 Wound, continues burning until extinguished), 2. Thunder (target knocked thirty feet away, 1 Wound if hits obstacle), 3. Glue (adhesive compound paralyzes target until removed, glue can take 2 Wounds). Despite his skills and experience, Antonio's legendary misfortune makes his own alchemy dangerous to himself.",
+    "quantity": 6,
+    "weight": 1,
+    "value": 200,
+    "equipped": false,
+    "properties": [
+      "Alchemical compounds",
+      "Hidden in tunic",
+      "Fire bombs",
+      "Thunder knockback",
+      "Paralyzing glue",
+      "Unlucky backfires on 5-6"
+    ],
+    "scenario": "of-flesh-and-wood"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

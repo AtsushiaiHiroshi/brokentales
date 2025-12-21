@@ -1,0 +1,32 @@
+{
+  "name": "Elizaveta - The Cruel Bride",
+  "type": "npc",
+  "img": "icons/svg/female.svg",
+  "flags": {},
+  "token": {
+    "name": "Elizaveta",
+    "img": "icons/svg/female.svg"
+  },
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "wounds": {
+      "max": 3,
+      "current": 3,
+      "extra": 0
+    },
+    "soma": {
+      "max": 0,
+      "current": 0
+    },
+    "xp": 0,
+    "background": "Elizaveta enjoys a life of comfort and prestige, secured through calculated manipulation and cold ambition. She is determined to protect her position, even if it means sacrificing her own daughter to keep secrets buried.",
+    "descriptors": [
+      "I am skillful and charming. I’ll do whatever is needed to get what I want."
+    ],
+    "gifts": [],
+    "agenda": "To maintain the comforts and luxuries I have earned. That means ridding myself of my annoying daughter Iskra.",
+    "conditions": [],
+    "notes": "She is the mother of Iskra and the central antagonist behind the girl's tragic backstory."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Dose the Giant in Love - The Transformed Tin Man",
+  "type": "npc",
+  "img": "icons/magic/life/heart-cross-strong-flame-purple-pink.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Dose was once hollow metal, a tin man feeling nothing, moving mechanically through existence. But during the events in Smaragd, something miraculous happened: he fell in love with a villager of the Emerald Village, and his heart returned. Dose the Giant in Love is undergoing a physical transformation—wherever his beloved touches him, flesh replaces steel. Patches of exposed skin appear on his arms, chest, and face. He moves more fluidly than before, speaks emotionally rather than mechanically, and constantly talks about his beloved. His transformation represents love's power to restore humanity and vulnerability. When the Hunters encounter him, he's torn between loyalty to Henkle (who brought him here) and his desire to protect his beloved. If his beloved is threatened or if the Hunters appeal to his newfound emotions, he can be convinced to stand down or even help. He's protective and emotional rather than the hollow, mechanical being he once was. If he survives the confrontation, Dose chooses to stay in 1780 with his beloved—the Hunters witness the last of his metal armor falling away, leaving him fully human again. Love literally saved his humanity. His story is the most hopeful of the three companions.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I was hollow metal, feeling nothing",
+      "But I have fallen in love and my heart has returned",
+      "Where love touches, flesh replaces steel",
+      "I am becoming human again"
+    ],
+    "gifts": [
+      {
+        "name": "Of Steel and Love",
+        "description": "Dose's armor is slowly being replaced by living flesh wherever his beloved touches him. **Partial Immunity:** Most of Dose's body still has metal armor covering it, providing immunity to physical attacks (swords, arrows, etc.) except where flesh is exposed. **Vulnerable Heart:** The area around Dose's heart is now flesh, protected only by the small door in his chest. Attacking this spot requires 1 Penalty on the Check but bypasses all armor if successful. **Love's Strength:** When fighting to protect his beloved (if present or threatened), Dose can act twice in one Exchange, his love granting supernatural determination."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Protect my beloved at all costs",
+      "Find a way to stay in this time with the one I love",
+      "Become fully human again through love's power"
+    ],
+    "notes": "Dose's transformation is ongoing and visible—patches of flesh on his arms, chest, face. He speaks constantly about his beloved. If his beloved is present, he's extremely protective. If the Hunters threaten her, he fights to the death. If they protect her or promise to help them stay together, he becomes an ally. He weeps openly when discussing Dorothea's fate. Voice: Emotional, no longer monotone. Mannerisms: Touches the flesh patches, protective gestures. His ending is the happiest—fully human, in love, choosing to stay."
+  }
+}

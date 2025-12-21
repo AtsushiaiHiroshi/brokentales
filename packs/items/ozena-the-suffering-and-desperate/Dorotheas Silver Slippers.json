@@ -1,0 +1,28 @@
+{
+  "_id": "silverslippers001",
+  "name": "Dorothea's Silver Slippers",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Magical silver slippers worn by Dorothea (OZena) that grant extraordinary mobility powers. The wearer can move through folds in space, disappearing and reappearing in a flash. Can teleport freely up to 30 feet without anyone preventing movement, but must be able to see the point of arrival. Once per Scene, can take a longer journey and reappear in any place previously seen at least once. These magical shoes are famous from the second witch Johanne that OZena killed.",
+    "quantity": 1,
+    "weight": 1,
+    "value": 3000,
+    "equipped": true,
+    "properties": [
+      "Magical footwear",
+      "Teleportation up to 30 feet",
+      "Long-range teleport once per Scene",
+      "Must see destination",
+      "Taken from witch Johanne"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

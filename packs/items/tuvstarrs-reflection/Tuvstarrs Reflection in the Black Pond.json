@@ -1,0 +1,12 @@
+{
+  "name": "Tuvstarr's Reflection in the Black Pond",
+  "type": "clue",
+  "img": "icons/magic/water/water-hand-glow.webp",
+  "system": {
+    "description": "While Princess Tuvstarr is gone from the real world, her reflection can still be seen in the black waters of the pond at the center of the forest. The reflection shows an image of a naked girl sitting on the shore and staring into the abyss. Next to her reflection is a knight's plate armor with a shield bearing a fox with two tails as heraldic symbol. Footsteps on the muddy shore lead into the black water. This reflection is the gateway between the real world and the Dream World that Tuvstarr created with her wish.",
+    "location": "The black pond at the center of the great forest",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "tuvstarrs-reflection"
+  }
+}

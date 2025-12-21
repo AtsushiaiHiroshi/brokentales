@@ -1,0 +1,28 @@
+{
+  "_id": "absinthe001",
+  "name": "Adrien's Smuggled Absinthe",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Illegal absinthe distilled by Father Adrien in secret church basement laboratory. Green alcoholic spirit with distinctive smell recognizable to anyone with knowledge of distillation. Adrien passes loads through heavy trap door connecting cellars to catacombs where his henchmen (the Ravens gang) distribute it. Smuggling operation funds Adrien's planned escape to New World. Several broken bottles scattered in Ravens' Hideout in catacombs with strong alcohol scent still present. Adrien chose holy vows to avoid life of struggle but does not shy away from life's pleasures. Accumulating wealth through absinthe trade.",
+    "quantity": 12,
+    "weight": 2,
+    "value": 150,
+    "equipped": false,
+    "properties": [
+      "Illegal alcohol",
+      "Distinctive smell",
+      "Smuggled goods",
+      "Source of Adrien's wealth",
+      "Distributed by Ravens"
+    ],
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Saint George the Dragon Slayer",
+  "type": "JournalEntry",
+  "pages": [
+    {
+      "name": "Introduction",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h1>Saint George the Dragon Slayer</h1><p><em>A Special Scenario - Ally and Opponent Dark Presence</em></p><p><strong>Type:</strong> Recurring Campaign Element</p><hr><h2>A Complex Dark Presence</h2><p>Saint George the Dragon Slayer is a special Dark Presence that can appear in any Campaign as either an Ally or an Opponent. His role changes based on how the Hunters behave and the choices they make throughout their adventures.</p><p>This Scenario provides guidelines for managing Saint George's presence in a Broken Tales Campaign, including his background, motivations, special mechanics, and the six Paladins who serve him.</p>"
+      }
+    },
+    {
+      "name": "The Story That Led...",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>The story that led...</h2><p>Once upon a time there was a young boy named George who lived in a small village. As a child, George befriended a young Dragon who lived in the nearby mountains. The two became inseparable companions, sharing adventures and secrets.</p><p>Years later, when a terrible plague struck George's village, the boy begged his friend the Dragon to help save his people. But the Dragon, bound by ancient laws that forbade interference in human affairs, refused. George watched helplessly as his family and neighbors died, one by one.</p><p>Consumed by grief and rage at what he saw as betrayal, George dedicated his life to becoming a Holy knight. He trained relentlessly, mastering combat and learning to resist magical influence. When he was ready, George returned to the mountains and, in a fierce battle, executed the Dragon who had once been his friend.</p><p>The Church canonized George for his deed, making him Saint George the Dragon Slayer. But the weight of what he had done—killing his childhood friend—left deep scars on his soul. Now, Saint George wanders Broken Europe as an agent of the Church, hunting down those he deems to be monsters and threats to humanity.</p><p>What George doesn't know is that his entire story was orchestrated by the One Who Plots in the Shadows, who twisted a tale of friendship into one of betrayal and violence.</p>"
+      }
+    },
+    {
+      "name": "How to Use Saint George",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>How to Use Saint George in Your Campaign</h2><p>Saint George is a recurring character who can appear throughout a Broken Tales Campaign. His role depends on how the Hunters behave and the moral choices they make.</p><h3>Three Methods of Integration</h3><ol><li><strong>Background Observer:</strong> Saint George watches the Hunters from afar, appearing occasionally in crowds or at the edges of Scenes. He studies their actions, accumulating Judgment Tokens based on their choices. This creates tension as the Hunters become aware they're being watched and judged.</li><li><strong>Independent Appearances:</strong> Saint George appears in cities or locations the Hunters visit, but pursuing his own investigations. The Hunters might hear rumors of his presence, witness his interrogations, or find evidence of his passage. These appearances foreshadow his eventual direct involvement.</li><li><strong>Monster-Triggered Arrival:</strong> When the Hunters face a particularly dangerous Dark Presence or creature, Saint George arrives to offer assistance. This establishes him as an ally first, making his potential transition to opponent more dramatic.</li></ol><h3>Managing the Relationship</h3><p>Saint George's relationship with the Hunters is governed by two key mechanics:</p><ul><li><strong>Fervor Tokens (Ally):</strong> When Saint George fights alongside the Hunters, he gains Fervor Tokens equal to the number of Hunters at the start of each Scenario.</li><li><strong>Judgment Tokens (Transition):</strong> When Hunters use Dark Ego for good deeds, magic, or manipulation in Saint George's presence, he adds Judgment Tokens. When Tokens equal twice the number of Hunters, Saint George admits he was wrong and ends the Witch Hunt.</li></ul><p>The Storyteller should track both sets of Tokens secretly, revealing Saint George's attitude shift through roleplay and narrative cues rather than mechanical announcements.</p>"
+      }
+    },
+    {
+      "name": "Saint George - Ally Profile",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Saint George as Ally Dark Presence</h2><h3>Profile</h3><p><strong>OL Medium 5 – Dark Presence (4 Wounds)</strong></p><p><strong>Descriptor:</strong> I am a legendary dragon slayer and holy knight of the Church. I hunt monsters and Dark Presences to protect humanity from supernatural threats.</p><p><strong>Agenda:</strong> Eliminate the Broken Tales that threaten innocent people / Determine if the Hunters are truly heroes or simply monsters serving the Order.</p><hr><h3>Gift - The Holy Dragon Slayer</h3><p>Saint George wields a blessed sword that once slew the Dragon. When fighting against creatures with monstrous, magical, or supernatural Descriptors, Saint George can spend 1 Fervor Token to inflict 1 additional Wound beyond the normal damage, or 1 Wound even if the target succeeds on their Defense Check.</p><p>The only way to avoid this Wound is to have an Outcome with Increment and spend it to nullify the Gift's effect.</p><p>Saint George regenerates Fervor Tokens equal to the number of Hunters at the beginning of each Scenario when he is acting as an ally.</p><hr><h3>Gift - The Judgment of the Saint</h3><p>Saint George keeps everyone under observation, even when fighting alongside the Hunters. During a Scene, if a Hunter activates their Dark Ego to perform a good deed, or uses any Gift that allows them to use magic or manipulate ordinary people to do a good deed in the presence of Saint George, he adds 1 Judgment Token to this Gift.</p><p>Judgment Tokens carry over from one Scenario to the next. When a number of Judgment Tokens equal to twice the number of Hunters are accumulated on this Gift, Saint George will make amends, declaring that he was wrong in his judgment, and will put an end to any Witch Hunt, becoming a permanent ally of the Hunters.</p><p><strong>Examples of actions that generate Judgment Tokens:</strong></p><ul><li>Using Dark Ego to save innocent lives</li><li>Employing magic to heal or protect the helpless</li><li>Manipulating nobles or authorities to bring justice</li><li>Sacrificing personal gain to help others</li></ul>"
+      }
+    },
+    {
+      "name": "Saint George - Opponent Profile",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Saint George as Opponent Dark Presence</h2><p>When Suspicion Tokens equal twice the number of Hunters, Saint George becomes convinced the Hunters are no better than the monsters they hunt. He transitions from ally to opponent, initiating a Witch Hunt to eliminate them.</p><h3>Profile</h3><p><strong>OL Medium 5 – Opponent Dark Presence (4 Wounds)</strong></p><p><strong>Descriptor:</strong> I am the Dragon Slayer, and I have seen the truth—these so-called Hunters are monsters wearing human skin. They must be eliminated before they corrupt more innocents.</p><p><strong>Agenda:</strong> Hunt down and eliminate the Hunters who have proven themselves to be villains / Protect the Church and humanity from the corrupted agents of the Order.</p><hr><h3>Gift - Witch Hunt</h3><p>When he becomes an Opponent Dark Presence, Saint George acquires a number of Fervor Tokens equal to the number of Hunters. When facing a Hunter he's been tracking down, he can spend 1 Fervor Token to inflict 1 additional Wound on top of the normal one, or just 1 Wound if the Hunter succeeds on their Defense Check.</p><p>The only way to avoid this Wound is to have an Outcome with Increment and spend it to nullify the Gift's effect.</p><p>Saint George can spend 1 Fervor Token to transform any Position Check's result for an action against him into a Failure, so long as the Hunter performing it has at least one Descriptor related to magic or a monstrous characteristic.</p><p>Saint George regenerates Fervor Tokens equal to the number of Hunters at the beginning of each Scenario.</p><hr><h3>The Transition</h3><p>When Saint George transitions to Opponent, the Storyteller should make this dramatic:</p><ul><li>Saint George confronts the Hunters publicly, accusing them of their crimes</li><li>He reveals evidence he's been gathering of their misdeeds</li><li>He gives them one chance to surrender and face judgment</li><li>If they refuse, he summons his Paladins and the Witch Hunt begins</li></ul><p><strong>During the Witch Hunt:</strong> Saint George appears at the worst possible moments, turning allies against the Hunters, disrupting their investigations, and forcing them to constantly look over their shoulders. He brings a number of Paladins equal to the number of Hunters to assist him.</p>"
+      }
+    },
+    {
+      "name": "The Six Paladins",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Paladins of the Church</h2><p>A group of faithful Paladins in the service of Saint George. Each Paladin has a unique personality, special ability, and weakness that makes them memorable opponents or allies.</p><p><strong>OL Medium 5 – Minor NPC (2 Wounds)</strong></p><p><strong>Base Descriptor:</strong> I am a Paladin in the service of the great Saint George himself and his word, for me, is law. Years of training have made me adept at fighting the Broken Tales.</p><p><strong>Note:</strong> Each Paladin has a different Downside, indicated in their individual Paladin Gift. Roll 1 die to determine which Paladin follows Saint George in a Witch Hunt. Saint George has a number of Paladins equal to that of the Hunters he hunts.</p><hr><h3>1. Trebizond, Princess of a Distant Country</h3><p><strong>Additional Downside:</strong> Sometimes, I am seized by an unshakeable curiosity about new things.</p><p><strong>Paladin Gift - From a Far Country:</strong> Trebizond can make use of exotic weapons and objects with which to surprise opponents. Once per Scene, she can create a Descriptor that represents a special belonging, such as Magic-Finding Dust or A Whip as Sharp as a Blade. When using her special equipment, Trebizond increases her Opposition Level by 1.</p><hr><h3>2. Saint Demetrius</h3><p><strong>Additional Downside:</strong> I put the defense of my companions before my own life.</p><p><strong>Paladin Gift - Guardian:</strong> Once per Exchange, Demetrius can take 1 Wound in place of one of his allies. When he does, he increases his Opposition Level by 1 for the rest of the Scene.</p><hr><h3>3. Saint Theodore</h3><p><strong>Additional Downside:</strong> The ecstasy of battle is for me the sweetest of pleasures.</p><p><strong>Paladin Gift - Furious:</strong> Theodore always inflicts 1 Additional Wound when raging against an enemy. He still inflicts 1 Wound even if the Defense Check is a successful Outcome. The only way to avoid the effect of this Gift is to spend an Increment to cancel the Wound.</p><hr><h3>4. Saint Martha</h3><p><strong>Additional Downside:</strong> I do not think that the Broken Tales should be eradicated, but only understood.</p><p><strong>Paladin Gift - Friendly:</strong> Any Hunter who acts against Martha when there are other Paladins as potential targets will receive 2 Penalties on their action.</p><hr><h3>5. Saint Syrus</h3><p><strong>Additional Downside:</strong> I am the oldest of the Paladins and I only trust my own judgment.</p><p><strong>Paladin Gift - Veteran:</strong> Once per Scene, Syrus can negate the effect of a Gift activated by a Hunter. The Saint will find a method to counter Gifts, drawn from his great experience.</p><hr><h3>6. Saint Margaret</h3><p><strong>Additional Downside:</strong> I want to affirm my role in the Church and overthrow that arrogant Saint George.</p><p><strong>Paladin Gift - Ambition:</strong> Margaret increases her Opposition Level by 1 for each Wound that Saint George has suffered. Once per Scene, when Saint George suffers 1 Wound, Margaret can immediately perform 1 additional action.</p>"
+      }
+    },
+    {
+      "name": "Campaign Integration",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Integrating Saint George into a Campaign</h2><h3>Connection to the One Who Plots</h3><p>Saint George is unknowingly a pawn of the One Who Plots in the Shadows. His entire story—the friendship with the Dragon, the plague, the betrayal, and his transformation into a dragon slayer—was orchestrated to create a weapon that could be turned against the Hunters.</p><p>As written in his Agenda, Saint George is torn between his duty to the Church and the memory of when, as a child, he formed a sincere bond with The Ancient Enemy (the Dragon).</p><h3>Discovery Through Investigation</h3><p>If the Hunters investigate Saint George's background, they can discover:</p><ul><li>The plague that killed George's village was unnatural</li><li>The Dragon was bound by ancient laws and genuinely couldn't help</li><li>George's training was facilitated by a mysterious benefactor</li><li>The entire story follows the structure of a twisted fairy tale</li></ul><h3>Redemption Path</h3><p>Saint George can be redeemed by:</p><ul><li>Accumulating enough Judgment Tokens to prove the Hunters' good intentions</li><li>Revealing the truth about his manipulated past</li><li>Helping him understand that the Dragon's refusal wasn't betrayal</li><li>Showing him that the real enemy is the One Who Plots in the Shadows</li></ul><p>A redeemed Saint George becomes a powerful ally, bringing his Paladins to aid the Hunters in their final confrontation.</p><h3>As a Recurring Element</h3><p>By his very recursive nature, Saint George is a great addition to a Broken Tales Campaign. He can:</p><ul><li>Appear in multiple Scenarios, building tension over time</li><li>Force Hunters to consider the morality of their actions</li><li>Create dramatic moments when he switches from ally to opponent (or vice versa)</li><li>Provide a personal antagonist who knows the Hunters intimately</li><li>Serve as a bridge to discovering the One Who Plots in the Shadows</li></ul><h3>Connection to Campaign Clues</h3><p>In the list of clues on page 246 of the core book, Saint George can provide information about:</p><ul><li>A mysterious adviser no one remembers at the Pope's side</li><li>Strange manipulations within the Church hierarchy</li><li>Other Hunters who have been targeted by similar campaigns</li><li>The location of Borgo Maleanime (if appropriate)</li></ul><p>After making amends, Saint George will vow to help the Hunters by setting out in search of this strange figure. Later, the Saint will be able to bring various information to the attention of the Hunters by acting as an intermediary for other Clues.</p>"
+      }
+    },
+    {
+      "name": "Scenario Events",
+      "type": "text",
+      "text": {
+        "format": 1,
+        "content": "<h2>Scenario Events</h2><p>When using Saint George in your Campaign, these events can create memorable moments:</p><ul><li><strong>If the Hunters use Dark Ego for selfish purposes in Saint George's presence:</strong> He gains 1 Suspicion Token and his demeanor becomes noticeably colder.</li><li><strong>If the Hunters save innocent lives at great personal cost:</strong> Saint George gains 1 Judgment Token and begins to question his assumptions about them.</li><li><strong>If a Hunter tries to explain their actions to Saint George:</strong> He listens but remains skeptical unless they can provide concrete evidence of good deeds.</li><li><strong>If Saint George is present when a Hunter defeats a genuinely evil Dark Presence:</strong> He fights alongside them and gains respect for their abilities, though he still watches for signs of corruption.</li><li><strong>If the Hunters discover evidence of Saint George's manipulated past:</strong> He initially refuses to believe it, but the seed of doubt is planted.</li><li><strong>If Saint George initiates a Witch Hunt:</strong> One of his Paladins (Martha) may secretly doubt his judgment and could be convinced to help the Hunters.</li><li><strong>If the Hunters are confronted by Saint George with a Paladin equal to their number:</strong> The encounter becomes a test of both combat prowess and moral conviction.</li><li><strong>If a Hunter appeals to Saint George's memory of his Dragon friend:</strong> He becomes visibly shaken, and the Storyteller should reduce the Opposition Level by 1 for that Scene as his resolve wavers.</li></ul>"
+      }
+    }
+  ],
+  "flags": {
+    "scenarioType": "campaign-element",
+    "inspiration": "Saint George and the Dragon (Christian Legend)",
+    "setting": "Any location in Broken Europe",
+    "mainThemes": [
+      "betrayal",
+      "redemption",
+      "judgment",
+      "friendship",
+      "moral ambiguity"
+    ],
+    "specialMechanics": [
+      "Fervor Tokens",
+      "Judgment Tokens",
+      "Suspicion Tokens",
+      "Ally/Opponent transition",
+      "Paladins"
+    ],
+    "safetyKeywords": []
+  }
+}

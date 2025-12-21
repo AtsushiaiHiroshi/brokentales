@@ -1,0 +1,39 @@
+{
+  "name": "Villagers of Emerald - Wish-Warped Souls",
+  "type": "npc",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 3,
+    "isMainNPC": false,
+    "biography": "The Villagers of Emerald were once ordinary people living in Smaragd. When Dr. Henkle arrived and cured their epidemic, they hailed him as a savior. He discovered a magical wishing well in the nearby forest and encouraged villagers to make wishes. Each wish was granted—but in the most literal, horrifying way possible. A villager who wished for wealth now spits gold coins and bile. One who wished for beauty has a body that constantly warps and shifts trying to achieve impossible standards. A child who wished to grow up became a giant with a child's mind. Two lovers who wished to never be apart were merged into one body. Now these wish-warped souls serve Henkle, believing he'll eventually fix everything if they're loyal. They're tragic figures—ordinary people whose desires were twisted into nightmares. They attack intruders to Smaragd not out of malice but out of desperation and false hope. If the wishing well is destroyed or if Henkle is defeated, some may gradually return to normal, while others remain permanently transformed. Each encounter with Villagers of Emerald should emphasize the tragedy—these were regular people (farmers, merchants, children, parents) who made understandable wishes and paid terrible prices.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I was an ordinary villager who made a wish at the well",
+      "My wish was granted, but not in the way I hoped",
+      "Now I am a monster",
+      "I serve the wizard who promised to fix everything"
+    ],
+    "gifts": [
+      {
+        "name": "Careful What You Wish For",
+        "description": "Each Villager of Emerald has been transformed by their wish. Roll 1d6+1 to determine: **1-Wealth:** Spits 1d6 gold coins at enemies, hitting up to 3 targets within 15ft, each hit inflicts 1 Wound, also vomits bile constantly. **2-Beauty:** Body constantly warps and shifts, anyone looking suffers 1 Penalty on Checks due to disturbing sight. **3-Health:** Cannot die or stay injured, regenerates 1 Wound at start of each Exchange, only defeated by destroying well or reversing wish. **4-Skill:** Supernaturally skilled at profession, OL increases to 5, performs craft obsessively even in combat. **5-Never Sleep:** Cannot sleep, exhausted and manic, chatters nonsense constantly, speech causes 1 Penalty on concentration Checks. **6-Grow Up:** Child with giant body but childish mind, has 3 Wounds total, inflicts +1 Wound damage, cries and tantrums during combat. **7-Love:** Merged with beloved into one body, can act twice per Exchange, argue constantly about what to do (if convinced to stop, both stop)."
+      }
+    ],
+    "conditions": [],
+    "notes": "Villagers of Emerald typically appear in groups of 3-5 with different wishes. Emphasize the tragedy—they're victims, not villains. If Henkle is defeated or the well destroyed, many may revert to normal or at least stop serving him. Smart Hunters can use persuasion to convince wish-warped villagers that Henkle won't fix them. The ones who wished for health are particularly difficult as they regenerate constantly. Roll for each villager encountered to create variety."
+  }
+}

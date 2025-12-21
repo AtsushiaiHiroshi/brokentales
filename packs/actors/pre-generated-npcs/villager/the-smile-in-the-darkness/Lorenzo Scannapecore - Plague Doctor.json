@@ -1,0 +1,39 @@
+{
+  "name": "Lorenzo Scannapecore - The Plague Doctor",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a skilled plague doctor. My attention to detail is obsessive."
+    ],
+    "agenda": [
+      "Pretend to work in the cemetery to protect Alizée from prying eyes"
+    ],
+    "gifts": [],
+    "background": "An Italian doctor hired by the city of Paris to manage the Cemetery of the Innocents and the excessive number of corpses in the mass graves. Also a skilled astrologer. Lorenzo sent the cemetery keepers away claiming he needs quiet for his studies, but actually to secretly host Alizée, a nun he has fallen in love with. Knows about the passage of comet Morituris and how it gives power to spirits. Plans to wait until the new year to embark with Alizée towards the New World. Will appear nervous and keep looking over his shoulder at Alizée's hiding spot.",
+    "notes": "Potential ally if Hunters are discreet about Alizée. Can provide information about spirits, the comet, and the dangerous state of the mass graves. Has keys to access the underground pit.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "The Smile in the Darkness",
+    "inspiration": "The Little Match Girl (Hans Christian Andersen)",
+    "role": "Supporting Character - Doctor/Astrologer"
+  }
+}

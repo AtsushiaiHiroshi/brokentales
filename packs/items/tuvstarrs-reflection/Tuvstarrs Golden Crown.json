@@ -1,0 +1,19 @@
+{
+  "name": "Tuvstarr's Golden Crown",
+  "type": "object",
+  "img": "icons/equipment/head/crown-gold-jeweled-ruby.webp",
+  "system": {
+    "description": "A small golden crown that once belonged to Princess Tuvstarr, now sitting on a small islet in an open swamp. The crown shines bright as a small sun, and its light has corrupted the Fairies who dance around it in an eternal trance. Tuvstarr traded this crown with the Fairies to gain safe passage across the swamp on her journey to the black pond. The crown's magical light draws both fascination and madness to those who gaze upon it.",
+    "quantity": 1,
+    "weight": 2,
+    "value": 1500,
+    "equipped": false,
+    "properties": [
+      "Magical",
+      "Royal artifact",
+      "Corrupting light",
+      "Fairy-enchanted",
+      "Tuvstarr's memory trigger"
+    ]
+  }
+}

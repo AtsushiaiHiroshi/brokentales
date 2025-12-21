@@ -1,0 +1,50 @@
+{
+  "name": "Sinbad the Traveler of a Thousand Seas",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "isMainNPC": false,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an experienced traveler and have seen every known land",
+      "I get bored easily if I'm not interested in what I'm doing"
+    ],
+    "agenda": [
+      "I am willing to do anything to experience the thrill of discovery once again"
+    ],
+    "gifts": [
+      {
+        "name": "Traveler of a Thousand Places",
+        "description": "Sinbad has seen the whole world and much of what the Broken Tales hide. In the course of a Scene, a Hunter can invoke his help to obtain information or create an additional Descriptor that represents a specific area of Sinbad's knowledge. But the old sailor is an eccentric type, and to provide his help he first must be entertained. The Storyteller will evaluate the current situation and Sinbad's level of boredom. A Hunter can capture Sinbad's interest with creative actions, as long as they're appropriate to the current Scene."
+      },
+      {
+        "name": "I Know How To Do It",
+        "description": "Once per Scene, a Hunter can get 1 Additional Success in his Check, asking Sinbad for helpful advice. As with Traveler of a Thousand Places, Sinbad needs to be intrigued before helping."
+      }
+    ],
+    "background": "Once upon a time, there was a skilled sailor who traveled every sea and witnessed every land. Dissatisfied and bored, Sinbad turned to the strangest and darkest legends to find something that could arouse his interest. Learning of The Broken Tales was for him the discovery of a new world. From that moment on, Sinbad became a seeker of forbidden treasures, hungry for dark knowledge and secrets concealed from the eyes of mere mortals. It was only a matter of time before he caught the attention of the Order. Sinbad willingly put himself at the service of the Hunters, offering his great experience in exchange for the rare opportunity to feel the thrill of discovery once again.",
+    "notes": "SPECIAL AGENDA (Sherazade, the Weaver of Tales): I'm boastful of knowing every story and legend, and I love to mock those who pride themselves on limited knowledge. I want to ridicule the stories Sherazade tells, highlighting the truths that only I know.\n\nSinbad is an invaluable ally IF you can keep him entertained. He knows everything about the world and Broken Tales, can provide information or create helpful Descriptors, and gives +1 Success on checks. However, he gets bored easily - creative and interesting actions are required to capture his attention. The more mundane the situation, the less likely he is to help.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "ally",
+    "inspiration": "Sinbad from One Thousand and One Nights",
+    "role": "Bored legendary traveler who helps if entertained, knows everything"
+  }
+}

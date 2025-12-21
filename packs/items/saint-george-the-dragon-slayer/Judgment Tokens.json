@@ -1,0 +1,12 @@
+{
+  "name": "Judgment Tokens",
+  "type": "clue",
+  "img": "icons/sundries/gaming/token-balance-scale-gold.webp",
+  "system": {
+    "description": "Tokens representing Saint George's recognition of the Hunters' good deeds and righteous actions despite their connection to the Broken Tales. When Saint George becomes an Opponent Dark Presence during a Witch Hunt, he can still accumulate Judgment Tokens if Hunters activate their Dark Ego to perform good deeds or use magical Gifts to help ordinary people in his presence. These tokens carry over between scenarios. When Judgment Tokens equal the number of Hunters, Saint George makes amends, declaring he was wrong in his judgment, and puts an end to the Witch Hunt - potentially restoring his role as an Ally Dark Presence.",
+    "location": "Tracked during Witch Hunt scenarios",
+    "importance": "crucial",
+    "found": true,
+    "scenario": "saint-george-the-dragon-slayer"
+  }
+}

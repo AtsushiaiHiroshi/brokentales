@@ -1,0 +1,18 @@
+{
+  "name": "Hans' Experimental Pistols",
+  "type": "object",
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "system": {
+    "description": "A pair of prized experimental pistols that Hans bought from an inventor for more than half of his war earnings. These guns can fire multiple shots at the same time, allowing the wielder to aim at 3 targets within a 30-foot square area with one attack. One pistol can be fired while the other is being reloaded as an additional action.",
+    "quantity": 2,
+    "weight": 4,
+    "value": 500,
+    "equipped": false,
+    "properties": [
+      "Multi-shot",
+      "Quick reload",
+      "Experimental technology",
+      "High value"
+    ]
+  }
+}

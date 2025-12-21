@@ -1,0 +1,12 @@
+{
+  "name": "Saint George's Holy Authority",
+  "type": "clue",
+  "img": "icons/sundries/documents/document-sealed-brown-red-yellow.webp",
+  "system": {
+    "description": "Official documentation and papal authority carried by Saint George, representing his position as the highest representative of the Papacy and his full authority over all members of the Order. This authority allows Saint George to command Hunters, judge their actions, and even initiate Witch Hunts against those he deems corrupted by the Broken Tales. The Holy Authority is both a symbol of the Church's power and a constant reminder to Hunters that they are being watched and evaluated by one of the Church's most skilled and zealous warriors.",
+    "location": "Carried by Saint George at all times",
+    "importance": "important",
+    "found": true,
+    "scenario": "saint-george-the-dragon-slayer"
+  }
+}

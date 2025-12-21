@@ -1,0 +1,38 @@
+{
+  "name": "Red-Hood Iskra",
+  "type": "npc",
+  "flags": {
+    "btActorType": "broken_one",
+    "btNpcSubtype": "main",
+    "btCustomOL": "5"
+  },
+  "img": "icons/svg/blood.svg",
+  "system": {
+    "npcType": "broken_one",
+    "attributes": {
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "wounds": {
+        "max": 4,
+        "current": 0,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      },
+      "xp": 0
+    },
+    "descriptors": [
+      "I possess the strength and agility of a wolf. I hide my face with a rudimentary wooden mask that I made with my own hands. I wear a threadbare red cape, the last gift of my mother."
+    ],
+    "agenda": "To unleash her animalistic fury on Elizaveta and anyone who defends her. Taking revenge on my mother has become an obsession for me.",
+    "gifts": [
+      "Wolf's Blood: Iskra is moved by animalistic fury that allows her to act twice in the course of an exchange.",
+      "The Senses of a Wolf: Iskra's sense of smell has become infallible. The little girl will always be able to identify someone if she knows their scent, ignoring all kinds of disguise and even magic."
+    ],
+    "conditions": [],
+    "notes": ""
+  }
+}

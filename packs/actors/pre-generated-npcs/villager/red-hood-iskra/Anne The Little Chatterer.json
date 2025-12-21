@@ -1,0 +1,42 @@
+{
+  "name": "Anne the Little Chatterer",
+  "type": "npc",
+  "flags": {
+    "btActorType": "villager",
+    "btNpcSubtype": "minor",
+    "btCustomOL": "5"
+  },
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "villager",
+    "attributes": {
+      "soma": {
+        "max": 0,
+        "current": 0
+      },
+      "wounds": {
+        "max": 1,
+        "current": 0,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      },
+      "xp": 0
+    },
+    "background": "",
+    "descriptors": [
+      "Lady Elizaveta has instructed me to keep her informed about what is being said in town. I do my job as a spy because I don’t want her to stop giving me gifts."
+    ],
+    "agenda": "Spy on the townsfolk for Lady Elizaveta in exchange for gifts.",
+    "gifts": [],
+    "darkEgo": {
+      "trigger": "",
+      "gift": ""
+    },
+    "weapons": [],
+    "objects": [],
+    "conditions": [],
+    "notes": ""
+  }
+}

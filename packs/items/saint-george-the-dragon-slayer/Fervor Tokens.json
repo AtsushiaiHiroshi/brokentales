@@ -1,0 +1,12 @@
+{
+  "name": "Fervor Tokens",
+  "type": "clue",
+  "img": "icons/sundries/gaming/token-shield-gold-red.webp",
+  "system": {
+    "description": "Sacred tokens representing Saint George's holy zeal and righteous fury when facing monstrous enemies. The Holy Dragon Slayer starts each scenario with 1 Fervor Token and gains additional tokens whenever he suffers a wound. These tokens can be spent to grant allied Hunters additional wounds against visible monsters or provide defensive bonuses. When Saint George becomes an Opponent Dark Presence during a Witch Hunt, he gains Fervor Tokens equal to the number of Hunters, which he can use to inflict additional wounds or transform Hunter Position Checks into automatic failures.",
+    "location": "Tracked by Saint George during combat",
+    "importance": "important",
+    "found": true,
+    "scenario": "saint-george-the-dragon-slayer"
+  }
+}

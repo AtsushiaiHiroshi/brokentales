@@ -1,0 +1,28 @@
+{
+  "_id": "mirrorwishes001",
+  "name": "The Mirror of a Thousand Wishes",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "One of the many treasures from the Order's Treasury kept in Valea Viilor fortified church, Transylvania. Inspired by Snow White's magic mirror. User can spend 1 Soma to see near past or imminent future of someone met at least once. Mirror shows moments on its surface. Observer doesn't know if viewing past or future (Storyteller secretly rolls: 1-3=past, 4-6=future). Same subject cannot be observed twice in one Scene. Alternatively, before attempting task, owner can spend 1 Soma, roll die, and on 4+ sees future moments granting 3 Additional Successes for first action. Special Order support item to anticipate OZena's movements.",
+    "quantity": 1,
+    "weight": 3,
+    "value": 4000,
+    "equipped": false,
+    "properties": [
+      "Order's Treasure",
+      "Magical scrying",
+      "Shows past or future",
+      "Costs 1 Soma per use",
+      "Grants premonition bonus"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

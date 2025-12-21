@@ -1,0 +1,12 @@
+{
+  "name": "Hatta's Wonder Blueprint",
+  "type": "clue",
+  "img": "icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "The tablecloth on Hatta Carter's tea table is actually the blueprint of Wonder drawn by the mad inventor during construction. This detailed map reveals the formula for going beyond the mirror: 'Beyond the madness, beyond the basement, beyond the mirror.' The blueprint shows the complete structure of the asylum, including passages that defy normal physics. Hatta will strongly object if anyone tries to take the map, as this would ruin his table's setting for tea.",
+    "location": "The Basement - on Hatta's tea table",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "wonderbedlam"
+  }
+}

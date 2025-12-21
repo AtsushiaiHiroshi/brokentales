@@ -1,0 +1,52 @@
+{
+  "name": "Helga - The Red Witch",
+  "type": "npc",
+  "img": "icons/magic/blood/drop-drip-puddle-red.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "background": "Helga is a blood witch, centuries old but kept young through blood magic. She guards the southern (red) piece of the Compass Rose and rules the village of Rot through a cult built on blood rituals and mind control. Unlike Margareta's compassion, Helga represents power corrupted over time—she started as a guardian like the other witches but centuries of using blood magic transformed her into a tyrant. She can manipulate any blood she sees, take control of wounded creatures, and heal herself by draining life from others. When she would be killed, she drains nearby blood to regenerate, aging visibly with each use. Her true age is ancient; without blood magic she's a withered crone. The complete Infusion of Purity (with elderberry) can negate her powers. She keeps the village of Rot under her control, with the Porcelain Princess managing her cult and Hammerheads as elite guards. When OZena comes for her piece, Helga captures Dorothea and prepares ritual sacrifice—but this is defensive revenge, not pure evil.",
+    "descriptors": [
+      "I am centuries-old blood witch kept young by draining life from others",
+      "I guard the southern (red) piece of Compass Rose through power and fear",
+      "My blood magic lets me control wounds, puppet the bleeding, and regenerate by draining life",
+      "I was once a guardian like Margareta but power corrupted me over centuries"
+    ],
+    "agenda": [
+      "Protect my piece of the Compass Rose from OZena and others",
+      "Maintain my cult and power base in Rot",
+      "Punish OZena for murdering Johanne and Margareta",
+      "Stay young and powerful forever through blood magic",
+      "Prevent anyone from learning I can be stopped with Infusion of Purity"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 3,
+        "max": 3
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Blood Magic",
+        "description": "Helga masters three blood magic abilities: **Blood Control** - manipulate any blood she sees to make wounds bleed more (inflict 1 additional Wound), turn spilled blood into sharp projectiles, or create barriers of hardened blood. **Blood Puppet** - once per Scene, take control of any wounded creature within 30 feet (victim resists with Check vs her OL Hard 7). **Blood Healing** - drain blood from nearby sources (servants, animals, pooled blood) to restore 1 Wound by completely draining one human servant.",
+        "somaCost": 1
+      },
+      {
+        "name": "Blood Witch",
+        "description": "Helga has sustained life for centuries through blood magic. When reduced to 0 Wounds, she instead: drains blood from ALL nearby sources, regenerates 1 Wound immediately, ages visibly (gains wrinkles, gray hair, etc.), can do this once per Scene. When killed permanently without blood sources to drain, she rapidly ages centuries in moments and crumbles to dust.",
+        "somaCost": 0
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Helga is morally complex—defensive against assassin but tyrannical ruler. Voice: commanding, imperious, ancient accent. Gestures: blood swirls when angry. Vulnerability: complete Infusion of Purity (burdock, nettle, hyssop, ELDERBERRY) negates blood magic for one Scene. If spared and freed from blood magic corruption, reveals: Henkle murdered/drove out Griselda; incomplete Compass Rose is incredibly dangerous; Henkle has fortified Smaragd; she can become ally if shown truth. Her red Compass Rose piece: bloodstone needle that pulses like heartbeat, points toward Smaragd. If killed with blood magic active: death triggers blood detonation, everyone in mansion makes Defense Check or takes 1 Wound."
+  }
+}

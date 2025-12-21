@@ -1,0 +1,44 @@
+{
+  "name": "Andersen - The Commander",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-barbute-rivited-steel.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": true,
+    "biography": "Captain Andersen is a former Carolean commander and war hero who led his company through the bloody Swedish-Russian war. Six years ago, driven by jealousy and strict religious discipline, he ordered the brutal punishment of Private Enar—cutting off his leg and throwing him into the sea—for deserting to be with Satu, a dancer Andersen himself secretly loved. After the execution, overcome with obsession, Andersen raped Satu, resulting in the birth of his son Erik. Now a wealthy retired officer living on his estate near Borgholm, Andersen is haunted by guilt. He has sought out Satu, freed her from poverty, and brought her and Erik to live with him, desperately trying to earn her forgiveness and build a family. But Enar has returned as an immortal monster bent on revenge, and Andersen must defend his newfound happiness while hiding the shameful truth of his past crimes from everyone, including his former soldiers.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 3,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a war veteran with strong leadership skills",
+      "I am a capable fighter trained in Carolean military tactics",
+      "I carry the weight of terrible sins from my past",
+      "I will do anything to protect my new family"
+    ],
+    "gifts": [
+      {
+        "name": "Commander",
+        "description": "Andersen is skilled at giving orders and managing a battle. **Tactical Orders:** Up to 3 times per Scene, Andersen can issue an order to an ally. The ally receives 1 Additional Success when executing that order (+1 to Opposition Level in the case of an NPC). **Coordinated Defense:** Allies fighting alongside Andersen within 30 feet can use his tactical advice to improve their positioning and timing."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Defend my new family from the danger that Enar represents",
+      "Redeem myself in the eyes of Satu and make her understand that I am now a different man",
+      "Prevent anyone from discovering what I have done"
+    ],
+    "notes": "Andersen is a complex antagonist/ally who committed horrible crimes (ordering Enar's execution, raping Satu) but genuinely seeks redemption. He loves Erik deeply and has changed, but his past sins are inescapable. Voice: Commanding but with undertones of regret. If Erik is endangered, Andersen will confess everything to save him. If the Hunters learn the truth, he may become suicidal or attempt to sacrifice himself. Works well with Christian (his most loyal soldier). Has over 20 servants on his estate but only he and Christian are skilled fighters."
+  }
+}

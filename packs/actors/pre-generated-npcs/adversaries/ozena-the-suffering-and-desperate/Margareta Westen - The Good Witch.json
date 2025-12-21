@@ -1,0 +1,52 @@
+{
+  "name": "Margareta Westen - The Good Witch",
+  "type": "npc",
+  "img": "icons/magic/symbols/runes-triangle-yellow.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 7,
+    "isMainNPC": true,
+    "background": "Margareta Westen is a wealthy noblewoman who was born with a facial deformity that made her an outcast from high society despite her wealth. Rather than become bitter, she used her magic and fortune to create a haven in the village of Gelb where the rejected, disfigured, and diseased could live in peace and dignity. Margareta is one of four witches who formed a coven to protect the Compass Rose by splitting it into four pieces. She holds the western (yellow) piece. Unlike typical fairy tale witches, Margareta and her sisters are guardians trying to prevent the powerful artifact from falling into the wrong hands. They knew that when united, the Compass Rose could summon storms, throw people between worlds, and tear holes in reality. Margareta is genuinely kind—maternal, warm, and compassionate. She welcomes the Hunters to Gelb and explains her mission to provide safety for outcasts. Nearly fifty people with leontiasis, elephantiasis, severe burns, missing limbs, and other disfiguring conditions live in her village without shame. She uses her magic to ease their pain and her wealth to provide for their needs. Her magic focuses on two branches: Emotion Manipulation (she can alter emotional states, making people calm, afraid, angry, or loving) and Telekinesis (moving objects with her mind, including disarming opponents or creating barriers). Despite her power (OL Hard 7), Margareta has only 1 Wound—her compassion and reluctance to harm even those who threaten her is both her greatest strength and her fatal weakness. When OZena comes to kill her and take the Compass Rose piece, Margareta shows compassion even to her would-be murderer, recognizing Dorothea's desperation and suffering.",
+    "descriptors": [
+      "I am a wealthy noblewoman born with facial deformity who uses magic and fortune to help outcasts",
+      "I guard the western (yellow) piece of the Compass Rose to prevent its misuse",
+      "My compassion is genuine but makes me vulnerable—I hesitate to harm even enemies",
+      "I can manipulate emotions and move objects with my mind"
+    ],
+    "agenda": [
+      "Protect my village of Gelb and the outcasts who live here in peace",
+      "Guard my piece of the Compass Rose from those who would misuse it",
+      "Use my magic to ease suffering wherever I find it",
+      "Stop OZena before she kills more witches",
+      "Show compassion even to those who seek to harm me"
+    ],
+    "attributes": {
+      "soma": {
+        "current": 3,
+        "max": 3
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 0
+        }
+      }
+    },
+    "gifts": [
+      {
+        "name": "Witch - Emotion Manipulation",
+        "description": "Margareta can perform a Check to alter the emotional state of anyone she can see within 60 feet. She can make them feel calm (ending rage or panic), afraid (causing them to flee or freeze), angry (turning them hostile to others), or loving (making them trust her or each other). This emotional manipulation lasts for one entire Scene. Victims can resist by making a Check against her Opposition Level (Hard 7). Margareta uses this compassionately—calming frightened villagers, making aggressive visitors peaceful, or helping traumatized people feel love again. But it can also be used tactically in combat.",
+        "somaCost": 1
+      },
+      {
+        "name": "Witch - Telekinesis",
+        "description": "Margareta can move objects with her mind within 60 feet. She can lift and throw items weighing up to 200 pounds. In combat, she can use telekinesis to: disarm opponents by yanking weapons from their hands, create barriers by stacking objects, hurl objects as weapons (treating this as a normal attack Check), pin enemies by dropping heavy items on them, or manipulate the environment to her advantage. Her telekinetic control is precise enough to operate door locks, turn pages, or perform delicate tasks from a distance.",
+        "somaCost": 1
+      }
+    ],
+    "conditions": [],
+    "specialNotes": "Margareta represents the truly good witch—kind, maternal, genuinely helpful. Voice is warm and maternal with slight German accent; touches people gently when speaking; maintains eye contact; smiles despite her facial deformity. Her tragedy: she provides everything the protagonists need (safety, compassion, understanding) but OZena has been manipulated into seeing her as an obstacle. If Margareta survives Part One, she becomes valuable ally: provides information about Compass Rose and other witches; may give Hunters her piece for safekeeping; warns about Helga in Rot and Henkle in Smaragd; can help in final confrontation. If she dies: village of Gelb falls into despair; outcasts may turn hostile blaming Hunters; her death weighs heavily on moral outcome of campaign. Key moment: when confronted by OZena, Margareta shows compassion rather than fighting back, trying to understand Dorothea's suffering. This can be catalyst for OZena's redemption if Hunters intervene. Margareta knows: Johanne was murdered two weeks ago in Schiltach; OZena is being manipulated by Dr. Henkle; Henkle is false wizard in Smaragd; incomplete Compass Rose is incredibly dangerous. Her yellow Compass Rose piece resembles amber needle that hums with energy and points toward Smaragd."
+  }
+}

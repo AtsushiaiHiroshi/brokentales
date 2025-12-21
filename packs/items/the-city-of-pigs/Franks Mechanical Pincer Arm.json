@@ -1,0 +1,20 @@
+{
+  "name": "Frank's Mechanical Pincer Arm",
+  "type": "object",
+  "img": "icons/equipment/hand/gauntlet-metal-reinforced-steel.webp",
+  "system": {
+    "description": "A home-made mechanical arm with a powerful pincer claw, created by Frank Browne to replace the arm and leg he lost during the catastrophic mine collapse. This ingenious device has multiple functions: the pincer can crush with enough force to inflict severe wounds, and it features a built-in pulley system that can launch from the arm to raise or lower Frank about thirty feet, carrying up to two additional people. The mechanical arm is a testament to Frank's determination and his role as the strongarm of the Pig Heads gang.",
+    "quantity": 1,
+    "weight": 8,
+    "value": 600,
+    "equipped": true,
+    "properties": [
+      "Mechanical",
+      "Prosthetic",
+      "Crushing grip",
+      "Grappling hook",
+      "Custom-built",
+      "Multi-functional"
+    ]
+  }
+}

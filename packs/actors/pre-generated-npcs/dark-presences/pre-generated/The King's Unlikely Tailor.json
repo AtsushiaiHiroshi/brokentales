@@ -1,0 +1,48 @@
+{
+  "name": "The King's Unlikely Tailor",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": false,
+    "oppositionLevel": 3,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am an anemic young man with a body covered in scars, escorted and aided by my rich friend who considers me his most precious possession"
+    ],
+    "agenda": [
+      "Finding the purest-hearted person in the nation to make a suit for the King",
+      "I fell madly in love with the one person who never asked me for a dress, the King's youngest daughter",
+      "I wouldn't spill a drop for her dress, she is too pure",
+      "But I know that if I can't find anyone for her father's suit, I'll have to use her"
+    ],
+    "gifts": [
+      {
+        "name": "Soul Tailor",
+        "description": "A suit sewn by the tailor masks the soul so well that whoever wears it looks like another person. They are seen as admirable and good, even while committing atrocious acts. Only children and the innocents can see beyond the illusion. A Hunter can perform a Defense Check against an Opposition Level Hard 7 to see beyond the deception of Soul Tailor."
+      }
+    ],
+    "background": "Once upon a time, there was a young provincial tailor with the gift of knowing how to see into people's souls in order to dress them in the best possible manner. One day his best friend convinced him to sew a suit for a wealthy merchant. To cover the wolfish soul of the greedy merchant, the poor tailor had to use his own soul, one of a lamb, mixing his own blood in the dyes. It was a resounding success and the rumor spread all over Paris. The more his wealthy clientele grew thanks to the rumors spread by his friend, the more blood the poor tailor had to shed. His success led him to the King's court, where the young tailor began to kidnap innocents from all over Paris to bleed them in his workshops. It was a necessary step to manufacture dyes capable of disguising those with souls so corrupt. When the King asked for a suit, the young tailor immediately realized that simple blood would not be enough to conceal all the man had done to make his people suffer.",
+    "notes": "COMPANION: The Cheating Friend\nDescriptor: I am the young tailor's 'best' friend and, to keep my life comfortable, I am willing to do anything. When I act for my own benefit, no one can stop me.\n1 Wound, Opposition Level Hard 7\nAgenda: Keep the tailor alive, become richer and richer, and to use his favor to ask for the hand of the King's daughter.\n\nThe Tailor's suits magically mask the wearer's soul, making even the most corrupt appear good and admirable. Only children and pure souls see the truth. To create these suits, he must use the blood of innocents. He has fallen in love with the King's daughter (the only pure soul who never asked him for anything), but may be forced to use her blood for the King's suit. Tragic antagonist driven by his manipulative 'friend'.",
+    "conditions": []
+  },
+  "flags": {
+    "darkPresence": true,
+    "presenceType": "neutral",
+    "inspiration": "The Emperor's New Clothes",
+    "role": "Tragic tailor who uses innocent blood to create soul-masking suits"
+  }
+}

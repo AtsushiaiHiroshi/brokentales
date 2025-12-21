@@ -1,0 +1,45 @@
+{
+  "name": "Lowe the Coward - Original Version",
+  "type": "npc",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-orange.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Lowe suffers from leontiasis, a disease that makes his face look like a lion's—a cruel irony given his cowardly nature. He's a patient from early 1900s America who was displaced through time along with Dorothea (OZena), Hirnloser, and Dose when Dr. Henkle's incomplete Compass Rose malfunctioned. Lowe is called a coward because he adapts to survive—he'll side with whoever is winning, never standing firm for any principle. He follows OZena not out of loyalty but because she seems like his best chance of survival and getting home. However, Lowe is actually the most rational of OZena's companions. He questions her increasingly violent methods and fears what they're becoming, but he's too afraid to abandon her. In Part One, Lowe observes the Hunters from a distance, trying to determine if they're allies or threats. If the Hunters show kindness to Henrich and Klaus, Lowe gains respect for them. During the swamp confrontation, he tries to mediate and offers a deal—if the Hunters convince Margareta to give up her Compass Rose piece peacefully, they'll release Klaus unharmed. Lowe wants to avoid unnecessary violence but will fight if cornered. This is his ORIGINAL form—by Part Three, he transforms into Lowe the Brave Fighter when he finds his courage.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I suffer from leontiasis, making my face look like a lion's",
+      "People call me a coward because I adapt to survive",
+      "I'll side with whoever is winning",
+      "I just want to get home alive"
+    ],
+    "gifts": [
+      {
+        "name": "Coward's Instinct",
+        "description": "Lowe has a supernatural sense for danger and self-preservation. Once per Scene, he can automatically avoid an attack or dangerous situation by fleeing, hiding, or positioning himself safely. Additionally, Lowe always knows which side is winning in a conflict and can switch sides as an action, immediately gaining +1 OL when fighting for the 'winning' side."
+      }
+    ],
+    "conditions": [],
+    "agenda": [
+      "Survive and get home to my own time",
+      "Protect my companions if it doesn't risk my life",
+      "Avoid unnecessary violence",
+      "Side with whoever seems most likely to win"
+    ],
+    "notes": "This is Lowe's ORIGINAL FORM in Part One (before transformation to Brave Fighter in Part Three). He observes Hunters from distance—if they're kind to Henrich/Klaus, gains respect. Most rational of OZena's companions, questions her violence. In swamp scene, tries to mediate and offer deals. Can be reasoned with more easily than others. Will flee if losing. Character arc: Coward → Brave Fighter. Voice: Hesitant, calculating, defensive. Mannerisms: Checks escape routes, positions near exits, avoids direct confrontation."
+  }
+}

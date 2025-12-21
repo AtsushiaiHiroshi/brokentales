@@ -1,0 +1,19 @@
+{
+  "name": "Trebizond's Magic-Finding Dust",
+  "type": "object",
+  "img": "icons/consumables/potions/potion-bottle-corked-labeled-blue.webp",
+  "system": {
+    "description": "Exotic dust seized from a far country by Trebizond, the princess Paladin who serves Saint George. This special belonging allows Trebizond to detect and track magical presences. As part of her 'From a Far Country' Gift, once per scene she can create special equipment like this Magic-Finding Dust or A Whip as Sharp as a Blade. When using her special equipment, Trebizond increases her Opposition Level by 1, making her particularly dangerous to Hunters who rely on magical abilities.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 200,
+    "equipped": false,
+    "properties": [
+      "Magical detection",
+      "Exotic",
+      "Single use per scene",
+      "Enhances wielder",
+      "Paladin equipment"
+    ]
+  }
+}

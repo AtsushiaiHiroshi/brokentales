@@ -1,0 +1,28 @@
+{
+  "_id": "compassrose001",
+  "name": "Margareta's Compass Rose Piece",
+  "type": "object",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "One quarter of the Compass Rose, a powerful artifact capable of summoning storms that can throw people and objects into other worlds and dimensions. This piece was possessed by Margareta Westen, the witch of the West in the Black Forest. The four Black Forest witches (Johanne-East, Margareta-West, Helga-South, Karina-North) split the artifact into four parts so no one could abuse its power. OZena is hunting each witch to reassemble the complete Compass Rose.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 5000,
+    "equipped": false,
+    "properties": [
+      "Magical artifact",
+      "Part of complete Compass Rose",
+      "Can summon dimensional storms",
+      "Possessed by Western witch",
+      "Requires all 4 pieces to activate"
+    ],
+    "scenario": "ozena-the-suffering-and-desperate"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

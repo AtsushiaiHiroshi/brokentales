@@ -1,0 +1,20 @@
+{
+  "_id": "shadowwarnings001",
+  "name": "Shadow's Warning Words",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "When Sherazade's Shadows have an obvious advantage, they speak revealing phrases: 'My Lady Sherazade will be proud of me.' When defeated, a Shadow can exit the scene shouting 'My Lady Sherazade will avenge me.' These verbal clues confirm Sherazade's involvement and her control over the Shadows. The Shadows' loyalty and their references to 'My Lady' help Hunters understand they are facing servants of a more powerful Dark Presence rather than independent threats.",
+    "location": "Spoken by Shadows during combat encounters",
+    "importance": "important",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

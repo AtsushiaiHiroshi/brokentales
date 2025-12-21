@@ -1,0 +1,20 @@
+{
+  "_id": "sherazadesstorytelling001",
+  "name": "Sherazade's Storytelling Performance",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "At the end of each story when a Scenario is solved, the Hunters witness a short scene of Sherazade with her audience entranced by what has just been told. The first time, this vision allows the Hunters to understand the region of Europe where the Weaver of Tales is located. The second time, Sherazade herself turns towards them smiling, underlining the mutual awareness of the bond her story has created. This supernatural connection reveals crucial information about Sherazade's whereabouts and her awareness of the Hunters.",
+    "location": "Vision at the end of Scenarios affected by Sherazade",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

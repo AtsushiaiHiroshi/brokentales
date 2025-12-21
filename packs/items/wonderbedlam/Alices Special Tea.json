@@ -1,0 +1,18 @@
+{
+  "name": "Alice's Special Tea",
+  "type": "object",
+  "img": "icons/consumables/drinks/cup-simple-earthen-brown-tan.webp",
+  "system": {
+    "description": "A delicious tea mixed with a powerful soporific drug used by Alice Liddell, the Director of Wonder. Those who drink the tea must make a Defense Check or fall into a deep sleep for over eight hours. Only suffering severe pain (equivalent to receiving 1 Wound) or the use of magic can awaken a sleeping subject. Alice uses this tea to incapacitate intruders and unwilling patients, offering it under the pretense of hospitality.",
+    "quantity": 1,
+    "weight": 0.5,
+    "value": 100,
+    "equipped": false,
+    "properties": [
+      "Soporific",
+      "Drugged",
+      "Requires Defense Check",
+      "Long-lasting sleep"
+    ]
+  }
+}

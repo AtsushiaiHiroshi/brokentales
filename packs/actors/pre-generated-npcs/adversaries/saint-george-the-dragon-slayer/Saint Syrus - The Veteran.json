@@ -1,0 +1,39 @@
+{
+  "name": "Saint Syrus - The Veteran",
+  "type": "npc",
+  "img": "icons/equipment/head/helm-bascinet-reinforced.webp",
+  "system": {
+    "npcType": "adversary",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "biography": "Saint Syrus is the oldest of Saint George's six Paladins, a grizzled veteran who has fought Broken Tales for decades. His experience has taught him to trust only his own judgment, making him both incredibly effective and frustratingly stubborn. Syrus has seen countless supernatural threats, studied their patterns, and developed countermeasures for virtually every type of Gift or magical ability. His vast experience allows him to negate the effect of a Hunter's Gift once per Scene—he always seems to know exactly how to counter whatever supernatural ability is being used. This makes him a particularly dangerous opponent for Hunters who rely heavily on their Gifts. When a Hunter activates a powerful Gift expecting it to turn the tide of battle, Syrus calmly explains the countermeasure he's prepared and nullifies it entirely. However, Syrus's reliance on his own judgment is also his weakness. He's set in his ways, dismissive of new ideas or approaches he hasn't personally validated. He won't listen to Martha's doubts or Trebizond's questions—he's fought monsters for decades and knows what they are. This stubbornness means he's unlikely to be convinced that Saint George is wrong, but it also means he can be outmaneuvered by tactics he hasn't encountered before. Hunters who use creative or unconventional approaches may catch him off-guard, as his experience becomes a liability when facing something genuinely new.",
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I am a Paladin in service of Saint George",
+      "His word, for me, is law",
+      "Years of training made me adept at fighting Broken Tales",
+      "I am the oldest of the Paladins and I only trust my own judgment"
+    ],
+    "gifts": [
+      {
+        "name": "Paladin - Veteran",
+        "description": "Once per Scene, Syrus can negate the effect of a Gift activated by a Hunter. The Saint will find a method to counter Gifts, drawn from his great experience—he might interrupt a ritual, throw holy water to disrupt magic, use a specific ward he's prepared, or simply know the weakness of that particular ability. When he does this, the Hunter's Gift activates but has no effect, and any Soma or resources spent are still consumed. This makes Syrus extremely dangerous to Hunters who rely on one powerful Gift as their primary strategy."
+      }
+    ],
+    "conditions": [],
+    "notes": "Syrus is Paladin #5 (roll 1d6 to determine). Most dangerous to Gift-reliant Hunters—can negate one Gift per Scene. Has countermeasures for almost everything due to decades of experience. Stubborn and dismissive of others' judgment—won't listen to Martha or Trebizond's doubts. Unlikely to be convinced Saint George is wrong. Weakness: set in his ways, can be outmaneuvered by truly creative/unconventional tactics he hasn't seen before. Experience becomes liability against novel approaches. Voice: Gruff, dismissive, authoritative. Mannerisms: Crosses arms, shakes head at others' suggestions, prepared stance."
+  }
+}

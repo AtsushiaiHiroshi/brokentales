@@ -1,0 +1,18 @@
+{
+  "name": "Hans' Smoke Bombs",
+  "type": "object",
+  "img": "icons/consumables/potions/potion-bottle-corked-fumes-purple.webp",
+  "system": {
+    "description": "Experimental smoke bombs used by Hans to surprise enemies. When deployed, thick smoke covers a 30-foot square area. Everyone inside receives penalties for actions requiring sight, except for Hans who has learned to fight blind. The smoke also allows Hans to escape from engaged opponents without being prevented.",
+    "quantity": 3,
+    "weight": 1,
+    "value": 50,
+    "equipped": false,
+    "properties": [
+      "Creates smoke cloud",
+      "30-foot area",
+      "Tactical escape tool",
+      "Single use"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Lowe the Coward",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "npcType": "adversary",
+    "isMainNPC": true,
+    "oppositionLevel": 5,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 2,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "I suffer from leontiasis, a disease that makes my face look like a lion's",
+      "People call me a coward because I adapt to survive—I'll side with whoever is winning"
+    ],
+    "agenda": [
+      "Survive and get home to my own time",
+      "Protect my companions",
+      "Avoid unnecessary violence"
+    ],
+    "gifts": [],
+    "background": "Lowe is one of four patients from early 1900s America who were thrown back in time to 1780 by Dr. Henkle's malfunctioning Compass Rose. He suffers from leontiasis, a disease that causes his face to resemble a lion's, earning him the nickname 'the Coward' for his pragmatic approach to survival. Lowe is actually the most rational of OZena's companions—he questions her increasingly violent methods but fears abandoning her, as she represents his only hope of returning home. He observes the Hunters from a distance to judge their character and attempts to mediate conflicts, preferring negotiation over violence.",
+    "notes": "Lowe is observing the Hunters during their encounter with Henrich and Klaus. If the Hunters show kindness, he gains respect for them and is more likely to negotiate in the swamp scene. If they attack without trying to negotiate, he becomes convinced they're no better than the witch hunters of this era and fights to the death.\n\nIn the swamp, Lowe offers a deal: if the Hunters convince Margareta to give up her Compass Rose piece peacefully, they'll release Klaus unharmed. This represents his attempt to find a non-violent solution.\n\nDEVELOPMENT: Lowe's character arc involves choosing between loyalty to OZena and doing what's right. His pragmatism could make him an ally if the Hunters show him a better path.",
+    "conditions": []
+  },
+  "flags": {
+    "scenario": "Ozena Part One - The Yellow Village",
+    "inspiration": "The Wizard of Oz - Cowardly Lion",
+    "role": "Most rational of OZena's companions, attempts mediation",
+    "timeDisplaced": true,
+    "originalEra": "Early 1900s America"
+  }
+}

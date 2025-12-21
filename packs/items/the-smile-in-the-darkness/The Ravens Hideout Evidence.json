@@ -1,0 +1,20 @@
+{
+  "_id": "ravenshideout001",
+  "name": "The Ravens' Hideout Evidence",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_gift.webp",
+  "system": {
+    "description": "Part of catacombs frequented only by scoundrels who had business with Adrien. Couple of broken absinthe bottles scattered among makeshift beds with strong alcohol scent still present. Old dagger and wooden crucifix are only other noteworthy details. Ravens are young arrogant smugglers who distribute Adrien's illegal absinthe. They boasted about profits made from important customer (Father Adrien) who can provide goods defying any authority. Olivier the Raven prepares his escape here before sunset, or his charred corpse found after nightfall. Evidence links smuggling operation directly to church.",
+    "location": "East side of the catacombs",
+    "importance": "important",
+    "found": false,
+    "scenario": "the-smile-in-the-darkness"
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

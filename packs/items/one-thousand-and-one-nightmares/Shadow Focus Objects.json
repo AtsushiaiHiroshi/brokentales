@@ -1,0 +1,20 @@
+{
+  "_id": "shadowfocusobjects001",
+  "name": "Shadow Focus Objects",
+  "type": "clue",
+  "img": "systems/brokentales/styles/icons/icon_circle.webp",
+  "system": {
+    "description": "Small objects left behind when Sherazade's Shadows dissipate after being defeated. These items are typical of the area where Sherazade currently resides - could be a coin, a garment, or a poem. By collecting these focus objects, the Hunters discover they serve as anchors to animate the Shadows and that all objects come from the same geographical area. These clues allow the Hunters to track Sherazade's location by identifying the region of Europe where she is performing her stories.",
+    "location": "Dropped by defeated Shadows, various locations",
+    "importance": "crucial",
+    "found": false,
+    "scenario": "one-thousand-and-one-nightmares"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

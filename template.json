@@ -58,7 +58,7 @@
     }
   },
   "Item": {
-    "types": ["descriptor", "gift", "scenarioGift"],
+    "types": ["descriptor", "gift", "scenarioGift", "clue", "object"],
     "templates": {
       "base": {
         "description": ""
@@ -90,6 +90,21 @@
       "effect": "",
       "scenario": "",
       "specialFor": ""
+    },
+    "clue": {
+      "templates": ["base"],
+      "location": "",
+      "importance": "minor",
+      "found": false,
+      "scenario": ""
+    },
+    "object": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "value": 0,
+      "equipped": false,
+      "properties": []
     }
   }
 }

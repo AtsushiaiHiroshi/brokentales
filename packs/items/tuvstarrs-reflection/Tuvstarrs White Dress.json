@@ -1,0 +1,19 @@
+{
+  "name": "Tuvstarr's White Dress",
+  "type": "object",
+  "img": "icons/equipment/chest/dress-layered-silk-white.webp",
+  "system": {
+    "description": "Princess Tuvstarr's elegant white dress, traded to the Hulder (a forest spirit) in exchange for safe passage through the dark woods. The dress made the Hulder feel beautiful and strong, but also awakened a voracious hunger that corrupted her into a grotesque monster. The Hulder now wears the dress as a dirty blindfold over her eyes, obsessively repeating how beautiful and graceful she is, unaware of what she has become. When Tuvstarr holds this dress again, she can feel the warmth of its fabric and remember the weight of reality.",
+    "quantity": 1,
+    "weight": 1,
+    "value": 500,
+    "equipped": false,
+    "properties": [
+      "Magical",
+      "Royal garment",
+      "Corrupting influence",
+      "Memory trigger",
+      "Spirit-touched"
+    ]
+  }
+}

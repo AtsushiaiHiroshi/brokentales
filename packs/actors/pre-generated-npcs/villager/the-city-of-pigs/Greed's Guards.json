@@ -1,0 +1,35 @@
+{
+  "_id": "GreedGuards",
+  "name": "Greed's Guards",
+  "type": "npc",
+  "img": "icons/equipment/shield/heater-steel-worn-blue.webp",
+  "system": {
+    "npcType": "villager",
+    "oppositionLevel": 5,
+    "isMainNPC": false,
+    "attributes": {
+      "soma": {
+        "current": 0,
+        "max": 0
+      },
+      "wounds": {
+        "current": 0,
+        "max": 1,
+        "extra": {
+          "value": 0,
+          "max": 1
+        }
+      }
+    },
+    "descriptors": [
+      "We are long-time mercenaries",
+      "Paid handsomely by Bardolf for our loyalty"
+    ],
+    "background": "About a dozen men from Bardolf Greed's personal guard who stand with their backs to the wall in his mansion, staring at guests like silent statues. They are long-time mercenaries paid handsomely for their loyalty, making it clear that the wealthy industrialist does not feel safe despite his power and wealth. They protect Bardolf during meetings and ensure his orders are carried out throughout Whitehaven."
+  },
+  "flags": {
+    "scenarioId": "city-of-pigs",
+    "role": "guards",
+    "usage": "use-multiple-dozen"
+  }
+}
