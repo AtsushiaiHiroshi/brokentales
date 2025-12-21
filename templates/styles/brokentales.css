@@ -15,12 +15,13 @@
    --------------------------------------------------- */
 @font-face {
   font-family: "GrobeDeutschmeister";
-  src: url("../fonts/GrobeDeutschmeister.woff2") format("woff2"),
-    url("../fonts/GrobeDeutschmeister.woff") format("woff"),
-    url("../fonts/GrobeDeutschmeister.ttf") format("truetype"),
-    url("../fonts/GrobeDeutschmeister.eot"),
-    url("../fonts/GrobeDeutschmeister.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/GrobeDeutschmeister.svg#GrobeDeutschmeister") format("svg");
+  src: url("../../fonts/GrobeDeutschmeister.woff2") format("woff2"),
+    url("../../fonts/GrobeDeutschmeister.woff") format("woff"),
+    url("../../fonts/GrobeDeutschmeister.ttf") format("truetype"),
+    url("../../fonts/GrobeDeutschmeister.eot"),
+    url("../../fonts/GrobeDeutschmeister.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/GrobeDeutschmeister.svg#GrobeDeutschmeister") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -93,8 +94,8 @@
    4. SHEET BASE STYLES
    --------------------------------------------------- */
 .brokentales.sheet {
-  background: url("../styles/background/broken_tales_sheet.webp") no-repeat
-    center center;
+  background: url("./background/broken_tales_sheet.webp") no-repeat center
+    center;
   background-size: cover;
   min-height: 600px;
   color: var(--color-black);
@@ -579,11 +580,11 @@
 }
 
 .brokentales .improvement-icon {
-  background-image: url("../styles/icons/descriptor_improvement.webp");
+  background-image: url("./icons/descriptor_improvement.webp");
 }
 
 .brokentales .gift-icon {
-  background-image: url("../styles/icons/icon_gift.webp");
+  background-image: url("./icons/icon_gift.webp");
 }
 
 .brokentales .item-name,
@@ -1323,7 +1324,7 @@
    25. DICE ROLL ICONS (if using image buttons)
    --------------------------------------------------- */
 .brokentales .bt-roll-difficulty.easy {
-  background-image: url("../styles/icons/dice_easy.webp");
+  background-image: url("./icons/dice_easy.webp");
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -1331,7 +1332,7 @@
 }
 
 .brokentales .bt-roll-difficulty.normal {
-  background-image: url("../styles/icons/dice_normal.webp");
+  background-image: url("./icons/dice_normal.webp");
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -1339,7 +1340,7 @@
 }
 
 .brokentales .bt-roll-difficulty.hard {
-  background-image: url("../styles/icons/dice_hard.webp");
+  background-image: url("./icons/dice_hard.webp");
   background-size: 24px 24px;
   background-repeat: no-repeat;
   background-position: left center;
