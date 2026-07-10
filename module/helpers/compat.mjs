@@ -8,6 +8,20 @@
  * checks throughout the system.
  */
 
+const THEMED_SHEET_STYLESHEET = "systems/brokentales/templates/styles/brokentales-sheet-v14.css";
+
+export function installThemedSheetStylesheet() {
+  if (!globalThis.document) return;
+  const id = "brokentales-themed-sheet-overlay";
+  if (document.getElementById(id)) return;
+
+  const link = document.createElement("link");
+  link.id = id;
+  link.rel = "stylesheet";
+  link.href = THEMED_SHEET_STYLESHEET;
+  document.head.appendChild(link);
+}
+
 export function installLegacySheetAliases() {
   const foundryGlobal = globalThis.foundry;
   if (!foundryGlobal) return;
@@ -25,6 +39,7 @@ export function installLegacySheetAliases() {
 }
 
 installLegacySheetAliases();
+installThemedSheetStylesheet();
 
 export function getFoundryMajorVersion() {
   const version = globalThis.game?.version || globalThis.game?.data?.version || "0";
