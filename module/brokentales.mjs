@@ -5,6 +5,16 @@
  * Compatible with Foundry VTT v11+
  */
 
+// Import compatibility helpers first so legacy sheet aliases are available
+// before the actor and item sheet modules are evaluated.
+import {
+  ensureBrokenTalesNamespace,
+  evaluateRoll,
+  getControlledOrAssignedActor,
+  registerActorSheet,
+  registerItemSheet,
+} from "./helpers/compat.mjs";
+
 // Import configuration
 import { BROKENTALES, registerHandlebarsHelpers } from "./helpers/config.mjs";
 import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
@@ -26,46 +36,30 @@ import { BrokenTalesItemSheet } from "./sheets/item-sheet.mjs";
 Hooks.once("init", async function () {
   console.log(`Broken Tales | Initializing Broken Tales System`);
 
-  // Add utility classes to CONFIG
-  game.brokentales = {
+  // Add utility classes to CONFIG and expose both historical namespace spellings.
+  ensureBrokenTalesNamespace({
     BrokenTalesActor,
     BrokenTalesItem,
     rollItemMacro,
-  };
+  });
 
   // Define custom Document classes
   CONFIG.BROKENTALES = BROKENTALES;
   CONFIG.Actor.documentClass = BrokenTalesActor;
   CONFIG.Item.documentClass = BrokenTalesItem;
 
-  // Register sheet application classes (using namespaced references)
-  foundry.documents.collections.Actors.unregisterSheet(
-    "core",
-    foundry.appv1.sheets.ActorSheet
-  );
-  foundry.documents.collections.Actors.registerSheet(
-    "brokentales",
-    BrokenTalesActorSheet,
-    {
-      types: ["character", "npc"],
-      makeDefault: true,
-      label: "BROKENTALES.SheetClassActor",
-    }
-  );
+  // Register sheet application classes using compatibility wrappers.
+  registerActorSheet("brokentales", BrokenTalesActorSheet, {
+    types: ["character", "npc"],
+    makeDefault: true,
+    label: "BROKENTALES.SheetClassActor",
+  });
 
-  foundry.documents.collections.Items.unregisterSheet(
-    "core",
-    foundry.appv1.sheets.ItemSheet
-  );
-  foundry.documents.collections.Items.registerSheet(
-    "brokentales",
-    BrokenTalesItemSheet,
-    {
-      types: ["descriptor", "gift", "scenarioGift", "clue", "object"],
-      makeDefault: true,
-      label: "BROKENTALES.SheetClassItem",
-    }
-  );
+  registerItemSheet("brokentales", BrokenTalesItemSheet, {
+    types: ["descriptor", "gift", "scenarioGift", "clue", "object"],
+    makeDefault: true,
+    label: "BROKENTALES.SheetClassItem",
+  });
 
   // Register Handlebars helpers
   registerHandlebarsHelpers();
@@ -87,11 +81,11 @@ Hooks.once("ready", async function () {
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
   Hooks.on("hotbarDrop", (bar, data, slot) => createItemMacro(data, slot));
 
-  // Initialize game.brokenTales namespace for macros
-  game.brokenTales = game.brokenTales || {};
+  // Initialize shared namespace for macros, keeping both old and new spellings alive.
+  const brokenTales = ensureBrokenTalesNamespace();
 
   // Add roll functions to namespace for macro access
-  game.brokenTales.rollWithDifficulty = async (
+  brokenTales.rollWithDifficulty = async (
     actor,
     diceCount,
     difficulty,
@@ -106,7 +100,7 @@ Hooks.once("ready", async function () {
     return await actor.rollWithDifficulty(diceCount, difficulty, somaBonus);
   };
 
-  game.brokenTales.showRollDialog = async (actor) => {
+  brokenTales.showRollDialog = async (actor) => {
     if (!actor) {
       ui.notifications.warn(
         game.i18n.localize("BROKENTALES.Roll.MissingActor")
@@ -117,8 +111,8 @@ Hooks.once("ready", async function () {
   };
 
   // ✅ Add soma boost roll for macros
-  game.brokenTales.somaRoll = async (diceCount = 3, somaSpent = 1) => {
-    const actor = game.user.character;
+  brokenTales.somaRoll = async (diceCount = 3, somaSpent = 1) => {
+    const actor = getControlledOrAssignedActor();
     if (!actor) {
       ui.notifications.error(
         game.i18n.localize("BROKENTALES.Roll.MissingActor")
@@ -150,7 +144,7 @@ Hooks.once("ready", async function () {
 
     // Perform roll
     const roll = new Roll(`${diceCount}d6`, actor.getRollData());
-    await roll.evaluate({ async: true });
+    await evaluateRoll(roll);
 
     const results = roll.dice[0].results.map((r) => r.result);
     const hasCriticalFailure = results.includes(1);
@@ -191,8 +185,8 @@ Hooks.once("ready", async function () {
   };
 
   // ✅ Add Dark Ego activation roll for macros
-  game.brokenTales.darkEgoRoll = async (diceCount = 3, bonusSuccesses = 1) => {
-    const actor = game.user.character;
+  brokenTales.darkEgoRoll = async (diceCount = 3, bonusSuccesses = 1) => {
+    const actor = getControlledOrAssignedActor();
     if (!actor) {
       ui.notifications.error(
         game.i18n.localize("BROKENTALES.Roll.MissingActor")
@@ -215,7 +209,7 @@ Hooks.once("ready", async function () {
 
     // Perform roll
     const roll = new Roll(`${diceCount}d6`, actor.getRollData());
-    await roll.evaluate({ async: true });
+    await evaluateRoll(roll);
 
     const results = roll.dice[0].results.map((r) => r.result);
     const hasCriticalFailure = results.includes(1);
@@ -261,7 +255,7 @@ Hooks.once("ready", async function () {
   };
 
   // ✅ Add repeat last roll function for macros
-  game.brokenTales.repeatLastRoll = async () => {
+  brokenTales.repeatLastRoll = async () => {
     const messages = game.messages.contents.slice().reverse();
 
     for (const msg of messages) {
@@ -308,7 +302,7 @@ Hooks.once("ready", async function () {
         }
 
         // Repeat the roll
-        await game.brokenTales.rollWithDifficulty(
+        await brokenTales.rollWithDifficulty(
           actor,
           diceCount,
           difficulty,
@@ -322,7 +316,8 @@ Hooks.once("ready", async function () {
   };
 
   // ✅ Add dialog utility
-  game.brokenTales.continueDialog = continueDialog;
+  brokenTales.continueDialog = continueDialog;
+  ensureBrokenTalesNamespace(brokenTales);
 
   console.log("Broken Tales | System ready");
 });
@@ -413,7 +408,7 @@ Hooks.on("chatMessage", (chatLog, messageText, chatData) => {
       const difficulty = match[2] ? parseInt(match[2]) : 3;
       const somaBonus = match[3] ? parseInt(match[3]) : 0;
 
-      const actor = canvas.tokens.controlled[0]?.actor || game.user.character;
+      const actor = getControlledOrAssignedActor();
 
       if (!actor) {
         ui.notifications.warn(
@@ -422,7 +417,7 @@ Hooks.on("chatMessage", (chatLog, messageText, chatData) => {
         return false;
       }
 
-      game.brokenTales.rollWithDifficulty(
+      game.brokentales.rollWithDifficulty(
         actor,
         diceCount,
         difficulty,
