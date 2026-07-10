@@ -1,0 +1,373 @@
+/* Broken Tales sheet overlay for the legacy brokentales system. */
+
+@property --bt-onda1 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --bt-onda2 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 100%;
+}
+
+@keyframes btOleajeContinuo {
+  0% { --bt-onda1: 52%; --bt-onda2: 49%; }
+  50% { --bt-onda1: 58%; --bt-onda2: 43%; }
+  100% { --bt-onda1: 45%; --bt-onda2: 54%; }
+}
+
+.brokentales.sheet.actor {
+  min-width: 760px;
+  min-height: 720px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 246, 246, 0.82)),
+    url("./background/broken_tales_sheet.webp") center / cover no-repeat;
+  border: 2px solid #111;
+  box-shadow: 0 0 0 6px rgba(20, 0, 0, 0.85), 0 18px 42px rgba(0, 0, 0, 0.55);
+  color: #14080a;
+}
+
+.brokentales.sheet.actor .window-content,
+.brokentales.sheet.actor form {
+  overflow: hidden;
+}
+
+.brokentales.sheet.actor .sheet-body {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  max-height: calc(100vh - 170px);
+  overflow-y: auto;
+  padding: 10px 14px 18px;
+}
+
+.brokentales .bt-codex-sheet {
+  font-family: var(--font-primary), Georgia, serif;
+  color: #14080a;
+}
+
+.brokentales .bt-sheet-hero {
+  display: grid;
+  grid-template-columns: 92px minmax(250px, 1fr) minmax(260px, 0.95fr);
+  gap: 12px;
+  align-items: stretch;
+  padding: 14px;
+  margin: 10px 10px 0;
+  background: rgba(255, 255, 255, 0.78);
+  border: 2px solid #111;
+  border-top: 6px solid #df1726;
+  box-shadow: none;
+}
+
+.brokentales .bt-portrait-block .profile-img {
+  width: 92px;
+  height: 92px;
+  border: 4px solid #df1726;
+  border-radius: 0;
+  object-fit: cover;
+  background: #0c090d;
+}
+
+.brokentales .bt-identity-block {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 8px;
+}
+
+.brokentales .bt-ink-title {
+  position: relative;
+  margin: 0;
+  padding: 0 0 4px;
+  border-bottom: 3px solid #df1726;
+  min-width: 0;
+}
+
+.brokentales .bt-ink-title input {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  padding: 2px 6px;
+  border: 0;
+  background: transparent;
+  font-size: clamp(26px, 4vw, 42px);
+  line-height: 1;
+  color: #b51220;
+  text-shadow: 0 0 2px #fff, 0 0 8px rgba(170, 0, 0, 0.45);
+  -webkit-text-stroke: 0.25px rgba(70, 0, 0, 0.75);
+  background-image:
+    linear-gradient(173deg, transparent var(--bt-onda1), rgba(0, 0, 0, 0.95) calc(var(--bt-onda1) + 4%)),
+    linear-gradient(187deg, transparent var(--bt-onda2), rgba(0, 0, 0, 0.92) calc(var(--bt-onda2) + 6%)),
+    radial-gradient(circle at 30% 45%, #ffefef 0 18%, #e31726 45%, #5a0000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: btOleajeContinuo 4s ease-in-out infinite alternate;
+}
+
+.brokentales .bt-field-row,
+.brokentales .bt-npc-meta {
+  display: grid;
+  gap: 5px;
+}
+
+.brokentales .bt-npc-meta {
+  grid-template-columns: auto minmax(120px, 1fr) auto minmax(90px, 0.6fr);
+  align-items: center;
+}
+
+.brokentales .bt-field-row label,
+.brokentales .bt-npc-meta label,
+.brokentales .bt-card label,
+.brokentales .bt-notes-lines label {
+  color: #b51220;
+  font-size: 15px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-shadow: 0 0 4px rgba(100, 0, 0, 0.25);
+}
+
+.brokentales .bt-field-row textarea,
+.brokentales .bt-card textarea,
+.brokentales .bt-notes-lines textarea,
+.brokentales .bt-card input,
+.brokentales .bt-npc-meta select {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid #df1726;
+  border-radius: 0;
+  color: #14080a;
+  box-shadow: none;
+  font-family: Georgia, serif !important;
+}
+
+.brokentales .bt-field-row textarea,
+.brokentales .bt-notes-lines textarea {
+  min-height: 82px;
+  resize: vertical;
+}
+
+.brokentales .bt-first-descriptor {
+  min-width: 0;
+  padding: 12px 14px;
+  background: #100c11;
+  border-left: 8px solid #df1726;
+  color: #f7eeee;
+  overflow: auto;
+}
+
+.brokentales .bt-first-descriptor h2,
+.brokentales .bt-card > h2,
+.brokentales .bt-card > header h2,
+.brokentales .bt-entry h3 {
+  color: #b51220;
+  margin: 0 0 8px;
+  line-height: 1.05;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.55), 0 0 10px rgba(180, 0, 0, 0.35);
+}
+
+.brokentales .bt-first-descriptor .bt-entry h3,
+.brokentales .bt-first-descriptor .bt-prose {
+  color: #f7eeee;
+}
+
+.brokentales .sheet-tabs {
+  margin: 0 10px;
+  padding: 6px 0;
+  background: transparent;
+  border-bottom: 2px solid #111;
+  gap: 4px;
+}
+
+.brokentales .sheet-tabs .item {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid #df1726;
+  border-radius: 0;
+  color: #111;
+  box-shadow: none;
+}
+
+.brokentales .sheet-tabs .item.active {
+  background: #df1726;
+  color: #fff;
+}
+
+.brokentales .bt-sheet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.brokentales .bt-card {
+  min-width: 0;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 2px solid #111;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(223, 23, 38, 0.14);
+}
+
+.brokentales .bt-card > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.brokentales .bt-entry-list {
+  display: grid;
+  gap: 10px;
+}
+
+.brokentales .bt-entry {
+  position: relative;
+  padding: 8px 8px 8px 16px;
+  border-left: 4px solid #197060;
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.brokentales .bt-prose,
+.brokentales .bt-card textarea,
+.brokentales .bt-notes-lines textarea {
+  font-family: Georgia, serif !important;
+  font-size: 14px;
+  line-height: 1.35;
+  font-style: normal;
+}
+
+.brokentales .bt-cost {
+  margin: 6px 0 0;
+  color: #7a0000;
+}
+
+.brokentales .bt-dark-ego-card {
+  border-color: #7a0000;
+  background: rgba(255, 248, 248, 0.78);
+}
+
+.brokentales .bt-threat-stats {
+  display: grid;
+  grid-template-columns: minmax(100px, 0.5fr) minmax(120px, 0.7fr) minmax(160px, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.brokentales .bt-sheet-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+  margin-top: 12px;
+}
+
+.brokentales .bt-notes-lines {
+  min-width: 0;
+  padding: 10px 0 0;
+  border-top: 2px solid #111;
+}
+
+.brokentales .bt-stat-circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.brokentales .bt-stat-circle {
+  width: 74px;
+  height: 74px;
+  border: 2px solid #df1726;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #14080a;
+}
+
+.brokentales .bt-stat-circle label {
+  color: #b51220;
+  font-size: 14px;
+  margin: 0;
+}
+
+.brokentales .bt-stat-circle input {
+  width: 28px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: center;
+}
+
+.brokentales .bt-wound-track {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid #df1726;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.brokentales .bt-roll-strip {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.brokentales .bt-roll-strip .bt-roll-difficulty,
+.brokentales .bt-roll-strip .bt-macro-repeat-button {
+  border-radius: 0;
+  background: #df1726;
+  color: #fff;
+}
+
+.brokentales .item-controls {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.brokentales .item-control.item-create {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  background: #df1726;
+  color: #fff;
+}
+
+.brokentales .bt-empty {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Georgia, serif !important;
+  font-style: italic;
+}
+
+@media (max-width: 820px) {
+  .brokentales.sheet.actor { min-width: 0; }
+  .brokentales .bt-sheet-hero,
+  .brokentales .bt-sheet-grid,
+  .brokentales .bt-sheet-footer,
+  .brokentales .bt-threat-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .brokentales .bt-portrait-block .profile-img {
+    width: 82px;
+    height: 82px;
+  }
+
+  .brokentales .bt-npc-meta {
+    grid-template-columns: 1fr;
+  }
+}
