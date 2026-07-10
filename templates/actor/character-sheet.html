@@ -1,333 +1,158 @@
-<form class="{{cssClass}} flexcol" autocomplete="off">
-  {{!-- Sheet Header --}}
-  <header class="sheet-header">
-    <img
-      class="profile-img"
-      src="{{actor.img}}"
-      data-edit="img"
-      title="{{actor.name}}"
-      alt="{{actor.name}}"
-    />
-    <div class="header-fields">
-      <h1 class="charname">
-        <input
-          name="name"
-          type="text"
-          value="{{actor.name}}"
-          placeholder="{{localize 'BROKENTALES.Fields.Name'}}"
-        />
+<form class="{{cssClass}} bt-codex-sheet bt-hunter-sheet flexcol" autocomplete="off">
+  <header class="bt-sheet-hero">
+    <div class="bt-portrait-block">
+      <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" alt="{{actor.name}}" />
+    </div>
+
+    <div class="bt-identity-block">
+      <h1 class="charname bt-ink-title">
+        <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'BROKENTALES.Fields.Name'}}" />
       </h1>
-
-      {{!-- Dice Roll Controls --}}
-      <div class="roll-controls">
-        <label for="dice-count"
-          >{{localize "BROKENTALES.Fields.DiceCount"}}</label
-        >
-        <input
-          type="number"
-          id="bt-dice-count"
-          name="dice-count"
-          value="3"
-          min="1"
-          max="6"
-        />
-
-        <div class="difficulty-buttons">
-          <button
-            type="button"
-            class="bt-roll-difficulty easy"
-            data-difficulty="2"
-            title="{{localize 'BROKENTALES.Fields.Easy'}}"
-          >
-            <i class="fas fa-dice-d6"></i> {{localize
-            "BROKENTALES.Fields.Easy"}}
-          </button>
-          <button
-            type="button"
-            class="bt-roll-difficulty normal"
-            data-difficulty="3"
-            title="{{localize 'BROKENTALES.Fields.Normal'}}"
-          >
-            <i class="fas fa-dice-d6"></i> {{localize
-            "BROKENTALES.Fields.Normal"}}
-          </button>
-          <button
-            type="button"
-            class="bt-roll-difficulty hard"
-            data-difficulty="4"
-            title="{{localize 'BROKENTALES.Fields.Hard'}}"
-          >
-            <i class="fas fa-dice-d6"></i> {{localize
-            "BROKENTALES.Fields.Hard"}}
-          </button>
-        </div>
-
-        <button
-          type="button"
-          class="bt-macro-repeat-button"
-          title="{{localize 'BROKENTALES.Fields.RepeatRoll'}}"
-        >
-          <i class="fas fa-redo"></i> {{localize
-          "BROKENTALES.Fields.RepeatRoll"}}
-        </button>
+      <div class="bt-field-row">
+        <label>{{localize "BROKENTALES.Fields.Background"}}</label>
+        <textarea name="system.background" rows="4">{{system.background}}</textarea>
       </div>
     </div>
+
+    <aside class="bt-first-descriptor">
+      <h2>{{localize "BROKENTALES.Item.Descriptor"}} 1</h2>
+      {{#each descriptors as |item id|}}
+        {{#if @first}}
+        <article class="bt-entry item" data-item-id="{{item._id}}">
+          <h3>{{item.name}}</h3>
+          <div class="bt-prose">{{item.system.description}}</div>
+          <div class="item-controls">
+            <a class="item-control item-edit" title="{{localize 'BROKENTALES.Edit'}}"><i class="fas fa-edit"></i></a>
+            <a class="item-control item-delete" title="{{localize 'BROKENTALES.Delete'}}"><i class="fas fa-trash"></i></a>
+          </div>
+        </article>
+        {{/if}}
+      {{/each}}
+      {{#unless descriptors.length}}
+        <p class="bt-empty">{{localize "BROKENTALES.Items.Descriptors"}}</p>
+      {{/unless}}
+    </aside>
   </header>
 
-  {{!-- Sheet Navigation Tabs --}}
   <nav class="sheet-tabs tabs" data-group="primary">
     <a class="item" data-tab="main">{{localize "BROKENTALES.Tabs.Main"}}</a>
     <a class="item" data-tab="items">{{localize "BROKENTALES.Tabs.Items"}}</a>
-    <a class="item" data-tab="effects"
-      >{{localize "BROKENTALES.Tabs.Effects"}}</a
-    >
+    <a class="item" data-tab="effects">{{localize "BROKENTALES.Tabs.Effects"}}</a>
     <a class="item" data-tab="notes">{{localize "BROKENTALES.Tabs.Notes"}}</a>
   </nav>
 
-  {{!-- Sheet Body --}}
   <section class="sheet-body">
-    {{!-- Main Tab --}}
     <div class="tab main" data-group="primary" data-tab="main">
-      <div class="grid-container">
-        {{!-- Left Column --}}
-        <div class="left-column">
-          {{!-- Attributes --}}
-          <div class="attributes">
-            <div class="attribute soma">
-              <label>{{localize "BROKENTALES.Fields.Soma"}}</label>
-              <div class="attribute-value">
-                <button
-                  type="button"
-                  class="soma-adjust"
-                  data-action="spend"
-                  title="{{localize 'BROKENTALES.Spend'}}"
-                >
-                  <i class="fas fa-minus"></i>
-                </button>
-                <input
-                  type="number"
-                  name="system.attributes.soma.current"
-                  value="{{system.attributes.soma.current}}"
-                  data-dtype="Number"
-                  min="0"
-                  max="{{system.attributes.soma.max}}"
-                />
-                <span class="sep">/</span>
-                <input
-                  type="number"
-                  name="system.attributes.soma.max"
-                  value="{{system.attributes.soma.max}}"
-                  data-dtype="Number"
-                  min="0"
-                />
-                <button
-                  type="button"
-                  class="soma-adjust"
-                  data-action="recover"
-                  title="{{localize 'BROKENTALES.Recover'}}"
-                >
-                  <i class="fas fa-plus"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="attribute wounds">
-              <label>{{localize "BROKENTALES.Fields.Wounds"}}</label>
-              <div class="wounds-track">
-                {{#times system.attributes.wounds.max}} <input type="checkbox"
-                class="wound-checkbox" name="wound-{{this}}" {{checked (lt this
-                ../system.attributes.wounds.current)}}
-                data-wound-index="{{this}}"/> {{/times}}
-              </div>
-              <div class="wounds-extra">
-                <label>{{localize "BROKENTALES.Fields.WoundsExtra"}}</label>
-                <input
-                  type="checkbox"
-                  name="system.attributes.wounds.extra.value"
-                  {{checked
-                  system.attributes.wounds.extra.value}}
-                  data-dtype="Boolean"
-                />
-              </div>
-            </div>
-
-            <div class="attribute xp">
-              <label>{{localize "BROKENTALES.Fields.XP"}}</label>
-              <input
-                type="number"
-                name="system.xp"
-                value="{{system.xp}}"
-                data-dtype="Number"
-                min="0"
-              />
-            </div>
+      <div class="bt-sheet-grid">
+        <section class="bt-card bt-descriptors-card">
+          <header>
+            <h2>{{localize "BROKENTALES.Fields.Descriptors"}}</h2>
+            <a class="item-control item-create" data-type="descriptor" title="{{localize 'BROKENTALES.Add'}}"><i class="fas fa-plus"></i></a>
+          </header>
+          <div class="bt-entry-list">
+            {{#each descriptors as |item id|}}
+              {{#unless @first}}
+              <article class="bt-entry item" data-item-id="{{item._id}}">
+                <h3>{{item.name}}</h3>
+                <div class="bt-prose">{{item.system.description}}</div>
+                <div class="item-controls">
+                  <a class="item-control item-edit" title="{{localize 'BROKENTALES.Edit'}}"><i class="fas fa-edit"></i></a>
+                  <a class="item-control item-delete" title="{{localize 'BROKENTALES.Delete'}}"><i class="fas fa-trash"></i></a>
+                </div>
+              </article>
+              {{/unless}}
+            {{/each}}
           </div>
+        </section>
 
-          {{!-- Background --}}
-          <div class="form-group background-field">
-            <label>{{localize "BROKENTALES.Fields.Background"}}</label>
-            <textarea name="system.background" rows="6">
-{{system.background}}</textarea
-            >
+        <section class="bt-card bt-gifts-card">
+          <header>
+            <h2>{{localize "BROKENTALES.Fields.Gifts"}}</h2>
+            <a class="item-control item-create" data-type="gift" title="{{localize 'BROKENTALES.Add'}}"><i class="fas fa-plus"></i></a>
+          </header>
+          <div class="bt-entry-list">
+            {{#each gifts as |item id|}}
+              <article class="bt-entry item" data-item-id="{{item._id}}">
+                <h3>{{item.name}}</h3>
+                <div class="bt-prose">{{item.system.description}}</div>
+                {{#if item.system.cost.soma}}
+                  <p class="bt-cost"><strong>{{localize "BROKENTALES.Fields.Cost"}}:</strong> {{item.system.cost.soma}} Soma</p>
+                {{/if}}
+                <div class="item-controls">
+                  <a class="item-control gift-use" title="{{localize 'BROKENTALES.Use'}}"><i class="fas fa-magic"></i></a>
+                  <a class="item-control item-edit" title="{{localize 'BROKENTALES.Edit'}}"><i class="fas fa-edit"></i></a>
+                  <a class="item-control item-delete" title="{{localize 'BROKENTALES.Delete'}}"><i class="fas fa-trash"></i></a>
+                </div>
+              </article>
+            {{/each}}
           </div>
+        </section>
 
-          {{!-- Equipment --}}
-          <div class="form-group equipment-field">
-            <label>{{localize "BROKENTALES.Fields.Equipment"}}</label>
-            <textarea name="system.equipment" rows="4">
-{{system.equipment}}</textarea
-            >
+        <section class="bt-card bt-dark-ego-card">
+          <h2>{{localize "BROKENTALES.Fields.DarkEgo"}}</h2>
+          <label>{{localize "BROKENTALES.DarkEgo.Descriptor"}}</label>
+          <textarea name="system.darkEgo.descriptor" rows="3">{{system.darkEgo.descriptor}}</textarea>
+          <label>{{localize "BROKENTALES.DarkEgo.Gift"}}</label>
+          <textarea name="system.darkEgo.gift" rows="4">{{system.darkEgo.gift}}</textarea>
+          <label>{{localize "BROKENTALES.Fields.Trigger"}}</label>
+          <input type="text" name="system.darkEgo.trigger" value="{{system.darkEgo.trigger}}" placeholder="{{localize 'BROKENTALES.DarkEgo.TriggerPlaceholder'}}" />
+        </section>
+
+        <section class="bt-card bt-equipment-card">
+          <h2>{{localize "BROKENTALES.Fields.Equipment"}}</h2>
+          <textarea name="system.equipment" rows="6">{{system.equipment}}</textarea>
+        </section>
+      </div>
+
+      <footer class="bt-sheet-footer">
+        <div class="bt-notes-lines">
+          <label>{{localize "BROKENTALES.Fields.Notes"}}</label>
+          <textarea name="system.notes" rows="4">{{system.notes}}</textarea>
+        </div>
+        <div class="bt-stat-circles">
+          <div class="bt-stat-circle">
+            <label>{{localize "BROKENTALES.Fields.Soma"}}</label>
+            <div><input type="number" name="system.attributes.soma.current" value="{{system.attributes.soma.current}}" data-dtype="Number" min="0" max="{{system.attributes.soma.max}}" /> / <input type="number" name="system.attributes.soma.max" value="{{system.attributes.soma.max}}" data-dtype="Number" min="0" /></div>
+          </div>
+          <div class="bt-stat-circle">
+            <label>{{localize "BROKENTALES.Fields.Wounds"}}</label>
+            <div>{{system.attributes.wounds.current}} / {{system.attributes.wounds.max}}</div>
+          </div>
+          <div class="bt-stat-circle">
+            <label>{{localize "BROKENTALES.Fields.XP"}}</label>
+            <input type="number" name="system.xp" value="{{system.xp}}" data-dtype="Number" min="0" />
+          </div>
+          <div class="bt-wound-track">
+            {{#times system.attributes.wounds.max}}
+              <input type="checkbox" class="wound-checkbox" name="wound-{{this}}" value="{{this}}" {{checked (lt this ../system.attributes.wounds.current)}} data-wound-index="{{this}}" />
+            {{/times}}
+            <label>{{localize "BROKENTALES.Fields.WoundsExtra"}}</label>
+            <input type="checkbox" name="system.attributes.wounds.extra.value" {{checked system.attributes.wounds.extra.value}} data-dtype="Boolean" />
           </div>
         </div>
+      </footer>
 
-        {{!-- Right Column --}}
-        <div class="right-column">
-          {{!-- Descriptors List --}}
-          <section class="descriptors-section">
-            <h3>{{localize "BROKENTALES.Fields.Descriptors"}}</h3>
-            <div class="descriptors-list">
-              {{#each descriptors as |item id|}}
-              <div class="descriptor-block" data-item-id="{{item._id}}">
-                <div class="improvement-icon"></div>
-                <div class="descriptor-content">
-                  <h4 class="item-name">{{item.name}}</h4>
-                  <div class="item-description">
-                    {{item.system.description}}
-                  </div>
-                  <div class="item-controls">
-                    <a
-                      class="item-control item-edit"
-                      title="{{localize 'BROKENTALES.Edit'}}"
-                    >
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a
-                      class="item-control item-delete"
-                      title="{{localize 'BROKENTALES.Delete'}}"
-                    >
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {{/each}}
-            </div>
-            <div class="item-controls">
-              <a
-                class="item-control item-create"
-                data-type="descriptor"
-                title="{{localize 'BROKENTALES.Add'}}"
-              >
-                <i class="fas fa-plus"></i> {{localize
-                "BROKENTALES.Items.Descriptors"}}
-              </a>
-            </div>
-          </section>
-
-          {{!-- Gifts List --}}
-          <section class="gifts-section">
-            <h3>{{localize "BROKENTALES.Fields.Gifts"}}</h3>
-            <div class="gifts-list">
-              {{#each gifts as |item id|}}
-              <div class="gift-block" data-item-id="{{item._id}}">
-                <div class="gift-icon"></div>
-                <div class="gift-content">
-                  <h4 class="gift-name">{{item.name}}</h4>
-                  <div class="item-description">
-                    {{item.system.description}}
-                  </div>
-                  {{#if item.system.cost.soma}}
-                  <div class="gift-cost">
-                    <strong>{{localize "BROKENTALES.Fields.Cost"}}:</strong>
-                    {{item.system.cost.soma}} Soma
-                  </div>
-                  {{/if}}
-                  <div class="item-controls">
-                    <a
-                      class="item-control gift-use"
-                      title="{{localize 'BROKENTALES.Use'}}"
-                    >
-                      <i class="fas fa-magic"></i>
-                    </a>
-                    <a
-                      class="item-control item-edit"
-                      title="{{localize 'BROKENTALES.Edit'}}"
-                    >
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a
-                      class="item-control item-delete"
-                      title="{{localize 'BROKENTALES.Delete'}}"
-                    >
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              {{/each}}
-            </div>
-            <div class="item-controls">
-              <a
-                class="item-control item-create"
-                data-type="gift"
-                title="{{localize 'BROKENTALES.Add'}}"
-              >
-                <i class="fas fa-plus"></i> {{localize
-                "BROKENTALES.Items.Gifts"}}
-              </a>
-            </div>
-          </section>
-
-          {{!-- Dark Ego Section --}}
-          <section class="dark-ego-section">
-            <h3>{{localize "BROKENTALES.Fields.DarkEgo"}}</h3>
-
-            <div class="form-group">
-              <label>{{localize "BROKENTALES.Fields.Trigger"}}</label>
-              <input
-                type="text"
-                name="system.darkEgo.trigger"
-                value="{{system.darkEgo.trigger}}"
-                placeholder="{{localize 'BROKENTALES.DarkEgo.TriggerPlaceholder'}}"
-              />
-            </div>
-
-            <div class="form-group">
-              <label>{{localize "BROKENTALES.DarkEgo.Descriptor"}}</label>
-              <textarea name="system.darkEgo.descriptor" rows="2">
-{{system.darkEgo.descriptor}}</textarea
-              >
-            </div>
-
-            <div class="form-group">
-              <label>{{localize "BROKENTALES.DarkEgo.Gift"}}</label>
-              <textarea name="system.darkEgo.gift" rows="3">
-{{system.darkEgo.gift}}</textarea
-              >
-            </div>
-          </section>
-        </div>
+      <div class="roll-controls bt-roll-strip">
+        <label for="bt-dice-count">{{localize "BROKENTALES.Fields.DiceCount"}}</label>
+        <input type="number" id="bt-dice-count" name="dice-count" value="3" min="1" max="6" />
+        <button type="button" class="bt-roll-difficulty easy" data-difficulty="2"><i class="fas fa-dice-d6"></i> {{localize "BROKENTALES.Fields.Easy"}}</button>
+        <button type="button" class="bt-roll-difficulty normal" data-difficulty="3"><i class="fas fa-dice-d6"></i> {{localize "BROKENTALES.Fields.Normal"}}</button>
+        <button type="button" class="bt-roll-difficulty hard" data-difficulty="4"><i class="fas fa-dice-d6"></i> {{localize "BROKENTALES.Fields.Hard"}}</button>
+        <button type="button" class="bt-macro-repeat-button"><i class="fas fa-redo"></i> {{localize "BROKENTALES.Fields.RepeatRoll"}}</button>
       </div>
     </div>
 
-    {{!-- Items Tab --}}
     <div class="tab items" data-group="primary" data-tab="items">
       {{> "systems/brokentales/templates/actor/parts/actor-items.html"}}
     </div>
-
-    {{!-- Effects Tab --}}
     <div class="tab effects" data-group="primary" data-tab="effects">
       {{> "systems/brokentales/templates/actor/parts/actor-effects.html"}}
     </div>
-
-    {{!-- Notes Tab --}}
     <div class="tab notes" data-group="primary" data-tab="notes">
       <div class="form-group">
         <label>{{localize "BROKENTALES.Fields.Notes"}}</label>
-        {{editor system.notes target="system.notes" button=true owner=owner
-        editable=editable}}
+        {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
       </div>
-
       {{#if system.systemNote}}
       <div class="form-group system-note">
         <label>{{localize "BROKENTALES.Fields.SystemNote"}}</label>
