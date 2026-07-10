@@ -8,6 +8,24 @@
  * checks throughout the system.
  */
 
+export function installLegacySheetAliases() {
+  const foundryGlobal = globalThis.foundry;
+  if (!foundryGlobal) return;
+
+  foundryGlobal.appv1 = foundryGlobal.appv1 || {};
+  foundryGlobal.appv1.sheets = foundryGlobal.appv1.sheets || {};
+
+  if (!foundryGlobal.appv1.sheets.ActorSheet && globalThis.ActorSheet) {
+    foundryGlobal.appv1.sheets.ActorSheet = globalThis.ActorSheet;
+  }
+
+  if (!foundryGlobal.appv1.sheets.ItemSheet && globalThis.ItemSheet) {
+    foundryGlobal.appv1.sheets.ItemSheet = globalThis.ItemSheet;
+  }
+}
+
+installLegacySheetAliases();
+
 export function getFoundryMajorVersion() {
   const version = globalThis.game?.version || globalThis.game?.data?.version || "0";
   return Number.parseInt(String(version).split(".")[0], 10) || 0;
@@ -18,6 +36,7 @@ export function isFoundryV14OrNewer() {
 }
 
 export function getAppV1Sheets() {
+  installLegacySheetAliases();
   return globalThis.foundry?.appv1?.sheets || {};
 }
 
