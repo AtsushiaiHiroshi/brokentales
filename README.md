@@ -142,3 +142,17 @@ Esta instalacion local incluye texto y PDFs extraidos de archivos que posee la m
 La especificacion de elementos corroborados para adaptar el sistema con mas fidelidad esta en:
 
 `docs/rules-research.md`
+
+## Foundry VTT Installation
+
+Install the system from this manifest URL:
+
+`https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/system.json`
+
+Optional content modules:
+
+- The Broken Ones: `https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/modules/broken-tales-broken-ones/module.json`
+- Lost Stories: `https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/modules/broken-tales-lost-stories/module.json`
+
+The public install packages intentionally exclude local source PDFs, private audio, and very large source-map assets. The local development copy may contain those files for personal reference.
+

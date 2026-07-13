@@ -2,7 +2,7 @@
   "id": "broken-tales-broken-ones",
   "title": "Broken Tales - The Broken Ones",
   "description": "Expansion module for The Broken Ones content for the Broken Tales system. Public package excludes local source PDFs/audio; install over the Broken Tales system.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -125,30 +125,6 @@
       "label": "Broken Tales - The Broken Ones Adventures",
       "path": "packs/broken-ones-adventures.db",
       "type": "JournalEntry",
-      "system": "broken-tales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "broken-ones-maps",
-      "label": "Broken Tales - The Broken Ones Maps",
-      "path": "packs/broken-ones-maps.db",
-      "type": "JournalEntry",
-      "system": "broken-tales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "broken-ones-scenes",
-      "label": "Broken Tales - The Broken Ones Scenes",
-      "path": "packs/broken-ones-scenes.db",
-      "type": "Scene",
       "system": "broken-tales",
       "ownership": {
         "PLAYER": "OBSERVER",
