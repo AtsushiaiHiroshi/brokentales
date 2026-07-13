@@ -3,6 +3,16 @@ const IMPORT_FLAG = "librarySlug";
 const SUPPORT_FLAG = "supportSlug";
 const DARK_PRESENCE_FLAG = "darkPresenceSlug";
 const DARK_PRESENCES_PACK = "broken-tales.dark-presences";
+const CANON_ACTOR_PACKS = [
+  "broken-tales.hunters",
+  "broken-tales.dark-presences",
+  "broken-tales.scenario-actors",
+  "broken-tales-broken-ones.broken-ones-hunters",
+  "broken-tales-broken-ones.broken-ones-actors",
+  "broken-tales-lost-stories.lost-stories-hunters",
+  "broken-tales-lost-stories.lost-stories-actors",
+  "broken-tales-lost-stories.lost-stories-dark-presences"
+];
 
 const SUPPORT_ITEMS = [
   {
@@ -357,6 +367,73 @@ async function loadPackActors(packId) {
   return pack.getDocuments();
 }
 
+async function loadAvailableCanonActors() {
+  const documents = [];
+  for (const packId of CANON_ACTOR_PACKS) {
+    const pack = game.packs.get(packId);
+    if (!pack) continue;
+    documents.push(...await pack.getDocuments());
+  }
+  return documents;
+}
+
+function worldActorMatchesPackActor(actor, packActor) {
+  if (actor.type !== packActor.type) return false;
+  if (actor.name === packActor.name) return true;
+
+  const worldFlags = actor.flags?.["broken-tales"] ?? {};
+  const packFlags = packActor.flags?.["broken-tales"] ?? {};
+  return Object.entries(packFlags).some(([key, value]) => value && worldFlags[key] === value);
+}
+
+async function refreshActorFromPack(actor, packActor) {
+  const data = cleanPackActor(packActor);
+  const itemIds = actor.items.map((item) => item.id);
+  if (itemIds.length) await actor.deleteEmbeddedDocuments("Item", itemIds);
+
+  const update = {
+    img: data.img,
+    system: data.system,
+    flags: {
+      ...actor.flags,
+      "broken-tales": {
+        ...(actor.flags?.["broken-tales"] ?? {}),
+        ...(data.flags?.["broken-tales"] ?? {})
+      }
+    }
+  };
+  await actor.update(update);
+  if (data.items?.length) await actor.createEmbeddedDocuments("Item", data.items);
+}
+
+export async function syncWorldActorsFromCompendia({ cleanupDuplicates = false } = {}) {
+  if (!game.user.isGM) {
+    ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
+    return { updated: 0, unmatched: 0 };
+  }
+
+  const canonActors = await loadAvailableCanonActors();
+  const updated = [];
+  const unmatched = [];
+
+  for (const actor of game.actors.filter(isBrokenTalesActor)) {
+    const packActor = canonActors.find((candidate) => worldActorMatchesPackActor(actor, candidate));
+    if (!packActor) {
+      unmatched.push(actor.name);
+      continue;
+    }
+    await refreshActorFromPack(actor, packActor);
+    updated.push(actor.name);
+  }
+
+  if (cleanupDuplicates) await cleanupDuplicateActors();
+  ui.notifications.info(game.i18n.format("BROKENTALES.Notifications.WorldActorsSynced", {
+    updated: updated.length,
+    unmatched: unmatched.length
+  }));
+  return { updated: updated.length, unmatched: unmatched.length, unmatchedNames: unmatched };
+}
+
 export async function importDarkPresences({ overwrite = false } = {}) {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
@@ -573,5 +650,19 @@ export async function createDeleteWorldActorsItemsMacro() {
     type: "script",
     img: "icons/svg/skull.svg",
     command: "await game.brokenTales.deleteWorldActorsAndItems();"
+  });
+}
+
+export async function createSyncWorldActorsMacro() {
+  if (!game.user.isGM) return null;
+  const name = game.i18n.localize("BROKENTALES.Macros.SyncWorldActors");
+  const existing = game.macros.find((macro) => macro.name === name);
+  if (existing) return existing;
+  const MacroClass = Macro.implementation ?? Macro;
+  return MacroClass.create({
+    name,
+    type: "script",
+    img: "icons/svg/upgrade.svg",
+    command: "await game.brokenTales.syncWorldActorsFromCompendia();"
   });
 }

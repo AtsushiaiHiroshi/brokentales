@@ -30,6 +30,7 @@ import {
   cleanupDuplicateActors,
   createCleanupDuplicateActorsMacro,
   createDeleteWorldActorsItemsMacro,
+  createSyncWorldActorsMacro,
   deleteWorldActorsAndItems,
   createReferenceActorsImportMacro,
   createSupportImportMacro,
@@ -37,7 +38,8 @@ import {
   importLibrary,
   importReferenceActors,
   importSupportItems,
-  repairDarkPresences
+  repairDarkPresences,
+  syncWorldActorsFromCompendia
 } from "./content.mjs";
 
 Hooks.once("init", () => {
@@ -140,6 +142,8 @@ Hooks.once("ready", async () => {
     createCleanupDuplicateActorsMacro,
     deleteWorldActorsAndItems,
     createDeleteWorldActorsItemsMacro,
+    syncWorldActorsFromCompendia,
+    createSyncWorldActorsMacro,
     importSupportItems,
     createSupportImportMacro,
     importReferenceActors,
@@ -155,6 +159,7 @@ Hooks.once("ready", async () => {
       createDarkPresenceRepairMacro(),
       createCleanupDuplicateActorsMacro(),
       createDeleteWorldActorsItemsMacro(),
+      createSyncWorldActorsMacro(),
       createLibraryImportMacro(),
       createSupportImportMacro(),
       createReferenceActorsImportMacro()

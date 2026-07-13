@@ -110,5 +110,7 @@
   "BROKENTALES.Wounds": "Heridas",
   "BROKENTALES.XP": "PX",
   "BROKENTALES.XPMarked": "Marcado para PX",
-  "BROKENTALES.DropDuplicateItem": "El item ya existe en esta ficha: {name}"
+  "BROKENTALES.DropDuplicateItem": "El item ya existe en esta ficha: {name}",
+  "BROKENTALES.Macros.SyncWorldActors": "Sincronizar actores Broken Tales del mundo",
+  "BROKENTALES.Notifications.WorldActorsSynced": "Actores Broken Tales del mundo sincronizados: {updated} actualizados, {unmatched} sin coincidencia."
 }
