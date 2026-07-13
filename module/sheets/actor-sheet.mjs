@@ -56,17 +56,40 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     event.preventDefault();
     event.stopPropagation();
     const data = TextEditor.getDragEventData(event);
-    if (!data?.uuid && data?.type !== "Item") return super._onDrop?.(event);
-    const document = data.type === "Item" && Item.fromDropData
-      ? await Item.fromDropData(data)
-      : (data.uuid ? await fromUuid(data.uuid) : null);
+    const document = await this.#resolveDroppedDocument(data);
     if (!document || document.documentName !== "Item") return super._onDrop?.(event);
-    const itemData = document.toObject();
-    delete itemData._id;
-    itemData.folder = null;
+
+    const itemData = this.#prepareDroppedItemData(document);
+    const duplicate = this.document.items.find((item) => item.type === itemData.type && item.name === itemData.name);
+    if (duplicate) {
+      ui.notifications.info(game.i18n.format("BROKENTALES.DropDuplicateItem", { name: itemData.name }));
+      return false;
+    }
+
     await this.document.createEmbeddedDocuments("Item", [itemData]);
     this.render({ force: true });
     return false;
+  }
+
+  async #resolveDroppedDocument(data) {
+    if (!data) return null;
+    if (data.uuid) return fromUuid(data.uuid);
+
+    const fromDropData = Item.implementation?.fromDropData ?? Item.fromDropData;
+    if (data.type === "Item" && fromDropData) return fromDropData.call(Item.implementation ?? Item, data);
+    return null;
+  }
+
+  #prepareDroppedItemData(document) {
+    const itemData = document.toObject();
+    delete itemData._id;
+    itemData.folder = null;
+
+    if (itemData.type === "gift" && /dark ego|ego oscuro/i.test(itemData.name ?? "")) {
+      itemData.type = "darkEgo";
+    }
+
+    return itemData;
   }
 
   #prepareItems() {

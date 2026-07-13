@@ -109,5 +109,6 @@
   "BROKENTALES.Trigger": "Disparador",
   "BROKENTALES.Wounds": "Heridas",
   "BROKENTALES.XP": "PX",
-  "BROKENTALES.XPMarked": "Marcado para PX"
+  "BROKENTALES.XPMarked": "Marcado para PX",
+  "BROKENTALES.DropDuplicateItem": "El item ya existe en esta ficha: {name}"
 }
