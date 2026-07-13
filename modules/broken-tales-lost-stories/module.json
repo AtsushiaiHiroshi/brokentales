@@ -1,0 +1,190 @@
+{
+  "id": "broken-tales-lost-stories",
+  "title": "Broken Tales - Lost Stories",
+  "description": "Expansion module for Lost Stories content for the Broken Tales system. Public package excludes local source PDFs/audio; install over the Broken Tales system.",
+  "version": "0.2.4",
+  "authors": [
+    {
+      "name": "Atsushiai Hiroshi / local conversion"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "broken-tales",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.2.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "lost-stories-hunters",
+      "label": "Broken Tales - Lost Stories Hunters",
+      "path": "packs/lost-stories-hunters.db",
+      "type": "Actor",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-actors",
+      "label": "Broken Tales - Lost Stories Actors",
+      "path": "packs/lost-stories-actors.db",
+      "type": "Actor",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-dark-presences",
+      "label": "Broken Tales - Lost Stories Dark Presences",
+      "path": "packs/lost-stories-dark-presences.db",
+      "type": "Actor",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-dark-presence-descriptors",
+      "label": "Broken Tales - Lost Stories Dark Presence Descriptors",
+      "path": "packs/lost-stories-dark-presence-descriptors.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-threat-descriptors",
+      "label": "Broken Tales - Lost Stories Threat Descriptors",
+      "path": "packs/lost-stories-threat-descriptors.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-descriptors",
+      "label": "Broken Tales - Lost Stories Descriptors",
+      "path": "packs/lost-stories-descriptors.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-gifts",
+      "label": "Broken Tales - Lost Stories Gifts",
+      "path": "packs/lost-stories-gifts.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-dark-egos",
+      "label": "Broken Tales - Lost Stories Dark Egos",
+      "path": "packs/lost-stories-dark-egos.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-equipment",
+      "label": "Broken Tales - Lost Stories Equipment",
+      "path": "packs/lost-stories-equipment.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-library",
+      "label": "Broken Tales - Lost Stories Library",
+      "path": "packs/lost-stories-library.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-adventures",
+      "label": "Broken Tales - Lost Stories Adventures",
+      "path": "packs/lost-stories-adventures.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-maps",
+      "label": "Broken Tales - Lost Stories Maps",
+      "path": "packs/lost-stories-maps.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-stories-scenes",
+      "label": "Broken Tales - Lost Stories Scenes",
+      "path": "packs/lost-stories-scenes.db",
+      "type": "Scene",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "url": "https://github.com/AtsushiaiHiroshi/brokentales",
+  "manifest": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/modules/broken-tales-lost-stories/module.json",
+  "download": ""
+}
