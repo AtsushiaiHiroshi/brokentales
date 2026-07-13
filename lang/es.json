@@ -1,265 +1,113 @@
 {
-  "BROKENTALES": {
-    "SystemTitle": "Broken Tales",
-    "SystemDescription": "Un juego de rol de cuentos de hadas oscuros",
-
-    "Actor": {
-      "Character": "Cazador",
-      "NPC": "PNJ"
-    },
-
-    "Item": {
-      "Descriptor": "Descriptor",
-      "Gift": "Don",
-      "ScenarioGift": "Don de Escenario",
-      "Clue": "Pista",
-      "Object": "Objeto",
-      "Type": "Tipo",
-      "Price": "Precio",
-      "Rarity": "Rareza"
-    },
-
-    "SheetClassActor": "Hoja de Actor de Broken Tales",
-    "SheetClassItem": "Hoja de Objeto de Broken Tales",
-
-    "Tabs": {
-      "Main": "Principal",
-      "Features": "Características",
-      "Items": "Objetos",
-      "Effects": "Efectos",
-      "Abilities": "Habilidades",
-      "Description": "Descripción",
-      "Attributes": "Atributos",
-      "Details": "Detalles",
-      "Notes": "Notas"
-    },
-
-    "Attributes": {
-      "Soma": "Soma",
-      "Wounds": "Heridas",
-      "XP": "Puntos de Experiencia"
-    },
-
-    "Fields": {
-      "Name": "Nombre",
-      "Background": "Trasfondo",
-      "Equipment": "Equipo",
-      "Descriptors": "Descriptores",
-      "Gifts": "Dones",
-      "DarkEgo": "Ego Oscuro",
-      "Trigger": "Activador",
-      "Conditions": "Condiciones",
-      "Notes": "Notas",
-      "Soma": "Soma",
-      "SomaCurrent": "Soma Actual",
-      "SomaMax": "Soma Máximo",
-      "Wounds": "Heridas",
-      "WoundsCurrent": "Heridas Actuales",
-      "WoundsMax": "Heridas Máximas",
-      "WoundsExtra": "Herida Extra",
-      "Damage": "Daño",
-      "State": "Estado",
-      "Description": "Descripción",
-      "XP": "Experiencia",
-      "NPCType": "Tipo de PNJ",
-      "Villager": "Aldeano",
-      "broken_one": "Corrompido",
-      "Creature": "Criatura",
-      "Adversary": "Adversario",
-      "ThreatType": "Amenaza",
-      "Object": "Objeto",
-      "Obstacle": "Obstáculo",
-      "DiceCount": "Cantidad de Dados",
-      "Difficulty": "Dificultad",
-      "Agenda": "Agenda",
-      "OppositionLevel": "Nivel de Oposición",
-      "Easy": "Fácil",
-      "Normal": "Normal",
-      "Hard": "Difícil",
-      "Weapons": "Armas",
-      "Objects": "Objetos",
-      "SystemNote": "Nota del Sistema",
-      "Roll": "Tirada",
-      "RepeatRoll": "Repetir Tirada",
-      "Cost": "Coste",
-      "Uses": "Usos",
-      "Effect": "Efecto",
-      "Location": "Ubicación",
-      "Importance": "Importancia",
-      "Found": "Encontrado",
-      "Scenario": "Escenario",
-      "Quantity": "Cantidad",
-      "Weight": "Peso",
-      "Value": "Valor",
-      "Equipped": "Equipado",
-      "Properties": "Propiedades"
-    },
-
-    "Items": {
-      "Descriptors": "Descriptores",
-      "Gifts": "Dones"
-    },
-
-    "Descriptor": {
-      "Type": "Tipo",
-      "Narrative": "Narrativo",
-      "Mechanical": "Mecánico",
-      "IsImprovement": "Es una Mejora",
-      "UsesHint": "Dejar el máximo en 0 para usos ilimitados"
-    },
-
-    "Gift": {
-      "Type": "Tipo",
-      "Narrative": "Narrativo",
-      "Mechanical": "Mecánico",
-      "Effect": "Efecto",
-      "SomaCost": "Coste de Soma",
-      "SomaCostHint": "Cantidad de Soma necesaria para activar este Don",
-      "IsUnique": "Es Único",
-      "IsUniqueHint": "Los Dones únicos solo pueden tomarse una vez",
-      "UseGift": "Usar Don"
-    },
-
-    "DarkEgo": {
-      "Descriptor": "Descriptor del Ego Oscuro",
-      "Gift": "Don del Ego Oscuro",
-      "TriggerPlaceholder": "Describe el desencadenante para activar tu Ego Oscuro..."
-    },
-
-    "NPC": {
-      "StatePlaceholder": "Activo, Herido, Incapacitado...",
-      "AbilityName": "Nombre de Habilidad",
-      "AbilityDescription": "Descripción de Habilidad",
-      "AbilityCost": "Coste",
-      "AddAbility": "Añadir Habilidad",
-      "Description": "Descripción",
-      "Motivation": "Motivación",
-      "OppositionLevel": "Nivel de Oposición",
-      "Type": "Tipo"
-    },
-
-    "Roll": {
-      "Title": "Tirada de Broken Tales ({dice}d6)",
-      "TitleWithDifficulty": "🎲 Tirada de Broken Tales",
-      "SomaBoostTitle": "⚡ Tirada con Soma ({dice}d6)",
-      "DarkEgoTitle": "👿 Activación de Ego Oscuro ({dice}d6)",
-      "Character": "Personaje",
-      "Results": "Resultados",
-      "Successes": "Éxitos",
-      "TotalSuccesses": "Total de Éxitos",
-      "BonusSuccesses": "Éxitos Bonus",
-      "SomaSpent": "Soma Gastado",
-      "NotEnoughSoma": "{name} no tiene suficiente Soma",
-      "Difficulty": "Dificultad",
-      "CriticalFailure": "❌ ¡Fallo Crítico! Ha salido un 1.",
-      "Failure": "❌ Fallo. Necesitabas {difficulty}, solo conseguiste {successes} éxitos.",
-      "SuccessExact": "⚠️ Éxito con coste (exactamente {successes} éxitos).",
-      "SuccessPlus1": "✅ ¡Éxito! ({successes} éxitos)",
-      "SuccessPlus": "✨ ¡Éxito! ({successes} éxitos)",
-      "NoPrevious": "No se encontró ninguna tirada previa de Broken Tales en el chat.",
-      "MissingActor": "No se pudo identificar al actor de la última tirada.",
-      "Error": "Algo salió mal con la tirada."
-    },
-
-    "Dialog": {
-      "Continue": "¿Deseas continuar?",
-      "ContinueTitle": "Continuar",
-      "SpendSoma": "¿Gastar {amount} Soma?",
-      "DeleteItem": "¿Eliminar este objeto permanentemente?",
-      "DeleteEffect": "¿Eliminar este efecto permanentemente?",
-      "Yes": "Sí",
-      "No": "No"
-    },
-
-    "Error": {
-      "InvalidSoma": "El actor no tiene un atributo de Soma válido",
-      "InvalidAttributes": "El actor no tiene los atributos necesarios (Soma o Heridas)",
-      "NoDarkEgo": "El actor no tiene un Ego Oscuro válido"
-    },
-
-    "Unnamed": "Sin nombre",
-
-    "Effects": {
-      "Active": "Efectos Activos",
-      "AddEffect": "Añadir Efecto",
-      "Effects": "Efectos",
-      "Enable": "Activar",
-      "Disable": "Desactivar",
-      "New": "Nuevo Efecto"
-    },
-
-    "Settings": {
-      "DiceSound": {
-        "Name": "Reproducir Sonidos de Dados",
-        "Hint": "Reproducir efectos de sonido al lanzar dados"
-      },
-      "AutoWounds": {
-        "Name": "Seguimiento Automático de Heridas",
-        "Hint": "Rastrear automáticamente las heridas y verificar la muerte"
-      },
-      "ConfirmSoma": {
-        "Name": "Confirmar Gasto de Soma",
-        "Hint": "Mostrar diálogo de confirmación al gastar Soma"
-      },
-      "ChatPortraits": {
-        "Name": "Mostrar Retratos en el Chat",
-        "Hint": "Mostrar retratos de actores en los mensajes del chat"
-      }
-    },
-
-    "Status": {
-      "Wounded": "Herido",
-      "Dying": "Muriendo",
-      "Corrupted": "Corrompido",
-      "Blessed": "Bendecido"
-    },
-
-    "Add": "Añadir",
-    "Edit": "Editar",
-    "Delete": "Eliminar",
-    "Use": "Usar",
-    "Spend": "Gastar",
-    "Recover": "Recuperar",
-    "Cancel": "Cancelar",
-    "Confirm": "Confirmar",
-    "Yes": "Sí",
-    "No": "No",
-
-    "Notifications": {
-      "SomaSpent": "{name} gastó {amount} Soma",
-      "SomaRecovered": "{name} recuperó {amount} Soma",
-      "NotEnoughSoma": "¡{name} no tiene suficiente Soma!",
-      "WoundTaken": "{name} recibió 1 Herida",
-      "WoundHealed": "{name} curó 1 Herida",
-      "CharacterDead": "¡{name} ha muerto!",
-      "GiftUsed": "{name} usó {gift}"
-    },
-
-    "Narrative": "Narrativo",
-    "Mechanical": "Mecánico",
-    "Improvement": "Mejora",
-
-    "Scenarios": {
-      "RedHoodIskra": "Caperucita Roja - Iskra"
-    },
-
-    "ScenarioGifts": {
-      "VoiceOfSpirits": {
-        "name": "Voz de los Espíritus",
-        "requirement": "Has entrado en contacto con un Espíritu con el Don Espíritu.",
-        "effect": "Al calmar tu mente y concentrarte, puedes abrirte al mundo espiritual y comunicarte con almas en pena. Gasta 1 Soma para contactar a una creatura con el Don Espíritu que hayas encontrado antes. No sufres la Herida causada por el estrés de ésta conexión espiritual."
-      },
-      "WolfKiller": {
-        "name": "Asesino de Lobos",
-        "requirement": "Te has enfrentado al menos una vez a los lobos en combate.",
-        "effect": "Sabes cómo lidiar con las fieras y no dejarte rodear. Al obtener al menos un Resultado Estándar en una Tirada de Oposición o Defensa contra una jauría de bestias, puedes eliminar inmediatamente a 1 PNJ animal Menor con 1 Herida."
-      },
-      "Sweetie": {
-        "name": "¿A dónde vas sola, dulzura?",
-        "requirement": "Has encontrado a Iskra sola en el bosque.",
-        "effect": "Te atrae la niña que finge ser un lobo y sueñas con devorarla. Una vez por Escena, puedes gastar 1 Soma para saber exactamente dónde está. Si la anticipas y llegas antes, obtienes 1 Éxito Adicional en todas tus Tiradas para herirla o devorarla. Mientras esté presente en la Escena, sufres 1 Penalizador en todas tus Tiradas de Defensa.",
-        "specialFor": "Don Especial para Garou el Viejo Lobo"
-      }
-    }
-  }
+  "BROKENTALES.ActorTypes.Hunter": "Cazador",
+  "BROKENTALES.ActorTypes.NPC": "PNJ",
+  "BROKENTALES.ActorTypes.Threat": "Amenaza",
+  "BROKENTALES.ActorTypes.Villager": "Aldeano",
+  "BROKENTALES.ActorTypes.Essence": "Espiritu / Esencia",
+  "BROKENTALES.Age": "Edad",
+  "BROKENTALES.Bookmark": "Punto de libro",
+  "BROKENTALES.Bond": "Vinculo",
+  "BROKENTALES.Concept": "Concepto",
+  "BROKENTALES.ContactWithBrokenTales": "Contacto con los cuentos rotos",
+  "BROKENTALES.DarkEgo": "Ego oscuro",
+  "BROKENTALES.Darkness": "Oscuridad",
+  "BROKENTALES.Delete": "Eliminar",
+  "BROKENTALES.DeleteConfirm": "Eliminar {name}?",
+  "BROKENTALES.Description": "Descripcion",
+  "BROKENTALES.DistinguishingFeatures": "Rasgos distintivos",
+  "BROKENTALES.Empty.Descriptors": "Sin descriptores todavia.",
+  "BROKENTALES.Empty.Gifts": "Sin dones todavia.",
+  "BROKENTALES.Exhausted": "Agotado",
+  "BROKENTALES.EssenceAnchor": "Ancla",
+  "BROKENTALES.EssenceManifestation": "Manifestacion",
+  "BROKENTALES.EssenceNature": "Naturaleza",
+  "BROKENTALES.AdditionalGifts": "Dones adicionales",
+  "BROKENTALES.ExtraWound": "Herida adicional",
+  "BROKENTALES.Identity": "Identidad",
+  "BROKENTALES.Item": "Item",
+  "BROKENTALES.ItemTypes.Condition": "Condicion",
+  "BROKENTALES.ItemTypes.Descriptor": "Descriptor",
+  "BROKENTALES.ItemTypes.DarkEgo": "Ego oscuro",
+  "BROKENTALES.ItemTypes.Equipment": "Equipo",
+  "BROKENTALES.ItemTypes.Gift": "Don",
+  "BROKENTALES.ItemTypes.StoryElement": "Elemento de historia",
+  "BROKENTALES.ItemTypes.Wound": "Herida",
+  "BROKENTALES.NegativeFace": "Cara negativa",
+  "BROKENTALES.NewItem": "Nuevo {type}",
+  "BROKENTALES.Macros.ImportPregens": "Importar pregenerados de Broken Tales",
+  "BROKENTALES.Macros.ImportDarkPresences": "Importar presencias oscuras de Broken Tales",
+  "BROKENTALES.Macros.RepairDarkPresences": "Reparar presencias oscuras de Broken Tales",
+  "BROKENTALES.Macros.RepairPregens": "Reparar pregenerados de Broken Tales",
+  "BROKENTALES.Macros.CleanupDuplicateActors": "Limpiar actores duplicados de Broken Tales",
+  "BROKENTALES.Macros.DeleteWorldActorsItems": "Borrar todos los actores e items del mundo",
+  "BROKENTALES.Notes": "Notas",
+  "BROKENTALES.Notifications.GMOnly": "Solo un GM puede importar contenido de Broken Tales.",
+  "BROKENTALES.Notifications.DarkPresencesImported": "Presencias oscuras de Broken Tales: {created} creadas, {skipped} omitidas.",
+  "BROKENTALES.Notifications.DeleteCancelled": "Borrado cancelado.",
+  "BROKENTALES.Notifications.DeleteWorldActorsItemsConfirm": "Esto borrara {actors} actores, {items} items del mundo y carpetas vacias de Actores/Items.",
+  "BROKENTALES.Notifications.DuplicatesCleaned": "Actores duplicados de Broken Tales limpiados: {deleted} eliminados.",
+  "BROKENTALES.Notifications.CompendiaNotDeleted": "Los compendios no se borraran.",
+  "BROKENTALES.Notifications.PregensImported": "Pregenerados de Broken Tales: {created} creados, {skipped} omitidos.",
+  "BROKENTALES.Notifications.WorldActorsItemsDeleted": "Se borraron {actors} actores y {items} items del mundo.",
+  "BROKENTALES.Packs.AdventureMaps": "Broken Tales - Mapas y recursos visuales",
+  "BROKENTALES.Packs.Adventures": "Broken Tales - Aventuras y escenarios",
+  "BROKENTALES.Packs.AdventureScenes": "Broken Tales - Escenas de mapas",
+  "BROKENTALES.Packs.Audit": "Broken Tales - Auditoria de contenido",
+  "BROKENTALES.Packs.BrokenOneDescriptors": "Broken Tales - Descriptores de Rotos",
+  "BROKENTALES.Packs.DarkPresenceDescriptors": "Broken Tales - Descriptores de Presencias oscuras",
+  "BROKENTALES.Packs.DarkPresences": "Broken Tales - Presencias oscuras",
+  "BROKENTALES.Packs.EssenceDescriptors": "Broken Tales - Descriptores de Espiritus y Esencias",
+  "BROKENTALES.Packs.HunterDarkEgos": "Broken Tales - Egos oscuros de Cazador",
+  "BROKENTALES.Packs.HunterDescriptors": "Broken Tales - Descriptores de Cazador",
+  "BROKENTALES.Packs.HunterEquipment": "Broken Tales - Equipo de Cazadores",
+  "BROKENTALES.Packs.HunterGifts": "Broken Tales - Dones de Cazador",
+  "BROKENTALES.Packs.Hunters": "Broken Tales - Cazadores pregenerados",
+  "BROKENTALES.Packs.Library": "Broken Tales - Biblioteca completa",
+  "BROKENTALES.Packs.ScenarioActors": "Broken Tales - PNJ y Amenazas de escenarios",
+  "BROKENTALES.Packs.Support": "Broken Tales - Dones, objetos y apoyo",
+  "BROKENTALES.Packs.ThreatDescriptors": "Broken Tales - Descriptores de Amenazas",
+  "BROKENTALES.Packs.ThreatsVillagersEssences": "Broken Tales - Amenazas, aldeanos y esencias",
+  "BROKENTALES.Packs.VillagerDescriptors": "Broken Tales - Descriptores de Aldeanos",
+  "BROKENTALES.Origin": "Cuento de origen",
+  "BROKENTALES.PositiveFace": "Cara positiva",
+  "BROKENTALES.Quantity": "Cantidad",
+  "BROKENTALES.Resources": "Recursos",
+  "BROKENTALES.Role": "Rol",
+  "BROKENTALES.Roll.BaseSuccesses": "Exitos basicos",
+  "BROKENTALES.Roll.CheckType": "Tipo de prueba",
+  "BROKENTALES.Roll.DefenseCheck": "Prueba de Defensa",
+  "BROKENTALES.Roll.Descriptor": "Descriptor",
+  "BROKENTALES.Roll.DialogTitle": "Prueba de Broken Tales",
+  "BROKENTALES.Roll.Easy": "Facil",
+  "BROKENTALES.Roll.GiftSuccesses": "Exitos por Dones",
+  "BROKENTALES.Roll.Hard": "Dificil",
+  "BROKENTALES.Roll.Intermediate": "Intermedio",
+  "BROKENTALES.Roll.NarrativeModifier": "Modificador narrativo",
+  "BROKENTALES.Roll.NoDescriptor": "Sin descriptor relevante",
+  "BROKENTALES.Roll.OneCancels": "Un 1 en los dados de riesgo anula la prueba.",
+  "BROKENTALES.Roll.OppositionCheck": "Prueba de Oposicion",
+  "BROKENTALES.Roll.OppositionLevel": "Nivel de Oposicion",
+  "BROKENTALES.Roll.Outcomes.Botch": "Fracaso por riesgo",
+  "BROKENTALES.Roll.Outcomes.Cost": "Triunfo con coste",
+  "BROKENTALES.Roll.Outcomes.Failure": "Fracaso",
+  "BROKENTALES.Roll.Outcomes.Increment": "Triunfo con incremento",
+  "BROKENTALES.Roll.Outcomes.Success": "Triunfo",
+  "BROKENTALES.Roll.RiskDice": "Dados de riesgo",
+  "BROKENTALES.Roll.Penalties": "Penalizadores",
+  "BROKENTALES.Roll.PositionCheck": "Prueba de posicion",
+  "BROKENTALES.Roll.Roll": "Tirar",
+  "BROKENTALES.Roll.SomaSpent": "Soma gastado",
+  "BROKENTALES.Roll.TotalSuccesses": "Exitos totales",
+  "BROKENTALES.Sheets.Actor": "Hoja de Broken Tales",
+  "BROKENTALES.Sheets.Item": "Item de Broken Tales",
+  "BROKENTALES.SceneUsed": "Usada esta escena",
+  "BROKENTALES.Soma": "Soma",
+  "BROKENTALES.SomaCost": "Coste de Soma",
+  "BROKENTALES.Specialization": "Especializacion",
+  "BROKENTALES.ThreatImpulse": "Impulso",
+  "BROKENTALES.ThreatRank": "Rango",
+  "BROKENTALES.Trigger": "Disparador",
+  "BROKENTALES.Wounds": "Heridas",
+  "BROKENTALES.XP": "PX",
+  "BROKENTALES.XPMarked": "Marcado para PX"
 }

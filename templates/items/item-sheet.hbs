@@ -1,0 +1,93 @@
+<section class="bt-sheet bt-item-sheet">
+  <header class="bt-header compact">
+    <div class="bt-portrait">
+      <img src="{{item.img}}" alt="{{item.name}}" />
+      <input type="text" name="img" value="{{item.img}}" {{fieldDisabled}} />
+    </div>
+    <div class="bt-title-block">
+      <div class="bt-ink-title compact {{nameLengthClass}}">
+        <input class="bt-name" type="text" name="name" value="{{item.name}}" {{fieldDisabled}} />
+      </div>
+      <div class="bt-subtitle"><span>{{typeLabel}}</span></div>
+    </div>
+  </header>
+
+  {{#if isDescriptor}}
+  <section class="bt-panel">
+    <label>
+      <span>{{localize "BROKENTALES.PositiveFace"}}</span>
+      <textarea name="system.positive" {{fieldDisabled}}>{{system.positive}}</textarea>
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.NegativeFace"}}</span>
+      <textarea name="system.negative" {{fieldDisabled}}>{{system.negative}}</textarea>
+    </label>
+    <label class="bt-checkbox">
+      <input type="checkbox" name="system.exhausted" {{checked system.exhausted}} {{fieldDisabled}} />
+      <span>{{localize "BROKENTALES.Exhausted"}}</span>
+    </label>
+    <label class="bt-checkbox">
+      <input type="checkbox" name="system.xpMarked" {{checked system.xpMarked}} {{fieldDisabled}} />
+      <span>{{localize "BROKENTALES.XPMarked"}}</span>
+    </label>
+    <label class="bt-checkbox">
+      <input type="checkbox" name="system.specialization" {{checked system.specialization}} {{fieldDisabled}} />
+      <span>{{localize "BROKENTALES.Specialization"}}</span>
+    </label>
+    <label class="bt-checkbox">
+      <input type="checkbox" name="system.sceneUsed" {{checked system.sceneUsed}} {{fieldDisabled}} />
+      <span>{{localize "BROKENTALES.SceneUsed"}}</span>
+    </label>
+  </section>
+  {{/if}}
+
+  {{#if isGift}}
+  <section class="bt-panel">
+    <label>
+      <span>{{localize "BROKENTALES.Roll.GiftSuccesses"}}</span>
+      <input type="number" name="system.automaticSuccesses" value="{{system.automaticSuccesses}}" min="0" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.SomaCost"}}</span>
+      <input type="number" name="system.somaCost" value="{{system.somaCost}}" min="0" {{fieldDisabled}} />
+    </label>
+  </section>
+  {{/if}}
+
+  {{#if isDarkEgo}}
+  <section class="bt-panel">
+    <label>
+      <span>{{localize "BROKENTALES.Trigger"}}</span>
+      <input type="text" name="system.trigger" value="{{system.trigger}}" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.Roll.GiftSuccesses"}}</span>
+      <input type="number" name="system.automaticSuccesses" value="{{system.automaticSuccesses}}" min="0" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.SomaCost"}}</span>
+      <input type="number" name="system.somaCost" value="{{system.somaCost}}" min="0" {{fieldDisabled}} />
+    </label>
+  </section>
+  {{/if}}
+
+  {{#if isEquipment}}
+  <section class="bt-panel">
+    <label>
+      <span>{{localize "BROKENTALES.Quantity"}}</span>
+      <input type="number" name="system.quantity" value="{{system.quantity}}" min="0" {{fieldDisabled}} />
+    </label>
+  </section>
+  {{/if}}
+
+  <section class="bt-panel">
+    <label>
+      <span>{{localize "BROKENTALES.Description"}}</span>
+      <textarea name="system.description" {{fieldDisabled}}>{{system.description}}</textarea>
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.Notes"}}</span>
+      <textarea name="system.notes" {{fieldDisabled}}>{{system.notes}}</textarea>
+    </label>
+  </section>
+</section>

@@ -399,3 +399,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Broken Tales local/private source material and runtime databases
+/assets/source-pdfs/
+/assets/audio/
+**/LOCK
+**/LOG
+**/LOG.old
+**/CURRENT
+**/MANIFEST-*

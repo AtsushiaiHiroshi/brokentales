@@ -1,0 +1,1064 @@
+{
+  "summary": {
+    "sourceRoot": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]",
+    "totalPdfs": 55,
+    "byOwner": {
+      "system": 47,
+      "broken-ones": 3,
+      "lost-stories": 5
+    },
+    "byStatus": {
+      "OK": 55
+    },
+    "systemPacks": 19,
+    "brokenPacks": 15,
+    "lostPacks": 14,
+    "alerts": []
+  },
+  "rows": [
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Europe Map.pdf",
+      "rel": "Broken Europe Map.pdf",
+      "slug": "broken-europe-map",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 1920501,
+      "hits": {
+        "system": [
+          "library:Broken Europe Map",
+          "adventure-maps:Broken Europe Map",
+          "adventure-scenes:Broken Europe Map",
+          "adventure-scenes:Broken Europe Map",
+          "source-pdfs:Broken Europe Map"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+      "rel": "Broken Tales - Basic Hunters Sheets.pdf",
+      "slug": "broken-tales-basic-hunters-sheets",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "sheet-support",
+      "size": 117083930,
+      "hits": {
+        "system": [
+          "source-pdfs:Broken Tales - Basic Hunters Sheets"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Core Rulebook.pdf",
+      "rel": "Broken Tales - Core Rulebook.pdf",
+      "slug": "broken-tales-core-rulebook",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "rulebook",
+      "size": 140105587,
+      "hits": {
+        "system": [
+          "source-pdfs:Broken Tales - Core Rulebook"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+      "rel": "Broken Tales - The Broken Ones Hunters Sheets.pdf",
+      "slug": "broken-tales-the-broken-ones-hunters-sheets",
+      "owner": "broken-ones",
+      "reason": "The Broken Ones filename/path",
+      "language": "unknown",
+      "kind": "sheet-support",
+      "size": 118107925,
+      "hits": {
+        "system": [],
+        "broken": [
+          "broken-ones-source-pdfs:Broken Tales - The Broken Ones Hunters Sheets"
+        ],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones.pdf",
+      "rel": "Broken Tales - The Broken Ones.pdf",
+      "slug": "broken-tales-the-broken-ones",
+      "owner": "broken-ones",
+      "reason": "The Broken Ones filename/path",
+      "language": "unknown",
+      "kind": "source",
+      "size": 238622067,
+      "hits": {
+        "system": [],
+        "broken": [
+          "broken-ones-library:Broken Tales - The Broken Ones - Villager's Sheet",
+          "broken-ones-source-pdfs:Broken Tales - The Broken Ones"
+        ],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Book ALT.pdf",
+      "rel": "Broken Tales Book ALT.pdf",
+      "slug": "broken-tales-book-alt",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "source",
+      "size": 38869193,
+      "hits": {
+        "system": [
+          "source-pdfs:Broken Tales Book ALT"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Book.pdf",
+      "rel": "Broken Tales Book.pdf",
+      "slug": "broken-tales-book",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "source",
+      "size": 2825840,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Bookmarks",
+          "source-pdfs:Broken Tales Book"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Sheets ENG\\Broken Tales - Bookmarks [2022-06-30].pdf",
+      "rel": "Broken Tales Sheets ENG/Broken Tales - Bookmarks [2022-06-30].pdf",
+      "slug": "broken-tales-bookmarks-2022-06-30",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 1587924,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Bookmarks",
+          "source-pdfs:Broken Tales - Bookmarks [2022-06-30]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Sheets ENG\\Broken Tales - Hunter's Sheet [2022-06-30].pdf",
+      "rel": "Broken Tales Sheets ENG/Broken Tales - Hunter's Sheet [2022-06-30].pdf",
+      "slug": "broken-tales-hunter-s-sheet-2022-06-30",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 391182,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Hunter's Sheet",
+          "source-pdfs:Broken Tales - Hunter's Sheet [2022-06-30]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Sheets ENG\\Broken Tales - Map [2022-06-30].pdf",
+      "rel": "Broken Tales Sheets ENG/Broken Tales - Map [2022-06-30].pdf",
+      "slug": "broken-tales-map-2022-06-30",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 3307125,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Map",
+          "adventure-maps:Broken Europe Map",
+          "source-pdfs:Broken Tales - Map [2022-06-30]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Sheets ENG\\Broken Tales - Scenario Summary Sheet [2022-06-30].pdf",
+      "rel": "Broken Tales Sheets ENG/Broken Tales - Scenario Summary Sheet [2022-06-30].pdf",
+      "slug": "broken-tales-scenario-summary-sheet-2022-06-30",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "adventure-support",
+      "size": 726618,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Scenario Summary Sheet",
+          "source-pdfs:Broken Tales - Scenario Summary Sheet [2022-06-30]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales Sheets ENG\\Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30].pdf",
+      "rel": "Broken Tales Sheets ENG/Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30].pdf",
+      "slug": "broken-tales-the-broken-ones-villager-s-sheet-2022-06-30",
+      "owner": "broken-ones",
+      "reason": "The Broken Ones filename/path",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 166915,
+      "hits": {
+        "system": [],
+        "broken": [
+          "broken-ones-library:Broken Tales - The Broken Ones - Villager's Sheet",
+          "broken-ones-source-pdfs:Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30]"
+        ],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Cunning Machiavelli the Fox & Sly Bischeri the Cat.pdf",
+      "rel": "Cunning Machiavelli the Fox & Sly Bischeri the Cat.pdf",
+      "slug": "cunning-machiavelli-the-fox-sly-bischeri-the-cat",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 5208905,
+      "hits": {
+        "system": [
+          "source-pdfs:Cunning Machiavelli the Fox & Sly Bischeri the Cat"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Ayuda del Mapa de la Europa Rota y Encuentros.pdf",
+      "rel": "Extras/Ayuda del Mapa de la Europa Rota y Encuentros.pdf",
+      "slug": "ayuda-del-mapa-de-la-europa-rota-y-encuentros",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "sheet-support",
+      "size": 3497420,
+      "hits": {
+        "system": [
+          "source-pdfs:Ayuda del Mapa de la Europa Rota y Encuentros"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Ayudas para el Narrador.pdf",
+      "rel": "Extras/Ayudas para el Narrador.pdf",
+      "slug": "ayudas-para-el-narrador",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "source",
+      "size": 1320049,
+      "hits": {
+        "system": [
+          "source-pdfs:Ayudas para el Narrador"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Baba Yaga, la Niña Bruja.pdf",
+      "rel": "Extras/Baba Yaga, la Niña Bruja.pdf",
+      "slug": "baba-yaga-la-ni-a-bruja",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2454202,
+      "hits": {
+        "system": [
+          "source-pdfs:Baba Yaga, la Niña Bruja"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Babai, el Juez.pdf",
+      "rel": "Extras/Babai, el Juez.pdf",
+      "slug": "babai-el-juez",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2764094,
+      "hits": {
+        "system": [
+          "source-pdfs:Babai, el Juez"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Devir - Hojas de Cazador [BT002].pdf",
+      "rel": "Extras/Broken Tales - Devir - Hojas de Cazador [BT002].pdf",
+      "slug": "broken-tales-devir-hojas-de-cazador-bt002",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "sheet-support",
+      "size": 93379948,
+      "hits": {
+        "system": [
+          "source-pdfs:Broken Tales - Devir - Hojas de Cazador [BT002]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Devir - Manual Jugadores y Narrador.pdf",
+      "rel": "Extras/Broken Tales - Devir - Manual Jugadores y Narrador.pdf",
+      "slug": "broken-tales-devir-manual-jugadores-y-narrador",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "rulebook",
+      "size": 156280873,
+      "hits": {
+        "system": [
+          "source-pdfs:Broken Tales - Devir - Manual Jugadores y Narrador"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Hojas de Cazador.pdf",
+      "rel": "Extras/Broken Tales - Hojas de Cazador.pdf",
+      "slug": "broken-tales-hojas-de-cazador",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "sheet-support",
+      "size": 93379948,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Hojas de Cazador",
+          "source-pdfs:Broken Tales - Hojas de Cazador"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+      "rel": "Extras/Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+      "slug": "broken-tales-lost-stories-exclusive-pre-gen-hunters",
+      "owner": "lost-stories",
+      "reason": "Lost Stories filename/path",
+      "language": "en",
+      "kind": "source",
+      "size": 4882234,
+      "hits": {
+        "system": [],
+        "broken": [],
+        "lost": [
+          "lost-stories-hunters:Moriarty the Gentleman Thief",
+          "lost-stories-hunters:The Pale Medic",
+          "lost-stories-hunters:The Respectable Mr. and Mrs. Mars",
+          "lost-stories-hunters:Doctor V. Frankenstein",
+          "lost-stories-hunters:Lost Stories Exclusives Hunter 5",
+          "lost-stories-hunters:Lost Stories Exclusives Hunter 6",
+          "lost-stories-hunters:Lost Stories Exclusives Hunter 7",
+          "lost-stories-hunters:Lost Stories Exclusives Hunter 8",
+          "lost-stories-hunters:Lost Stories Exclusives Hunter 9",
+          "lost-stories-descriptors:Moriarty the Gentleman Thief - Descriptor 1"
+        ]
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Manual Básico.pdf",
+      "rel": "Extras/Broken Tales - Manual Básico.pdf",
+      "slug": "broken-tales-manual-b-sico",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "rulebook",
+      "size": 158852148,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Manual Básico",
+          "source-pdfs:Broken Tales - Manual Básico"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Storyteller's Screen (OEF).pdf",
+      "rel": "Extras/Broken Tales - Storyteller's Screen (OEF).pdf",
+      "slug": "broken-tales-storyteller-s-screen-oef",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 1915578,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Storyteller's Screen (OEF)",
+          "source-pdfs:Broken Tales - Storyteller's Screen (OEF)"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG.pdf",
+      "rel": "Extras/Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG.pdf",
+      "slug": "broken-tales-lost-stories-hunters-sheets-oef-2024-09-24-1-2-eng",
+      "owner": "lost-stories",
+      "reason": "Lost Stories filename/path",
+      "language": "unknown",
+      "kind": "sheet-support",
+      "size": 5470307,
+      "hits": {
+        "system": [],
+        "broken": [],
+        "lost": [
+          "lost-stories-library:Broken Tales Lost Stories Hunters Sheets OEF,",
+          "lost-stories-source-pdfs:Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG"
+        ]
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN.pdf",
+      "rel": "Extras/Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN.pdf",
+      "slug": "broken-tales-lost-stories-oef-2024-10-09-book-1-eng-screen",
+      "owner": "lost-stories",
+      "reason": "Lost Stories filename/path",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 23747618,
+      "hits": {
+        "system": [],
+        "broken": [],
+        "lost": [
+          "lost-stories-library:Broken Tales Lost Stories OEF,",
+          "lost-stories-source-pdfs:Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN"
+        ]
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-book-1-ENG-SCREEN.pdf",
+      "rel": "Extras/bt-ls-book-1-ENG-SCREEN.pdf",
+      "slug": "bt-ls-book-1-eng-screen",
+      "owner": "lost-stories",
+      "reason": "Lost Stories filename/path",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 23747618,
+      "hits": {
+        "system": [],
+        "broken": [],
+        "lost": [
+          "lost-stories-actors:The Green Knight",
+          "lost-stories-actors:Robbers",
+          "lost-stories-actors:The Magic Lake Portal",
+          "lost-stories-actors:Ivory Seeking Pirates",
+          "lost-stories-actors:3: Mikko",
+          "lost-stories-actors:The Imposter",
+          "lost-stories-actors:Haunted House",
+          "lost-stories-actors:Helpers",
+          "lost-stories-actors:Fury and Wrath, the Two Deadly Twins",
+          "lost-stories-actors:Fredrika Okland"
+        ]
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+      "rel": "Extras/bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+      "slug": "bt-ls-hunters-sheets-1-2-eng-base-screen",
+      "owner": "lost-stories",
+      "reason": "Lost Stories filename/path",
+      "language": "en",
+      "kind": "sheet-support",
+      "size": 5470307,
+      "hits": {
+        "system": [],
+        "broken": [],
+        "lost": [
+          "lost-stories-hunters:Miss Snow and Lady Storm",
+          "lost-stories-hunters:Tremoteus Rumpel",
+          "lost-stories-hunters:Prince Trollo the Innocent",
+          "lost-stories-hunters:Pietrik and the Cauldron Fae",
+          "lost-stories-hunters:Loki the Deceiver",
+          "lost-stories-hunters:The Silent Mother",
+          "lost-stories-hunters:Karasu Kuroi the Wandering Monk",
+          "lost-stories-hunters:The 7 Hessian Mercenaries",
+          "lost-stories-hunters:Circe the Alchemist",
+          "lost-stories-hunters:Captain William of Nottingham"
+        ]
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Como usar los Cazadores.pdf",
+      "rel": "Extras/Como usar los Cazadores.pdf",
+      "slug": "como-usar-los-cazadores",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "source",
+      "size": 4578879,
+      "hits": {
+        "system": [
+          "source-pdfs:Como usar los Cazadores"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Creación de Cazadores.pdf",
+      "rel": "Extras/Creación de Cazadores.pdf",
+      "slug": "creaci-n-de-cazadores",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "source",
+      "size": 6127079,
+      "hits": {
+        "system": [
+          "source-pdfs:Creación de Cazadores"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Creación de Escenarios.pdf",
+      "rel": "Extras/Creación de Escenarios.pdf",
+      "slug": "creaci-n-de-escenarios",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "adventure-support",
+      "size": 7291602,
+      "hits": {
+        "system": [
+          "source-pdfs:Creación de Escenarios"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Creación de Presencias Oscuras y Ejemplos.pdf",
+      "rel": "Extras/Creación de Presencias Oscuras y Ejemplos.pdf",
+      "slug": "creaci-n-de-presencias-oscuras-y-ejemplos",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "source",
+      "size": 19771505,
+      "hits": {
+        "system": [
+          "source-pdfs:Creación de Presencias Oscuras y Ejemplos"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Derdoux, Barba Azul.pdf",
+      "rel": "Extras/Derdoux, Barba Azul.pdf",
+      "slug": "derdoux-barba-azul",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2525639,
+      "hits": {
+        "system": [
+          "source-pdfs:Derdoux, Barba Azul"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\El Asombroso Flautista sin Nombre.pdf",
+      "rel": "Extras/El Asombroso Flautista sin Nombre.pdf",
+      "slug": "el-asombroso-flautista-sin-nombre",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 3296917,
+      "hits": {
+        "system": [
+          "source-pdfs:El Asombroso Flautista sin Nombre"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\El Inmortal.pdf",
+      "rel": "Extras/El Inmortal.pdf",
+      "slug": "el-inmortal",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 2372966,
+      "hits": {
+        "system": [
+          "source-pdfs:El Inmortal"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Escenarios de Juego (Aventuras y Campañas).pdf",
+      "rel": "Extras/Escenarios de Juego (Aventuras y Campañas).pdf",
+      "slug": "escenarios-de-juego-aventuras-y-campa-as",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "adventure-support",
+      "size": 158307439,
+      "hits": {
+        "system": [
+          "source-pdfs:Escenarios de Juego (Aventuras y Campañas)"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Escenarios.pdf",
+      "rel": "Extras/Escenarios.pdf",
+      "slug": "escenarios",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "adventure-support",
+      "size": 153879037,
+      "hits": {
+        "system": [
+          "library:Broken Tales - Manual Básico",
+          "source-pdfs:Creación de Escenarios",
+          "source-pdfs:Escenarios de Juego (Aventuras y Campañas)",
+          "source-pdfs:Escenarios"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Garou, el Viejo Lobo.pdf",
+      "rel": "Extras/Garou, el Viejo Lobo.pdf",
+      "slug": "garou-el-viejo-lobo",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 1793836,
+      "hits": {
+        "system": [
+          "source-pdfs:Garou, el Viejo Lobo"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Hoja de Cazador Editable.pdf",
+      "rel": "Extras/Hoja de Cazador Editable.pdf",
+      "slug": "hoja-de-cazador-editable",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "sheet-support",
+      "size": 951008,
+      "hits": {
+        "system": [
+          "source-pdfs:Hoja de Cazador Editable"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Hoja de Cazador.pdf",
+      "rel": "Extras/Hoja de Cazador.pdf",
+      "slug": "hoja-de-cazador",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "sheet-support",
+      "size": 256562,
+      "hits": {
+        "system": [
+          "source-pdfs:Hoja de Cazador"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Iskra de la Caperucita Roja.pdf",
+      "rel": "Extras/Iskra de la Caperucita Roja.pdf",
+      "slug": "iskra-de-la-caperucita-roja",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 16307811,
+      "hits": {
+        "system": [
+          "source-pdfs:Iskra de la Caperucita Roja"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\La Dama de los Bosques.pdf",
+      "rel": "Extras/La Dama de los Bosques.pdf",
+      "slug": "la-dama-de-los-bosques",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 2980837,
+      "hits": {
+        "system": [
+          "source-pdfs:La Dama de los Bosques"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\La Europa Rota.pdf",
+      "rel": "Extras/La Europa Rota.pdf",
+      "slug": "la-europa-rota",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "source",
+      "size": 4632006,
+      "hits": {
+        "system": [
+          "source-pdfs:La Europa Rota"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\La Experiencia en una Campaña.pdf",
+      "rel": "Extras/La Experiencia en una Campaña.pdf",
+      "slug": "la-experiencia-en-una-campa-a",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "adventure-support",
+      "size": 633962,
+      "hits": {
+        "system": [
+          "source-pdfs:La Experiencia en una Campaña"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso.pdf",
+      "rel": "Extras/Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso.pdf",
+      "slug": "machiavelli-el-zorro-astuto-y-bischeri-el-gato-malicioso",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 5368158,
+      "hits": {
+        "system": [
+          "hunters:Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+          "source-pdfs:Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Mapa Europa Rota.pdf",
+      "rel": "Extras/Mapa Europa Rota.pdf",
+      "slug": "mapa-europa-rota",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "sheet-support",
+      "size": 3183528,
+      "hits": {
+        "system": [
+          "library:Mapa Europa Rota",
+          "adventure-maps:Mapa Europa Rota",
+          "adventure-scenes:Mapa Europa Rota",
+          "source-pdfs:Mapa Europa Rota"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Maquiaveli & Bischeri.pdf",
+      "rel": "Extras/Maquiaveli & Bischeri.pdf",
+      "slug": "maquiaveli-bischeri",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 535353,
+      "hits": {
+        "system": [
+          "source-pdfs:Maquiaveli & Bischeri"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Marina, la Exploradora del Mar.pdf",
+      "rel": "Extras/Marina, la Exploradora del Mar.pdf",
+      "slug": "marina-la-exploradora-del-mar",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2920454,
+      "hits": {
+        "system": [
+          "source-pdfs:Marina, la Exploradora del Mar"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Niklaus Von Krampus.pdf",
+      "rel": "Extras/Niklaus Von Krampus.pdf",
+      "slug": "niklaus-von-krampus",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "hunter-sheet",
+      "size": 3088423,
+      "hits": {
+        "system": [
+          "hunters:Niklaus von Krampus",
+          "source-pdfs:Niklaus Von Krampus"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Quickstart Jugadores-1.pdf",
+      "rel": "Extras/Quickstart Jugadores-1.pdf",
+      "slug": "quickstart-jugadores-1",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "source",
+      "size": 5083023,
+      "hits": {
+        "system": [
+          "source-pdfs:Quickstart Jugadores-1"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Quickstart Jugadores.pdf",
+      "rel": "Extras/Quickstart Jugadores.pdf",
+      "slug": "quickstart-jugadores",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "source",
+      "size": 5083023,
+      "hits": {
+        "system": [
+          "source-pdfs:Quickstart Jugadores"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Regina, La Ladrona de Corazones.pdf",
+      "rel": "Extras/Regina, La Ladrona de Corazones.pdf",
+      "slug": "regina-la-ladrona-de-corazones",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2727111,
+      "hits": {
+        "system": [
+          "source-pdfs:Regina, La Ladrona de Corazones"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\San Jorge, el Matadragones.pdf",
+      "rel": "Extras/San Jorge, el Matadragones.pdf",
+      "slug": "san-jorge-el-matadragones",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 2728574,
+      "hits": {
+        "system": [
+          "source-pdfs:San Jorge, el Matadragones"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Sun Wukong, el Mono Asombroso.pdf",
+      "rel": "Extras/Sun Wukong, el Mono Asombroso.pdf",
+      "slug": "sun-wukong-el-mono-asombroso",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 3331992,
+      "hits": {
+        "system": [
+          "source-pdfs:Sun Wukong, el Mono Asombroso"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Yukie Onn, la Artista Viajera.pdf",
+      "rel": "Extras/Yukie Onn, la Artista Viajera.pdf",
+      "slug": "yukie-onn-la-artista-viajera",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "es",
+      "kind": "hunter-sheet",
+      "size": 3018352,
+      "hits": {
+        "system": [
+          "source-pdfs:Yukie Onn, la Artista Viajera"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    },
+    {
+      "file": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\The Newcomer's Crown [2022-06-28].pdf",
+      "rel": "The Newcomer's Crown [2022-06-28].pdf",
+      "slug": "the-newcomer-s-crown-2022-06-28",
+      "owner": "system",
+      "reason": "core/support",
+      "language": "unknown",
+      "kind": "adventure-support",
+      "size": 1134522,
+      "hits": {
+        "system": [
+          "adventures:The Newcomer's Crown",
+          "adventure-maps:The Newcomer's Crown",
+          "source-pdfs:The Newcomer's Crown [2022-06-28]"
+        ],
+        "broken": [],
+        "lost": []
+      },
+      "status": "OK"
+    }
+  ]
+}

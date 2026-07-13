@@ -1,0 +1,347 @@
+/* Scoped useful specimen/font layout rules from E:/respaldos/specimen_stylesheet.css. Global reset intentionally omitted. */
+.broken-tales .bt-specimen /*  
+	CSS Reset by Eric Meyer - Released under Public Domain
+    http://meyerweb.com/eric/tools/css/reset/
+*/
+html, .broken-tales .bt-specimen *, .broken-tales .bt-specimen div, .broken-tales .bt-specimen span, .broken-tales .bt-specimen applet, .broken-tales .bt-specimen object, .broken-tales .bt-specimen iframe, .broken-tales .bt-specimen h1, .broken-tales .bt-specimen h2, .broken-tales .bt-specimen h3, .broken-tales .bt-specimen h4, .broken-tales .bt-specimen h5, .broken-tales .bt-specimen h6, .broken-tales .bt-specimen p, .broken-tales .bt-specimen blockquote, .broken-tales .bt-specimen pre, .broken-tales .bt-specimen a, .broken-tales .bt-specimen abbr, .broken-tales .bt-specimen acronym, .broken-tales .bt-specimen address, .broken-tales .bt-specimen big, .broken-tales .bt-specimen cite, .broken-tales .bt-specimen code, .broken-tales .bt-specimen del, .broken-tales .bt-specimen dfn, .broken-tales .bt-specimen em, .broken-tales .bt-specimen font, .broken-tales .bt-specimen img, .broken-tales .bt-specimen ins, .broken-tales .bt-specimen kbd, .broken-tales .bt-specimen q, .broken-tales .bt-specimen s, .broken-tales .bt-specimen samp, .broken-tales .bt-specimen small, .broken-tales .bt-specimen strike, .broken-tales .bt-specimen strong, .broken-tales .bt-specimen sub, .broken-tales .bt-specimen sup, .broken-tales .bt-specimen tt, .broken-tales .bt-specimen var, .broken-tales .bt-specimen b, .broken-tales .bt-specimen u, .broken-tales .bt-specimen i, .broken-tales .bt-specimen center, .broken-tales .bt-specimen dl, .broken-tales .bt-specimen dt, .broken-tales .bt-specimen dd, .broken-tales .bt-specimen ol, .broken-tales .bt-specimen ul, .broken-tales .bt-specimen li, .broken-tales .bt-specimen fieldset, .broken-tales .bt-specimen form, .broken-tales .bt-specimen label, .broken-tales .bt-specimen legend, .broken-tales .bt-specimen table, .broken-tales .bt-specimen caption, .broken-tales .bt-specimen tbody, .broken-tales .bt-specimen tfoot, .broken-tales .bt-specimen thead, .broken-tales .bt-specimen tr, .broken-tales .bt-specimen th, .broken-tales .bt-specimen td {
+	margin:         0;
+	padding:        0;
+	border:         0;
+	outline:        0;
+	font-size:      100%;
+	vertical-align: baseline;
+	background:     transparent;
+}
+.broken-tales .bt-specimen #container {
+	width:  865px;
+	margin: 0px auto;
+}
+.broken-tales .bt-specimen #header {
+	padding:          20px;
+	font-size:        36px;
+	background-color: #000;
+	color:            #fff;
+}
+.broken-tales .bt-specimen #header span {
+	color: #666;
+}
+.broken-tales .bt-specimen #main_content {
+	background-color: #fff;
+	padding:          60px 20px 20px;
+}
+.broken-tales .bt-specimen #footer p {
+	margin:         0;
+	padding-top:    10px;
+	padding-bottom: 50px;
+	color:          #333;
+	font:           10px Arial, sans-serif;
+}
+.broken-tales .bt-specimen .tabs {
+	width:            100%;
+	height:           31px;
+	background-color: #444;
+}
+.broken-tales .bt-specimen .tabs li {
+	float:            left;
+	margin:           0;
+	overflow:         hidden;
+	background-color: #444;
+}
+.broken-tales .bt-specimen .tabs li a {
+	display:         block;
+	color:           #fff;
+	text-decoration: none;
+	font:            bold 11px/11px 'Arial';
+	text-transform:  uppercase;
+	padding:         10px 15px;
+	border-right:    1px solid #fff;
+}
+.broken-tales .bt-specimen .tabs li a:hover {
+	background-color: #00b3ff;
+
+}
+.broken-tales .bt-specimen .tabs li.active a {
+	color:            #000;
+	background-color: #fff;
+}
+.broken-tales .bt-specimen div.huge {
+
+	font-size:      300px;
+	line-height:    1em;
+	padding:        0;
+	letter-spacing: -.02em;
+	overflow:       hidden;
+}
+.broken-tales .bt-specimen div.glyph_range {
+	font-size:   72px;
+	line-height: 1.1em;
+}
+.broken-tales .bt-specimen .size10 {
+	font-size: 10px;
+}
+.broken-tales .bt-specimen .size11 {
+	font-size: 11px;
+}
+.broken-tales .bt-specimen .size12 {
+	font-size: 12px;
+}
+.broken-tales .bt-specimen .size13 {
+	font-size: 13px;
+}
+.broken-tales .bt-specimen .size14 {
+	font-size: 14px;
+}
+.broken-tales .bt-specimen .size16 {
+	font-size: 16px;
+}
+.broken-tales .bt-specimen .size18 {
+	font-size: 18px;
+}
+.broken-tales .bt-specimen .size20 {
+	font-size: 20px;
+}
+.broken-tales .bt-specimen .size24 {
+	font-size: 24px;
+}
+.broken-tales .bt-specimen .size30 {
+	font-size: 30px;
+}
+.broken-tales .bt-specimen .size36 {
+	font-size: 36px;
+}
+.broken-tales .bt-specimen .size48 {
+	font-size: 48px;
+}
+.broken-tales .bt-specimen .size60 {
+	font-size: 60px;
+}
+.broken-tales .bt-specimen .size72 {
+	font-size: 72px;
+}
+.broken-tales .bt-specimen .size90 {
+	font-size: 90px;
+}
+.broken-tales .bt-specimen .psample_row1 {
+	height: 120px;
+}
+.broken-tales .bt-specimen .psample_row1 {
+	height: 120px;
+}
+.broken-tales .bt-specimen .psample_row2 {
+	height: 160px;
+}
+.broken-tales .bt-specimen .psample_row3 {
+	height: 160px;
+}
+.broken-tales .bt-specimen .psample_row4 {
+	height: 160px;
+}
+.broken-tales .bt-specimen .psample {
+	overflow: hidden;
+	position: relative;
+}
+.broken-tales .bt-specimen .psample p {
+	line-height: 1.3em;
+	display:     block;
+	overflow:    hidden;
+	margin:      0;
+}
+.broken-tales .bt-specimen .psample span {
+	margin-right: .5em;
+}
+.broken-tales .bt-specimen .white_blend {
+	width:            100%;
+	height:           61px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNrs3TsKgFAMRUE/eer+NxztxMYuEWQG3ECKwwUF58ycAKixOAGAyAKILAAiCyCyACILgMgCiCyAyAIgsgAiCyCyAIgsgMgCiCwAIgsgsgAiC4DIAogsACIL0CWuZ3UGgLrIhjMA1EV2OAOAJQtgyQLwjOzmDAAiCyCyAIgsQFtkd2cAEFkAkQVAZAHaIns4A4AlC2DJAiCyACILILIAiCzAV5H1dQGAJQsgsgCILIDIAvwisl58AViyAJYsACILILIAIgvAe2T9EhxAZAFEFgCRBeiL7HAGgLrIhjMAWLIAliwAt1OAAQDwygTBulLIlQAAAABJRU5ErkJggg==);
+	position:         absolute;
+	bottom:           0;
+}
+.broken-tales .bt-specimen .black_blend {
+	width:            100%;
+	height:           61px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAA9CAYAAAAH4BojAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPJJREFUeNrs3TEKhTAQRVGjibr/9QoxhY2N3Ywo50A28IrLwP9g6b1PAMSYTQAgsgAiC4DIAogsgMgCILIAIgsgsgCILIDIAogsACILILIAIguAyAKILIDIAiCyACILgMgCZCnjLWYAiFGvB0BQZJsZAFyyAC5ZAO6RXc0AILIAIguAyAKkRXYzA4DIAogsACILkBbZ3QwALlkAlywAIgsgsgAiC4DIArwVWf8uAHDJAogsACILILIAv4isH74AXLIALlkARBZAZAFEFoDnyPokOIDIAogsACILkBfZZgaAuMhWMwC4ZAE+p4x3mAEgxinAAJ+XBbPWGkwAAAAAAElFTkSuQmCC);
+	position:         absolute;
+	bottom:           0;
+}
+.broken-tales .bt-specimen .fullreverse {
+	background:    #000 !important;
+	color:         #fff !important;
+	margin-left:   -20px;
+	padding-left:  20px;
+	margin-right:  -20px;
+	padding-right: 20px;
+	padding:       20px;
+	margin-bottom: 0;
+}
+.broken-tales .bt-specimen .sample_table td {
+	padding-top:    3px;
+	padding-bottom: 5px;
+	padding-left:   5px;
+	vertical-align: middle;
+	line-height:    1.2em;
+}
+.broken-tales .bt-specimen .sample_table td:first-child {
+	background-color: #eee;
+	text-align:       right;
+	padding-right:    5px;
+	padding-left:     0;
+	padding:          5px;
+	font:             11px/12px 'Courier New', Courier, mono;
+}
+.broken-tales .bt-specimen code {
+	white-space:      pre;
+	background-color: #eee;
+	display:          block;
+	padding:          10px;
+	margin-bottom:    18px;
+	overflow:         auto;
+}
+.broken-tales .bt-specimen .bottom, .broken-tales .bt-specimen .last {
+	margin-bottom:  0 !important;
+	padding-bottom: 0 !important;
+}
+.broken-tales .bt-specimen .box {
+	padding:       18px;
+	margin-bottom: 18px;
+	background:    #eee;
+}
+.broken-tales .bt-specimen .reverse, .broken-tales .bt-specimen .reversed {
+	background: #000 !important;
+	color:      #fff !important;
+	border:     none !important;
+}
+.broken-tales .bt-specimen #bodycomparison {
+	position:    relative;
+	overflow:    hidden;
+	font-size:   72px;
+	height:      90px;
+	white-space: nowrap;
+}
+.broken-tales .bt-specimen #bodycomparison div {
+	font-size:   72px;
+	line-height: 90px;
+	display:     inline;
+	margin:      0 15px 0 0;
+	padding:     0;
+}
+.broken-tales .bt-specimen #bodycomparison div span {
+	font:     10px Arial;
+	position: absolute;
+	left:     0;
+}
+.broken-tales .bt-specimen #xheight {
+	float:       none;
+	position:    absolute;
+	color:       #d9f3ff;
+	font-size:   72px;
+	line-height: 90px;
+}
+.broken-tales .bt-specimen .fontbody {
+	position: relative;
+}
+.broken-tales .bt-specimen .arialbody {
+	font-family: Arial;
+	position:    relative;
+}
+.broken-tales .bt-specimen .verdanabody {
+	font-family: Verdana;
+	position:    relative;
+}
+.broken-tales .bt-specimen .georgiabody {
+	font-family: Georgia;
+	position:    relative;
+}
+.broken-tales .bt-specimen #layout h1 {
+	font-size:   36px;
+	line-height: 42px;
+	font-weight: normal;
+	font-style:  normal;
+}
+.broken-tales .bt-specimen #layout h2 {
+	font-size:   24px;
+	line-height: 23px;
+	font-weight: normal;
+	font-style:  normal;
+}
+.broken-tales .bt-specimen #layout h3 {
+	font-size:   22px;
+	line-height: 1.4em;
+	margin-top:  1em;
+	font-weight: normal;
+	font-style:  normal;
+}
+.broken-tales .bt-specimen #layout p.byline {
+	font-size:     12px;
+	margin-top:    18px;
+	line-height:   12px;
+	margin-bottom: 0;
+}
+.broken-tales .bt-specimen #layout p {
+	font-size:     14px;
+	line-height:   21px;
+	margin-bottom: .5em;
+}
+.broken-tales .bt-specimen #layout p.large {
+	font-size:   18px;
+	line-height: 26px;
+}
+.broken-tales .bt-specimen #layout .sidebar p {
+	font-size:   12px;
+	line-height: 1.4em;
+}
+.broken-tales .bt-specimen #layout p.caption {
+	font-size:     10px;
+	margin-top:    -16px;
+	margin-bottom: 18px;
+}
+.broken-tales .bt-specimen #glyph_chart div {
+	background-color: #d9f3ff;
+	color:            black;
+	float:            left;
+	font-size:        36px;
+	height:           1.2em;
+	line-height:      1.2em;
+	margin-bottom:    1px;
+	margin-right:     1px;
+	text-align:       center;
+	width:            1.2em;
+	position:         relative;
+	padding:          .6em .2em .2em;
+}
+.broken-tales .bt-specimen #glyph_chart div p {
+	position:         absolute;
+	left:             0;
+	top:              0;
+	display:          block;
+	text-align:       center;
+	font:             bold 9px Arial, sans-serif;
+	background-color: #3a768f;
+	width:            100%;
+	color:            #fff;
+	padding:          2px 0;
+}
+.broken-tales .bt-specimen #glyphs h1 {
+	font-family: Arial, sans-serif;
+}
+.broken-tales .bt-specimen #installing {
+	font: 13px Arial, sans-serif;
+}
+.broken-tales .bt-specimen #installing p, .broken-tales .bt-specimen #glyphs p {
+	line-height:   1.2em;
+	margin-bottom: 18px;
+	font:          13px Arial, sans-serif;
+}
+.broken-tales .bt-specimen #installing h3 {
+	font-size:  15px;
+	margin-top: 18px;
+}
+.broken-tales .bt-specimen #rendering h1 {
+	font-family: Arial, sans-serif;
+}
+.broken-tales .bt-specimen .render_table td {
+	font:           11px 'Courier New', Courier, mono;
+	vertical-align: middle;
+}
+
+
+

@@ -1,0 +1,747 @@
+# Broken Tales - Auditoria de contenido PDF
+
+Este reporte se genera localmente desde los PDFs de la mesa. Sirve para corroborar donde aparecen Dones, Dones de escenario, equipo, objetos, elementos de escenario, amenazas, aldeanos y espiritus/esencias.
+
+## Resumen por PDF
+
+| PDF | Paginas | Dones | Dones escenario | Equipo/objetos | Elementos escenario | Amenazas/PNJ | Aldeanos | Espiritus/esencias | Paginas sin texto |
+| --- | ---: | --- | --- | --- | --- | --- | --- | --- | --- |
+| bt-corebook-1-eng-final-screen-fixed [2022-07-01].pdf | 268 | 7-8, 11-13, 16, 20-21, 23-31, 33-34, 39-44, 46-50, 52-54, 56-69, 71-88, 90-92, 98-100, 102-103, 106, 114-115, 122-128, 130, 134-137, 139-141, 148, 150-153, 156, 161-166, 172-177, 179, 184, 186-190, 192-194, 196, 198, 200, 202, 206, 208-212, 214, 218-222, 226-229, 231, 234-237, 239, 241-243, 247, 249, 252, 255, 258, 260-265 | 13, 102-103, 128, 141, 153, 165, 179, 187, 196, 214, 260, 264 | 11, 29-30, 32, 48, 50, 52-54, 57-59, 69, 75, 80, 82, 84-85, 88-89, 99, 102, 125, 139, 163, 165, 174, 181, 193, 199-200, 206, 214, 222, 227, 230-231, 249, 252-253, 258, 260, 262 | 2-3, 8-17, 20-22, 25-26, 28-42, 44, 46-50, 53-54, 57-59, 61-65, 69, 73-75, 78-107, 115, 119-121, 123-131, 133-138, 141-150, 152-157, 159-161, 165-174, 176, 178-183, 185-200, 202-203, 205, 207-237, 239-256, 260-261, 264-266 | 7-8, 11-35, 37-39, 41-58, 60-69, 72-75, 77-84, 86-87, 89-90, 93-100, 102-104, 109, 121-128, 133-141, 147-153, 158-159, 161-165, 167, 172-179, 186, 188-190, 192-194, 198, 200-202, 204, 206-212, 218-222, 226-229, 231, 233-237, 240-243, 248-250, 252, 255-256, 260-262, 265 | 96, 99-101, 112, 120-121, 123, 125, 129-130, 160, 218-219, 224-234, 237, 239-243, 246, 248, 255-256 | 11, 29, 33, 50, 54-56, 62, 64-65, 67-68, 95, 99-100, 117, 123, 125, 127-128, 131-132, 136, 139, 141, 143-156, 159, 162-163, 165, 170, 184, 189-190, 193-194, 196, 198, 200-201, 218, 252, 256-258 | 1 |
+| bt-cb-sheets-eng-final-screen [2022-06-29].pdf | 30 | 1-2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 | 2 | 1, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 | 1-2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 | 1-2, 4, 6, 8, 12, 14, 16, 18, 20, 22, 24, 28, 30 | 6 | 1, 6, 8, 14, 18, 24, 26 | - |
+| bt-cb-foxcat-sheet-eng-final-screen [2022-06-29].pdf | 2 | 2 | - | 2 | 2 | 2 | - | - | - |
+| bt-tbo-1-eng-final-screen [2022-06-29].pdf | 176 | 3, 7-21, 23-28, 31, 33, 42-44, 46-47, 49, 53-54, 57-58, 61-74, 76, 81-82, 84-91, 94, 96-99, 101-104, 108, 113-118, 127-131, 137-139, 141-145, 147, 149-150, 154-159, 167, 169, 172-173, 176 | 9, 84, 89, 104, 118, 131, 145, 159 | 6-10, 16, 18-19, 21, 26, 28, 33, 37, 44, 49-50, 56-57, 61-62, 65, 67-68, 74, 82, 89, 99, 102, 108, 113, 131, 136-139, 143-144, 148, 150, 156, 159, 167, 173 | 4-5, 8-21, 23-28, 30, 33-34, 36-37, 41-45, 47-50, 52-53, 55, 57-58, 61-67, 70-75, 81, 83-87, 89-99, 101-109, 111-129, 131-135, 137-140, 143-148, 151, 153, 155-163, 165, 167, 169-175 | 7-15, 17, 19-20, 24-26, 34, 41-50, 52-55, 57, 61, 65, 67-68, 70, 72-74, 84-88, 95-105, 107, 110-118, 125-131, 133, 138-143, 145-146, 154-158, 166-176 | 3, 32-34, 38, 52-58, 60, 64, 66, 78, 94-95, 98, 100, 103-106, 110-114, 118-122, 136-138, 143, 146, 148-150, 176 | 7, 11, 17-18, 24, 32, 36, 39-40, 46, 57, 61, 66, 73-74, 82, 86, 110, 113, 116, 118, 122, 136-137, 143-147, 149-150, 164, 173 | 1, 59 |
+| bt-tbo-sheets-eng-final-screen [2022-06-14].pdf | 26 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 | - | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 22, 24, 26 | - | 2, 4, 12, 18, 26 | - |
+| The Newcomer's Crown [2022-06-28].pdf | 1 | 1 | - | - | 1 | 1 | - | - | - |
+| Broken Tales - Bookmarks [2022-06-30].pdf | 1 | 1 | - | - | - | - | - | - | - |
+| Broken Tales - Hunter's Sheet [2022-06-30].pdf | 1 | 1 | - | 1 | - | 1 | - | - | - |
+| Broken Tales - Map [2022-06-30].pdf | 1 | - | - | - | 1 | - | - | - | - |
+| Broken Tales - Scenario Summary Sheet [2022-06-30].pdf | 2 | 1-2 | 1 | - | 1-2 | 2 | - | - | - |
+| Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30].pdf | 1 | 1 | - | - | - | 1 | 1 | - | - |
+| Broken Tales - Hojas de Cazador.pdf | 32 | 2-3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 | 3 | 2, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 | 2-3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 | 2-3, 5, 7, 9, 13, 15, 17, 19, 21, 23, 25, 29, 31 | 7 | 2, 9, 19, 25, 27 | - |
+| Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf | 18 | 2, 4, 6, 8, 10, 12, 14, 16, 18 | - | 2, 4, 6, 8, 10, 12, 14, 16, 18 | 2, 4, 6, 8, 10, 12, 14, 16, 18 | 2, 4, 6, 8, 10, 12, 14, 16, 18 | - | 4, 16 | 9, 11, 13, 15, 17 |
+| Broken Tales - Manual Básico.pdf | 281 | 11-12, 15-17, 20, 25, 27-35, 37-38, 43, 45-48, 50-54, 56-58, 60-73, 78-92, 95, 100, 102-103, 106-107, 126, 128-132, 139-141, 143-145, 152, 154-157, 165-170, 176-181, 183, 190-194, 196-198, 200, 202-204, 206, 210, 212-216, 218, 222-226, 231-233, 235, 238-241, 243, 245-247, 251-253, 259, 262, 264-269 | 17, 106-107, 132, 145, 157, 169, 183, 191, 200, 218, 267-268 | 15, 33-34, 52, 54, 56-58, 61-63, 73, 79, 82-83, 85, 88-89, 92-93, 114-115, 129, 143, 167, 169, 178, 197, 203-204, 210, 226, 231, 234-235, 241, 255, 257, 262, 264, 266 | 6-7, 11-21, 23-27, 29-30, 32-46, 48, 50-54, 57-58, 60-63, 65-69, 73, 77-82, 84-111, 114, 119, 123-125, 127-135, 137-142, 145-154, 156-161, 163-165, 169-178, 180, 182-204, 206-209, 211-226, 228-248, 250-260, 264-265, 267-270 | 11-12, 15, 17-26, 28-39, 41, 44-56, 58-62, 64-65, 67-68, 70-72, 76-91, 93-94, 97-100, 103-104, 107-108, 113, 125-132, 137-145, 151-157, 162-163, 165-169, 171, 176-183, 190, 192-194, 196-198, 202-203, 205-206, 210-216, 222-226, 230-233, 235, 237-241, 243-247, 251-253, 256, 259-260, 264-266, 269 | 105, 125, 134, 229, 243-245, 247 | 15, 33, 37, 54, 59-60, 66, 68-69, 71-72, 96, 121, 129, 132, 135-136, 140, 143, 145, 149-150, 154-155, 157, 163, 166-167, 169, 174, 188, 197-198, 202, 204-205 | 2-5, 273-280 |
+| Broken Tales - Storyteller's Screen (OEF).pdf | 2 | 2 | 2 | 2 | 2 | 2 | - | 2 | 1 |
+| Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG.pdf | 22 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22 | 10 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22 | 2, 4, 6, 8, 10, 12, 14, 16, 20, 22 | 6, 8, 10, 12, 14, 16, 20, 22 | - | 2, 8, 12, 14, 18 | - |
+| Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN.pdf | 229 | 4, 6, 8-17, 19, 21-31, 38-43, 45-47, 50, 54, 59-60, 63, 65-66, 68, 73-74, 79-84, 86-90, 92-93, 95, 99, 102-109, 115, 121-127, 133-134, 136, 138-139, 141-143, 150-155, 157-168, 171-174, 179-187, 189-193, 195-197, 202, 205-211, 214-217, 221-227 | 109, 127, 143, 197 | 14, 17, 20-22, 24, 26-29, 31, 44-46, 50, 61-64, 68, 70-71, 74-76, 82, 87, 89, 91-94, 104, 117-118, 120, 122-123, 125, 127-128, 130, 132-134, 136-139, 141-145, 151, 153, 155-156, 161, 168, 174, 179, 191-192, 196-197, 199, 203, 207, 213-214, 222, 227 | 4, 6-10, 15-17, 20-28, 30-31, 33, 36-38, 40-52, 58-65, 67-76, 78-83, 86-87, 89, 92-93, 95, 97, 99-101, 103-104, 106-107, 109-117, 122, 125-138, 140-162, 164-175, 177-181, 183-184, 186-188, 191-193, 195, 197-198, 200-202, 204-218, 220, 223-227 | 4, 6-16, 19, 21, 26-27, 29-31, 42, 44-52, 57, 59-60, 62-66, 68, 71, 73-76, 78-84, 86-87, 89-93, 95, 97, 99, 101-111, 114, 116, 118-127, 134-143, 146, 150-153, 155-164, 166-167, 169-175, 177-178, 180-187, 189-200, 202, 205-212, 214-218, 220, 222-227 | 32-33, 59, 84, 90, 115-121, 123, 127-128, 152, 178-179, 181-183, 185-186, 194, 198, 213 | 10-12, 27, 31, 37, 56, 65-68, 82, 90-93, 98, 101-103, 106, 108-110, 114, 116, 132, 134, 136, 141, 144, 152, 167, 169, 171-172, 174, 176, 179-180, 183-184, 186-187, 190-195, 199-200, 214 | 1, 5, 53, 55, 77, 228-229 |
+| bt-ls-book-1-ENG-SCREEN.pdf | 229 | 4, 6, 8-17, 19, 21-31, 38-43, 45-47, 50, 54, 59-60, 63, 65-66, 68, 73-74, 79-84, 86-90, 92-93, 95, 99, 102-109, 115, 121-127, 133-134, 136, 138-139, 141-143, 150-155, 157-168, 171-174, 179-187, 189-193, 195-197, 202, 205-211, 214-217, 221-227 | 109, 127, 143, 197 | 14, 17, 20-22, 24, 26-29, 31, 44-46, 50, 61-64, 68, 70-71, 74-76, 82, 87, 89, 91-94, 104, 117-118, 120, 122-123, 125, 127-128, 130, 132-134, 136-139, 141-145, 151, 153, 155-156, 161, 168, 174, 179, 191-192, 196-197, 199, 203, 207, 213-214, 222, 227 | 4, 6-10, 15-17, 20-28, 30-31, 33, 36-38, 40-52, 58-65, 67-76, 78-83, 86-87, 89, 92-93, 95, 97, 99-101, 103-104, 106-107, 109-117, 122, 125-138, 140-162, 164-175, 177-181, 183-184, 186-188, 191-193, 195, 197-198, 200-202, 204-218, 220, 223-227 | 4, 6-16, 19, 21, 26-27, 29-31, 42, 44-52, 57, 59-60, 62-66, 68, 71, 73-76, 78-84, 86-87, 89-93, 95, 97, 99, 101-111, 114, 116, 118-127, 134-143, 146, 150-153, 155-164, 166-167, 169-175, 177-178, 180-187, 189-200, 202, 205-212, 214-218, 220, 222-227 | 32-33, 59, 84, 90, 115-121, 123, 127-128, 152, 178-179, 181-183, 185-186, 194, 198, 213 | 10-12, 27, 31, 37, 56, 65-68, 82, 90-93, 98, 101-103, 106, 108-110, 114, 116, 132, 134, 136, 141, 144, 152, 167, 169, 171-172, 174, 176, 179-180, 183-184, 186-187, 190-195, 199-200, 214 | 1, 5, 53, 55, 77, 228-229 |
+| bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf | 22 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22 | 10 | 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22 | 2, 4, 6, 8, 10, 12, 14, 16, 20, 22 | 6, 8, 10, 12, 14, 16, 20, 22 | - | 2, 8, 12, 14, 18 | - |
+
+## Hallazgos
+
+- Los compendios actuales contienen la biblioteca completa como Journals y referencias generales de apoyo.
+- Los Dones de Cazador y Egos oscuros aparecen principalmente en hojas de Cazador y libros; no todos estan todavia convertidos en Items individuales independientes.
+- Los Dones de escenario, amenazas, PNJ, lugares y objetos de escenario aparecen en libros/aventuras y estan localizables en el compendio Biblioteca, pero requieren una segunda pasada para convertirse en compendios granulares separados por documento.
+- Las paginas sin texto extraible dependen del PDF; en esos casos el compendio conserva el enlace al PDF local.
+
+## Candidatos de titulo detectados
+
+### bt-corebook-1-eng-final-screen-fixed [2022-07-01].pdf
+- A Gift Example for an Ally Dark Presence: p. 44
+- A historical note: p. 146
+- ACTIVATOR: p. 262
+- Activator: p. 87
+- Additional Successes: p. 7
+- Additional considerations: p. 27
+- Adverse: p. 31
+- Ambition: p. 222
+- An example: p. 249
+- An important note: p. 70
+- Any result between 2-6: p. 22
+- Archetypal Effects as we want. In his case, they are: p. 76
+- As a modifier: p. 99, 124
+- Ask yourself: p. 28
+- BROKEN FAIRYTALE: p. 264
+- Base Successes: p. 7
+- Black - 1 Wound Opposition Level: p. 60
+- Bomb: p. 135
+- Broken Tales Core Book HARDCOVER ENG ISBN: p. 2
+- Broken Tales Core Book PDF ENG ISBN: p. 2
+- Campaign. These Scenes are great for: p. 257
+- Check example: p. 22
+- Clarence or Frank know about it: p. 213
+- Claw - 2 Wound Opposition Level: p. 60
+- Clock: p. 31
+- Commitment: p. 54
+- Consider the following: p. 29
+- Create Effect: p. 31
+- Crowdfunding Manager: p. 2
+- Damage: p. 31
+- Dark Ego: p. 262
+- Dark Ego Gift: p. 74
+- Dark Presence: p. 7, 16
+- Day 1: p. 160
+- Day 2: p. 160
+- Day 3: p. 160
+- Defense Check: p. 7
+- Description: p. 262
+- Discord: p. 2
+- Disturbance: p. 32
+- Dragon: p. 50
+- EXTRA WOUND: p. 262
+- Editing: p. 2
+- Effect: p. 76-85
+- End of Scene: p. 102, 128-130, 142-144, 154-156, 166-168, 180-182, 185, 188-189, 191-192, 214-216, 226, 228-229, 233-235, 237, 240-241
+- Entrance Hall of Wonder: p. 178
+- Example: p. 21, 33, 71-73, 75, 86, 88-89, 93-97, 99-103
+- Exchange: p. 8
+- Exclusive Gifts can be of two types: p. 102
+- Experience Points: p. 8
+- Facebook: p. 2
+- Failure: p. 8
+- Fang - 3 Wounds Opposition Level: p. 60
+- For this story we used these keywords: p. 72
+- Friendly: p. 222
+- From a Far Country: p. 222
+- Fulcrum: p. 32
+- Furious: p. 222
+- Game Design and Texts: p. 2
+- Gift: p. 8, 262, 264-265
+- Gift - A Good Advice: p. 54
+- Gift - A Past of Suffering: p. 65
+- Gift - A Thousand and One Nights: p. 202
+- Gift - A Tunnel for Everywhere: p. 148
+- Gift - Aberration: p. 234
+- Gift - Alice from Other Worlds: p. 177
+- Gift - Ancient Spirit: p. 139
+- Gift - Armed Guard: p. 235
+- Gift - Arthur’s House: p. 211
+- Gift - As if by Magic: p. 69
+- Gift - Beyond the Mirror: p. 172
+- Gift - Big Wolf: p. 126
+- Gift - Blood Magic: p. 236
+- Gift - Blood Witch: p. 236
+- Gift - Blossom Boon: p. 64
+- Gift - Boundless Rage: p. 136
+- Gift - By Any Means: p. 47
+- Gift - Cacophony: p. 65
+- Gift - Careful What you Wish For: p. 243
+- Gift - Cat Mask: p. 57
+
+### bt-cb-sheets-eng-final-screen [2022-06-29].pdf
+- Activator: p. 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30
+- Agent of the Papacy: p. 24
+- Blood-Hot: p. 30
+- By scoring 1 point above the Opposition Level: p. 2
+- By scoring 2 points above the Opposition Level: p. 2
+- Dark Ego - Ice-Cold: p. 30
+- Dark Ego - Soft and Succulent Flesh: p. 16
+- Dark Ego - The Big Bad Wolf: p. 6
+- Dark Ego - The Demon Revealed: p. 22
+- Dark Ego - The Evil Witch: p. 10
+- Dark Ego - The Immortal: p. 18
+- Dark Ego - The Power of Music: p. 8
+- Dark Ego - The Saint: p. 24
+- Dark Ego - The Unscrupulous Assassin: p. 28
+- Dark Ego - Treasures of the Sea: p. 20
+- Exorcist: p. 22
+- Eye of the Judge: p. 14
+- Find Them Forever After: p. 6
+- Guardian Disciple: p. 26
+- Home Sweet Home: p. 16
+- I have been a lot of things in my life: p. 4
+- If the result is equal to the Opposition Level: p. 2
+- Like a Shadow: p. 14
+- Listen to my Words: p. 10
+- Magic: p. 10
+- Memories of an Infinite Life: p. 18
+- Monkey King: p. 26
+- Mutable Appearance: p. 20
+- Otherworldly Charm: p. 30
+- Problem Solver: p. 28
+- Sea Magic: p. 20
+- Skilled Acrobat: p. 8
+- Soma to sing a special melody. Choose from: p. 8
+- Soul Music: p. 8
+- The Beast is a monstrous NPC with the following characteristics: p. 4
+- The Dragon Slayer: p. 24
+- The Inner Demon: p. 22
+- The Key to Each Door: p. 28
+- The Queen: p. 12
+- The Servant: p. 18
+- The Woman from the Wood: p. 16
+- There are 3 Levels of Opposition: p. 1
+- Tick-Tock, Here Comes The Beast: p. 4
+- With a Sword or a Smile: p. 4
+- Wolf Among the Lambs: p. 6
+
+### bt-cb-foxcat-sheet-eng-final-screen [2022-06-29].pdf
+- Activator: p. 2
+- Believe in Miracles: p. 2
+- Dark Ego - The Fox and the Cat: p. 2
+- Note: p. 2
+- Partner in Crime: p. 2
+- Rogue: p. 2
+
+### bt-tbo-1-eng-final-screen [2022-06-29].pdf
+- Accustomed to Horror: p. 57
+- Activator: p. 108
+- Age: p. 176
+- Alexandra: p. 145
+- Animal Friend: p. 57
+- Bandits are summoned: p. 24
+- Campaign Event’s Discovery: p. 10
+- Cauldron Fae: p. 89
+- Colombina: p. 25
+- Cristoforo: p. 126
+- Crowdfunding Manager: p. 2
+- DISTINGUISHING FEATURES: p. 176
+- Dark Ego - Soft and Succulent Flesh: p. 108
+- Description: p. 176
+- Die Hard: p. 57
+- Discord: p. 2
+- East of the pier: p. 155
+- Editing: p. 2
+- End of Scene: p. 90-92, 105-107, 119-122, 132-134, 146-148, 160-162, 175
+- Example: p. 10
+- Facebook: p. 2
+- Factory: p. 89
+- From the banquet: p. 134
+- From the grave: p. 134
+- Fruit can choose one of the two effects. 1. Mutation: p. 14
+- Game Design and Texts: p. 2
+- Gift - Assassin: p. 69
+- Gift - Butcher: p. 65
+- Gift - Craftsman: p. 65
+- Gift - Dominating the Wind: p. 17
+- Gift - Fae Blood: p. 74
+- Gift - Gang: p. 73
+- Gift - Genius and Madness: p. 71
+- Gift - Glass Heels: p. 26
+- Gift - Immortal Body: p. 15
+- Gift - Invisible Cloak: p. 13
+- Gift - Magic Transmutation: p. 19
+- Gift - Master Craftsman: p. 7
+- Gift - Medical Art: p. 63
+- Gift - Mirror Mirror on the Wall: p. 27
+- Gift - Mischievous Shadow: p. 18
+- Gift - Mutagenic Fruit: p. 14
+- Gift - Night Round: p. 63
+- Gift - Occult Knowledge: p. 61
+- Gift - Of Treasures and Tombs: p. 62
+- Gift - Plant Growth: p. 12
+- Gift - Poacher: p. 72
+- Gift - Rage of the Oni: p. 28
+- Gift - Raid: p. 67
+- Gift - Repulsive: p. 71
+- Gift - Rogue: p. 67
+- Gift - Seeking the Path: p. 66
+- Gift - Strength of the Faith: p. 70
+- Gift - Survival Instinct: p. 69
+- Gift - The Broken Blade: p. 11
+- Gift - The Carnival Masks: p. 25
+- Gift - The Flying Carpet: p. 16
+- Gift - The Forty Immortal Thieves: p. 24
+- Gift - The Hair Rope: p. 21
+- Gift - The Human Mannequin: p. 8
+- Gift - The Immortal Guardian: p. 15
+- Gift - The Newcomer’s Crown: p. 20
+- Gift - The Ruby of Hate: p. 173
+- Gift - The Sword of the Myth: p. 23
+- Gift - They Don’t Know Who I Am: p. 68
+- Gift - War Veteran: p. 64
+- Gift - Witch Rituals: p. 61
+- Gifts: p. 176
+- Graphics and Illustrations: p. 2
+- Hanse may self-inflict 1 Wound to benefit from one of the following effects: p. 101
+- Heirloom: p. 156
+- Here is a list of potential situations: p. 103
+- Hessian mercenaries: p. 118
+- History Consultant: p. 2
+- Home Sweet Home: p. 108
+- Hunter. In short: p. 4
+- Hunters: p. 145
+- Hunter’s objective. Roll a die: p. 47
+- If Konstantin is discovered or killed: p. 174
+- If the Cauldron Fae reaches 4 Power Tokens: p. 89
+
+### bt-tbo-sheets-eng-final-screen [2022-06-14].pdf
+- Activator: p. 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26
+- Always in the Middle of Trouble: p. 8
+- Cheshire the Lynx: p. 2
+- Dark Ego - Alice of Other Worlds: p. 2
+- Dark Ego - Beasts in Body and Soul: p. 4
+- Dark Ego - From Another World: p. 20
+- Dark Ego - Mad like a Hatter: p. 10
+- Dark Ego - One Thousand and One Nights: p. 22
+- Dark Ego - Our Home: p. 16
+- Dark Ego - Pure Innocence: p. 6
+- Dark Ego - Soulless Puppet: p. 8
+- Dark Ego - The Headless Knight: p. 12
+- Dark Ego - The Sleeping Will: p. 24
+- Dark Ego - The Supreme Fairy: p. 18
+- Eating the Divine: p. 16
+- Experience of a Dark Journey: p. 20
+- Gang: p. 16
+- Gift - Monstrous: p. 4
+- Gift - Two Souls: p. 2
+- Illusion: p. 18
+- In the Dream: p. 24
+- Innocent Smile: p. 26
+- Lies: p. 8
+- Light the Flame: p. 26
+- Mutagenic Touch: p. 6
+- Mutant: p. 6
+- Ordog the Trusty Horse: p. 12
+- Pack: p. 14
+- Physician: p. 2
+- Playmates: p. 10
+- The Beast: p. 4
+- The Beauty: p. 4
+- The Bridge: p. 12
+- The Cloak: p. 24
+- The Red Hood: p. 14
+- The Silver Shoes: p. 20
+- The Tale: p. 22
+- Time Watches: p. 10
+- Weaver of Destiny: p. 18
+- Words Like Honey: p. 22
+
+### The Newcomer's Crown [2022-06-28].pdf
+- Gift - The Newcomer’s Crown: p. 1
+- Keywords: p. 1
+
+### Broken Tales - Hunter's Sheet [2022-06-30].pdf
+- ACTIVATOR: p. 1
+- Dark Ego: p. 1
+- Description: p. 1
+- EXTRA WOUND: p. 1
+- Gift: p. 1
+- Hunter: p. 1
+- PLAYER: p. 1
+
+### Broken Tales - Scenario Summary Sheet [2022-06-30].pdf
+- BROKEN FAIRYTALE: p. 1
+- Gift: p. 1-2
+- Keywords: p. 1
+- NPC: p. 2
+- NPC: OL: Wounds: p. 2
+- OL: Wounds: p. 2
+- Other: p. 2
+- Place: p. 2
+- SAFETY KEYWORDS: p. 1
+
+### Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30].pdf
+- Age: p. 1
+- DISTINGUISHING FEATURES: p. 1
+- Description: p. 1
+- Gifts: p. 1
+- Name: p. 1
+- PLAYER: p. 1
+- Role: p. 1
+- Your Bond: p. 1
+- Your contact with the Broken tales: p. 1
+
+### Broken Tales - Hojas de Cazador.pdf
+- Activador: p. 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31
+- Agente del papado: p. 25
+- Apariencia mutable: p. 21
+- Como una sombra: p. 15
+- Con una espada o una sonrisa: p. 5
+- Ego oscuro - Carne blanda y suculenta: p. 17
+- Ego oscuro - El Inmortal: p. 19
+- Ego oscuro - El gran lobo feroz: p. 7
+- Ego oscuro - La bruja malvada: p. 11
+- El demonio interior: p. 23
+- El matadragones: p. 25
+- El sirviente: p. 19
+- Encanto de otro mundo: p. 31
+- Encontrarlos para siempre: p. 7
+- Escucha mis palabras: p. 11
+- Exorcista: p. 23
+- H e sido muchas cosas en mi vida: p. 5
+- Hogar dulce hogar: p. 17
+- La Dama de los Bosques: p. 17
+- La Reina: p. 13
+- La llave para todas las puertas: p. 29
+- La mirada del juez: p. 15
+- Lobo entre los corderos: p. 7
+- Magia: p. 11
+- Magia del mar: p. 21
+- Recuerdos de una vida infinita: p. 19
+- Rey mono: p. 27
+- Sangre caliente: p. 31
+- Solucionador de problemas: p. 29
+- Tic-tac, ya viene la bestia: p. 5
+- Vacuidad: p. 27
+
+### Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf
+- Activator: p. 2, 4, 6, 8, 10, 12, 14, 16, 18
+- Behold my Genius: p. 8
+- Blessing of the Defeated: p. 10
+- Cursed Blood: p. 4
+- Dark Ego - Alien Technology: p. 6
+- Dark Ego - All Eyes on Me: p. 18
+- Dark Ego - Infallible Cunning: p. 14
+- Dark Ego - It’s Time to Kill the Beast: p. 16
+- Dark Ego - Reanimator: p. 8
+- Dark Ego - Taking Destiny into My Own Hands: p. 12
+- Dark Ego - The Napoleon of Crime: p. 2
+- Dark Ego - The Vampire: p. 4
+- Dark Ego - Water Fairy: p. 10
+- Dark Eminence: p. 2
+- Diabolical Plan: p. 2
+- Gift - Armed for Invasion: p. 6
+- Gift - Loyal Flea: p. 12
+- Gift - Reanimated Corpse: p. 8
+- Hunting Companion: p. 16
+- In the Right Place at the Right Time: p. 14
+- Incognito Agents: p. 6
+- Informants: p. 6
+- Note: p. 16
+- Porziella is an NPC under your full control with the following profile: p. 12
+- Porziella the Faithful Flea: p. 12
+- Scenario: p. 10
+- Stalking: p. 16
+- The Creature: p. 8
+- The Lady’s Champion: p. 10
+- The Magic of the Seven: p. 12
+- Tiny: p. 14
+- Welcome to My House: p. 4
+- What I Don’t Want to See: p. 18
+- What I Want to See: p. 18
+
+### Broken Tales - Manual Básico.pdf
+- ACTIVADOR: p. 266
+- Activador: p. 91
+- Adversidad: p. 35
+- Algunas situaciones posibles relacionadas con Nimega: p. 256
+- Algunos ejemplos: p. 75
+- Amenaza: p. 11, 138, 156, 177, 181, 237, 244
+- Amigable: p. 226
+- Broken Tales, ten en cuenta estos sencillos puntos: p. 109
+- CUARTA ESCENA: p. 134, 147, 172, 185, 195, 220, 233, 240, 245
+- CUENTO ROTO: p. 268
+- Caballeros: p. 255
+- Caperucita: p. 107, 132
+- Cazador: p. 11, 107, 266
+- Cazadores: p. 99, 175
+- Cazadores es sencilla: p. 173
+- Colmillo: p. 64
+- Como modificador: p. 103, 128
+- Consejos: p. 80-89
+- Considera lo siguiente: p. 33
+- Consideraciones adicionales: p. 31
+- Crear efecto: p. 35
+- Cualquier resultado entre 2 y 6: p. 26
+- Cuando Azzurra se encuentre con los Cazadores: p. 145
+- Cuenta: p. 35
+- Don: p. 11, 48, 50-54, 56-58, 60-70, 72-73, 126, 128-131, 139-141, 143-144, 152, 154-156, 165-169, 176-181, 190, 192-194, 196-198, 202-203, 206, 210, 212-216, 223, 225, 231-233, 235, 238-241, 245-247, 266, 268-269
+- Don del ego oscuro: p. 78
+- Don especial: p. 107
+- Don: La cabeza del dios: p. 216
+- Dones de escenario: p. 106
+- Dones normales: p. 78
+- Dorothea: p. 241
+- ESCENA: p. 134, 148, 160, 184, 195, 218, 232
+- Efecto: p. 80-89
+- Ego oscuro: p. 91, 266
+- Ejemplo: p. 25, 37, 75-77, 79, 90, 92-93, 97-101, 103-107
+- Ejemplo de una prueba: p. 26
+- El Cazador: p. 25
+- El Narrador: p. 25
+- El Narrador describe el resultado: p. 26-27
+- Escena: p. 11
+- Escenario: p. 12
+- Este es un gran poder: p. 41
+- Estos dones exclusivos pueden ser de dos tipos: p. 106
+- Facebook: p. 6
+- Final de la escena: p. 106, 132-134, 146-148, 158-160, 170-172, 184-186, 189, 192-193, 195-196, 218-220, 230, 232-233, 237-239, 241, 244-245
+- Formula una pregunta al Narrador, eligiendo entre: p. 200
+- Fracaso: p. 12
+- Furia: p. 226
+- Garra: p. 64
+- Gelb. Ve a la SEGUNDA ESCENA: p. 230
+- HERIDA ADICIONAL: p. 266
+- Henkle, ve a la CUARTA ESCENA: p. 245
+- Herida en su lugar. Cuando uses este don, tira un dado: p. 63
+- Heridas: p. 12
+- Intercambio: p. 12
+- Interludio: p. 12
+- JUGADOR: p. 266
+- Jugador: p. 12-13
+- La Reina: p. 90
+- Lee lo siguiente a los Cazadores: p. 125, 132-134, 137, 146-148, 151, 158-160, 163, 170-172, 175, 184-186, 189, 191-192, 194-196, 199, 209, 219-220, 229, 231-232, 236-238, 240, 243-244
+- Los PNJs se dividen en tres tipos: p. 12
+- Lugar: p. 105-106, 125, 132-134, 137, 146, 148, 151, 158-160, 163, 170-172, 175, 184-186, 189, 191, 193-197, 209, 219-220, 229, 231-233, 236-238, 240, 243-244, 269
+- Margareta: p. 234
+- Material adicional para el kickstarter: p. 6
+- Momento: p. 105-106, 125, 133-134, 137, 146-148, 151, 158-160, 163, 170-172, 175, 184-186, 189, 191, 193-197, 209, 219-220, 229, 231-233, 236-238, 240, 243-244
+- Muestra de compromiso: p. 58
+- NO: Heridas: p. 269
+- Narrador: p. 13
+- Narrador debe hacerse la siguiente pregunta: p. 41
+- Negro: p. 64
+- Nota: p. 48, 50, 56, 59, 64, 66, 70, 159, 164, 184, 191, 193-194, 204, 225, 228
+- Nota para el Narrador: p. 234-235, 243
+- Objetivo: p. 12, 49-54, 56-59, 61-62, 64, 66-67, 69-73, 126, 129-131, 137, 139-141, 143-144, 151, 153-156, 165-166, 168, 177, 180-182, 190, 192-194, 196-198, 202, 206, 210, 213-214, 216, 223-224, 230-233, 237-241, 245-247, 269
+- Otros datos: p. 269
+- PALABRAS CLAVE DE SEGURIDAD: p. 268
+- PNJ: p. 12, 269
+- PNJ menor: p. 20
+- PNJ principal: p. 20
+- PNJ puede mutar, obteniendo los siguientes beneficios: p. 214, 216
+- PNJ y situaciones. No hay subsistemas: p. 29
+
+### Broken Tales - Storyteller's Screen (OEF).pdf
+- Advancements: p. 2
+- Exchanges: p. 2
+- How to obtain an Order’s Treasure: p. 2
+- If no agreement is reached between the parties: p. 2
+- Possible Costs are: p. 2
+- Possible Increments are: p. 2
+- Storyteller checks the following points in order: p. 2
+- The dice are rolled all together: p. 2
+
+### Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG.pdf
+- Activator: p. 2, 4, 6, 8, 10, 12, 14, 16, 20, 22
+- Collect Taxes: p. 22
+- Dark Ego - Capture the Outlaws: p. 22
+- Dark Ego - Goddess Blood: p. 20
+- Dark Ego - Heigh-ho, Heigh-ho: p. 16
+- Dark Ego - Oknytt’s Legacy: p. 6
+- Dark Ego - Shattered Pact: p. 4
+- Dark Ego - Snow Queen: p. 2
+- Dark Ego - The Caring Mother: p. 12
+- Dark Ego - The Great Deception: p. 10
+- Dark Ego - The Magic of Disbelief: p. 8
+- Dark Ego - You Are What You Fight: p. 14
+- Each effect can only be activated once per Exchange: p. 22
+- Examine the Evidence: p. 4
+- Failure: p. 16
+- Fearless: p. 8
+- Gift - Antimagus: p. 18
+- Gift - Grim: p. 18
+- Gift - Half-Dead: p. 18
+- Gift - It’s Not the Time to Die, Friend: p. 18
+- Gift - Nocturnal: p. 18
+- Gift - Warrior’s Fury: p. 18
+- Good Heart: p. 6
+- Lawman: p. 22
+- Legacy: p. 12
+- Lost Childhood: p. 8
+- Monk: p. 14
+- Moral Rigor: p. 14
+- My Beloved Daughters: p. 12
+- Noble Birth: p. 6
+- On Mission: p. 16
+- Outcome with a Cost: p. 16
+- Outcome with an Increment: p. 16
+- Pharmaka: p. 20
+- Snow Sorceress: p. 2
+- Standard Outcome: p. 16
+- The Team: p. 16
+- Thousand Faces: p. 10
+- Token to activate one of these effects: p. 22
+- Travel Companion: Eurylochus is a Minor NPC with the following profile: p. 20
+- Trickster: p. 10
+- Winter’s Kiss: p. 2
+- Your Honor: p. 4
+
+### Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN.pdf
+- A Frozen Reflection: p. 91
+- A Mother’s Heart: p. 87
+- A Soldier’s Duty: p. 94
+- A note on the Baron’s spirit: p. 68
+- Activator: p. 227
+- After any Reset caused in this Place: p. 141
+- After the Fourth Reset: p. 136-139, 141
+- After the third Interlude: p. 180
+- Afternoon: p. 101-103, 105-107
+- Afternoon on the second day: p. 110
+- Aladdin can rub the lamp and ask for the following wishes: p. 160
+- Aladdin. Evil rumors of his deeds are whispered: p. 159
+- Ally: p. 165
+- Anywhere else: p. 106
+- As an Enemy. She follows the normal rules of a Dark Presence: p. 147
+- Ascadeo: p. 87
+- At the beginning of each Scene, roll 1 die: p. 212
+- Bastian Soldat is a deserter guilty of a serious crime: p. 131
+- Benedicto: p. 105
+- Bergen, they can reach the small White Hospital: p. 208
+- Black Feathers or corner them: p. 211
+- Bloodwhite’s Heart: p. 84
+- Broken Tales: p. 2
+- By the third Interlude: p. 180
+- Carmina: p. 105
+- Ceccone: p. 87
+- Challenges: p. 152-158, 160-161, 163-165, 167
+- Cola: p. 87
+- Connections: p. 84, 87, 91, 94, 96
+- Coterie Gift - Band of Brats: p. 41
+- Coterie Gift - Here Come the Monsters: p. 40
+- Coterie Gift - Itinerant Company: p. 43
+- Courage: p. 195
+- Creative Director, crowdfunding and marketing: p. 2
+- Dark Ego - Deus Ex Machina: p. 227
+- Day: p. 123-124
+- Description: p. 189-192, 194, 196-200
+- Discord: p. 2
+- During the discussion, this information will also emerge: p. 204
+- Each Coterie is composed of the following elements: p. 38
+- Each Nemesis possesses three Gifts: p. 74
+- Editing and revisions: p. 2
+- Eighth - The Storyteller: p. 168
+- End of Scene: p. 111-114, 128-130, 144-146, 205, 208-209, 214-216, 220
+- Enemy: p. 165
+- Epilogue of the Leg: p. 166
+- Evening: p. 101-103, 105-107
+- Example: p. 45-46, 75-76, 78, 80
+- Exploration will follow this order: p. 221
+- Facebook: p. 2
+- Failure: p. 197
+- Fairy information: p. 196
+- Faith: p. 195
+- Felipe’s Church: p. 101
+- Felix: p. 105
+- Fifth - The Wise: p. 168
+- First: p. 164
+- First - The Guardian: p. 167
+- First Reset: p. 135-138, 140
+- First, Second, and Third Reset: p. 139
+- Four Interludes: p. 200
+- Fourth - The Servant: p. 167
+- Fourth Reset: p. 135-141
+- Game design and text: p. 2
+- Gift - A Delicate Maiden: p. 84
+- Gift - A Midsummer Night’s Dream: p. 196
+- Gift - A Mother’s Fury: p. 108
+- Gift - A Mother’s Love: p. 104
+- Gift - Ancient Sorcerer: p. 180
+- Gift - Art of Death: p. 166
+- Gift - Assassin: p. 90, 136
+- Gift - Away with the Harassers: p. 191
+- Gift - Band: p. 90
+- Gift - Band of Thieves: p. 162
+- Gift - Big Brother: p. 105, 161
+- Gift - Blood of Oni: p. 17
+- Gift - Brawler: p. 8
+- Gift - Britta’s Witchcraft: p. 142
+- Gift - Carnivore: p. 121
+- Gift - Companions in Arms: p. 136
+
+### bt-ls-book-1-ENG-SCREEN.pdf
+- A Frozen Reflection: p. 91
+- A Mother’s Heart: p. 87
+- A Soldier’s Duty: p. 94
+- A note on the Baron’s spirit: p. 68
+- Activator: p. 227
+- After any Reset caused in this Place: p. 141
+- After the Fourth Reset: p. 136-139, 141
+- After the third Interlude: p. 180
+- Afternoon: p. 101-103, 105-107
+- Afternoon on the second day: p. 110
+- Aladdin can rub the lamp and ask for the following wishes: p. 160
+- Aladdin. Evil rumors of his deeds are whispered: p. 159
+- Ally: p. 165
+- Anywhere else: p. 106
+- As an Enemy. She follows the normal rules of a Dark Presence: p. 147
+- Ascadeo: p. 87
+- At the beginning of each Scene, roll 1 die: p. 212
+- Bastian Soldat is a deserter guilty of a serious crime: p. 131
+- Benedicto: p. 105
+- Bergen, they can reach the small White Hospital: p. 208
+- Black Feathers or corner them: p. 211
+- Bloodwhite’s Heart: p. 84
+- Broken Tales: p. 2
+- By the third Interlude: p. 180
+- Carmina: p. 105
+- Ceccone: p. 87
+- Challenges: p. 152-158, 160-161, 163-165, 167
+- Cola: p. 87
+- Connections: p. 84, 87, 91, 94, 96
+- Coterie Gift - Band of Brats: p. 41
+- Coterie Gift - Here Come the Monsters: p. 40
+- Coterie Gift - Itinerant Company: p. 43
+- Courage: p. 195
+- Creative Director, crowdfunding and marketing: p. 2
+- Dark Ego - Deus Ex Machina: p. 227
+- Day: p. 123-124
+- Description: p. 189-192, 194, 196-200
+- Discord: p. 2
+- During the discussion, this information will also emerge: p. 204
+- Each Coterie is composed of the following elements: p. 38
+- Each Nemesis possesses three Gifts: p. 74
+- Editing and revisions: p. 2
+- Eighth - The Storyteller: p. 168
+- End of Scene: p. 111-114, 128-130, 144-146, 205, 208-209, 214-216, 220
+- Enemy: p. 165
+- Epilogue of the Leg: p. 166
+- Evening: p. 101-103, 105-107
+- Example: p. 45-46, 75-76, 78, 80
+- Exploration will follow this order: p. 221
+- Facebook: p. 2
+- Failure: p. 197
+- Fairy information: p. 196
+- Faith: p. 195
+- Felipe’s Church: p. 101
+- Felix: p. 105
+- Fifth - The Wise: p. 168
+- First: p. 164
+- First - The Guardian: p. 167
+- First Reset: p. 135-138, 140
+- First, Second, and Third Reset: p. 139
+- Four Interludes: p. 200
+- Fourth - The Servant: p. 167
+- Fourth Reset: p. 135-141
+- Game design and text: p. 2
+- Gift - A Delicate Maiden: p. 84
+- Gift - A Midsummer Night’s Dream: p. 196
+- Gift - A Mother’s Fury: p. 108
+- Gift - A Mother’s Love: p. 104
+- Gift - Ancient Sorcerer: p. 180
+- Gift - Art of Death: p. 166
+- Gift - Assassin: p. 90, 136
+- Gift - Away with the Harassers: p. 191
+- Gift - Band: p. 90
+- Gift - Band of Thieves: p. 162
+- Gift - Big Brother: p. 105, 161
+- Gift - Blood of Oni: p. 17
+- Gift - Brawler: p. 8
+- Gift - Britta’s Witchcraft: p. 142
+- Gift - Carnivore: p. 121
+- Gift - Companions in Arms: p. 136
+
+### bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf
+- Activator: p. 2, 4, 6, 8, 10, 12, 14, 16, 20, 22
+- Collect Taxes: p. 22
+- Dark Ego - Capture the Outlaws: p. 22
+- Dark Ego - Goddess Blood: p. 20
+- Dark Ego - Heigh-ho, Heigh-ho: p. 16
+- Dark Ego - Oknytt’s Legacy: p. 6
+- Dark Ego - Shattered Pact: p. 4
+- Dark Ego - Snow Queen: p. 2
+- Dark Ego - The Caring Mother: p. 12
+- Dark Ego - The Great Deception: p. 10
+- Dark Ego - The Magic of Disbelief: p. 8
+- Dark Ego - You Are What You Fight: p. 14
+- Each effect can only be activated once per Exchange: p. 22
+- Examine the Evidence: p. 4
+- Failure: p. 16
+- Fearless: p. 8
+- Gift - Antimagus: p. 18
+- Gift - Grim: p. 18
+- Gift - Half-Dead: p. 18
+- Gift - It’s Not the Time to Die, Friend: p. 18
+- Gift - Nocturnal: p. 18
+- Gift - Warrior’s Fury: p. 18
+- Good Heart: p. 6
+- Lawman: p. 22
+- Legacy: p. 12
+- Lost Childhood: p. 8
+- Monk: p. 14
+- Moral Rigor: p. 14
+- My Beloved Daughters: p. 12
+- Noble Birth: p. 6
+- On Mission: p. 16
+- Outcome with a Cost: p. 16
+- Outcome with an Increment: p. 16
+- Pharmaka: p. 20
+- Snow Sorceress: p. 2
+- Standard Outcome: p. 16
+- The Team: p. 16
+- Thousand Faces: p. 10
+- Token to activate one of these effects: p. 22
+- Travel Companion: Eurylochus is a Minor NPC with the following profile: p. 20
+- Trickster: p. 10
+- Winter’s Kiss: p. 2
+- Your Honor: p. 4

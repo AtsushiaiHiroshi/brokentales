@@ -1,0 +1,472 @@
+[
+  {
+    "name": "James the Swordsman",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 4,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-james-the-swordsman.png",
+    "mode": "embedded",
+    "ok": true
+  },
+  {
+    "name": "Garou the Old Wolf",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 6,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-garou-the-old-wolf.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Astonishing Pied Piper Without a Name",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 8,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-the-astonishing-pied-piper-without-a-name.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Baba yaga The Child Witch",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 10,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-baba-yaga-the-child-witch.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Regina The Thief Of Hearts",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 12,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-regina-the-thief-of-hearts.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Babai the Judge",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 14,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-babai-the-judge.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Woman from the Woods",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 16,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-the-woman-from-the-woods.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "TheImmortal",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 18,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-theimmortal.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Marina the Sea Explorer",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 20,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-marina-the-sea-explorer.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Niklaus von Krampus",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 22,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-niklaus-von-krampus.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "George the Holy Dragon Slayer",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 24,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-george-the-holy-dragon-slayer.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Sun Wukong the Amazing Monkey",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 26,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-sun-wukong-the-amazing-monkey.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Verdoux Bluebeard",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 28,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-verdoux-bluebeard.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Yukie Onn the Traveling Artist",
+    "collection": "Core Book",
+    "source": "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - Basic Hunters Sheets.pdf",
+    "page": 30,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-yukie-onn-the-traveling-artist.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+    "collection": "Core Book: Fox and Cat",
+    "source": "bt-cb-foxcat-sheet-eng-final-screen [2022-06-29].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Cunning Machiavelli the Fox & Sly Bischeri the Cat.pdf",
+    "page": 2,
+    "img": "systems/broken-tales/assets/avatars/pregens/core-book-fox-and-cat-cunning-machiavelli-the-fox-and-sly-bischeri-the-cat.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Alice of Other Worlds",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 2,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-alice-of-other-worlds.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Beauty and her Beast",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 4,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-beauty-and-her-beast.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Bloodwhite",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 6,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-bloodwhite.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Wound. Carlo the LivingPuppet",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 8,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-wound-carlo-the-livingpuppet.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Hatta Carter",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 10,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-hatta-carter.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Knight with a Hundred Heads",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 12,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-the-knight-with-a-hundred-heads.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Iskra the Young Wolf",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 14,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-iskra-the-young-wolf.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Gang of three Pigs",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 16,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-the-gang-of-three-pigs.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Morgana of the Lake",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 18,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-morgana-of-the-lake.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "OZena the Suffering",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 20,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-ozena-the-suffering.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Sherazade the Weaver of Tales",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 22,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-sherazade-the-weaver-of-tales.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Talia the Sleeper",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 24,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-talia-the-sleeper.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Yvonne of the Dark",
+    "collection": "The Broken Ones",
+    "source": "bt-tbo-sheets-eng-final-screen [2022-06-14].pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Broken Tales - The Broken Ones Hunters Sheets.pdf",
+    "page": 26,
+    "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-yvonne-of-the-dark.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Miss Snow and Lady Storm",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 2,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-miss-snow-and-lady-storm.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Tremoteus Rumpel",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 4,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-tremoteus-rumpel.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Prince Trollo the Innocent",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 6,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-prince-trollo-the-innocent.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Pietrik and the Cauldron Fae",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 8,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-pietrik-and-the-cauldron-fae.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Loki the Deceiver",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 10,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-loki-the-deceiver.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Silent Mother",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 12,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-the-silent-mother.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Karasu Kuroi the Wandering Monk",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 14,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-karasu-kuroi-the-wandering-monk.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The 7 Hessian Mercenaries",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 16,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-the-7-hessian-mercenaries.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Circe the Alchemist",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 20,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-circe-the-alchemist.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Captain William of Nottingham",
+    "collection": "Lost Stories",
+    "source": "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN.pdf",
+    "page": 22,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-captain-william-of-nottingham.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Moriarty the Gentleman Thief",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 2,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-moriarty-the-gentleman-thief.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Pale Medic",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 4,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-the-pale-medic.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "The Respectable Mr. and Mrs. Mars",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 6,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-the-respectable-mr-and-mrs-mars.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Doctor V. Frankenstein",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 8,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-doctor-v-frankenstein.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Lost Stories Exclusives Hunter 5",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 10,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-lost-stories-exclusives-hunter-5.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Lost Stories Exclusives Hunter 6",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 12,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-lost-stories-exclusives-hunter-6.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Lost Stories Exclusives Hunter 7",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 14,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-lost-stories-exclusives-hunter-7.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Lost Stories Exclusives Hunter 8",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 16,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-lost-stories-exclusives-hunter-8.png",
+    "mode": "render",
+    "ok": true
+  },
+  {
+    "name": "Lost Stories Exclusives Hunter 9",
+    "collection": "Lost Stories Exclusives",
+    "source": "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "pdf": "C:\\Users\\Gamer\\Documents\\Broken Tales KS [ENG]\\Extras\\Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters.pdf",
+    "page": 18,
+    "img": "systems/broken-tales/assets/avatars/pregens/lost-stories-exclusives-lost-stories-exclusives-hunter-9.png",
+    "mode": "render",
+    "ok": true
+  }
+]

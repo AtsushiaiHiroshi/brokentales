@@ -1,265 +1,113 @@
 {
-  "BROKENTALES": {
-    "SystemTitle": "Broken Tales",
-    "SystemDescription": "A dark fairy tale roleplaying game",
-
-    "Actor": {
-      "Character": "Hunter",
-      "NPC": "NPC"
-    },
-
-    "Item": {
-      "Descriptor": "Descriptor",
-      "Gift": "Gift",
-      "ScenarioGift": "Scenario Gift",
-      "Clue": "Clue",
-      "Object": "Object",
-      "Type": "Type",
-      "Price": "Price",
-      "Rarity": "Rarity"
-    },
-
-    "SheetClassActor": "Broken Tales Actor Sheet",
-    "SheetClassItem": "Broken Tales Item Sheet",
-
-    "Tabs": {
-      "Main": "Main",
-      "Features": "Features",
-      "Items": "Items",
-      "Effects": "Effects",
-      "Abilities": "Abilities",
-      "Description": "Description",
-      "Attributes": "Attributes",
-      "Details": "Details",
-      "Notes": "Notes"
-    },
-
-    "Attributes": {
-      "Soma": "Soma",
-      "Wounds": "Wounds",
-      "XP": "Experience Points"
-    },
-
-    "Fields": {
-      "Name": "Name",
-      "Background": "Background",
-      "Equipment": "Equipment",
-      "Descriptors": "Descriptors",
-      "Gifts": "Gifts",
-      "DarkEgo": "Dark Ego",
-      "Trigger": "Trigger",
-      "Conditions": "Conditions",
-      "Notes": "Notes",
-      "Soma": "Soma",
-      "SomaCurrent": "Current Soma",
-      "SomaMax": "Maximum Soma",
-      "Wounds": "Wounds",
-      "WoundsCurrent": "Current Wounds",
-      "WoundsMax": "Maximum Wounds",
-      "WoundsExtra": "Extra Wound",
-      "Damage": "Damage",
-      "State": "State",
-      "Description": "Description",
-      "XP": "Experience",
-      "NPCType": "NPC Type",
-      "Villager": "Villager",
-      "broken_one": "Broken One",
-      "Creature": "Creature",
-      "Adversary": "Adversary",
-      "ThreatType": "Threat",
-      "Object": "Object",
-      "Obstacle": "Obstacle",
-      "DiceCount": "Dice Count",
-      "Difficulty": "Difficulty",
-      "Agenda": "Agenda",
-      "OppositionLevel": "Opposition Level",
-      "Easy": "Easy",
-      "Normal": "Normal",
-      "Hard": "Hard",
-      "Weapons": "Weapons",
-      "Objects": "Objects",
-      "SystemNote": "System Note",
-      "Roll": "Roll",
-      "RepeatRoll": "Repeat Roll",
-      "Cost": "Cost",
-      "Uses": "Uses",
-      "Effect": "Effect",
-      "Location": "Location",
-      "Importance": "Importance",
-      "Found": "Found",
-      "Scenario": "Scenario",
-      "Quantity": "Quantity",
-      "Weight": "Weight",
-      "Value": "Value",
-      "Equipped": "Equipped",
-      "Properties": "Properties"
-    },
-
-    "Items": {
-      "Descriptors": "Descriptors",
-      "Gifts": "Gifts"
-    },
-
-    "Descriptor": {
-      "Type": "Type",
-      "Narrative": "Narrative",
-      "Mechanical": "Mechanical",
-      "IsImprovement": "Is an Improvement",
-      "UsesHint": "Leave max at 0 for unlimited uses"
-    },
-
-    "Gift": {
-      "Type": "Type",
-      "Narrative": "Narrative",
-      "Mechanical": "Mechanical",
-      "Effect": "Effect",
-      "SomaCost": "Soma Cost",
-      "SomaCostHint": "Amount of Soma required to activate this Gift",
-      "IsUnique": "Is Unique",
-      "IsUniqueHint": "Unique Gifts can only be taken once",
-      "UseGift": "Use Gift"
-    },
-
-    "DarkEgo": {
-      "Descriptor": "Dark Ego Descriptor",
-      "Gift": "Dark Ego Gift",
-      "TriggerPlaceholder": "Describe the trigger for activating your Dark Ego..."
-    },
-
-    "NPC": {
-      "StatePlaceholder": "Active, Wounded, Incapacitated...",
-      "AbilityName": "Ability Name",
-      "AbilityDescription": "Ability Description",
-      "AbilityCost": "Cost",
-      "AddAbility": "Add Ability",
-      "Description": "Description",
-      "Motivation": "Motivation",
-      "OppositionLevel": "Opposition Level",
-      "Type": "Type"
-    },
-
-    "Roll": {
-      "Title": "Broken Tales Roll ({dice}d6)",
-      "TitleWithDifficulty": "🎲 Broken Tales Roll",
-      "SomaBoostTitle": "⚡ Soma Boost Roll ({dice}d6)",
-      "DarkEgoTitle": "👿 Dark Ego Activation ({dice}d6)",
-      "Character": "Character",
-      "Results": "Results",
-      "Successes": "Successes",
-      "TotalSuccesses": "Total Successes",
-      "BonusSuccesses": "Bonus Successes",
-      "SomaSpent": "Soma Spent",
-      "NotEnoughSoma": "{name} doesn't have enough Soma",
-      "Difficulty": "Difficulty",
-      "CriticalFailure": "❌ Critical Failure! A 1 was rolled.",
-      "Failure": "❌ Failure. Needed {difficulty}, only got {successes} successes.",
-      "SuccessExact": "⚠️ Success with cost (exactly {successes} successes).",
-      "SuccessPlus1": "✅ Success! ({successes} successes)",
-      "SuccessPlus": "✨ Success! ({successes} successes)",
-      "NoPrevious": "No previous Broken Tales roll found in chat.",
-      "MissingActor": "Could not identify the actor from the last roll.",
-      "Error": "Something went wrong with the roll."
-    },
-
-    "Dialog": {
-      "Continue": "Do you wish to continue?",
-      "ContinueTitle": "Continue",
-      "SpendSoma": "Spend {amount} Soma?",
-      "DeleteItem": "Delete this item permanently?",
-      "DeleteEffect": "Delete this effect permanently?",
-      "Yes": "Yes",
-      "No": "No"
-    },
-
-    "Error": {
-      "InvalidSoma": "The actor does not have a valid Soma attribute",
-      "InvalidAttributes": "The actor does not have the required attributes (Soma or Wounds)",
-      "NoDarkEgo": "The actor does not have a valid Dark Ego"
-    },
-
-    "Unnamed": "Unnamed",
-
-    "Effects": {
-      "Active": "Active Effects",
-      "AddEffect": "Add Effect",
-      "Effects": "Effects",
-      "Enable": "Enable",
-      "Disable": "Disable",
-      "New": "New Effect"
-    },
-
-    "Settings": {
-      "DiceSound": {
-        "Name": "Play Dice Sounds",
-        "Hint": "Play sound effects when rolling dice"
-      },
-      "AutoWounds": {
-        "Name": "Automatic Wound Tracking",
-        "Hint": "Automatically track wounds and check for death"
-      },
-      "ConfirmSoma": {
-        "Name": "Confirm Soma Spending",
-        "Hint": "Show confirmation dialog when spending Soma"
-      },
-      "ChatPortraits": {
-        "Name": "Show Portraits in Chat",
-        "Hint": "Display actor portraits in chat messages"
-      }
-    },
-
-    "Status": {
-      "Wounded": "Wounded",
-      "Dying": "Dying",
-      "Corrupted": "Corrupted",
-      "Blessed": "Blessed"
-    },
-
-    "Add": "Add",
-    "Edit": "Edit",
-    "Delete": "Delete",
-    "Use": "Use",
-    "Spend": "Spend",
-    "Recover": "Recover",
-    "Cancel": "Cancel",
-    "Confirm": "Confirm",
-    "Yes": "Yes",
-    "No": "No",
-
-    "Notifications": {
-      "SomaSpent": "{name} spent {amount} Soma",
-      "SomaRecovered": "{name} recovered {amount} Soma",
-      "NotEnoughSoma": "{name} does not have enough Soma!",
-      "WoundTaken": "{name} took 1 Wound",
-      "WoundHealed": "{name} healed 1 Wound",
-      "CharacterDead": "{name} has died!",
-      "GiftUsed": "{name} used {gift}"
-    },
-
-    "Narrative": "Narrative",
-    "Mechanical": "Mechanical",
-    "Improvement": "Improvement",
-
-    "Scenarios": {
-      "RedHoodIskra": "Red Hood - Iskra"
-    },
-
-    "ScenarioGifts": {
-      "VoiceOfSpirits": {
-        "name": "Voice of the Spirits",
-        "requirement": "You have come into contact with the Gift Spirit.",
-        "effect": "By calming your mind and concentrating, you can open your mind to the spiritual world and communicate with restless souls. Spend 1 Soma to contact a creature with the Spirit Gift you've previously encountered. You do not suffer the Wound caused by the stress of spiritual connection."
-      },
-      "WolfKiller": {
-        "name": "Wolf-killer",
-        "requirement": "Having faced the wolves in a fight at least once.",
-        "effect": "You know how to deal with the fiercest of wolves and are careful not to be surrounded. When you obtain at least a Standard Outcome on a Position or Defense Check against a pack of beasts, you can immediately eliminate 1 Minor animal NPC with 1 Wound."
-      },
-      "Sweetie": {
-        "name": "Where are you going all alone, sweetie?",
-        "requirement": "To meet Iskra alone in the forest.",
-        "effect": "You are attracted to the little girl who pretends to be a wolf and you dream of devouring her. Once per Scene, you can spend 1 Soma to know exactly where she is. If you anticipate her and arrive somewhere before her, you get 1 Additional Success on every Check you make to hurt or devour that little morsel. As long as she is present in the Scene, you receive 1 Penalty in all Defense Checks.",
-        "specialFor": "Special Gift for Garou the Old Wolf"
-      }
-    }
-  }
+  "BROKENTALES.ActorTypes.Hunter": "Hunter",
+  "BROKENTALES.ActorTypes.NPC": "NPC",
+  "BROKENTALES.ActorTypes.Threat": "Threat",
+  "BROKENTALES.ActorTypes.Villager": "Villager",
+  "BROKENTALES.ActorTypes.Essence": "Spirit / Essence",
+  "BROKENTALES.Age": "Age",
+  "BROKENTALES.Bookmark": "Bookmark",
+  "BROKENTALES.Bond": "Bond",
+  "BROKENTALES.Concept": "Concept",
+  "BROKENTALES.ContactWithBrokenTales": "Contact with the Broken Tales",
+  "BROKENTALES.DarkEgo": "Dark Ego",
+  "BROKENTALES.Darkness": "Darkness",
+  "BROKENTALES.Delete": "Delete",
+  "BROKENTALES.DeleteConfirm": "Delete {name}?",
+  "BROKENTALES.Description": "Description",
+  "BROKENTALES.DistinguishingFeatures": "Distinguishing Features",
+  "BROKENTALES.Empty.Descriptors": "No descriptors yet.",
+  "BROKENTALES.Empty.Gifts": "No gifts yet.",
+  "BROKENTALES.Exhausted": "Exhausted",
+  "BROKENTALES.EssenceAnchor": "Anchor",
+  "BROKENTALES.EssenceManifestation": "Manifestation",
+  "BROKENTALES.EssenceNature": "Nature",
+  "BROKENTALES.AdditionalGifts": "Additional Gifts",
+  "BROKENTALES.ExtraWound": "Extra Wound",
+  "BROKENTALES.Identity": "Identity",
+  "BROKENTALES.Item": "Item",
+  "BROKENTALES.ItemTypes.Condition": "Condition",
+  "BROKENTALES.ItemTypes.Descriptor": "Descriptor",
+  "BROKENTALES.ItemTypes.DarkEgo": "Dark Ego",
+  "BROKENTALES.ItemTypes.Equipment": "Equipment",
+  "BROKENTALES.ItemTypes.Gift": "Gift",
+  "BROKENTALES.ItemTypes.StoryElement": "Story Element",
+  "BROKENTALES.ItemTypes.Wound": "Wound",
+  "BROKENTALES.NegativeFace": "Negative Face",
+  "BROKENTALES.NewItem": "New {type}",
+  "BROKENTALES.Macros.ImportPregens": "Import Broken Tales Pregens",
+  "BROKENTALES.Macros.ImportDarkPresences": "Import Broken Tales Dark Presences",
+  "BROKENTALES.Macros.RepairDarkPresences": "Repair Broken Tales Dark Presences",
+  "BROKENTALES.Macros.RepairPregens": "Repair Broken Tales Pregens",
+  "BROKENTALES.Macros.CleanupDuplicateActors": "Clean Broken Tales Duplicate Actors",
+  "BROKENTALES.Macros.DeleteWorldActorsItems": "Delete All World Actors and Items",
+  "BROKENTALES.Notes": "Notes",
+  "BROKENTALES.Notifications.GMOnly": "Only a GM can import Broken Tales content.",
+  "BROKENTALES.Notifications.DarkPresencesImported": "Broken Tales dark presences: {created} created, {skipped} skipped.",
+  "BROKENTALES.Notifications.DeleteCancelled": "Deletion cancelled.",
+  "BROKENTALES.Notifications.DeleteWorldActorsItemsConfirm": "This will delete {actors} actors, {items} world items, and empty Actor/Item folders.",
+  "BROKENTALES.Notifications.DuplicatesCleaned": "Broken Tales duplicate actors cleaned: {deleted} deleted.",
+  "BROKENTALES.Notifications.CompendiaNotDeleted": "Compendia will not be deleted.",
+  "BROKENTALES.Notifications.PregensImported": "Broken Tales pregens: {created} created, {skipped} skipped.",
+  "BROKENTALES.Notifications.WorldActorsItemsDeleted": "Deleted {actors} actors and {items} world items.",
+  "BROKENTALES.Packs.AdventureMaps": "Broken Tales - Maps and Visual Resources",
+  "BROKENTALES.Packs.Adventures": "Broken Tales - Adventures and Scenarios",
+  "BROKENTALES.Packs.AdventureScenes": "Broken Tales - Map Scenes",
+  "BROKENTALES.Packs.Audit": "Broken Tales - Content Audit",
+  "BROKENTALES.Packs.BrokenOneDescriptors": "Broken Tales - Broken One Descriptors",
+  "BROKENTALES.Packs.DarkPresenceDescriptors": "Broken Tales - Dark Presence Descriptors",
+  "BROKENTALES.Packs.DarkPresences": "Broken Tales - Dark Presences",
+  "BROKENTALES.Packs.EssenceDescriptors": "Broken Tales - Spirit and Essence Descriptors",
+  "BROKENTALES.Packs.HunterDarkEgos": "Broken Tales - Hunter Dark Egos",
+  "BROKENTALES.Packs.HunterDescriptors": "Broken Tales - Hunter Descriptors",
+  "BROKENTALES.Packs.HunterEquipment": "Broken Tales - Hunter Equipment",
+  "BROKENTALES.Packs.HunterGifts": "Broken Tales - Hunter Gifts",
+  "BROKENTALES.Packs.Hunters": "Broken Tales - Pregenerated Hunters",
+  "BROKENTALES.Packs.Library": "Broken Tales - Complete Library",
+  "BROKENTALES.Packs.ScenarioActors": "Broken Tales - Scenario NPCs and Threats",
+  "BROKENTALES.Packs.Support": "Broken Tales - Gifts, Objects, and Support",
+  "BROKENTALES.Packs.ThreatDescriptors": "Broken Tales - Threat Descriptors",
+  "BROKENTALES.Packs.ThreatsVillagersEssences": "Broken Tales - Threats, Villagers, and Essences",
+  "BROKENTALES.Packs.VillagerDescriptors": "Broken Tales - Villager Descriptors",
+  "BROKENTALES.Origin": "Origin Tale",
+  "BROKENTALES.PositiveFace": "Positive Face",
+  "BROKENTALES.Quantity": "Quantity",
+  "BROKENTALES.Resources": "Resources",
+  "BROKENTALES.Role": "Role",
+  "BROKENTALES.Roll.BaseSuccesses": "Base Successes",
+  "BROKENTALES.Roll.CheckType": "Check Type",
+  "BROKENTALES.Roll.DefenseCheck": "Defense Check",
+  "BROKENTALES.Roll.Descriptor": "Descriptor",
+  "BROKENTALES.Roll.DialogTitle": "Broken Tales Check",
+  "BROKENTALES.Roll.Easy": "Easy",
+  "BROKENTALES.Roll.GiftSuccesses": "Gift Successes",
+  "BROKENTALES.Roll.Hard": "Hard",
+  "BROKENTALES.Roll.Intermediate": "Intermediate",
+  "BROKENTALES.Roll.NarrativeModifier": "Narrative Modifier",
+  "BROKENTALES.Roll.NoDescriptor": "No relevant descriptor",
+  "BROKENTALES.Roll.OneCancels": "A 1 on risk dice cancels the check.",
+  "BROKENTALES.Roll.OppositionCheck": "Opposition Check",
+  "BROKENTALES.Roll.OppositionLevel": "Opposition Level",
+  "BROKENTALES.Roll.Outcomes.Botch": "Risk Failure",
+  "BROKENTALES.Roll.Outcomes.Cost": "Triumph with Cost",
+  "BROKENTALES.Roll.Outcomes.Failure": "Failure",
+  "BROKENTALES.Roll.Outcomes.Increment": "Triumph with Increment",
+  "BROKENTALES.Roll.Outcomes.Success": "Triumph",
+  "BROKENTALES.Roll.RiskDice": "Risk Dice",
+  "BROKENTALES.Roll.Penalties": "Penalties",
+  "BROKENTALES.Roll.PositionCheck": "Position Check",
+  "BROKENTALES.Roll.Roll": "Roll",
+  "BROKENTALES.Roll.SomaSpent": "Soma Spent",
+  "BROKENTALES.Roll.TotalSuccesses": "Total Successes",
+  "BROKENTALES.Sheets.Actor": "Broken Tales Sheet",
+  "BROKENTALES.Sheets.Item": "Broken Tales Item",
+  "BROKENTALES.SceneUsed": "Used this Scene",
+  "BROKENTALES.Soma": "Soma",
+  "BROKENTALES.SomaCost": "Soma Cost",
+  "BROKENTALES.Specialization": "Specialization",
+  "BROKENTALES.ThreatImpulse": "Impulse",
+  "BROKENTALES.ThreatRank": "Rank",
+  "BROKENTALES.Trigger": "Trigger",
+  "BROKENTALES.Wounds": "Wounds",
+  "BROKENTALES.XP": "XP",
+  "BROKENTALES.XPMarked": "Marked for XP"
 }

@@ -1,170 +1,144 @@
-# Broken Tales System
+# Broken Tales for Foundry VTT
 
-Installation instructions and notes.
+Sistema comunitario no oficial para Foundry VTT V13/V14.
 
-**Broken Tales** is a full-featured system for Foundry VTT, designed to play Broken Tales campaigns directly within the virtual tabletop environment.
+## Incluye
 
----
+- Actor types: `hunter`, `npc`, `threat`, `villager`, `essence`.
+- Item types: `descriptor`, `gift`, `equipment`, `condition`, `wound`, `storyElement`.
+- DataModels modernos para Actors e Items.
+- Hojas basadas en `ActorSheetV2` e `ItemSheetV2`.
+- Prueba de posicion / Defensa con:
+  - Descriptor relevante: 3 exitos basicos.
+  - Sin descriptor relevante: 1 exito basico.
+  - Nivel de Oposicion base.
+  - Modificador narrativo.
+  - Soma gastado.
+  - Exitos por Dones.
+  - Dados de riesgo d6.
+  - Un resultado de 1 en dados de riesgo anula la prueba.
+- Chat card con resultado:
+  - Fracaso.
+  - Triunfo con coste.
+  - Triunfo.
+- Triunfo con incremento.
+- PX.
+- Punto de libro para Heridas narrativas.
+- Actor type `villager` para The Broken Ones / The Village.
+- Actor type `essence` para espiritus, esencias, almas, virtudes o entidades incorporeas.
 
-## 📥 Installation
+## Compendios
 
-1. Download or clone this repository.
+El sistema declara compendios visibles al crear o abrir un mundo con Broken Tales:
 
-2. Extract the folder and place it in:
-   [FoundryVTT Data Folder]/systems/brokentales/
+- `Broken Tales - Cazadores pregenerados`
+- `Broken Tales - Amenazas, aldeanos y esencias`
+- `Broken Tales - Dones, objetos y apoyo`
+- `Broken Tales - Dones de Cazador`
+- `Broken Tales - Equipo de Cazadores`
+- `Broken Tales - Presencias oscuras`
+- `Broken Tales - Biblioteca completa`
+- `Broken Tales - Aventuras y escenarios`
+- `Broken Tales - Mapas y recursos visuales`
+- `Broken Tales - Escenas de mapas`
+- `Broken Tales - Auditoria de contenido`
 
-3. Restart Foundry VTT.
+Los compendios se generan desde:
 
-4. When creating or configuring a world, select **Broken Tales** as the Game System.
+- `pregens/pregens.json`
+- `content/library.json`
+- `assets/source-pdfs`
 
----
+Para regenerarlos despues de cambiar contenido fuente:
 
-## 🗂 System Contents
+```powershell
+C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_packs.py
+```
 
-- `system.json`: Defines the system information and compatibility.
-- `template.json`: Base data template for Actors (Characters and NPCs).
-- `templates/`: HTML sheets for Character and NPCs.
-- `styles/`: Custom CSS with gothic theme and integrated font (GrobeDeutschmeister), the original font of the original Broken Tales game.
-- `fonts/`: Manuscript font used by the system.
-- `lang/`: Multi-language support (English and Spanish).
-- `scripts/`: System scripts and macros for core functionality.
-- `packs/`: Compendiums containing:
-  - **Actors**:
-    - Pre-generated Hunters (playable characters)
-    - Pre-generated NPCs (mixed types)
-    - **NPCs by Type:**
-      - Adversaries (human enemies, organized opposition)
-      - Broken Ones (corrupted former Hunters)
-      - Creatures (supernatural beings, magical beasts)
-      - Threats (environmental hazards, dangerous phenomena)
-      - Villagers (common folk, citizens, peasants)
-  - **Items**: Gifts and Descriptors for the system
-  - **Playlists**: Environment sounds, Sound effects, and Background music
-  - **Scenarios**: One-shots (including Red-Hood Iskra) and Campaign materials
-  - **Maps**: Environment maps in both English and Spanish
+Para volver a extraer texto real de hojas pregeneradas:
 
----
+```powershell
+C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_enriched_pregens.py
+```
 
-## 🎲 Character Sheet Overview
+Para regenerar Presencias oscuras:
 
-- **Name**: Hunter's name.
-- **Background**: Hunter's backstory.
-- **Descriptors**: Narrative powers or traits.
-- **Gifts**: Mechanical bonuses or powers.
-- **Dark Ego**: Trigger and corrupted Gift.
-- **Equipment**: Important narrative objects.
-- **Conditions**: Current afflictions.
-- **Soma**: Resource representing a character's willpower and supernatural potential, it can be spent to activate Gifts or add succeeded dices to your roll, Soma represents the character's connection to the dark side of fairy tales.
-- **Wounds**: Physical and mental injuries that can be sustained before being incapacitated.
-- **Notes**: Free text for additional character information.
+```powershell
+C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_dark_presences.py
+```
 
----
+Para regenerar aventuras, mapas extraidos y escenas:
 
-## 🎲 NPC Sheet Overview
+```powershell
+C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_adventures.py
+```
 
-NPCs in Broken Tales are categorized into different types based on their narrative role:
+## Importadores opcionales
 
-### NPC Categories (by Importance)
+El contenido principal vive en compendios. Si aun quieres copiar documentos desde los compendios/datos locales al mundo como Actors, Items o Journals editables, estas funciones siguen disponibles desde consola o macro de GM.
 
-- **Minor NPC**: 1-3 Wounds (usually 1) - Secondary characters, occasional encounters
-- **Main NPC**: 1-6 Wounds (usually 3) - Important story characters
-- **Dark Presence**: 1-6 Wounds (usually 3) - Supernatural entities from fairy tales
+En una macro de GM puedes ejecutar:
 
-### NPC Types (by Nature)
+```js
+await game.brokenTales.importPregens();
+```
 
-- **Villager**: Common folk, peasants, citizens (OL: 3-5)
-- **Adversary**: Human enemies, organized opposition (OL: 5-7)
-- **Creature**: Supernatural beings, magical beasts (OL: 5-7)
-- **Broken One**: Corrupted former Hunters (OL: 7)
-- **Threat**: Environmental hazards, dangerous phenomena (OL: 3-7)
-- **Object**: Animated objects (not yet implemented)
-- **Obstacle**: Environmental challenges (not yet implemented)
+Tambien puedes crear una macro automaticamente con:
 
-### NPC Sheet Fields
+```js
+await game.brokenTales.createPregenImportMacro();
+```
 
-- **Name**: NPC name
-- **NPC Type**: Villager, Adversary, Creature, Broken One, or Threat
-- **Opposition Level (OL)**: Difficulty (3 Easy, 5 Normal, 7 Hard)
-- **Description**: Brief narrative description
-- **Descriptor**: Narrative trait that modifies OL by ±1
-- **Agenda**: Motivations and goals
-- **Damage**: Base damage they deal (e.g., 1d6)
-- **State**: Current status (active, wounded, incapacitated, etc.)
-- **Gifts**: Powers or narrative abilities
-- **Equipment**: Items the NPC may possess
-- **Soma**: For supernatural creatures and Broken Ones
-- **Wounds**: Damage track (current/max)
+Los Actors se crean con nombre, Soma, fuente y placeholders de Descriptores/Dones para rellenar desde los PDFs locales.
 
-For detailed information about actor types, see `.github/instructions/actor_types_reference.md`
+## Biblioteca local completa
 
----
+El sistema incluye una biblioteca privada generada desde los PDFs locales de la mesa. Los libros, hojas, mapas y apoyos estan en el compendio de Journals, con texto extraido por pagina y enlace al PDF copiado dentro del sistema.
 
-## ⚙️ Current Features
+En una macro de GM puedes ejecutar:
 
-- **Complete Item Collection**: 83 items and clues across all 10 scenarios
-  - All adventures from the core book fully extracted
-  - Clues with location, importance level, and scenario tracking
-  - Objects with quantity, weight, value, and properties
-- Full support for Hunter (Character) and NPC types
-  - **7 NPC Types**: Villagers, Adversaries, Creatures, Broken Ones, Threats, Objects*, Obstacles* (\*in development)
-  - **3 NPC Categories**: Minor, Main, and Dark Presence
-  - **3 Opposition Levels**: Easy (3), Normal (5), Hard (7)
-- Automatic dice roll system using custom macros (Powered by the Apocalypse inspired)
-- Full English language interface with Spanish translation available
-- **Comprehensive compendium collection** including:
-  - Pre-generated Hunters and NPCs of all types
-  - **10 Complete Scenario Collections**:
-    1. Red-Hood Iskra (10 items)
-    2. A Soldier's Duty (6 items)
-    3. Wonderbedlam (6 items)
-    4. Tuvstarr's Reflection (7 items)
-    5. The City of Pigs (8 items)
-    6. Saint George - The Dragon Slayer (6 items)
-    7. OZena - The Suffering and Desperate (12 items)
-    8. The Smile in the Darkness (8 items)
-    9. Of Flesh and Wood (12 items)
-    10. One Thousand and One Nightmares (8 items)
-  - Scenario-specific Gifts for each adventure
-  - NPCs organized by scenario and type
-  - Environmental and background music playlists
-  - Maps in English and Spanish
-- Ready for extension: add more moves, gifts, conditions as needed
+```js
+await game.brokenTales.importLibrary();
+```
 
----
+Tambien puedes crear una macro automaticamente con:
 
-## � System Statistics (v1.1.0)
+```js
+await game.brokenTales.createLibraryImportMacro();
+```
 
-- **Total Items & Clues**: 83 across 10 scenarios
-- **Pre-Generated Hunters**: 12+ playable characters
-- **NPCs**: 100+ across all scenario categories
-- **Scenarios**: 10 complete adventures
-- **Languages**: English, Spanish
-- **Foundry Compatibility**: v11 - v13.350
+## Dones de escenario, objetos y apoyo
 
----
+El sistema crea Items de apoyo para localizar rapidamente Dones de escenario, objetos/equipamiento, Tesoro de la Orden, aldeanos, mapa y espiritus/esencias. Para importarlos manualmente:
 
-## 🔮 Future Work
+```js
+await game.brokenTales.importSupportItems();
+```
 
-- Advanced macros for quick activation of Gifts and Descriptors
-- Automated XP tracking system
-- Interlude mechanics between sessions
-- Active Effects integration for conditions
-- Macro hotbar integration for Gifts
-- Dice So Nice module integration
-- Additional language support
+Para crear la macro:
 
----
+```js
+await game.brokenTales.createSupportImportMacro();
+```
 
-## 📝 Credits
+Tambien crea actores de referencia para Amenaza, PNJ, Aldeano y Espiritu / Esencia:
 
-Broken Tales is © by The World Anvil Publishing.  
-This system is an independent adaptation for personal Foundry VTT usage.
+```js
+await game.brokenTales.importReferenceActors();
+```
 
----
+Para regenerar la biblioteca desde los PDFs originales:
 
-"authors": [
-{
-"name": "Broken Tales System Developer",
-"discord": "brokentales",
-"url": "https://github.com/brokentales/foundryvtt-brokentales"
-}
+```powershell
+C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_library.py
+```
+
+## Nota de contenido
+
+Esta instalacion local incluye texto y PDFs extraidos de archivos que posee la mesa. No redistribuyas esta carpeta del sistema si contiene `content/library.json` o `assets/source-pdfs`.
+
+## Investigacion de reglas
+
+La especificacion de elementos corroborados para adaptar el sistema con mas fidelidad esta en:
+
+`docs/rules-research.md`

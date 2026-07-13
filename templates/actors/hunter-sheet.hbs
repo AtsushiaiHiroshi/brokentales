@@ -1,0 +1,260 @@
+<section class="bt-sheet {{actor.type}}">
+  <header class="bt-sheet-head">
+    <div class="bt-portrait">
+      <img src="{{actor.img}}" alt="{{actor.name}}" />
+      <input type="text" name="img" value="{{actor.img}}" {{fieldDisabled}} />
+    </div>
+
+    <div class="bt-identity">
+      <div class="bt-ink-title {{nameLengthClass}}">
+        <input class="bt-name" type="text" name="name" value="{{actor.name}}" {{fieldDisabled}} />
+      </div>
+      <div class="bt-line-fields">
+        <label>
+          <span>{{localize "BROKENTALES.Concept"}}</span>
+          <input type="text" name="system.details.concept" value="{{system.details.concept}}" {{fieldDisabled}} />
+        </label>
+        <label>
+          <span>{{localize "BROKENTALES.Origin"}}</span>
+          <input type="text" name="system.details.origin" value="{{system.details.origin}}" {{fieldDisabled}} />
+        </label>
+        <label>
+          <span>{{localize typeLabel}}</span>
+          <input type="text" name="system.details.role" value="{{system.details.role}}" {{fieldDisabled}} />
+        </label>
+      </div>
+    </div>
+
+    <section class="bt-featured">
+      <div class="bt-featured-text">
+        <h2>{{localize "BROKENTALES.ItemTypes.Descriptor"}} 1</h2>
+        {{#if featuredDescriptor}}
+        <div class="bt-rich">{{{featuredDescriptor.system.description}}}</div>
+        {{else}}
+        <p class="bt-empty">{{localize "BROKENTALES.Empty.Descriptors"}}</p>
+        {{/if}}
+      </div>
+    </section>
+  </header>
+
+  {{#if isThreat}}
+  <section class="bt-card bt-compact-fields">
+    <label>
+      <span>{{localize "BROKENTALES.ThreatRank"}}</span>
+      <input type="text" name="system.threat.rank" value="{{system.threat.rank}}" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.ThreatImpulse"}}</span>
+      <input type="text" name="system.threat.impulse" value="{{system.threat.impulse}}" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.Roll.OppositionLevel"}}</span>
+      <input type="number" name="system.threat.oppositionLevel" value="{{system.threat.oppositionLevel}}" min="1" {{fieldDisabled}} />
+    </label>
+  </section>
+  {{/if}}
+
+  {{#if isVillager}}
+  <section class="bt-card bt-villager">
+    <div class="bt-compact-fields">
+      <label>
+        <span>{{localize "BROKENTALES.Age"}}</span>
+        <input type="text" name="system.villager.age" value="{{system.villager.age}}" {{fieldDisabled}} />
+      </label>
+      <label>
+        <span>{{localize "BROKENTALES.Bond"}}</span>
+        <input type="text" name="system.villager.bond" value="{{system.villager.bond}}" {{fieldDisabled}} />
+      </label>
+    </div>
+    <label>
+      <span>{{localize "BROKENTALES.ContactWithBrokenTales"}}</span>
+      <textarea name="system.villager.contact" {{fieldDisabled}}>{{system.villager.contact}}</textarea>
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.DistinguishingFeatures"}}</span>
+      <textarea name="system.villager.distinguishingFeatures" {{fieldDisabled}}>{{system.villager.distinguishingFeatures}}</textarea>
+    </label>
+  </section>
+  {{/if}}
+
+  {{#if isEssence}}
+  <section class="bt-card bt-villager">
+    <div class="bt-compact-fields">
+      <label>
+        <span>{{localize "BROKENTALES.EssenceNature"}}</span>
+        <input type="text" name="system.essence.nature" value="{{system.essence.nature}}" {{fieldDisabled}} />
+      </label>
+      <label>
+        <span>{{localize "BROKENTALES.EssenceAnchor"}}</span>
+        <input type="text" name="system.essence.anchor" value="{{system.essence.anchor}}" {{fieldDisabled}} />
+      </label>
+    </div>
+    <label>
+      <span>{{localize "BROKENTALES.EssenceManifestation"}}</span>
+      <textarea name="system.essence.manifestation" {{fieldDisabled}}>{{system.essence.manifestation}}</textarea>
+    </label>
+  </section>
+  {{/if}}
+
+  <section class="bt-descriptor-stack">
+    {{#each descriptorRows as |row|}}
+    <article class="bt-descriptor-row">
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.ItemTypes.Descriptor"}} {{row.index}}</h2>
+        <button type="button" data-action="createItem" data-type="descriptor" title="{{localize "BROKENTALES.ItemTypes.Descriptor"}}">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      {{#if row.descriptor}}
+      <div class="bt-linked-item descriptor" data-item-id="{{row.descriptor._id}}">
+        <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h3>{{row.descriptor.name}}</h3>
+        <p><strong>+</strong> {{row.descriptor.system.positive}}</p>
+        <p><strong>-</strong> {{row.descriptor.system.negative}}</p>
+      </div>
+      {{else}}
+      <p class="bt-empty">{{localize "BROKENTALES.Empty.Descriptors"}}</p>
+      {{/if}}
+
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.ItemTypes.Gift"}}</h2>
+        <button type="button" data-action="createItem" data-type="gift" title="{{localize "BROKENTALES.ItemTypes.Gift"}}">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      {{#if row.gift}}
+      <div class="bt-linked-item gift" data-item-id="{{row.gift._id}}">
+        <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h3>{{row.gift.name}}</h3>
+        <div class="bt-rich">{{{row.gift.system.description}}}</div>
+        {{#if row.gift.system.trigger}}<p><strong>{{localize "BROKENTALES.Trigger"}}:</strong> {{row.gift.system.trigger}}</p>{{/if}}
+      </div>
+      {{else}}
+      <p class="bt-empty">{{localize "BROKENTALES.Empty.Gifts"}}</p>
+      {{/if}}
+    </article>
+    {{/each}}
+  </section>
+
+  {{#if extraGifts.length}}
+  <section class="bt-card bt-extra-gifts">
+    <div class="bt-section-title">
+      <h2>{{localize "BROKENTALES.AdditionalGifts"}}</h2>
+      <button type="button" data-action="createItem" data-type="gift" title="{{localize "BROKENTALES.ItemTypes.Gift"}}">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+    {{#each extraGifts as |gift|}}
+    <div class="bt-linked-item gift" data-item-id="{{gift._id}}">
+      <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+      <h3>{{gift.name}}</h3>
+      <div class="bt-rich">{{{gift.system.description}}}</div>
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  <section class="bt-lower-grid">
+    <article class="bt-card bt-dark-ego">
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.DarkEgo"}}</h2>
+        <button type="button" data-action="createItem" data-type="darkEgo" title="{{localize "BROKENTALES.DarkEgo"}}">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      {{#if darkEgo}}
+      <div class="bt-linked-item gift" data-item-id="{{darkEgo._id}}">
+        <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h3>{{darkEgo.name}}</h3>
+        {{#if darkEgoDescriptor}}
+        <div class="bt-dark-descriptor" data-item-id="{{darkEgoDescriptor._id}}">
+          <strong>{{localize "BROKENTALES.ItemTypes.Descriptor"}}</strong>
+          <div class="bt-rich">{{{darkEgoDescriptor.system.description}}}</div>
+        </div>
+        {{/if}}
+        <div class="bt-rich">{{{darkEgo.system.description}}}</div>
+        <p><strong>{{localize "BROKENTALES.Trigger"}}:</strong> {{darkEgo.system.trigger}}</p>
+      </div>
+      {{else}}
+      <p class="bt-empty">{{localize "BROKENTALES.Empty.Gifts"}}</p>
+      {{/if}}
+    </article>
+
+    <article class="bt-card">
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.Bookmark"}}</h2>
+      </div>
+      <div class="bt-wounds">
+        <label><span>1</span><input type="text" name="system.bookmark.wound1" value="{{system.bookmark.wound1}}" {{fieldDisabled}} /></label>
+        <label><span>2</span><input type="text" name="system.bookmark.wound2" value="{{system.bookmark.wound2}}" {{fieldDisabled}} /></label>
+        <label><span>3</span><input type="text" name="system.bookmark.wound3" value="{{system.bookmark.wound3}}" {{fieldDisabled}} /></label>
+        <label><span>{{localize "BROKENTALES.ExtraWound"}}</span><input type="text" name="system.bookmark.extraWound" value="{{system.bookmark.extraWound}}" {{fieldDisabled}} /></label>
+      </div>
+    </article>
+  </section>
+
+  <section class="bt-lower-grid">
+    <article class="bt-card">
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.ItemTypes.Equipment"}}</h2>
+        <button type="button" data-action="createItem" data-type="equipment" title="{{localize "BROKENTALES.ItemTypes.Equipment"}}">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      {{#each itemGroups.equipment as |item|}}
+      <div class="bt-linked-item slim" data-item-id="{{item._id}}">
+        <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h3>{{item.name}}</h3>
+        <div class="bt-rich">{{{item.system.description}}}</div>
+      </div>
+      {{else}}
+      <p class="bt-empty">{{localize "BROKENTALES.ItemTypes.Equipment"}}</p>
+      {{/each}}
+    </article>
+
+    <article class="bt-card">
+      <div class="bt-section-title">
+        <h2>{{localize "BROKENTALES.ItemTypes.StoryElement"}}</h2>
+        <button type="button" data-action="createItem" data-type="storyElement" title="{{localize "BROKENTALES.ItemTypes.StoryElement"}}">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+      {{#each itemGroups.storyElement as |item|}}
+      <div class="bt-linked-item slim" data-item-id="{{item._id}}">
+        <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
+        <h3>{{item.name}}</h3>
+        <div class="bt-rich">{{{item.system.description}}}</div>
+      </div>
+      {{/each}}
+    </article>
+  </section>
+
+  <section class="bt-resource-footer">
+    <div class="bt-resource-circles">
+      <label class="bt-circle">
+        <span>{{localize "BROKENTALES.Soma"}}</span>
+        <input type="number" name="system.resources.soma.value" value="{{system.resources.soma.value}}" min="0" {{fieldDisabled}} />
+        <small>/</small>
+        <input type="number" name="system.resources.soma.max" value="{{system.resources.soma.max}}" min="0" {{fieldDisabled}} />
+      </label>
+      <label class="bt-circle">
+        <span>{{localize "BROKENTALES.Wounds"}}</span>
+        <input type="number" name="system.resources.wounds.value" value="{{system.resources.wounds.value}}" min="0" {{fieldDisabled}} />
+        <small>/</small>
+        <input type="number" name="system.resources.wounds.max" value="{{system.resources.wounds.max}}" min="0" {{fieldDisabled}} />
+      </label>
+      <label class="bt-circle">
+        <span>{{localize "BROKENTALES.XP"}}</span>
+        <input type="number" name="system.resources.xp" value="{{system.resources.xp}}" min="0" {{fieldDisabled}} />
+      </label>
+      <button type="button" data-action="rollOpposition" title="{{localize "BROKENTALES.Roll.PositionCheck"}}">
+        <i class="fa-solid fa-dice-d6"></i>
+      </button>
+    </div>
+  </section>
+
+  <footer class="bt-footer-notes">
+    <h2>{{localize "BROKENTALES.Notes"}}</h2>
+    <textarea name="system.details.notes" {{fieldDisabled}}>{{system.details.notes}}</textarea>
+  </footer>
+</section>

@@ -1,0 +1,48 @@
+{
+  "system": {
+    "hunters": 15,
+    "descriptors": 61,
+    "gifts": 31,
+    "darkEgos": 15,
+    "equipment": 80,
+    "library": 12,
+    "packs": 19
+  },
+  "brokenOnes": {
+    "broken-ones-hunters": 13,
+    "broken-ones-actors": 54,
+    "broken-ones-descriptors": 41,
+    "broken-ones-threat-descriptors": 0,
+    "broken-ones-gifts": 26,
+    "broken-ones-dark-egos": 13,
+    "broken-ones-equipment": 85,
+    "broken-ones-library": 3,
+    "broken-ones-adventures": 7,
+    "broken-ones-maps": 7,
+    "broken-ones-scenes": 7,
+    "red-hood-iskra-support": 11,
+    "red-hood-iskra-maps": 8,
+    "red-hood-iskra-audio": 0,
+    "broken-ones-source-pdfs": 3
+  },
+  "lostStories": {
+    "lost-stories-hunters": 19,
+    "lost-stories-actors": 122,
+    "lost-stories-dark-presences": 10,
+    "lost-stories-dark-presence-descriptors": 10,
+    "lost-stories-threat-descriptors": 10,
+    "lost-stories-descriptors": 66,
+    "lost-stories-gifts": 38,
+    "lost-stories-dark-egos": 19,
+    "lost-stories-equipment": 101,
+    "lost-stories-library": 5,
+    "lost-stories-adventures": 9,
+    "lost-stories-maps": 9,
+    "lost-stories-scenes": 9,
+    "lost-stories-source-pdfs": 5
+  },
+  "moduleRoots": {
+    "brokenRoot": "C:\\Users\\Gamer\\AppData\\Local\\FoundryVTT\\Data\\modules\\broken-tales-broken-ones",
+    "lostRoot": "C:\\Users\\Gamer\\AppData\\Local\\FoundryVTT\\Data\\modules\\broken-tales-lost-stories"
+  }
+}
