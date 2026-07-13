@@ -85,7 +85,10 @@ class BrokenTalesItemData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
       description: new fields.HTMLField({ initial: "" }),
-      notes: new fields.StringField({ initial: "" })
+      notes: new fields.StringField({ initial: "" }),
+      owner: new fields.StringField({ initial: "" }),
+      category: new fields.StringField({ initial: "" }),
+      source: new fields.StringField({ initial: "" })
     };
   }
 }

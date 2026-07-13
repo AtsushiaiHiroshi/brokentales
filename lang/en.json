@@ -112,5 +112,8 @@
   "BROKENTALES.XPMarked": "Marked for XP",
   "BROKENTALES.DropDuplicateItem": "Item already exists on this sheet: {name}",
   "BROKENTALES.Macros.SyncWorldActors": "Sync Broken Tales World Actors",
-  "BROKENTALES.Notifications.WorldActorsSynced": "Broken Tales world actors synced: {updated} updated, {unmatched} not matched."
+  "BROKENTALES.Notifications.WorldActorsSynced": "Broken Tales world actors synced: {updated} updated, {unmatched} not matched.",
+  "BROKENTALES.Owner": "Owner",
+  "BROKENTALES.Category": "Category",
+  "BROKENTALES.Source": "Source"
 }

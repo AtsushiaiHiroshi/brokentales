@@ -12,6 +12,21 @@
     </div>
   </header>
 
+  <section class="bt-panel bt-item-meta">
+    <label>
+      <span>{{localize "BROKENTALES.Owner"}}</span>
+      <input type="text" name="system.owner" value="{{system.owner}}" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.Category"}}</span>
+      <input type="text" name="system.category" value="{{system.category}}" {{fieldDisabled}} />
+    </label>
+    <label>
+      <span>{{localize "BROKENTALES.Source"}}</span>
+      <input type="text" name="system.source" value="{{system.source}}" {{fieldDisabled}} />
+    </label>
+  </section>
+
   {{#if isDescriptor}}
   <section class="bt-panel">
     <label>
