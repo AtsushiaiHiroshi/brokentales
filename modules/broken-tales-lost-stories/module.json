@@ -2,7 +2,7 @@
   "id": "broken-tales-lost-stories",
   "title": "Broken Tales - Lost Stories",
   "description": "Expansion module for Lost Stories content for the Broken Tales system. Public package excludes local source PDFs/audio; install over the Broken Tales system.",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -186,5 +186,5 @@
   "languages": [],
   "url": "https://github.com/AtsushiaiHiroshi/brokentales",
   "manifest": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/modules/broken-tales-lost-stories/module.json",
-  "download": ""
+  "download": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/dist/broken-tales-lost-stories.zip"
 }
