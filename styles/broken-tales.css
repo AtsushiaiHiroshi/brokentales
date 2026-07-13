@@ -1210,3 +1210,65 @@
   background: rgba(255, 255, 255, 0.42);
   border: 2px solid var(--bt-ink);
 }
+
+/* Foundry compendium chrome. The document sheet styles do not automatically
+   reach the compendium directory, so Broken Tales packs get their own inked
+   treatment in the sidebar and opened compendium windows. */
+body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"] .entry-name,
+body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"] h3,
+body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"] .pack-title,
+body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor .entry-name,
+body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor .entry-name,
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor .entry-name {
+  color: #d01818;
+  font-family: var(--bt-title-font);
+  font-style: italic;
+  letter-spacing: 0;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 5px rgba(210, 0, 0, 0.82),
+    0 2px 4px rgba(0, 0, 0, 0.72);
+}
+
+body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"],
+body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor,
+body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor,
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor {
+  background:
+    linear-gradient(90deg, rgba(150, 0, 0, 0.28), transparent 42%),
+    rgba(12, 6, 9, 0.88);
+  border-bottom: 1px solid rgba(210, 0, 0, 0.34);
+}
+
+body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"]:hover,
+body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor:hover,
+body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor:hover,
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor:hover {
+  background:
+    radial-gradient(circle at 24px 50%, rgba(255, 0, 0, 0.42), transparent 34px),
+    linear-gradient(90deg, rgba(190, 0, 0, 0.40), transparent 52%),
+    rgba(16, 6, 9, 0.94);
+}
+
+body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor img,
+body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor img,
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor img {
+  border: 1px solid rgba(220, 0, 0, 0.88);
+  box-shadow: 0 0 9px rgba(220, 0, 0, 0.62);
+  object-fit: cover;
+}
+
+body.system-broken-tales #compendium .directory-item.folder[data-folder-id],
+body.system-broken-tales #compendium .directory-item.folder[data-folder-depth] {
+  border-left: 3px solid var(--bt-red);
+}
+
+body.system-broken-tales #compendium .directory-item.folder > header h3,
+body.system-broken-tales #compendium .directory-item.folder .folder-header h3,
+body.system-broken-tales #compendium .directory-item.folder .folder-name {
+  color: #f2e5dd;
+  font-family: var(--bt-title-font);
+  font-style: italic;
+  letter-spacing: 0;
+  text-shadow: 0 0 7px rgba(210, 0, 0, 0.86);
+}

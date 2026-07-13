@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "authors": [
     {
       "name": "Mesa local"
@@ -66,14 +66,15 @@
   "packs": [
     {
       "name": "hunters",
-      "label": "BROKENTALES.Packs.Hunters",
+      "label": "BROKENTALES.Packs.CoreHunters",
       "path": "packs/hunters-canon.db",
       "type": "Actor",
       "system": "broken-tales",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "threats-villagers-essences",
@@ -84,7 +85,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "support",
@@ -95,7 +97,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "hunter-gifts",
@@ -106,7 +109,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "hunter-descriptors",
@@ -117,7 +121,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "hunter-equipment",
@@ -128,7 +133,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "hunter-dark-egos",
@@ -139,7 +145,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "dark-presence-descriptors",
@@ -150,7 +157,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "threat-descriptors",
@@ -161,7 +169,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "villager-descriptors",
@@ -172,7 +181,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "essence-descriptors",
@@ -183,7 +193,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "dark-presences",
@@ -194,7 +205,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "scenario-actors",
@@ -205,7 +217,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "library",
@@ -216,7 +229,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "adventures",
@@ -227,7 +241,32 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
+    },
+    {
+      "name": "adventure-maps",
+      "label": "BROKENTALES.Packs.AdventureMaps",
+      "path": "packs/adventure-maps-canon.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "folder": "Broken Tales - Core"
+    },
+    {
+      "name": "adventure-scenes",
+      "label": "BROKENTALES.Packs.AdventureScenes",
+      "path": "packs/adventure-scenes-canon.db",
+      "type": "Scene",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "audit",
@@ -238,7 +277,21 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
+    },
+    {
+      "name": "source-pdfs",
+      "label": "Broken Tales - Source PDFs",
+      "path": "packs/source-pdfs-canon.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "folder": "Broken Tales - Core"
     }
   ],
   "languages": [
@@ -258,8 +311,8 @@
     "units": "m"
   },
   "socket": false,
-  "url": "https://github.com/AtsushiaiHiroshi/brokentales",
-  "manifest": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/system.json",
-  "download": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/dist/broken-tales.zip",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "license": "Private local fan project. This install may include extracted content from user-owned PDFs; do not redistribute."
 }

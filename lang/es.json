@@ -115,5 +115,8 @@
   "BROKENTALES.Notifications.WorldActorsSynced": "Actores Broken Tales del mundo sincronizados: {updated} actualizados, {unmatched} sin coincidencia.",
   "BROKENTALES.Owner": "Pertenece a",
   "BROKENTALES.Category": "Categoría",
-  "BROKENTALES.Source": "Fuente"
+  "BROKENTALES.Source": "Fuente",
+  "BROKENTALES.Packs.CoreHunters": "Broken Tales - Cazadores del Core",
+  "BROKENTALES.Packs.BrokenOnesHunters": "Broken Tales - Cazadores de Broken Ones",
+  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Cazadores de Lost Stories"
 }

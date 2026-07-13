@@ -115,5 +115,8 @@
   "BROKENTALES.Notifications.WorldActorsSynced": "Broken Tales world actors synced: {updated} updated, {unmatched} not matched.",
   "BROKENTALES.Owner": "Owner",
   "BROKENTALES.Category": "Category",
-  "BROKENTALES.Source": "Source"
+  "BROKENTALES.Source": "Source",
+  "BROKENTALES.Packs.CoreHunters": "Broken Tales - Core Hunters",
+  "BROKENTALES.Packs.BrokenOnesHunters": "Broken Tales - Broken Ones Hunters",
+  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Lost Stories Hunters"
 }

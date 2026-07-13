@@ -1,8 +1,8 @@
 {
   "id": "broken-tales-broken-ones",
   "title": "Broken Tales - The Broken Ones",
-  "description": "Expansion module for The Broken Ones content for the Broken Tales system. Public package excludes local source PDFs/audio; install over the Broken Tales system.",
-  "version": "0.2.8",
+  "description": "Expansion module for The Broken Ones content for the Broken Tales system.",
+  "version": "0.2.9",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -26,7 +26,7 @@
   "packs": [
     {
       "name": "broken-ones-hunters",
-      "label": "Broken Tales - The Broken Ones Hunters",
+      "label": "BROKENTALES.Packs.BrokenOnesHunters",
       "path": "packs/broken-ones-hunters.db",
       "type": "Actor",
       "system": "broken-tales",
@@ -34,7 +34,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-actors",
@@ -46,7 +47,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-descriptors",
@@ -58,7 +60,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-threat-descriptors",
@@ -70,7 +73,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-gifts",
@@ -82,7 +86,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-dark-egos",
@@ -94,7 +99,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-equipment",
@@ -106,7 +112,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-library",
@@ -118,7 +125,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "broken-ones-adventures",
@@ -130,7 +138,34 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
+    },
+    {
+      "name": "broken-ones-maps",
+      "label": "Broken Tales - The Broken Ones Maps",
+      "path": "packs/broken-ones-maps.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
+    },
+    {
+      "name": "broken-ones-scenes",
+      "label": "Broken Tales - The Broken Ones Scenes",
+      "path": "packs/broken-ones-scenes.db",
+      "type": "Scene",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "red-hood-iskra-support",
@@ -142,7 +177,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     },
     {
       "name": "red-hood-iskra-maps",
@@ -154,13 +190,40 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "flags": {}
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
+    },
+    {
+      "name": "red-hood-iskra-audio",
+      "label": "Broken Tales - Red-Hood Iskra Audio / OST",
+      "path": "packs/red-hood-iskra-audio.db",
+      "type": "Playlist",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
+    },
+    {
+      "name": "broken-ones-source-pdfs",
+      "label": "Broken Tales - The Broken Ones Source PDFs",
+      "path": "packs/broken-ones-source-pdfs.db",
+      "type": "JournalEntry",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "folder": "Broken Tales - Broken Ones"
     }
   ],
   "esmodules": [],
   "styles": [],
   "languages": [],
   "url": "https://github.com/AtsushiaiHiroshi/brokentales",
-  "manifest": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/modules/broken-tales-broken-ones/module.json",
-  "download": "https://raw.githubusercontent.com/AtsushiaiHiroshi/brokentales/main/dist/broken-tales-broken-ones.zip"
+  "manifest": "",
+  "download": ""
 }
