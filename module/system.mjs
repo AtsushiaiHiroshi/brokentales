@@ -104,6 +104,16 @@ Hooks.once("init", () => {
       wound: "BROKENTALES.ItemTypes.Wound",
       storyElement: "BROKENTALES.ItemTypes.StoryElement"
     },
+    threatRankOptions: {
+      "Easy 3": "BROKENTALES.ThreatRanks.Easy",
+      "Medium 5": "BROKENTALES.ThreatRanks.Medium",
+      "Hard 7": "BROKENTALES.ThreatRanks.Hard"
+    },
+    threatRankOpposition: {
+      "Easy 3": 3,
+      "Medium 5": 5,
+      "Hard 7": 7
+    },
     roll: {
       outcomes: {
         botch: {

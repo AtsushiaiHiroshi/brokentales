@@ -46,10 +46,24 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       isVillager: this.document.type === "villager",
       isEssence: this.document.type === "essence",
       typeLabel: CONFIG.BROKENTALES.actorTypeLabels[this.document.type] || "BROKENTALES.ActorTypes.Hunter",
+      threatRankOptions: CONFIG.BROKENTALES.threatRankOptions,
       isEditable: this.isEditable,
       fieldDisabled: this.isEditable ? "" : "disabled",
       config: CONFIG.BROKENTALES
     };
+  }
+
+  _onRender(context, options) {
+    super._onRender(context, options);
+    const root = this.element instanceof HTMLElement ? this.element : this.element?.[0];
+    root?.querySelector("[data-bt-threat-rank]")?.addEventListener("change", (event) => {
+      const level = CONFIG.BROKENTALES.threatRankOpposition[event.currentTarget.value];
+      const levelInput = root.querySelector("[name='system.threat.oppositionLevel']");
+      if (levelInput && level) {
+        levelInput.value = level;
+        levelInput.dispatchEvent(new Event("change", { bubbles: true }));
+      }
+    });
   }
 
   async _onDrop(event) {

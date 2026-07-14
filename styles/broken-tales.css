@@ -92,6 +92,7 @@
 }
 
 .bt-sheet input,
+.bt-sheet select,
 .bt-sheet textarea,
 .bt-sheet button {
   font-family: var(--bt-body-font);
@@ -407,6 +408,7 @@
 }
 
 .bt-sheet input,
+.bt-sheet select,
 .bt-sheet textarea {
   border-radius: 0;
   min-width: 0;
@@ -752,8 +754,10 @@
 
 .bt-line-fields input,
 .bt-compact-fields input,
+.bt-compact-fields select,
 .bt-wounds input,
 .bt-panel input:not([type="checkbox"]),
+.bt-panel select,
 .bt-portrait input {
   background: rgba(255, 255, 255, 0.86);
   border: 1px solid rgba(207, 31, 39, 0.36);
@@ -927,8 +931,10 @@
 
 .bt-line-fields input,
 .bt-compact-fields input,
+.bt-compact-fields select,
 .bt-wounds input,
 .bt-panel input:not([type="checkbox"]),
+.bt-panel select,
 .bt-portrait input {
   background:
     linear-gradient(to bottom, transparent calc(100% - 2px), var(--bt-pencil-line) calc(100% - 1px)),
@@ -1136,8 +1142,10 @@
 
 .bt-line-fields input,
 .bt-compact-fields input,
+.bt-compact-fields select,
 .bt-wounds input,
 .bt-panel input:not([type="checkbox"]),
+.bt-panel select,
 .bt-portrait input {
   background:
     linear-gradient(to bottom, transparent calc(100% - 2px), rgba(17, 16, 19, 0.38) calc(100% - 1px)),
@@ -1288,4 +1296,10 @@ body.system-broken-tales #compendium .directory-item.folder .folder-name,
   font-style: italic;
   letter-spacing: 0;
   text-shadow: 0 0 7px rgba(210, 0, 0, 0.86);
+}
+
+
+.bt-sheet select {
+  appearance: auto;
+  min-height: 30px;
 }

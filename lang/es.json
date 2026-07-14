@@ -118,5 +118,8 @@
   "BROKENTALES.Source": "Fuente",
   "BROKENTALES.Packs.CoreHunters": "Broken Tales - Cazadores del Core",
   "BROKENTALES.Packs.BrokenOnesHunters": "Broken Tales - Cazadores de Broken Ones",
-  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Cazadores de Lost Stories"
+  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Cazadores de Lost Stories",
+  "BROKENTALES.ThreatRanks.Easy": "Fácil 3",
+  "BROKENTALES.ThreatRanks.Medium": "Media 5",
+  "BROKENTALES.ThreatRanks.Hard": "Difícil 7"
 }

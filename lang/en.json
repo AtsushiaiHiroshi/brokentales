@@ -118,5 +118,8 @@
   "BROKENTALES.Source": "Source",
   "BROKENTALES.Packs.CoreHunters": "Broken Tales - Core Hunters",
   "BROKENTALES.Packs.BrokenOnesHunters": "Broken Tales - Broken Ones Hunters",
-  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Lost Stories Hunters"
+  "BROKENTALES.Packs.LostStoriesHunters": "Broken Tales - Lost Stories Hunters",
+  "BROKENTALES.ThreatRanks.Easy": "Easy 3",
+  "BROKENTALES.ThreatRanks.Medium": "Medium 5",
+  "BROKENTALES.ThreatRanks.Hard": "Hard 7"
 }

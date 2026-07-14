@@ -73,7 +73,7 @@ export class ThreatData extends BrokenTalesActorData {
     return {
       ...super.defineSchema(),
       threat: new fields.SchemaField({
-        rank: new fields.StringField({ initial: "" }),
+        rank: new fields.StringField({ initial: "Medium 5" }),
         impulse: new fields.StringField({ initial: "" }),
         oppositionLevel: new fields.NumberField({ initial: 5, integer: true, min: 1 })
       })

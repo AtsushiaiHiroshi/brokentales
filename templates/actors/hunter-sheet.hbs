@@ -41,7 +41,9 @@
   <section class="bt-card bt-compact-fields">
     <label>
       <span>{{localize "BROKENTALES.ThreatRank"}}</span>
-      <input type="text" name="system.threat.rank" value="{{system.threat.rank}}" {{fieldDisabled}} />
+      <select name="system.threat.rank" data-bt-threat-rank {{fieldDisabled}}>
+        {{selectOptions threatRankOptions selected=system.threat.rank localize=true}}
+      </select>
     </label>
     <label>
       <span>{{localize "BROKENTALES.ThreatImpulse"}}</span>
