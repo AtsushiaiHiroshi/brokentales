@@ -42,6 +42,50 @@ import {
   syncWorldActorsFromCompendia
 } from "./content.mjs";
 
+const BROKEN_TALES_PACK_PREFIXES = [
+  "broken-tales.",
+  "broken-tales-broken-ones.",
+  "broken-tales-lost-stories."
+];
+
+function isBrokenTalesPackId(packId) {
+  return BROKEN_TALES_PACK_PREFIXES.some((prefix) => String(packId ?? "").startsWith(prefix));
+}
+
+function applicationElement(element) {
+  if (element instanceof HTMLElement) return element;
+  if (element?.[0] instanceof HTMLElement) return element[0];
+  return null;
+}
+
+function packIdFromApplication(application) {
+  return application?.collection?.metadata?.id
+    ?? application?.collection?.collection
+    ?? application?.document?.collection?.metadata?.id
+    ?? application?.options?.collection
+    ?? application?.options?.pack
+    ?? "";
+}
+
+function enhanceBrokenTalesCompendiumMarkup(root) {
+  if (!root) return;
+
+  root.querySelectorAll("[data-pack]").forEach((entry) => {
+    const packId = entry.dataset.pack;
+    if (!isBrokenTalesPackId(packId)) return;
+    entry.classList.add("broken-tales-pack-entry");
+    entry.closest(".directory-item.folder")?.classList.add("broken-tales-pack-folder");
+  });
+
+  root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
+    const closestPack = entry.closest("[data-pack]");
+    if (closestPack && !isBrokenTalesPackId(closestPack.dataset.pack)) return;
+    const appPackId = root.dataset?.pack;
+    if (appPackId && !isBrokenTalesPackId(appPackId)) return;
+    entry.classList.add("broken-tales-compendium-document");
+  });
+}
+
 Hooks.once("init", () => {
   CONFIG.BROKENTALES = {
     actorTypeLabels: {
@@ -123,6 +167,19 @@ Hooks.once("init", () => {
     makeDefault: true,
     label: "BROKENTALES.Sheets.Item"
   });
+});
+
+Hooks.on("renderApplicationV2", (application, element) => {
+  const root = applicationElement(element);
+  if (!root) return;
+
+  const packId = packIdFromApplication(application);
+  if (isBrokenTalesPackId(packId)) {
+    root.classList.add("broken-tales-compendium");
+    root.dataset.pack = packId;
+  }
+
+  enhanceBrokenTalesCompendiumMarkup(root);
 });
 
 Hooks.once("ready", async () => {

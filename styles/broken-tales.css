@@ -1219,7 +1219,12 @@ body.system-broken-tales #compendium .directory-item.compendium[data-pack^="brok
 body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"] .pack-title,
 body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor .entry-name,
 body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor .entry-name,
-body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor .entry-name {
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor .entry-name,
+.broken-tales-pack-entry .entry-name,
+.broken-tales-pack-entry h3,
+.broken-tales-pack-entry .pack-title,
+.broken-tales-compendium .broken-tales-compendium-document .entry-name,
+.broken-tales-compendium .directory-item.document.actor .entry-name {
   color: #d01818;
   font-family: var(--bt-title-font);
   font-style: italic;
@@ -1233,7 +1238,10 @@ body.system-broken-tales .application.compendium .directory-list .directory-item
 body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"],
 body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor,
 body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor,
-body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor {
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor,
+.broken-tales-pack-entry,
+.broken-tales-compendium .broken-tales-compendium-document,
+.broken-tales-compendium .directory-item.document.actor {
   background:
     linear-gradient(90deg, rgba(150, 0, 0, 0.28), transparent 42%),
     rgba(12, 6, 9, 0.88);
@@ -1243,7 +1251,10 @@ body.system-broken-tales .application.compendium .directory-list .directory-item
 body.system-broken-tales #compendium .directory-item.compendium[data-pack^="broken-tales"]:hover,
 body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor:hover,
 body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor:hover,
-body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor:hover {
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor:hover,
+.broken-tales-pack-entry:hover,
+.broken-tales-compendium .broken-tales-compendium-document:hover,
+.broken-tales-compendium .directory-item.document.actor:hover {
   background:
     radial-gradient(circle at 24px 50%, rgba(255, 0, 0, 0.42), transparent 34px),
     linear-gradient(90deg, rgba(190, 0, 0, 0.40), transparent 52%),
@@ -1252,20 +1263,26 @@ body.system-broken-tales .application.compendium .directory-list .directory-item
 
 body.system-broken-tales .compendium.directory .directory-list .directory-item.document.actor img,
 body.system-broken-tales .window-app.compendium .directory-list .directory-item.document.actor img,
-body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor img {
+body.system-broken-tales .application.compendium .directory-list .directory-item.document.actor img,
+.broken-tales-compendium .broken-tales-compendium-document img,
+.broken-tales-compendium .directory-item.document.actor img {
   border: 1px solid rgba(220, 0, 0, 0.88);
   box-shadow: 0 0 9px rgba(220, 0, 0, 0.62);
   object-fit: cover;
 }
 
 body.system-broken-tales #compendium .directory-item.folder[data-folder-id],
-body.system-broken-tales #compendium .directory-item.folder[data-folder-depth] {
+body.system-broken-tales #compendium .directory-item.folder[data-folder-depth],
+.broken-tales-pack-folder {
   border-left: 3px solid var(--bt-red);
 }
 
 body.system-broken-tales #compendium .directory-item.folder > header h3,
 body.system-broken-tales #compendium .directory-item.folder .folder-header h3,
-body.system-broken-tales #compendium .directory-item.folder .folder-name {
+body.system-broken-tales #compendium .directory-item.folder .folder-name,
+.broken-tales-pack-folder > header h3,
+.broken-tales-pack-folder .folder-header h3,
+.broken-tales-pack-folder .folder-name {
   color: #f2e5dd;
   font-family: var(--bt-title-font);
   font-style: italic;
