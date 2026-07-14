@@ -114,6 +114,31 @@ Hooks.once("init", () => {
       "Medium 5": 5,
       "Hard 7": 7
     },
+    detailSuggestions: {
+      concepts: [
+        "Core Book",
+        "Core Book: Fox and Cat",
+        "The Broken Ones",
+        "Lost Stories",
+        "Lost Stories Exclusives",
+        "Dark Presence",
+        "Threat / Complex NPC",
+        "Villager",
+        "Spirit / Essence"
+      ],
+      roles: [
+        "Hunter of the Order",
+        "Spirit Hunter",
+        "Dark Presence",
+        "Main NPC",
+        "Minor NPC",
+        "Scenario Actor",
+        "Threat",
+        "Threat / Complex NPC",
+        "Villager",
+        "Spirit / Essence"
+      ]
+    },
     roll: {
       outcomes: {
         botch: {

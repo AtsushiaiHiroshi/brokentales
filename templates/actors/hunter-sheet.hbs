@@ -12,7 +12,7 @@
       <div class="bt-line-fields">
         <label>
           <span>{{localize "BROKENTALES.Concept"}}</span>
-          <input type="text" name="system.details.concept" value="{{system.details.concept}}" {{fieldDisabled}} />
+          <input type="text" name="system.details.concept" value="{{system.details.concept}}" list="{{datalistId}}-concepts" {{fieldDisabled}} />
         </label>
         <label>
           <span>{{localize "BROKENTALES.Origin"}}</span>
@@ -20,9 +20,19 @@
         </label>
         <label>
           <span>{{localize typeLabel}}</span>
-          <input type="text" name="system.details.role" value="{{system.details.role}}" {{fieldDisabled}} />
+          <input type="text" name="system.details.role" value="{{system.details.role}}" list="{{datalistId}}-roles" {{fieldDisabled}} />
         </label>
       </div>
+      <datalist id="{{datalistId}}-concepts">
+        {{#each detailSuggestions.concepts as |option|}}
+        <option value="{{option}}"></option>
+        {{/each}}
+      </datalist>
+      <datalist id="{{datalistId}}-roles">
+        {{#each detailSuggestions.roles as |option|}}
+        <option value="{{option}}"></option>
+        {{/each}}
+      </datalist>
     </div>
 
     <section class="bt-featured">

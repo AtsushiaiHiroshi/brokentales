@@ -47,6 +47,8 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       isEssence: this.document.type === "essence",
       typeLabel: CONFIG.BROKENTALES.actorTypeLabels[this.document.type] || "BROKENTALES.ActorTypes.Hunter",
       threatRankOptions: CONFIG.BROKENTALES.threatRankOptions,
+      detailSuggestions: CONFIG.BROKENTALES.detailSuggestions,
+      datalistId: `bt-${this.document.id ?? this.document.uuid?.slugify?.() ?? foundry.utils.randomID()}-details`,
       isEditable: this.isEditable,
       fieldDisabled: this.isEditable ? "" : "disabled",
       config: CONFIG.BROKENTALES

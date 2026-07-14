@@ -10,6 +10,10 @@ PACKS_DIR = ROOT / "packs"
 PREGENS_PATH = ROOT / "pregens" / "enriched-pregens.json"
 REPORT_PATH = ROOT / "docs" / "foundry-content-cotejo.md"
 SOURCE_ROOT = Path(r"C:\Users\Gamer\Documents\Broken Tales KS [ENG]")
+MODULE_PACKS = {
+    "broken_ones": ROOT / "modules" / "broken-tales-broken-ones" / "packs",
+    "lost_stories": ROOT / "modules" / "broken-tales-lost-stories" / "packs",
+}
 
 SOURCE_FILES = {
     "bt-cb-sheets-eng-final-screen [2022-06-29].pdf": SOURCE_ROOT / "bt-cb-sheets-eng-final-screen [2022-06-29].pdf",
@@ -23,6 +27,17 @@ SOURCE_FILES = {
 def load_pack(name):
     path = PACKS_DIR / f"{name}.db"
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def load_pack_file(path):
+    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def load_packs(paths):
+    docs = []
+    for path in paths:
+        docs.extend(load_pack_file(path))
+    return docs
 
 
 def normalize(text):
@@ -79,7 +94,11 @@ def audit_hunters():
         expected[actor["name"]] = actor
         if actor.get("displayName"):
             expected[actor["displayName"]] = actor
-    actors = load_pack("hunters")
+    actors = load_packs([
+        PACKS_DIR / "hunters-canon.db",
+        MODULE_PACKS["broken_ones"] / "broken-ones-hunters.db",
+        MODULE_PACKS["lost_stories"] / "lost-stories-hunters.db",
+    ])
     rows = []
     problems = []
 
@@ -142,7 +161,10 @@ def audit_hunters():
 
 
 def audit_dark_presences():
-    actors = load_pack("dark-presences")
+    actors = load_packs([
+        PACKS_DIR / "dark-presences-canon.db",
+        MODULE_PACKS["lost_stories"] / "lost-stories-dark-presences.db",
+    ])
     rows = []
     problems = []
     for actor in actors:
@@ -186,7 +208,11 @@ def audit_reference_actors():
 
 
 def audit_scenario_actors():
-    actors = load_pack("scenario-actors")
+    actors = load_packs([
+        PACKS_DIR / "scenario-actors-canon.db",
+        MODULE_PACKS["broken_ones"] / "broken-ones-actors.db",
+        MODULE_PACKS["lost_stories"] / "lost-stories-actors.db",
+    ])
     rows = []
     problems = []
     for actor in actors:
