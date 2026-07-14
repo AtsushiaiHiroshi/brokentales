@@ -2,7 +2,7 @@
   "id": "broken-tales-lost-stories",
   "title": "Broken Tales - Lost Stories",
   "description": "Expansion module for Lost Stories content for the Broken Tales system.",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -39,7 +39,7 @@
     },
     {
       "name": "lost-stories-actors",
-      "label": "Broken Tales - Lost Stories Actors",
+      "label": "BROKENTALES.Packs.LostStoriesActors",
       "path": "packs/lost-stories-actors.db",
       "type": "Actor",
       "system": "broken-tales",
@@ -52,7 +52,7 @@
     },
     {
       "name": "lost-stories-dark-presences",
-      "label": "Broken Tales - Lost Stories Dark Presences",
+      "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
       "path": "packs/lost-stories-dark-presences.db",
       "type": "Actor",
       "system": "broken-tales",
@@ -65,7 +65,7 @@
     },
     {
       "name": "lost-stories-dark-presence-descriptors",
-      "label": "Broken Tales - Lost Stories Dark Presence Descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
       "path": "packs/lost-stories-dark-presence-descriptors.db",
       "type": "Item",
       "system": "broken-tales",
@@ -78,7 +78,7 @@
     },
     {
       "name": "lost-stories-threat-descriptors",
-      "label": "Broken Tales - Lost Stories Threat Descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
       "path": "packs/lost-stories-threat-descriptors.db",
       "type": "Item",
       "system": "broken-tales",
@@ -91,7 +91,7 @@
     },
     {
       "name": "lost-stories-descriptors",
-      "label": "Broken Tales - Lost Stories Descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesDescriptors",
       "path": "packs/lost-stories-descriptors.db",
       "type": "Item",
       "system": "broken-tales",
@@ -104,7 +104,7 @@
     },
     {
       "name": "lost-stories-gifts",
-      "label": "Broken Tales - Lost Stories Gifts",
+      "label": "BROKENTALES.Packs.LostStoriesGifts",
       "path": "packs/lost-stories-gifts.db",
       "type": "Item",
       "system": "broken-tales",
@@ -117,7 +117,7 @@
     },
     {
       "name": "lost-stories-dark-egos",
-      "label": "Broken Tales - Lost Stories Dark Egos",
+      "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
       "path": "packs/lost-stories-dark-egos.db",
       "type": "Item",
       "system": "broken-tales",
@@ -130,7 +130,7 @@
     },
     {
       "name": "lost-stories-equipment",
-      "label": "Broken Tales - Lost Stories Equipment",
+      "label": "BROKENTALES.Packs.LostStoriesEquipment",
       "path": "packs/lost-stories-equipment.db",
       "type": "Item",
       "system": "broken-tales",
@@ -143,7 +143,7 @@
     },
     {
       "name": "lost-stories-library",
-      "label": "Broken Tales - Lost Stories Library",
+      "label": "BROKENTALES.Packs.LostStoriesLibrary",
       "path": "packs/lost-stories-library.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -156,7 +156,7 @@
     },
     {
       "name": "lost-stories-adventures",
-      "label": "Broken Tales - Lost Stories Adventures",
+      "label": "BROKENTALES.Packs.LostStoriesAdventures",
       "path": "packs/lost-stories-adventures.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -169,7 +169,7 @@
     },
     {
       "name": "lost-stories-maps",
-      "label": "Broken Tales - Lost Stories Maps",
+      "label": "BROKENTALES.Packs.LostStoriesMaps",
       "path": "packs/lost-stories-maps.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -182,7 +182,7 @@
     },
     {
       "name": "lost-stories-scenes",
-      "label": "Broken Tales - Lost Stories Scenes",
+      "label": "BROKENTALES.Packs.LostStoriesScenes",
       "path": "packs/lost-stories-scenes.db",
       "type": "Scene",
       "system": "broken-tales",
@@ -195,7 +195,7 @@
     },
     {
       "name": "lost-stories-source-pdfs",
-      "label": "Broken Tales - Lost Stories Source PDFs",
+      "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
       "path": "packs/lost-stories-source-pdfs.db",
       "type": "JournalEntry",
       "system": "broken-tales",

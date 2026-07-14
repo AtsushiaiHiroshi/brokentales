@@ -2,7 +2,7 @@
   "id": "broken-tales-broken-ones",
   "title": "Broken Tales - The Broken Ones",
   "description": "Expansion module for The Broken Ones content for the Broken Tales system.",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -39,7 +39,7 @@
     },
     {
       "name": "broken-ones-actors",
-      "label": "Broken Tales - The Broken Ones Actors",
+      "label": "BROKENTALES.Packs.BrokenOnesActors",
       "path": "packs/broken-ones-actors.db",
       "type": "Actor",
       "system": "broken-tales",
@@ -52,7 +52,7 @@
     },
     {
       "name": "broken-ones-descriptors",
-      "label": "Broken Tales - The Broken Ones Descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
       "path": "packs/broken-ones-descriptors.db",
       "type": "Item",
       "system": "broken-tales",
@@ -65,7 +65,7 @@
     },
     {
       "name": "broken-ones-threat-descriptors",
-      "label": "Broken Tales - The Broken Ones Threat Descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
       "path": "packs/broken-ones-threat-descriptors.db",
       "type": "Item",
       "system": "broken-tales",
@@ -78,7 +78,7 @@
     },
     {
       "name": "broken-ones-gifts",
-      "label": "Broken Tales - The Broken Ones Gifts",
+      "label": "BROKENTALES.Packs.BrokenOnesGifts",
       "path": "packs/broken-ones-gifts.db",
       "type": "Item",
       "system": "broken-tales",
@@ -91,7 +91,7 @@
     },
     {
       "name": "broken-ones-dark-egos",
-      "label": "Broken Tales - The Broken Ones Dark Egos",
+      "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
       "path": "packs/broken-ones-dark-egos.db",
       "type": "Item",
       "system": "broken-tales",
@@ -104,7 +104,7 @@
     },
     {
       "name": "broken-ones-equipment",
-      "label": "Broken Tales - The Broken Ones Equipment",
+      "label": "BROKENTALES.Packs.BrokenOnesEquipment",
       "path": "packs/broken-ones-equipment.db",
       "type": "Item",
       "system": "broken-tales",
@@ -117,7 +117,7 @@
     },
     {
       "name": "broken-ones-library",
-      "label": "Broken Tales - The Broken Ones Library",
+      "label": "BROKENTALES.Packs.BrokenOnesLibrary",
       "path": "packs/broken-ones-library.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -130,7 +130,7 @@
     },
     {
       "name": "broken-ones-adventures",
-      "label": "Broken Tales - The Broken Ones Adventures",
+      "label": "BROKENTALES.Packs.BrokenOnesAdventures",
       "path": "packs/broken-ones-adventures.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -143,7 +143,7 @@
     },
     {
       "name": "broken-ones-maps",
-      "label": "Broken Tales - The Broken Ones Maps",
+      "label": "BROKENTALES.Packs.BrokenOnesMaps",
       "path": "packs/broken-ones-maps.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -156,7 +156,7 @@
     },
     {
       "name": "broken-ones-scenes",
-      "label": "Broken Tales - The Broken Ones Scenes",
+      "label": "BROKENTALES.Packs.BrokenOnesScenes",
       "path": "packs/broken-ones-scenes.db",
       "type": "Scene",
       "system": "broken-tales",
@@ -169,7 +169,7 @@
     },
     {
       "name": "red-hood-iskra-support",
-      "label": "Broken Tales - Red-Hood Iskra Support",
+      "label": "BROKENTALES.Packs.RedHoodIskraSupport",
       "path": "packs/red-hood-iskra-support.db",
       "type": "Item",
       "system": "broken-tales",
@@ -182,7 +182,7 @@
     },
     {
       "name": "red-hood-iskra-maps",
-      "label": "Broken Tales - Red-Hood Iskra Maps",
+      "label": "BROKENTALES.Packs.RedHoodIskraMaps",
       "path": "packs/red-hood-iskra-maps.db",
       "type": "JournalEntry",
       "system": "broken-tales",
@@ -195,7 +195,7 @@
     },
     {
       "name": "red-hood-iskra-audio",
-      "label": "Broken Tales - Red-Hood Iskra Audio / OST",
+      "label": "BROKENTALES.Packs.RedHoodIskraAudio",
       "path": "packs/red-hood-iskra-audio.db",
       "type": "Playlist",
       "system": "broken-tales",
@@ -208,7 +208,7 @@
     },
     {
       "name": "broken-ones-source-pdfs",
-      "label": "Broken Tales - The Broken Ones Source PDFs",
+      "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
       "path": "packs/broken-ones-source-pdfs.db",
       "type": "JournalEntry",
       "system": "broken-tales",
