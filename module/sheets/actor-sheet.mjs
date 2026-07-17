@@ -125,7 +125,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       groups[item.type]?.push(data);
     }
     for (const list of Object.values(groups)) {
-      list.sort((a, b) => a.name.localeCompare(b.name));
+      list.sort((a, b) => (this.#contentSort(a) - this.#contentSort(b)) || a.name.localeCompare(b.name));
     }
     return groups;
   }
@@ -223,10 +223,14 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   #contentSort(item) {
     const key = this.#contentKey(item);
+    const sequence = Number(item.flags?.["broken-tales"]?.sequence ?? item.getFlag?.("broken-tales", "sequence") ?? NaN);
+    if (Number.isFinite(sequence) && sequence > 0) return sequence;
     const descriptorGift = key.match(/^descriptor(\d+)-don(\d+)\./i);
     if (descriptorGift) return Number(descriptorGift[2]);
     const gift = key.match(/^don(\d+)\./i);
     if (gift) return Number(gift[1]);
+    const equipment = key.match(/^equipment(\d+)\./i);
+    if (equipment) return Number(equipment[1]);
     return 1000;
   }
 

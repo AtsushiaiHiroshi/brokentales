@@ -1064,3 +1064,336 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* v0.2.21 hunter sheet reset: clean printable-sheet structure over the Broken Tales paper. */
+.broken-tales.actor-sheet .window-content,
+.broken-tales.actor-sheet .standard-form {
+  background: rgba(7, 4, 5, 0.98);
+  overflow: hidden;
+}
+
+.broken-tales.actor-sheet .bt-sheet {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.78)),
+    url("../assets/ui/broken-tales-sheet.webp") center top / 100% auto repeat-y,
+    var(--bt-paper);
+  border: 0;
+  box-shadow: inset 0 0 0 10px rgba(13, 11, 11, 0.04);
+  min-width: 760px;
+  padding: 34px 34px 300px;
+}
+
+.broken-tales.actor-sheet .bt-sheet::before {
+  border-top: 5px solid var(--bt-ink);
+  border-bottom: 5px solid var(--bt-ink);
+  inset: 14px 18px 20px;
+  opacity: 0.88;
+}
+
+.broken-tales.actor-sheet .bt-sheet::after {
+  display: none;
+}
+
+.broken-tales.actor-sheet .bt-sheet-head {
+  background: transparent;
+  border-top: 4px solid var(--bt-red);
+  border-bottom: 2px solid var(--bt-ink);
+  box-shadow: none;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 128px minmax(360px, 1.15fr) minmax(330px, 0.95fr);
+  margin: 0 0 16px;
+  padding: 16px 14px 18px;
+}
+
+.broken-tales.actor-sheet .bt-portrait img {
+  border: 4px solid var(--bt-red);
+  height: 116px;
+  object-fit: cover;
+  width: 116px;
+}
+
+.broken-tales.actor-sheet .bt-portrait input[name="img"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--bt-red);
+  color: var(--bt-ink);
+  font-size: 10px;
+  min-height: 22px;
+  padding: 2px 0;
+}
+
+.broken-tales.actor-sheet .bt-ink-title {
+  border-bottom: 3px solid var(--bt-red);
+  min-height: 54px;
+}
+
+.broken-tales.actor-sheet .bt-name,
+.broken-tales.actor-sheet .bt-name-long .bt-name,
+.broken-tales.actor-sheet .bt-name-very-long .bt-name,
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  animation: btInkTide 5.8s ease-in-out infinite alternate, btBloodPulse 4.8s ease-in-out infinite;
+  background:
+    linear-gradient(
+      181deg,
+      #fff1f1 0 var(--bt-ink-tide),
+      #cf1722 calc(var(--bt-ink-tide) + 4%),
+      #7a0007 var(--bt-ink-swell),
+      #0d0b0b calc(var(--bt-ink-swell) + 10%)
+    );
+  -webkit-background-clip: text;
+  background-clip: text;
+  border: 0;
+  color: var(--bt-red);
+  display: block;
+  font-family: var(--bt-display-font);
+  font-size: clamp(26px, 3.1vw, 38px);
+  font-weight: 700;
+  height: auto;
+  line-height: 0.98;
+  max-height: none;
+  min-height: 54px;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  padding: 2px 0 5px;
+  resize: none;
+  text-overflow: clip;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 7px rgba(207, 23, 34, 0.78),
+    1px 1px 0 var(--bt-dark-red);
+  white-space: normal;
+  width: 100%;
+  -webkit-text-fill-color: transparent;
+}
+
+.broken-tales.actor-sheet .bt-name-long .bt-name {
+  font-size: clamp(24px, 2.65vw, 34px);
+}
+
+.broken-tales.actor-sheet .bt-name-very-long .bt-name {
+  font-size: clamp(21px, 2.25vw, 29px);
+}
+
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  font-size: clamp(18px, 1.85vw, 24px);
+  line-height: 1.05;
+  min-height: 64px;
+}
+
+.broken-tales.actor-sheet .bt-line-fields {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.broken-tales.actor-sheet .bt-line-fields label > span,
+.broken-tales.actor-sheet .bt-compact-fields label > span,
+.broken-tales.actor-sheet .bt-panel label > span,
+.broken-tales.actor-sheet .bt-item-meta label > span,
+.broken-tales.actor-sheet .bt-section-title h2,
+.broken-tales.actor-sheet .bt-featured-text h2,
+.broken-tales.actor-sheet .bt-footer-notes h2,
+.broken-tales.actor-sheet .bt-linked-item h3,
+.broken-tales.actor-sheet .bt-circle span,
+.broken-tales.actor-sheet .bt-circle input,
+.broken-tales.actor-sheet .bt-wounds label > span {
+  animation: btInkTide 6.4s ease-in-out infinite alternate, btBloodPulse 5.2s ease-in-out infinite;
+  background:
+    linear-gradient(
+      178deg,
+      #fff0f0 0 var(--bt-ink-tide),
+      #d00011 calc(var(--bt-ink-tide) + 3%),
+      #6d0006 var(--bt-ink-swell),
+      #111 calc(var(--bt-ink-swell) + 8%)
+    );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--bt-red);
+  font-family: var(--bt-display-font);
+  letter-spacing: 0;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 6px rgba(207, 23, 34, 0.72),
+    1px 1px 0 var(--bt-dark-red);
+  -webkit-text-fill-color: transparent;
+}
+
+.broken-tales.actor-sheet .bt-line-fields input,
+.broken-tales.actor-sheet .bt-compact-fields input,
+.broken-tales.actor-sheet .bt-compact-fields select,
+.broken-tales.actor-sheet .bt-panel input,
+.broken-tales.actor-sheet .bt-panel select,
+.broken-tales.actor-sheet .bt-item-meta input,
+.broken-tales.actor-sheet .bt-wounds input,
+.broken-tales.actor-sheet .bt-footer-notes textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--bt-red);
+  color: var(--bt-ink);
+  min-height: 30px;
+  text-shadow: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+.broken-tales.actor-sheet .bt-featured {
+  border-left: 8px solid var(--bt-red);
+  min-height: 134px;
+  padding-left: 14px;
+}
+
+.broken-tales.actor-sheet .bt-featured-text,
+.broken-tales.actor-sheet .bt-descriptor-row,
+.broken-tales.actor-sheet .bt-card,
+.broken-tales.actor-sheet .bt-panel,
+.broken-tales.actor-sheet .bt-footer-notes {
+  background:
+    repeating-linear-gradient(
+      transparent 0,
+      transparent 28px,
+      rgba(13, 11, 11, 0.20) 29px,
+      transparent 30px
+    );
+  border: 0;
+  box-shadow: none;
+}
+
+.broken-tales.actor-sheet .bt-descriptor-stack,
+.broken-tales.actor-sheet .bt-lower-grid {
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 12px;
+}
+
+.broken-tales.actor-sheet .bt-descriptor-row,
+.broken-tales.actor-sheet .bt-card,
+.broken-tales.actor-sheet .bt-panel {
+  border-top: 2px solid var(--bt-ink);
+  min-height: 250px;
+  padding: 12px 12px 18px;
+}
+
+.broken-tales.actor-sheet .bt-section-title {
+  min-height: 32px;
+}
+
+.broken-tales.actor-sheet .bt-section-title button,
+.broken-tales.actor-sheet .bt-linked-item > button[data-action="editItem"] {
+  background: var(--bt-red);
+  border: 0;
+  color: #fff;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.broken-tales.actor-sheet .bt-linked-item {
+  margin: 4px 0 18px;
+  min-height: 64px;
+  padding: 0 0 0 78px;
+  position: relative;
+}
+
+.broken-tales.actor-sheet .bt-linked-item.slim {
+  min-height: 42px;
+}
+
+.broken-tales.actor-sheet .bt-linked-item::before,
+.broken-tales.actor-sheet .bt-dark-ego .bt-linked-item::before {
+  display: none;
+}
+
+.broken-tales.actor-sheet .bt-item-icon {
+  background: transparent;
+  border: 0;
+  display: block;
+  height: 54px;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 2px;
+  width: 54px;
+}
+
+.broken-tales.actor-sheet .bt-linked-item.gift .bt-item-icon,
+.broken-tales.actor-sheet .bt-dark-ego .bt-linked-item > .bt-item-icon {
+  height: 34px;
+  left: 8px;
+  top: 7px;
+  width: 34px;
+}
+
+.broken-tales.actor-sheet .bt-linked-item > button[data-action="editItem"] {
+  left: 42px;
+  position: absolute;
+  top: 4px;
+}
+
+.broken-tales.actor-sheet .bt-linked-item h3 {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.05;
+  margin: 0 0 6px;
+  max-width: 100%;
+}
+
+.broken-tales.actor-sheet .bt-rich,
+.broken-tales.actor-sheet .bt-linked-item p,
+.broken-tales.actor-sheet .bt-empty,
+.broken-tales.actor-sheet .bt-dark-descriptor,
+.broken-tales.actor-sheet .bt-footer-notes textarea {
+  color: var(--bt-ink);
+  font-family: var(--bt-body-font);
+  font-size: 15px;
+  line-height: 1.28;
+  text-shadow: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+.broken-tales.actor-sheet .bt-dark-descriptor {
+  border-bottom: 1px solid rgba(207, 23, 34, 0.45);
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
+
+.broken-tales.actor-sheet .bt-resource-footer {
+  margin-top: 18px;
+}
+
+.broken-tales.actor-sheet .bt-resource-circles {
+  justify-content: flex-end;
+}
+
+.broken-tales.actor-sheet .bt-circle {
+  background: rgba(255, 255, 255, 0.10);
+  border: 3px solid var(--bt-red);
+  border-radius: 50%;
+  height: 92px;
+  min-width: 92px;
+  width: 92px;
+}
+
+.broken-tales.actor-sheet .bt-footer-notes {
+  border-top: 2px solid var(--bt-ink);
+  min-height: 150px;
+}
+
+@media (max-width: 1040px) {
+  .broken-tales.actor-sheet .bt-sheet {
+    min-width: 0;
+  }
+
+  .broken-tales.actor-sheet .bt-sheet-head {
+    grid-template-columns: 118px minmax(300px, 1fr) minmax(280px, 0.9fr);
+  }
+}
+
+@media (max-width: 880px) {
+  .broken-tales.actor-sheet .bt-sheet {
+    padding: 26px 22px 280px;
+  }
+
+  .broken-tales.actor-sheet .bt-sheet-head,
+  .broken-tales.actor-sheet .bt-descriptor-stack,
+  .broken-tales.actor-sheet .bt-lower-grid,
+  .broken-tales.actor-sheet .bt-line-fields {
+    grid-template-columns: 1fr;
+  }
+}
