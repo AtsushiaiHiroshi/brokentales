@@ -986,3 +986,81 @@
     max-width: 126px;
   }
 }
+
+/* v0.2.20: keep long canonical hunter names legible in Foundry v14 sheets. */
+.broken-tales.actor-sheet .bt-sheet-head {
+  grid-template-columns: 124px minmax(360px, 1.35fr) minmax(300px, 0.9fr);
+  align-items: start;
+}
+
+.broken-tales.actor-sheet .bt-identity {
+  min-width: 0;
+}
+
+.broken-tales.actor-sheet .bt-ink-title {
+  width: 100%;
+  max-width: none;
+}
+
+.broken-tales.actor-sheet .bt-name,
+.broken-tales.actor-sheet .bt-name-long .bt-name,
+.broken-tales.actor-sheet .bt-name-very-long .bt-name,
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 46px;
+  max-height: none;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.broken-tales.actor-sheet .bt-name-long .bt-name {
+  font-size: clamp(25px, 3.2vw, 36px);
+}
+
+.broken-tales.actor-sheet .bt-name-very-long .bt-name {
+  font-size: clamp(22px, 2.55vw, 31px);
+  line-height: 1;
+}
+
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  font-size: clamp(18px, 2.05vw, 25px);
+  line-height: 1.04;
+}
+
+.broken-tales.actor-sheet .bt-line-fields {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.broken-tales.actor-sheet .bt-line-fields label,
+.broken-tales.actor-sheet .bt-line-fields input {
+  min-width: 0;
+}
+
+.broken-tales.actor-sheet .bt-line-fields input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1040px) {
+  .broken-tales.actor-sheet .bt-sheet-head {
+    grid-template-columns: 112px minmax(300px, 1.2fr) minmax(260px, 0.9fr);
+  }
+
+  .broken-tales.actor-sheet .bt-name-extreme .bt-name {
+    font-size: clamp(17px, 2.35vw, 23px);
+  }
+}
+
+@media (max-width: 880px) {
+  .broken-tales.actor-sheet .bt-sheet-head {
+    grid-template-columns: 1fr;
+  }
+
+  .broken-tales.actor-sheet .bt-line-fields {
+    grid-template-columns: 1fr;
+  }
+}
