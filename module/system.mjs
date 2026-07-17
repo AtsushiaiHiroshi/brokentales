@@ -48,6 +48,19 @@ const BROKEN_TALES_PACK_PREFIXES = [
   "broken-tales-lost-stories."
 ];
 
+const ESSENTIAL_MACRO_COMMANDS = new Set([
+  "await game.brokenTales.repairPregens();",
+  "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true });",
+  "await game.brokenTales.deleteWorldActorsAndItems();"
+]);
+
+const LEGACY_MACRO_PATTERNS = [
+  /broken tales/i,
+  /pregenerados de broken tales/i,
+  /presencias oscuras de broken tales/i,
+  /actores duplicados de broken tales/i
+];
+
 function isBrokenTalesPackId(packId) {
   return BROKEN_TALES_PACK_PREFIXES.some((prefix) => String(packId ?? "").startsWith(prefix));
 }
@@ -84,6 +97,17 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
     if (appPackId && !isBrokenTalesPackId(appPackId)) return;
     entry.classList.add("broken-tales-compendium-document");
   });
+}
+
+async function cleanupLegacyBrokenTalesMacros() {
+  if (!game.user.isGM) return;
+  const deletable = game.macros.filter((macro) => {
+    const command = String(macro.command ?? "").trim();
+    if (ESSENTIAL_MACRO_COMMANDS.has(command)) return false;
+    if (/game\.brokenTales\./.test(command)) return true;
+    return LEGACY_MACRO_PATTERNS.some((pattern) => pattern.test(macro.name ?? ""));
+  });
+  for (const macro of deletable) await macro.delete();
 }
 
 Hooks.once("init", () => {
@@ -266,17 +290,11 @@ Hooks.once("ready", async () => {
 
   if (!game.user.isGM) return;
   try {
+    await cleanupLegacyBrokenTalesMacros();
     await Promise.all([
-      createPregenImportMacro(),
       createPregenRepairMacro(),
-      createDarkPresenceImportMacro(),
-      createDarkPresenceRepairMacro(),
-      createCleanupDuplicateActorsMacro(),
       createDeleteWorldActorsItemsMacro(),
-      createSyncWorldActorsMacro(),
-      createLibraryImportMacro(),
-      createSupportImportMacro(),
-      createReferenceActorsImportMacro()
+      createSyncWorldActorsMacro()
     ]);
     await refreshPregenAssets({ notify: false });
   } catch (error) {

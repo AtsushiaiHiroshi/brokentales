@@ -216,6 +216,18 @@ function findExistingPregens(slug, name) {
   ));
 }
 
+function findRepairPregens(slug, name, allNames = []) {
+  const canonicalNames = new Set(allNames.map((entry) => looseName(entry)).filter(Boolean));
+  canonicalNames.add(looseName(name));
+  return game.actors.filter((actor) => {
+    if (actor.type !== "hunter") return false;
+    const actorSlug = actor.getFlag("broken-tales", IMPORT_FLAG);
+    const actorName = looseName(actor.name);
+    const actorOrigin = looseName(actor.system?.details?.origin);
+    return actorSlug === slug || canonicalNames.has(actorName) || canonicalNames.has(actorOrigin);
+  });
+}
+
 function hasUsefulPregenContent(actor) {
   return actor.items.some((item) => {
     if (!["descriptor", "gift", "darkEgo", "equipment"].includes(item.type)) return false;
@@ -233,13 +245,16 @@ export async function importPregens({ collection = "all", overwrite = false } = 
   }
 
   const selected = await loadPregenActors(collection);
+  const selectedNames = selected.map((actorData) => actorData.name);
   const created = [];
   const skipped = [];
   const ActorClass = Actor.implementation ?? Actor;
 
   for (const actorData of selected) {
     const slug = actorData.flags["broken-tales"][IMPORT_FLAG];
-    const existing = findExistingPregens(slug, actorData.name);
+    const existing = overwrite
+      ? findRepairPregens(slug, actorData.name, selectedNames)
+      : findExistingPregens(slug, actorData.name);
     const hasBrokenExisting = existing.some((actor) => !hasUsefulPregenContent(actor));
     const shouldReplace = overwrite || hasBrokenExisting || existing.length > 1;
 

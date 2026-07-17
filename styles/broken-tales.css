@@ -790,3 +790,199 @@
   min-height: 30px;
   min-width: 30px;
 }
+
+/* v0.2.19 sheet reset: use the Broken Tales paper as texture, not as a printed form overlay. */
+.bt-sheet {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80)),
+    url("../assets/ui/broken-tales-sheet.webp") center top / cover repeat-y,
+    var(--bt-paper);
+  min-width: 720px;
+  padding: 30px 30px 260px;
+}
+
+.bt-sheet::before {
+  border-bottom: 6px solid var(--bt-ink);
+  border-top: 6px solid var(--bt-ink);
+  inset: 10px 12px 18px;
+  opacity: 0.86;
+}
+
+.bt-sheet::after {
+  display: none;
+}
+
+.bt-sheet-head {
+  background: transparent;
+  border-bottom: 2px solid var(--bt-ink);
+  border-top: 4px solid var(--bt-red);
+  gap: 18px;
+  grid-template-columns: 124px minmax(260px, 0.95fr) minmax(300px, 1.05fr);
+  margin-bottom: 18px;
+  padding: 16px 16px 18px;
+}
+
+.bt-portrait img {
+  height: 112px;
+  width: 112px;
+}
+
+.bt-ink-title {
+  border-bottom: 3px solid var(--bt-red);
+  min-height: auto;
+}
+
+.bt-name,
+.bt-name-long .bt-name,
+.bt-name-very-long .bt-name,
+.bt-name-extreme .bt-name {
+  font-size: clamp(26px, 3.8vw, 40px);
+  line-height: 0.95;
+  min-height: 42px;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.bt-line-fields {
+  gap: 12px;
+}
+
+.bt-line-fields input,
+.bt-compact-fields input,
+.bt-compact-fields select,
+.bt-panel input,
+.bt-panel select,
+.bt-item-meta input {
+  border-bottom: 2px solid var(--bt-red);
+  min-height: 30px;
+}
+
+.bt-featured {
+  border-left: 7px solid var(--bt-red);
+  min-height: 132px;
+  padding-left: 14px;
+}
+
+.bt-featured-text,
+.bt-footer-notes,
+.bt-descriptor-row,
+.bt-card,
+.bt-panel {
+  background:
+    repeating-linear-gradient(
+      transparent 0,
+      transparent 29px,
+      rgba(13, 11, 11, 0.22) 30px,
+      transparent 31px
+    ),
+    rgba(255, 255, 255, 0.20);
+}
+
+.bt-descriptor-stack,
+.bt-lower-grid {
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.bt-descriptor-row,
+.bt-card,
+.bt-panel {
+  border: 0;
+  border-top: 2px solid var(--bt-ink);
+  box-shadow: none;
+  min-height: 210px;
+  padding: 12px 12px 16px;
+}
+
+.bt-section-title {
+  margin-bottom: 10px;
+}
+
+.bt-linked-item {
+  min-height: 56px;
+  padding-left: 78px;
+}
+
+.bt-linked-item > button[data-action="editItem"] {
+  left: 42px;
+  top: 2px;
+}
+
+.bt-item-icon {
+  display: block;
+  height: 48px;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.bt-linked-item.gift .bt-item-icon,
+.bt-dark-ego .bt-linked-item > .bt-item-icon {
+  height: 34px;
+  left: 6px;
+  top: 3px;
+  width: 34px;
+}
+
+.bt-item-icon.small {
+  height: 24px;
+  position: static;
+  width: 24px;
+}
+
+.bt-linked-item h3 {
+  font-size: 18px;
+  line-height: 1.05;
+  margin-bottom: 6px;
+}
+
+.bt-rich,
+.bt-linked-item p,
+.bt-empty,
+.bt-dark-descriptor,
+.bt-footer-notes textarea {
+  font-size: 15px;
+  line-height: 1.26;
+}
+
+.bt-resource-footer {
+  margin-top: 16px;
+}
+
+.bt-resource-circles {
+  justify-content: flex-end;
+}
+
+.bt-circle {
+  background: rgba(255, 255, 255, 0.26);
+  min-width: 92px;
+}
+
+.bt-circle.xp {
+  background: url("../assets/icons/icon-circle.webp") center / 100% 100% no-repeat;
+}
+
+.bt-footer-notes {
+  border-top: 2px solid var(--bt-ink);
+  min-height: 140px;
+}
+
+@media (max-width: 880px) {
+  .bt-sheet {
+    min-width: 0;
+    padding: 24px 20px 240px;
+  }
+
+  .bt-sheet-head,
+  .bt-descriptor-stack,
+  .bt-lower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bt-portrait {
+    max-width: 126px;
+  }
+}
