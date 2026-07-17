@@ -1494,6 +1494,19 @@
   left: 56px;
 }
 
+.broken-tales-compendium .broken-tales-scenario-gift-group {
+  border-bottom: 1px solid rgba(207, 23, 34, 0.65);
+  border-top: 1px solid rgba(207, 23, 34, 0.35);
+  color: #f3d9c4;
+  font-family: var(--bt-display-font, serif);
+  font-size: 15px;
+  line-height: 1.15;
+  list-style: none;
+  margin: 10px 0 4px;
+  padding: 7px 10px 5px;
+  text-shadow: 0 0 6px rgba(207, 23, 34, 0.8), 1px 1px 0 #220000;
+}
+
 @media (max-width: 1040px) {
   .broken-tales.actor-sheet .bt-sheet-head {
     grid-template-columns: 118px minmax(330px, 1fr) minmax(270px, 0.9fr);

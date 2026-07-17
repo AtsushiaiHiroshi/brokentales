@@ -100,6 +100,7 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
 }
 
 const LOCALIZED_PACK_NAME_CACHE = new Map();
+const SCENARIO_GIFT_GROUP_CACHE = new Map();
 
 function selectedContentLanguage() {
   try {
@@ -142,6 +143,46 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
     const translatedName = names.get(documentId) ?? names.get(label.textContent?.trim());
     if (!translatedName) return;
     label.textContent = translatedName;
+  });
+}
+
+async function scenarioGiftGroups(packId) {
+  if (packId !== "broken-tales.scenario-gifts") return new Map();
+  if (SCENARIO_GIFT_GROUP_CACHE.has(packId)) return SCENARIO_GIFT_GROUP_CACHE.get(packId);
+
+  const pack = game.packs.get(packId);
+  if (!pack) return new Map();
+  const documents = await pack.getDocuments();
+  const groups = new Map();
+  for (const document of documents) {
+    const scenario = document.system?.scenario
+      ?? document.flags?.["broken-tales"]?.scenario
+      ?? document.system?.source
+      ?? document.flags?.["broken-tales"]?.sourceDirectory;
+    if (!scenario) continue;
+    groups.set(document.id, scenario);
+    groups.set(document.name, scenario);
+  }
+  SCENARIO_GIFT_GROUP_CACHE.set(packId, groups);
+  return groups;
+}
+
+async function groupScenarioGiftCompendium(root, packId) {
+  const groups = await scenarioGiftGroups(packId);
+  if (!groups.size) return;
+
+  let lastScenario = "";
+  root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
+    const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
+    const label = entry.querySelector(".entry-name, .document-name, h4, h3") ?? entry;
+    const scenario = groups.get(documentId) ?? groups.get(label.textContent?.trim());
+    if (!scenario || scenario === lastScenario) return;
+    lastScenario = scenario;
+
+    const header = document.createElement("li");
+    header.className = "broken-tales-scenario-gift-group";
+    header.textContent = scenario;
+    entry.before(header);
   });
 }
 
@@ -301,6 +342,7 @@ Hooks.on("renderApplicationV2", (application, element) => {
 
   enhanceBrokenTalesCompendiumMarkup(root);
   if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
+  if (packId === "broken-tales.scenario-gifts") groupScenarioGiftCompendium(root, packId);
 });
 
 Hooks.once("ready", async () => {

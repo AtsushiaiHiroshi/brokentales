@@ -102,14 +102,15 @@
     },
     {
       "name": "scenario-gifts",
-      "label": "Broken Tales - Scenario Gifts",
+      "label": "BROKENTALES.Packs.ScenarioGifts",
       "path": "packs/scenario-gifts-canon.db",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "folder": "Broken Tales - Core"
     },
     {
       "name": "hunter-gifts",
