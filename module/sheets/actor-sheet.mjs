@@ -31,11 +31,12 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   async _prepareContext(options) {
     const source = this.document.toObject();
+    const localizedActor = this.#localizeData(source);
     return {
-      actor: this.document,
+      actor: localizedActor,
       source,
-      system: source.system,
-      nameLengthClass: this.#nameLengthClass(this.document.name),
+      system: localizedActor.system,
+      nameLengthClass: this.#nameLengthClass(localizedActor.name),
       itemGroups: this.#prepareItems(),
       descriptorRows: this.#prepareDescriptorRows(),
       extraGifts: this.#prepareExtraGifts(),
@@ -120,8 +121,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     };
     for (const item of this.document.items) {
       if (this.#isEmptyPlaceholder(item)) continue;
-      const data = item.toObject();
-      data.system = item.system;
+      const data = this.#localizeItem(item);
       groups[item.type]?.push(data);
     }
     for (const list of Object.values(groups)) {
@@ -140,8 +140,10 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     const rowCount = Math.max(2, descriptors.length, gifts.length);
     return Array.from({ length: rowCount }, (_value, index) => ({
       index: index + 2,
-      descriptor: this.#descriptorForGiftIndex(descriptors, index + 1)?.toObject(),
-      gift: gifts[index]?.toObject()
+      descriptor: this.#descriptorForGiftIndex(descriptors, index + 1)
+        ? this.#localizeItem(this.#descriptorForGiftIndex(descriptors, index + 1))
+        : null,
+      gift: gifts[index] ? this.#localizeItem(gifts[index]) : null
     }));
   }
 
@@ -152,7 +154,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   #findFeaturedDescriptor() {
     const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item))
       ?? this.document.items.find((item) => this.#isUsableDescriptor(item));
-    return descriptor?.toObject() ?? null;
+    return descriptor ? this.#localizeItem(descriptor) : null;
   }
 
   #findDarkEgoDescriptor() {
@@ -161,13 +163,46 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       && !this.#isEmptyPlaceholder(item)
       && (/dark ego|ego oscuro/i.test(item.name) || this.#contentKey(item).startsWith("descriptor-darkego."))
     ));
-    return descriptor?.toObject() ?? null;
+    return descriptor ? this.#localizeItem(descriptor) : null;
   }
 
   #findDarkEgo() {
     const darkEgo = this.document.items.find((item) => item.type === "darkEgo" && !this.#isEmptyPlaceholder(item))
       ?? this.document.items.find((item) => item.type === "gift" && /dark ego|ego oscuro/i.test(item.name) && !this.#isEmptyPlaceholder(item));
-    return darkEgo?.toObject() ?? null;
+    return darkEgo ? this.#localizeItem(darkEgo) : null;
+  }
+
+  #contentLanguage() {
+    return game.brokenTales?.contentLanguage?.() ?? (game.i18n.lang?.startsWith("es") ? "es" : "en");
+  }
+
+  #localizeItem(item) {
+    return this.#localizeData(item.toObject());
+  }
+
+  #localizeData(data) {
+    const language = this.#contentLanguage();
+    if (!language || language === "en") return data;
+    const translations = data.flags?.["broken-tales"]?.translations?.[language];
+    if (!translations) return data;
+
+    const localized = foundry.utils.deepClone(data);
+    if (translations.name) localized.name = translations.name;
+    if (translations.img) localized.img = translations.img;
+    if (translations.system) localized.system = foundry.utils.mergeObject(
+      localized.system ?? {},
+      translations.system,
+      { inplace: false }
+    );
+    if (translations.description) {
+      localized.system ??= {};
+      localized.system.description = translations.description;
+    }
+    if (translations.trigger) {
+      localized.system ??= {};
+      localized.system.trigger = translations.trigger;
+    }
+    return localized;
   }
 
   #plainText(value) {

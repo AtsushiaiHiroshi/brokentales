@@ -99,6 +99,50 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
   });
 }
 
+const LOCALIZED_PACK_NAME_CACHE = new Map();
+
+function selectedContentLanguage() {
+  try {
+    const configured = game.settings.get("broken-tales", "contentLanguage");
+    if (configured && configured !== "system") return configured;
+  } catch (_error) {
+    // Settings are not available before ready; fall back to Foundry's UI language.
+  }
+  return game.i18n.lang?.startsWith("es") ? "es" : "en";
+}
+
+async function translatedPackNames(packId, language) {
+  if (!packId || !language || language === "en") return new Map();
+  const cacheKey = `${packId}:${language}`;
+  if (LOCALIZED_PACK_NAME_CACHE.has(cacheKey)) return LOCALIZED_PACK_NAME_CACHE.get(cacheKey);
+
+  const pack = game.packs.get(packId);
+  if (!pack) return new Map();
+  const documents = await pack.getDocuments();
+  const names = new Map();
+  for (const document of documents) {
+    const translatedName = document.flags?.["broken-tales"]?.translations?.[language]?.name;
+    if (translatedName) names.set(document.id, translatedName);
+  }
+  LOCALIZED_PACK_NAME_CACHE.set(cacheKey, names);
+  return names;
+}
+
+async function localizeBrokenTalesCompendiumNames(root, packId) {
+  const language = selectedContentLanguage();
+  if (!root || !packId || language === "en") return;
+  const names = await translatedPackNames(packId, language);
+  if (!names.size) return;
+
+  root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
+    const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
+    const translatedName = names.get(documentId);
+    if (!translatedName) return;
+    const label = entry.querySelector(".entry-name, .document-name, h4, h3") ?? entry;
+    label.textContent = translatedName;
+  });
+}
+
 async function cleanupLegacyBrokenTalesMacros() {
   if (!game.user.isGM) return;
   const deletable = game.macros.filter((macro) => {
@@ -254,17 +298,12 @@ Hooks.on("renderApplicationV2", (application, element) => {
   }
 
   enhanceBrokenTalesCompendiumMarkup(root);
+  if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
 });
 
 Hooks.once("ready", async () => {
-  const contentLanguage = () => {
-    const configured = game.settings.get("broken-tales", "contentLanguage");
-    if (configured && configured !== "system") return configured;
-    return game.i18n.lang?.startsWith("es") ? "es" : "en";
-  };
-
   game.brokenTales = {
-    contentLanguage,
+    contentLanguage: selectedContentLanguage,
     importPregens,
     repairPregens,
     refreshPregenAssets,
