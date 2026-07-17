@@ -28,7 +28,12 @@ def common_skip(rel: str) -> bool:
         name in {"LOCK", "LOG", "LOG.old", "CURRENT"}
         or name.startswith("MANIFEST-")
         or rel.startswith(".git/")
+        or rel.startswith(".github/")
         or rel.startswith("dist/")
+        or rel.startswith("docs/")
+        or rel.startswith("scripts/")
+        or rel.startswith("tools/")
+        or "__pycache__/" in rel
         or rel.startswith("assets/source-pdfs/")
         or rel.startswith("assets/audio/")
     )

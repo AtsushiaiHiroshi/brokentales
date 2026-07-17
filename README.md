@@ -52,25 +52,25 @@ Los compendios se generan desde:
 Para regenerarlos despues de cambiar contenido fuente:
 
 ```powershell
-C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_packs.py
+python scripts/generate_packs.py
 ```
 
 Para volver a extraer texto real de hojas pregeneradas:
 
 ```powershell
-C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_enriched_pregens.py
+python scripts/generate_enriched_pregens.py
 ```
 
 Para regenerar Presencias oscuras:
 
 ```powershell
-C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_dark_presences.py
+python scripts/generate_dark_presences.py
 ```
 
 Para regenerar aventuras, mapas extraidos y escenas:
 
 ```powershell
-C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_adventures.py
+python scripts/generate_adventures.py
 ```
 
 ## Importadores opcionales
@@ -130,7 +130,7 @@ await game.brokenTales.importReferenceActors();
 Para regenerar la biblioteca desde los PDFs originales:
 
 ```powershell
-C:\Users\Gamer\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe .\Data\systems\broken-tales\scripts\generate_library.py
+python scripts/generate_library.py
 ```
 
 ## Nota de contenido
