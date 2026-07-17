@@ -80,22 +80,70 @@ def source_note(pregen):
     return note
 
 
+def pregen_descriptor_entries(pregen):
+    """Return descriptors with explicit Broken Tales semantics.
+
+    Official pre-generated Hunters use Background as the character's main
+    descriptor. The following descriptor entries map to Gift 1, Gift 2, etc.;
+    the final remaining descriptor maps to Dark Ego when a Dark Ego is present.
+    """
+    actor_name = pregen.get("displayName") or pregen["name"]
+    owner_slug = slugify(actor_name)
+    entries = []
+    story = pregen.get("story", "")
+    if one_line(story):
+        entries.append({
+            "text": story,
+            "name": "Descriptor 1",
+            "role": "principal-descriptor",
+            "sequence": 0,
+            "key": f"descriptor-principal.{owner_slug}",
+        })
+
+    descriptor_texts = [descriptor for descriptor in (pregen.get("descriptors") or []) if one_line(descriptor)]
+    gift_count = len(pregen.get("gifts") or [])
+    has_dark_ego = bool(pregen.get("darkEgo"))
+
+    for index, descriptor in enumerate(descriptor_texts, start=1):
+        if index <= gift_count:
+            entries.append({
+                "text": descriptor,
+                "name": f"Descriptor {index + 1}",
+                "role": "gift-descriptor",
+                "sequence": index,
+                "key": f"descriptor{index}-don{index}.{owner_slug}",
+            })
+        elif has_dark_ego:
+            entries.append({
+                "text": descriptor,
+                "name": "Dark Ego Descriptor",
+                "role": "dark-ego-descriptor",
+                "sequence": 0,
+                "key": f"descriptor-darkego.{owner_slug}",
+            })
+        else:
+            entries.append({
+                "text": descriptor,
+                "name": f"Descriptor {index + 1}",
+                "role": "extra-descriptor",
+                "sequence": index,
+                "key": f"descriptor-extra-{index}.{owner_slug}",
+            })
+    return entries
+
+
 def pregen_descriptors(pregen):
-    descriptors = [descriptor for descriptor in (pregen.get("descriptors") or []) if one_line(descriptor)]
-    story = one_line(pregen.get("story", ""))
-    if story and (not descriptors or one_line(descriptors[0]) != story):
-        descriptors.insert(0, pregen["story"])
-    return descriptors
+    return [entry["text"] for entry in pregen_descriptor_entries(pregen)]
 
 
-def dark_ego_descriptor_index(pregen, descriptors):
-    if not pregen.get("darkEgo") or not descriptors:
-        return None
-    gifts = pregen.get("gifts") or []
-    return len(descriptors) if len(descriptors) >= len(gifts) + 2 else None
+def dark_ego_descriptor_entry(pregen):
+    for entry in pregen_descriptor_entries(pregen):
+        if entry["role"] == "dark-ego-descriptor":
+            return entry
+    return None
 
 
-def item_doc(seed, name, type_, img, system):
+def item_doc(seed, name, type_, img, system, flags=None):
     return {
         "_id": doc_id(seed),
         "name": name,
@@ -103,7 +151,7 @@ def item_doc(seed, name, type_, img, system):
         "img": img,
         "effects": [],
         "folder": None,
-        "flags": {},
+        "flags": flags or {},
         "system": system,
         "sort": 0,
         "ownership": {"default": 0},
@@ -111,25 +159,53 @@ def item_doc(seed, name, type_, img, system):
     }
 
 
+def content_flags(pregen, role, key, sequence=0):
+    actor_name = pregen.get("displayName") or pregen["name"]
+    return {
+        "broken-tales": {
+            "owner": actor_name,
+            "source": pregen.get("collection", ""),
+            "category": "hunter",
+            "contentKey": key,
+            "ownerKey": f"cazador.{slugify(actor_name)}",
+            "role": role,
+            "sequence": sequence,
+        }
+    }
+
+
+def enrich_system(system, pregen, key=None):
+    actor_name = pregen.get("displayName") or pregen["name"]
+    system = dict(system)
+    system.setdefault("owner", actor_name)
+    system.setdefault("source", pregen.get("collection", ""))
+    system.setdefault("category", "hunter")
+    if key:
+        system["key"] = key
+    return system
+
+
 def actor_from_pregen(pregen):
     actor_name = pregen.get("displayName") or pregen["name"]
     slug = slugify(f"{pregen['collection']}-{actor_name}")
+    owner_slug = slugify(actor_name)
     source = source_note(pregen)
     items = []
-    descriptors = pregen_descriptors(pregen)
+    descriptor_entries = pregen_descriptor_entries(pregen)
     gifts = pregen.get("gifts") or []
     dark_ego = pregen.get("darkEgo")
-    dark_descriptor_index = dark_ego_descriptor_index(pregen, descriptors)
 
-    for index, descriptor_text in enumerate(descriptors, start=1):
+    for entry in descriptor_entries:
+        descriptor_text = entry["text"]
         if not descriptor_text:
             continue
+        key = entry["key"]
         items.append(item_doc(
-            f"{slug}-descriptor-{index}",
-            "Dark Ego Descriptor" if index == dark_descriptor_index else f"Descriptor {index}",
+            f"{slug}-{key}",
+            entry["name"],
             "descriptor",
             DESCRIPTOR_ICON,
-            {
+            enrich_system({
                 "description": html(descriptor_text),
                 "notes": f"See {pregen['source']}, pages {pregen['pages']}.",
                 "positive": one_line(descriptor_text),
@@ -138,36 +214,41 @@ def actor_from_pregen(pregen):
                 "xpMarked": False,
                 "specialization": False,
                 "sceneUsed": False,
-            },
+            }, pregen, key),
+            content_flags(pregen, entry["role"], key, entry["sequence"]),
         ))
     for index, gift in enumerate(gifts, start=1):
         if not gift.get("name") and not gift.get("description"):
             continue
+        key = f"don{index}.{owner_slug}"
         items.append(item_doc(
-            f"{slug}-gift-{index}",
+            f"{slug}-{key}",
             gift.get("name") or f"Gift {index}",
             "gift",
             GIFT_ICON,
-            {
+            enrich_system({
                 "description": html(gift.get("description", "")),
                 "notes": f"See {pregen['source']}, pages {pregen['pages']}.",
                 "somaCost": 0,
                 "automaticSuccesses": 0,
-            },
+            }, pregen, key),
+            content_flags(pregen, "gift", key, index),
         ))
     if dark_ego and (dark_ego.get("name") or dark_ego.get("description") or dark_ego.get("trigger")):
+        key = f"darkego.{owner_slug}"
         items.append(item_doc(
-            f"{slug}-dark-ego",
+            f"{slug}-{key}",
             dark_ego.get("name") or "Dark Ego",
             "darkEgo",
             "icons/svg/terror.svg",
-            {
+            enrich_system({
                 "description": html(dark_ego.get("description", "")),
                 "notes": f"See {pregen['source']}, pages {pregen['pages']}.",
                 "somaCost": 0,
                 "automaticSuccesses": 0,
                 "trigger": dark_ego.get("trigger", "Activator on source sheet."),
-            },
+            }, pregen, key),
+            content_flags(pregen, "dark-ego", key, 0),
         ))
     equipment_parts = [one_line(part).strip(" .") for part in re.split(r"\s*/\s*", pregen.get("equipment", "")) if one_line(part).strip(" .")]
     if equipment_parts:
@@ -177,21 +258,23 @@ def actor_from_pregen(pregen):
                 equipment,
                 "equipment",
                 "icons/svg/item-bag.svg",
-                {
+                enrich_system({
                     "description": html(equipment),
                     "notes": f"See {pregen['source']}, pages {pregen['pages']}.",
                     "quantity": 1,
-                },
+                }, pregen),
+                content_flags(pregen, "equipment", f"equipment{index}.{owner_slug}", index),
             ))
     items.append(item_doc(
         f"{slug}-source",
         "Source Sheet",
         "storyElement",
         "icons/svg/scroll.svg",
-        {
+        enrich_system({
             "description": source,
             "notes": f"{pregen['source']}, pages {pregen['pages']}",
-        },
+        }, pregen),
+        content_flags(pregen, "source", f"source.{owner_slug}", 0),
     ))
 
     is_spirit = "spirit" in pregen.get("traits", [])
@@ -232,7 +315,6 @@ def actor_from_pregen(pregen):
         "ownership": {"default": 0},
         "_stats": stats(slug),
     }
-
 
 def journal_from_book(book):
     slug = book["slug"]
