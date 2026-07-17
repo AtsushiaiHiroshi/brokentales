@@ -122,7 +122,9 @@ async function translatedPackNames(packId, language) {
   const names = new Map();
   for (const document of documents) {
     const translatedName = document.flags?.["broken-tales"]?.translations?.[language]?.name;
-    if (translatedName) names.set(document.id, translatedName);
+    if (!translatedName) continue;
+    names.set(document.id, translatedName);
+    names.set(document.name, translatedName);
   }
   LOCALIZED_PACK_NAME_CACHE.set(cacheKey, names);
   return names;
@@ -136,9 +138,9 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
 
   root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
     const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
-    const translatedName = names.get(documentId);
-    if (!translatedName) return;
     const label = entry.querySelector(".entry-name, .document-name, h4, h3") ?? entry;
+    const translatedName = names.get(documentId) ?? names.get(label.textContent?.trim());
+    if (!translatedName) return;
     label.textContent = translatedName;
   });
 }
