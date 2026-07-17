@@ -149,5 +149,10 @@
   "BROKENTALES.Trigger": "Disparador",
   "BROKENTALES.Wounds": "Heridas",
   "BROKENTALES.XP": "PX",
-  "BROKENTALES.XPMarked": "Marcado para PX"
+  "BROKENTALES.XPMarked": "Marcado para PX",
+  "BROKENTALES.Settings.ContentLanguage.Name": "Idioma de contenido",
+  "BROKENTALES.Settings.ContentLanguage.Hint": "Controla qué idioma de contenido de Broken Tales se debe importar o preferir. El idioma de la interfaz de Foundry y el idioma de los documentos de compendio son cosas separadas.",
+  "BROKENTALES.Settings.ContentLanguage.System": "Seguir idioma de Foundry",
+  "BROKENTALES.Settings.ContentLanguage.English": "Inglés",
+  "BROKENTALES.Settings.ContentLanguage.Spanish": "Español"
 }

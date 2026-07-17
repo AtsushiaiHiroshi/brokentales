@@ -202,6 +202,21 @@ Hooks.once("init", () => {
     makeDefault: true,
     label: "BROKENTALES.Sheets.Item"
   });
+
+  game.settings.register("broken-tales", "contentLanguage", {
+    name: "BROKENTALES.Settings.ContentLanguage.Name",
+    hint: "BROKENTALES.Settings.ContentLanguage.Hint",
+    scope: "world",
+    config: true,
+    type: String,
+    default: "system",
+    choices: {
+      system: "BROKENTALES.Settings.ContentLanguage.System",
+      en: "BROKENTALES.Settings.ContentLanguage.English",
+      es: "BROKENTALES.Settings.ContentLanguage.Spanish"
+    },
+    requiresReload: true
+  });
 });
 
 Hooks.on("renderApplicationV2", (application, element) => {
@@ -218,7 +233,14 @@ Hooks.on("renderApplicationV2", (application, element) => {
 });
 
 Hooks.once("ready", async () => {
+  const contentLanguage = () => {
+    const configured = game.settings.get("broken-tales", "contentLanguage");
+    if (configured && configured !== "system") return configured;
+    return game.i18n.lang?.startsWith("es") ? "es" : "en";
+  };
+
   game.brokenTales = {
+    contentLanguage,
     importPregens,
     repairPregens,
     refreshPregenAssets,

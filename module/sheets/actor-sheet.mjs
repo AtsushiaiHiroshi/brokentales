@@ -131,12 +131,16 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #prepareDescriptorRows() {
-    const descriptors = this.document.items.filter((item) => this.#isUsableDescriptor(item)).slice(1);
-    const gifts = this.document.items.filter((item) => this.#isUsableGift(item));
+    const descriptors = this.document.items
+      .filter((item) => this.#isUsableDescriptor(item) && !this.#isPrincipalDescriptor(item))
+      .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
+    const gifts = this.document.items
+      .filter((item) => this.#isUsableGift(item))
+      .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const rowCount = Math.max(2, descriptors.length, gifts.length);
     return Array.from({ length: rowCount }, (_value, index) => ({
       index: index + 2,
-      descriptor: descriptors[index]?.toObject(),
+      descriptor: this.#descriptorForGiftIndex(descriptors, index + 1)?.toObject(),
       gift: gifts[index]?.toObject()
     }));
   }
@@ -146,13 +150,16 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #findFeaturedDescriptor() {
-    const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item));
+    const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item))
+      ?? this.document.items.find((item) => this.#isUsableDescriptor(item));
     return descriptor?.toObject() ?? null;
   }
 
   #findDarkEgoDescriptor() {
     const descriptor = this.document.items.find((item) => (
-      item.type === "descriptor" && /dark ego|ego oscuro/i.test(item.name) && !this.#isEmptyPlaceholder(item)
+      item.type === "descriptor"
+      && !this.#isEmptyPlaceholder(item)
+      && (/dark ego|ego oscuro/i.test(item.name) || this.#contentKey(item).startsWith("descriptor-darkego."))
     ));
     return descriptor?.toObject() ?? null;
   }
@@ -183,7 +190,10 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #isUsableDescriptor(item) {
-    return item.type === "descriptor" && !/dark ego|ego oscuro/i.test(item.name) && !this.#isEmptyPlaceholder(item);
+    return item.type === "descriptor"
+      && !/dark ego|ego oscuro/i.test(item.name)
+      && !this.#contentKey(item).startsWith("descriptor-darkego.")
+      && !this.#isEmptyPlaceholder(item);
   }
 
   #isUsableGift(item) {
@@ -196,6 +206,35 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     if (length > 42) return "bt-name-very-long";
     if (length > 28) return "bt-name-long";
     return "";
+  }
+
+  #contentKey(item) {
+    return String(
+      item.system?.key
+      ?? item.flags?.["broken-tales"]?.contentKey
+      ?? item.getFlag?.("broken-tales", "contentKey")
+      ?? ""
+    );
+  }
+
+  #isPrincipalDescriptor(item) {
+    return this.#contentKey(item).startsWith("descriptor-principal.");
+  }
+
+  #contentSort(item) {
+    const key = this.#contentKey(item);
+    const descriptorGift = key.match(/^descriptor(\d+)-don(\d+)\./i);
+    if (descriptorGift) return Number(descriptorGift[2]);
+    const gift = key.match(/^don(\d+)\./i);
+    if (gift) return Number(gift[1]);
+    return 1000;
+  }
+
+  #descriptorForGiftIndex(descriptors, giftIndex) {
+    return descriptors.find((item) => {
+      const match = this.#contentKey(item).match(/^descriptor(\d+)-don(\d+)\./i);
+      return match && Number(match[2]) === giftIndex;
+    }) ?? descriptors[giftIndex - 1] ?? null;
   }
 
   static async #onCreateItem(_event, target) {

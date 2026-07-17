@@ -149,5 +149,10 @@
   "BROKENTALES.Trigger": "Trigger",
   "BROKENTALES.Wounds": "Wounds",
   "BROKENTALES.XP": "XP",
-  "BROKENTALES.XPMarked": "Marked for XP"
+  "BROKENTALES.XPMarked": "Marked for XP",
+  "BROKENTALES.Settings.ContentLanguage.Name": "Content Language",
+  "BROKENTALES.Settings.ContentLanguage.Hint": "Controls which Broken Tales content language should be imported or preferred. Foundry UI language and compendium document language are separate.",
+  "BROKENTALES.Settings.ContentLanguage.System": "Follow Foundry language",
+  "BROKENTALES.Settings.ContentLanguage.English": "English",
+  "BROKENTALES.Settings.ContentLanguage.Spanish": "Spanish"
 }

@@ -406,7 +406,7 @@ async function refreshActorFromPack(actor, packActor) {
   if (data.items?.length) await actor.createEmbeddedDocuments("Item", data.items);
 }
 
-export async function syncWorldActorsFromCompendia({ cleanupDuplicates = false } = {}) {
+export async function syncWorldActorsFromCompendia({ cleanupDuplicates = true } = {}) {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
     return { updated: 0, unmatched: 0 };
@@ -548,30 +548,37 @@ export async function deleteWorldActorsAndItems() {
   });
   if (!confirmed) return { actors: 0, items: 0 };
 
+  const failures = [];
   let deletedActors = 0;
   let deletedItems = 0;
   let deletedFolders = 0;
-  const failures = [];
 
-  for (const actor of actors) {
+  const deleteDocuments = async (DocumentClass, documents, label) => {
+    const ids = documents.map((document) => document.id).filter(Boolean);
+    if (!ids.length) return 0;
     try {
-      await actor.delete();
-      deletedActors += 1;
+      await DocumentClass.deleteDocuments(ids);
+      return ids.length;
     } catch (error) {
-      failures.push(`Actor: ${actor.name}`);
-      console.warn("Broken Tales | Could not delete actor.", actor, error);
+      console.warn(`Broken Tales | Batch delete failed for ${label}; falling back to document deletes.`, error);
+      let deleted = 0;
+      for (const document of documents) {
+        try {
+          await document.delete();
+          deleted += 1;
+        } catch (documentError) {
+          failures.push(`${label}: ${document.name}`);
+          console.warn(`Broken Tales | Could not delete ${label}.`, document, documentError);
+        }
+      }
+      return deleted;
     }
-  }
+  };
 
-  for (const item of items) {
-    try {
-      await item.delete();
-      deletedItems += 1;
-    } catch (error) {
-      failures.push(`Item: ${item.name}`);
-      console.warn("Broken Tales | Could not delete item.", item, error);
-    }
-  }
+  const ActorClass = Actor.implementation ?? Actor;
+  const ItemClass = Item.implementation ?? Item;
+  deletedActors = await deleteDocuments(ActorClass, actors, "Actor");
+  deletedItems = await deleteDocuments(ItemClass, items, "Item");
 
   for (const folder of folders) {
     try {
@@ -591,6 +598,7 @@ export async function deleteWorldActorsAndItems() {
     actors: deletedActors,
     items: deletedItems
   }));
+  if (deletedFolders) ui.notifications.info(`Broken Tales: ${deletedFolders} Actor/Item folders deleted.`);
   if (failures.length) {
     ui.notifications.warn(`Broken Tales: ${failures.length} documents could not be deleted. Check the console.`);
   }
@@ -628,41 +636,53 @@ export async function createDarkPresenceRepairMacro() {
 export async function createCleanupDuplicateActorsMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.CleanupDuplicateActors");
+  const command = "await game.brokenTales.cleanupDuplicateActors();";
   const existing = game.macros.find((macro) => macro.name === name);
-  if (existing) return existing;
+  if (existing) {
+    if (existing.command !== command) await existing.update({ command, img: "icons/svg/cancel.svg" });
+    return existing;
+  }
   const MacroClass = Macro.implementation ?? Macro;
   return MacroClass.create({
     name,
     type: "script",
     img: "icons/svg/cancel.svg",
-    command: "await game.brokenTales.cleanupDuplicateActors();"
+    command
   });
 }
 
 export async function createDeleteWorldActorsItemsMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.DeleteWorldActorsItems");
+  const command = "await game.brokenTales.deleteWorldActorsAndItems();";
   const existing = game.macros.find((macro) => macro.name === name);
-  if (existing) return existing;
+  if (existing) {
+    if (existing.command !== command) await existing.update({ command, img: "icons/svg/skull.svg" });
+    return existing;
+  }
   const MacroClass = Macro.implementation ?? Macro;
   return MacroClass.create({
     name,
     type: "script",
     img: "icons/svg/skull.svg",
-    command: "await game.brokenTales.deleteWorldActorsAndItems();"
+    command
   });
 }
 
 export async function createSyncWorldActorsMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.SyncWorldActors");
+  const command = "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true });";
   const existing = game.macros.find((macro) => macro.name === name);
-  if (existing) return existing;
+  if (existing) {
+    if (existing.command !== command) await existing.update({ command, img: "icons/svg/upgrade.svg" });
+    return existing;
+  }
   const MacroClass = Macro.implementation ?? Macro;
   return MacroClass.create({
     name,
     type: "script",
     img: "icons/svg/upgrade.svg",
-    command: "await game.brokenTales.syncWorldActorsFromCompendia();"
+    command
   });
 }

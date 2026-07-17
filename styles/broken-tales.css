@@ -6,6 +6,7 @@
   font-display: swap;
 }
 
+
 @property --bt-ink-tide {
   syntax: "<percentage>";
   inherits: false;
@@ -675,4 +676,117 @@
     font-size: 26px;
     white-space: normal;
   }
+}
+
+/* v0.2.16 hunter sheet refinements: closer to the printable Hunter Sheet. */
+.bt-sheet {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.58)),
+    url("../assets/ui/hunter-sheet-original-300dpi.png") center top / 100% auto repeat-y,
+    var(--bt-paper);
+}
+
+.bt-portrait input[name="img"] {
+  display: none;
+}
+
+.bt-sheet-head {
+  border-bottom: 2px solid var(--bt-ink);
+  border-top: 5px solid var(--bt-red);
+  grid-template-columns: 118px minmax(280px, 0.85fr) minmax(330px, 1fr);
+  padding: 18px 16px 16px;
+}
+
+.bt-portrait img {
+  height: 112px;
+  object-position: center;
+  width: 112px;
+}
+
+.bt-featured {
+  border-left: 7px solid var(--bt-red);
+  padding-left: 16px;
+}
+
+.bt-featured-text {
+  background:
+    repeating-linear-gradient(
+      transparent 0,
+      transparent 25px,
+      rgba(13, 11, 11, 0.24) 26px,
+      transparent 27px
+    );
+}
+
+.bt-descriptor-row,
+.bt-card,
+.bt-panel {
+  background:
+    repeating-linear-gradient(
+      transparent 0,
+      transparent 25px,
+      rgba(13, 11, 11, 0.15) 26px,
+      transparent 27px
+    ),
+    rgba(255, 255, 255, 0.22);
+  border-top: 2px solid var(--bt-ink);
+  box-shadow: none;
+}
+
+.bt-linked-item {
+  min-height: 52px;
+  padding-left: 74px;
+}
+
+.bt-linked-item::before,
+.bt-dark-ego .bt-linked-item::before {
+  display: none;
+}
+
+.bt-item-icon {
+  background: transparent;
+  border: 0;
+  height: 46px;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.bt-linked-item.gift .bt-item-icon,
+.bt-dark-ego .bt-linked-item > .bt-item-icon {
+  height: 30px;
+  left: 8px;
+  top: 3px;
+  width: 30px;
+}
+
+.bt-item-icon.small {
+  display: inline-block;
+  height: 24px;
+  margin-right: 6px;
+  position: static;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.bt-linked-item > button[data-action="editItem"] {
+  left: 40px;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.bt-linked-item h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.bt-rich p {
+  margin: 0 0 0.55em;
+}
+
+.bt-section-title button {
+  min-height: 30px;
+  min-width: 30px;
 }
