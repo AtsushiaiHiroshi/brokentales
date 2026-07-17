@@ -103,13 +103,15 @@ const LOCALIZED_PACK_NAME_CACHE = new Map();
 const SCENARIO_GIFT_GROUP_CACHE = new Map();
 
 function selectedContentLanguage() {
+  const foundryLanguage = game.i18n.lang?.startsWith("es") ? "es" : "en";
+  if (foundryLanguage === "es") return "es";
   try {
     const configured = game.settings.get("broken-tales", "contentLanguage");
     if (configured && configured !== "system") return configured;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
-  return game.i18n.lang?.startsWith("es") ? "es" : "en";
+  return foundryLanguage;
 }
 
 async function translatedPackNames(packId, language) {
@@ -171,6 +173,7 @@ async function groupScenarioGiftCompendium(root, packId) {
   const groups = await scenarioGiftGroups(packId);
   if (!groups.size) return;
 
+  root.querySelectorAll(".broken-tales-scenario-gift-group").forEach((header) => header.remove());
   let lastScenario = "";
   root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
     const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
