@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.17",
+  "version": "0.2.18",
   "authors": [
     {
       "name": "Mesa local"
@@ -99,6 +99,17 @@
         "ASSISTANT": "OWNER"
       },
       "folder": "Broken Tales - Core"
+    },
+    {
+      "name": "scenario-gifts",
+      "label": "Broken Tales - Scenario Gifts",
+      "path": "packs/scenario-gifts-canon.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "hunter-gifts",
