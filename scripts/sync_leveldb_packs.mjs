@@ -9,7 +9,9 @@ const manifest = JSON.parse(await fs.readFile(path.join(systemRoot, "system.json
 const require = createRequire(import.meta.url);
 const { ClassicLevel } = await loadClassicLevel();
 
-const requested = new Set(process.argv.slice(2));
+const args = process.argv.slice(2);
+const activeOnly = args.includes("--active-only");
+const requested = new Set(args.filter((arg) => arg !== "--active-only"));
 const selectedPacks = manifest.packs.filter((pack) => !requested.size || requested.has(pack.name));
 
 async function loadClassicLevel() {
@@ -100,7 +102,7 @@ async function syncPack(pack, timestamp) {
   const sourcePath = path.join(systemRoot, pack.path);
   const docs = await readJsonl(sourcePath);
   const packRoot = path.join(systemRoot, "packs");
-  const destinations = new Set([pack.name, path.basename(pack.path, ".db")]);
+  const destinations = new Set(activeOnly ? [pack.name] : [pack.name, path.basename(pack.path, ".db")]);
   const results = [];
 
   for (const destinationName of destinations) {
