@@ -364,14 +364,23 @@ function cleanPackActor(document) {
 }
 
 function activeContentLanguage() {
-  const foundryLanguage = game.i18n.lang?.startsWith("es") ? "es" : "en";
+  const normalize = (value) => String(value ?? "").toLowerCase();
+  const values = [
+    game.settings?.get?.("broken-tales", "contentLanguage"),
+    game.settings?.get?.("core", "language"),
+    game.i18n?.lang,
+    game.brokenTales?.contentLanguage?.()
+  ].map(normalize);
+
+  if (values.some((value) => value === "es" || value.startsWith("es-") || value === "spanish" || value === "español")) return "es";
+  if (values.some((value) => value === "en" || value.startsWith("en-") || value === "english" || value === "inglés")) return "en";
   try {
     const configured = game.settings.get("broken-tales", "contentLanguage");
     if (configured && configured !== "system") return configured;
   } catch (_error) {
     // Settings can be unavailable during early initialization.
   }
-  return foundryLanguage;
+  return "en";
 }
 
 function mergePlainObject(target, source) {

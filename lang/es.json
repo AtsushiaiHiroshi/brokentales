@@ -1894,5 +1894,271 @@
   "BROKENTALES.Content.scenario-gift.the-city-of-pigs.the-brand-of-greed.Name": "El Sello de Greed",
   "BROKENTALES.ContentText.scenario-gift.the-city-of-pigs.the-brand-of-greed.Description": "<h3>Don de escenario</h3><p><strong>Requisito:</strong> ganarse la confianza y el respeto de Bardolf Greed.</p><p>Bardolf confía solo en aquellos que demuestran astucia y aptitud, concediendo a estas personas un pase especial al que denomina Sello de Greed. Con el Sello se obtiene acceso libre a cualquier lugar de la ciudad, sin que el responsable pueda impedir la entrada. Utilizar el Sello para influenciar a un habitante de la ciudad otorga 1 Éxito adicional.</p>",
   "BROKENTALES.Content.scenario-gift.the-city-of-pigs.there-is-no-house-that-can-stop-me.Name": "Ninguna casa puede detenerme (don especial para Garou, el Viejo Lobo)",
-  "BROKENTALES.ContentText.scenario-gift.the-city-of-pigs.there-is-no-house-that-can-stop-me.Description": "<h3>Don de escenario</h3><p><strong>Requisito:</strong> haberse enfrentado a uno de los hermanos y que este haya empleado el don Líder de la banda.</p><p>Esos malditos cerdos te ponen de los nervios y no soportas que huyan de tu ira. Consigues 2 Éxitos adicionales cuando realizas una acción para destruir o superar un obstáculo del entorno que se interpone entre tú y uno de los tres Cerdos que encabezan la banda. Odias perder contra ellos. Si tienes que abandonar o marcharte de un lugar sin eliminarlos, pierdes 1 Soma.</p>"
+  "BROKENTALES.ContentText.scenario-gift.the-city-of-pigs.there-is-no-house-that-can-stop-me.Description": "<h3>Don de escenario</h3><p><strong>Requisito:</strong> haberse enfrentado a uno de los hermanos y que este haya empleado el don Líder de la banda.</p><p>Esos malditos cerdos te ponen de los nervios y no soportas que huyan de tu ira. Consigues 2 Éxitos adicionales cuando realizas una acción para destruir o superar un obstáculo del entorno que se interpone entre tú y uno de los tres Cerdos que encabezan la banda. Odias perder contra ellos. Si tienes que abandonar o marcharte de un lugar sin eliminarlos, pierdes 1 Soma.</p>",
+  "BROKENTALES": {
+    "ContentText": {
+      "content": {
+        "gift": {
+          "believe": {
+            "in": {
+              "miracles": {
+                "cunning": {
+                  "Description": "<p>Las declaraciones son verdaderas hasta probar lo contrario. Una vez por escena, puedes decirles a todos algo que será aceptado sin preguntar, hasta que la mentira sea descubierta. El engaño será obvio para tus víctimas al final de la escena o una vez expuesto. Recibe 1 Éxito adicional en cualquier tirada en la cual explotes la mentira que has creado.</p>"
+                }
+              }
+            }
+          },
+          "rogue": {
+            "sly": {
+              "Description": "<p>Siempre te aseguras de pasar desapercibido. Mediante fingir ser débil durante una escena, los PNJ te pasarán por alto como objetivo a menos que hayas actuado contra ellos previamente. Gastando 1 Soma, puedes huir de una escena o de una situación donde haya multitud. Nadie será capaz de detenerte.</p>"
+            }
+          },
+          "partner": {
+            "in": {
+              "crime": {
+                "common": {
+                  "Description": "<p>Siempre estás listo para aprovechar la oportunidad correcta. Una vez por escena, si uno de tus aliados actúa con tu apoyo, recibe 1 Éxito adicional a sus tiradas. Adicionalmente, una vez por escena, si uno de tus aliados logra un resultado con un Incremento después de haber completado su acción, puedes tomar una acción adicional inmediatamente.</p>"
+                }
+              }
+            }
+          }
+        },
+        "darkEgo": {
+          "dark": {
+            "ego": {
+              "the": {
+                "immortal": {
+                  "Trigger": "Usa tu indiferencia al dolor o a la muerte en tu beneficio, revelando tu verdadera naturaleza para que cualquiera pueda verla."
+                },
+                "fox": {
+                  "and": {
+                    "the": {
+                      "cat": {
+                        "Description": "<p>La maldición que te une te hace un equipo perfecto. En la noche como Astuto o durante el día como Malicioso, eres un humano y haces completo uso del apoyo de tu socio en su forma animal. Tu socio puede actuar individualmente para completar una tarea que le des. Comparten las mismas Heridas y el mismo Soma. Quien esté en forma humana puede gastar 1 Soma para usar el Don de su cómplice. Una vez por escena, si tu socio está ahí para ayudarte, recibes 2 Éxitos adicionales a tu tirada de Posición.</p>",
+                        "Trigger": "Haz un truco o engaña a alguien, tomando ventaja del apoyo de tu leal socio del crimen."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "storyElement": {
+          "source": {
+            "sheet": {
+              "Description": "Referencia a la hoja o documento fuente usado para extraer este contenido."
+            }
+          }
+        }
+      },
+      "descriptor-darkego": {
+        "sun-wukong-the-amazing-monkey": {
+          "Description": "Mi esencia es mágica, y eso me vuelve resistente a los encantamientos que podrían atrapar a humanos necios. Mi presencia espiritual es imponente, y me cuesta ocultar lo que soy, especialmente cuando la rabia o el orgullo despiertan mi verdadera naturaleza."
+        },
+        "cazador": {
+          "sun": {
+            "wukong": {
+              "the": {
+                "amazing": {
+                  "monkey": {
+                    "Description": "Mi esencia es mágica, y eso me vuelve resistente a los encantamientos que podrían atrapar a humanos necios. Mi presencia espiritual es imponente, y me cuesta ocultar lo que soy, especialmente cuando la rabia o el orgullo despiertan mi verdadera naturaleza."
+                  }
+                }
+              }
+            }
+          },
+          "cunning": {
+            "machiavelli": {
+              "the": {
+                "fox": {
+                  "and": {
+                    "sly": {
+                      "bischeri": {
+                        "the": {
+                          "cat": {
+                            "Description": "Nos guste o no, estamos atados por magia. Cada uno ve lo que el otro puede ver y, gracias a esto, podemos trabajar juntos de manera perfecta. Somos dos y uno al mismo tiempo, y esa maldición es lo único que nos mantiene vivos."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "Nos guste o no, estamos atados por magia. Cada uno ve lo que el otro puede ver y, gracias a esto, podemos trabajar juntos de manera perfecta. Somos dos y uno al mismo tiempo, y esa maldición es lo único que nos mantiene vivos."
+        }
+      },
+      "darkego": {
+        "theimmortal": {
+          "Trigger": "Usa tu indiferencia al dolor o a la muerte en tu beneficio, revelando tu verdadera naturaleza para que cualquiera pueda verla."
+        },
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "<p>La maldición que te une te hace un equipo perfecto. En la noche como Astuto o durante el día como Malicioso, eres un humano y haces completo uso del apoyo de tu socio en su forma animal. Tu socio puede actuar individualmente para completar una tarea que le des. Comparten las mismas Heridas y el mismo Soma. Quien esté en forma humana puede gastar 1 Soma para usar el Don de su cómplice. Una vez por escena, si tu socio está ahí para ayudarte, recibes 2 Éxitos adicionales a tu tirada de Posición.</p>",
+          "Trigger": "Haz un truco o engaña a alguien, tomando ventaja del apoyo de tu leal socio del crimen."
+        }
+      },
+      "don1": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "<p>Las declaraciones son verdaderas hasta probar lo contrario. Una vez por escena, puedes decirles a todos algo que será aceptado sin preguntar, hasta que la mentira sea descubierta. El engaño será obvio para tus víctimas al final de la escena o una vez expuesto. Recibe 1 Éxito adicional en cualquier tirada en la cual explotes la mentira que has creado.</p>"
+        }
+      },
+      "don2": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "<p>Siempre te aseguras de pasar desapercibido. Mediante fingir ser débil durante una escena, los PNJ te pasarán por alto como objetivo a menos que hayas actuado contra ellos previamente. Gastando 1 Soma, puedes huir de una escena o de una situación donde haya multitud. Nadie será capaz de detenerte.</p>"
+        }
+      },
+      "don3": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "<p>Siempre estás listo para aprovechar la oportunidad correcta. Una vez por escena, si uno de tus aliados actúa con tu apoyo, recibe 1 Éxito adicional a sus tiradas. Adicionalmente, una vez por escena, si uno de tus aliados logra un resultado con un Incremento después de haber completado su acción, puedes tomar una acción adicional inmediatamente.</p>"
+        }
+      },
+      "descriptor-principal": {
+        "cazador": {
+          "cunning": {
+            "machiavelli": {
+              "the": {
+                "fox": {
+                  "and": {
+                    "sly": {
+                      "bischeri": {
+                        "the": {
+                          "cat": {
+                            "Description": "Somos dos chicos que han sobrevivido y prosperado en las calles por medio del truco y el engaño. Por desgracia, cometimos un terrible error: mentimos a quien no debíamos y ahora pagamos las consecuencias sirviendo a la Orden. Uno de nosotros camina de noche como Astuto, el otro durante el día como Malicioso, y cuando la luz cambia también cambia quién lleva el cuerpo. Estamos condenados a compartir una misma vida, pero esa maldición también nos vuelve inseparables."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "sun": {
+            "wukong": {
+              "the": {
+                "amazing": {
+                  "monkey": {
+                    "Description": "No recuerdo mi vida antes del cautiverio, aunque a menudo sueño con los bosques y las cumbres nevadas de mi amada China. Crecí como animal de circo en el Royal Circus de Londres, encadenado y obligado a obedecer. Ahora uso mi fuerza y mi agilidad para la Orden, aunque todavía lucho contra las cadenas invisibles que me enseñaron a aceptar."
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "descriptor1-don1": {
+        "cazador": {
+          "cunning": {
+            "machiavelli": {
+              "the": {
+                "fox": {
+                  "and": {
+                    "sly": {
+                      "bischeri": {
+                        "the": {
+                          "cat": {
+                            "Description": "Tengo un talento natural para decir mentiras, el cual la Orden usa para su beneficio. A pesar de mis orígenes, sé mucho sobre muchas cosas porque mentir requiere planificación y preparación."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "Tengo un talento natural para decir mentiras, el cual la Orden usa para su beneficio. A pesar de mis orígenes, sé mucho sobre muchas cosas porque mentir requiere planificación y preparación."
+        }
+      },
+      "descriptor2-don2": {
+        "cazador": {
+          "cunning": {
+            "machiavelli": {
+              "the": {
+                "fox": {
+                  "and": {
+                    "sly": {
+                      "bischeri": {
+                        "the": {
+                          "cat": {
+                            "Description": "Una vida en el camino me enseñó a ser un ladrón talentoso, por lo que la Orden me usa para robar objetos importantes. Que cada uno se valga por sí mismo es mi lema."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "Una vida en el camino me enseñó a ser un ladrón talentoso, por lo que la Orden me usa para robar objetos importantes. Que cada uno se valga por sí mismo es mi lema."
+        }
+      },
+      "descriptor3-don3": {
+        "cazador": {
+          "cunning": {
+            "machiavelli": {
+              "the": {
+                "fox": {
+                  "and": {
+                    "sly": {
+                      "bischeri": {
+                        "the": {
+                          "cat": {
+                            "Description": "No me detendré ante nada para obtener lo que quiero, y solo me toma unos segundos evaluar lo que está pasando y cómo puedo aprovecharlo para mi beneficio. Malicioso y yo somos prácticamente inseparables."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Description": "No me detendré ante nada para obtener lo que quiero, y solo me toma unos segundos evaluar lo que está pasando y cómo puedo aprovecharlo para mi beneficio. Malicioso y yo somos prácticamente inseparables."
+        }
+      }
+    },
+    "Content": {
+      "don1": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Name": "Creer en Milagros (Astuto)"
+        }
+      },
+      "don2": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Name": "Ladrón (Malicioso)"
+        }
+      },
+      "don3": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Name": "Socio del Crimen (Común)"
+        }
+      },
+      "darkego": {
+        "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat": {
+          "Name": "Ego Oscuro - El Zorro y el Gato"
+        }
+      },
+      "content": {
+        "storyElement": {
+          "source": {
+            "sheet": {
+              "Name": "Hoja fuente"
+            }
+          }
+        }
+      }
+    }
+  }
 }
