@@ -1581,23 +1581,23 @@
 }
 
 .broken-tales.actor-sheet .bt-name {
-  font-size: clamp(27px, 3.2vw, 38px);
+  font-size: 34px;
   min-height: 56px;
 }
 
 .broken-tales.actor-sheet .bt-name-long .bt-name {
-  font-size: clamp(24px, 2.75vw, 34px);
+  font-size: 29px;
   min-height: 70px;
 }
 
 .broken-tales.actor-sheet .bt-name-very-long .bt-name {
-  font-size: clamp(20px, 2.15vw, 28px);
+  font-size: 23px;
   line-height: 1.03;
   min-height: 96px;
 }
 
 .broken-tales.actor-sheet .bt-name-extreme .bt-name {
-  font-size: clamp(17px, 1.8vw, 23px);
+  font-size: 19px;
   line-height: 1.06;
   min-height: 124px;
 }
@@ -1723,7 +1723,7 @@
   }
 
   .broken-tales.actor-sheet .bt-name-extreme .bt-name {
-    font-size: clamp(18px, 3vw, 25px);
+    font-size: 19px;
     min-height: 96px;
   }
 }

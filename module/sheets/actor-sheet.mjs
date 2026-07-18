@@ -131,20 +131,23 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #prepareDescriptorRows() {
+    const featuredText = this.#plainText(this.#featuredDescriptionText());
     const descriptors = this.document.items
       .filter((item) => this.#isUsableDescriptor(item) && !this.#isPrincipalDescriptor(item))
+      .filter((item) => this.#plainText(item.system?.description) !== featuredText)
       .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const gifts = this.document.items
       .filter((item) => this.#isUsableGift(item))
       .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const rowCount = Math.max(2, descriptors.length, gifts.length);
-    return Array.from({ length: rowCount }, (_value, index) => ({
-      index: index + 2,
-      descriptor: this.#descriptorForGiftIndex(descriptors, index + 1)
-        ? this.#localizeItem(this.#descriptorForGiftIndex(descriptors, index + 1))
-        : null,
-      gift: gifts[index] ? this.#localizeItem(gifts[index]) : null
-    }));
+    return Array.from({ length: rowCount }, (_value, index) => {
+      const descriptor = this.#descriptorForGiftIndex(descriptors, index + 1);
+      return {
+        index: index + 1,
+        descriptor: descriptor ? this.#localizeItem(descriptor) : null,
+        gift: gifts[index] ? this.#localizeItem(gifts[index]) : null
+      };
+    });
   }
 
   #prepareExtraGifts() {
@@ -152,9 +155,29 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #findFeaturedDescriptor() {
-    const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item))
-      ?? this.document.items.find((item) => this.#isUsableDescriptor(item));
+    const description = this.#featuredDescriptionText();
+    if (description) {
+      return {
+        _id: "actor-description",
+        name: game.i18n.localize("BROKENTALES.Description"),
+        type: "descriptor",
+        system: { description }
+      };
+    }
+
+    const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
     return descriptor ? this.#localizeItem(descriptor) : null;
+  }
+
+  #featuredDescriptionText() {
+    const localizedActor = this.#localizeData(this.document.toObject());
+    const notes = this.#plainText(localizedActor.system?.details?.notes);
+    if (notes) return localizedActor.system.details.notes;
+
+    const principal = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
+    if (principal) return this.#localizeItem(principal).system?.description ?? "";
+
+    return "";
   }
 
   #findDarkEgoDescriptor() {
