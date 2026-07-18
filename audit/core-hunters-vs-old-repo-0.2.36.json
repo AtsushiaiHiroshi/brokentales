@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-07-18T15:35:38.077Z",
+  "source": "E:/respaldos/brokentales-repo/packs/actors/pre-generated-hunters",
+  "target": "packs/hunters-canon.db",
+  "rule": "source system.background maps to descriptor-principal; source descriptors[0..gifts-1] map to descriptorX-donX; source final descriptor maps to descriptor-darkego except Machiavelli/Bischeri, which has three gift descriptors plus explicit dark ego descriptor from Spanish sheet.",
+  "result": "ok",
+  "issueCount": 0,
+  "matrix": [
+    {
+      "name": "Baba Yaga the Child Witch",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Babai the Judge",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "expectedGiftDesc": 3,
+      "currentGiftDesc": 3,
+      "expectedDarkDesc": false,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "James the Swordsman",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "The Immortal",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "The Woman from the Woods",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "expectedGiftDesc": 2,
+      "currentGiftDesc": 2,
+      "expectedDarkDesc": true,
+      "currentDarkDesc": true
+    }
+  ]
+}
