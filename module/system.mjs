@@ -131,15 +131,18 @@ function isScenarioGiftPackId(packId) {
 }
 
 function selectedContentLanguage() {
-  const foundryLanguage = game.i18n.lang?.startsWith("es") ? "es" : "en";
-  if (foundryLanguage === "es") return "es";
+  const normalize = (value) => String(value ?? "").toLowerCase();
+  const values = [game.i18n?.lang];
   try {
-    const configured = game.settings.get("broken-tales", "contentLanguage");
-    if (configured && configured !== "system") return configured;
+    values.push(game.settings.get("core", "language"));
+    values.push(game.settings.get("broken-tales", "contentLanguage"));
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
-  return foundryLanguage;
+  const normalized = values.map(normalize);
+  if (normalized.some((value) => value === "es" || value.startsWith("es-") || value === "spanish" || value === "español")) return "es";
+  if (normalized.some((value) => value === "en" || value.startsWith("en-") || value === "english" || value === "inglés")) return "en";
+  return "en";
 }
 
 async function translatedPackNames(packId, language) {
