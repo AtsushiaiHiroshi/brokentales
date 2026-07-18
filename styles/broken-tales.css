@@ -45,6 +45,17 @@
   }
 }
 
+@keyframes btTextTide {
+  0%, 100% {
+    background-position: 0 0;
+    text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.78), 0 0 14px rgba(112, 0, 7, 0.45);
+  }
+  50% {
+    background-position: 0 100%;
+    text-shadow: 0 0 3px #fff, 0 0 12px rgba(255, 38, 45, 0.88), 0 0 23px rgba(112, 0, 7, 0.68);
+  }
+}
+
 .broken-tales {
   --bt-paper: #fbfaf4;
   --bt-ink: #080609;
@@ -101,19 +112,19 @@
   position: relative;
   height: 100%;
   min-width: 760px;
-  padding: 42px 54px 300px;
+  padding: 42px 44px 260px;
   overflow-y: auto;
   overflow-x: auto;
   color: var(--bt-ink);
   background-color: var(--bt-paper);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.87)),
+    linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.94)),
     image-set(
       url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
       url("../assets/ui/broken-tales-sheet.png") type("image/png")
     );
   background-position: center top, center top;
-  background-size: cover, min(100%, 1024px) auto;
+  background-size: 100% 100%, min(100%, 1024px) auto;
   background-repeat: repeat-y;
   scrollbar-color: #8d0011 rgba(8, 6, 9, 0.08);
 }
@@ -150,8 +161,8 @@
 
 .bt-sheet-head {
   display: grid;
-  grid-template-columns: 118px minmax(250px, 0.95fr) minmax(320px, 1.05fr);
-  gap: 18px 22px;
+  grid-template-columns: 118px minmax(300px, 1.1fr) minmax(280px, 0.9fr);
+  gap: 16px 18px;
   align-items: start;
   border-bottom: 3px solid var(--bt-ink);
   padding-bottom: 20px;
@@ -194,28 +205,32 @@
 .bt-name {
   display: block;
   width: 100%;
-  min-height: 58px;
+  min-height: 62px;
   resize: none;
   overflow: hidden;
   font-family: var(--bt-display-font);
-  font-size: clamp(2rem, 4.1vw, 3.25rem);
+  font-size: clamp(2rem, 3.5vw, 3rem);
   line-height: 0.9;
   color: #a00010;
-  text-shadow: 0 0 2px #fff, 0 0 9px rgba(215, 25, 32, 0.8), 2px 2px 0 rgba(8, 6, 9, 0.35);
-  animation: btBloodPulse 4s ease-in-out infinite;
+  background-image: linear-gradient(180deg, #fff 0%, #fbe9e9 18%, #d71920 38%, #6a0008 58%, #120004 62%, #b30011 100%);
+  background-size: 100% 220%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 2px #fff, 0 0 9px rgba(215, 25, 32, 0.8), 2px 2px 0 rgba(8, 6, 9, 0.28);
+  animation: btTextTide 7s ease-in-out infinite;
 }
 
 .bt-ink-title.bt-name-long .bt-name,
 .bt-ink-title.bt-name-very-long .bt-name {
-  font-size: clamp(1.5rem, 3.1vw, 2.35rem);
-  min-height: 74px;
-  line-height: 0.98;
+  font-size: clamp(1.22rem, 2.55vw, 2rem);
+  min-height: 86px;
+  line-height: 1.02;
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  font-size: clamp(1.22rem, 2.55vw, 1.9rem);
-  min-height: 96px;
-  line-height: 1.04;
+  font-size: clamp(0.92rem, 1.85vw, 1.38rem);
+  min-height: 116px;
+  line-height: 1.06;
 }
 
 .bt-line-fields,
@@ -283,8 +298,12 @@
   color: #9f000c;
   font-family: var(--bt-display-font);
   line-height: 1;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.84), 0 0 18px rgba(112, 0, 7, 0.45);
-  animation: btBloodPulse 5.5s ease-in-out infinite;
+  background-image: linear-gradient(180deg, #fff 0%, #f6dfdf 20%, #d71920 40%, #650006 58%, #120004 63%, #a8000d 100%);
+  background-size: 100% 220%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.76), 0 0 17px rgba(112, 0, 7, 0.42);
+  animation: btTextTide 8s ease-in-out infinite;
 }
 
 .bt-featured-text h2::after,
@@ -292,18 +311,7 @@
 .bt-linked-item h3::after,
 .bt-circle span::after,
 .bt-wounds label > span::after {
-  content: "";
-  position: absolute;
-  inset: -0.18em -0.35em;
-  z-index: -1;
-  opacity: 0.46;
-  pointer-events: none;
-  background:
-    linear-gradient(173deg, transparent var(--bt-ink-tide), rgba(0, 0, 0, 0.88) calc(var(--bt-ink-tide) + 5%)),
-    linear-gradient(187deg, transparent var(--bt-ink-swell), rgba(80, 0, 5, 0.82) calc(var(--bt-ink-swell) + 7%));
-  mix-blend-mode: multiply;
-  filter: blur(3px);
-  animation: btInkTide 7s ease-in-out infinite alternate;
+  content: none;
 }
 
 .bt-featured .bt-rich,
@@ -396,7 +404,7 @@
 
 .bt-linked-item {
   display: grid;
-  grid-template-columns: 58px 34px minmax(0, 1fr);
+  grid-template-columns: 64px 34px minmax(0, 1fr);
   gap: 8px 10px;
   align-items: start;
   margin: 8px 0 18px;
@@ -404,21 +412,21 @@
 
 .bt-linked-item .bt-item-icon {
   grid-row: span 2;
-  width: 54px;
-  height: 54px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
 }
 
 .bt-linked-item.descriptor .bt-item-icon {
-  width: 66px;
-  height: 66px;
-  margin-left: -8px;
+  width: 72px;
+  height: 72px;
+  margin-left: -10px;
 }
 
 .bt-linked-item.gift .bt-item-icon {
-  width: 48px;
-  height: 48px;
-  transform: scale(1.22);
+  width: 58px;
+  height: 58px;
+  transform: scale(1.12);
   transform-origin: center;
 }
 
@@ -429,7 +437,7 @@
 
 .bt-linked-item h3 {
   margin: 3px 0 0;
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   overflow-wrap: anywhere;
 }
 

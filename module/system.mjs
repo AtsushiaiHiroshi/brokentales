@@ -157,7 +157,9 @@ async function translatedPackNames(packId, language) {
   for (const document of documents) {
     const translatedName = document.flags?.["broken-tales"]?.translations?.[language]?.name;
     if (!translatedName) continue;
+    names.set(document.uuid, translatedName);
     names.set(document.id, translatedName);
+    names.set(document._id, translatedName);
     names.set(document.name, translatedName);
   }
   LOCALIZED_PACK_NAME_CACHE.set(cacheKey, names);
@@ -170,9 +172,13 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
   const names = await translatedPackNames(packId, language);
   if (!names.size) return;
 
-  root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
-    const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
-    const label = entry.querySelector(".entry-name, .document-name, .name, h4, h3, a") ?? entry;
+  root.querySelectorAll("[data-document-id], [data-document-uuid], [data-entry-id], [data-uuid], .directory-item.document, .directory-item").forEach((entry) => {
+    const documentId = entry.dataset.documentId
+      ?? entry.dataset.documentUuid
+      ?? entry.dataset.entryId
+      ?? entry.dataset.uuid
+      ?? entry.dataset.id;
+    const label = entry.querySelector(".entry-name, .document-name, .name, .title, h4, h3, a") ?? entry;
     const translatedName = names.get(documentId) ?? names.get(label.textContent?.trim());
     if (!translatedName) return;
     label.textContent = translatedName;
@@ -387,7 +393,9 @@ function enhanceBrokenTalesApplication(application, element) {
   enhanceBrokenTalesCompendiumMarkup(root);
   if (isBrokenTalesPackId(domPackId)) {
     localizeBrokenTalesCompendiumNames(root, domPackId);
-    window.setTimeout(() => localizeBrokenTalesCompendiumNames(root, domPackId), 75);
+    for (const delay of [75, 250, 600]) {
+      window.setTimeout(() => localizeBrokenTalesCompendiumNames(root, domPackId), delay);
+    }
   }
   if (isScenarioGiftPackId(domPackId)) groupScenarioGiftCompendium(root, domPackId);
 }
