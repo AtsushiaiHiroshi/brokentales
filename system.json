@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.52",
+  "version": "0.2.53",
   "authors": [
     {
       "name": "Mesa local"
@@ -369,6 +369,24 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "scenario-gifts-one-thousand-and-one-nightmares",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+      "type": "Item",
+      "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db"
+    },
+    {
+      "name": "scenario-gifts-ozena-the-suffering-and-desperate",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+      "type": "Item",
+      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db"
+    },
+    {
+      "name": "scenario-gifts-saint-george-the-dragon-slayer",
+      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+      "type": "Item",
+      "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db"
     }
   ],
   "languages": [

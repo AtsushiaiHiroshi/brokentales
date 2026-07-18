@@ -1860,13 +1860,13 @@
   "BROKENTALES.ContentText.descriptor3-don3.cazador.cunning.machiavelli.the.fox.and.sly.bischeri.the.cat.Description": "Common Descriptor: I will stop at nothing to get what I want, and it only takes me a few seconds to evaluate what is happening and find the right way to take advantage of it. I hate acting alone because there's no one to take the blame.",
   "BROKENTALES.Content.descriptor-darkego.cazador.cunning.machiavelli.the.fox.and.sly.bischeri.the.cat.Name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat - descriptor-darkego.cazador",
   "BROKENTALES.ContentText.descriptor-darkego.cazador.cunning.machiavelli.the.fox.and.sly.bischeri.the.cat.Description": "Like it or not, we are bound by magic. We can share thoughts, each see what the other sees, and thanks to this we can work together to cheat others. Whoever is in animal form hates not being able to communicate and often annoys the other out of spite.",
-  "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares": "Scenario Gifts: One Thousand and One Nightmares",
+  "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares": "Broken Tales - Scenario Gifts: One Thousand and One Nightmares",
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartOneTheYellowVillage": "Scenario Gifts: Ozena, the Suffering and Desperate - Part One: The Yellow Village",
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartThreeTheEmeraldVillage": "Scenario Gifts: Ozena, the Suffering and Desperate - Part Three: The Emerald Village",
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartTwoTheRedVillage": "Scenario Gifts: Ozena, the Suffering and Desperate - Part Two: The Red Village",
-  "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer": "Scenario Gifts: Saint George the Dragon Slayer",
-  "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs": "Scenario Gifts: The City of Pigs",
-  "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam": "Scenario Gifts: Wonderbedlam",
+  "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer": "Broken Tales - Scenario Gifts: Saint George the Dragon Slayer",
+  "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs": "Broken Tales - Scenario Gifts: The City of Pigs",
+  "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam": "Broken Tales - Scenario Gifts: Wonderbedlam",
   "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra": "Scenario Gifts: Red-Hood Iskra",
   "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood": "Scenario Gifts: Of Flesh and Wood",
   "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness": "Scenario Gifts: The Smile in the Darkness",
@@ -2138,5 +2138,6 @@
         "Spirit / Essence - Manifestation": "Spirit / Essence - Manifestation"
       }
     }
-  }
+  },
+  "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Scenario Gifts: Ozena, the Suffering and Desperate"
 }
