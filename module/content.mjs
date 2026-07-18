@@ -645,9 +645,11 @@ export async function deleteWorldActorsAndItems() {
     return { actors: 0, items: 0 };
   }
 
-  const actors = [...game.actors];
-  const items = [...game.items];
-  const folders = game.folders.filter((folder) => ["Actor", "Item"].includes(folder.type));
+  const actorCollection = game.actors;
+  const itemCollection = game.items;
+  const actors = [...actorCollection];
+  const items = [...itemCollection];
+  const folders = [...game.folders].filter((folder) => ["Actor", "Item"].includes(folder.type));
   const confirmed = await foundry.applications.api.DialogV2.confirm({
     window: { title: game.i18n.localize("BROKENTALES.Macros.DeleteWorldActorsItems") },
     content: `
@@ -666,42 +668,69 @@ export async function deleteWorldActorsAndItems() {
   let deletedItems = 0;
   let deletedFolders = 0;
 
-  const deleteDocuments = async (DocumentClass, documents, label) => {
+  const deleteDocuments = async (DocumentClass, collection, documents, label) => {
     const ids = documents.map((document) => document.id).filter(Boolean);
     if (!ids.length) return 0;
+    const deletedIds = new Set();
     try {
       await DocumentClass.deleteDocuments(ids);
-      return ids.length;
+      for (const id of ids) {
+        if (!collection.get(id)) deletedIds.add(id);
+      }
     } catch (error) {
       console.warn(`Broken Tales | Batch delete failed for ${label}; falling back to document deletes.`, error);
-      let deleted = 0;
-      for (const document of documents) {
-        try {
-          await document.delete();
-          deleted += 1;
-        } catch (documentError) {
-          failures.push(`${label}: ${document.name}`);
-          console.warn(`Broken Tales | Could not delete ${label}.`, document, documentError);
-        }
-      }
-      return deleted;
     }
+
+    const remaining = documents.filter((document) => document.id && !deletedIds.has(document.id) && collection.get(document.id));
+    for (const document of remaining) {
+      try {
+        await document.delete();
+        if (!collection.get(document.id)) deletedIds.add(document.id);
+      } catch (documentError) {
+        failures.push(`${label}: ${document.name}`);
+        console.warn(`Broken Tales | Could not delete ${label}.`, document, documentError);
+      }
+    }
+
+    const stillPresent = ids.filter((id) => collection.get(id));
+    for (const id of stillPresent) {
+      const document = collection.get(id);
+      failures.push(`${label}: ${document?.name ?? id}`);
+    }
+
+    return deletedIds.size;
   };
 
   const ActorClass = Actor.implementation ?? Actor;
   const ItemClass = Item.implementation ?? Item;
-  deletedActors = await deleteDocuments(ActorClass, actors, "Actor");
-  deletedItems = await deleteDocuments(ItemClass, items, "Item");
+  deletedActors = await deleteDocuments(ActorClass, actorCollection, actors, "Actor");
+  deletedItems = await deleteDocuments(ItemClass, itemCollection, items, "Item");
 
-  for (const folder of folders) {
-    try {
-      if (folder.contents?.size || folder.contents?.length) continue;
-      await folder.delete();
-      deletedFolders += 1;
-    } catch (error) {
-      failures.push(`Folder: ${folder.name}`);
-      console.warn("Broken Tales | Could not delete folder.", folder, error);
+  for (let pass = 0; pass < 4; pass += 1) {
+    const remainingFolders = [...game.folders]
+      .filter((folder) => ["Actor", "Item"].includes(folder.type))
+      .sort((a, b) => String(b.folder?.id ?? "").length - String(a.folder?.id ?? "").length);
+    if (!remainingFolders.length) break;
+    let deletedThisPass = 0;
+    for (const folder of remainingFolders) {
+      try {
+        if ([...game.actors, ...game.items].some((document) => document.folder?.id === folder.id)) continue;
+        if ([...game.folders].some((child) => child.folder?.id === folder.id)) continue;
+        await folder.delete();
+        deletedFolders += 1;
+        deletedThisPass += 1;
+      } catch (error) {
+        failures.push(`Folder: ${folder.name}`);
+        console.warn("Broken Tales | Could not delete folder.", folder, error);
+      }
     }
+    if (!deletedThisPass) break;
+  }
+
+  const remainingActors = actorCollection.size ?? [...actorCollection].length;
+  const remainingItems = itemCollection.size ?? [...itemCollection].length;
+  if (remainingActors || remainingItems) {
+    ui.notifications.warn(`Broken Tales: ${remainingActors} Actors and ${remainingItems} Items remain after cleanup.`);
   }
 
   ui.actors?.render?.(true);
