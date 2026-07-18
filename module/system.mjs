@@ -50,7 +50,7 @@ const BROKEN_TALES_PACK_PREFIXES = [
 
 const ESSENTIAL_MACRO_COMMANDS = new Set([
   "await game.brokenTales.repairPregens();",
-  "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true });",
+  "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true, importMissing: true, replaceExisting: true });",
   "await game.brokenTales.deleteWorldActorsAndItems();"
 ]);
 

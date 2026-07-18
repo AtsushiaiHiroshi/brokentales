@@ -361,6 +361,23 @@ function cleanPackActor(document) {
   return data;
 }
 
+function compactName(value) {
+  return String(value ?? "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLocaleLowerCase();
+}
+
+function localizedNames(document) {
+  const names = new Set([compactName(document.name)]);
+  const translations = document.flags?.["broken-tales"]?.translations ?? {};
+  for (const translation of Object.values(translations)) {
+    if (translation?.name) names.add(compactName(translation.name));
+  }
+  return names;
+}
+
 async function loadPackActors(packId) {
   const pack = game.packs.get(packId);
   if (!pack) throw new Error(`Missing compendium pack: ${packId}`);
@@ -379,7 +396,9 @@ async function loadAvailableCanonActors() {
 
 function worldActorMatchesPackActor(actor, packActor) {
   if (actor.type !== packActor.type) return false;
-  if (actor.name === packActor.name) return true;
+  const actorNames = localizedNames(actor);
+  const packNames = localizedNames(packActor);
+  if ([...actorNames].some((name) => packNames.has(name))) return true;
 
   const worldFlags = actor.flags?.["broken-tales"] ?? {};
   const packFlags = packActor.flags?.["broken-tales"] ?? {};
@@ -392,6 +411,7 @@ async function refreshActorFromPack(actor, packActor) {
   if (itemIds.length) await actor.deleteEmbeddedDocuments("Item", itemIds);
 
   const update = {
+    name: data.name,
     img: data.img,
     system: data.system,
     flags: {
@@ -406,15 +426,23 @@ async function refreshActorFromPack(actor, packActor) {
   if (data.items?.length) await actor.createEmbeddedDocuments("Item", data.items);
 }
 
-export async function syncWorldActorsFromCompendia({ cleanupDuplicates = true } = {}) {
+export async function syncWorldActorsFromCompendia({
+  cleanupDuplicates = true,
+  importMissing = false,
+  replaceExisting = false
+} = {}) {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
-    return { updated: 0, unmatched: 0 };
+    return { updated: 0, created: 0, replaced: 0, unmatched: 0 };
   }
 
   const canonActors = await loadAvailableCanonActors();
   const updated = [];
+  const created = [];
+  const replaced = [];
   const unmatched = [];
+  const usedCanonActors = new Set();
+  const ActorClass = Actor.implementation ?? Actor;
 
   for (const actor of game.actors.filter(isBrokenTalesActor)) {
     const packActor = canonActors.find((candidate) => worldActorMatchesPackActor(actor, candidate));
@@ -422,16 +450,40 @@ export async function syncWorldActorsFromCompendia({ cleanupDuplicates = true } 
       unmatched.push(actor.name);
       continue;
     }
+    usedCanonActors.add(packActor);
+    if (replaceExisting) {
+      const data = cleanPackActor(packActor);
+      const folder = actor.folder?.id ?? null;
+      await actor.delete();
+      created.push(await ActorClass.create({ ...data, folder }));
+      replaced.push(data.name);
+      continue;
+    }
     await refreshActorFromPack(actor, packActor);
     updated.push(actor.name);
   }
 
+  if (importMissing) {
+    const existingActors = game.actors.filter(isBrokenTalesActor);
+    for (const packActor of canonActors) {
+      if (usedCanonActors.has(packActor)) continue;
+      if (existingActors.some((actor) => worldActorMatchesPackActor(actor, packActor))) continue;
+      created.push(await ActorClass.create(cleanPackActor(packActor)));
+    }
+  }
+
   if (cleanupDuplicates) await cleanupDuplicateActors();
   ui.notifications.info(game.i18n.format("BROKENTALES.Notifications.WorldActorsSynced", {
-    updated: updated.length,
+    updated: updated.length + replaced.length + created.length,
     unmatched: unmatched.length
   }));
-  return { updated: updated.length, unmatched: unmatched.length, unmatchedNames: unmatched };
+  return {
+    updated: updated.length,
+    created: created.length,
+    replaced: replaced.length,
+    unmatched: unmatched.length,
+    unmatchedNames: unmatched
+  };
 }
 
 export async function importDarkPresences({ overwrite = false } = {}) {
@@ -672,7 +724,7 @@ export async function createDeleteWorldActorsItemsMacro() {
 export async function createSyncWorldActorsMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.SyncWorldActors");
-  const command = "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true });";
+  const command = "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true, importMissing: true, replaceExisting: true });";
   const existing = game.macros.find((macro) => macro.name === name);
   if (existing) {
     if (existing.command !== command) await existing.update({ command, img: "icons/svg/upgrade.svg" });
