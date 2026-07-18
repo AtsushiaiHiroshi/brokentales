@@ -54,6 +54,12 @@ const ESSENTIAL_MACRO_COMMANDS = new Set([
   "await game.brokenTales.deleteWorldActorsAndItems();"
 ]);
 
+const ESSENTIAL_MACRO_NAME_KEYS = [
+  "BROKENTALES.Macros.RepairPregens",
+  "BROKENTALES.Macros.SyncWorldActors",
+  "BROKENTALES.Macros.DeleteWorldActorsItems"
+];
+
 const LEGACY_MACRO_PATTERNS = [
   /broken tales/i,
   /pregenerados de broken tales/i,
@@ -191,9 +197,17 @@ async function groupScenarioGiftCompendium(root, packId) {
 
 async function cleanupLegacyBrokenTalesMacros() {
   if (!game.user.isGM) return;
+  const desiredNames = new Set(ESSENTIAL_MACRO_NAME_KEYS.map((key) => game.i18n.localize(key)));
+  const preservedCommands = new Set();
   const deletable = game.macros.filter((macro) => {
     const command = String(macro.command ?? "").trim();
-    if (ESSENTIAL_MACRO_COMMANDS.has(command)) return false;
+    if (ESSENTIAL_MACRO_COMMANDS.has(command)) {
+      if (desiredNames.has(macro.name) && !preservedCommands.has(command)) {
+        preservedCommands.add(command);
+        return false;
+      }
+      return true;
+    }
     if (/game\.brokenTales\./.test(command)) return true;
     return LEGACY_MACRO_PATTERNS.some((pattern) => pattern.test(macro.name ?? ""));
   });
