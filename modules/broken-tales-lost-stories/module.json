@@ -2,7 +2,7 @@
   "id": "broken-tales-lost-stories",
   "title": "Broken Tales - Lost Stories",
   "description": "Expansion module for Lost Stories content for the Broken Tales system.",
-  "version": "0.2.16",
+  "version": "0.2.18",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -205,6 +205,17 @@
       },
       "flags": {},
       "folder": "Broken Tales - Lost Stories"
+    },
+    {
+      "name": "lost-stories-scenario-gifts",
+      "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+      "type": "Item",
+      "path": "packs/lost-stories-scenario-gifts.db",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "esmodules": [],
@@ -212,5 +223,71 @@
   "languages": [],
   "url": "https://github.com/AtsushiaiHiroshi/brokentales",
   "manifest": "",
-  "download": ""
+  "download": "",
+  "packFolders": [
+    {
+      "name": "Broken Tales - Lost Stories",
+      "sorting": "m",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cazadores de Lost Stories",
+          "sorting": "m",
+          "packs": [
+            "lost-stories-hunters",
+            "lost-stories-descriptors",
+            "lost-stories-gifts",
+            "lost-stories-dark-egos",
+            "lost-stories-equipment"
+          ],
+          "color": "#d01f2f"
+        },
+        {
+          "name": "Actores y presencias oscuras",
+          "sorting": "m",
+          "packs": [
+            "lost-stories-actors",
+            "lost-stories-dark-presences",
+            "lost-stories-threat-descriptors",
+            "lost-stories-dark-presence-descriptors"
+          ],
+          "color": "#790018"
+        },
+        {
+          "name": "Escenarios y dones de escenario",
+          "sorting": "m",
+          "packs": [
+            "lost-stories-scenario-gifts",
+            "lost-stories-adventures",
+            "lost-stories-maps",
+            "lost-stories-scenes"
+          ],
+          "color": "#d01f2f"
+        },
+        {
+          "name": "Biblioteca",
+          "sorting": "m",
+          "packs": [
+            "lost-stories-library",
+            "lost-stories-source-pdfs"
+          ],
+          "color": "#111111"
+        }
+      ],
+      "color": "#d01f2f",
+      "children": [
+        {
+          "name": "Apoyos por escenario",
+          "sorting": "a",
+          "packs": [
+            "lost-stories-scenario-gifts-a-soldiers-duty",
+            "lost-stories-scenario-gifts-of-flesh-and-wood",
+            "lost-stories-scenario-gifts-the-smile-in-the-darkness",
+            "lost-stories-scenario-gifts-tuvstarrs-reflection"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
 }

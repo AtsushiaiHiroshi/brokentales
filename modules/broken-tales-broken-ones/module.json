@@ -2,7 +2,7 @@
   "id": "broken-tales-broken-ones",
   "title": "Broken Tales - The Broken Ones",
   "description": "Expansion module for The Broken Ones content for the Broken Tales system.",
-  "version": "0.2.15",
+  "version": "0.2.17",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -225,5 +225,69 @@
   "languages": [],
   "url": "https://github.com/AtsushiaiHiroshi/brokentales",
   "manifest": "",
-  "download": ""
+  "download": "",
+  "packFolders": [
+    {
+      "name": "Broken Tales - Broken Ones",
+      "sorting": "m",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cazadores de The Broken Ones",
+          "sorting": "m",
+          "packs": [
+            "broken-ones-hunters",
+            "broken-ones-descriptors",
+            "broken-ones-gifts",
+            "broken-ones-dark-egos",
+            "broken-ones-equipment"
+          ],
+          "color": "#d01f2f"
+        },
+        {
+          "name": "Actores de The Broken Ones",
+          "sorting": "m",
+          "packs": [
+            "broken-ones-actors",
+            "broken-ones-threat-descriptors"
+          ],
+          "color": "#790018"
+        },
+        {
+          "name": "Red Hood / Iskra",
+          "sorting": "m",
+          "packs": [
+            "red-hood-iskra-support",
+            "red-hood-iskra-maps",
+            "red-hood-iskra-audio"
+          ],
+          "color": "#d01f2f"
+        },
+        {
+          "name": "Biblioteca y escenarios",
+          "sorting": "m",
+          "packs": [
+            "broken-ones-library",
+            "broken-ones-adventures",
+            "broken-ones-maps",
+            "broken-ones-scenes",
+            "broken-ones-source-pdfs"
+          ],
+          "color": "#111111"
+        }
+      ],
+      "color": "#d01f2f",
+      "children": [
+        {
+          "name": "Apoyos por escenario",
+          "sorting": "a",
+          "packs": [
+            "red-hood-iskra-support-general",
+            "red-hood-iskra-support-red-hood-iskra"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
 }
