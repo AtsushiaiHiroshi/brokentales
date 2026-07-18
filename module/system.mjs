@@ -214,7 +214,7 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
   ].join(", ");
 
   root.querySelectorAll(selector).forEach((entry) => {
-    const label = entry.querySelector(".entry-name, .document-name, .name, .title, h4, h3, a, span") ?? entry;
+    const label = entry.querySelector(".entry-name, .document-name, .compendium-entry-name, .name, .title, h4, h3, a, span") ?? entry;
     const keys = [
       entry.dataset.documentId,
       entry.dataset.documentUuid,
@@ -238,6 +238,20 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
     if (entry.dataset.tooltip) entry.dataset.tooltip = translatedName;
     if (entry.title) entry.title = translatedName;
   });
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => {
+      const parent = node.parentElement;
+      if (!parent || parent.closest("script, style, textarea, input, button")) return NodeFilter.FILTER_REJECT;
+      return names.has(node.nodeValue?.trim()) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    }
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+  for (const node of textNodes) {
+    const translatedName = names.get(node.nodeValue.trim());
+    if (translatedName) node.nodeValue = node.nodeValue.replace(node.nodeValue.trim(), translatedName);
+  }
 }
 
 async function scenarioGiftGroups(packId) {
@@ -317,6 +331,20 @@ async function cleanupLegacyBrokenTalesMacros() {
     return LEGACY_MACRO_PATTERNS.some((pattern) => pattern.test(macro.name ?? ""));
   });
   for (const macro of deletable) await macro.delete();
+}
+
+async function resetUtilityMacros() {
+  if (!game.user.isGM) {
+    ui.notifications.warn(game.i18n.localize("BROKENTALES.GMOnly"));
+    return;
+  }
+  await cleanupLegacyBrokenTalesMacros();
+  await Promise.all([
+    createPregenRepairMacro(),
+    createDeleteWorldActorsItemsMacro(),
+    createSyncWorldActorsMacro()
+  ]);
+  ui.notifications.info(game.i18n.localize("BROKENTALES.Macros.ResetComplete"));
 }
 
 Hooks.once("init", () => {
@@ -500,7 +528,8 @@ Hooks.once("ready", async () => {
     importSupportItems,
     createSupportImportMacro,
     importReferenceActors,
-    createReferenceActorsImportMacro
+    createReferenceActorsImportMacro,
+    resetUtilityMacros
   };
 
   if (!game.user.isGM) return;

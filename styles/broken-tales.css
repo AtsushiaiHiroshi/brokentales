@@ -741,3 +741,96 @@
     min-height: 126px;
   }
 }
+
+/* Sheet fidelity overrides: keep the hunter sheet readable on the printed-page layout. */
+.bt-sheet-head {
+  grid-template-columns: 132px minmax(560px, 1.25fr) minmax(300px, 0.75fr);
+}
+
+.bt-name {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.bt-ink-title.bt-name-long .bt-name {
+  font-size: 1.88rem;
+  min-height: 104px;
+  line-height: 1.02;
+}
+
+.bt-ink-title.bt-name-very-long .bt-name {
+  font-size: 1.55rem;
+  min-height: 126px;
+  line-height: 1.04;
+}
+
+.bt-ink-title.bt-name-extreme .bt-name {
+  font-size: 1.28rem;
+  min-height: 154px;
+  line-height: 1.07;
+}
+
+.bt-featured {
+  min-height: 150px;
+}
+
+.bt-featured .bt-rich {
+  max-height: 138px;
+}
+
+.bt-linked-item {
+  grid-template-columns: 40px 104px minmax(0, 1fr);
+  min-height: 112px;
+}
+
+.bt-linked-item.descriptor .bt-item-icon,
+.bt-linked-item.gift .bt-item-icon {
+  width: 96px;
+  height: 96px;
+  margin-left: 0;
+}
+
+.bt-linked-item .bt-item-icon.small {
+  width: 56px;
+  height: 56px;
+}
+
+.bt-linked-item h3 {
+  font-size: 1.18rem;
+  line-height: 1.05;
+}
+
+.bt-dark-descriptor {
+  grid-template-columns: 64px minmax(0, 1fr);
+}
+
+.bt-dark-descriptor .bt-item-icon.small {
+  width: 54px;
+  height: 54px;
+}
+
+@container (max-width: 930px) {
+  .bt-sheet-head {
+    grid-template-columns: 132px minmax(360px, 1fr);
+  }
+
+  .bt-featured {
+    grid-column: 1 / -1;
+  }
+
+  .bt-ink-title.bt-name-long .bt-name {
+    font-size: 1.74rem;
+    min-height: 104px;
+  }
+
+  .bt-ink-title.bt-name-very-long .bt-name {
+    font-size: 1.42rem;
+    min-height: 126px;
+  }
+
+  .bt-ink-title.bt-name-extreme .bt-name {
+    font-size: 1.12rem;
+    min-height: 150px;
+  }
+}
