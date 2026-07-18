@@ -105,6 +105,9 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     if (itemData.type === "gift" && /dark ego|ego oscuro/i.test(itemData.name ?? "")) {
       itemData.type = "darkEgo";
     }
+    if (itemData.type === "gift") {
+      foundry.utils.setProperty(itemData, "system.trigger", "");
+    }
 
     return itemData;
   }
@@ -134,7 +137,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     const featuredText = this.#plainText(this.#featuredDescriptionText());
     const descriptors = this.document.items
       .filter((item) => this.#isUsableDescriptor(item) && !this.#isPrincipalDescriptor(item))
-      .filter((item) => this.#plainText(item.system?.description) !== featuredText)
+      .filter((item) => this.#plainText(this.#localizeItem(item).system?.description) !== featuredText)
       .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const gifts = this.document.items
       .filter((item) => this.#isUsableGift(item))
@@ -170,12 +173,20 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #featuredDescriptionText() {
-    const localizedActor = this.#localizeData(this.document.toObject());
+    const principal = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
+    const localizedPrincipal = principal ? this.#localizeItem(principal) : null;
+    const language = this.#contentLanguage();
+    const actorData = this.document.toObject();
+    const translatedNotes = actorData.flags?.["broken-tales"]?.translations?.[language]?.system?.details?.notes;
+    if (this.#plainText(translatedNotes)) return translatedNotes;
+    if (language !== "en" && this.#plainText(localizedPrincipal?.system?.description)) {
+      return localizedPrincipal.system.description;
+    }
+
+    const localizedActor = this.#localizeData(actorData);
     const notes = this.#plainText(localizedActor.system?.details?.notes);
     if (notes) return localizedActor.system.details.notes;
-
-    const principal = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
-    if (principal) return this.#localizeItem(principal).system?.description ?? "";
+    if (this.#plainText(localizedPrincipal?.system?.description)) return localizedPrincipal.system.description;
 
     return "";
   }
