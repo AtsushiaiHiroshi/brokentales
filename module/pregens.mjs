@@ -1,5 +1,6 @@
 const IMPORT_FLAG = "pregenSlug";
 const PREGENS_PATH = "systems/broken-tales/pregens/enriched-pregens.json";
+const PREGENS_PACK = "broken-tales.hunters";
 const DESCRIPTOR_ICON = "systems/broken-tales/assets/icons/descriptor-improvement.webp";
 const GIFT_ICON = "systems/broken-tales/assets/icons/icon-gift.webp";
 
@@ -28,6 +29,59 @@ function slugify(value) {
 
 function looseName(value) {
   return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+function activeContentLanguage() {
+  const normalize = (value) => String(value ?? "").toLowerCase();
+  const resolve = (value) => {
+    const normalized = normalize(value);
+    if (normalized === "es" || normalized.startsWith("es-") || normalized === "spanish" || normalized === "español") return "es";
+    if (normalized === "en" || normalized.startsWith("en-") || normalized === "english" || normalized === "inglés") return "en";
+    return "";
+  };
+
+  try {
+    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
+    if (configured) return configured;
+    const core = resolve(game.settings.get("core", "language"));
+    if (core) return core;
+  } catch (_error) {
+    // Settings can be unavailable during early initialization.
+  }
+
+  return resolve(game.i18n?.lang) || "en";
+}
+
+function localizePackData(data) {
+  const language = activeContentLanguage();
+  if (language === "en") return data;
+
+  const translation = data.flags?.["broken-tales"]?.translations?.[language];
+  if (!translation) return data;
+
+  if (translation.name) data.name = translation.name;
+  if (translation.img) data.img = translation.img;
+  if (translation.system) {
+    data.system = foundry.utils.mergeObject(data.system ?? {}, translation.system, {
+      inplace: false,
+      recursive: true
+    });
+  }
+  return data;
+}
+
+function packActorData(document) {
+  const data = document.toObject();
+  delete data._id;
+  data.folder = null;
+  localizePackData(data);
+
+  for (const item of data.items ?? []) {
+    delete item._id;
+    item.folder = null;
+    localizePackData(item);
+  }
+  return data;
 }
 
 function sourceNote(pregen) {
@@ -186,6 +240,17 @@ function actorDataFromPregen(pregen) {
 }
 
 async function loadPregenActors(collection) {
+  const pack = game.packs.get(PREGENS_PACK);
+  if (pack) {
+    const documents = await pack.getDocuments();
+    return documents
+      .filter((document) => {
+        const pregenCollection = document.getFlag("broken-tales", "pregenCollection") ?? document.system?.details?.concept;
+        return collection === "all" || pregenCollection === collection;
+      })
+      .map(packActorData);
+  }
+
   const response = await fetch(PREGENS_PATH);
   if (!response.ok) throw new Error(`Could not load ${PREGENS_PATH}`);
   const data = await response.json();
@@ -195,11 +260,7 @@ async function loadPregenActors(collection) {
 }
 
 async function loadPregenRecords(collection = "all") {
-  const response = await fetch(PREGENS_PATH);
-  if (!response.ok) throw new Error(`Could not load ${PREGENS_PATH}`);
-  const data = await response.json();
-  return (data.actors ?? [])
-    .filter((pregen) => collection === "all" || pregen.collection === collection);
+  return loadPregenActors(collection);
 }
 
 function findExistingPregens(slug, name) {
@@ -290,7 +351,7 @@ export async function refreshPregenAssets({ collection = "all", notify = true } 
 
   for (const pregen of records) {
     const actorName = pregen.displayName || pregen.name;
-    const slug = slugify(`${pregen.collection}-${actorName}`);
+    const slug = pregen.flags?.["broken-tales"]?.[IMPORT_FLAG] ?? slugify(`${pregen.collection}-${actorName}`);
     const img = pregen.img;
     if (!img) continue;
 
