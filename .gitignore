@@ -408,3 +408,5 @@ FodyWeavers.xsd
 **/LOG.old
 **/CURRENT
 **/MANIFEST-*
+# Large local source PDFs are kept outside GitHub unless Git LFS is configured.
+modules/*/assets/source-pdfs/
