@@ -5,8 +5,8 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     classes: ["broken-tales", "actor-sheet"],
     tag: "form",
     position: {
-      width: 820,
-      height: 760
+      width: 1120,
+      height: 840
     },
     window: {
       resizable: true
@@ -136,7 +136,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   #prepareDescriptorRows() {
     const featuredText = this.#plainText(this.#featuredDescriptionText());
     const descriptors = this.document.items
-      .filter((item) => this.#isUsableDescriptor(item) && !this.#isPrincipalDescriptor(item))
+      .filter((item) => this.#isUsableDescriptor(item) && !this.#isPrincipalDescriptor(item) && !this.#isDarkEgoDescriptor(item))
       .filter((item) => this.#plainText(this.#localizeItem(item).system?.description) !== featuredText)
       .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const gifts = this.document.items
@@ -195,7 +195,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     const descriptor = this.document.items.find((item) => (
       item.type === "descriptor"
       && !this.#isEmptyPlaceholder(item)
-      && (/dark ego|ego oscuro/i.test(item.name) || this.#contentKey(item).startsWith("descriptor-darkego."))
+      && this.#isDarkEgoDescriptor(item)
     ));
     return descriptor ? this.#localizeItem(descriptor) : null;
   }
@@ -208,14 +208,25 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   #contentLanguage() {
     const normalize = (value) => String(value ?? "").toLowerCase();
-    const values = [
-      game.settings?.get?.("broken-tales", "contentLanguage"),
-      game.settings?.get?.("core", "language"),
-      game.i18n?.lang,
-      game.brokenTales?.contentLanguage?.()
-    ].map(normalize);
-    if (values.some((value) => value === "es" || value.startsWith("es-") || value === "spanish" || value === "español")) return "es";
-    if (values.some((value) => value === "en" || value.startsWith("en-") || value === "english" || value === "inglés")) return "en";
+    const resolve = (value) => {
+      const normalized = normalize(value);
+      if (normalized === "es" || normalized.startsWith("es-") || normalized === "spanish" || normalized === "español") return "es";
+      if (normalized === "en" || normalized.startsWith("en-") || normalized === "english" || normalized === "inglés") return "en";
+      return "";
+    };
+
+    const configured = resolve(game.settings?.get?.("broken-tales", "contentLanguage"));
+    if (configured) return configured;
+
+    const core = resolve(game.settings?.get?.("core", "language"));
+    if (core) return core;
+
+    const i18n = resolve(game.i18n?.lang);
+    if (i18n) return i18n;
+
+    const system = resolve(game.brokenTales?.contentLanguage?.());
+    if (system) return system;
+
     return "en";
   }
 
@@ -269,8 +280,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   #isUsableDescriptor(item) {
     return item.type === "descriptor"
-      && !/dark ego|ego oscuro/i.test(item.name)
-      && !this.#contentKey(item).startsWith("descriptor-darkego.")
+      && !this.#isDarkEgoDescriptor(item)
       && !this.#isEmptyPlaceholder(item);
   }
 
@@ -296,7 +306,26 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #isPrincipalDescriptor(item) {
-    return this.#contentKey(item).startsWith("descriptor-principal.");
+    const key = this.#contentKey(item).toLowerCase();
+    const names = this.#localizedItemNames(item);
+    return key.startsWith("descriptor-principal.")
+      || names.some((name) => /descriptor-principal\.cazador|principal descriptor|descriptor principal/i.test(name));
+  }
+
+  #isDarkEgoDescriptor(item) {
+    const key = this.#contentKey(item).toLowerCase();
+    const names = this.#localizedItemNames(item);
+    return key.startsWith("descriptor-darkego.")
+      || names.some((name) => /descriptor-darkego|dark ego descriptor|descriptor.*ego oscuro|ego oscuro.*descriptor/i.test(name));
+  }
+
+  #localizedItemNames(item) {
+    const names = [String(item.name ?? "")];
+    const translations = item.flags?.["broken-tales"]?.translations ?? {};
+    for (const translation of Object.values(translations)) {
+      if (translation?.name) names.push(String(translation.name));
+    }
+    return names;
   }
 
   #contentSort(item) {

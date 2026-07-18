@@ -1,0 +1,15 @@
+{
+  "version": "0.2.43",
+  "hunters": {
+    "count": 15,
+    "dupes": [],
+    "generic": [],
+    "missingEs": []
+  },
+  "languageLabels": {
+    "contentSettingES": "Seguir idioma de Foundry",
+    "descriptionES": "Descripcion",
+    "descriptionEN": "Description"
+  },
+  "macroCleanupConfigured": true
+}

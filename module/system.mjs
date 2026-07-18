@@ -133,6 +133,7 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
 
 const LOCALIZED_PACK_NAME_CACHE = new Map();
 const SCENARIO_GIFT_GROUP_CACHE = new Map();
+const LOCALIZED_COMPENDIUM_OBSERVERS = new WeakSet();
 const SCENARIO_GIFT_PACK_IDS = new Set([
   "broken-tales.scenario-gifts",
   "broken-tales-broken-ones.red-hood-iskra-support",
@@ -145,16 +146,26 @@ function isScenarioGiftPackId(packId) {
 
 function selectedContentLanguage() {
   const normalize = (value) => String(value ?? "").toLowerCase();
-  const values = [game.i18n?.lang];
+  const resolve = (value) => {
+    const normalized = normalize(value);
+    if (normalized === "es" || normalized.startsWith("es-") || normalized === "spanish" || normalized === "español") return "es";
+    if (normalized === "en" || normalized.startsWith("en-") || normalized === "english" || normalized === "inglés") return "en";
+    return "";
+  };
+
   try {
-    values.push(game.settings.get("core", "language"));
-    values.push(game.settings.get("broken-tales", "contentLanguage"));
+    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
+    if (configured) return configured;
+
+    const core = resolve(game.settings.get("core", "language"));
+    if (core) return core;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
-  const normalized = values.map(normalize);
-  if (normalized.some((value) => value === "es" || value.startsWith("es-") || value === "spanish" || value === "español")) return "es";
-  if (normalized.some((value) => value === "en" || value.startsWith("en-") || value === "english" || value === "inglés")) return "en";
+
+  const i18n = resolve(game.i18n?.lang);
+  if (i18n) return i18n;
+
   return "en";
 }
 
@@ -238,6 +249,24 @@ async function groupScenarioGiftCompendium(root, packId) {
     header.textContent = scenario;
     entry.before(header);
   });
+}
+
+function observeCompendiumLocalization(root, packId) {
+  if (!root || LOCALIZED_COMPENDIUM_OBSERVERS.has(root)) return;
+  const target = root.querySelector(".directory-list, .scrollable, .window-content") ?? root;
+  let pending = false;
+  const observer = new MutationObserver(() => {
+    if (pending) return;
+    pending = true;
+    window.setTimeout(() => {
+      pending = false;
+      enhanceBrokenTalesCompendiumMarkup(root);
+      if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
+      if (isScenarioGiftPackId(packId)) groupScenarioGiftCompendium(root, packId);
+    }, 80);
+  });
+  observer.observe(target, { childList: true, subtree: true });
+  LOCALIZED_COMPENDIUM_OBSERVERS.add(root);
 }
 
 async function cleanupLegacyBrokenTalesMacros() {
@@ -409,6 +438,7 @@ function enhanceBrokenTalesApplication(application, element) {
     for (const delay of [75, 250, 600]) {
       window.setTimeout(() => localizeBrokenTalesCompendiumNames(root, domPackId), delay);
     }
+    observeCompendiumLocalization(root, domPackId);
   }
   if (isScenarioGiftPackId(domPackId)) groupScenarioGiftCompendium(root, domPackId);
 }

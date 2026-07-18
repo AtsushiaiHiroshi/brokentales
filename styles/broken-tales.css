@@ -111,14 +111,14 @@
 .bt-sheet {
   position: relative;
   height: 100%;
-  min-width: 760px;
+  min-width: 1040px;
   padding: 42px 44px 260px;
   overflow-y: auto;
   overflow-x: auto;
   color: var(--bt-ink);
   background-color: var(--bt-paper);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.94)),
+    linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.88)),
     image-set(
       url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
       url("../assets/ui/broken-tales-sheet.png") type("image/png")
@@ -162,7 +162,7 @@
 
 .bt-sheet-head {
   display: grid;
-  grid-template-columns: 118px minmax(360px, 1.08fr) minmax(320px, 0.92fr);
+  grid-template-columns: 132px minmax(450px, 1.15fr) minmax(390px, 0.85fr);
   gap: 16px 18px;
   align-items: start;
   border-bottom: 3px solid var(--bt-ink);
@@ -176,15 +176,15 @@
 }
 
 .bt-portrait img {
-  width: 112px;
-  height: 112px;
+  width: 124px;
+  height: 124px;
   object-fit: cover;
   background: var(--bt-ink);
   border: 4px solid var(--bt-red);
 }
 
 .bt-portrait input {
-  width: 112px;
+  width: 124px;
   min-height: 24px;
   font-size: 0.72rem;
   text-align: center;
@@ -229,8 +229,8 @@
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.22rem;
-  min-height: 148px;
+  font-size: 1.36rem;
+  min-height: 126px;
   line-height: 1.08;
 }
 
@@ -713,7 +713,7 @@
 
 @container (max-width: 930px) {
   .bt-sheet-head {
-    grid-template-columns: 118px minmax(0, 1fr);
+    grid-template-columns: 132px minmax(0, 1fr);
   }
 
   .bt-featured {

@@ -740,7 +740,7 @@
   "BROKENTALES.Darkness": "Oscuridad",
   "BROKENTALES.Delete": "Eliminar",
   "BROKENTALES.DeleteConfirm": "Eliminar {name}?",
-  "BROKENTALES.Description": "Descripcion",
+  "BROKENTALES.Description": "Descripción",
   "BROKENTALES.DistinguishingFeatures": "Rasgos distintivos",
   "BROKENTALES.DropDuplicateItem": "El item ya existe en esta ficha: {name}",
   "BROKENTALES.Empty.Descriptors": "Sin descriptores todavia.",

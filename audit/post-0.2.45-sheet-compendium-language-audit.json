@@ -1,0 +1,28 @@
+{
+  "version": "0.2.45",
+  "checks": [
+    {
+      "rel": "module/sheets/actor-sheet.mjs",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "rel": "module/system.mjs",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "rel": "module/content.mjs",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "changes": [
+    "descriptor principal excluido de filas normales",
+    "descriptor de dark ego separado",
+    "idioma de contenido respeta selector explícito o idioma de Foundry",
+    "observador de compendios para búsqueda/scroll",
+    "hoja abre más ancha y no comprime layout",
+    "fondo broken_tales_sheet más visible"
+  ]
+}

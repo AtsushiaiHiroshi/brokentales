@@ -365,21 +365,30 @@ function cleanPackActor(document) {
 
 function activeContentLanguage() {
   const normalize = (value) => String(value ?? "").toLowerCase();
-  const values = [
-    game.settings?.get?.("broken-tales", "contentLanguage"),
-    game.settings?.get?.("core", "language"),
-    game.i18n?.lang,
-    game.brokenTales?.contentLanguage?.()
-  ].map(normalize);
+  const resolve = (value) => {
+    const normalized = normalize(value);
+    if (normalized === "es" || normalized.startsWith("es-") || normalized === "spanish" || normalized === "español") return "es";
+    if (normalized === "en" || normalized.startsWith("en-") || normalized === "english" || normalized === "inglés") return "en";
+    return "";
+  };
 
-  if (values.some((value) => value === "es" || value.startsWith("es-") || value === "spanish" || value === "español")) return "es";
-  if (values.some((value) => value === "en" || value.startsWith("en-") || value === "english" || value === "inglés")) return "en";
   try {
     const configured = game.settings.get("broken-tales", "contentLanguage");
-    if (configured && configured !== "system") return configured;
+    const explicit = resolve(configured);
+    if (explicit) return explicit;
   } catch (_error) {
     // Settings can be unavailable during early initialization.
   }
+
+  const core = resolve(game.settings?.get?.("core", "language"));
+  if (core) return core;
+
+  const i18n = resolve(game.i18n?.lang);
+  if (i18n) return i18n;
+
+  const system = resolve(game.brokenTales?.contentLanguage?.());
+  if (system) return system;
+
   return "en";
 }
 
