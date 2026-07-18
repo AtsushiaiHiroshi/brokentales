@@ -1,0 +1,566 @@
+{
+  "generatedAt": "2026-07-18T16:01:58.568Z",
+  "problems": [],
+  "all": [
+    {
+      "pkg": "broken-tales",
+      "pack": "hunters",
+      "type": "Actor",
+      "count": 15,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "support",
+      "type": "Item",
+      "count": 6,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts",
+      "type": "Item",
+      "count": 19,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "hunter-gifts",
+      "type": "Item",
+      "count": 31,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "hunter-descriptors",
+      "type": "Item",
+      "count": 61,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "hunter-equipment",
+      "type": "Item",
+      "count": 81,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "hunter-dark-egos",
+      "type": "Item",
+      "count": 15,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "dark-presence-descriptors",
+      "type": "Item",
+      "count": 46,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "threat-descriptors",
+      "type": "Item",
+      "count": 118,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "villager-descriptors",
+      "type": "Item",
+      "count": 71,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "essence-descriptors",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "dark-presences",
+      "type": "Actor",
+      "count": 23,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-actors",
+      "type": "Actor",
+      "count": 85,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "library",
+      "type": "JournalEntry",
+      "count": 12,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "adventures",
+      "type": "JournalEntry",
+      "count": 11,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "adventure-maps",
+      "type": "JournalEntry",
+      "count": 13,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "adventure-scenes",
+      "type": "Scene",
+      "count": 14,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "audit",
+      "type": "JournalEntry",
+      "count": 1,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "source-pdfs",
+      "type": "JournalEntry",
+      "count": 47,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-red-hood-iskra",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-of-flesh-and-wood",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-the-smile-in-the-darkness",
+      "type": "Item",
+      "count": 2,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-a-soldiers-duty",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-wonderbedlam",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-tuvstarrs-reflection",
+      "type": "Item",
+      "count": 2,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales",
+      "pack": "scenario-gifts-the-city-of-pigs",
+      "type": "Item",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-hunters",
+      "type": "Actor",
+      "count": 13,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-actors",
+      "type": "Actor",
+      "count": 54,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-descriptors",
+      "type": "Item",
+      "count": 41,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-threat-descriptors",
+      "type": "Item",
+      "count": 54,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-gifts",
+      "type": "Item",
+      "count": 26,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-dark-egos",
+      "type": "Item",
+      "count": 13,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-equipment",
+      "type": "Item",
+      "count": 85,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-library",
+      "type": "JournalEntry",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-adventures",
+      "type": "JournalEntry",
+      "count": 7,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-maps",
+      "type": "JournalEntry",
+      "count": 7,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-scenes",
+      "type": "Scene",
+      "count": 7,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "red-hood-iskra-support",
+      "type": "Item",
+      "count": 13,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "red-hood-iskra-maps",
+      "type": "JournalEntry",
+      "count": 4,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "red-hood-iskra-audio",
+      "type": "Playlist",
+      "count": 2,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-broken-ones",
+      "pack": "broken-ones-source-pdfs",
+      "type": "JournalEntry",
+      "count": 3,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-hunters",
+      "type": "Actor",
+      "count": 19,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-actors",
+      "type": "Actor",
+      "count": 122,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-dark-presences",
+      "type": "Actor",
+      "count": 10,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-dark-presence-descriptors",
+      "type": "Item",
+      "count": 10,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-threat-descriptors",
+      "type": "Item",
+      "count": 10,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-descriptors",
+      "type": "Item",
+      "count": 66,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-gifts",
+      "type": "Item",
+      "count": 38,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-dark-egos",
+      "type": "Item",
+      "count": 19,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-equipment",
+      "type": "Item",
+      "count": 103,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-library",
+      "type": "JournalEntry",
+      "count": 5,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-adventures",
+      "type": "JournalEntry",
+      "count": 9,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-maps",
+      "type": "JournalEntry",
+      "count": 9,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-scenes",
+      "type": "Scene",
+      "count": 9,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-source-pdfs",
+      "type": "JournalEntry",
+      "count": 5,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    },
+    {
+      "pkg": "broken-tales-lost-stories",
+      "pack": "lost-stories-scenario-gifts",
+      "type": "Item",
+      "count": 10,
+      "dups": [],
+      "emptyActors": [],
+      "emptyActorCount": 0,
+      "missingBaseImg": []
+    }
+  ]
+}
