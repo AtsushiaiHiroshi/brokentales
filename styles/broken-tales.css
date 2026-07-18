@@ -162,7 +162,7 @@
 
 .bt-sheet-head {
   display: grid;
-  grid-template-columns: 132px minmax(450px, 1.15fr) minmax(390px, 0.85fr);
+  grid-template-columns: 132px minmax(530px, 1fr) minmax(320px, 0.72fr);
   gap: 16px 18px;
   align-items: start;
   border-bottom: 3px solid var(--bt-ink);
@@ -231,9 +231,9 @@
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.16rem;
-  min-height: 132px;
-  line-height: 1.12;
+  font-size: 0.98rem;
+  min-height: 164px;
+  line-height: 1.14;
 }
 
 .bt-line-fields,

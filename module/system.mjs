@@ -159,11 +159,11 @@ function selectedContentLanguage() {
   };
 
   try {
-    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
-    if (configured) return configured;
-
     const core = resolve(game.settings.get("core", "language"));
     if (core) return core;
+
+    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
+    if (configured) return configured;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
@@ -201,16 +201,42 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
   const names = await translatedPackNames(packId, language);
   if (!names.size) return;
 
-  root.querySelectorAll("[data-document-id], [data-document-uuid], [data-entry-id], [data-uuid], .directory-item.document, .directory-item").forEach((entry) => {
-    const documentId = entry.dataset.documentId
-      ?? entry.dataset.documentUuid
-      ?? entry.dataset.entryId
-      ?? entry.dataset.uuid
-      ?? entry.dataset.id;
-    const label = entry.querySelector(".entry-name, .document-name, .name, .title, h4, h3, a") ?? entry;
-    const translatedName = names.get(documentId) ?? names.get(label.textContent?.trim());
+  const selector = [
+    "[data-document-id]",
+    "[data-document-uuid]",
+    "[data-entry-id]",
+    "[data-uuid]",
+    "[data-id]",
+    "[data-tooltip]",
+    ".directory-item.document",
+    ".directory-item",
+    ".compendium-entry"
+  ].join(", ");
+
+  root.querySelectorAll(selector).forEach((entry) => {
+    const label = entry.querySelector(".entry-name, .document-name, .name, .title, h4, h3, a, span") ?? entry;
+    const keys = [
+      entry.dataset.documentId,
+      entry.dataset.documentUuid,
+      entry.dataset.entryId,
+      entry.dataset.uuid,
+      entry.dataset.id,
+      entry.dataset.tooltip,
+      label.dataset?.documentId,
+      label.dataset?.documentUuid,
+      label.dataset?.entryId,
+      label.dataset?.uuid,
+      label.dataset?.id,
+      label.dataset?.tooltip,
+      label.textContent?.trim(),
+      entry.textContent?.trim()
+    ].filter(Boolean);
+
+    const translatedName = keys.map((key) => names.get(key)).find(Boolean);
     if (!translatedName) return;
     label.textContent = translatedName;
+    if (entry.dataset.tooltip) entry.dataset.tooltip = translatedName;
+    if (entry.title) entry.title = translatedName;
   });
 }
 
