@@ -107,6 +107,15 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
 
 const LOCALIZED_PACK_NAME_CACHE = new Map();
 const SCENARIO_GIFT_GROUP_CACHE = new Map();
+const SCENARIO_GIFT_PACK_IDS = new Set([
+  "broken-tales.scenario-gifts",
+  "broken-tales-broken-ones.red-hood-iskra-support",
+  "broken-tales-lost-stories.lost-stories-scenario-gifts"
+]);
+
+function isScenarioGiftPackId(packId) {
+  return SCENARIO_GIFT_PACK_IDS.has(packId);
+}
 
 function selectedContentLanguage() {
   const foundryLanguage = game.i18n.lang?.startsWith("es") ? "es" : "en";
@@ -155,7 +164,7 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
 }
 
 async function scenarioGiftGroups(packId) {
-  if (packId !== "broken-tales.scenario-gifts") return new Map();
+  if (!isScenarioGiftPackId(packId)) return new Map();
   if (SCENARIO_GIFT_GROUP_CACHE.has(packId)) return SCENARIO_GIFT_GROUP_CACHE.get(packId);
 
   const pack = game.packs.get(packId);
@@ -165,6 +174,7 @@ async function scenarioGiftGroups(packId) {
   for (const document of documents) {
     const scenario = document.system?.scenario
       ?? document.flags?.["broken-tales"]?.scenario
+      ?? document.flags?.scenarioId
       ?? document.system?.source
       ?? document.flags?.["broken-tales"]?.sourceDirectory;
     if (!scenario) continue;
@@ -359,7 +369,7 @@ function enhanceBrokenTalesApplication(application, element) {
 
   enhanceBrokenTalesCompendiumMarkup(root);
   if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
-  if (packId === "broken-tales.scenario-gifts") groupScenarioGiftCompendium(root, packId);
+  if (isScenarioGiftPackId(packId)) groupScenarioGiftCompendium(root, packId);
 }
 
 Hooks.on("renderApplicationV2", enhanceBrokenTalesApplication);

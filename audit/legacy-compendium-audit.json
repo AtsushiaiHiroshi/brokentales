@@ -1,0 +1,3596 @@
+{
+  "generatedAt": "2026-07-18T07:31:45.900Z",
+  "sourceOfTruth": {
+    "legacyRepo": "E:/respaldos/brokentales-repo",
+    "standaloneBackups": "E:/respaldos",
+    "currentRepo": "E:/respaldos/brokentales-repo",
+    "localSystem": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales",
+    "modules": [
+      "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones",
+      "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories"
+    ]
+  },
+  "summary": {
+    "legacyRepoDbFiles": 110,
+    "standaloneBackupDbFiles": 16,
+    "systemPacks": 20,
+    "brokenOnesPacks": 15,
+    "lostStoriesPacks": 15,
+    "currentScenarioRelatedPacks": [
+      {
+        "id": "broken-tales.support",
+        "sourceDbCount": 6,
+        "levelDbCount": 0,
+        "sourceDbExists": true,
+        "levelDbExists": true,
+        "levelDbError": "Error: Database failed to open"
+      },
+      {
+        "id": "broken-tales.scenario-gifts",
+        "sourceDbCount": 21,
+        "levelDbCount": 0,
+        "sourceDbExists": true,
+        "levelDbExists": true,
+        "levelDbError": "Error: Database failed to open"
+      },
+      {
+        "id": "broken-tales.scenario-actors",
+        "sourceDbCount": 94,
+        "levelDbCount": 0,
+        "sourceDbExists": true,
+        "levelDbExists": true,
+        "levelDbError": "Error: Database failed to open"
+      },
+      {
+        "id": "broken-tales-broken-ones.red-hood-iskra-support",
+        "sourceDbCount": 13,
+        "levelDbCount": 0,
+        "sourceDbExists": true,
+        "levelDbExists": true,
+        "levelDbError": "Error: Database failed to open"
+      },
+      {
+        "id": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+        "sourceDbCount": 10,
+        "levelDbCount": 10,
+        "sourceDbExists": true,
+        "levelDbExists": true
+      }
+    ],
+    "duplicatePackLabels": []
+  },
+  "hunterCompare": {
+    "legacyCount": 15,
+    "currentCount": 15,
+    "missingFromCurrent": [],
+    "extraInCurrent": [],
+    "currentNames": [
+      "James the Swordsman",
+      "Garou the Old Wolf",
+      "The Astonishing Pied Piper Without a Name",
+      "Baba Yaga the Child Witch",
+      "Regina the Thief of Hearts",
+      "Babai the Judge",
+      "The Woman from the Woods",
+      "The Immortal",
+      "Marina the Sea Explorer",
+      "Niklaus von Krampus",
+      "George the Holy Dragon Slayer",
+      "Sun Wukong the Amazing Monkey",
+      "Verdoux Bluebeard",
+      "Yukie Onn the Traveling Artist",
+      "Cunning Machiavelli the Fox and Sly Bischeri the Cat"
+    ]
+  },
+  "oldRepoCompendia": [
+    {
+      "relativePath": "actors/Adversaries.db",
+      "count": 41,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Andersen - The Commander",
+        "Christian - The Relentless",
+        "Hans - The Gunslinger",
+        "Nils - The Poor Devil",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Carlo - The Living Puppet"
+      ]
+    },
+    {
+      "relativePath": "adventure-maps-canon.db",
+      "count": 13,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "adventure-maps.db",
+      "count": 33,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "adventure-scenes-canon.db",
+      "count": 14,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "adventure-scenes.db",
+      "count": 30,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "adventures-canon.db",
+      "count": 11,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "adventures.db",
+      "count": 27,
+      "types": [],
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "relativePath": "audio-canon.db",
+      "count": 2,
+      "types": [],
+      "sampleNames": [
+        "Broken Tales OST",
+        "Broken Tales - Iskra SFX"
+      ]
+    },
+    {
+      "relativePath": "audio.db",
+      "count": 2,
+      "types": [],
+      "sampleNames": [
+        "Broken Tales OST",
+        "Broken Tales - Iskra SFX"
+      ]
+    },
+    {
+      "relativePath": "audit-canon.db",
+      "count": 1,
+      "types": [],
+      "sampleNames": [
+        "PDF Content Audit"
+      ]
+    },
+    {
+      "relativePath": "audit.db",
+      "count": 1,
+      "types": [],
+      "sampleNames": [
+        "PDF Content Audit"
+      ]
+    },
+    {
+      "relativePath": "broken-one-descriptors-canon.db",
+      "count": 41,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Alice of Other Worlds - Descriptor 1",
+        "Alice of Other Worlds - Descriptor 2",
+        "Alice of Other Worlds - Descriptor 3",
+        "Alice of Other Worlds - Dark Ego Descriptor",
+        "Beauty and her Beast - Descriptor 1",
+        "Beauty and her Beast - Descriptor 2"
+      ]
+    },
+    {
+      "relativePath": "broken-one-descriptors.db",
+      "count": 41,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Alice of Other Worlds - Descriptor 1",
+        "Alice of Other Worlds - Descriptor 2",
+        "Alice of Other Worlds - Descriptor 3",
+        "Alice of Other Worlds - Dark Ego Descriptor",
+        "Beauty and her Beast - Descriptor 1",
+        "Beauty and her Beast - Descriptor 2"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/a-soldiers-duty/adversaries.db",
+      "count": 4,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Nils - The Poor Devil",
+        "Hans - The Gunslinger",
+        "Andersen - The Commander",
+        "Christian - The Relentless"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/a-soldiers-duty/broken-ones.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Enar - The Eternal Soldier"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/a-soldiers-duty/creatures.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Enar - The Eternal Soldier",
+        "Dead Pirates - Hook's Crew"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/a-soldiers-duty/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Sea Fairy - The Compassionate"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/a-soldiers-duty/villager.db",
+      "count": 11,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Hans the Gunslinger",
+        "Sea Fairy",
+        "Erik - The Innocent",
+        "Dead Pirates",
+        "Erik",
+        "Adam - The Chatty Servant"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/of-flesh-and-wood/adversaries.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Carlo - The Living Puppet",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Geppetto - Gullible Alchemist"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/of-flesh-and-wood/broken-ones.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Azzurra De Baciocchi - The Spirit of the Witch"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/of-flesh-and-wood/creatures.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Medoro - The Old Bear",
+        "Marionette - Cursed Soul"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/of-flesh-and-wood/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Azzurra De Baciocchi - The Spirit Who Spurns Death"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/of-flesh-and-wood/villager.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Lucino - The Good Friend",
+        "Vincenzo - Carabiniere",
+        "Amabile Burromo - Innkeeper"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/one-thousand-and-one-nightmares/adversaries.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Shadow of Sherazade"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/one-thousand-and-one-nightmares/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Sherazade - The Weaver of Tales"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/ozena-the-suffering-and-desperate/adversaries.db",
+      "count": 16,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Hirnloser the Genius - The Transformed Scarecrow",
+        "Dose - The Tin Man",
+        "Margareta Westen - The Good Witch",
+        "Helga - The Red Witch",
+        "Lowe the Coward - Original Version",
+        "Lowe the Coward"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/ozena-the-suffering-and-desperate/broken-ones.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Margareta Westen - The Good Witch",
+        "Helga - The Red Witch",
+        "Dr. Norman Henkle - The Powerful Wizard"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/ozena-the-suffering-and-desperate/creatures.db",
+      "count": 8,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Dose the Tin Man - The Giant in Love",
+        "Hirnloser the Scarecrow - The Genius",
+        "Dose the Tin Man - The Giant in Love",
+        "Canine Tigers - Deceptive Guardians",
+        "Lowe the Coward - The Brave Fighter",
+        "Hirnloser the Scarecrow - The Genius"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/ozena-the-suffering-and-desperate/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "OZena (Dorothea Gray) - The Suffering"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/ozena-the-suffering-and-desperate/villager.db",
+      "count": 5,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Wolfgang - The Enslaved Pharmacist",
+        "Henrich - The Worried Father",
+        "Klaus - The Afflicted Son",
+        "Villagers of Emerald - Wish-Warped Souls",
+        "Porcelain Dolls - Blood-Bound Servants"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/pre-generated-hunters/pre-generated-hunters.db",
+      "count": 15,
+      "types": [
+        "character"
+      ],
+      "sampleNames": [
+        "James the Swordsman",
+        "Baba Yaga the Child Witch",
+        "The Astonishing Pied Piper Without a Name",
+        "The Immortal",
+        "Verdoux Bluebeard",
+        "Garou the Old Wolf"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/red-hood-iskra/adversaries.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Elizaveta - The Cruel Bride",
+        "Gerard Dubois the Incapable Noble",
+        "Vincent Arn - Former Huntsman and Chief of the Guards"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/red-hood-iskra/broken-ones.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Anastazia the Sorrowful Spirit",
+        "Red-Hood Iskra",
+        "Iskra the Young Wolf"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/red-hood-iskra/creatures.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Black Wolves of Greskar's Pack",
+        "Greskar the Big Black Wolf"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/red-hood-iskra/pre-generated-npcs.db",
+      "count": 16,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": []
+    },
+    {
+      "relativePath": "compendiums/actors/red-hood-iskra/villager.db",
+      "count": 7,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Marcel the Time-Waster",
+        "Nicholas the Huntsman",
+        "Guards of Gerard Dubois",
+        "Anne the Little Chatterer",
+        "Corinne the Housekeeper",
+        "Genevieve the Chemist"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/saint-george-the-dragon-slayer/adversaries.db",
+      "count": 6,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Saint Syrus - The Veteran",
+        "Saint Theodore - The Furious",
+        "Saint Margaret - The Ambitious",
+        "Saint Demetrius - The Guardian",
+        "Saint Martha - The Friendly",
+        "Trebizond - Princess of a Distant Country"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/saint-george-the-dragon-slayer/dark-presences.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Saint George the Dragon Slayer - Opponent",
+        "Saint George the Dragon Slayer - Ally"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-city-of-pigs/adversaries.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Arthur Browne - The Big Brother",
+        "Clarence Browne - The Younger Brother",
+        "Frank Browne - The Middle Brother"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-city-of-pigs/broken-ones.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "The God Under the Mine"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-city-of-pigs/creatures.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Spawn of The God Under the Mine"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-city-of-pigs/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "The God Under the Mine"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-city-of-pigs/villager.db",
+      "count": 7,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Bardolf Greed - The Wealthy Industrialist",
+        "Edward - The Miners' Chief",
+        "Emma - The Childhood Friend",
+        "Greed's Guards",
+        "Martha Browne - The Mother",
+        "The Pig Heads"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-smile-in-the-darkness/adversaries.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Father Adrien"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-smile-in-the-darkness/broken-ones.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Yvonne - The Spirit Who Longs for Revenge"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-smile-in-the-darkness/creatures.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Restless Spirit"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-smile-in-the-darkness/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Yvonne - The Spirit Who Longs for Revenge"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/the-smile-in-the-darkness/villager.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Olivier - The Raven on the Run",
+        "Lorenzo Scannapecore - The Plague Doctor",
+        "Alizée - The Fugitive Nun"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/tuvstarrs-reflection/adversaries.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "The Gallant Knight"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/tuvstarrs-reflection/broken-ones.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Princess Tuvstarr - The Child Princess",
+        "The Hulder - Corrupted Forest Spirit"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/tuvstarrs-reflection/creatures.db",
+      "count": 4,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Skutt the Moose - Dream Projection",
+        "Skutt the Moose - Spectral Guardian",
+        "Stallo - The Old Troll",
+        "The Fairies"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/tuvstarrs-reflection/villager.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Angry Little Girl",
+        "The Gallant Knight"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/wonderbedlam/adversaries.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Hatta Carter - The Mad Inventor",
+        "Lizard Automaton",
+        "Rabbit Automaton"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/wonderbedlam/broken-ones.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Alice Liddell - The Director"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/wonderbedlam/creatures.db",
+      "count": 2,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Caterpillar of the Wonderful Lands",
+        "Cheshire - The Faithful Lynx"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/wonderbedlam/dark-presences.db",
+      "count": 1,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Alice Liddell - The Director"
+      ]
+    },
+    {
+      "relativePath": "compendiums/actors/wonderbedlam/villager.db",
+      "count": 3,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Alicia - The Young Girl in Love",
+        "Alissa of Norfolk",
+        "The Patient of Wonder"
+      ]
+    },
+    {
+      "relativePath": "compendiums/environment/environment.db",
+      "count": 6,
+      "types": [
+        "playlist"
+      ],
+      "sampleNames": [
+        "Ambiente de Cueva",
+        "Ambiente de Cementerio",
+        "Música de Confrontación",
+        "Ambiente de Corte",
+        "Ambiente de Bosque",
+        "Ambiente de Villa"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/a-soldiers-duty.db",
+      "count": 6,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Coral of the Sea Fairy",
+        "Nils' War Diary",
+        "Seashells from the Cliff",
+        "Hans' Experimental Pistols",
+        "Letter from Nils to the Riksråd",
+        "Hans' Smoke Bombs"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/iskra-items.db",
+      "count": 212,
+      "types": [],
+      "sampleNames": []
+    },
+    {
+      "relativePath": "compendiums/items/of-flesh-and-wood.db",
+      "count": 12,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "The Ancient Alchemical Text",
+        "Antonio's Alchemical Vials",
+        "The Bloodstained Mannequins",
+        "Carlo's False Gold Coins",
+        "Carlo's Elegant Old Shoes",
+        "Geppetto's Alchemical Vials"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/one-thousand-and-one-nightmares.db",
+      "count": 8,
+      "types": [
+        "clue"
+      ],
+      "sampleNames": [
+        "Black Shadows from Stories",
+        "Dinarzad's Smile Memory",
+        "Shadow Focus Objects",
+        "Shadow's Warning Words",
+        "Sherazade's Storytelling Performance",
+        "Alliance with the Stooped Writer"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/ozena-the-suffering-and-desperate.db",
+      "count": 12,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Margareta's Compass Rose Piece",
+        "Elderberry Sprig",
+        "Hammerhead Helmet",
+        "Helga's Blood Vials",
+        "Key to Helga's Palace",
+        "Henkle's Hot-Air Balloon"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/red-hood-iskra.db",
+      "count": 10,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Blood Drawings in the Den",
+        "Pile of Bones and Corpses",
+        "Gerard's Letter to the Papacy",
+        "Iskra's Pendant",
+        "Iskra's Red Cape",
+        "Iskra's Wolf Mask"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/saint-george-the-dragon-slayer.db",
+      "count": 6,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Judgment Tokens",
+        "Trebizond's Magic-Finding Dust",
+        "Fervor Tokens",
+        "A Whip as Sharp as a Blade",
+        "Saint George's Holy Authority",
+        "Suspicion Tokens"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/the-city-of-pigs.db",
+      "count": 8,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Sign from the Browne Family",
+        "The Brand of Greed",
+        "Rusty Key to the Slaughterhouse",
+        "Map of the Mine with Marked Well",
+        "William's Black Leather Book",
+        "Grotesque Pig Masks"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/the-smile-in-the-darkness.db",
+      "count": 8,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Adrien's Smuggled Absinthe",
+        "Adrien's Absinthe Laboratory",
+        "Lorenzo's Cemetery Keys",
+        "The Comet Morituris",
+        "The Ravens' Hideout Evidence",
+        "Yvonne's Alcove with Withered Flowers"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/tuvstarrs-reflection.db",
+      "count": 7,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Knight's Crest with Two-Tailed Fox",
+        "Tuvstarr's Reflection in the Black Pond",
+        "Tuvstarr's White Dress",
+        "Golden Heart-Shaped Necklace",
+        "Tuvstarr's Golden Crown",
+        "Lance of the Fallen Knight"
+      ]
+    },
+    {
+      "relativePath": "compendiums/items/wonderbedlam.db",
+      "count": 6,
+      "types": [
+        "clue",
+        "object"
+      ],
+      "sampleNames": [
+        "Alissa's Letters to Her Family",
+        "Hatta's Time Clocks",
+        "Alice's Special Tea",
+        "Hatta's Wonder Blueprint",
+        "Message from the Director",
+        "White Rabbit Message Holders"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/a-soldiers-duty/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Blessing of the Sea",
+        "Art of Command",
+        "Coral of the Sea Fairy"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/of-flesh-and-wood/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Marionettes' Destroyer",
+        "A True Friend",
+        "The Field of Miracles"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/one-thousand-and-one-nightmares/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Truth Beneath Tales",
+        "Story Breaker",
+        "Shadow Hunter"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/ozena-the-suffering-and-desperate/scenario-gifts.db",
+      "count": 9,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "The Wishing Well's Price",
+        "Fragment of the Red Compass",
+        "Traveler from Tomorrow",
+        "Manycorpses' Tragedy",
+        "Infusion of Purity",
+        "Sanctuary of Gelb"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/red-hood-iskra/scenario-gifts.db",
+      "count": 13,
+      "types": [
+        "descriptor",
+        "npc"
+      ],
+      "sampleNames": [
+        "Red-Hood Iskra",
+        "Blood Drawings in the Den",
+        "Pile of Bones and Corpses",
+        "Gerard's Letter to the Papacy",
+        "Iskra's Pendant",
+        "Iskra's Red Cape"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/saint-george-the-dragon-slayer/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "The Saint's Blessing",
+        "Memory of the Dragon",
+        "Paladin's Oath"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/the-city-of-pigs/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "The Brand of Greed",
+        "The Meat of The God Under the Mine",
+        "There Is No House That Can Stop Me"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/the-smile-in-the-darkness/scenario-gifts.db",
+      "count": 2,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Voice of the Spirits",
+        "Exorcist"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/tuvstarrs-reflection/scenario-gifts.db",
+      "count": 2,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Hugin and Munin",
+        "Lance of the Fallen Knight"
+      ]
+    },
+    {
+      "relativePath": "compendiums/scenario-gifts/wonderbedlam/scenario-gifts.db",
+      "count": 3,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Friend of the Rabbits",
+        "Lucid Madness",
+        "The Forgotten Queen"
+      ]
+    },
+    {
+      "relativePath": "compendiums/sounds/sound.db",
+      "count": 1,
+      "types": [
+        "playlist"
+      ],
+      "sampleNames": [
+        "Efectos de Lobo"
+      ]
+    },
+    {
+      "relativePath": "dark-presence-descriptors-canon.db",
+      "count": 18,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "Goldilocks and her War Bears - Descriptor",
+        "The Ancient Enemy - Descriptor",
+        "The Silent - Descriptor",
+        "The Wise Fox - Descriptor",
+        "The King’s Unlikely Tailor - Descriptor"
+      ]
+    },
+    {
+      "relativePath": "dark-presence-descriptors.db",
+      "count": 28,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "White Rose and Red Rose - Descriptor",
+        "The Little Oni - Descriptor",
+        "Brunhilde the Fighter - Descriptor",
+        "The Roc - Descriptor",
+        "Goldilocks and her War Bears - Descriptor"
+      ]
+    },
+    {
+      "relativePath": "dark-presences-canon.db",
+      "count": 18,
+      "types": [
+        "threat"
+      ],
+      "sampleNames": [
+        "Ambrose the Sorcerer known as Old Merlin",
+        "Frog Face",
+        "The Periwinkle Peer",
+        "The Ancient Enemy",
+        "The Wild Swans Gang",
+        "The Silent"
+      ]
+    },
+    {
+      "relativePath": "dark-presences.db",
+      "count": 28,
+      "types": [
+        "threat"
+      ],
+      "sampleNames": [
+        "Ambrose the Sorcerer known as Old Merlin",
+        "Frog Face",
+        "The Periwinkle Peer",
+        "The Ancient Enemy",
+        "The Wild Swans Gang",
+        "The Silent"
+      ]
+    },
+    {
+      "relativePath": "essence-descriptors-canon.db",
+      "count": 3,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Spirit / Essence - Nature",
+        "Spirit / Essence - Anchor",
+        "Spirit / Essence - Manifestation"
+      ]
+    },
+    {
+      "relativePath": "essence-descriptors.db",
+      "count": 3,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Spirit / Essence - Nature",
+        "Spirit / Essence - Anchor",
+        "Spirit / Essence - Manifestation"
+      ]
+    },
+    {
+      "relativePath": "hunter-dark-egos-canon.db",
+      "count": 15,
+      "types": [
+        "darkEgo"
+      ],
+      "sampleNames": [
+        "Dark Ego - I Will Have My Satisfaction",
+        "Dark Ego - The Big Bad Wolf",
+        "Dark Ego - The Power of Music",
+        "Dark Ego - The Evil Witch",
+        "Dark Ego - As I Want!",
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "relativePath": "hunter-dark-egos.db",
+      "count": 47,
+      "types": [
+        "darkEgo"
+      ],
+      "sampleNames": [
+        "Dark Ego - I Will Have My Satisfaction",
+        "Dark Ego - The Big Bad Wolf",
+        "Dark Ego - The Power of Music",
+        "Dark Ego - The Evil Witch",
+        "Dark Ego - As I Want!",
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "relativePath": "hunter-descriptors-canon.db",
+      "count": 61,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Descriptor 1",
+        "Descriptor 2",
+        "Descriptor 3",
+        "Dark Ego Descriptor",
+        "Descriptor 1",
+        "Descriptor 2"
+      ]
+    },
+    {
+      "relativePath": "hunter-descriptors.db",
+      "count": 127,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "James the Swordsman - Descriptor 1",
+        "James the Swordsman - Descriptor 2",
+        "James the Swordsman - Descriptor 3",
+        "James the Swordsman - Dark Ego Descriptor",
+        "Garou the Old Wolf - Descriptor 1",
+        "Garou the Old Wolf - Descriptor 2"
+      ]
+    },
+    {
+      "relativePath": "hunter-equipment-canon.db",
+      "count": 81,
+      "types": [
+        "equipment"
+      ],
+      "sampleNames": [
+        "A fine dueling blade",
+        "a black powder gun",
+        "a finely crafted hook",
+        "a purple-red cloak",
+        "traveling boots",
+        "a precious pair of binoculars"
+      ]
+    },
+    {
+      "relativePath": "hunter-equipment.db",
+      "count": 266,
+      "types": [
+        "equipment"
+      ],
+      "sampleNames": [
+        "A fine dueling blade",
+        "a black powder gun",
+        "a finely crafted hook",
+        "a purple-red cloak",
+        "traveling boots",
+        "a precious pair of binoculars"
+      ]
+    },
+    {
+      "relativePath": "hunter-gifts-canon.db",
+      "count": 31,
+      "types": [
+        "gift"
+      ],
+      "sampleNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast",
+        "Find Them Forever After",
+        "Wolf Among the Lambs",
+        "Soul Music",
+        "Skilled Acrobat"
+      ]
+    },
+    {
+      "relativePath": "hunter-gifts.db",
+      "count": 95,
+      "types": [
+        "gift"
+      ],
+      "sampleNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast",
+        "Find Them Forever After",
+        "Wolf Among the Lambs",
+        "Soul Music",
+        "Skilled Acrobat"
+      ]
+    },
+    {
+      "relativePath": "hunters-canon.db",
+      "count": 15,
+      "types": [
+        "hunter"
+      ],
+      "sampleNames": [
+        "James the Swordsman",
+        "Garou the Old Wolf",
+        "The Astonishing Pied Piper Without a Name",
+        "Baba Yaga the Child Witch",
+        "Regina the Thief of Hearts",
+        "Babai the Judge"
+      ]
+    },
+    {
+      "relativePath": "hunters.db",
+      "count": 15,
+      "types": [
+        "hunter"
+      ],
+      "sampleNames": [
+        "James the Swordsman",
+        "Garou the Old Wolf",
+        "The Astonishing Pied Piper Without a Name",
+        "Baba Yaga the Child Witch",
+        "Regina the Thief of Hearts",
+        "Babai the Judge"
+      ]
+    },
+    {
+      "relativePath": "library-canon.db",
+      "count": 12,
+      "types": [],
+      "sampleNames": [
+        "bt-corebook-1-eng-final-screen-fixed",
+        "bt-cb-sheets-eng-final-screen",
+        "bt-cb-foxcat-sheet-eng-final-screen",
+        "Broken Europe Map",
+        "Broken Tales - Bookmarks",
+        "Broken Tales - Hunter's Sheet"
+      ]
+    },
+    {
+      "relativePath": "library.db",
+      "count": 21,
+      "types": [],
+      "sampleNames": [
+        "bt-corebook-1-eng-final-screen-fixed",
+        "bt-cb-sheets-eng-final-screen",
+        "bt-cb-foxcat-sheet-eng-final-screen",
+        "Broken Europe Map",
+        "bt-tbo-1-eng-final-screen",
+        "bt-tbo-sheets-eng-final-screen"
+      ]
+    },
+    {
+      "relativePath": "scenario-actors-canon.db",
+      "count": 94,
+      "types": [
+        "threat"
+      ],
+      "sampleNames": [
+        "Genevieve the Chemist",
+        "The Canine Tigers",
+        "Alizée the Fugitive",
+        "The White Rabbit",
+        "Christian",
+        "Lorenzo Scannapecore the Plague Doctor"
+      ]
+    },
+    {
+      "relativePath": "scenario-actors.db",
+      "count": 270,
+      "types": [
+        "threat"
+      ],
+      "sampleNames": [
+        "The Green Knight",
+        "Genevieve the Chemist",
+        "The Canine Tigers",
+        "Hanse",
+        "Robbers",
+        "Crazed Maws"
+      ]
+    },
+    {
+      "relativePath": "scenario-gifts-canon.db",
+      "count": 21,
+      "types": [
+        "gift"
+      ],
+      "sampleNames": [
+        "Shadow Hunter",
+        "Story Breaker",
+        "Truth Beneath Tales",
+        "Fragment of the Yellow Compass",
+        "Sanctuary of Gelb",
+        "Traveler from Tomorrow"
+      ]
+    },
+    {
+      "relativePath": "source-pdfs-canon.db",
+      "count": 47,
+      "types": [],
+      "sampleNames": [
+        "Broken Tales Book ALT",
+        "San Jorge, el Matadragones",
+        "Quickstart Jugadores",
+        "Quickstart Jugadores-1",
+        "La Experiencia en una Campaña",
+        "Sun Wukong, el Mono Asombroso"
+      ]
+    },
+    {
+      "relativePath": "support-canon.db",
+      "count": 6,
+      "types": [
+        "equipment",
+        "storyElement"
+      ],
+      "sampleNames": [
+        "Scenario Gifts",
+        "Objects and Equipment",
+        "Order Treasure",
+        "Broken Europe Map",
+        "Villagers",
+        "Spirits and Essences"
+      ]
+    },
+    {
+      "relativePath": "support.db",
+      "count": 6,
+      "types": [
+        "equipment",
+        "storyElement"
+      ],
+      "sampleNames": [
+        "Scenario Gifts",
+        "Objects and Equipment",
+        "Order Treasure",
+        "Broken Europe Map",
+        "Villagers",
+        "Spirits and Essences"
+      ]
+    },
+    {
+      "relativePath": "threat-descriptors-canon.db",
+      "count": 18,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "Oakheart the Lady of the Woods - Descriptor",
+        "Frog Face - Descriptor",
+        "The Periwinkle Peer - Descriptor",
+        "Orcus the Guardian - Descriptor",
+        "Sinbad the Traveler of a Thousand Seas - Descriptor"
+      ]
+    },
+    {
+      "relativePath": "threat-descriptors.db",
+      "count": 28,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Poor Nello and The Faithful Patrasche - Descriptor",
+        "The Wild Swans Gang - Descriptor",
+        "Oakheart the Lady of the Woods - Descriptor",
+        "Gemba Tanuki and Mayu Kitsune - Descriptor",
+        "Frog Face - Descriptor",
+        "The Periwinkle Peer - Descriptor"
+      ]
+    },
+    {
+      "relativePath": "threats-villagers-essences-canon.db",
+      "count": 4,
+      "types": [
+        "essence",
+        "npc",
+        "threat",
+        "villager"
+      ],
+      "sampleNames": [
+        "Threat - Template",
+        "NPC - Template",
+        "Villager - Template",
+        "Spirit / Essence - Template"
+      ]
+    },
+    {
+      "relativePath": "threats-villagers-essences.db",
+      "count": 4,
+      "types": [
+        "essence",
+        "npc",
+        "threat",
+        "villager"
+      ],
+      "sampleNames": [
+        "Threat - Template",
+        "NPC - Template",
+        "Villager - Template",
+        "Spirit / Essence - Template"
+      ]
+    },
+    {
+      "relativePath": "villager-descriptors-canon.db",
+      "count": 4,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Villager - Age",
+        "Villager - Bond",
+        "Villager - Contact with the Broken Tales",
+        "Villager - Distinguishing Features"
+      ]
+    },
+    {
+      "relativePath": "villager-descriptors.db",
+      "count": 4,
+      "types": [
+        "descriptor"
+      ],
+      "sampleNames": [
+        "Villager - Age",
+        "Villager - Bond",
+        "Villager - Contact with the Broken Tales",
+        "Villager - Distinguishing Features"
+      ]
+    }
+  ],
+  "standaloneBackupCompendia": [
+    {
+      "relativePath": "Adversaries 1.db",
+      "count": 41,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Andersen - The Commander",
+        "Christian - The Relentless",
+        "Hans - The Gunslinger",
+        "Nils - The Poor Devil",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Carlo - The Living Puppet"
+      ]
+    },
+    {
+      "relativePath": "Adversaries 2.db",
+      "count": 41,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Andersen - The Commander",
+        "Christian - The Relentless",
+        "Hans - The Gunslinger",
+        "Nils - The Poor Devil",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Carlo - The Living Puppet"
+      ]
+    },
+    {
+      "relativePath": "Adversaries.db",
+      "count": 33,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Shadow of Sherazade",
+        "Elizaveta - The Cruel Bride",
+        "Gerard Dubois the Incapable Noble",
+        "Vincent Arn - Former Huntsman and Chief of the Guards",
+        "Saint Demetrius - The Guardian",
+        "Saint Margaret - The Ambitious"
+      ]
+    },
+    {
+      "relativePath": "Broken Ones 1.db",
+      "count": 13,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Enar - The Eternal Soldier",
+        "Azzurra De Baciocchi - The Spirit of the Witch",
+        "Margareta Westen - The Good Witch",
+        "Dr. Norman Henkle - The Powerful Wizard",
+        "Helga - The Red Witch",
+        "Anastazia the Sorrowful Spirit"
+      ]
+    },
+    {
+      "relativePath": "Broken Ones.db",
+      "count": 13,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Anastazia the Sorrowful Spirit",
+        "Iskra the Young Wolf",
+        "Red-Hood Iskra",
+        "The God Under the Mine",
+        "Azzurra De Baciocchi - The Spirit of the Witch",
+        "Margareta Westen - The Good Witch"
+      ]
+    },
+    {
+      "relativePath": "Creatures 1.db",
+      "count": 22,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Dead Pirates - Hook's Crew",
+        "Enar - The Eternal Soldier",
+        "Marionette - Cursed Soul",
+        "Medoro - The Old Bear",
+        "Dose the Tin Man - The Giant in Love",
+        "Hirnloser the Scarecrow - The Genius"
+      ]
+    },
+    {
+      "relativePath": "Creatures.db",
+      "count": 14,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Black Wolves of Greskar's Pack",
+        "Greskar the Big Black Wolf",
+        "Spawn of The God Under the Mine",
+        "Marionette - Cursed Soul",
+        "Medoro - The Old Bear",
+        "Canine Tigers - Deceptive Guardians"
+      ]
+    },
+    {
+      "relativePath": "Dark Presences 1.db",
+      "count": 29,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Sea Fairy - The Compassionate",
+        "Azzurra De Baciocchi - The Spirit Who Spurns Death",
+        "Sherazade - The Weaver of Tales",
+        "OZena (Dorothea Gray)",
+        "OZena (Dorothea Gray) - The Suffering",
+        "Alfred Leaves the Talking Ghost"
+      ]
+    },
+    {
+      "relativePath": "Dark Presences.db",
+      "count": 23,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Alfred Leaves the Talking Ghost",
+        "Ambrose the Sorcerer (Old Merlin)",
+        "Fire Eater the Puppeteer",
+        "Frog Face",
+        "Goldilocks and her War Bears",
+        "Hua Mulan the Sword Demon"
+      ]
+    },
+    {
+      "relativePath": "Pre-Generated Hunters 1.db",
+      "count": 15,
+      "types": [
+        "character"
+      ],
+      "sampleNames": [
+        "Baba Yaga the Child Witch",
+        "Babai the Judge",
+        "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+        "Garou the Old Wolf",
+        "George the Holy Dragon Slayer",
+        "James the Swordsman"
+      ]
+    },
+    {
+      "relativePath": "Pre-Generated Hunters.db",
+      "count": 15,
+      "types": [
+        "character"
+      ],
+      "sampleNames": [
+        "Baba Yaga the Child Witch",
+        "Babai the Judge",
+        "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+        "Garou the Old Wolf",
+        "George the Holy Dragon Slayer",
+        "James the Swordsman"
+      ]
+    },
+    {
+      "relativePath": "pre-generated-npcs.db",
+      "count": 16,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": []
+    },
+    {
+      "relativePath": "Scenario Gifts 1.db",
+      "count": 32,
+      "types": [
+        "item"
+      ],
+      "sampleNames": [
+        "Art of Command",
+        "Blessing of the Sea",
+        "Coral of the Sea Fairy",
+        "A True Friend",
+        "Marionettes' Destroyer",
+        "The Field of Miracles"
+      ]
+    },
+    {
+      "relativePath": "Scenario Gifts.db",
+      "count": 1,
+      "types": [],
+      "sampleNames": []
+    },
+    {
+      "relativePath": "Villager 1.db",
+      "count": 41,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Adam - The Chatty Servant",
+        "Andersen - The Former Commander",
+        "Christian the Relentless",
+        "Dead Pirates",
+        "Erik - The Innocent",
+        "Erik"
+      ]
+    },
+    {
+      "relativePath": "Villager.db",
+      "count": 38,
+      "types": [
+        "npc"
+      ],
+      "sampleNames": [
+        "Anne the Little Chatterer",
+        "Corinne the Housekeeper",
+        "Didier the Grumpy Old Man",
+        "Genevieve the Chemist",
+        "Marcel the Time-Waster",
+        "Nicholas the Huntsman"
+      ]
+    }
+  ],
+  "current": {
+    "system": {
+      "id": "broken-tales",
+      "title": "Broken Tales",
+      "version": "0.2.30",
+      "root": "E:/respaldos/brokentales-repo",
+      "packs": [
+        {
+          "id": "broken-tales.hunters",
+          "name": "hunters",
+          "label": "BROKENTALES.Packs.CoreHunters",
+          "type": "Actor",
+          "manifestPath": "packs/hunters-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/hunters-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/hunters-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 15,
+          "levelDbCount": 218,
+          "parseErrors": 0,
+          "actorTypes": [
+            "hunter"
+          ],
+          "sampleNames": [
+            "James the Swordsman",
+            "Garou the Old Wolf",
+            "The Astonishing Pied Piper Without a Name",
+            "Baba Yaga the Child Witch",
+            "Regina the Thief of Hearts",
+            "Babai the Judge",
+            "The Woman from the Woods",
+            "The Immortal"
+          ]
+        },
+        {
+          "id": "broken-tales.threats-villagers-essences",
+          "name": "threats-villagers-essences",
+          "label": "BROKENTALES.Packs.ThreatsVillagersEssences",
+          "type": "Actor",
+          "manifestPath": "packs/threats-villagers-essences-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/threats-villagers-essences-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/threats-villagers-essences-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 4,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "essence",
+            "npc",
+            "threat",
+            "villager"
+          ],
+          "sampleNames": [
+            "Threat - Template",
+            "NPC - Template",
+            "Villager - Template",
+            "Spirit / Essence - Template"
+          ]
+        },
+        {
+          "id": "broken-tales.support",
+          "name": "support",
+          "label": "BROKENTALES.Packs.Support",
+          "type": "Item",
+          "manifestPath": "packs/support-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/support-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/support-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 6,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment",
+            "storyElement"
+          ],
+          "sampleNames": [
+            "Scenario Gifts",
+            "Objects and Equipment",
+            "Order Treasure",
+            "Broken Europe Map",
+            "Villagers",
+            "Spirits and Essences"
+          ]
+        },
+        {
+          "id": "broken-tales.scenario-gifts",
+          "name": "scenario-gifts",
+          "label": "BROKENTALES.Packs.ScenarioGifts",
+          "type": "Item",
+          "manifestPath": "packs/scenario-gifts-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/scenario-gifts-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/scenario-gifts-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 21,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "Shadow Hunter",
+            "Story Breaker",
+            "Truth Beneath Tales",
+            "Fragment of the Yellow Compass",
+            "Sanctuary of Gelb",
+            "Traveler from Tomorrow",
+            "Companion's Transformation",
+            "The Wishing Well's Price"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-gifts",
+          "name": "hunter-gifts",
+          "label": "BROKENTALES.Packs.HunterGifts",
+          "type": "Item",
+          "manifestPath": "packs/hunter-gifts-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/hunter-gifts-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/hunter-gifts-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 31,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "With a Sword or a Smile",
+            "Tick-Tock, Here Comes The Beast",
+            "Find Them Forever After",
+            "Wolf Among the Lambs",
+            "Soul Music",
+            "Skilled Acrobat",
+            "Magic",
+            "Listen to my Words"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-descriptors",
+          "name": "hunter-descriptors",
+          "label": "BROKENTALES.Packs.HunterDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/hunter-descriptors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/hunter-descriptors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/hunter-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 61,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor",
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-equipment",
+          "name": "hunter-equipment",
+          "label": "BROKENTALES.Packs.HunterEquipment",
+          "type": "Item",
+          "manifestPath": "packs/hunter-equipment-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/hunter-equipment-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/hunter-equipment-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 81,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment"
+          ],
+          "sampleNames": [
+            "A fine dueling blade",
+            "a black powder gun",
+            "a finely crafted hook",
+            "a purple-red cloak",
+            "traveling boots",
+            "a precious pair of binoculars",
+            "several valuable rings",
+            "Fangs and claws (natural weapons)"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-dark-egos",
+          "name": "hunter-dark-egos",
+          "label": "BROKENTALES.Packs.HunterDarkEgos",
+          "type": "Item",
+          "manifestPath": "packs/hunter-dark-egos-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/hunter-dark-egos-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/hunter-dark-egos-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 15,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "darkEgo"
+          ],
+          "sampleNames": [
+            "Dark Ego - I Will Have My Satisfaction",
+            "Dark Ego - The Big Bad Wolf",
+            "Dark Ego - The Power of Music",
+            "Dark Ego - The Evil Witch",
+            "Dark Ego - As I Want!",
+            "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!",
+            "Dark Ego - Soft and Succulent Flesh",
+            "Dark Ego - The Immortal"
+          ]
+        },
+        {
+          "id": "broken-tales.dark-presence-descriptors",
+          "name": "dark-presence-descriptors",
+          "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/dark-presence-descriptors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/dark-presence-descriptors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/dark-presence-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "The Wild Swans Gang - Descriptor",
+            "Goldilocks and her War Bears - Descriptor",
+            "The Ancient Enemy - Descriptor",
+            "The Silent - Descriptor",
+            "The Wise Fox - Descriptor",
+            "The King’s Unlikely Tailor - Descriptor",
+            "The Returning Wolf - Descriptor",
+            "The Periwinkle Peer - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.threat-descriptors",
+          "name": "threat-descriptors",
+          "label": "BROKENTALES.Packs.ThreatDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/threat-descriptors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/threat-descriptors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/threat-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "The Wild Swans Gang - Descriptor",
+            "Oakheart the Lady of the Woods - Descriptor",
+            "Frog Face - Descriptor",
+            "The Periwinkle Peer - Descriptor",
+            "Orcus the Guardian - Descriptor",
+            "Sinbad the Traveler of a Thousand Seas - Descriptor",
+            "Ambrose the Sorcerer known as Old Merlin - Descriptor",
+            "The Ancient Enemy - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.villager-descriptors",
+          "name": "villager-descriptors",
+          "label": "BROKENTALES.Packs.VillagerDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/villager-descriptors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/villager-descriptors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/villager-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 4,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Villager - Age",
+            "Villager - Bond",
+            "Villager - Contact with the Broken Tales",
+            "Villager - Distinguishing Features"
+          ]
+        },
+        {
+          "id": "broken-tales.essence-descriptors",
+          "name": "essence-descriptors",
+          "label": "BROKENTALES.Packs.EssenceDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/essence-descriptors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/essence-descriptors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/essence-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 3,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Spirit / Essence - Nature",
+            "Spirit / Essence - Anchor",
+            "Spirit / Essence - Manifestation"
+          ]
+        },
+        {
+          "id": "broken-tales.dark-presences",
+          "name": "dark-presences",
+          "label": "BROKENTALES.Packs.DarkPresences",
+          "type": "Actor",
+          "manifestPath": "packs/dark-presences-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/dark-presences-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/dark-presences-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "Ambrose the Sorcerer known as Old Merlin",
+            "Frog Face",
+            "The Periwinkle Peer",
+            "The Ancient Enemy",
+            "The Wild Swans Gang",
+            "The Silent",
+            "The Wise Fox",
+            "Fire Eater the Puppeteer"
+          ]
+        },
+        {
+          "id": "broken-tales.scenario-actors",
+          "name": "scenario-actors",
+          "label": "BROKENTALES.Packs.ScenarioActors",
+          "type": "Actor",
+          "manifestPath": "packs/scenario-actors-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/scenario-actors-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/scenario-actors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 94,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "Genevieve the Chemist",
+            "The Canine Tigers",
+            "Alizée the Fugitive",
+            "The White Rabbit",
+            "Christian",
+            "Lorenzo Scannapecore the Plague Doctor",
+            "Sea Fairy",
+            "Hans"
+          ]
+        },
+        {
+          "id": "broken-tales.library",
+          "name": "library",
+          "label": "BROKENTALES.Packs.Library",
+          "type": "JournalEntry",
+          "manifestPath": "packs/library-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/library-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/library-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 12,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "bt-corebook-1-eng-final-screen-fixed",
+            "bt-cb-sheets-eng-final-screen",
+            "bt-cb-foxcat-sheet-eng-final-screen",
+            "Broken Europe Map",
+            "Broken Tales - Bookmarks",
+            "Broken Tales - Hunter's Sheet",
+            "Broken Tales - Map",
+            "Broken Tales - Scenario Summary Sheet"
+          ]
+        },
+        {
+          "id": "broken-tales.adventures",
+          "name": "adventures",
+          "label": "BROKENTALES.Packs.Adventures",
+          "type": "JournalEntry",
+          "manifestPath": "packs/adventures-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/adventures-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/adventures-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 11,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.adventure-maps",
+          "name": "adventure-maps",
+          "label": "BROKENTALES.Packs.AdventureMaps",
+          "type": "JournalEntry",
+          "manifestPath": "packs/adventure-maps-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/adventure-maps-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/adventure-maps-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 13,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.adventure-scenes",
+          "name": "adventure-scenes",
+          "label": "BROKENTALES.Packs.AdventureScenes",
+          "type": "Scene",
+          "manifestPath": "packs/adventure-scenes-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/adventure-scenes-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/adventure-scenes-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 14,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.audit",
+          "name": "audit",
+          "label": "BROKENTALES.Packs.Audit",
+          "type": "JournalEntry",
+          "manifestPath": "packs/audit-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/audit-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/audit-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 1,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "PDF Content Audit"
+          ]
+        },
+        {
+          "id": "broken-tales.source-pdfs",
+          "name": "source-pdfs",
+          "label": "BROKENTALES.Packs.SourcePdfs",
+          "type": "JournalEntry",
+          "manifestPath": "packs/source-pdfs-canon.db",
+          "sourceDbPath": "E:/respaldos/brokentales-repo/packs/source-pdfs-canon.db",
+          "levelDbPath": "E:/respaldos/brokentales-repo/packs/source-pdfs-canon",
+          "sourceDbExists": true,
+          "levelDbExists": false,
+          "sourceDbCount": 47,
+          "levelDbCount": 0,
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales Book ALT",
+            "San Jorge, el Matadragones",
+            "Quickstart Jugadores",
+            "Quickstart Jugadores-1",
+            "La Experiencia en una Campaña",
+            "Sun Wukong, el Mono Asombroso",
+            "Broken Tales - Manual Básico",
+            "Iskra de la Caperucita Roja"
+          ]
+        }
+      ]
+    },
+    "localSystem": {
+      "id": "broken-tales",
+      "title": "Broken Tales",
+      "version": "0.2.30",
+      "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales",
+      "packs": [
+        {
+          "id": "broken-tales.hunters",
+          "name": "hunters",
+          "label": "BROKENTALES.Packs.CoreHunters",
+          "type": "Actor",
+          "manifestPath": "packs/hunters-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunters-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunters-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 15,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "hunter"
+          ],
+          "sampleNames": [
+            "James the Swordsman",
+            "Garou the Old Wolf",
+            "The Astonishing Pied Piper Without a Name",
+            "Baba Yaga the Child Witch",
+            "Regina the Thief of Hearts",
+            "Babai the Judge",
+            "The Woman from the Woods",
+            "The Immortal"
+          ]
+        },
+        {
+          "id": "broken-tales.threats-villagers-essences",
+          "name": "threats-villagers-essences",
+          "label": "BROKENTALES.Packs.ThreatsVillagersEssences",
+          "type": "Actor",
+          "manifestPath": "packs/threats-villagers-essences-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/threats-villagers-essences-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/threats-villagers-essences-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 4,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "essence",
+            "npc",
+            "threat",
+            "villager"
+          ],
+          "sampleNames": [
+            "Threat - Template",
+            "NPC - Template",
+            "Villager - Template",
+            "Spirit / Essence - Template"
+          ]
+        },
+        {
+          "id": "broken-tales.support",
+          "name": "support",
+          "label": "BROKENTALES.Packs.Support",
+          "type": "Item",
+          "manifestPath": "packs/support-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/support-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/support-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 6,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment",
+            "storyElement"
+          ],
+          "sampleNames": [
+            "Scenario Gifts",
+            "Objects and Equipment",
+            "Order Treasure",
+            "Broken Europe Map",
+            "Villagers",
+            "Spirits and Essences"
+          ]
+        },
+        {
+          "id": "broken-tales.scenario-gifts",
+          "name": "scenario-gifts",
+          "label": "BROKENTALES.Packs.ScenarioGifts",
+          "type": "Item",
+          "manifestPath": "packs/scenario-gifts-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/scenario-gifts-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/scenario-gifts-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 21,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "Shadow Hunter",
+            "Story Breaker",
+            "Truth Beneath Tales",
+            "Fragment of the Yellow Compass",
+            "Sanctuary of Gelb",
+            "Traveler from Tomorrow",
+            "Companion's Transformation",
+            "The Wishing Well's Price"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-gifts",
+          "name": "hunter-gifts",
+          "label": "BROKENTALES.Packs.HunterGifts",
+          "type": "Item",
+          "manifestPath": "packs/hunter-gifts-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-gifts-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-gifts-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 31,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "With a Sword or a Smile",
+            "Tick-Tock, Here Comes The Beast",
+            "Find Them Forever After",
+            "Wolf Among the Lambs",
+            "Soul Music",
+            "Skilled Acrobat",
+            "Magic",
+            "Listen to my Words"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-descriptors",
+          "name": "hunter-descriptors",
+          "label": "BROKENTALES.Packs.HunterDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/hunter-descriptors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-descriptors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 61,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor",
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-equipment",
+          "name": "hunter-equipment",
+          "label": "BROKENTALES.Packs.HunterEquipment",
+          "type": "Item",
+          "manifestPath": "packs/hunter-equipment-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-equipment-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-equipment-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 81,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment"
+          ],
+          "sampleNames": [
+            "A fine dueling blade",
+            "a black powder gun",
+            "a finely crafted hook",
+            "a purple-red cloak",
+            "traveling boots",
+            "a precious pair of binoculars",
+            "several valuable rings",
+            "Fangs and claws (natural weapons)"
+          ]
+        },
+        {
+          "id": "broken-tales.hunter-dark-egos",
+          "name": "hunter-dark-egos",
+          "label": "BROKENTALES.Packs.HunterDarkEgos",
+          "type": "Item",
+          "manifestPath": "packs/hunter-dark-egos-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-dark-egos-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/hunter-dark-egos-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 15,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "darkEgo"
+          ],
+          "sampleNames": [
+            "Dark Ego - I Will Have My Satisfaction",
+            "Dark Ego - The Big Bad Wolf",
+            "Dark Ego - The Power of Music",
+            "Dark Ego - The Evil Witch",
+            "Dark Ego - As I Want!",
+            "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!",
+            "Dark Ego - Soft and Succulent Flesh",
+            "Dark Ego - The Immortal"
+          ]
+        },
+        {
+          "id": "broken-tales.dark-presence-descriptors",
+          "name": "dark-presence-descriptors",
+          "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/dark-presence-descriptors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/dark-presence-descriptors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/dark-presence-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "The Wild Swans Gang - Descriptor",
+            "Goldilocks and her War Bears - Descriptor",
+            "The Ancient Enemy - Descriptor",
+            "The Silent - Descriptor",
+            "The Wise Fox - Descriptor",
+            "The King’s Unlikely Tailor - Descriptor",
+            "The Returning Wolf - Descriptor",
+            "The Periwinkle Peer - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.threat-descriptors",
+          "name": "threat-descriptors",
+          "label": "BROKENTALES.Packs.ThreatDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/threat-descriptors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/threat-descriptors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/threat-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "The Wild Swans Gang - Descriptor",
+            "Oakheart the Lady of the Woods - Descriptor",
+            "Frog Face - Descriptor",
+            "The Periwinkle Peer - Descriptor",
+            "Orcus the Guardian - Descriptor",
+            "Sinbad the Traveler of a Thousand Seas - Descriptor",
+            "Ambrose the Sorcerer known as Old Merlin - Descriptor",
+            "The Ancient Enemy - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales.villager-descriptors",
+          "name": "villager-descriptors",
+          "label": "BROKENTALES.Packs.VillagerDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/villager-descriptors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/villager-descriptors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/villager-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 4,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Villager - Age",
+            "Villager - Bond",
+            "Villager - Contact with the Broken Tales",
+            "Villager - Distinguishing Features"
+          ]
+        },
+        {
+          "id": "broken-tales.essence-descriptors",
+          "name": "essence-descriptors",
+          "label": "BROKENTALES.Packs.EssenceDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/essence-descriptors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/essence-descriptors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/essence-descriptors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 3,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Spirit / Essence - Nature",
+            "Spirit / Essence - Anchor",
+            "Spirit / Essence - Manifestation"
+          ]
+        },
+        {
+          "id": "broken-tales.dark-presences",
+          "name": "dark-presences",
+          "label": "BROKENTALES.Packs.DarkPresences",
+          "type": "Actor",
+          "manifestPath": "packs/dark-presences-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/dark-presences-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/dark-presences-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 18,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "Ambrose the Sorcerer known as Old Merlin",
+            "Frog Face",
+            "The Periwinkle Peer",
+            "The Ancient Enemy",
+            "The Wild Swans Gang",
+            "The Silent",
+            "The Wise Fox",
+            "Fire Eater the Puppeteer"
+          ]
+        },
+        {
+          "id": "broken-tales.scenario-actors",
+          "name": "scenario-actors",
+          "label": "BROKENTALES.Packs.ScenarioActors",
+          "type": "Actor",
+          "manifestPath": "packs/scenario-actors-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/scenario-actors-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/scenario-actors-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 94,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "Genevieve the Chemist",
+            "The Canine Tigers",
+            "Alizée the Fugitive",
+            "The White Rabbit",
+            "Christian",
+            "Lorenzo Scannapecore the Plague Doctor",
+            "Sea Fairy",
+            "Hans"
+          ]
+        },
+        {
+          "id": "broken-tales.library",
+          "name": "library",
+          "label": "BROKENTALES.Packs.Library",
+          "type": "JournalEntry",
+          "manifestPath": "packs/library-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/library-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/library-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 12,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "bt-corebook-1-eng-final-screen-fixed",
+            "bt-cb-sheets-eng-final-screen",
+            "bt-cb-foxcat-sheet-eng-final-screen",
+            "Broken Europe Map",
+            "Broken Tales - Bookmarks",
+            "Broken Tales - Hunter's Sheet",
+            "Broken Tales - Map",
+            "Broken Tales - Scenario Summary Sheet"
+          ]
+        },
+        {
+          "id": "broken-tales.adventures",
+          "name": "adventures",
+          "label": "BROKENTALES.Packs.Adventures",
+          "type": "JournalEntry",
+          "manifestPath": "packs/adventures-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventures-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventures-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 11,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.adventure-maps",
+          "name": "adventure-maps",
+          "label": "BROKENTALES.Packs.AdventureMaps",
+          "type": "JournalEntry",
+          "manifestPath": "packs/adventure-maps-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventure-maps-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventure-maps-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 13,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.adventure-scenes",
+          "name": "adventure-scenes",
+          "label": "BROKENTALES.Packs.AdventureScenes",
+          "type": "Scene",
+          "manifestPath": "packs/adventure-scenes-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventure-scenes-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/adventure-scenes-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 14,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Red-hood / Iskra",
+            "Of Flesh and Wood",
+            "The Smile in the Darkness",
+            "A Soldier's Duty",
+            "Wonderbedlam",
+            "Tuvstarr's Reflection",
+            "One Thousand and One Nightmares",
+            "The City of Pigs"
+          ]
+        },
+        {
+          "id": "broken-tales.audit",
+          "name": "audit",
+          "label": "BROKENTALES.Packs.Audit",
+          "type": "JournalEntry",
+          "manifestPath": "packs/audit-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/audit-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/audit-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 1,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "PDF Content Audit"
+          ]
+        },
+        {
+          "id": "broken-tales.source-pdfs",
+          "name": "source-pdfs",
+          "label": "BROKENTALES.Packs.SourcePdfs",
+          "type": "JournalEntry",
+          "manifestPath": "packs/source-pdfs-canon.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/source-pdfs-canon.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales/packs/source-pdfs-canon",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 47,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales Book ALT",
+            "San Jorge, el Matadragones",
+            "Quickstart Jugadores",
+            "Quickstart Jugadores-1",
+            "La Experiencia en una Campaña",
+            "Sun Wukong, el Mono Asombroso",
+            "Broken Tales - Manual Básico",
+            "Iskra de la Caperucita Roja"
+          ]
+        }
+      ]
+    },
+    "brokenOnes": {
+      "id": "broken-tales-broken-ones",
+      "title": "Broken Tales - The Broken Ones",
+      "version": "0.2.16",
+      "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones",
+      "packs": [
+        {
+          "id": "broken-tales-broken-ones.broken-ones-hunters",
+          "name": "broken-ones-hunters",
+          "label": "BROKENTALES.Packs.BrokenOnesHunters",
+          "type": "Actor",
+          "manifestPath": "packs/broken-ones-hunters.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-hunters.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-hunters",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 13,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "hunter"
+          ],
+          "sampleNames": [
+            "Talia the Sleeper",
+            "The Gang of three Pigs",
+            "Yvonne of the Dark",
+            "Hatta Carter",
+            "Iskra the Young Wolf",
+            "Bloodwhite",
+            "Sherazade the Weaver of Tales",
+            "Morgana of the Lake"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-actors",
+          "name": "broken-ones-actors",
+          "label": "BROKENTALES.Packs.BrokenOnesActors",
+          "type": "Actor",
+          "manifestPath": "packs/broken-ones-actors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-actors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-actors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 54,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "Hanse",
+            "Crazed Maws",
+            "Hedge Labyrinth",
+            "Bruna the Poor Witch",
+            "Bella’s Servants",
+            "Aleksandr Pták",
+            "Arne the Captain",
+            "Mercenary and Researcher of Renowned Fame"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-descriptors",
+          "name": "broken-ones-descriptors",
+          "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/broken-ones-descriptors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-descriptors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-descriptors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 41,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor",
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-threat-descriptors",
+          "name": "broken-ones-threat-descriptors",
+          "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/broken-ones-threat-descriptors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-threat-descriptors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-threat-descriptors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 54,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Abel the Young Lover - Descriptor",
+            "Akim the Tamer - Descriptor",
+            "Aleksandr Pták - Descriptor",
+            "Alexandra the Mother - Descriptor",
+            "Althea the Agent of the Order - Descriptor",
+            "Arne the Captain - Descriptor",
+            "Basil the Survivor - Descriptor",
+            "Beáta Czernin the Noblewoman - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-gifts",
+          "name": "broken-ones-gifts",
+          "label": "BROKENTALES.Packs.BrokenOnesGifts",
+          "type": "Item",
+          "manifestPath": "packs/broken-ones-gifts.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-gifts.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-gifts",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 26,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "The Cloak",
+            "In the Dream",
+            "Gang",
+            "Eating the Divine",
+            "Light the Flame",
+            "Innocent Smile",
+            "Time Watches",
+            "Playmates"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-dark-egos",
+          "name": "broken-ones-dark-egos",
+          "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+          "type": "Item",
+          "manifestPath": "packs/broken-ones-dark-egos.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-dark-egos.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-dark-egos",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 13,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "darkEgo"
+          ],
+          "sampleNames": [
+            "Dark Ego - The Sleeping Will",
+            "Dark Ego - Our Home",
+            "Dark Ego – Solitary Ghost",
+            "Dark Ego - Mad like a Hatter",
+            "Dark Ego - The Young Wolf",
+            "Dark Ego - Pure Innocence",
+            "Dark Ego - One Thousand and One Nights",
+            "Dark Ego - The Supreme Fairy"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-equipment",
+          "name": "broken-ones-equipment",
+          "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+          "type": "Item",
+          "manifestPath": "packs/broken-ones-equipment.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-equipment.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-equipment",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 85,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment"
+          ],
+          "sampleNames": [
+            "A large nun’s cloak",
+            "A long hood with a veil hiding my face",
+            "Objects and small things that float under my cloak",
+            "A piece of ivy that has remained clinging to my left arm",
+            "The diary in which I wrote about my sad life before the curse",
+            "Pig’s head masks",
+            "Carpenter’s tool bags",
+            "Lots of bricks"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-library",
+          "name": "broken-ones-library",
+          "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+          "type": "JournalEntry",
+          "manifestPath": "packs/broken-ones-library.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-library.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-library",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 3,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales - The Broken Ones - Villager's Sheet",
+            "bt-tbo-sheets-eng-final-screen",
+            "bt-tbo-1-eng-final-screen"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-adventures",
+          "name": "broken-ones-adventures",
+          "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+          "type": "JournalEntry",
+          "manifestPath": "packs/broken-ones-adventures.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-adventures.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-adventures",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 7,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "I Will Stay with You Always",
+            "In Your Eyes, with Your Feet",
+            "Hunger Island",
+            "The House of Roses",
+            "I Don't Believe",
+            "Stegeborg's Quiet",
+            "Bloodwhite's Heart"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-maps",
+          "name": "broken-ones-maps",
+          "label": "BROKENTALES.Packs.BrokenOnesMaps",
+          "type": "JournalEntry",
+          "manifestPath": "packs/broken-ones-maps.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-maps.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-maps",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 7,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "I Will Stay with You Always",
+            "I Don't Believe",
+            "Bloodwhite's Heart",
+            "Stegeborg's Quiet",
+            "In Your Eyes, with Your Feet",
+            "The House of Roses",
+            "Hunger Island"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-scenes",
+          "name": "broken-ones-scenes",
+          "label": "BROKENTALES.Packs.BrokenOnesScenes",
+          "type": "Scene",
+          "manifestPath": "packs/broken-ones-scenes.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-scenes.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-scenes",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 7,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "In Your Eyes, with Your Feet",
+            "Stegeborg's Quiet",
+            "I Will Stay with You Always",
+            "The House of Roses",
+            "Hunger Island",
+            "I Don't Believe",
+            "Bloodwhite's Heart"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.red-hood-iskra-support",
+          "name": "red-hood-iskra-support",
+          "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+          "type": "Item",
+          "manifestPath": "packs/red-hood-iskra-support.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-support.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-support",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 13,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift",
+            "storyElement"
+          ],
+          "sampleNames": [
+            "Where are you going all alone, sweetie?",
+            "Iskra's Pendant",
+            "Iskra's Wolf Mask",
+            "Gerard's Letter to the Papacy",
+            "Iskra's Red Cape",
+            "Voice of the Spirits",
+            "Elizaveta's Poison",
+            "Blood Drawings in the Den"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.red-hood-iskra-maps",
+          "name": "red-hood-iskra-maps",
+          "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+          "type": "JournalEntry",
+          "manifestPath": "packs/red-hood-iskra-maps.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-maps.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-maps",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 4,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Cemetery - Red-Hood Iskra",
+            "Durfort - Red-Hood Iskra",
+            "Wolf Den - Red-Hood Iskra",
+            "Gevaudan - Red-Hood Iskra"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.red-hood-iskra-audio",
+          "name": "red-hood-iskra-audio",
+          "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+          "type": "Playlist",
+          "manifestPath": "packs/red-hood-iskra-audio.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-audio.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-audio",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 2,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales OST",
+            "Broken Tales - Iskra SFX"
+          ]
+        },
+        {
+          "id": "broken-tales-broken-ones.broken-ones-source-pdfs",
+          "name": "broken-ones-source-pdfs",
+          "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+          "type": "JournalEntry",
+          "manifestPath": "packs/broken-ones-source-pdfs.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-source-pdfs.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-source-pdfs",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 3,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales - The Broken Ones",
+            "Broken Tales - The Broken Ones Hunters Sheets",
+            "Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30]"
+          ]
+        }
+      ]
+    },
+    "lostStories": {
+      "id": "broken-tales-lost-stories",
+      "title": "Broken Tales - Lost Stories",
+      "version": "0.2.17",
+      "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories",
+      "packs": [
+        {
+          "id": "broken-tales-lost-stories.lost-stories-hunters",
+          "name": "lost-stories-hunters",
+          "label": "BROKENTALES.Packs.LostStoriesHunters",
+          "type": "Actor",
+          "manifestPath": "packs/lost-stories-hunters.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-hunters.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-hunters",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 19,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "hunter"
+          ],
+          "sampleNames": [
+            "The Respectable Mr. and Mrs. Mars",
+            "Princess Viola of Altomonte",
+            "Magnifico the Naked Emperor",
+            "Thumbking the King of Crime",
+            "Nema the Beastslayer",
+            "Prince Trollo the Innocent",
+            "Karasu Kuroi the Wandering Monk",
+            "Vivienne of the Lake"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-actors",
+          "name": "lost-stories-actors",
+          "label": "BROKENTALES.Packs.LostStoriesActors",
+          "type": "Actor",
+          "manifestPath": "packs/lost-stories-actors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-actors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-actors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 122,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "The Green Knight",
+            "Robbers",
+            "The Magic Lake Portal",
+            "Ivory Seeking Pirates",
+            "3: Mikko",
+            "The Imposter",
+            "Haunted House",
+            "Helpers"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-dark-presences",
+          "name": "lost-stories-dark-presences",
+          "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+          "type": "Actor",
+          "manifestPath": "packs/lost-stories-dark-presences.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presences.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presences",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 10,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "threat"
+          ],
+          "sampleNames": [
+            "White Rose and Red Rose",
+            "Brunhilde the Fighter",
+            "The Roc",
+            "Polonia “the Fairy” and Perez “the Rat”",
+            "Hans the Handsome",
+            "Poor Nello and The Faithful Patrasche",
+            "Gemba Tanuki and Mayu Kitsune",
+            "The Regiment of Giants"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-dark-presence-descriptors",
+          "name": "lost-stories-dark-presence-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-dark-presence-descriptors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presence-descriptors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presence-descriptors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 10,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "White Rose and Red Rose - Descriptor",
+            "The Little Oni - Descriptor",
+            "Brunhilde the Fighter - Descriptor",
+            "The Roc - Descriptor",
+            "Poor Nello and The Faithful Patrasche - Descriptor",
+            "Gemba Tanuki and Mayu Kitsune - Descriptor",
+            "Hans the Handsome - Descriptor",
+            "Polonia “the Fairy” and Perez “the Rat” - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-threat-descriptors",
+          "name": "lost-stories-threat-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-threat-descriptors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-threat-descriptors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-threat-descriptors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 10,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Poor Nello and The Faithful Patrasche - Descriptor",
+            "Gemba Tanuki and Mayu Kitsune - Descriptor",
+            "The Regiment of Giants - Descriptor",
+            "Brunhilde the Fighter - Descriptor",
+            "The Roc - Descriptor",
+            "White Rose and Red Rose - Descriptor",
+            "Polonia “the Fairy” and Perez “the Rat” - Descriptor",
+            "The Little Oni - Descriptor"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-descriptors",
+          "name": "lost-stories-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-descriptors.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-descriptors.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-descriptors",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 66,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "descriptor"
+          ],
+          "sampleNames": [
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Dark Ego Descriptor",
+            "Descriptor 1",
+            "Descriptor 2",
+            "Descriptor 3",
+            "Descriptor 1"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-gifts",
+          "name": "lost-stories-gifts",
+          "label": "BROKENTALES.Packs.LostStoriesGifts",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-gifts.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-gifts.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-gifts",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 38,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "gift"
+          ],
+          "sampleNames": [
+            "Incognito Agents",
+            "Informants",
+            "Porziella the Faithful Flea",
+            "The Magic of the Seven",
+            "What I Want to See",
+            "What I Don’t Want to See",
+            "Tiny",
+            "In the Right Place at the Right Time"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-dark-egos",
+          "name": "lost-stories-dark-egos",
+          "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-dark-egos.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-egos.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-egos",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 19,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "darkEgo"
+          ],
+          "sampleNames": [
+            "Dark Ego - Alien Technology",
+            "Dark Ego - Taking Destiny into My Own Hands",
+            "Dark Ego - All Eyes on Me",
+            "Dark Ego - Infallible Cunning",
+            "Dark Ego - It’s Time to Kill the Beast",
+            "Dark Ego - Oknytt’s Legacy",
+            "Dark Ego - You Are What You Fight",
+            "Dark Ego - Water Fairy"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-equipment",
+          "name": "lost-stories-equipment",
+          "label": "BROKENTALES.Packs.LostStoriesEquipment",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-equipment.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-equipment.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-equipment",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 103,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [
+            "equipment"
+          ],
+          "sampleNames": [
+            "Well-made clothes",
+            "Walking umbrella and pipe",
+            "A small vase with a strange bright red seedling",
+            "A box of excellent chocolates",
+            "Various fake identity documents",
+            "A portrait of a couple commissioned from a famous painter",
+            "Clothes of fine workmanship",
+            "A small wooden crown painted with gold, given to me by my father"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-library",
+          "name": "lost-stories-library",
+          "label": "BROKENTALES.Packs.LostStoriesLibrary",
+          "type": "JournalEntry",
+          "manifestPath": "packs/lost-stories-library.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-library.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-library",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 5,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Broken Tales Lost Stories OEF,",
+            "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN",
+            "Broken Tales Lost Stories Hunters Sheets OEF,",
+            "bt-ls-book-1-ENG-SCREEN",
+            "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-adventures",
+          "name": "lost-stories-adventures",
+          "label": "BROKENTALES.Packs.LostStoriesAdventures",
+          "type": "JournalEntry",
+          "manifestPath": "packs/lost-stories-adventures.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-adventures.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-adventures",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 9,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Rome, City of the Order",
+            "The Last Wish",
+            "A Frozen Reflection",
+            "A Mother's Heart",
+            "Isolde the Singer of Lost Love",
+            "Nemesis",
+            "The King's Awakening",
+            "Nikola's Pledge"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-maps",
+          "name": "lost-stories-maps",
+          "label": "BROKENTALES.Packs.LostStoriesMaps",
+          "type": "JournalEntry",
+          "manifestPath": "packs/lost-stories-maps.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-maps.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-maps",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 9,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "The Last Wish",
+            "Nemesis",
+            "Journey of a Thousand and One Nights",
+            "A Mother's Heart",
+            "Nikola's Pledge",
+            "Rome, City of the Order",
+            "The King's Awakening",
+            "Isolde the Singer of Lost Love"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-scenes",
+          "name": "lost-stories-scenes",
+          "label": "BROKENTALES.Packs.LostStoriesScenes",
+          "type": "Scene",
+          "manifestPath": "packs/lost-stories-scenes.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenes.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenes",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 9,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "Journey of a Thousand and One Nights",
+            "Nemesis",
+            "Isolde the Singer of Lost Love",
+            "Rome, City of the Order",
+            "A Mother's Heart",
+            "Nikola's Pledge",
+            "A Frozen Reflection",
+            "The King's Awakening"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-source-pdfs",
+          "name": "lost-stories-source-pdfs",
+          "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+          "type": "JournalEntry",
+          "manifestPath": "packs/lost-stories-source-pdfs.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-source-pdfs.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-source-pdfs",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 5,
+          "levelDbCount": 0,
+          "levelDbError": "Error: Database failed to open",
+          "parseErrors": 0,
+          "actorTypes": [],
+          "sampleNames": [
+            "bt-ls-book-1-ENG-SCREEN",
+            "Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN",
+            "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters",
+            "Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG",
+            "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN"
+          ]
+        },
+        {
+          "id": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+          "name": "lost-stories-scenario-gifts",
+          "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+          "type": "Item",
+          "manifestPath": "packs/lost-stories-scenario-gifts.db",
+          "sourceDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenario-gifts.db",
+          "levelDbPath": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenario-gifts",
+          "sourceDbExists": true,
+          "levelDbExists": true,
+          "sourceDbCount": 10,
+          "levelDbCount": 10,
+          "parseErrors": 0,
+          "actorTypes": [
+            "storyElement"
+          ],
+          "sampleNames": [
+            "Blessing of the Sea",
+            "Art of Command",
+            "Coral of the Sea Fairy",
+            "Marionettes' Destroyer",
+            "A True Friend",
+            "The Field of Miracles",
+            "Voice of the Spirits",
+            "Exorcist"
+          ]
+        }
+      ]
+    }
+  },
+  "notes": [
+    "The old brokentales-repo packs remain the baseline for names, pre-generated hunters, and legacy scenario content.",
+    "WordReference must be treated as a manual or authorized external provider. No scraping connector is generated in this audit.",
+    "red-hood-iskra-support.db source has 13 records; active LevelDB could not be read/synced while Foundry locks it. Close Foundry and resync to activate those two new source records."
+  ]
+}
