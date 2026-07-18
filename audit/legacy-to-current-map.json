@@ -1,0 +1,2275 @@
+{
+  "generatedAt": "2026-07-18T08:01:35.002Z",
+  "source": "E:/respaldos/brokentales-repo/packs",
+  "destinations": [
+    {
+      "id": "broken-tales.hunters",
+      "type": "Actor",
+      "count": 15,
+      "source": "E:/respaldos/brokentales-repo/packs/hunters-canon.db"
+    },
+    {
+      "id": "broken-tales.threats-villagers-essences",
+      "type": "Actor",
+      "count": 4,
+      "source": "E:/respaldos/brokentales-repo/packs/threats-villagers-essences-canon.db"
+    },
+    {
+      "id": "broken-tales.support",
+      "type": "Item",
+      "count": 6,
+      "source": "E:/respaldos/brokentales-repo/packs/support-canon.db"
+    },
+    {
+      "id": "broken-tales.scenario-gifts",
+      "type": "Item",
+      "count": 21,
+      "source": "E:/respaldos/brokentales-repo/packs/scenario-gifts-canon.db"
+    },
+    {
+      "id": "broken-tales.hunter-gifts",
+      "type": "Item",
+      "count": 31,
+      "source": "E:/respaldos/brokentales-repo/packs/hunter-gifts-canon.db"
+    },
+    {
+      "id": "broken-tales.hunter-descriptors",
+      "type": "Item",
+      "count": 61,
+      "source": "E:/respaldos/brokentales-repo/packs/hunter-descriptors-canon.db"
+    },
+    {
+      "id": "broken-tales.hunter-equipment",
+      "type": "Item",
+      "count": 81,
+      "source": "E:/respaldos/brokentales-repo/packs/hunter-equipment-canon.db"
+    },
+    {
+      "id": "broken-tales.hunter-dark-egos",
+      "type": "Item",
+      "count": 15,
+      "source": "E:/respaldos/brokentales-repo/packs/hunter-dark-egos-canon.db"
+    },
+    {
+      "id": "broken-tales.dark-presence-descriptors",
+      "type": "Item",
+      "count": 18,
+      "source": "E:/respaldos/brokentales-repo/packs/dark-presence-descriptors-canon.db"
+    },
+    {
+      "id": "broken-tales.threat-descriptors",
+      "type": "Item",
+      "count": 18,
+      "source": "E:/respaldos/brokentales-repo/packs/threat-descriptors-canon.db"
+    },
+    {
+      "id": "broken-tales.villager-descriptors",
+      "type": "Item",
+      "count": 4,
+      "source": "E:/respaldos/brokentales-repo/packs/villager-descriptors-canon.db"
+    },
+    {
+      "id": "broken-tales.essence-descriptors",
+      "type": "Item",
+      "count": 3,
+      "source": "E:/respaldos/brokentales-repo/packs/essence-descriptors-canon.db"
+    },
+    {
+      "id": "broken-tales.dark-presences",
+      "type": "Actor",
+      "count": 18,
+      "source": "E:/respaldos/brokentales-repo/packs/dark-presences-canon.db"
+    },
+    {
+      "id": "broken-tales.scenario-actors",
+      "type": "Actor",
+      "count": 94,
+      "source": "E:/respaldos/brokentales-repo/packs/scenario-actors-canon.db"
+    },
+    {
+      "id": "broken-tales.library",
+      "type": "JournalEntry",
+      "count": 12,
+      "source": "E:/respaldos/brokentales-repo/packs/library-canon.db"
+    },
+    {
+      "id": "broken-tales.adventures",
+      "type": "JournalEntry",
+      "count": 11,
+      "source": "E:/respaldos/brokentales-repo/packs/adventures-canon.db"
+    },
+    {
+      "id": "broken-tales.adventure-maps",
+      "type": "JournalEntry",
+      "count": 13,
+      "source": "E:/respaldos/brokentales-repo/packs/adventure-maps-canon.db"
+    },
+    {
+      "id": "broken-tales.adventure-scenes",
+      "type": "Scene",
+      "count": 14,
+      "source": "E:/respaldos/brokentales-repo/packs/adventure-scenes-canon.db"
+    },
+    {
+      "id": "broken-tales.audit",
+      "type": "JournalEntry",
+      "count": 1,
+      "source": "E:/respaldos/brokentales-repo/packs/audit-canon.db"
+    },
+    {
+      "id": "broken-tales.source-pdfs",
+      "type": "JournalEntry",
+      "count": 47,
+      "source": "E:/respaldos/brokentales-repo/packs/source-pdfs-canon.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-hunters",
+      "type": "Actor",
+      "count": 13,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-hunters.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-actors",
+      "type": "Actor",
+      "count": 54,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-actors.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-descriptors",
+      "type": "Item",
+      "count": 41,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-descriptors.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-threat-descriptors",
+      "type": "Item",
+      "count": 54,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-threat-descriptors.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-gifts",
+      "type": "Item",
+      "count": 26,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-gifts.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-dark-egos",
+      "type": "Item",
+      "count": 13,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-dark-egos.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-equipment",
+      "type": "Item",
+      "count": 85,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-equipment.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-library",
+      "type": "JournalEntry",
+      "count": 3,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-library.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-adventures",
+      "type": "JournalEntry",
+      "count": 7,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-adventures.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-maps",
+      "type": "JournalEntry",
+      "count": 7,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-maps.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-scenes",
+      "type": "Scene",
+      "count": 7,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-scenes.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.red-hood-iskra-support",
+      "type": "Item",
+      "count": 13,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-support.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.red-hood-iskra-maps",
+      "type": "JournalEntry",
+      "count": 4,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-maps.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.red-hood-iskra-audio",
+      "type": "Playlist",
+      "count": 2,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/red-hood-iskra-audio.db"
+    },
+    {
+      "id": "broken-tales-broken-ones.broken-ones-source-pdfs",
+      "type": "JournalEntry",
+      "count": 3,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones/packs/broken-ones-source-pdfs.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-hunters",
+      "type": "Actor",
+      "count": 19,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-hunters.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-actors",
+      "type": "Actor",
+      "count": 122,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-actors.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-dark-presences",
+      "type": "Actor",
+      "count": 10,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presences.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-dark-presence-descriptors",
+      "type": "Item",
+      "count": 10,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-presence-descriptors.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-threat-descriptors",
+      "type": "Item",
+      "count": 10,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-threat-descriptors.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-descriptors",
+      "type": "Item",
+      "count": 66,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-descriptors.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-gifts",
+      "type": "Item",
+      "count": 38,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-gifts.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-dark-egos",
+      "type": "Item",
+      "count": 19,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-dark-egos.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-equipment",
+      "type": "Item",
+      "count": 103,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-equipment.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-library",
+      "type": "JournalEntry",
+      "count": 5,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-library.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-adventures",
+      "type": "JournalEntry",
+      "count": 9,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-adventures.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-maps",
+      "type": "JournalEntry",
+      "count": 9,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-maps.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-scenes",
+      "type": "Scene",
+      "count": 9,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenes.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-source-pdfs",
+      "type": "JournalEntry",
+      "count": 5,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-source-pdfs.db"
+    },
+    {
+      "id": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "type": "Item",
+      "count": 10,
+      "source": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories/packs/lost-stories-scenario-gifts.db"
+    }
+  ],
+  "rows": [
+    {
+      "legacyPath": "actors/Adversaries.db",
+      "legacyCount": 41,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 17,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Andersen - The Commander",
+        "Christian - The Relentless",
+        "Hans - The Gunslinger",
+        "Nils - The Poor Devil",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Carlo - The Living Puppet"
+      ]
+    },
+    {
+      "legacyPath": "adventure-maps-canon.db",
+      "legacyCount": 13,
+      "legacyTypes": [],
+      "inferredDestination": "maps/library packs",
+      "bestCurrentMatch": "broken-tales.adventure-maps",
+      "matchedNames": 13,
+      "bestCurrentCount": 13,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "adventure-maps.db",
+      "legacyCount": 33,
+      "legacyTypes": [],
+      "inferredDestination": "maps/library packs",
+      "bestCurrentMatch": "broken-tales.adventure-maps",
+      "matchedNames": 13,
+      "bestCurrentCount": 13,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "adventure-scenes-canon.db",
+      "legacyCount": 14,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.adventure-maps",
+      "matchedNames": 14,
+      "bestCurrentCount": 13,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "adventure-scenes.db",
+      "legacyCount": 30,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.adventure-maps",
+      "matchedNames": 14,
+      "bestCurrentCount": 13,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "adventures-canon.db",
+      "legacyCount": 11,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.adventures",
+      "matchedNames": 11,
+      "bestCurrentCount": 11,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "adventures.db",
+      "legacyCount": 27,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.adventures",
+      "matchedNames": 11,
+      "bestCurrentCount": 11,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Red-hood / Iskra",
+        "Of Flesh and Wood",
+        "The Smile in the Darkness",
+        "A Soldier's Duty",
+        "Wonderbedlam",
+        "Tuvstarr's Reflection"
+      ]
+    },
+    {
+      "legacyPath": "audio-canon.db",
+      "legacyCount": 2,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-broken-ones.red-hood-iskra-audio",
+      "matchedNames": 2,
+      "bestCurrentCount": 2,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Broken Tales OST",
+        "Broken Tales - Iskra SFX"
+      ]
+    },
+    {
+      "legacyPath": "audio.db",
+      "legacyCount": 2,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-broken-ones.red-hood-iskra-audio",
+      "matchedNames": 2,
+      "bestCurrentCount": 2,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Broken Tales OST",
+        "Broken Tales - Iskra SFX"
+      ]
+    },
+    {
+      "legacyPath": "audit-canon.db",
+      "legacyCount": 1,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.audit",
+      "matchedNames": 1,
+      "bestCurrentCount": 1,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "PDF Content Audit"
+      ]
+    },
+    {
+      "legacyPath": "audit.db",
+      "legacyCount": 1,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.audit",
+      "matchedNames": 1,
+      "bestCurrentCount": 1,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "PDF Content Audit"
+      ]
+    },
+    {
+      "legacyPath": "broken-one-descriptors-canon.db",
+      "legacyCount": 41,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Alice of Other Worlds - Descriptor 1",
+        "Alice of Other Worlds - Descriptor 2",
+        "Alice of Other Worlds - Descriptor 3",
+        "Alice of Other Worlds - Dark Ego Descriptor",
+        "Beauty and her Beast - Descriptor 1",
+        "Beauty and her Beast - Descriptor 2"
+      ]
+    },
+    {
+      "legacyPath": "broken-one-descriptors.db",
+      "legacyCount": 41,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Alice of Other Worlds - Descriptor 1",
+        "Alice of Other Worlds - Descriptor 2",
+        "Alice of Other Worlds - Descriptor 3",
+        "Alice of Other Worlds - Dark Ego Descriptor",
+        "Beauty and her Beast - Descriptor 1",
+        "Beauty and her Beast - Descriptor 2"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/a-soldiers-duty/adversaries.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Nils - The Poor Devil",
+        "Hans - The Gunslinger",
+        "Andersen - The Commander",
+        "Christian - The Relentless"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/a-soldiers-duty/broken-ones.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Enar - The Eternal Soldier"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/a-soldiers-duty/creatures.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Enar - The Eternal Soldier",
+        "Dead Pirates - Hook's Crew"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/a-soldiers-duty/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Sea Fairy - The Compassionate"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/a-soldiers-duty/villager.db",
+      "legacyCount": 11,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 5,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Hans the Gunslinger",
+        "Sea Fairy",
+        "Erik - The Innocent",
+        "Dead Pirates",
+        "Erik",
+        "Adam - The Chatty Servant"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/of-flesh-and-wood/adversaries.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 2,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Carlo - The Living Puppet",
+        "Antonio Ciliegia - Gullible Alchemist",
+        "Geppetto - Gullible Alchemist"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/of-flesh-and-wood/broken-ones.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Azzurra De Baciocchi - The Spirit of the Witch"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/of-flesh-and-wood/creatures.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Medoro - The Old Bear",
+        "Marionette - Cursed Soul"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/of-flesh-and-wood/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Azzurra De Baciocchi - The Spirit Who Spurns Death"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/of-flesh-and-wood/villager.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 2,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Lucino - The Good Friend",
+        "Vincenzo - Carabiniere",
+        "Amabile Burromo - Innkeeper"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/one-thousand-and-one-nightmares/adversaries.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Shadow of Sherazade"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/one-thousand-and-one-nightmares/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales-broken-ones.broken-ones-hunters",
+      "matchedNames": 1,
+      "bestCurrentCount": 13,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Sherazade - The Weaver of Tales"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/ozena-the-suffering-and-desperate/adversaries.db",
+      "legacyCount": 16,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 3,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Hirnloser the Genius - The Transformed Scarecrow",
+        "Dose - The Tin Man",
+        "Margareta Westen - The Good Witch",
+        "Helga - The Red Witch",
+        "Lowe the Coward - Original Version",
+        "Lowe the Coward"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/ozena-the-suffering-and-desperate/broken-ones.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Margareta Westen - The Good Witch",
+        "Helga - The Red Witch",
+        "Dr. Norman Henkle - The Powerful Wizard"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/ozena-the-suffering-and-desperate/creatures.db",
+      "legacyCount": 8,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Dose the Tin Man - The Giant in Love",
+        "Hirnloser the Scarecrow - The Genius",
+        "Dose the Tin Man - The Giant in Love",
+        "Canine Tigers - Deceptive Guardians",
+        "Lowe the Coward - The Brave Fighter",
+        "Hirnloser the Scarecrow - The Genius"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/ozena-the-suffering-and-desperate/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "OZena (Dorothea Gray) - The Suffering"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/ozena-the-suffering-and-desperate/villager.db",
+      "legacyCount": 5,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Wolfgang - The Enslaved Pharmacist",
+        "Henrich - The Worried Father",
+        "Klaus - The Afflicted Son",
+        "Villagers of Emerald - Wish-Warped Souls",
+        "Porcelain Dolls - Blood-Bound Servants"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/pre-generated-hunters/pre-generated-hunters.db",
+      "legacyCount": 15,
+      "legacyTypes": [
+        "character"
+      ],
+      "inferredDestination": "broken-tales.hunters",
+      "bestCurrentMatch": "broken-tales.hunters",
+      "matchedNames": 15,
+      "bestCurrentCount": 15,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "James the Swordsman",
+        "Baba Yaga the Child Witch",
+        "The Astonishing Pied Piper Without a Name",
+        "The Immortal",
+        "Verdoux Bluebeard",
+        "Garou the Old Wolf"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/red-hood-iskra/adversaries.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 3,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Elizaveta - The Cruel Bride",
+        "Gerard Dubois the Incapable Noble",
+        "Vincent Arn - Former Huntsman and Chief of the Guards"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/red-hood-iskra/broken-ones.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 2,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Anastazia the Sorrowful Spirit",
+        "Red-Hood Iskra",
+        "Iskra the Young Wolf"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/red-hood-iskra/creatures.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Black Wolves of Greskar's Pack",
+        "Greskar the Big Black Wolf"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/red-hood-iskra/pre-generated-npcs.db",
+      "legacyCount": 16,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": []
+    },
+    {
+      "legacyPath": "compendiums/actors/red-hood-iskra/villager.db",
+      "legacyCount": 7,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 6,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Marcel the Time-Waster",
+        "Nicholas the Huntsman",
+        "Guards of Gerard Dubois",
+        "Anne the Little Chatterer",
+        "Corinne the Housekeeper",
+        "Genevieve the Chemist"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/saint-george-the-dragon-slayer/adversaries.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Saint Syrus - The Veteran",
+        "Saint Theodore - The Furious",
+        "Saint Margaret - The Ambitious",
+        "Saint Demetrius - The Guardian",
+        "Saint Martha - The Friendly",
+        "Trebizond - Princess of a Distant Country"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/saint-george-the-dragon-slayer/dark-presences.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Saint George the Dragon Slayer - Opponent",
+        "Saint George the Dragon Slayer - Ally"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-city-of-pigs/adversaries.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 3,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Arthur Browne - The Big Brother",
+        "Clarence Browne - The Younger Brother",
+        "Frank Browne - The Middle Brother"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-city-of-pigs/broken-ones.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The God Under the Mine"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-city-of-pigs/creatures.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Spawn of The God Under the Mine"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-city-of-pigs/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The God Under the Mine"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-city-of-pigs/villager.db",
+      "legacyCount": 7,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 5,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Bardolf Greed - The Wealthy Industrialist",
+        "Edward - The Miners' Chief",
+        "Emma - The Childhood Friend",
+        "Greed's Guards",
+        "Martha Browne - The Mother",
+        "The Pig Heads"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-smile-in-the-darkness/adversaries.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Father Adrien"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-smile-in-the-darkness/broken-ones.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Yvonne - The Spirit Who Longs for Revenge"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-smile-in-the-darkness/creatures.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 122,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Restless Spirit"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-smile-in-the-darkness/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Yvonne - The Spirit Who Longs for Revenge"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/the-smile-in-the-darkness/villager.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Olivier - The Raven on the Run",
+        "Lorenzo Scannapecore - The Plague Doctor",
+        "Alizée - The Fugitive Nun"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/tuvstarrs-reflection/adversaries.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Gallant Knight"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/tuvstarrs-reflection/broken-ones.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Princess Tuvstarr - The Child Princess",
+        "The Hulder - Corrupted Forest Spirit"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/tuvstarrs-reflection/creatures.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Skutt the Moose - Dream Projection",
+        "Skutt the Moose - Spectral Guardian",
+        "Stallo - The Old Troll",
+        "The Fairies"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/tuvstarrs-reflection/villager.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 2,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Angry Little Girl",
+        "The Gallant Knight"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/wonderbedlam/adversaries.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 3,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Hatta Carter - The Mad Inventor",
+        "Lizard Automaton",
+        "Rabbit Automaton"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/wonderbedlam/broken-ones.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales-broken-ones module",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Alice Liddell - The Director"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/wonderbedlam/creatures.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 2,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Caterpillar of the Wonderful Lands",
+        "Cheshire - The Faithful Lynx"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/wonderbedlam/dark-presences.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Alice Liddell - The Director"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/actors/wonderbedlam/villager.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Alicia - The Young Girl in Love",
+        "Alissa of Norfolk",
+        "The Patient of Wonder"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/environment/environment.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "playlist"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Ambiente de Cueva",
+        "Ambiente de Cementerio",
+        "Música de Confrontación",
+        "Ambiente de Corte",
+        "Ambiente de Bosque",
+        "Ambiente de Villa"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/a-soldiers-duty.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 1,
+      "bestCurrentCount": 10,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Coral of the Sea Fairy",
+        "Nils' War Diary",
+        "Seashells from the Cliff",
+        "Hans' Experimental Pistols",
+        "Letter from Nils to the Riksråd",
+        "Hans' Smoke Bombs"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/iskra-items.db",
+      "legacyCount": 212,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": []
+    },
+    {
+      "legacyPath": "compendiums/items/of-flesh-and-wood.db",
+      "legacyCount": 12,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "The Ancient Alchemical Text",
+        "Antonio's Alchemical Vials",
+        "The Bloodstained Mannequins",
+        "Carlo's False Gold Coins",
+        "Carlo's Elegant Old Shoes",
+        "Geppetto's Alchemical Vials"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/one-thousand-and-one-nightmares.db",
+      "legacyCount": 8,
+      "legacyTypes": [
+        "clue"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Black Shadows from Stories",
+        "Dinarzad's Smile Memory",
+        "Shadow Focus Objects",
+        "Shadow's Warning Words",
+        "Sherazade's Storytelling Performance",
+        "Alliance with the Stooped Writer"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/ozena-the-suffering-and-desperate.db",
+      "legacyCount": 12,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 1,
+      "bestCurrentCount": 21,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Margareta's Compass Rose Piece",
+        "Elderberry Sprig",
+        "Hammerhead Helmet",
+        "Helga's Blood Vials",
+        "Key to Helga's Palace",
+        "Henkle's Hot-Air Balloon"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/red-hood-iskra.db",
+      "legacyCount": 10,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-broken-ones.red-hood-iskra-support",
+      "matchedNames": 10,
+      "bestCurrentCount": 13,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Blood Drawings in the Den",
+        "Pile of Bones and Corpses",
+        "Gerard's Letter to the Papacy",
+        "Iskra's Pendant",
+        "Iskra's Red Cape",
+        "Iskra's Wolf Mask"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/saint-george-the-dragon-slayer.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Judgment Tokens",
+        "Trebizond's Magic-Finding Dust",
+        "Fervor Tokens",
+        "A Whip as Sharp as a Blade",
+        "Saint George's Holy Authority",
+        "Suspicion Tokens"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/the-city-of-pigs.db",
+      "legacyCount": 8,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 1,
+      "bestCurrentCount": 21,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Sign from the Browne Family",
+        "The Brand of Greed",
+        "Rusty Key to the Slaughterhouse",
+        "Map of the Mine with Marked Well",
+        "William's Black Leather Book",
+        "Grotesque Pig Masks"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/the-smile-in-the-darkness.db",
+      "legacyCount": 8,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Adrien's Smuggled Absinthe",
+        "Adrien's Absinthe Laboratory",
+        "Lorenzo's Cemetery Keys",
+        "The Comet Morituris",
+        "The Ravens' Hideout Evidence",
+        "Yvonne's Alcove with Withered Flowers"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/tuvstarrs-reflection.db",
+      "legacyCount": 7,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 1,
+      "bestCurrentCount": 10,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Knight's Crest with Two-Tailed Fox",
+        "Tuvstarr's Reflection in the Black Pond",
+        "Tuvstarr's White Dress",
+        "Golden Heart-Shaped Necklace",
+        "Tuvstarr's Golden Crown",
+        "Lance of the Fallen Knight"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/items/wonderbedlam.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "clue",
+        "object"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 1,
+      "bestCurrentCount": 94,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Alissa's Letters to Her Family",
+        "Hatta's Time Clocks",
+        "Alice's Special Tea",
+        "Hatta's Wonder Blueprint",
+        "Message from the Director",
+        "White Rabbit Message Holders"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/a-soldiers-duty/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 10,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Blessing of the Sea",
+        "Art of Command",
+        "Coral of the Sea Fairy"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/of-flesh-and-wood/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 10,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Marionettes' Destroyer",
+        "A True Friend",
+        "The Field of Miracles"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/one-thousand-and-one-nightmares/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Truth Beneath Tales",
+        "Story Breaker",
+        "Shadow Hunter"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/ozena-the-suffering-and-desperate/scenario-gifts.db",
+      "legacyCount": 9,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 9,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Wishing Well's Price",
+        "Fragment of the Red Compass",
+        "Traveler from Tomorrow",
+        "Manycorpses' Tragedy",
+        "Infusion of Purity",
+        "Sanctuary of Gelb"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/red-hood-iskra/scenario-gifts.db",
+      "legacyCount": 13,
+      "legacyTypes": [
+        "descriptor",
+        "npc"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales-broken-ones.red-hood-iskra-support",
+      "matchedNames": 10,
+      "bestCurrentCount": 13,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Red-Hood Iskra",
+        "Blood Drawings in the Den",
+        "Pile of Bones and Corpses",
+        "Gerard's Letter to the Papacy",
+        "Iskra's Pendant",
+        "Iskra's Red Cape"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/saint-george-the-dragon-slayer/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Saint's Blessing",
+        "Memory of the Dragon",
+        "Paladin's Oath"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/the-city-of-pigs/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Brand of Greed",
+        "The Meat of The God Under the Mine",
+        "There Is No House That Can Stop Me"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/the-smile-in-the-darkness/scenario-gifts.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 2,
+      "bestCurrentCount": 10,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Voice of the Spirits",
+        "Exorcist"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/tuvstarrs-reflection/scenario-gifts.db",
+      "legacyCount": 2,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "matchedNames": 2,
+      "bestCurrentCount": 10,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Hugin and Munin",
+        "Lance of the Fallen Knight"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/scenario-gifts/wonderbedlam/scenario-gifts.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "item"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 3,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Friend of the Rabbits",
+        "Lucid Madness",
+        "The Forgotten Queen"
+      ]
+    },
+    {
+      "legacyPath": "compendiums/sounds/sound.db",
+      "legacyCount": 1,
+      "legacyTypes": [
+        "playlist"
+      ],
+      "inferredDestination": "audio packs",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "Efectos de Lobo"
+      ]
+    },
+    {
+      "legacyPath": "dark-presence-descriptors-canon.db",
+      "legacyCount": 18,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.dark-presence-descriptors",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "Goldilocks and her War Bears - Descriptor",
+        "The Ancient Enemy - Descriptor",
+        "The Silent - Descriptor",
+        "The Wise Fox - Descriptor",
+        "The King’s Unlikely Tailor - Descriptor"
+      ]
+    },
+    {
+      "legacyPath": "dark-presence-descriptors.db",
+      "legacyCount": 28,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.dark-presence-descriptors",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "White Rose and Red Rose - Descriptor",
+        "The Little Oni - Descriptor",
+        "Brunhilde the Fighter - Descriptor",
+        "The Roc - Descriptor",
+        "Goldilocks and her War Bears - Descriptor"
+      ]
+    },
+    {
+      "legacyPath": "dark-presences-canon.db",
+      "legacyCount": 18,
+      "legacyTypes": [
+        "threat"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales.dark-presences",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Ambrose the Sorcerer known as Old Merlin",
+        "Frog Face",
+        "The Periwinkle Peer",
+        "The Ancient Enemy",
+        "The Wild Swans Gang",
+        "The Silent"
+      ]
+    },
+    {
+      "legacyPath": "dark-presences.db",
+      "legacyCount": 28,
+      "legacyTypes": [
+        "threat"
+      ],
+      "inferredDestination": "broken-tales.dark-presences",
+      "bestCurrentMatch": "broken-tales.dark-presences",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Ambrose the Sorcerer known as Old Merlin",
+        "Frog Face",
+        "The Periwinkle Peer",
+        "The Ancient Enemy",
+        "The Wild Swans Gang",
+        "The Silent"
+      ]
+    },
+    {
+      "legacyPath": "essence-descriptors-canon.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.essence-descriptors",
+      "matchedNames": 3,
+      "bestCurrentCount": 3,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Spirit / Essence - Nature",
+        "Spirit / Essence - Anchor",
+        "Spirit / Essence - Manifestation"
+      ]
+    },
+    {
+      "legacyPath": "essence-descriptors.db",
+      "legacyCount": 3,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.essence-descriptors",
+      "matchedNames": 3,
+      "bestCurrentCount": 3,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Spirit / Essence - Nature",
+        "Spirit / Essence - Anchor",
+        "Spirit / Essence - Manifestation"
+      ]
+    },
+    {
+      "legacyPath": "hunter-dark-egos-canon.db",
+      "legacyCount": 15,
+      "legacyTypes": [
+        "darkEgo"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunter-dark-egos",
+      "matchedNames": 15,
+      "bestCurrentCount": 15,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Dark Ego - I Will Have My Satisfaction",
+        "Dark Ego - The Big Bad Wolf",
+        "Dark Ego - The Power of Music",
+        "Dark Ego - The Evil Witch",
+        "Dark Ego - As I Want!",
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "legacyPath": "hunter-dark-egos.db",
+      "legacyCount": 47,
+      "legacyTypes": [
+        "darkEgo"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-dark-egos",
+      "matchedNames": 19,
+      "bestCurrentCount": 19,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Dark Ego - I Will Have My Satisfaction",
+        "Dark Ego - The Big Bad Wolf",
+        "Dark Ego - The Power of Music",
+        "Dark Ego - The Evil Witch",
+        "Dark Ego - As I Want!",
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "legacyPath": "hunter-descriptors-canon.db",
+      "legacyCount": 61,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunter-descriptors",
+      "matchedNames": 61,
+      "bestCurrentCount": 61,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Descriptor 1",
+        "Descriptor 2",
+        "Descriptor 3",
+        "Dark Ego Descriptor",
+        "Descriptor 1",
+        "Descriptor 2"
+      ]
+    },
+    {
+      "legacyPath": "hunter-descriptors.db",
+      "legacyCount": 127,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": null,
+      "matchedNames": 0,
+      "bestCurrentCount": 0,
+      "status": "source/reference",
+      "sampleNames": [
+        "James the Swordsman - Descriptor 1",
+        "James the Swordsman - Descriptor 2",
+        "James the Swordsman - Descriptor 3",
+        "James the Swordsman - Dark Ego Descriptor",
+        "Garou the Old Wolf - Descriptor 1",
+        "Garou the Old Wolf - Descriptor 2"
+      ]
+    },
+    {
+      "legacyPath": "hunter-equipment-canon.db",
+      "legacyCount": 81,
+      "legacyTypes": [
+        "equipment"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunter-equipment",
+      "matchedNames": 81,
+      "bestCurrentCount": 81,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "A fine dueling blade",
+        "a black powder gun",
+        "a finely crafted hook",
+        "a purple-red cloak",
+        "traveling boots",
+        "a precious pair of binoculars"
+      ]
+    },
+    {
+      "legacyPath": "hunter-equipment.db",
+      "legacyCount": 266,
+      "legacyTypes": [
+        "equipment"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-equipment",
+      "matchedNames": 102,
+      "bestCurrentCount": 103,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "A fine dueling blade",
+        "a black powder gun",
+        "a finely crafted hook",
+        "a purple-red cloak",
+        "traveling boots",
+        "a precious pair of binoculars"
+      ]
+    },
+    {
+      "legacyPath": "hunter-gifts-canon.db",
+      "legacyCount": 31,
+      "legacyTypes": [
+        "gift"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunter-gifts",
+      "matchedNames": 31,
+      "bestCurrentCount": 31,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast",
+        "Find Them Forever After",
+        "Wolf Among the Lambs",
+        "Soul Music",
+        "Skilled Acrobat"
+      ]
+    },
+    {
+      "legacyPath": "hunter-gifts.db",
+      "legacyCount": 95,
+      "legacyTypes": [
+        "gift"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-gifts",
+      "matchedNames": 38,
+      "bestCurrentCount": 38,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast",
+        "Find Them Forever After",
+        "Wolf Among the Lambs",
+        "Soul Music",
+        "Skilled Acrobat"
+      ]
+    },
+    {
+      "legacyPath": "hunters-canon.db",
+      "legacyCount": 15,
+      "legacyTypes": [
+        "hunter"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunters",
+      "matchedNames": 15,
+      "bestCurrentCount": 15,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "James the Swordsman",
+        "Garou the Old Wolf",
+        "The Astonishing Pied Piper Without a Name",
+        "Baba Yaga the Child Witch",
+        "Regina the Thief of Hearts",
+        "Babai the Judge"
+      ]
+    },
+    {
+      "legacyPath": "hunters.db",
+      "legacyCount": 15,
+      "legacyTypes": [
+        "hunter"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.hunters",
+      "matchedNames": 15,
+      "bestCurrentCount": 15,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "James the Swordsman",
+        "Garou the Old Wolf",
+        "The Astonishing Pied Piper Without a Name",
+        "Baba Yaga the Child Witch",
+        "Regina the Thief of Hearts",
+        "Babai the Judge"
+      ]
+    },
+    {
+      "legacyPath": "library-canon.db",
+      "legacyCount": 12,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.library",
+      "matchedNames": 12,
+      "bestCurrentCount": 12,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "bt-corebook-1-eng-final-screen-fixed",
+        "bt-cb-sheets-eng-final-screen",
+        "bt-cb-foxcat-sheet-eng-final-screen",
+        "Broken Europe Map",
+        "Broken Tales - Bookmarks",
+        "Broken Tales - Hunter's Sheet"
+      ]
+    },
+    {
+      "legacyPath": "library.db",
+      "legacyCount": 21,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.library",
+      "matchedNames": 12,
+      "bestCurrentCount": 12,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "bt-corebook-1-eng-final-screen-fixed",
+        "bt-cb-sheets-eng-final-screen",
+        "bt-cb-foxcat-sheet-eng-final-screen",
+        "Broken Europe Map",
+        "bt-tbo-1-eng-final-screen",
+        "bt-tbo-sheets-eng-final-screen"
+      ]
+    },
+    {
+      "legacyPath": "scenario-actors-canon.db",
+      "legacyCount": 94,
+      "legacyTypes": [
+        "threat"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.scenario-actors",
+      "matchedNames": 94,
+      "bestCurrentCount": 94,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Genevieve the Chemist",
+        "The Canine Tigers",
+        "Alizée the Fugitive",
+        "The White Rabbit",
+        "Christian",
+        "Lorenzo Scannapecore the Plague Doctor"
+      ]
+    },
+    {
+      "legacyPath": "scenario-actors.db",
+      "legacyCount": 270,
+      "legacyTypes": [
+        "threat"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales-lost-stories.lost-stories-actors",
+      "matchedNames": 122,
+      "bestCurrentCount": 122,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "The Green Knight",
+        "Genevieve the Chemist",
+        "The Canine Tigers",
+        "Hanse",
+        "Robbers",
+        "Crazed Maws"
+      ]
+    },
+    {
+      "legacyPath": "scenario-gifts-canon.db",
+      "legacyCount": 21,
+      "legacyTypes": [
+        "gift"
+      ],
+      "inferredDestination": "broken-tales.scenario-gifts / module scenario support",
+      "bestCurrentMatch": "broken-tales.scenario-gifts",
+      "matchedNames": 21,
+      "bestCurrentCount": 21,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Shadow Hunter",
+        "Story Breaker",
+        "Truth Beneath Tales",
+        "Fragment of the Yellow Compass",
+        "Sanctuary of Gelb",
+        "Traveler from Tomorrow"
+      ]
+    },
+    {
+      "legacyPath": "source-pdfs-canon.db",
+      "legacyCount": 47,
+      "legacyTypes": [],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.source-pdfs",
+      "matchedNames": 47,
+      "bestCurrentCount": 47,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Broken Tales Book ALT",
+        "San Jorge, el Matadragones",
+        "Quickstart Jugadores",
+        "Quickstart Jugadores-1",
+        "La Experiencia en una Campaña",
+        "Sun Wukong, el Mono Asombroso"
+      ]
+    },
+    {
+      "legacyPath": "support-canon.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "equipment",
+        "storyElement"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.support",
+      "matchedNames": 6,
+      "bestCurrentCount": 6,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Scenario Gifts",
+        "Objects and Equipment",
+        "Order Treasure",
+        "Broken Europe Map",
+        "Villagers",
+        "Spirits and Essences"
+      ]
+    },
+    {
+      "legacyPath": "support.db",
+      "legacyCount": 6,
+      "legacyTypes": [
+        "equipment",
+        "storyElement"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.support",
+      "matchedNames": 6,
+      "bestCurrentCount": 6,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Scenario Gifts",
+        "Objects and Equipment",
+        "Order Treasure",
+        "Broken Europe Map",
+        "Villagers",
+        "Spirits and Essences"
+      ]
+    },
+    {
+      "legacyPath": "threat-descriptors-canon.db",
+      "legacyCount": 18,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.dark-presence-descriptors",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "The Wild Swans Gang - Descriptor",
+        "Oakheart the Lady of the Woods - Descriptor",
+        "Frog Face - Descriptor",
+        "The Periwinkle Peer - Descriptor",
+        "Orcus the Guardian - Descriptor",
+        "Sinbad the Traveler of a Thousand Seas - Descriptor"
+      ]
+    },
+    {
+      "legacyPath": "threat-descriptors.db",
+      "legacyCount": 28,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "legacy/reference source",
+      "bestCurrentMatch": "broken-tales.dark-presence-descriptors",
+      "matchedNames": 18,
+      "bestCurrentCount": 18,
+      "status": "partial-by-name",
+      "sampleNames": [
+        "Poor Nello and The Faithful Patrasche - Descriptor",
+        "The Wild Swans Gang - Descriptor",
+        "Oakheart the Lady of the Woods - Descriptor",
+        "Gemba Tanuki and Mayu Kitsune - Descriptor",
+        "Frog Face - Descriptor",
+        "The Periwinkle Peer - Descriptor"
+      ]
+    },
+    {
+      "legacyPath": "threats-villagers-essences-canon.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "essence",
+        "npc",
+        "threat",
+        "villager"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.threats-villagers-essences",
+      "matchedNames": 4,
+      "bestCurrentCount": 4,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Threat - Template",
+        "NPC - Template",
+        "Villager - Template",
+        "Spirit / Essence - Template"
+      ]
+    },
+    {
+      "legacyPath": "threats-villagers-essences.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "essence",
+        "npc",
+        "threat",
+        "villager"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.threats-villagers-essences",
+      "matchedNames": 4,
+      "bestCurrentCount": 4,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Threat - Template",
+        "NPC - Template",
+        "Villager - Template",
+        "Spirit / Essence - Template"
+      ]
+    },
+    {
+      "legacyPath": "villager-descriptors-canon.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.villager-descriptors",
+      "matchedNames": 4,
+      "bestCurrentCount": 4,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Villager - Age",
+        "Villager - Bond",
+        "Villager - Contact with the Broken Tales",
+        "Villager - Distinguishing Features"
+      ]
+    },
+    {
+      "legacyPath": "villager-descriptors.db",
+      "legacyCount": 4,
+      "legacyTypes": [
+        "descriptor"
+      ],
+      "inferredDestination": "broken-tales.threats-villagers-essences / scenario actor packs",
+      "bestCurrentMatch": "broken-tales.villager-descriptors",
+      "matchedNames": 4,
+      "bestCurrentCount": 4,
+      "status": "covered-by-name",
+      "sampleNames": [
+        "Villager - Age",
+        "Villager - Bond",
+        "Villager - Contact with the Broken Tales",
+        "Villager - Distinguishing Features"
+      ]
+    }
+  ]
+}
