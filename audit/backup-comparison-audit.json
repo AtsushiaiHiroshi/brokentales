@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T09:59:41.314Z",
+  "generatedAt": "2026-07-18T10:23:05.943Z",
   "backupRefs": {
     "oldCoreHunterJson": {
       "count": 15,
@@ -97,11 +97,11 @@
     "coreScenarioGifts": {
       "rel": "packs/scenario-gifts-canon.db",
       "exists": true,
-      "count": 21,
+      "count": 19,
       "typeCounts": {
-        "gift": 21
+        "gift": 19
       },
-      "missingEs": 21,
+      "missingEs": 0,
       "duplicateKeys": []
     },
     "coreActorsOpposition": {
@@ -431,11 +431,6 @@
     }
   ],
   "nextLanguageExtractionNeeded": [
-    {
-      "pack": "coreScenarioGifts",
-      "count": 21,
-      "missingEs": 21
-    },
     {
       "pack": "coreActorsOpposition",
       "count": 94,

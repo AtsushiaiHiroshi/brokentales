@@ -306,53 +306,81 @@
       "folder": "Broken Tales - Core"
     },
     {
-      "name": "scenario-gifts-one-thousand-and-one-nightmares",
-      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
-      "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+      "name": "scenario-gifts-red-hood-iskra",
+      "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+      "path": "packs/scenario-gifts-red-hood-iskra.db",
       "type": "Item",
-      "system": "broken-tales"
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village",
-      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartOneTheYellowVillage",
-      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village.db",
+      "name": "scenario-gifts-of-flesh-and-wood",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+      "path": "packs/scenario-gifts-of-flesh-and-wood.db",
       "type": "Item",
-      "system": "broken-tales"
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village",
-      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartThreeTheEmeraldVillage",
-      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village.db",
+      "name": "scenario-gifts-the-smile-in-the-darkness",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+      "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
       "type": "Item",
-      "system": "broken-tales"
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village",
-      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartTwoTheRedVillage",
-      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village.db",
+      "name": "scenario-gifts-a-soldiers-duty",
+      "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+      "path": "packs/scenario-gifts-a-soldiers-duty.db",
       "type": "Item",
-      "system": "broken-tales"
-    },
-    {
-      "name": "scenario-gifts-saint-george-the-dragon-slayer",
-      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
-      "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
-      "type": "Item",
-      "system": "broken-tales"
-    },
-    {
-      "name": "scenario-gifts-the-city-of-pigs",
-      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
-      "path": "packs/scenario-gifts-the-city-of-pigs.db",
-      "type": "Item",
-      "system": "broken-tales"
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "scenario-gifts-wonderbedlam",
       "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
       "path": "packs/scenario-gifts-wonderbedlam.db",
       "type": "Item",
-      "system": "broken-tales"
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenario-gifts-tuvstarrs-reflection",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+      "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenario-gifts-the-city-of-pigs",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+      "path": "packs/scenario-gifts-the-city-of-pigs.db",
+      "type": "Item",
+      "system": "broken-tales",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "languages": [
