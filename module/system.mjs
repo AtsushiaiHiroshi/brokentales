@@ -81,17 +81,30 @@ function packIdFromApplication(application) {
   const collectionMetadata = application?.collection?.metadata;
   if (collectionMetadata?.id) return collectionMetadata.id;
   if (collectionMetadata?.packageName && collectionMetadata?.name) {
-    return `${collectionMetadata.packageName}.${collectionMetadata.name}`;
+    return collectionMetadata.packageName + "." + collectionMetadata.name;
   }
 
-  return application?.collection?.metadata?.id
-    ?? application?.collection?.collection
+  const direct = application?.collection?.collection
     ?? application?.document?.collection?.metadata?.id
     ?? application?.options?.collection
     ?? application?.options?.pack
+    ?? application?.id
     ?? "";
-}
+  if (typeof direct === "string" && isBrokenTalesPackId(direct)) return direct;
 
+  const title = String(application?.title ?? application?.window?.title ?? "").trim();
+  if (title && game?.packs) {
+    const byTitle = game.packs.find((pack) => {
+      if (!isBrokenTalesPackId(pack.collection)) return false;
+      const rawLabel = pack.metadata?.label ?? pack.title ?? pack.metadata?.name ?? "";
+      const label = game.i18n.localize(rawLabel);
+      return label === title || pack.title === title || rawLabel === title;
+    });
+    if (byTitle) return byTitle.collection;
+  }
+
+  return typeof direct === "string" ? direct : "";
+}
 function packIdFromRoot(root) {
   return root?.dataset?.pack
     ?? root?.querySelector?.("[data-pack]")?.dataset?.pack
