@@ -1,0 +1,3974 @@
+{
+  "module": "broken-tales-broken-ones",
+  "generatedAt": "2026-07-18T20:23:09.449Z",
+  "packs": [
+    {
+      "pack": "broken-ones-hunters",
+      "label": "BROKENTALES.Packs.BrokenOnesHunters",
+      "type": "Actor",
+      "count": 13,
+      "missingDocs": [
+        {
+          "name": "Talia the Sleeper",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-talia-the-sleeper.png",
+          "pages": 0
+        },
+        {
+          "name": "The Gang of three Pigs",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-the-gang-of-three-pigs.png",
+          "pages": 0
+        },
+        {
+          "name": "Yvonne of the Dark",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-yvonne-of-the-dark.png",
+          "pages": 0
+        },
+        {
+          "name": "Hatta Carter",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-hatta-carter.png",
+          "pages": 0
+        },
+        {
+          "name": "Iskra the Young Wolf",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-iskra-the-young-wolf.png",
+          "pages": 0
+        },
+        {
+          "name": "Bloodwhite",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-bloodwhite.png",
+          "pages": 0
+        },
+        {
+          "name": "Sherazade the Weaver of Tales",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-sherazade-the-weaver-of-tales.png",
+          "pages": 0
+        },
+        {
+          "name": "Morgana of the Lake",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-morgana-of-the-lake.png",
+          "pages": 0
+        },
+        {
+          "name": "Wound. Carlo the LivingPuppet",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-wound-carlo-the-livingpuppet.png",
+          "pages": 0
+        },
+        {
+          "name": "Alice of Other Worlds",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-alice-of-other-worlds.png",
+          "pages": 0
+        },
+        {
+          "name": "Beauty and her Beast",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-beauty-and-her-beast.png",
+          "pages": 0
+        },
+        {
+          "name": "The Knight with a Hundred Heads",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-the-knight-with-a-hundred-heads.png",
+          "pages": 0
+        },
+        {
+          "name": "OZena the Suffering",
+          "type": "hunter",
+          "img": "systems/broken-tales/assets/avatars/pregens/the-broken-ones-ozena-the-suffering.png",
+          "pages": 0
+        }
+      ],
+      "missingItems": [
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "The Cloak",
+          "type": "gift",
+          "key": "don1.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "In the Dream",
+          "type": "gift",
+          "key": "don2.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Dark Ego - The Sleeping Will",
+          "type": "darkEgo",
+          "key": "darkego.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "A large nun’s cloak",
+          "type": "equipment",
+          "key": "equipment1.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "A long hood with a veil hiding my face",
+          "type": "equipment",
+          "key": "equipment2.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Objects and small things that float under my cloak",
+          "type": "equipment",
+          "key": "equipment3.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "A piece of ivy that has remained clinging to my left arm",
+          "type": "equipment",
+          "key": "equipment4.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "The diary in which I wrote about my sad life before the curse",
+          "type": "equipment",
+          "key": "equipment5.talia-the-sleeper"
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.talia-the-sleeper"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Gang",
+          "type": "gift",
+          "key": "don1.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Eating the Divine",
+          "type": "gift",
+          "key": "don2.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Dark Ego - Our Home",
+          "type": "darkEgo",
+          "key": "darkego.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Pig’s head masks",
+          "type": "equipment",
+          "key": "equipment1.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Carpenter’s tool bags",
+          "type": "equipment",
+          "key": "equipment2.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Lots of bricks",
+          "type": "equipment",
+          "key": "equipment3.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Lots of wood",
+          "type": "equipment",
+          "key": "equipment4.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Lots of dried straw",
+          "type": "equipment",
+          "key": "equipment5.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Picks and hammers",
+          "type": "equipment",
+          "key": "equipment6.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Miners’ lanterns",
+          "type": "equipment",
+          "key": "equipment7.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Heavy leather work coats",
+          "type": "equipment",
+          "key": "equipment8.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "A reinforced case containing the flesh of the God Under the Mine",
+          "type": "equipment",
+          "key": "equipment9.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Three keys",
+          "type": "equipment",
+          "key": "equipment10.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "The Gang of three Pigs",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.the-gang-of-three-pigs"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Light the Flame",
+          "type": "gift",
+          "key": "don1.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Innocent Smile",
+          "type": "gift",
+          "key": "don2.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Dark Ego – Solitary Ghost",
+          "type": "darkEgo",
+          "key": "darkego.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "A worn-out cape",
+          "type": "equipment",
+          "key": "equipment1.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "A bag full of candles",
+          "type": "equipment",
+          "key": "equipment2.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "A tinderbox and dry sticks",
+          "type": "equipment",
+          "key": "equipment3.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Alcohol and other flammable substances",
+          "type": "equipment",
+          "key": "equipment4.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Some coins received as charity",
+          "type": "equipment",
+          "key": "equipment5.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "A small rosary donated by someone I don’t remember",
+          "type": "equipment",
+          "key": "equipment6.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Yvonne of the Dark",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.yvonne-of-the-dark"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Time Watches",
+          "type": "gift",
+          "key": "don1.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Playmates",
+          "type": "gift",
+          "key": "don2.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Dark Ego - Mad like a Hatter",
+          "type": "darkEgo",
+          "key": "darkego.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "A valuable and improbably tall top hat",
+          "type": "equipment",
+          "key": "equipment1.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Evening clothes",
+          "type": "equipment",
+          "key": "equipment2.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Watchmaker’s shirts and glasses",
+          "type": "equipment",
+          "key": "equipment3.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "A complete set of over twenty watches",
+          "type": "equipment",
+          "key": "equipment4.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "My precious toys",
+          "type": "equipment",
+          "key": "equipment5.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "A modified gun that can shoot multifunction bullets",
+          "type": "equipment",
+          "key": "equipment6.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "A fancy tea set",
+          "type": "equipment",
+          "key": "equipment7.hatta-carter"
+        },
+        {
+          "parent": "Hatta Carter",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.hatta-carter"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "The Red Hood",
+          "type": "gift",
+          "key": "don1.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Pack",
+          "type": "gift",
+          "key": "don2.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Dark Ego - The Young Wolf",
+          "type": "darkEgo",
+          "key": "darkego.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "A red cape of fine workmanship, embroidered with the coat of arms of the Order",
+          "type": "equipment",
+          "key": "equipment1.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "A wolf mask carved in wood",
+          "type": "equipment",
+          "key": "equipment2.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "A broken clay doll, a memento of one of my few happy memories of my mother",
+          "type": "equipment",
+          "key": "equipment3.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "A fang from the leader of my old pack",
+          "type": "equipment",
+          "key": "equipment4.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "A rag doll depicting a well-dressed girl, a gift from my beloved grandmother",
+          "type": "equipment",
+          "key": "equipment5.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Iskra the Young Wolf",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.iskra-the-young-wolf"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Mutant",
+          "type": "gift",
+          "key": "don1.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Mutagenic Touch",
+          "type": "gift",
+          "key": "don2.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Dark Ego - Pure Innocence",
+          "type": "darkEgo",
+          "key": "darkego.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "A precious dress",
+          "type": "equipment",
+          "key": "equipment1.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "A swallow-shaped hair clip, a gift from my mother",
+          "type": "equipment",
+          "key": "equipment2.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "An old gun, a gift from a group of seven mercenaries who defended me for a long time",
+          "type": "equipment",
+          "key": "equipment3.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "The coat of arms of my noble family",
+          "type": "equipment",
+          "key": "equipment4.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "A few small animals from the woods that follow me, attracted by my smell",
+          "type": "equipment",
+          "key": "equipment5.bloodwhite"
+        },
+        {
+          "parent": "Bloodwhite",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.bloodwhite"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "The Tale",
+          "type": "gift",
+          "key": "don1.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Words Like Honey",
+          "type": "gift",
+          "key": "don2.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Dark Ego - One Thousand and One Nights",
+          "type": "darkEgo",
+          "key": "darkego.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Precious oriental dresses",
+          "type": "equipment",
+          "key": "equipment1.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "A veil of red silk with which to cover my face",
+          "type": "equipment",
+          "key": "equipment2.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "A huge storybook",
+          "type": "equipment",
+          "key": "equipment3.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Incense and perfumes",
+          "type": "equipment",
+          "key": "equipment4.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "A bag full of gifts given by adoring nobles, who had been enthralled by the stories I told",
+          "type": "equipment",
+          "key": "equipment5.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "A small dagger coated with poison",
+          "type": "equipment",
+          "key": "equipment6.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "The comb with which I brushed the hair of my beloved sister",
+          "type": "equipment",
+          "key": "equipment7.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "The egg of a strange creature that was given to me as a gift by Sinbad, the Traveler of a Thousand Seas",
+          "type": "equipment",
+          "key": "equipment8.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Sherazade the Weaver of Tales",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.sherazade-the-weaver-of-tales"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Weaver of Destiny",
+          "type": "gift",
+          "key": "don1.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Illusion",
+          "type": "gift",
+          "key": "don2.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Dark Ego - The Supreme Fairy",
+          "type": "darkEgo",
+          "key": "darkego.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "A practical, street artist’s dress",
+          "type": "equipment",
+          "key": "equipment1.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "A silver headband, a gift from someone I have forgotten",
+          "type": "equipment",
+          "key": "equipment2.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "A small diary where I transcribe my dreams",
+          "type": "equipment",
+          "key": "equipment3.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "An ancient coin engraved with the word Camelot",
+          "type": "equipment",
+          "key": "equipment4.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Two wooden dolls I hold in my sleep, a witch and a warlock",
+          "type": "equipment",
+          "key": "equipment5.morgana-of-the-lake"
+        },
+        {
+          "parent": "Morgana of the Lake",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.morgana-of-the-lake"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Lies",
+          "type": "gift",
+          "key": "don1.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Always in the Middle of Trouble",
+          "type": "gift",
+          "key": "don2.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Dark Ego - Soulless Puppet",
+          "type": "darkEgo",
+          "key": "darkego.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "A school coat",
+          "type": "equipment",
+          "key": "equipment1.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "An old textbook",
+          "type": "equipment",
+          "key": "equipment2.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "A map to the famous Field of Miracles",
+          "type": "equipment",
+          "key": "equipment3.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "A small bag with some junk taken from the stomach of a fish",
+          "type": "equipment",
+          "key": "equipment4.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "A miraculous medicine, gift of a Fairy",
+          "type": "equipment",
+          "key": "equipment5.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Wound. Carlo the LivingPuppet",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.wound-carlo-the-livingpuppet"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Physician",
+          "type": "gift",
+          "key": "don1.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Cheshire the Lynx",
+          "type": "gift",
+          "key": "don2.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Dark Ego - Alice of Other Worlds",
+          "type": "darkEgo",
+          "key": "darkego.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A valuable doctor’s coat",
+          "type": "equipment",
+          "key": "equipment1.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Books about the human psyche",
+          "type": "equipment",
+          "key": "equipment2.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A watch, a gift from someone I met on my travels",
+          "type": "equipment",
+          "key": "equipment3.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A lucky rabbit’s foot",
+          "type": "equipment",
+          "key": "equipment4.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A set of sharp scalpels",
+          "type": "equipment",
+          "key": "equipment5.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A doctor’s bag",
+          "type": "equipment",
+          "key": "equipment6.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "A deck of cards which is missing the queen of hearts",
+          "type": "equipment",
+          "key": "equipment7.alice-of-other-worlds"
+        },
+        {
+          "parent": "Alice of Other Worlds",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.alice-of-other-worlds"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "The Beast",
+          "type": "gift",
+          "key": "don1.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "The Beauty",
+          "type": "gift",
+          "key": "don2.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Dark Ego - Beasts in Body and Soul",
+          "type": "darkEgo",
+          "key": "darkego.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "A leather whip and metal needles",
+          "type": "equipment",
+          "key": "equipment1.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "A noble dress",
+          "type": "equipment",
+          "key": "equipment2.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Fine dresses and jewelry",
+          "type": "equipment",
+          "key": "equipment3.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "A rose that never fades",
+          "type": "equipment",
+          "key": "equipment4.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "A bag with dried meat with which to keep Dionysus’ hunger at bay",
+          "type": "equipment",
+          "key": "equipment5.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Soaps and feminine perfumes",
+          "type": "equipment",
+          "key": "equipment6.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "A poisoned stiletto that I keep hidden for any eventuality",
+          "type": "equipment",
+          "key": "equipment7.beauty-and-her-beast"
+        },
+        {
+          "parent": "Beauty and her Beast",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.beauty-and-her-beast"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "Ordog the Trusty Horse",
+          "type": "gift",
+          "key": "don1.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "The Bridge",
+          "type": "gift",
+          "key": "don2.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "Dark Ego - The Headless Knight",
+          "type": "darkEgo",
+          "key": "darkego.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A worn and colorful military uniform",
+          "type": "equipment",
+          "key": "equipment1.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "My trusty dueling saber",
+          "type": "equipment",
+          "key": "equipment2.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A pair of finely made guns",
+          "type": "equipment",
+          "key": "equipment3.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A large tricorn hat covering my head",
+          "type": "equipment",
+          "key": "equipment4.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A pocket watch",
+          "type": "equipment",
+          "key": "equipment5.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A braid of hair which belonged to the one I loved",
+          "type": "equipment",
+          "key": "equipment6.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A letter from a comrade fallen in battle",
+          "type": "equipment",
+          "key": "equipment7.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "A large scarf with which to wrap my face and hide my missing head",
+          "type": "equipment",
+          "key": "equipment8.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "The Knight with a Hundred Heads",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.the-knight-with-a-hundred-heads"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Descriptor 1",
+          "type": "descriptor",
+          "key": "descriptor-principal.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Descriptor 2",
+          "type": "descriptor",
+          "key": "descriptor1-don1.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Descriptor 3",
+          "type": "descriptor",
+          "key": "descriptor2-don2.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Dark Ego Descriptor",
+          "type": "descriptor",
+          "key": "descriptor-darkego.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "The Silver Shoes",
+          "type": "gift",
+          "key": "don1.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Experience of a Dark Journey",
+          "type": "gift",
+          "key": "don2.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Dark Ego - From Another World",
+          "type": "darkEgo",
+          "key": "darkego.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "A green cape with a wide and drooping hood",
+          "type": "equipment",
+          "key": "equipment1.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "A blade of modern design",
+          "type": "equipment",
+          "key": "equipment2.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "A bag full of small objects from my time",
+          "type": "equipment",
+          "key": "equipment3.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "A mask of delicate workmanship that depicts a suffering face",
+          "type": "equipment",
+          "key": "equipment4.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "My trusty silver shoes",
+          "type": "equipment",
+          "key": "equipment5.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "A series of stilettos hidden in my blond hair",
+          "type": "equipment",
+          "key": "equipment6.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "The medal of my dear deceased dog",
+          "type": "equipment",
+          "key": "equipment7.ozena-the-suffering"
+        },
+        {
+          "parent": "OZena the Suffering",
+          "name": "Source Sheet",
+          "type": "storyElement",
+          "key": "source.ozena-the-suffering"
+        }
+      ]
+    },
+    {
+      "pack": "broken-ones-actors",
+      "label": "BROKENTALES.Packs.BrokenOnesActors",
+      "type": "Actor",
+      "count": 54,
+      "missingDocs": [
+        {
+          "name": "Hanse",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Crazed Maws",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Hedge Labyrinth",
+          "type": "threat",
+          "img": "icons/svg/cowled.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bruna the Poor Witch",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bella’s Servants",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Aleksandr Pták",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Arne the Captain",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Mercenary and Researcher of Renowned Fame",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Seal of the Cauldron Fae",
+          "type": "threat",
+          "img": "icons/svg/cowled.svg",
+          "pages": 0
+        },
+        {
+          "name": "Althea the Agent of the Order",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Talia the Sleeper",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Count Azul of Vigo",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Ostromir Malý",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Nature Rises Up",
+          "type": "threat",
+          "img": "icons/svg/cowled.svg",
+          "pages": 0
+        },
+        {
+          "name": "Francisca and Marta the Vengeful Sisters",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pietro Gonsalva Regent of Capodimonte",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Cernobog Potmešil The Child",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Lisbet",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Georg Slanina the Helper",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Akim the Tamer",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Doves",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "George Carnarvon",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pack of Mastiffs",
+          "type": "threat",
+          "img": "icons/svg/cowled.svg",
+          "pages": 0
+        },
+        {
+          "name": "Georg the Survivor",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dioniso Gonsalva called the Beast",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Gang of the Lost Boys",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Abel the Young Lover",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Maws",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dionysus’ Mastiffs",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bianca Karenmann",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Eduardo and Felipe",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Svenn the Skilled Hunter",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Alexandra the Mother",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Berto the Bear",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pietrik",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Mtyrya the Fairy also called the Cauldron Fae",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Father Cristoforo",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bella’s Handmaids",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Princesca of Vigo",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Konstantin Svoboda the Alchemist",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Tasha the Tiger",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Director of the Theater",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Food of the Gods",
+          "type": "threat",
+          "img": "icons/svg/cowled.svg",
+          "pages": 0
+        },
+        {
+          "name": "Basil the Survivor",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Gwendolyn",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Beáta Czernin the Noblewoman",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Gréte",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Francesca Cantalupo",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Quiet Guards",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Berend the Crazed Captain",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Sailors",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Joanna called Nana the Servant",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "Karl and Elsa Karenmann",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Prince",
+          "type": "threat",
+          "img": "icons/svg/mystery-man.svg",
+          "pages": 0
+        }
+      ],
+      "missingItems": [
+        {
+          "parent": "Hanse",
+          "name": "Hanse - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Hanse",
+          "name": "Gift - Mutant Maw",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Hanse",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Crazed Maws",
+          "name": "Crazed Maws - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Crazed Maws",
+          "name": "Gift - Mutant Abomination",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Crazed Maws",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Hedge Labyrinth",
+          "name": "Hedge Labyrinth - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Hedge Labyrinth",
+          "name": "Gift - Secret Passage",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Hedge Labyrinth",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Bruna the Poor Witch",
+          "name": "Bruna the Poor Witch - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Bruna the Poor Witch",
+          "name": "Gift - Latent Witch",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Bruna the Poor Witch",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Bella’s Servants",
+          "name": "Bella’s Servants - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Bella’s Servants",
+          "name": "Gift - For Our Lady",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Bella’s Servants",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Aleksandr Pták",
+          "name": "Aleksandr Pták - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Aleksandr Pták",
+          "name": "Gift - Swallow’s Flight",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Aleksandr Pták",
+          "name": "Gift - What is Yours is Mine",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Aleksandr Pták",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Arne the Captain",
+          "name": "Arne the Captain - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Arne the Captain",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Mercenary and Researcher of Renowned Fame",
+          "name": "Mercenary and Researcher of Renowned Fame - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Mercenary and Researcher of Renowned Fame",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Seal of the Cauldron Fae",
+          "name": "Seal of the Cauldron Fae - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Seal of the Cauldron Fae",
+          "name": "Gift - Seals Everywhere",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Seal of the Cauldron Fae",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Althea the Agent of the Order",
+          "name": "Althea the Agent of the Order - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Althea the Agent of the Order",
+          "name": "Gift - Agent of the Order",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Althea the Agent of the Order",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Talia the Sleeper - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Gift - Sleeping Spirit",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Talia the Sleeper",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Count Azul of Vigo",
+          "name": "The Count Azul of Vigo - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Count Azul of Vigo",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Ostromir Malý",
+          "name": "Ostromir Malý - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Ostromir Malý",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Nature Rises Up",
+          "name": "Nature Rises Up - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Nature Rises Up",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Francisca and Marta the Vengeful Sisters",
+          "name": "Francisca and Marta the Vengeful Sisters - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Francisca and Marta the Vengeful Sisters",
+          "name": "Gift - The Razor-sharp Glass Slippers",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Francisca and Marta the Vengeful Sisters",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Pietro Gonsalva Regent of Capodimonte",
+          "name": "Pietro Gonsalva Regent of Capodimonte - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Pietro Gonsalva Regent of Capodimonte",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Cernobog Potmešil The Child",
+          "name": "Cernobog Potmešil The Child - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Cernobog Potmešil The Child",
+          "name": "Gift - The Ruby of Hate",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Cernobog Potmešil The Child",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Lisbet",
+          "name": "Lisbet - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Lisbet",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Georg Slanina the Helper",
+          "name": "Georg Slanina the Helper - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Georg Slanina the Helper",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Akim the Tamer",
+          "name": "Akim the Tamer - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Akim the Tamer",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Doves",
+          "name": "The Doves - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Doves",
+          "name": "Gift - Go for the Eyes",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Doves",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "George Carnarvon",
+          "name": "George Carnarvon - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "George Carnarvon",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Pack of Mastiffs",
+          "name": "Pack of Mastiffs - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Pack of Mastiffs",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Georg the Survivor",
+          "name": "Georg the Survivor - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Georg the Survivor",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Dioniso Gonsalva called the Beast",
+          "name": "Dioniso Gonsalva called the Beast - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Dioniso Gonsalva called the Beast",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Gang of the Lost Boys",
+          "name": "The Gang of the Lost Boys - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Gang of the Lost Boys",
+          "name": "Gift - Gang Seal",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Gang of the Lost Boys",
+          "name": "Gift - Rioter",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Gang of the Lost Boys",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Abel the Young Lover",
+          "name": "Abel the Young Lover - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Abel the Young Lover",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Maws",
+          "name": "The Maws - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Maws",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Dionysus’ Mastiffs",
+          "name": "Dionysus’ Mastiffs - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Dionysus’ Mastiffs",
+          "name": "Gift - Pack",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Dionysus’ Mastiffs",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Bianca Karenmann",
+          "name": "Bianca Karenmann - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Bianca Karenmann",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Eduardo and Felipe",
+          "name": "Eduardo and Felipe - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Eduardo and Felipe",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Svenn the Skilled Hunter",
+          "name": "Svenn the Skilled Hunter - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Svenn the Skilled Hunter",
+          "name": "Gift - The Solver",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Svenn the Skilled Hunter",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Alexandra the Mother",
+          "name": "Alexandra the Mother - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Alexandra the Mother",
+          "name": "Gift - Deformed Orc",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Alexandra the Mother",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Berto the Bear",
+          "name": "Berto the Bear - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Berto the Bear",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Pietrik",
+          "name": "Pietrik - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Pietrik",
+          "name": "Gift - The Needle of Living Shadows",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Pietrik",
+          "name": "Gift - Personal Seal",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Pietrik",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Mtyrya the Fairy also called the Cauldron Fae",
+          "name": "Mtyrya the Fairy also called the Cauldron Fae - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Mtyrya the Fairy also called the Cauldron Fae",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Father Cristoforo",
+          "name": "Father Cristoforo - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Father Cristoforo",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Bella’s Handmaids",
+          "name": "Bella’s Handmaids - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Bella’s Handmaids",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Princesca of Vigo",
+          "name": "Princesca of Vigo - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Princesca of Vigo",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Konstantin Svoboda the Alchemist",
+          "name": "Konstantin Svoboda the Alchemist - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Konstantin Svoboda the Alchemist",
+          "name": "Gift - The Secrets of Metal",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Konstantin Svoboda the Alchemist",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Tasha the Tiger",
+          "name": "Tasha the Tiger - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Tasha the Tiger",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Director of the Theater",
+          "name": "Director of the Theater - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Director of the Theater",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Food of the Gods",
+          "name": "The Food of the Gods - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Food of the Gods",
+          "name": "Gift - The Drug of the True Self",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Food of the Gods",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Basil the Survivor",
+          "name": "Basil the Survivor - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Basil the Survivor",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Gwendolyn",
+          "name": "Gwendolyn - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Gwendolyn",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Beáta Czernin the Noblewoman",
+          "name": "Beáta Czernin the Noblewoman - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Beáta Czernin the Noblewoman",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Gréte",
+          "name": "Gréte - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Gréte",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Francesca Cantalupo",
+          "name": "Francesca Cantalupo - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Francesca Cantalupo",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Quiet Guards",
+          "name": "The Quiet Guards - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Quiet Guards",
+          "name": "Gift - Quiet Guards",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Quiet Guards",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Berend the Crazed Captain",
+          "name": "Berend the Crazed Captain - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Berend the Crazed Captain",
+          "name": "Gift - Stinking Survivor",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Berend the Crazed Captain",
+          "name": "Gift - Safe Haven from the Maws",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "Berend the Crazed Captain",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Sailors",
+          "name": "Sailors - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Sailors",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Joanna called Nana the Servant",
+          "name": "Joanna called Nana the Servant - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Joanna called Nana the Servant",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "Karl and Elsa Karenmann",
+          "name": "Karl and Elsa Karenmann - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "Karl and Elsa Karenmann",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        },
+        {
+          "parent": "The Prince",
+          "name": "The Prince - Descriptor",
+          "type": "descriptor",
+          "key": ""
+        },
+        {
+          "parent": "The Prince",
+          "name": "Gift - Broken Heart",
+          "type": "gift",
+          "key": ""
+        },
+        {
+          "parent": "The Prince",
+          "name": "Source Text",
+          "type": "storyElement",
+          "key": ""
+        }
+      ]
+    },
+    {
+      "pack": "broken-ones-descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+      "type": "Item",
+      "count": 41,
+      "missingDocs": [
+        {
+          "name": "Talia the Sleeper - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Talia the Sleeper - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Talia the Sleeper - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Talia the Sleeper - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Gang of Three Pigs - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Gang of Three Pigs - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Gang of Three Pigs - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Gang of Three Pigs - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Yvonne of the Dark - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Yvonne of the Dark - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Hatta Carter - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Hatta Carter - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra the Young Wolf - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra the Young Wolf - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra the Young Wolf - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra the Young Wolf - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Bloodwhite - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Bloodwhite - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Bloodwhite - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Sherazade the Weaver of Tales - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Sherazade the Weaver of Tales - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Sherazade the Weaver of Tales - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Sherazade the Weaver of Tales - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Morgana of the Lake - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Morgana of the Lake - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Wound Carlo the Livingpuppet - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Wound Carlo the Livingpuppet - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Alice of Other Worlds - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Alice of Other Worlds - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Alice of Other Worlds - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Alice of Other Worlds - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Beauty and Her Beast - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Beauty and Her Beast - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Beauty and Her Beast - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Beauty and Her Beast - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Knight With A Hundred Heads - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "the Knight With A Hundred Heads - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Ozena the Suffering - Main Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Ozena the Suffering - Gift 1 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Ozena the Suffering - Gift 2 Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        },
+        {
+          "name": "Ozena the Suffering - Dark Ego Descriptor",
+          "type": "descriptor",
+          "img": "systems/broken-tales/assets/icons/descriptor-improvement.webp",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-threat-descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+      "type": "Item",
+      "count": 54,
+      "missingDocs": [
+        {
+          "name": "Abel the Young Lover - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Akim the Tamer - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Aleksandr Pták - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Alexandra the Mother - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Althea the Agent of the Order - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Arne the Captain - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Basil the Survivor - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Beáta Czernin the Noblewoman - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bella’s Handmaids - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bella’s Servants - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Berend the Crazed Captain - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Berto the Bear - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bianca Karenmann - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Bruna the Poor Witch - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Cernobog Potmešil The Child - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Crazed Maws - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dioniso Gonsalva called the Beast - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dionysus’ Mastiffs - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Director of the Theater - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Eduardo and Felipe - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Father Cristoforo - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Francesca Cantalupo - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Francisca and Marta the Vengeful Sisters - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Georg Slanina the Helper - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Georg the Survivor - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "George Carnarvon - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Gréte - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Gwendolyn - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Hanse - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Hedge Labyrinth - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Joanna called Nana the Servant - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Karl and Elsa Karenmann - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Konstantin Svoboda the Alchemist - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Lisbet - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Mercenary and Researcher of Renowned Fame - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Mtyrya the Fairy also called the Cauldron Fae - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Nature Rises Up - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Ostromir Malý - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pack of Mastiffs - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pietrik - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pietro Gonsalva Regent of Capodimonte - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Princesca of Vigo - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Sailors - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Seal of the Cauldron Fae - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Svenn the Skilled Hunter - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Talia the Sleeper - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "Tasha the Tiger - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Count Azul of Vigo - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Doves - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Food of the Gods - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Gang of the Lost Boys - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Maws - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Prince - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        },
+        {
+          "name": "The Quiet Guards - Descriptor",
+          "type": "descriptor",
+          "img": "icons/svg/book.svg",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-gifts",
+      "label": "BROKENTALES.Packs.BrokenOnesGifts",
+      "type": "Item",
+      "count": 26,
+      "missingDocs": [
+        {
+          "name": "The Cloak",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "In the Dream",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Gang",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Eating the Divine",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Light the Flame",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Innocent Smile",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Time Watches",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Playmates",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Red Hood",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Pack",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Mutant",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Mutagenic Touch",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Tale",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Words Like Honey",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Weaver of Destiny",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Illusion",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Lies",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Always in the Middle of Trouble",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Physician",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Cheshire the Lynx",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Beast",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Beauty",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Ordog the Trusty Horse",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Bridge",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "The Silver Shoes",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Experience of a Dark Journey",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-dark-egos",
+      "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+      "type": "Item",
+      "count": 13,
+      "missingDocs": [
+        {
+          "name": "Dark Ego - The Sleeping Will",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Our Home",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego – Solitary Ghost",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Mad like a Hatter",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - The Young Wolf",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Pure Innocence",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - One Thousand and One Nights",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - The Supreme Fairy",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Soulless Puppet",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Alice of Other Worlds",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - Beasts in Body and Soul",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - The Headless Knight",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        },
+        {
+          "name": "Dark Ego - From Another World",
+          "type": "darkEgo",
+          "img": "icons/svg/terror.svg",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-equipment",
+      "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+      "type": "Item",
+      "count": 85,
+      "missingDocs": [
+        {
+          "name": "A large nun’s cloak",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A long hood with a veil hiding my face",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Objects and small things that float under my cloak",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A piece of ivy that has remained clinging to my left arm",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "The diary in which I wrote about my sad life before the curse",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Pig’s head masks",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Carpenter’s tool bags",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Lots of bricks",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Lots of wood",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Lots of dried straw",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Picks and hammers",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Miners’ lanterns",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Heavy leather work coats",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A reinforced case containing the flesh of the God Under the Mine",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Three keys",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A worn-out cape",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A bag full of candles",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A tinderbox and dry sticks",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Alcohol and other flammable substances",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Some coins received as charity",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A small rosary donated by someone I don’t remember",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A valuable and improbably tall top hat",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Evening clothes",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Watchmaker’s shirts and glasses",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A complete set of over twenty watches",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "My precious toys",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A modified gun that can shoot multifunction bullets",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A fancy tea set",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A red cape of fine workmanship, embroidered with the coat of arms of the Order",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A wolf mask carved in wood",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A broken clay doll, a memento of one of my few happy memories of my mother",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A fang from the leader of my old pack",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A rag doll depicting a well-dressed girl, a gift from my beloved grandmother",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A precious dress",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A swallow-shaped hair clip, a gift from my mother",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "An old gun, a gift from a group of seven mercenaries who defended me for a long time",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "The coat of arms of my noble family",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A few small animals from the woods that follow me, attracted by my smell",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Precious oriental dresses",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A veil of red silk with which to cover my face",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A huge storybook",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Incense and perfumes",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A bag full of gifts given by adoring nobles, who had been enthralled by the stories I told",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A small dagger coated with poison",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "The comb with which I brushed the hair of my beloved sister",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "The egg of a strange creature that was given to me as a gift by Sinbad, the Traveler of a Thousand Seas",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A practical, street artist’s dress",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A silver headband, a gift from someone I have forgotten",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A small diary where I transcribe my dreams",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "An ancient coin engraved with the word Camelot",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Two wooden dolls I hold in my sleep, a witch and a warlock",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A school coat",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "An old textbook",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A map to the famous Field of Miracles",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A small bag with some junk taken from the stomach of a fish",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A miraculous medicine, gift of a Fairy",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A valuable doctor’s coat",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Books about the human psyche",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A watch, a gift from someone I met on my travels",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A lucky rabbit’s foot",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A set of sharp scalpels",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A doctor’s bag",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A deck of cards which is missing the queen of hearts",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A leather whip and metal needles",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A noble dress",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Fine dresses and jewelry",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A rose that never fades",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A bag with dried meat with which to keep Dionysus’ hunger at bay",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "Soaps and feminine perfumes",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A poisoned stiletto that I keep hidden for any eventuality",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A worn and colorful military uniform",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "My trusty dueling saber",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A pair of finely made guns",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A large tricorn hat covering my head",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A pocket watch",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A braid of hair which belonged to the one I loved",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A letter from a comrade fallen in battle",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A large scarf with which to wrap my face and hide my missing head",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A green cape with a wide and drooping hood",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A blade of modern design",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A bag full of small objects from my time",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A mask of delicate workmanship that depicts a suffering face",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "My trusty silver shoes",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "A series of stilettos hidden in my blond hair",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        },
+        {
+          "name": "The medal of my dear deceased dog",
+          "type": "equipment",
+          "img": "icons/svg/item-bag.svg",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-library",
+      "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+      "type": "JournalEntry",
+      "count": 3,
+      "missingDocs": [
+        {
+          "name": "Broken Tales - The Broken Ones - Villager's Sheet",
+          "img": "",
+          "pages": 2
+        },
+        {
+          "name": "bt-tbo-sheets-eng-final-screen",
+          "img": "",
+          "pages": 27
+        },
+        {
+          "name": "bt-tbo-1-eng-final-screen",
+          "img": "",
+          "pages": 177
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-adventures",
+      "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+      "type": "JournalEntry",
+      "count": 7,
+      "missingDocs": [
+        {
+          "name": "I Will Stay with You Always",
+          "img": "",
+          "pages": 7
+        },
+        {
+          "name": "In Your Eyes, with Your Feet",
+          "img": "",
+          "pages": 8
+        },
+        {
+          "name": "Hunger Island",
+          "img": "",
+          "pages": 8
+        },
+        {
+          "name": "The House of Roses",
+          "img": "",
+          "pages": 7
+        },
+        {
+          "name": "I Don't Believe",
+          "img": "",
+          "pages": 7
+        },
+        {
+          "name": "Stegeborg's Quiet",
+          "img": "",
+          "pages": 10
+        },
+        {
+          "name": "Bloodwhite's Heart",
+          "img": "",
+          "pages": 7
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-maps",
+      "label": "BROKENTALES.Packs.BrokenOnesMaps",
+      "type": "JournalEntry",
+      "count": 7,
+      "missingDocs": [
+        {
+          "name": "I Will Stay with You Always",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "I Don't Believe",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Bloodwhite's Heart",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Stegeborg's Quiet",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "In Your Eyes, with Your Feet",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "The House of Roses",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Hunger Island",
+          "img": "",
+          "pages": 1
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-scenes",
+      "label": "BROKENTALES.Packs.BrokenOnesScenes",
+      "type": "Scene",
+      "count": 7,
+      "missingDocs": [
+        {
+          "name": "In Your Eyes, with Your Feet",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "Stegeborg's Quiet",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "I Will Stay with You Always",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "The House of Roses",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "Hunger Island",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "I Don't Believe",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "Bloodwhite's Heart",
+          "img": "",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "red-hood-iskra-support",
+      "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+      "type": "Item",
+      "count": 13,
+      "missingDocs": [
+        {
+          "name": "Where are you going all alone, sweetie?",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra's Pendant",
+          "type": "storyElement",
+          "img": "icons/sundries/jewelry/necklace-pendant-moon-silver.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra's Wolf Mask",
+          "type": "storyElement",
+          "img": "icons/equipment/head/mask-carved-wood-tan.webp",
+          "pages": 0
+        },
+        {
+          "name": "Gerard's Letter to the Papacy",
+          "type": "storyElement",
+          "img": "icons/sundries/scrolls/scroll-worn-tan-brown.webp",
+          "pages": 0
+        },
+        {
+          "name": "Iskra's Red Cape",
+          "type": "storyElement",
+          "img": "icons/equipment/back/cloak-layered-red.webp",
+          "pages": 0
+        },
+        {
+          "name": "Voice of the Spirits",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Elizaveta's Poison",
+          "type": "storyElement",
+          "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
+          "pages": 0
+        },
+        {
+          "name": "Blood Drawings in the Den",
+          "type": "storyElement",
+          "img": "icons/sundries/documents/document-torn-brown-red.webp",
+          "pages": 0
+        },
+        {
+          "name": "Portrait of Patrick Dubois",
+          "type": "storyElement",
+          "img": "icons/sundries/misc/portrait-painting-frame.webp",
+          "pages": 0
+        },
+        {
+          "name": "Wolf-killer",
+          "type": "gift",
+          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
+          "pages": 0
+        },
+        {
+          "name": "Wolf Tracks and Child's Footprints",
+          "type": "storyElement",
+          "img": "icons/sundries/misc/paw-print.webp",
+          "pages": 0
+        },
+        {
+          "name": "Pile of Bones and Corpses",
+          "type": "storyElement",
+          "img": "icons/commodities/bones/bones-skull-white.webp",
+          "pages": 0
+        },
+        {
+          "name": "Secret Passageway Map",
+          "type": "storyElement",
+          "img": "icons/sundries/documents/blueprint-axe.webp",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "red-hood-iskra-maps",
+      "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+      "type": "JournalEntry",
+      "count": 4,
+      "missingDocs": [
+        {
+          "name": "Cemetery - Red-Hood Iskra",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Durfort - Red-Hood Iskra",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Wolf Den - Red-Hood Iskra",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Gevaudan - Red-Hood Iskra",
+          "img": "",
+          "pages": 1
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "red-hood-iskra-audio",
+      "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+      "type": "Playlist",
+      "count": 2,
+      "missingDocs": [
+        {
+          "name": "Broken Tales OST",
+          "img": "",
+          "pages": 0
+        },
+        {
+          "name": "Broken Tales - Iskra SFX",
+          "img": "",
+          "pages": 0
+        }
+      ],
+      "missingItems": []
+    },
+    {
+      "pack": "broken-ones-source-pdfs",
+      "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+      "type": "JournalEntry",
+      "count": 3,
+      "missingDocs": [
+        {
+          "name": "Broken Tales - The Broken Ones",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Broken Tales - The Broken Ones Hunters Sheets",
+          "img": "",
+          "pages": 1
+        },
+        {
+          "name": "Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30]",
+          "img": "",
+          "pages": 1
+        }
+      ],
+      "missingItems": []
+    }
+  ]
+}
