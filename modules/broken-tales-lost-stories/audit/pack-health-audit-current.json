@@ -1,0 +1,1018 @@
+{
+  "id": "broken-tales-lost-stories",
+  "version": "0.2.20",
+  "summary": [
+    {
+      "name": "lost-stories-hunters",
+      "type": "Actor",
+      "count": 19,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "The Respectable Mr. and Mrs. Mars",
+        "Princess Viola of Altomonte",
+        "Magnifico the Naked Emperor",
+        "Thumbking the King of Crime",
+        "Nema the Beastslayer",
+        "Prince Trollo the Innocent",
+        "Karasu Kuroi the Wandering Monk",
+        "Vivienne of the Lake",
+        "The Pale Medic",
+        "Moriarty the Gentleman Thief",
+        "The 7 Hessian Mercenaries",
+        "Tremoteus Rumpel",
+        "Loki the Deceiver",
+        "Miss Snow and Lady Storm",
+        "The Silent Mother",
+        "Doctor V. Frankenstein",
+        "Captain William of Nottingham",
+        "Pietrik and the Cauldron Fae",
+        "Circe the Alchemist"
+      ],
+      "missingEsItems": [
+        {
+          "name": "The Respectable Mr. and Mrs. Mars",
+          "missing": 13,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 6,
+            "total": 14
+          }
+        },
+        {
+          "name": "Princess Viola of Altomonte",
+          "missing": 6,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 0,
+            "total": 7
+          }
+        },
+        {
+          "name": "Magnifico the Naked Emperor",
+          "missing": 6,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 0,
+            "total": 7
+          }
+        },
+        {
+          "name": "Thumbking the King of Crime",
+          "missing": 7,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 0,
+            "total": 8
+          }
+        },
+        {
+          "name": "Nema the Beastslayer",
+          "missing": 6,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 0,
+            "total": 7
+          }
+        },
+        {
+          "name": "Prince Trollo the Innocent",
+          "missing": 14,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 15
+          }
+        },
+        {
+          "name": "Karasu Kuroi the Wandering Monk",
+          "missing": 13,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 6,
+            "total": 14
+          }
+        },
+        {
+          "name": "Vivienne of the Lake",
+          "missing": 11,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 4,
+            "total": 12
+          }
+        },
+        {
+          "name": "The Pale Medic",
+          "missing": 14,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 8,
+            "total": 15
+          }
+        },
+        {
+          "name": "Moriarty the Gentleman Thief",
+          "missing": 14,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 8,
+            "total": 15
+          }
+        },
+        {
+          "name": "The 7 Hessian Mercenaries",
+          "missing": 14,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 15
+          }
+        },
+        {
+          "name": "Tremoteus Rumpel",
+          "missing": 13,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 14
+          }
+        },
+        {
+          "name": "Loki the Deceiver",
+          "missing": 12,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 6,
+            "total": 13
+          }
+        },
+        {
+          "name": "Miss Snow and Lady Storm",
+          "missing": 12,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 13
+          }
+        },
+        {
+          "name": "The Silent Mother",
+          "missing": 12,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 6,
+            "total": 13
+          }
+        },
+        {
+          "name": "Doctor V. Frankenstein",
+          "missing": 16,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 9,
+            "total": 17
+          }
+        },
+        {
+          "name": "Captain William of Nottingham",
+          "missing": 14,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 8,
+            "total": 15
+          }
+        },
+        {
+          "name": "Pietrik and the Cauldron Fae",
+          "missing": 11,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 12
+          }
+        },
+        {
+          "name": "Circe the Alchemist",
+          "missing": 18,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 11,
+            "total": 19
+          }
+        }
+      ],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-actors",
+      "type": "Actor",
+      "count": 122,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [
+        "The Green Knight",
+        "Robbers",
+        "The Magic Lake Portal",
+        "Ivory Seeking Pirates",
+        "3: Mikko",
+        "The Imposter",
+        "Haunted House",
+        "Helpers",
+        "Fury and Wrath, the Two Deadly Twins",
+        "Fredrika Okland",
+        "The Four Daughters of Hazir",
+        "Ice Golem",
+        "Hazir the Poor Merchant",
+        "Dark Waters",
+        "Rotten Wreck",
+        "Anselm Wagner",
+        "Baba the Poor Conman",
+        "The Alchemical Door",
+        "The Merchant",
+        "Ice Layer",
+        "Demonic Dogs",
+        "Father Neron Lobo",
+        "City Chaos",
+        "Nikola’s Bats",
+        "Uther Pendragon",
+        "Ice Soldier",
+        "Britta the Witch",
+        "Ravn",
+        "Sister Esperanza",
+        "Miss Snow"
+      ],
+      "missingEsNames": [
+        "The Green Knight",
+        "Robbers",
+        "The Magic Lake Portal",
+        "Ivory Seeking Pirates",
+        "3: Mikko",
+        "The Imposter",
+        "Haunted House",
+        "Helpers",
+        "Fury and Wrath, the Two Deadly Twins",
+        "Fredrika Okland",
+        "The Four Daughters of Hazir",
+        "Ice Golem",
+        "Hazir the Poor Merchant",
+        "Dark Waters",
+        "Rotten Wreck",
+        "Anselm Wagner",
+        "Baba the Poor Conman",
+        "The Alchemical Door",
+        "The Merchant",
+        "Ice Layer",
+        "Demonic Dogs",
+        "Father Neron Lobo",
+        "City Chaos",
+        "Nikola’s Bats",
+        "Uther Pendragon",
+        "Ice Soldier",
+        "Britta the Witch",
+        "Ravn",
+        "Sister Esperanza",
+        "Miss Snow"
+      ],
+      "missingEsItems": [
+        {
+          "name": "The Green Knight",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Robbers",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Magic Lake Portal",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Ivory Seeking Pirates",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "3: Mikko",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Imposter",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Haunted House",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Helpers",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Fury and Wrath, the Two Deadly Twins",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Fredrika Okland",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Four Daughters of Hazir",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Ice Golem",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Hazir the Poor Merchant",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Dark Waters",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Rotten Wreck",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Anselm Wagner",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Baba the Poor Conman",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Alchemical Door",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Merchant",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Ice Layer",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Demonic Dogs",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Father Neron Lobo",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "City Chaos",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Nikola’s Bats",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Uther Pendragon",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Ice Soldier",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Britta the Witch",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Ravn",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Sister Esperanza",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Miss Snow",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        }
+      ],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-dark-presences",
+      "type": "Actor",
+      "count": 10,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [
+        "White Rose and Red Rose",
+        "Brunhilde the Fighter",
+        "The Roc",
+        "Polonia “the Fairy” and Perez “the Rat”",
+        "Hans the Handsome",
+        "Poor Nello and The Faithful Patrasche",
+        "Gemba Tanuki and Mayu Kitsune",
+        "The Regiment of Giants",
+        "Harlequin the Servant",
+        "The Little Oni"
+      ],
+      "missingEsNames": [
+        "White Rose and Red Rose",
+        "Brunhilde the Fighter",
+        "The Roc",
+        "Polonia “the Fairy” and Perez “the Rat”",
+        "Hans the Handsome",
+        "Poor Nello and The Faithful Patrasche",
+        "Gemba Tanuki and Mayu Kitsune",
+        "The Regiment of Giants",
+        "Harlequin the Servant",
+        "The Little Oni"
+      ],
+      "missingEsItems": [
+        {
+          "name": "White Rose and Red Rose",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Brunhilde the Fighter",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "The Roc",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Polonia “the Fairy” and Perez “the Rat”",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Hans the Handsome",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Poor Nello and The Faithful Patrasche",
+          "missing": 4,
+          "counts": {
+            "descriptor": 1,
+            "gift": 3,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 5
+          }
+        },
+        {
+          "name": "Gemba Tanuki and Mayu Kitsune",
+          "missing": 5,
+          "counts": {
+            "descriptor": 1,
+            "gift": 4,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 6
+          }
+        },
+        {
+          "name": "The Regiment of Giants",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Harlequin the Servant",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "The Little Oni",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        }
+      ],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-dark-presence-descriptors",
+      "type": "Item",
+      "count": 10,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "White Rose and Red Rose - Descriptor",
+        "The Little Oni - Descriptor",
+        "Brunhilde the Fighter - Descriptor",
+        "The Roc - Descriptor",
+        "Poor Nello and The Faithful Patrasche - Descriptor",
+        "Gemba Tanuki and Mayu Kitsune - Descriptor",
+        "Hans the Handsome - Descriptor",
+        "Polonia “the Fairy” and Perez “the Rat” - Descriptor",
+        "The Regiment of Giants - Descriptor",
+        "Harlequin the Servant - Descriptor"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-threat-descriptors",
+      "type": "Item",
+      "count": 10,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Poor Nello and The Faithful Patrasche - Descriptor",
+        "Gemba Tanuki and Mayu Kitsune - Descriptor",
+        "The Regiment of Giants - Descriptor",
+        "Brunhilde the Fighter - Descriptor",
+        "The Roc - Descriptor",
+        "White Rose and Red Rose - Descriptor",
+        "Polonia “the Fairy” and Perez “the Rat” - Descriptor",
+        "The Little Oni - Descriptor",
+        "Harlequin the Servant - Descriptor",
+        "Hans the Handsome - Descriptor"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-descriptors",
+      "type": "Item",
+      "count": 66,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "the Respectable Mr and Mrs Mars - Main Descriptor",
+        "the Respectable Mr and Mrs Mars - Gift 1 Descriptor",
+        "the Respectable Mr and Mrs Mars - Gift 2 Descriptor",
+        "the Respectable Mr and Mrs Mars - Dark Ego Descriptor",
+        "Lost Stories Exclusives Hunter 6 - Main Descriptor",
+        "Lost Stories Exclusives Hunter 6 - Gift 1 Descriptor",
+        "Lost Stories Exclusives Hunter 6 - Gift 2 Descriptor",
+        "Lost Stories Exclusives Hunter 9 - Main Descriptor",
+        "Lost Stories Exclusives Hunter 9 - Gift 1 Descriptor",
+        "Lost Stories Exclusives Hunter 9 - Gift 2 Descriptor",
+        "Lost Stories Exclusives Hunter 7 - Main Descriptor",
+        "Lost Stories Exclusives Hunter 7 - Gift 1 Descriptor",
+        "Lost Stories Exclusives Hunter 7 - Gift 2 Descriptor",
+        "Lost Stories Exclusives Hunter 7 - Dark Ego Descriptor",
+        "Lost Stories Exclusives Hunter 8 - Main Descriptor",
+        "Lost Stories Exclusives Hunter 8 - Gift 1 Descriptor",
+        "Lost Stories Exclusives Hunter 8 - Gift 2 Descriptor",
+        "Prince Trollo the Innocent - Main Descriptor",
+        "Prince Trollo the Innocent - Gift 1 Descriptor",
+        "Prince Trollo the Innocent - Gift 2 Descriptor",
+        "Prince Trollo the Innocent - Dark Ego Descriptor",
+        "Karasu Kuroi the Wandering Monk - Main Descriptor",
+        "Karasu Kuroi the Wandering Monk - Gift 1 Descriptor",
+        "Karasu Kuroi the Wandering Monk - Gift 2 Descriptor",
+        "Karasu Kuroi the Wandering Monk - Dark Ego Descriptor",
+        "Lost Stories Exclusives Hunter 5 - Main Descriptor",
+        "Lost Stories Exclusives Hunter 5 - Gift 1 Descriptor",
+        "Lost Stories Exclusives Hunter 5 - Gift 2 Descriptor",
+        "Lost Stories Exclusives Hunter 5 - Dark Ego Descriptor",
+        "the Pale Medic - Main Descriptor"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-gifts",
+      "type": "Item",
+      "count": 38,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Incognito Agents",
+        "Informants",
+        "Porziella the Faithful Flea",
+        "The Magic of the Seven",
+        "What I Want to See",
+        "What I Don’t Want to See",
+        "Tiny",
+        "In the Right Place at the Right Time",
+        "Hunting Companion",
+        "Stalking",
+        "Noble Birth",
+        "Good Heart",
+        "Monk",
+        "Moral Rigor",
+        "Blessing of the Defeated",
+        "The Lady’s Champion",
+        "Cursed Blood",
+        "Welcome to My House",
+        "Diabolical Plan",
+        "Dark Eminence",
+        "The Team",
+        "On Mission",
+        "Examine the Evidence",
+        "Your Honor",
+        "Thousand Faces",
+        "Trickster",
+        "Snow Sorceress",
+        "Winter’s Kiss",
+        "Legacy",
+        "My Beloved Daughters"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-dark-egos",
+      "type": "Item",
+      "count": 19,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Dark Ego - Alien Technology",
+        "Dark Ego - Taking Destiny into My Own Hands",
+        "Dark Ego - All Eyes on Me",
+        "Dark Ego - Infallible Cunning",
+        "Dark Ego - It’s Time to Kill the Beast",
+        "Dark Ego - Oknytt’s Legacy",
+        "Dark Ego - You Are What You Fight",
+        "Dark Ego - Water Fairy",
+        "Dark Ego - The Vampire",
+        "Dark Ego - The Napoleon of Crime",
+        "Dark Ego - Heigh-ho, Heigh-ho",
+        "Dark Ego - Shattered Pact",
+        "Dark Ego - The Great Deception",
+        "Dark Ego - Snow Queen",
+        "Dark Ego - The Caring Mother",
+        "Dark Ego - Reanimator",
+        "Dark Ego - Capture the Outlaws",
+        "Dark Ego - The Magic of Disbelief",
+        "Dark Ego - Goddess Blood"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-equipment",
+      "type": "Item",
+      "count": 103,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Well-made clothes",
+        "Walking umbrella and pipe",
+        "A small vase with a strange bright red seedling",
+        "A box of excellent chocolates",
+        "Various fake identity documents",
+        "A portrait of a couple commissioned from a famous painter",
+        "Clothes of fine workmanship",
+        "A small wooden crown painted with gold, given to me by my father",
+        "A splendid short sword",
+        "A bag containing everything needed to process milk and make butter",
+        "A precious bracelet engraved with a cradle, a gift from my mother",
+        "A well-worn blanket that I love and use as a cloak",
+        "A bag full of coins and valuables that I often lose",
+        "My prized traveling Shakujō",
+        "My prized Hauchiwa fan",
+        "A Tengu-gui raven mask",
+        "A theater mask with a long nose that I use to hide my Asian features",
+        "A katana that belonged to a famous samurai",
+        "A traveling bag containing boiled rice and bean paste",
+        "Fine clothes",
+        "Wigs, tricks, and masks",
+        "A few trinkets the Order insists on calling “Treasures”",
+        "A small portrait of the only human I ever loved",
+        "A dark doctor’s uniform",
+        "A pair of fine dark glasses",
+        "A vial of Transylvanian soil",
+        "An ash stake crusted with blood",
+        "A doctor’s bag",
+        "A dozen vials of my blood",
+        "A necklace made by nomads"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "lost-stories-scenario-gifts",
+      "type": "Item",
+      "count": 10,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Blessing of the Sea",
+        "Art of Command",
+        "Coral of the Sea Fairy",
+        "Marionettes' Destroyer",
+        "A True Friend",
+        "The Field of Miracles",
+        "Voice of the Spirits",
+        "Exorcist",
+        "Hugin and Munin",
+        "Lance of the Fallen Knight"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    }
+  ]
+}

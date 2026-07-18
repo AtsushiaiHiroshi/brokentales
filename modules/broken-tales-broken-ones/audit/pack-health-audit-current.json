@@ -1,0 +1,793 @@
+{
+  "id": "broken-tales-broken-ones",
+  "version": "0.2.18",
+  "summary": [
+    {
+      "name": "broken-ones-hunters",
+      "type": "Actor",
+      "count": 13,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Talia the Sleeper",
+        "The Gang of three Pigs",
+        "Yvonne of the Dark",
+        "Hatta Carter",
+        "Iskra the Young Wolf",
+        "Bloodwhite",
+        "Sherazade the Weaver of Tales",
+        "Morgana of the Lake",
+        "Wound. Carlo the LivingPuppet",
+        "Alice of Other Worlds",
+        "Beauty and her Beast",
+        "The Knight with a Hundred Heads",
+        "OZena the Suffering"
+      ],
+      "missingEsItems": [
+        {
+          "name": "Talia the Sleeper",
+          "missing": 12,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 13
+          }
+        },
+        {
+          "name": "The Gang of three Pigs",
+          "missing": 17,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 10,
+            "total": 18
+          }
+        },
+        {
+          "name": "Yvonne of the Dark",
+          "missing": 11,
+          "counts": {
+            "descriptor": 2,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 6,
+            "total": 12
+          }
+        },
+        {
+          "name": "Hatta Carter",
+          "missing": 12,
+          "counts": {
+            "descriptor": 2,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 13
+          }
+        },
+        {
+          "name": "Iskra the Young Wolf",
+          "missing": 12,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 13
+          }
+        },
+        {
+          "name": "Bloodwhite",
+          "missing": 11,
+          "counts": {
+            "descriptor": 3,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 12
+          }
+        },
+        {
+          "name": "Sherazade the Weaver of Tales",
+          "missing": 15,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 8,
+            "total": 16
+          }
+        },
+        {
+          "name": "Morgana of the Lake",
+          "missing": 10,
+          "counts": {
+            "descriptor": 2,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 11
+          }
+        },
+        {
+          "name": "Wound. Carlo the LivingPuppet",
+          "missing": 10,
+          "counts": {
+            "descriptor": 2,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 5,
+            "total": 11
+          }
+        },
+        {
+          "name": "Alice of Other Worlds",
+          "missing": 14,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 15
+          }
+        },
+        {
+          "name": "Beauty and her Beast",
+          "missing": 14,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 15
+          }
+        },
+        {
+          "name": "The Knight with a Hundred Heads",
+          "missing": 13,
+          "counts": {
+            "descriptor": 2,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 8,
+            "total": 14
+          }
+        },
+        {
+          "name": "OZena the Suffering",
+          "missing": 14,
+          "counts": {
+            "descriptor": 4,
+            "gift": 2,
+            "darkEgo": 1,
+            "equipment": 7,
+            "total": 15
+          }
+        }
+      ],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-actors",
+      "type": "Actor",
+      "count": 54,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [
+        "Hanse",
+        "Crazed Maws",
+        "Hedge Labyrinth",
+        "Bruna the Poor Witch",
+        "Bella’s Servants",
+        "Aleksandr Pták",
+        "Arne the Captain",
+        "Mercenary and Researcher of Renowned Fame",
+        "Seal of the Cauldron Fae",
+        "Althea the Agent of the Order",
+        "Talia the Sleeper",
+        "The Count Azul of Vigo",
+        "Ostromir Malý",
+        "Nature Rises Up",
+        "Francisca and Marta the Vengeful Sisters",
+        "Pietro Gonsalva Regent of Capodimonte",
+        "Cernobog Potmešil The Child",
+        "Lisbet",
+        "Georg Slanina the Helper",
+        "Akim the Tamer",
+        "The Doves",
+        "George Carnarvon",
+        "Pack of Mastiffs",
+        "Georg the Survivor",
+        "Dioniso Gonsalva called the Beast",
+        "The Gang of the Lost Boys",
+        "Abel the Young Lover",
+        "The Maws",
+        "Dionysus’ Mastiffs",
+        "Bianca Karenmann"
+      ],
+      "missingEsNames": [
+        "Hanse",
+        "Crazed Maws",
+        "Hedge Labyrinth",
+        "Bruna the Poor Witch",
+        "Bella’s Servants",
+        "Aleksandr Pták",
+        "Arne the Captain",
+        "Mercenary and Researcher of Renowned Fame",
+        "Seal of the Cauldron Fae",
+        "Althea the Agent of the Order",
+        "Talia the Sleeper",
+        "The Count Azul of Vigo",
+        "Ostromir Malý",
+        "Nature Rises Up",
+        "Francisca and Marta the Vengeful Sisters",
+        "Pietro Gonsalva Regent of Capodimonte",
+        "Cernobog Potmešil The Child",
+        "Lisbet",
+        "Georg Slanina the Helper",
+        "Akim the Tamer",
+        "The Doves",
+        "George Carnarvon",
+        "Pack of Mastiffs",
+        "Georg the Survivor",
+        "Dioniso Gonsalva called the Beast",
+        "The Gang of the Lost Boys",
+        "Abel the Young Lover",
+        "The Maws",
+        "Dionysus’ Mastiffs",
+        "Bianca Karenmann"
+      ],
+      "missingEsItems": [
+        {
+          "name": "Hanse",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Crazed Maws",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Hedge Labyrinth",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Bruna the Poor Witch",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Bella’s Servants",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Aleksandr Pták",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Arne the Captain",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Mercenary and Researcher of Renowned Fame",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Seal of the Cauldron Fae",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Althea the Agent of the Order",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Talia the Sleeper",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "The Count Azul of Vigo",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Ostromir Malý",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Nature Rises Up",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Francisca and Marta the Vengeful Sisters",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Pietro Gonsalva Regent of Capodimonte",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Cernobog Potmešil The Child",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Lisbet",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Georg Slanina the Helper",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Akim the Tamer",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Doves",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "George Carnarvon",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Pack of Mastiffs",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Georg the Survivor",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Dioniso Gonsalva called the Beast",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Gang of the Lost Boys",
+          "missing": 3,
+          "counts": {
+            "descriptor": 1,
+            "gift": 2,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 4
+          }
+        },
+        {
+          "name": "Abel the Young Lover",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "The Maws",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        },
+        {
+          "name": "Dionysus’ Mastiffs",
+          "missing": 2,
+          "counts": {
+            "descriptor": 1,
+            "gift": 1,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 3
+          }
+        },
+        {
+          "name": "Bianca Karenmann",
+          "missing": 1,
+          "counts": {
+            "descriptor": 1,
+            "gift": 0,
+            "darkEgo": 0,
+            "equipment": 0,
+            "total": 2
+          }
+        }
+      ],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-descriptors",
+      "type": "Item",
+      "count": 41,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Talia the Sleeper - Main Descriptor",
+        "Talia the Sleeper - Gift 1 Descriptor",
+        "Talia the Sleeper - Gift 2 Descriptor",
+        "Talia the Sleeper - Dark Ego Descriptor",
+        "the Gang of Three Pigs - Main Descriptor",
+        "the Gang of Three Pigs - Gift 1 Descriptor",
+        "the Gang of Three Pigs - Gift 2 Descriptor",
+        "the Gang of Three Pigs - Dark Ego Descriptor",
+        "Yvonne of the Dark - Main Descriptor",
+        "Yvonne of the Dark - Gift 1 Descriptor",
+        "Hatta Carter - Main Descriptor",
+        "Hatta Carter - Gift 1 Descriptor",
+        "Iskra the Young Wolf - Main Descriptor",
+        "Iskra the Young Wolf - Gift 1 Descriptor",
+        "Iskra the Young Wolf - Gift 2 Descriptor",
+        "Iskra the Young Wolf - Dark Ego Descriptor",
+        "Bloodwhite - Main Descriptor",
+        "Bloodwhite - Gift 1 Descriptor",
+        "Bloodwhite - Gift 2 Descriptor",
+        "Sherazade the Weaver of Tales - Main Descriptor",
+        "Sherazade the Weaver of Tales - Gift 1 Descriptor",
+        "Sherazade the Weaver of Tales - Gift 2 Descriptor",
+        "Sherazade the Weaver of Tales - Dark Ego Descriptor",
+        "Morgana of the Lake - Main Descriptor",
+        "Morgana of the Lake - Gift 1 Descriptor",
+        "Wound Carlo the Livingpuppet - Main Descriptor",
+        "Wound Carlo the Livingpuppet - Gift 1 Descriptor",
+        "Alice of Other Worlds - Main Descriptor",
+        "Alice of Other Worlds - Gift 1 Descriptor",
+        "Alice of Other Worlds - Gift 2 Descriptor"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-threat-descriptors",
+      "type": "Item",
+      "count": 54,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Abel the Young Lover - Descriptor",
+        "Akim the Tamer - Descriptor",
+        "Aleksandr Pták - Descriptor",
+        "Alexandra the Mother - Descriptor",
+        "Althea the Agent of the Order - Descriptor",
+        "Arne the Captain - Descriptor",
+        "Basil the Survivor - Descriptor",
+        "Beáta Czernin the Noblewoman - Descriptor",
+        "Bella’s Handmaids - Descriptor",
+        "Bella’s Servants - Descriptor",
+        "Berend the Crazed Captain - Descriptor",
+        "Berto the Bear - Descriptor",
+        "Bianca Karenmann - Descriptor",
+        "Bruna the Poor Witch - Descriptor",
+        "Cernobog Potmešil The Child - Descriptor",
+        "Crazed Maws - Descriptor",
+        "Dioniso Gonsalva called the Beast - Descriptor",
+        "Dionysus’ Mastiffs - Descriptor",
+        "Director of the Theater - Descriptor",
+        "Eduardo and Felipe - Descriptor",
+        "Father Cristoforo - Descriptor",
+        "Francesca Cantalupo - Descriptor",
+        "Francisca and Marta the Vengeful Sisters - Descriptor",
+        "Georg Slanina the Helper - Descriptor",
+        "Georg the Survivor - Descriptor",
+        "George Carnarvon - Descriptor",
+        "Gréte - Descriptor",
+        "Gwendolyn - Descriptor",
+        "Hanse - Descriptor",
+        "Hedge Labyrinth - Descriptor"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-gifts",
+      "type": "Item",
+      "count": 26,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "The Cloak",
+        "In the Dream",
+        "Gang",
+        "Eating the Divine",
+        "Light the Flame",
+        "Innocent Smile",
+        "Time Watches",
+        "Playmates",
+        "The Red Hood",
+        "Pack",
+        "Mutant",
+        "Mutagenic Touch",
+        "The Tale",
+        "Words Like Honey",
+        "Weaver of Destiny",
+        "Illusion",
+        "Lies",
+        "Always in the Middle of Trouble",
+        "Physician",
+        "Cheshire the Lynx",
+        "The Beast",
+        "The Beauty",
+        "Ordog the Trusty Horse",
+        "The Bridge",
+        "The Silver Shoes",
+        "Experience of a Dark Journey"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-dark-egos",
+      "type": "Item",
+      "count": 13,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Dark Ego - The Sleeping Will",
+        "Dark Ego - Our Home",
+        "Dark Ego – Solitary Ghost",
+        "Dark Ego - Mad like a Hatter",
+        "Dark Ego - The Young Wolf",
+        "Dark Ego - Pure Innocence",
+        "Dark Ego - One Thousand and One Nights",
+        "Dark Ego - The Supreme Fairy",
+        "Dark Ego - Soulless Puppet",
+        "Dark Ego - Alice of Other Worlds",
+        "Dark Ego - Beasts in Body and Soul",
+        "Dark Ego - The Headless Knight",
+        "Dark Ego - From Another World"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "broken-ones-equipment",
+      "type": "Item",
+      "count": 85,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "A large nun’s cloak",
+        "A long hood with a veil hiding my face",
+        "Objects and small things that float under my cloak",
+        "A piece of ivy that has remained clinging to my left arm",
+        "The diary in which I wrote about my sad life before the curse",
+        "Pig’s head masks",
+        "Carpenter’s tool bags",
+        "Lots of bricks",
+        "Lots of wood",
+        "Lots of dried straw",
+        "Picks and hammers",
+        "Miners’ lanterns",
+        "Heavy leather work coats",
+        "A reinforced case containing the flesh of the God Under the Mine",
+        "Three keys",
+        "A worn-out cape",
+        "A bag full of candles",
+        "A tinderbox and dry sticks",
+        "Alcohol and other flammable substances",
+        "Some coins received as charity",
+        "A small rosary donated by someone I don’t remember",
+        "A valuable and improbably tall top hat",
+        "Evening clothes",
+        "Watchmaker’s shirts and glasses",
+        "A complete set of over twenty watches",
+        "My precious toys",
+        "A modified gun that can shoot multifunction bullets",
+        "A fancy tea set",
+        "A red cape of fine workmanship, embroidered with the coat of arms of the Order",
+        "A wolf mask carved in wood"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    },
+    {
+      "name": "red-hood-iskra-support",
+      "type": "Item",
+      "count": 13,
+      "dupes": [],
+      "emptyActors": [],
+      "genericImages": [],
+      "missingEsNames": [
+        "Where are you going all alone, sweetie?",
+        "Iskra's Pendant",
+        "Iskra's Wolf Mask",
+        "Gerard's Letter to the Papacy",
+        "Iskra's Red Cape",
+        "Voice of the Spirits",
+        "Elizaveta's Poison",
+        "Blood Drawings in the Den",
+        "Portrait of Patrick Dubois",
+        "Wolf-killer",
+        "Wolf Tracks and Child's Footprints",
+        "Pile of Bones and Corpses",
+        "Secret Passageway Map"
+      ],
+      "missingEsItems": [],
+      "lowContent": []
+    }
+  ]
+}
