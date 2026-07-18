@@ -1727,3 +1727,65 @@
     min-height: 96px;
   }
 }
+
+/* v0.2.25: keep long translated names readable and preserve the Broken Tales sheet paper. */
+.broken-tales.actor-sheet .bt-sheet {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.93)),
+    image-set(
+      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
+      url("../assets/ui/broken-tales-sheet.png") type("image/png")
+    ) center -340px / min(100%, 980px) auto repeat-y,
+    #faf9f3;
+}
+
+.broken-tales.actor-sheet .bt-sheet-head {
+  grid-template-columns: 124px minmax(0, 1.45fr) minmax(260px, 0.85fr);
+}
+
+.broken-tales.actor-sheet .bt-name,
+.broken-tales.actor-sheet .bt-name-long .bt-name,
+.broken-tales.actor-sheet .bt-name-very-long .bt-name,
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  box-sizing: border-box;
+  height: auto;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  padding-bottom: 8px;
+  resize: none;
+  text-wrap: wrap;
+  white-space: normal;
+  word-break: normal;
+}
+
+.broken-tales.actor-sheet .bt-name-long .bt-name {
+  font-size: 27px;
+  line-height: 1.02;
+  min-height: 82px;
+}
+
+.broken-tales.actor-sheet .bt-name-very-long .bt-name {
+  font-size: 22px;
+  line-height: 1.05;
+  min-height: 112px;
+}
+
+.broken-tales.actor-sheet .bt-name-extreme .bt-name {
+  font-size: 18px;
+  line-height: 1.08;
+  min-height: 146px;
+}
+
+@media (max-width: 1120px) {
+  .broken-tales.actor-sheet .bt-sheet-head {
+    grid-template-columns: 124px minmax(0, 1fr);
+  }
+
+  .broken-tales.actor-sheet .bt-featured {
+    grid-column: 1 / -1;
+  }
+
+  .broken-tales.actor-sheet .bt-name-extreme .bt-name {
+    min-height: 118px;
+  }
+}

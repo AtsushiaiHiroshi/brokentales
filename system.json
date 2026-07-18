@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.25",
+  "version": "0.2.26",
   "authors": [
     {
       "name": "Mesa local"
