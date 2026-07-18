@@ -62,6 +62,11 @@ const ESSENTIAL_MACRO_NAME_KEYS = [
 
 const LEGACY_MACRO_PATTERNS = [
   /broken tales/i,
+  /delete all world actors and items/i,
+  /borrar todos los actores e items/i,
+  /borrar todos los actores y objetos/i,
+  /clean .*duplicate actors/i,
+  /limpiar actores duplicados/i,
   /pregenerados de broken tales/i,
   /presencias oscuras de broken tales/i,
   /actores duplicados de broken tales/i
