@@ -304,6 +304,55 @@
       },
       "flags": {},
       "folder": "Broken Tales - Core"
+    },
+    {
+      "name": "scenario-gifts-one-thousand-and-one-nightmares",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+      "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartOneTheYellowVillage",
+      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartThreeTheEmeraldVillage",
+      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperatePartTwoTheRedVillage",
+      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-saint-george-the-dragon-slayer",
+      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+      "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-the-city-of-pigs",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+      "path": "packs/scenario-gifts-the-city-of-pigs.db",
+      "type": "Item",
+      "system": "broken-tales"
+    },
+    {
+      "name": "scenario-gifts-wonderbedlam",
+      "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+      "path": "packs/scenario-gifts-wonderbedlam.db",
+      "type": "Item",
+      "system": "broken-tales"
     }
   ],
   "languages": [
@@ -326,5 +375,72 @@
   "url": "",
   "manifest": "",
   "download": "",
-  "license": "Private local fan project. This install may include extracted content from user-owned PDFs; do not redistribute."
+  "license": "Private local fan project. This install may include extracted content from user-owned PDFs; do not redistribute.",
+  "packFolders": [
+    {
+      "name": "Broken Tales - Core",
+      "sorting": "m",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cazadores del Core",
+          "sorting": "m",
+          "packs": [
+            "hunters",
+            "hunter-descriptors",
+            "hunter-gifts",
+            "hunter-dark-egos",
+            "hunter-equipment"
+          ],
+          "color": "#d01f2f"
+        },
+        {
+          "name": "Narrador y oposición",
+          "sorting": "m",
+          "packs": [
+            "threats-villagers-essences",
+            "dark-presences",
+            "scenario-actors",
+            "dark-presence-descriptors",
+            "threat-descriptors",
+            "villager-descriptors",
+            "essence-descriptors"
+          ],
+          "color": "#790018"
+        },
+        {
+          "name": "Escenarios y apoyo",
+          "sorting": "m",
+          "packs": [
+            "scenario-gifts",
+            "support",
+            "library",
+            "adventures",
+            "adventure-maps",
+            "adventure-scenes",
+            "source-pdfs",
+            "audit"
+          ],
+          "color": "#111111"
+        }
+      ],
+      "color": "#d01f2f",
+      "children": [
+        {
+          "name": "Dones de escenario por aventura",
+          "sorting": "a",
+          "packs": [
+            "scenario-gifts-one-thousand-and-one-nightmares",
+            "scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village",
+            "scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village",
+            "scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village",
+            "scenario-gifts-saint-george-the-dragon-slayer",
+            "scenario-gifts-the-city-of-pigs",
+            "scenario-gifts-wonderbedlam"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
 }
