@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T11:05:08.328Z",
+  "generatedAt": "2026-07-18T11:28:03.521Z",
   "packs": [
     {
       "rel": "packs/hunters-canon.db",
@@ -9,120 +9,6 @@
         "hunter": 15
       },
       "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/threats-villagers-essences-canon.db",
-      "exists": true,
-      "count": 4,
-      "typeCounts": {
-        "threat": 1,
-        "npc": 1,
-        "villager": 1,
-        "essence": 1
-      },
-      "missingEs": 4,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/support-canon.db",
-      "exists": true,
-      "count": 6,
-      "typeCounts": {
-        "storyElement": 5,
-        "equipment": 1
-      },
-      "missingEs": 6,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/scenario-gifts-canon.db",
-      "exists": true,
-      "count": 19,
-      "typeCounts": {
-        "gift": 19
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/hunter-gifts-canon.db",
-      "exists": true,
-      "count": 31,
-      "typeCounts": {
-        "gift": 31
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/hunter-descriptors-canon.db",
-      "exists": true,
-      "count": 61,
-      "typeCounts": {
-        "descriptor": 61
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/hunter-equipment-canon.db",
-      "exists": true,
-      "count": 80,
-      "typeCounts": {
-        "equipment": 80
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/hunter-dark-egos-canon.db",
-      "exists": true,
-      "count": 15,
-      "typeCounts": {
-        "darkEgo": 15
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/dark-presence-descriptors-canon.db",
-      "exists": true,
-      "count": 46,
-      "typeCounts": {
-        "descriptor": 46
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/threat-descriptors-canon.db",
-      "exists": true,
-      "count": 18,
-      "typeCounts": {
-        "descriptor": 18
-      },
-      "missingEs": 18,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/villager-descriptors-canon.db",
-      "exists": true,
-      "count": 4,
-      "typeCounts": {
-        "descriptor": 4
-      },
-      "missingEs": 4,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/essence-descriptors-canon.db",
-      "exists": true,
-      "count": 3,
-      "typeCounts": {
-        "descriptor": 3
-      },
-      "missingEs": 3,
       "duplicateKeys": []
     },
     {
@@ -138,147 +24,56 @@
     {
       "rel": "packs/scenario-actors-canon.db",
       "exists": true,
-      "count": 94,
+      "count": 85,
       "typeCounts": {
-        "threat": 94
-      },
-      "missingEs": 94,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/library-canon.db",
-      "exists": true,
-      "count": 12,
-      "typeCounts": {
-        "undefined": 12
-      },
-      "missingEs": 12,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/adventures-canon.db",
-      "exists": true,
-      "count": 11,
-      "typeCounts": {
-        "undefined": 11
-      },
-      "missingEs": 11,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/adventure-maps-canon.db",
-      "exists": true,
-      "count": 13,
-      "typeCounts": {
-        "undefined": 13
-      },
-      "missingEs": 13,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/adventure-scenes-canon.db",
-      "exists": true,
-      "count": 14,
-      "typeCounts": {
-        "undefined": 14
-      },
-      "missingEs": 14,
-      "duplicateKeys": [
-        {
-          "key": "Broken Europe Map||",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "rel": "packs/audit-canon.db",
-      "exists": true,
-      "count": 1,
-      "typeCounts": {
-        "undefined": 1
-      },
-      "missingEs": 1,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/source-pdfs-canon.db",
-      "exists": true,
-      "count": 47,
-      "typeCounts": {
-        "undefined": 47
-      },
-      "missingEs": 47,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/scenario-gifts-red-hood-iskra.db",
-      "exists": true,
-      "count": 3,
-      "typeCounts": {
-        "gift": 3
+        "villager": 38,
+        "threat": 47
       },
       "missingEs": 0,
       "duplicateKeys": []
     },
     {
-      "rel": "packs/scenario-gifts-of-flesh-and-wood.db",
+      "rel": "packs/threat-descriptors-canon.db",
       "exists": true,
-      "count": 3,
+      "count": 118,
       "typeCounts": {
-        "gift": 3
+        "descriptor": 118
       },
       "missingEs": 0,
       "duplicateKeys": []
     },
     {
-      "rel": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+      "rel": "packs/villager-descriptors-canon.db",
       "exists": true,
-      "count": 2,
+      "count": 71,
       "typeCounts": {
-        "gift": 2
+        "descriptor": 71
       },
       "missingEs": 0,
       "duplicateKeys": []
     },
     {
-      "rel": "packs/scenario-gifts-a-soldiers-duty.db",
+      "rel": "packs/scenario-gifts-canon.db",
       "exists": true,
-      "count": 3,
+      "count": 19,
       "typeCounts": {
-        "gift": 3
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/scenario-gifts-wonderbedlam.db",
-      "exists": true,
-      "count": 3,
-      "typeCounts": {
-        "gift": 3
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/scenario-gifts-tuvstarrs-reflection.db",
-      "exists": true,
-      "count": 2,
-      "typeCounts": {
-        "gift": 2
-      },
-      "missingEs": 0,
-      "duplicateKeys": []
-    },
-    {
-      "rel": "packs/scenario-gifts-the-city-of-pigs.db",
-      "exists": true,
-      "count": 3,
-      "typeCounts": {
-        "gift": 3
+        "gift": 19
       },
       "missingEs": 0,
       "duplicateKeys": []
     }
-  ]
+  ],
+  "scenarioActors": {
+    "count": 85,
+    "typeCounts": {
+      "villager": 38,
+      "threat": 47
+    },
+    "emptyActors": [],
+    "itemProblems": []
+  },
+  "manifest": {
+    "packCount": 26,
+    "duplicatePacks": []
+  }
 }

@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.32",
+  "version": "0.2.33",
   "authors": [
     {
       "name": "Mesa local"
@@ -68,18 +68,6 @@
       "name": "hunters",
       "label": "BROKENTALES.Packs.CoreHunters",
       "path": "packs/hunters-canon.db",
-      "type": "Actor",
-      "system": "broken-tales",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "folder": "Broken Tales - Core"
-    },
-    {
-      "name": "threats-villagers-essences",
-      "label": "BROKENTALES.Packs.ThreatsVillagersEssences",
-      "path": "packs/threats-villagers-essences-canon.db",
       "type": "Actor",
       "system": "broken-tales",
       "ownership": {

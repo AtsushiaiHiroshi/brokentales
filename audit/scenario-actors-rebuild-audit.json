@@ -1,0 +1,87 @@
+{
+  "root": "E:/respaldos/brokentales-repo",
+  "actorCount": 85,
+  "perSource": {
+    "Adversaries.db": 33,
+    "Villager.db": 38,
+    "Creatures.db": 14
+  },
+  "typeCounts": {
+    "villager": 38,
+    "threat": 47
+  },
+  "embeddedItems": 331,
+  "threatDescriptorCount": 118,
+  "villagerDescriptorCount": 71,
+  "sample": [
+    {
+      "name": "Alicia - The Young Girl in Love",
+      "type": "villager",
+      "items": 3,
+      "wounds": 3
+    },
+    {
+      "name": "Alissa of Norfolk",
+      "type": "villager",
+      "items": 4,
+      "wounds": 1
+    },
+    {
+      "name": "Alizée - The Fugitive Nun",
+      "type": "villager",
+      "items": 3,
+      "wounds": 1
+    },
+    {
+      "name": "Amabile Burromo - Innkeeper",
+      "type": "villager",
+      "items": 2,
+      "wounds": 1
+    },
+    {
+      "name": "Andersen - The Former Commander",
+      "type": "villager",
+      "items": 4,
+      "wounds": 3
+    },
+    {
+      "name": "Angry Little Girl",
+      "type": "villager",
+      "items": 3,
+      "wounds": 2
+    },
+    {
+      "name": "Anne the Little Chatterer",
+      "type": "villager",
+      "items": 2,
+      "wounds": 1
+    },
+    {
+      "name": "Antonio Ciliegia - Gullible Alchemist",
+      "type": "threat",
+      "items": 3,
+      "wounds": 3,
+      "ol": 5
+    },
+    {
+      "name": "Arthur Browne - The Big Brother",
+      "type": "threat",
+      "items": 5,
+      "wounds": 2,
+      "ol": 5
+    },
+    {
+      "name": "Bardolf Greed - The Wealthy Industrialist",
+      "type": "villager",
+      "items": 4,
+      "wounds": 1
+    }
+  ],
+  "generatedAt": "2026-07-18T11:23:44.837Z",
+  "sources": [
+    "Adversaries.db",
+    "Villager.db",
+    "Creatures.db"
+  ],
+  "note": "Core scenario actors rebuilt from structured legacy backups without module variant DBs."
+}

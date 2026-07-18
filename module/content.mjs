@@ -590,6 +590,21 @@ function isBrokenTalesActor(actor) {
     || ["hunter", "threat", "npc", "villager", "essence"].includes(actor.type);
 }
 
+function actorDuplicateKeys(actor) {
+  const flags = actor.flags?.["broken-tales"] ?? {};
+  const flaggedKey = flags.ownerKey
+    || flags.hunterSlug
+    || flags.darkPresenceSlug
+    || flags.scenarioActorSlug
+    || flags.brokenOneSlug
+    || flags.lostStoriesSlug;
+  if (flaggedKey) return [`${actor.type}:flag:${flaggedKey}`];
+
+  return [...localizedNames(actor)]
+    .filter(Boolean)
+    .map((name) => `${actor.type}:name:${name}`);
+}
+
 export async function cleanupDuplicateActors() {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
@@ -598,17 +613,22 @@ export async function cleanupDuplicateActors() {
 
   const groups = new Map();
   for (const actor of game.actors.filter(isBrokenTalesActor)) {
-    const key = `${actor.type}:${actor.name}`;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(actor);
+    for (const key of actorDuplicateKeys(actor)) {
+      if (!groups.has(key)) groups.set(key, new Set());
+      groups.get(key).add(actor);
+    }
   }
 
+  const deletedIds = new Set();
   const deleted = [];
-  for (const actors of groups.values()) {
+  for (const group of groups.values()) {
+    const actors = [...group].filter((actor) => !deletedIds.has(actor.id));
     if (actors.length < 2) continue;
     actors.sort((a, b) => actorContentScore(b) - actorContentScore(a));
     for (const duplicate of actors.slice(1)) {
+      if (deletedIds.has(duplicate.id)) continue;
       deleted.push(duplicate.name);
+      deletedIds.add(duplicate.id);
       await duplicate.delete();
     }
   }
