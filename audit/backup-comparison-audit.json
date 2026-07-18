@@ -1,0 +1,465 @@
+{
+  "generatedAt": "2026-07-18T09:59:41.314Z",
+  "backupRefs": {
+    "oldCoreHunterJson": {
+      "count": 15,
+      "names": [
+        "Baba Yaga - The Child Witch.json",
+        "Babai - The Judge.json",
+        "Cunning Machiavelli The Fox & Sly Bischeri The Cat.json",
+        "Garou - The Old Wolf.json",
+        "George The Holy Dragon Slayer.json",
+        "James The Swordsman.json",
+        "Marina - The Sea Explorer.json",
+        "Niklaus Von Krampus.json",
+        "Regina - The Thief of Hearts.json",
+        "Sun Wukong - The Amazing Monkey.json",
+        "The Astonishing Pied Piper Without a Name.json",
+        "The Inmortal.json",
+        "The Woman from the Woods.json",
+        "Verdoux Bluebeard.json",
+        "Yukie Onn - The Traveling Artist.json"
+      ]
+    },
+    "oldScenarioGiftJson": {
+      "count": 10,
+      "names": [
+        "a-soldiers-duty/Art of Command.json",
+        "a-soldiers-duty/Blessing of the Sea.json",
+        "a-soldiers-duty/Coral of the Sea Fairy.json",
+        "of-flesh-and-wood/A True Friend.json",
+        "of-flesh-and-wood/Marionettes' Destroyer.json",
+        "of-flesh-and-wood/The Field of Miracles.json",
+        "the-smile-in-the-dark/Exorcist.json",
+        "the-smile-in-the-dark/Voice of the Spirits.json",
+        "tuvstarrs-reflection/Hugin and Munin.json",
+        "tuvstarrs-reflection/Lance of the Fallen Knight.json"
+      ]
+    },
+    "backupDbAdversaries": [
+      "Adversaries.db",
+      "Adversaries 1.db",
+      "Adversaries 2.db"
+    ],
+    "backupDbBrokenOnes": [
+      "Broken Ones.db",
+      "Broken Ones 1.db"
+    ],
+    "backupDbVillager": [
+      "Villager.db"
+    ],
+    "backupScenarioGiftDbs": [
+      "Scenario Gifts.db",
+      "Scenario Gifts 1.db"
+    ]
+  },
+  "currentRefs": {
+    "coreHunters": {
+      "rel": "packs/hunters-canon.db",
+      "exists": true,
+      "count": 15,
+      "typeCounts": {
+        "hunter": 15
+      },
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    "coreHunterDescriptors": {
+      "rel": "packs/hunter-descriptors-canon.db",
+      "exists": true,
+      "count": 61,
+      "typeCounts": {
+        "descriptor": 61
+      },
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    "coreHunterGifts": {
+      "rel": "packs/hunter-gifts-canon.db",
+      "exists": true,
+      "count": 31,
+      "typeCounts": {
+        "gift": 31
+      },
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    "coreHunterDarkEgos": {
+      "rel": "packs/hunter-dark-egos-canon.db",
+      "exists": true,
+      "count": 15,
+      "typeCounts": {
+        "darkEgo": 15
+      },
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    "coreScenarioGifts": {
+      "rel": "packs/scenario-gifts-canon.db",
+      "exists": true,
+      "count": 21,
+      "typeCounts": {
+        "gift": 21
+      },
+      "missingEs": 21,
+      "duplicateKeys": []
+    },
+    "coreActorsOpposition": {
+      "rel": "packs/scenario-actors-canon.db",
+      "exists": true,
+      "count": 94,
+      "typeCounts": {
+        "threat": 94
+      },
+      "missingEs": 94,
+      "duplicateKeys": []
+    },
+    "darkPresences": {
+      "rel": "packs/dark-presences-canon.db",
+      "exists": true,
+      "count": 18,
+      "typeCounts": {
+        "threat": 18
+      },
+      "missingEs": 18,
+      "duplicateKeys": []
+    },
+    "threatsVillagersEssences": {
+      "rel": "packs/threats-villagers-essences-canon.db",
+      "exists": true,
+      "count": 4,
+      "typeCounts": {
+        "threat": 1,
+        "npc": 1,
+        "villager": 1,
+        "essence": 1
+      },
+      "missingEs": 4,
+      "duplicateKeys": []
+    },
+    "brokenOnesHunters": {
+      "rel": "packs/broken-ones-hunters.db",
+      "exists": true,
+      "count": 13,
+      "typeCounts": {
+        "hunter": 13
+      },
+      "missingEs": 13,
+      "duplicateKeys": []
+    },
+    "lostStoriesHunters": {
+      "rel": "packs/lost-stories-hunters.db",
+      "exists": true,
+      "count": 19,
+      "typeCounts": {
+        "hunter": 19
+      },
+      "missingEs": 19,
+      "duplicateKeys": []
+    }
+  },
+  "hunterItemIntegrity": [
+    {
+      "name": "James the Swordsman",
+      "es": "Jaime el Espadachín",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "es": "Garou el Viejo Lobo",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 3
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "es": "El Asombroso Flautista sin Nombre",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "es": "Baba Yaga la Niña Bruja",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "es": "Regina la Ladrona de Corazones",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Babai the Judge",
+      "es": "Babai el Juez",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "The Woman from the Woods",
+      "es": "La Dama de los Bosques",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 1
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "The Immortal",
+      "es": "El Inmortal",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "es": "Marina la Exploradora del Mar",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "es": "Niklaus von Krampus",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "es": "San Jorge el Matadragones",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "es": "Sun Wukong el Mono Asombroso",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "es": "Verdoux Barba Azul",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 8
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "es": "Yukie Onn la Artista Viajera",
+      "expectedSpecial": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "es": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "expectedSpecial": {
+        "descriptors": 4,
+        "gifts": 3,
+        "darkEgos": 1
+      },
+      "actual": {
+        "descriptors": 4,
+        "gifts": 3,
+        "darkEgos": 1,
+        "equipment": 3
+      },
+      "avatarExists": true,
+      "hasPrincipalDescriptor": true,
+      "hasSpanishPrincipalDescriptor": true
+    }
+  ],
+  "nextLanguageExtractionNeeded": [
+    {
+      "pack": "coreScenarioGifts",
+      "count": 21,
+      "missingEs": 21
+    },
+    {
+      "pack": "coreActorsOpposition",
+      "count": 94,
+      "missingEs": 94
+    },
+    {
+      "pack": "darkPresences",
+      "count": 18,
+      "missingEs": 18
+    },
+    {
+      "pack": "threatsVillagersEssences",
+      "count": 4,
+      "missingEs": 4
+    },
+    {
+      "pack": "brokenOnesHunters",
+      "count": 13,
+      "missingEs": 13
+    },
+    {
+      "pack": "lostStoriesHunters",
+      "count": 19,
+      "missingEs": 19
+    }
+  ]
+}
