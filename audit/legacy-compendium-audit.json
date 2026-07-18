@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:31:45.900Z",
+  "generatedAt": "2026-07-18T08:00:22.241Z",
   "sourceOfTruth": {
     "legacyRepo": "E:/respaldos/brokentales-repo",
     "standaloneBackups": "E:/respaldos",
@@ -44,10 +44,9 @@
       {
         "id": "broken-tales-broken-ones.red-hood-iskra-support",
         "sourceDbCount": 13,
-        "levelDbCount": 0,
+        "levelDbCount": 13,
         "sourceDbExists": true,
-        "levelDbExists": true,
-        "levelDbError": "Error: Database failed to open"
+        "levelDbExists": true
       },
       {
         "id": "broken-tales-lost-stories.lost-stories-scenario-gifts",
@@ -3093,8 +3092,7 @@
           "sourceDbExists": true,
           "levelDbExists": true,
           "sourceDbCount": 13,
-          "levelDbCount": 0,
-          "levelDbError": "Error: Database failed to open",
+          "levelDbCount": 13,
           "parseErrors": 0,
           "actorTypes": [
             "gift",
@@ -3591,6 +3589,6 @@
   "notes": [
     "The old brokentales-repo packs remain the baseline for names, pre-generated hunters, and legacy scenario content.",
     "WordReference must be treated as a manual or authorized external provider. No scraping connector is generated in this audit.",
-    "red-hood-iskra-support.db source has 13 records; active LevelDB could not be read/synced while Foundry locks it. Close Foundry and resync to activate those two new source records."
+    "red-hood-iskra-support and lost-stories-scenario-gifts are both synced to active LevelDB in the local Foundry modules."
   ]
 }
