@@ -1,0 +1,35 @@
+<form class="traductor-universal-compendium">
+  <p>Esto crea un compendio nuevo en el mundo con documentos traducidos. No modifica el compendio original.</p>
+  <div class="form-group">
+    <label>Compendio origen</label>
+    <select name="sourcePack">
+      {{#each packs}}
+      <option value="{{collection}}">{{label}} — {{type}}</option>
+      {{/each}}
+    </select>
+  </div>
+  <div class="form-group">
+    <label>Diccionario</label>
+    <select name="namespace">
+      <option value="generic">Genérico</option>
+      <option value="foundry">Foundry VTT</option>
+      <option value="dnd5e">D&D 5e</option>
+      <option value="pf2e">PF2e / SF2e</option>
+      <option value="wod">World of Darkness</option>
+      <option value="brokenTales">Broken Tales</option>
+      <option value="swade">Savage Worlds</option>
+      <option value="cyberpunkRed">Cyberpunk RED</option>
+      <option value="dragonbane">Dragonbane</option>
+      <option value="modules">Módulos comunes</option>
+      <option value="plutonium">Plutonium</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label>Usar API externa</label>
+    <input type="checkbox" name="useExternal" {{checked useWordReferenceApi}}>
+    <p class="notes">Usa el endpoint configurado de WordReference/API cuando el glosario local no tenga una traducción exacta.</p>
+  </div>
+  <footer class="sheet-footer flexrow">
+    <button type="submit"><i class="fas fa-language"></i> Crear compendio traducido</button>
+  </footer>
+</form>

@@ -1,0 +1,52 @@
+{
+  "I18N.LANGUAGE": "Español",
+  "I18N.MAINTAINERS": "Atsu",
+  "TRADUCTOR_UNIVERSAL.Settings.Variant.Name": "Variante de español",
+  "TRADUCTOR_UNIVERSAL.Settings.Variant.Hint": "Elige la variante regional usada por Traductor Universal.",
+  "TRADUCTOR_UNIVERSAL.Settings.HardTranslation.Name": "Traducir texto no localizado",
+  "TRADUCTOR_UNIVERSAL.Settings.HardTranslation.Hint": "Traduce texto visible aunque el sistema o módulo no tenga soporte de idioma.",
+  "TRADUCTOR_UNIVERSAL.Settings.WholeWindow.Name": "Traducir toda la ventana de Foundry",
+  "TRADUCTOR_UNIVERSAL.Settings.WholeWindow.Hint": "Traduce automáticamente ventanas, diálogos, paneles, notificaciones y contenido que aparezca después de cargar.",
+  "TRADUCTOR_UNIVERSAL.Settings.Ocr.Name": "OCR para imágenes y handouts",
+  "TRADUCTOR_UNIVERSAL.Settings.Ocr.Hint": "Lee texto dentro de imágenes con Tesseract si la librería está disponible en vendor/tesseract.min.js y superpone la traducción sin modificar el archivo original.",
+  "TRADUCTOR_UNIVERSAL.Settings.OcrLanguage.Name": "Idioma OCR",
+  "TRADUCTOR_UNIVERSAL.Settings.OcrLanguage.Hint": "Idioma de origen que Tesseract intentará leer en las imágenes.",
+  "TRADUCTOR_UNIVERSAL.Settings.Babele.Name": "Usar Babele si está activo",
+  "TRADUCTOR_UNIVERSAL.Settings.Babele.Hint": "Aprovecha traducciones de compendios y nombres aportadas por Babele y módulos como D&D 5e SRD 2024 Spanish Translation.",
+  "TRADUCTOR_UNIVERSAL.Settings.Plutonium.Name": "Activar soporte para Plutonium",
+  "TRADUCTOR_UNIVERSAL.Settings.Plutonium.Hint": "Traduce ventanas, botones, filtros e importadores de Plutonium.",
+  "TRADUCTOR_UNIVERSAL.Settings.Mode.Name": "Modo de traducción",
+  "TRADUCTOR_UNIVERSAL.Settings.Mode.Hint": "Seguro traduce coincidencias exactas. Agresivo intenta traducir frases completas por partes.",
+  "TRADUCTOR_UNIVERSAL.Settings.TranslateChat.Name": "Traducir chat",
+  "TRADUCTOR_UNIVERSAL.Settings.TranslateChat.Hint": "Traduce mensajes renderizados en el chat cuando coincidan con el diccionario.",
+  "TRADUCTOR_UNIVERSAL.Settings.TranslateCreatedDocuments.Name": "Traducir documentos creados",
+  "TRADUCTOR_UNIVERSAL.Settings.TranslateCreatedDocuments.Hint": "Intenta traducir descripciones y campos de actores/objetos recién creados o importados.",
+  "TRADUCTOR_UNIVERSAL.Settings.Debug.Name": "Modo depuración",
+  "TRADUCTOR_UNIVERSAL.Settings.Debug.Hint": "Muestra avisos técnicos en consola.",
+  "TRADUCTOR_UNIVERSAL.Editor.Title": "Editor de Diccionario",
+  "TRADUCTOR_UNIVERSAL.Compendium.Title": "Traducir compendio",
+  "TRADUCTOR_UNIVERSAL.Export.Title": "Exportar diccionario",
+  "TRADUCTOR_UNIVERSAL.Import.Title": "Importar diccionario",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferencePublicLookup.Name": "Consulta pública de WordReference",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferencePublicLookup.Hint": "Si no hay endpoint configurado, intenta leer resultados públicos de WordReference para palabras o frases cortas. Si el navegador lo bloquea, deja el enlace de consulta manual sin cambiar el texto.",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferenceEndpoint.Name": "Endpoint autorizado de WordReference",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferenceEndpoint.Hint": "URL de un servicio propio o autorizado que consulte WordReference. Usa {text}, {from}, {to} o {token} si necesitas una plantilla GET.",
+  "TRADUCTOR_UNIVERSAL.Settings.UseWordReferenceApi.Name": "Usar API externa al traducir compendios",
+  "TRADUCTOR_UNIVERSAL.Settings.UseWordReferenceApi.Hint": "Cuando el glosario local no tenga una traducción exacta, permite llamar el endpoint configurado para WordReference/API. Si no hay endpoint, no cambia el texto.",
+  "TRADUCTOR_UNIVERSAL": {
+    "Settings": {
+      "WordReferenceMethod": {
+        "Name": "Método de WordReference/proxy",
+        "Hint": "Método HTTP usado por el endpoint configurado. Usa GET si el endpoint es una URL plantilla con {text}, {from}, {to} o {token}."
+      },
+      "WordReferenceToken": {
+        "Name": "Token de WordReference/proxy",
+        "Hint": "Token opcional para tu proxy/API. Se envía como Bearer y también puede usarse en la plantilla {token}."
+      },
+      "WordReferenceResponsePath": {
+        "Name": "Ruta de respuesta de traducción",
+        "Hint": "Campo JSON donde el endpoint devuelve el texto traducido. Ejemplo: translation, data.translation o translatedText."
+      }
+    }
+  }
+}

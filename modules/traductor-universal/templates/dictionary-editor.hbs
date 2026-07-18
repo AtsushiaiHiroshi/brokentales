@@ -1,0 +1,15 @@
+<form class="traductor-universal-editor">
+  <p>Edita traducciones personalizadas. Formato recomendado:</p>
+  <pre>{ "generic": { "Character Sheet": "Ficha de personaje" }, "plutonium": { "Choose Importer": "Elegir importador" } }</pre>
+  <div class="tu-editor-actions">
+    <button type="button" data-action="export"><i class="fas fa-file-export"></i> Exportar JSON</button>
+    <label class="tu-import-button">
+      <i class="fas fa-file-import"></i> Importar JSON
+      <input type="file" data-action="import" accept="application/json,.json" hidden>
+    </label>
+  </div>
+  <textarea name="dictionary" rows="24">{{json}}</textarea>
+  <footer class="sheet-footer flexrow">
+    <button type="submit"><i class="fas fa-save"></i> Guardar</button>
+  </footer>
+</form>

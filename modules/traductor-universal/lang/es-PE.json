@@ -1,0 +1,25 @@
+{
+  "TRADUCTOR_UNIVERSAL.Name": "Traductor Universal",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferenceEndpoint.Name": "Endpoint autorizado de WordReference",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferenceEndpoint.Hint": "URL de un servicio propio o autorizado que consulte WordReference. Usa {text}, {from}, {to} o {token} si necesitas una plantilla GET.",
+  "TRADUCTOR_UNIVERSAL.Settings.UseWordReferenceApi.Name": "Usar API externa al traducir compendios",
+  "TRADUCTOR_UNIVERSAL.Settings.UseWordReferenceApi.Hint": "Cuando el glosario local no tenga una traducción exacta, permite llamar el endpoint configurado para WordReference/API. Si no hay endpoint, no cambia el texto.",
+  "TRADUCTOR_UNIVERSAL": {
+    "Settings": {
+      "WordReferenceMethod": {
+        "Name": "Método de WordReference/proxy",
+        "Hint": "Método HTTP usado por el endpoint configurado. Usa GET si el endpoint es una URL plantilla con {text}, {from}, {to} o {token}."
+      },
+      "WordReferenceToken": {
+        "Name": "Token de WordReference/proxy",
+        "Hint": "Token opcional para tu proxy/API. Se envía como Bearer y también puede usarse en la plantilla {token}."
+      },
+      "WordReferenceResponsePath": {
+        "Name": "Ruta de respuesta de traducción",
+        "Hint": "Campo JSON donde el endpoint devuelve el texto traducido. Ejemplo: translation, data.translation o translatedText."
+      }
+    }
+  },
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferencePublicLookup.Name": "Consulta pública de WordReference",
+  "TRADUCTOR_UNIVERSAL.Settings.WordReferencePublicLookup.Hint": "Si no hay endpoint configurado, intenta leer resultados públicos de WordReference para palabras o frases cortas. Si el navegador lo bloquea, deja el enlace de consulta manual sin cambiar el texto."
+}

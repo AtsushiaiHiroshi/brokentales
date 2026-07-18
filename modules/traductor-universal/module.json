@@ -1,0 +1,79 @@
+{
+  "id": "traductor-universal",
+  "title": "Traductor Universal",
+  "description": "Traducción latinoamericana y regional para Foundry VTT: sistemas, módulos, texto no localizado, Plutonium, compendios e importaciones.",
+  "version": "1.0.3",
+  "authors": [
+    {
+      "name": "Atsu"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.9.1",
+          "verified": "2.9.1"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "translate-dnd5e-sdr2-es",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-sdr2-es/main/module.json",
+        "compatibility": {
+          "minimum": "1.13.4",
+          "verified": "1.13.4"
+        },
+        "reason": "Aporta traducciones Babele para los compendios oficiales de D&D 5e SRD 2024."
+      },
+      {
+        "id": "ravanno-dnd5e-es",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ravanno/ravanno-dnd5e-es/main/module.json",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3"
+        },
+        "reason": "Aporta traducción de interfaz D&D5e y compendios SRD legacy; Traductor Universal puede usar sus textos como diccionario adicional."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/traductor-universal.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "es-419",
+      "name": "Español Latinoamericano",
+      "path": "lang/es-419.json"
+    },
+    {
+      "lang": "es-MX",
+      "name": "Español México",
+      "path": "lang/es-MX.json"
+    },
+    {
+      "lang": "es-ES",
+      "name": "Castellano / España",
+      "path": "lang/es-ES.json"
+    }
+  ]
+}

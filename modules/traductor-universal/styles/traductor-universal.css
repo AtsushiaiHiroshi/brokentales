@@ -1,0 +1,31 @@
+.traductor-universal-editor textarea { width: 100%; min-height: 430px; font-family: monospace; resize: vertical; }
+.traductor-universal-editor pre { white-space: pre-wrap; font-size: 12px; padding: 8px; border: 1px solid var(--color-border-light-tertiary); }
+.tu-editor-actions { display: flex; gap: 8px; margin: 8px 0; align-items: center; }
+.tu-import-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.traductor-universal-compendium .form-group { margin: 8px 0; }
+.tu-ocr-wrapper { display: inline-block; position: relative; max-width: 100%; }
+.tu-ocr-wrapper > img { display: block; max-width: 100%; }
+.tu-ocr-overlay { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.tu-ocr-line {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  padding: 1px 3px;
+  border-radius: 3px;
+  background: rgba(12, 12, 12, 0.74);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.2;
+  text-shadow: 0 1px 1px #000;
+  white-space: normal;
+}
