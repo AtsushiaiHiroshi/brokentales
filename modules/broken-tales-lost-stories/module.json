@@ -2,7 +2,7 @@
   "id": "broken-tales-lost-stories",
   "title": "Broken Tales - Lost Stories",
   "description": "Expansion module for Lost Stories content for the Broken Tales system.",
-  "version": "0.2.21",
+  "version": "0.2.24",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -285,20 +285,7 @@
           "color": "#111111"
         }
       ],
-      "color": "#d01f2f",
-      "children": [
-        {
-          "name": "Apoyos por escenario",
-          "sorting": "a",
-          "packs": [
-            "lost-stories-scenario-gifts-a-soldiers-duty",
-            "lost-stories-scenario-gifts-of-flesh-and-wood",
-            "lost-stories-scenario-gifts-the-smile-in-the-darkness",
-            "lost-stories-scenario-gifts-tuvstarrs-reflection"
-          ],
-          "children": []
-        }
-      ]
+      "color": "#d01f2f"
     }
   ]
 }
