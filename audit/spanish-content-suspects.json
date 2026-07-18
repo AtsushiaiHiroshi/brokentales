@@ -1,0 +1,19 @@
+{
+  "updated": "2026-07-18T08:50:51.454Z",
+  "suspicious": [
+    {
+      "actor": "Garou the Old Wolf",
+      "item": "Wolf Among the Lambs",
+      "esName": "Lobo entre los corderos",
+      "length": 677,
+      "excerpt": " alguien y pillarle desprevenido. Soy un lobo de montaña, mucho más astuto que los estúpidos aldeanos que tiemblan solo con verme. He vivido orgulloso a la cabeza de mi manada, liderando mil incursiones y comiendo suculentos y tiernos bocados de carne humana. "
+    },
+    {
+      "actor": "Sun Wukong the Amazing Monkey",
+      "item": "Monkey King",
+      "esName": "Rey mono",
+      "length": 2388,
+      "excerpt": "n palo de circo con tres segmentos que puedo extender / Ropa de circo vieja y gastada / Una vieja diadema dorada tan ajustada a mi frente que no se puede quitar / Una sábana con el dibujo de un paisaje chino, regalo de un niño que vio uno de mis espectáculos. "
+    }
+  ]
+}
