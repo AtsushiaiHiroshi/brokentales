@@ -347,7 +347,7 @@ Hooks.once("init", () => {
   });
 });
 
-Hooks.on("renderApplicationV2", (application, element) => {
+function enhanceBrokenTalesApplication(application, element) {
   const root = applicationElement(element);
   if (!root) return;
 
@@ -360,7 +360,10 @@ Hooks.on("renderApplicationV2", (application, element) => {
   enhanceBrokenTalesCompendiumMarkup(root);
   if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
   if (packId === "broken-tales.scenario-gifts") groupScenarioGiftCompendium(root, packId);
-});
+}
+
+Hooks.on("renderApplicationV2", enhanceBrokenTalesApplication);
+Hooks.on("renderCompendium", enhanceBrokenTalesApplication);
 
 Hooks.once("ready", async () => {
   game.brokenTales = {

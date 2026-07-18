@@ -354,10 +354,51 @@ function cleanPackActor(document) {
   const data = document.toObject();
   delete data._id;
   data.folder = null;
+  localizePackDocumentData(data);
   for (const item of data.items ?? []) {
     delete item._id;
     item.folder = null;
+    localizePackDocumentData(item);
   }
+  return data;
+}
+
+function activeContentLanguage() {
+  const foundryLanguage = game.i18n.lang?.startsWith("es") ? "es" : "en";
+  try {
+    const configured = game.settings.get("broken-tales", "contentLanguage");
+    if (configured && configured !== "system") return configured;
+  } catch (_error) {
+    // Settings can be unavailable during early initialization.
+  }
+  return foundryLanguage;
+}
+
+function mergePlainObject(target, source) {
+  const output = { ...(target ?? {}) };
+  for (const [key, value] of Object.entries(source ?? {})) {
+    if (value && typeof value === "object" && !Array.isArray(value)) {
+      output[key] = mergePlainObject(output[key], value);
+    } else {
+      output[key] = value;
+    }
+  }
+  return output;
+}
+
+function localizePackDocumentData(data) {
+  const language = activeContentLanguage();
+  if (!language || language === "en") return data;
+
+  const translation = data.flags?.["broken-tales"]?.translations?.[language];
+  if (!translation) return data;
+
+  if (translation.name) data.name = translation.name;
+  if (translation.img) data.img = translation.img;
+  if (translation.system) data.system = mergePlainObject(data.system, translation.system);
+  if (translation.description) data.system = mergePlainObject(data.system, { description: translation.description });
+  if (translation.descriptor) data.system = mergePlainObject(data.system, { descriptor: translation.descriptor });
+  if (translation.trigger) data.system = mergePlainObject(data.system, { trigger: translation.trigger });
   return data;
 }
 
