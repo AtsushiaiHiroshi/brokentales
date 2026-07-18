@@ -84,7 +84,7 @@ function applicationElement(element) {
 
 function packIdFromApplication(application) {
   const collectionMetadata = application?.collection?.metadata;
-  if (collectionMetadata?.id) return collectionMetadata.id;
+  if (collectionMetadata?.id && isBrokenTalesPackId(collectionMetadata.id)) return collectionMetadata.id;
   if (collectionMetadata?.packageName && collectionMetadata?.name) {
     return collectionMetadata.packageName + "." + collectionMetadata.name;
   }
