@@ -2,7 +2,7 @@
   "id": "broken-tales-lost-stories",
   "title": "Broken Tales - Lost Stories",
   "description": "Expansion module for Lost Stories content for the Broken Tales system.",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "authors": [
     {
       "name": "Atsushiai Hiroshi / local conversion"
@@ -220,7 +220,18 @@
   ],
   "esmodules": [],
   "styles": [],
-  "languages": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
   "url": "https://github.com/AtsushiaiHiroshi/brokentales",
   "manifest": "",
   "download": "",
