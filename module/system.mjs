@@ -78,11 +78,24 @@ function applicationElement(element) {
 }
 
 function packIdFromApplication(application) {
+  const collectionMetadata = application?.collection?.metadata;
+  if (collectionMetadata?.id) return collectionMetadata.id;
+  if (collectionMetadata?.packageName && collectionMetadata?.name) {
+    return `${collectionMetadata.packageName}.${collectionMetadata.name}`;
+  }
+
   return application?.collection?.metadata?.id
     ?? application?.collection?.collection
     ?? application?.document?.collection?.metadata?.id
     ?? application?.options?.collection
     ?? application?.options?.pack
+    ?? "";
+}
+
+function packIdFromRoot(root) {
+  return root?.dataset?.pack
+    ?? root?.querySelector?.("[data-pack]")?.dataset?.pack
+    ?? root?.closest?.("[data-pack]")?.dataset?.pack
     ?? "";
 }
 
@@ -156,7 +169,7 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
 
   root.querySelectorAll("[data-document-id], [data-entry-id], .directory-item.document").forEach((entry) => {
     const documentId = entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id;
-    const label = entry.querySelector(".entry-name, .document-name, h4, h3") ?? entry;
+    const label = entry.querySelector(".entry-name, .document-name, .name, h4, h3, a") ?? entry;
     const translatedName = names.get(documentId) ?? names.get(label.textContent?.trim());
     if (!translatedName) return;
     label.textContent = translatedName;
@@ -362,14 +375,18 @@ function enhanceBrokenTalesApplication(application, element) {
   if (!root) return;
 
   const packId = packIdFromApplication(application);
-  if (isBrokenTalesPackId(packId)) {
+  const domPackId = packId || packIdFromRoot(root);
+  if (isBrokenTalesPackId(domPackId)) {
     root.classList.add("broken-tales-compendium");
-    root.dataset.pack = packId;
+    root.dataset.pack = domPackId;
   }
 
   enhanceBrokenTalesCompendiumMarkup(root);
-  if (isBrokenTalesPackId(packId)) localizeBrokenTalesCompendiumNames(root, packId);
-  if (isScenarioGiftPackId(packId)) groupScenarioGiftCompendium(root, packId);
+  if (isBrokenTalesPackId(domPackId)) {
+    localizeBrokenTalesCompendiumNames(root, domPackId);
+    window.setTimeout(() => localizeBrokenTalesCompendiumNames(root, domPackId), 75);
+  }
+  if (isScenarioGiftPackId(domPackId)) groupScenarioGiftCompendium(root, domPackId);
 }
 
 Hooks.on("renderApplicationV2", enhanceBrokenTalesApplication);

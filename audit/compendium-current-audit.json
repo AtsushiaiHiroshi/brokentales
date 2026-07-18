@@ -1,797 +1,284 @@
 {
-  "generatedAt": "2026-07-18T10:23:05.806Z",
-  "system": {
-    "id": "broken-tales",
-    "title": "Broken Tales",
-    "version": "0.2.32",
-    "packCount": 27,
-    "duplicatePackNames": [],
-    "packs": [
-      {
-        "name": "hunters",
-        "label": "BROKENTALES.Packs.CoreHunters",
-        "path": "packs/hunters-canon.db",
-        "type": "Actor",
-        "count": 15,
-        "types": {
-          "hunter": 15
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+  "generatedAt": "2026-07-18T11:05:08.328Z",
+  "packs": [
+    {
+      "rel": "packs/hunters-canon.db",
+      "exists": true,
+      "count": 15,
+      "typeCounts": {
+        "hunter": 15
       },
-      {
-        "name": "threats-villagers-essences",
-        "label": "BROKENTALES.Packs.ThreatsVillagersEssences",
-        "path": "packs/threats-villagers-essences-canon.db",
-        "type": "Actor",
-        "count": 4,
-        "types": {
-          "threat": 1,
-          "npc": 1,
-          "villager": 1,
-          "essence": 1
-        },
-        "missingEs": 4,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/threats-villagers-essences-canon.db",
+      "exists": true,
+      "count": 4,
+      "typeCounts": {
+        "threat": 1,
+        "npc": 1,
+        "villager": 1,
+        "essence": 1
       },
-      {
-        "name": "support",
-        "label": "BROKENTALES.Packs.Support",
-        "path": "packs/support-canon.db",
-        "type": "Item",
-        "count": 6,
-        "types": {
-          "storyElement": 5,
-          "equipment": 1
-        },
-        "missingEs": 6,
-        "duplicateKeys": []
+      "missingEs": 4,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/support-canon.db",
+      "exists": true,
+      "count": 6,
+      "typeCounts": {
+        "storyElement": 5,
+        "equipment": 1
       },
-      {
-        "name": "scenario-gifts",
-        "label": "BROKENTALES.Packs.ScenarioGifts",
-        "path": "packs/scenario-gifts-canon.db",
-        "type": "Item",
-        "count": 19,
-        "types": {
-          "gift": 19
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 6,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-canon.db",
+      "exists": true,
+      "count": 19,
+      "typeCounts": {
+        "gift": 19
       },
-      {
-        "name": "hunter-gifts",
-        "label": "BROKENTALES.Packs.HunterGifts",
-        "path": "packs/hunter-gifts-canon.db",
-        "type": "Item",
-        "count": 31,
-        "types": {
-          "gift": 31
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/hunter-gifts-canon.db",
+      "exists": true,
+      "count": 31,
+      "typeCounts": {
+        "gift": 31
       },
-      {
-        "name": "hunter-descriptors",
-        "label": "BROKENTALES.Packs.HunterDescriptors",
-        "path": "packs/hunter-descriptors-canon.db",
-        "type": "Item",
-        "count": 61,
-        "types": {
-          "descriptor": 61
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/hunter-descriptors-canon.db",
+      "exists": true,
+      "count": 61,
+      "typeCounts": {
+        "descriptor": 61
       },
-      {
-        "name": "hunter-equipment",
-        "label": "BROKENTALES.Packs.HunterEquipment",
-        "path": "packs/hunter-equipment-canon.db",
-        "type": "Item",
-        "count": 80,
-        "types": {
-          "equipment": 80
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/hunter-equipment-canon.db",
+      "exists": true,
+      "count": 80,
+      "typeCounts": {
+        "equipment": 80
       },
-      {
-        "name": "hunter-dark-egos",
-        "label": "BROKENTALES.Packs.HunterDarkEgos",
-        "path": "packs/hunter-dark-egos-canon.db",
-        "type": "Item",
-        "count": 15,
-        "types": {
-          "darkEgo": 15
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/hunter-dark-egos-canon.db",
+      "exists": true,
+      "count": 15,
+      "typeCounts": {
+        "darkEgo": 15
       },
-      {
-        "name": "dark-presence-descriptors",
-        "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
-        "path": "packs/dark-presence-descriptors-canon.db",
-        "type": "Item",
-        "count": 18,
-        "types": {
-          "descriptor": 18
-        },
-        "missingEs": 18,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/dark-presence-descriptors-canon.db",
+      "exists": true,
+      "count": 46,
+      "typeCounts": {
+        "descriptor": 46
       },
-      {
-        "name": "threat-descriptors",
-        "label": "BROKENTALES.Packs.ThreatDescriptors",
-        "path": "packs/threat-descriptors-canon.db",
-        "type": "Item",
-        "count": 18,
-        "types": {
-          "descriptor": 18
-        },
-        "missingEs": 18,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/threat-descriptors-canon.db",
+      "exists": true,
+      "count": 18,
+      "typeCounts": {
+        "descriptor": 18
       },
-      {
-        "name": "villager-descriptors",
-        "label": "BROKENTALES.Packs.VillagerDescriptors",
-        "path": "packs/villager-descriptors-canon.db",
-        "type": "Item",
-        "count": 4,
-        "types": {
-          "descriptor": 4
-        },
-        "missingEs": 4,
-        "duplicateKeys": []
+      "missingEs": 18,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/villager-descriptors-canon.db",
+      "exists": true,
+      "count": 4,
+      "typeCounts": {
+        "descriptor": 4
       },
-      {
-        "name": "essence-descriptors",
-        "label": "BROKENTALES.Packs.EssenceDescriptors",
-        "path": "packs/essence-descriptors-canon.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "descriptor": 3
-        },
-        "missingEs": 3,
-        "duplicateKeys": []
+      "missingEs": 4,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/essence-descriptors-canon.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "descriptor": 3
       },
-      {
-        "name": "dark-presences",
-        "label": "BROKENTALES.Packs.DarkPresences",
-        "path": "packs/dark-presences-canon.db",
-        "type": "Actor",
-        "count": 18,
-        "types": {
-          "threat": 18
-        },
-        "missingEs": 18,
-        "duplicateKeys": []
+      "missingEs": 3,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/dark-presences-canon.db",
+      "exists": true,
+      "count": 23,
+      "typeCounts": {
+        "threat": 23
       },
-      {
-        "name": "scenario-actors",
-        "label": "BROKENTALES.Packs.ScenarioActors",
-        "path": "packs/scenario-actors-canon.db",
-        "type": "Actor",
-        "count": 94,
-        "types": {
-          "threat": 94
-        },
-        "missingEs": 94,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-actors-canon.db",
+      "exists": true,
+      "count": 94,
+      "typeCounts": {
+        "threat": 94
       },
-      {
-        "name": "library",
-        "label": "BROKENTALES.Packs.Library",
-        "path": "packs/library-canon.db",
-        "type": "JournalEntry",
-        "count": 12,
-        "types": {
-          "undefined": 12
-        },
-        "missingEs": 12,
-        "duplicateKeys": []
+      "missingEs": 94,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/library-canon.db",
+      "exists": true,
+      "count": 12,
+      "typeCounts": {
+        "undefined": 12
       },
-      {
-        "name": "adventures",
-        "label": "BROKENTALES.Packs.Adventures",
-        "path": "packs/adventures-canon.db",
-        "type": "JournalEntry",
-        "count": 11,
-        "types": {
-          "undefined": 11
-        },
-        "missingEs": 11,
-        "duplicateKeys": []
+      "missingEs": 12,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/adventures-canon.db",
+      "exists": true,
+      "count": 11,
+      "typeCounts": {
+        "undefined": 11
       },
-      {
-        "name": "adventure-maps",
-        "label": "BROKENTALES.Packs.AdventureMaps",
-        "path": "packs/adventure-maps-canon.db",
-        "type": "JournalEntry",
-        "count": 13,
-        "types": {
-          "undefined": 13
-        },
-        "missingEs": 13,
-        "duplicateKeys": []
+      "missingEs": 11,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/adventure-maps-canon.db",
+      "exists": true,
+      "count": 13,
+      "typeCounts": {
+        "undefined": 13
       },
-      {
-        "name": "adventure-scenes",
-        "label": "BROKENTALES.Packs.AdventureScenes",
-        "path": "packs/adventure-scenes-canon.db",
-        "type": "Scene",
-        "count": 14,
-        "types": {
-          "undefined": 14
-        },
-        "missingEs": 14,
-        "duplicateKeys": [
-          {
-            "key": "Broken Europe Map||",
-            "count": 2
-          }
-        ]
+      "missingEs": 13,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/adventure-scenes-canon.db",
+      "exists": true,
+      "count": 14,
+      "typeCounts": {
+        "undefined": 14
       },
-      {
-        "name": "audit",
-        "label": "BROKENTALES.Packs.Audit",
-        "path": "packs/audit-canon.db",
-        "type": "JournalEntry",
-        "count": 1,
-        "types": {
-          "undefined": 1
-        },
-        "missingEs": 1,
-        "duplicateKeys": []
+      "missingEs": 14,
+      "duplicateKeys": [
+        {
+          "key": "Broken Europe Map||",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "rel": "packs/audit-canon.db",
+      "exists": true,
+      "count": 1,
+      "typeCounts": {
+        "undefined": 1
       },
-      {
-        "name": "source-pdfs",
-        "label": "BROKENTALES.Packs.SourcePdfs",
-        "path": "packs/source-pdfs-canon.db",
-        "type": "JournalEntry",
-        "count": 47,
-        "types": {
-          "undefined": 47
-        },
-        "missingEs": 47,
-        "duplicateKeys": []
+      "missingEs": 1,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/source-pdfs-canon.db",
+      "exists": true,
+      "count": 47,
+      "typeCounts": {
+        "undefined": 47
       },
-      {
-        "name": "scenario-gifts-red-hood-iskra",
-        "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
-        "path": "packs/scenario-gifts-red-hood-iskra.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "gift": 3
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 47,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-red-hood-iskra.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "gift": 3
       },
-      {
-        "name": "scenario-gifts-of-flesh-and-wood",
-        "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
-        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "gift": 3
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-of-flesh-and-wood.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "gift": 3
       },
-      {
-        "name": "scenario-gifts-the-smile-in-the-darkness",
-        "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
-        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
-        "type": "Item",
-        "count": 2,
-        "types": {
-          "gift": 2
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+      "exists": true,
+      "count": 2,
+      "typeCounts": {
+        "gift": 2
       },
-      {
-        "name": "scenario-gifts-a-soldiers-duty",
-        "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
-        "path": "packs/scenario-gifts-a-soldiers-duty.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "gift": 3
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-a-soldiers-duty.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "gift": 3
       },
-      {
-        "name": "scenario-gifts-wonderbedlam",
-        "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
-        "path": "packs/scenario-gifts-wonderbedlam.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "gift": 3
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-wonderbedlam.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "gift": 3
       },
-      {
-        "name": "scenario-gifts-tuvstarrs-reflection",
-        "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
-        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
-        "type": "Item",
-        "count": 2,
-        "types": {
-          "gift": 2
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-tuvstarrs-reflection.db",
+      "exists": true,
+      "count": 2,
+      "typeCounts": {
+        "gift": 2
       },
-      {
-        "name": "scenario-gifts-the-city-of-pigs",
-        "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
-        "path": "packs/scenario-gifts-the-city-of-pigs.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "gift": 3
-        },
-        "missingEs": 0,
-        "duplicateKeys": []
-      }
-    ]
-  },
-  "brokenOnes": {
-    "id": "broken-tales-broken-ones",
-    "title": "Broken Tales - The Broken Ones",
-    "version": "0.2.16",
-    "packCount": 17,
-    "duplicatePackNames": [],
-    "packs": [
-      {
-        "name": "broken-ones-hunters",
-        "label": "BROKENTALES.Packs.BrokenOnesHunters",
-        "path": "packs/broken-ones-hunters.db",
-        "type": "Actor",
-        "count": 13,
-        "types": {
-          "hunter": 13
-        },
-        "missingEs": 13,
-        "duplicateKeys": []
+      "missingEs": 0,
+      "duplicateKeys": []
+    },
+    {
+      "rel": "packs/scenario-gifts-the-city-of-pigs.db",
+      "exists": true,
+      "count": 3,
+      "typeCounts": {
+        "gift": 3
       },
-      {
-        "name": "broken-ones-actors",
-        "label": "BROKENTALES.Packs.BrokenOnesActors",
-        "path": "packs/broken-ones-actors.db",
-        "type": "Actor",
-        "count": 54,
-        "types": {
-          "threat": 54
-        },
-        "missingEs": 54,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-descriptors",
-        "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
-        "path": "packs/broken-ones-descriptors.db",
-        "type": "Item",
-        "count": 41,
-        "types": {
-          "descriptor": 41
-        },
-        "missingEs": 41,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-threat-descriptors",
-        "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
-        "path": "packs/broken-ones-threat-descriptors.db",
-        "type": "Item",
-        "count": 54,
-        "types": {
-          "descriptor": 54
-        },
-        "missingEs": 54,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-gifts",
-        "label": "BROKENTALES.Packs.BrokenOnesGifts",
-        "path": "packs/broken-ones-gifts.db",
-        "type": "Item",
-        "count": 26,
-        "types": {
-          "gift": 26
-        },
-        "missingEs": 26,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-dark-egos",
-        "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
-        "path": "packs/broken-ones-dark-egos.db",
-        "type": "Item",
-        "count": 13,
-        "types": {
-          "darkEgo": 13
-        },
-        "missingEs": 13,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-equipment",
-        "label": "BROKENTALES.Packs.BrokenOnesEquipment",
-        "path": "packs/broken-ones-equipment.db",
-        "type": "Item",
-        "count": 85,
-        "types": {
-          "equipment": 85
-        },
-        "missingEs": 85,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-library",
-        "label": "BROKENTALES.Packs.BrokenOnesLibrary",
-        "path": "packs/broken-ones-library.db",
-        "type": "JournalEntry",
-        "count": 3,
-        "types": {
-          "undefined": 3
-        },
-        "missingEs": 3,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-adventures",
-        "label": "BROKENTALES.Packs.BrokenOnesAdventures",
-        "path": "packs/broken-ones-adventures.db",
-        "type": "JournalEntry",
-        "count": 7,
-        "types": {
-          "undefined": 7
-        },
-        "missingEs": 7,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-maps",
-        "label": "BROKENTALES.Packs.BrokenOnesMaps",
-        "path": "packs/broken-ones-maps.db",
-        "type": "JournalEntry",
-        "count": 7,
-        "types": {
-          "undefined": 7
-        },
-        "missingEs": 7,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-scenes",
-        "label": "BROKENTALES.Packs.BrokenOnesScenes",
-        "path": "packs/broken-ones-scenes.db",
-        "type": "Scene",
-        "count": 7,
-        "types": {
-          "undefined": 7
-        },
-        "missingEs": 7,
-        "duplicateKeys": []
-      },
-      {
-        "name": "red-hood-iskra-support",
-        "label": "BROKENTALES.Packs.RedHoodIskraSupport",
-        "path": "packs/red-hood-iskra-support.db",
-        "type": "Item",
-        "count": 13,
-        "types": {
-          "gift": 3,
-          "storyElement": 10
-        },
-        "missingEs": 13,
-        "duplicateKeys": []
-      },
-      {
-        "name": "red-hood-iskra-maps",
-        "label": "BROKENTALES.Packs.RedHoodIskraMaps",
-        "path": "packs/red-hood-iskra-maps.db",
-        "type": "JournalEntry",
-        "count": 4,
-        "types": {
-          "undefined": 4
-        },
-        "missingEs": 4,
-        "duplicateKeys": []
-      },
-      {
-        "name": "red-hood-iskra-audio",
-        "label": "BROKENTALES.Packs.RedHoodIskraAudio",
-        "path": "packs/red-hood-iskra-audio.db",
-        "type": "Playlist",
-        "count": 2,
-        "types": {
-          "undefined": 2
-        },
-        "missingEs": 2,
-        "duplicateKeys": []
-      },
-      {
-        "name": "broken-ones-source-pdfs",
-        "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
-        "path": "packs/broken-ones-source-pdfs.db",
-        "type": "JournalEntry",
-        "count": 3,
-        "types": {
-          "undefined": 3
-        },
-        "missingEs": 3,
-        "duplicateKeys": []
-      },
-      {
-        "name": "red-hood-iskra-support-general",
-        "label": "BROKENTALES.Packs.RedHoodIskraSupport.General",
-        "path": "packs/red-hood-iskra-support-general.db",
-        "type": "Item",
-        "count": 11,
-        "types": {
-          "gift": 3,
-          "storyElement": 8
-        },
-        "missingEs": 11,
-        "duplicateKeys": []
-      },
-      {
-        "name": "red-hood-iskra-support-red-hood-iskra",
-        "label": "BROKENTALES.Packs.RedHoodIskraSupport.RedHoodIskra",
-        "path": "packs/red-hood-iskra-support-red-hood-iskra.db",
-        "type": "Item",
-        "count": 2,
-        "types": {
-          "storyElement": 2
-        },
-        "missingEs": 2,
-        "duplicateKeys": []
-      }
-    ]
-  },
-  "lostStories": {
-    "id": "broken-tales-lost-stories",
-    "title": "Broken Tales - Lost Stories",
-    "version": "0.2.17",
-    "packCount": 19,
-    "duplicatePackNames": [],
-    "packs": [
-      {
-        "name": "lost-stories-hunters",
-        "label": "BROKENTALES.Packs.LostStoriesHunters",
-        "path": "packs/lost-stories-hunters.db",
-        "type": "Actor",
-        "count": 19,
-        "types": {
-          "hunter": 19
-        },
-        "missingEs": 19,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-actors",
-        "label": "BROKENTALES.Packs.LostStoriesActors",
-        "path": "packs/lost-stories-actors.db",
-        "type": "Actor",
-        "count": 122,
-        "types": {
-          "threat": 122
-        },
-        "missingEs": 122,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-dark-presences",
-        "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
-        "path": "packs/lost-stories-dark-presences.db",
-        "type": "Actor",
-        "count": 10,
-        "types": {
-          "threat": 10
-        },
-        "missingEs": 10,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-dark-presence-descriptors",
-        "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
-        "path": "packs/lost-stories-dark-presence-descriptors.db",
-        "type": "Item",
-        "count": 10,
-        "types": {
-          "descriptor": 10
-        },
-        "missingEs": 10,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-threat-descriptors",
-        "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
-        "path": "packs/lost-stories-threat-descriptors.db",
-        "type": "Item",
-        "count": 10,
-        "types": {
-          "descriptor": 10
-        },
-        "missingEs": 10,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-descriptors",
-        "label": "BROKENTALES.Packs.LostStoriesDescriptors",
-        "path": "packs/lost-stories-descriptors.db",
-        "type": "Item",
-        "count": 66,
-        "types": {
-          "descriptor": 66
-        },
-        "missingEs": 66,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-gifts",
-        "label": "BROKENTALES.Packs.LostStoriesGifts",
-        "path": "packs/lost-stories-gifts.db",
-        "type": "Item",
-        "count": 38,
-        "types": {
-          "gift": 38
-        },
-        "missingEs": 38,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-dark-egos",
-        "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
-        "path": "packs/lost-stories-dark-egos.db",
-        "type": "Item",
-        "count": 19,
-        "types": {
-          "darkEgo": 19
-        },
-        "missingEs": 19,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-equipment",
-        "label": "BROKENTALES.Packs.LostStoriesEquipment",
-        "path": "packs/lost-stories-equipment.db",
-        "type": "Item",
-        "count": 103,
-        "types": {
-          "equipment": 103
-        },
-        "missingEs": 103,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-library",
-        "label": "BROKENTALES.Packs.LostStoriesLibrary",
-        "path": "packs/lost-stories-library.db",
-        "type": "JournalEntry",
-        "count": 5,
-        "types": {
-          "undefined": 5
-        },
-        "missingEs": 5,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-adventures",
-        "label": "BROKENTALES.Packs.LostStoriesAdventures",
-        "path": "packs/lost-stories-adventures.db",
-        "type": "JournalEntry",
-        "count": 9,
-        "types": {
-          "undefined": 9
-        },
-        "missingEs": 9,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-maps",
-        "label": "BROKENTALES.Packs.LostStoriesMaps",
-        "path": "packs/lost-stories-maps.db",
-        "type": "JournalEntry",
-        "count": 9,
-        "types": {
-          "undefined": 9
-        },
-        "missingEs": 9,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenes",
-        "label": "BROKENTALES.Packs.LostStoriesScenes",
-        "path": "packs/lost-stories-scenes.db",
-        "type": "Scene",
-        "count": 9,
-        "types": {
-          "undefined": 9
-        },
-        "missingEs": 9,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-source-pdfs",
-        "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
-        "path": "packs/lost-stories-source-pdfs.db",
-        "type": "JournalEntry",
-        "count": 5,
-        "types": {
-          "undefined": 5
-        },
-        "missingEs": 5,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenario-gifts",
-        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
-        "path": "packs/lost-stories-scenario-gifts.db",
-        "type": "Item",
-        "count": 10,
-        "types": {
-          "storyElement": 10
-        },
-        "missingEs": 10,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenario-gifts-a-soldiers-duty",
-        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts.ASoldiersDuty",
-        "path": "packs/lost-stories-scenario-gifts-a-soldiers-duty.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "storyElement": 3
-        },
-        "missingEs": 3,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenario-gifts-of-flesh-and-wood",
-        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts.OfFleshAndWood",
-        "path": "packs/lost-stories-scenario-gifts-of-flesh-and-wood.db",
-        "type": "Item",
-        "count": 3,
-        "types": {
-          "storyElement": 3
-        },
-        "missingEs": 3,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenario-gifts-the-smile-in-the-darkness",
-        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts.TheSmileInTheDarkness",
-        "path": "packs/lost-stories-scenario-gifts-the-smile-in-the-darkness.db",
-        "type": "Item",
-        "count": 2,
-        "types": {
-          "storyElement": 2
-        },
-        "missingEs": 2,
-        "duplicateKeys": []
-      },
-      {
-        "name": "lost-stories-scenario-gifts-tuvstarrs-reflection",
-        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts.TuvstarrsReflection",
-        "path": "packs/lost-stories-scenario-gifts-tuvstarrs-reflection.db",
-        "type": "Item",
-        "count": 2,
-        "types": {
-          "storyElement": 2
-        },
-        "missingEs": 2,
-        "duplicateKeys": []
-      }
-    ]
-  }
+      "missingEs": 0,
+      "duplicateKeys": []
+    }
+  ]
 }

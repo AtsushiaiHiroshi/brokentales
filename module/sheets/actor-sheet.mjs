@@ -175,18 +175,18 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   #featuredDescriptionText() {
     const principal = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
     const localizedPrincipal = principal ? this.#localizeItem(principal) : null;
+    if (this.#plainText(localizedPrincipal?.system?.description)) {
+      return localizedPrincipal.system.description;
+    }
+
     const language = this.#contentLanguage();
     const actorData = this.document.toObject();
     const translatedNotes = actorData.flags?.["broken-tales"]?.translations?.[language]?.system?.details?.notes;
     if (this.#plainText(translatedNotes)) return translatedNotes;
-    if (language !== "en" && this.#plainText(localizedPrincipal?.system?.description)) {
-      return localizedPrincipal.system.description;
-    }
 
     const localizedActor = this.#localizeData(actorData);
     const notes = this.#plainText(localizedActor.system?.details?.notes);
     if (notes) return localizedActor.system.details.notes;
-    if (this.#plainText(localizedPrincipal?.system?.description)) return localizedPrincipal.system.description;
 
     return "";
   }

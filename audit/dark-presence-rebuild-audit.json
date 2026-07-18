@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-07-18T11:02:21.857Z",
+  "source": "E:/respaldos/Dark Presences.db",
+  "actorCount": 23,
+  "descriptorCount": 46,
+  "actors": [
+    {
+      "name": "Alfred Leaves the Talking Ghost",
+      "esName": "Alfred Leaves, el Fantasma Parlante",
+      "wounds": 1,
+      "oppositionLevel": 3,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    {
+      "name": "Ambrose the Sorcerer (Old Merlin)",
+      "esName": "Ambrosio el Hechicero (Viejo Merlín)",
+      "wounds": 1,
+      "oppositionLevel": 7,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        49,
+        50
+      ]
+    },
+    {
+      "name": "Fire Eater the Puppeteer",
+      "esName": "Comefuego el Titiritero",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    {
+      "name": "Frog Face",
+      "esName": "Cara de Rana",
+      "wounds": 3,
+      "oppositionLevel": 3,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    {
+      "name": "Goldilocks and her War Bears",
+      "esName": "Ricitos de Oro y sus osos de guerra",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 1,
+      "sourcePages": [
+        63,
+        64
+      ]
+    },
+    {
+      "name": "Hua Mulan the Sword Demon",
+      "esName": "Hua Mulan, el Demonio de la Espada",
+      "wounds": 3,
+      "oppositionLevel": 7,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        52
+      ]
+    },
+    {
+      "name": "Oakheart the Lady of the Woods",
+      "esName": "Corazón de Roble, la Dama de los Bosques",
+      "wounds": 1,
+      "oppositionLevel": 5,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        67,
+        68
+      ]
+    },
+    {
+      "name": "Orcus the Guardian",
+      "esName": "Orcus el Guardián",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        62,
+        63
+      ]
+    },
+    {
+      "name": "OZena (Dorothea Gray) - The Suffering",
+      "esName": "OZena (Dorothea Gray) - La que sufre",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 4,
+      "gifts": 1,
+      "sourcePages": [
+        233
+      ]
+    },
+    {
+      "name": "Saint George the Dragon Slayer - Ally",
+      "esName": "San Jorge el Matadragones - Aliado",
+      "wounds": 4,
+      "oppositionLevel": 5,
+      "descriptors": 4,
+      "gifts": 2,
+      "sourcePages": [
+        222
+      ]
+    },
+    {
+      "name": "Saint George the Dragon Slayer - Opponent",
+      "esName": "San Jorge el Matadragones - Oponente",
+      "wounds": 4,
+      "oppositionLevel": 5,
+      "descriptors": 4,
+      "gifts": 1,
+      "sourcePages": [
+        223,
+        224
+      ]
+    },
+    {
+      "name": "Sherazade - The Weaver of Tales",
+      "esName": "Sherezade - La Tejedora de Cuentos",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        205,
+        206
+      ]
+    },
+    {
+      "name": "Sinbad the Traveler of a Thousand Seas",
+      "esName": "Simbad, el viajero de mil mares",
+      "wounds": 1,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    {
+      "name": "The Ancient Enemy (Draco the Dragon)",
+      "esName": "El Antiguo Enemigo (Draco el Dragón)",
+      "wounds": 6,
+      "oppositionLevel": 7,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        54
+      ]
+    },
+    {
+      "name": "The Bremen Musicians (The Haunted Inn)",
+      "esName": "Los Feroces Músicos de Bremen",
+      "wounds": 4,
+      "oppositionLevel": 5,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        68,
+        69
+      ]
+    },
+    {
+      "name": "The King's Unlikely Tailor",
+      "esName": "El Insólito Sastre del Rey",
+      "wounds": 1,
+      "oppositionLevel": 3,
+      "descriptors": 1,
+      "gifts": 1,
+      "sourcePages": [
+        71,
+        72
+      ]
+    },
+    {
+      "name": "The Masked Swashbuckler (Puss in Boots)",
+      "esName": "El Espadachín Enmascarado (El Gato con Botas)",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 3,
+      "gifts": 2,
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    {
+      "name": "The Mothers of Fate (Cloris, Panis, Galis)",
+      "esName": "Las Madres del Destino (Cloris, Panis, Galis)",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        72,
+        73
+      ]
+    },
+    {
+      "name": "The Periwinkle Peer",
+      "esName": "El Insigne Azul Lavanda",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 3,
+      "gifts": 2,
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    {
+      "name": "The Returning Wolf",
+      "esName": "El Lobo Retornado",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        69,
+        70
+      ]
+    },
+    {
+      "name": "The Silent (The Mermaid Assassin)",
+      "esName": "La Silenciosa (La Asesina Sirena)",
+      "wounds": 3,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    {
+      "name": "The Wild Swans Gang",
+      "esName": "La Banda de los Cisnes Salvajes",
+      "wounds": 1,
+      "oppositionLevel": 5,
+      "descriptors": 2,
+      "gifts": 2,
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    {
+      "name": "The Wise Fox",
+      "esName": "El Zorro Sabio",
+      "wounds": 6,
+      "oppositionLevel": 7,
+      "descriptors": 1,
+      "gifts": 2,
+      "sourcePages": [
+        58
+      ]
+    }
+  ]
+}
