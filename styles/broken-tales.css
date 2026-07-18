@@ -206,9 +206,11 @@
 .bt-name {
   display: block;
   width: 100%;
+  height: auto;
   min-height: 62px;
+  field-sizing: content;
   resize: none;
-  overflow: visible;
+  overflow: hidden;
   font-family: var(--bt-display-font);
   font-size: 2.72rem;
   line-height: 0.9;
@@ -223,15 +225,15 @@
 
 .bt-ink-title.bt-name-long .bt-name,
 .bt-ink-title.bt-name-very-long .bt-name {
-  font-size: 1.82rem;
-  min-height: 104px;
-  line-height: 1.04;
+  font-size: 1.5rem;
+  min-height: 112px;
+  line-height: 1.08;
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.36rem;
-  min-height: 126px;
-  line-height: 1.08;
+  font-size: 1.16rem;
+  min-height: 132px;
+  line-height: 1.12;
 }
 
 .bt-line-fields,
@@ -421,15 +423,15 @@
 }
 
 .bt-linked-item.descriptor .bt-item-icon {
-  width: 76px;
-  height: 76px;
-  margin-left: -7px;
+  width: 88px;
+  height: 88px;
+  margin-left: -10px;
 }
 
 .bt-linked-item.gift .bt-item-icon {
-  width: 66px;
-  height: 66px;
-  transform: scale(1.08);
+  width: 82px;
+  height: 82px;
+  transform: scale(1.05);
   transform-origin: center;
 }
 

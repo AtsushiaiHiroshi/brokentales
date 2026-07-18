@@ -290,9 +290,9 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
 
   #nameLengthClass(name) {
     const length = String(name ?? "").length;
-    if (length > 58) return "bt-name-extreme";
-    if (length > 42) return "bt-name-very-long";
-    if (length > 28) return "bt-name-long";
+    if (length > 48) return "bt-name-extreme";
+    if (length > 34) return "bt-name-very-long";
+    if (length > 24) return "bt-name-long";
     return "";
   }
 
