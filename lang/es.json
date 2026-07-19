@@ -2388,5 +2388,6 @@
     "Description": "Descripción"
   },
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Dones de escenario: Ozena, la sufrida y desesperada",
-  "BROKENTALES.Macros.ResetComplete": "Macros de Broken Tales restablecidas."
+  "BROKENTALES.Macros.ResetComplete": "Macros de Broken Tales restablecidas.",
+  "BROKENTALES.MainDescriptor": "Descriptor principal"
 }

@@ -2140,5 +2140,6 @@
     }
   },
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Scenario Gifts: Ozena, the Suffering and Desperate",
-  "BROKENTALES.Macros.ResetComplete": "Broken Tales utility macros reset."
+  "BROKENTALES.Macros.ResetComplete": "Broken Tales utility macros reset.",
+  "BROKENTALES.MainDescriptor": "Main Descriptor"
 }
