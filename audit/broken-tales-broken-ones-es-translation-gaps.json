@@ -1,6 +1,6 @@
 {
   "module": "broken-tales-broken-ones",
-  "generatedAt": "2026-07-18T20:23:09.449Z",
+  "generatedAt": "2026-07-19T05:36:44.946Z",
   "packs": [
     {
       "pack": "broken-ones-hunters",
@@ -3816,86 +3816,7 @@
       "label": "BROKENTALES.Packs.RedHoodIskraSupport",
       "type": "Item",
       "count": 13,
-      "missingDocs": [
-        {
-          "name": "Where are you going all alone, sweetie?",
-          "type": "gift",
-          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
-          "pages": 0
-        },
-        {
-          "name": "Iskra's Pendant",
-          "type": "storyElement",
-          "img": "icons/sundries/jewelry/necklace-pendant-moon-silver.webp",
-          "pages": 0
-        },
-        {
-          "name": "Iskra's Wolf Mask",
-          "type": "storyElement",
-          "img": "icons/equipment/head/mask-carved-wood-tan.webp",
-          "pages": 0
-        },
-        {
-          "name": "Gerard's Letter to the Papacy",
-          "type": "storyElement",
-          "img": "icons/sundries/scrolls/scroll-worn-tan-brown.webp",
-          "pages": 0
-        },
-        {
-          "name": "Iskra's Red Cape",
-          "type": "storyElement",
-          "img": "icons/equipment/back/cloak-layered-red.webp",
-          "pages": 0
-        },
-        {
-          "name": "Voice of the Spirits",
-          "type": "gift",
-          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
-          "pages": 0
-        },
-        {
-          "name": "Elizaveta's Poison",
-          "type": "storyElement",
-          "img": "icons/consumables/potions/potion-bottle-corked-purple.webp",
-          "pages": 0
-        },
-        {
-          "name": "Blood Drawings in the Den",
-          "type": "storyElement",
-          "img": "icons/sundries/documents/document-torn-brown-red.webp",
-          "pages": 0
-        },
-        {
-          "name": "Portrait of Patrick Dubois",
-          "type": "storyElement",
-          "img": "icons/sundries/misc/portrait-painting-frame.webp",
-          "pages": 0
-        },
-        {
-          "name": "Wolf-killer",
-          "type": "gift",
-          "img": "systems/broken-tales/assets/icons/icon-gift.webp",
-          "pages": 0
-        },
-        {
-          "name": "Wolf Tracks and Child's Footprints",
-          "type": "storyElement",
-          "img": "icons/sundries/misc/paw-print.webp",
-          "pages": 0
-        },
-        {
-          "name": "Pile of Bones and Corpses",
-          "type": "storyElement",
-          "img": "icons/commodities/bones/bones-skull-white.webp",
-          "pages": 0
-        },
-        {
-          "name": "Secret Passageway Map",
-          "type": "storyElement",
-          "img": "icons/sundries/documents/blueprint-axe.webp",
-          "pages": 0
-        }
-      ],
+      "missingDocs": [],
       "missingItems": []
     },
     {
@@ -3903,28 +3824,7 @@
       "label": "BROKENTALES.Packs.RedHoodIskraMaps",
       "type": "JournalEntry",
       "count": 4,
-      "missingDocs": [
-        {
-          "name": "Cemetery - Red-Hood Iskra",
-          "img": "",
-          "pages": 1
-        },
-        {
-          "name": "Durfort - Red-Hood Iskra",
-          "img": "",
-          "pages": 1
-        },
-        {
-          "name": "Wolf Den - Red-Hood Iskra",
-          "img": "",
-          "pages": 1
-        },
-        {
-          "name": "Gevaudan - Red-Hood Iskra",
-          "img": "",
-          "pages": 1
-        }
-      ],
+      "missingDocs": [],
       "missingItems": []
     },
     {
