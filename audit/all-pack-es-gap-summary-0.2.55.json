@@ -1,0 +1,595 @@
+{
+  "generatedAt": "2026-07-19T06:06:31.065Z",
+  "summaries": [
+    {
+      "pack": "broken-tales.hunters",
+      "label": "BROKENTALES.Packs.CoreHunters",
+      "type": "Actor",
+      "count": 15,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.support",
+      "label": "BROKENTALES.Packs.Support",
+      "type": "Item",
+      "count": 6,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts",
+      "label": "BROKENTALES.Packs.ScenarioGifts",
+      "type": "Item",
+      "count": 19,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.hunter-gifts",
+      "label": "BROKENTALES.Packs.HunterGifts",
+      "type": "Item",
+      "count": 31,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.hunter-descriptors",
+      "label": "BROKENTALES.Packs.HunterDescriptors",
+      "type": "Item",
+      "count": 61,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.hunter-equipment",
+      "label": "BROKENTALES.Packs.HunterEquipment",
+      "type": "Item",
+      "count": 81,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.hunter-dark-egos",
+      "label": "BROKENTALES.Packs.HunterDarkEgos",
+      "type": "Item",
+      "count": 15,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.dark-presence-descriptors",
+      "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+      "type": "Item",
+      "count": 46,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.threat-descriptors",
+      "label": "BROKENTALES.Packs.ThreatDescriptors",
+      "type": "Item",
+      "count": 118,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.villager-descriptors",
+      "label": "BROKENTALES.Packs.VillagerDescriptors",
+      "type": "Item",
+      "count": 71,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.essence-descriptors",
+      "label": "BROKENTALES.Packs.EssenceDescriptors",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.dark-presences",
+      "label": "BROKENTALES.Packs.DarkPresences",
+      "type": "Actor",
+      "count": 23,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 23,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-actors",
+      "label": "BROKENTALES.Packs.ScenarioActors",
+      "type": "Actor",
+      "count": 85,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 33,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.library",
+      "label": "BROKENTALES.Packs.Library",
+      "type": "JournalEntry",
+      "count": 12,
+      "missingDocs": 12,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.adventures",
+      "label": "BROKENTALES.Packs.Adventures",
+      "type": "JournalEntry",
+      "count": 11,
+      "missingDocs": 11,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.adventure-maps",
+      "label": "BROKENTALES.Packs.AdventureMaps",
+      "type": "JournalEntry",
+      "count": 13,
+      "missingDocs": 13,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.adventure-scenes",
+      "label": "BROKENTALES.Packs.AdventureScenes",
+      "type": "Scene",
+      "count": 14,
+      "missingDocs": 12,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.audit",
+      "label": "BROKENTALES.Packs.Audit",
+      "type": "JournalEntry",
+      "count": 1,
+      "missingDocs": 1,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.source-pdfs",
+      "label": "BROKENTALES.Packs.SourcePdfs",
+      "type": "JournalEntry",
+      "count": 47,
+      "missingDocs": 47,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-red-hood-iskra",
+      "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-of-flesh-and-wood",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-the-smile-in-the-darkness",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+      "type": "Item",
+      "count": 2,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-a-soldiers-duty",
+      "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-wonderbedlam",
+      "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-tuvstarrs-reflection",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+      "type": "Item",
+      "count": 2,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-the-city-of-pigs",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-one-thousand-and-one-nightmares",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 3,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-ozena-the-suffering-and-desperate",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+      "type": "Item",
+      "count": 9,
+      "missingDocs": 9,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-saint-george-the-dragon-slayer",
+      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+      "type": "Item",
+      "count": 3,
+      "missingDocs": 3,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-hunters",
+      "label": "BROKENTALES.Packs.BrokenOnesHunters",
+      "type": "Actor",
+      "count": 13,
+      "missingDocs": 13,
+      "missingItems": 178,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-actors",
+      "label": "BROKENTALES.Packs.BrokenOnesActors",
+      "type": "Actor",
+      "count": 54,
+      "missingDocs": 54,
+      "missingItems": 134,
+      "docsWithGenericImg": 54,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+      "type": "Item",
+      "count": 41,
+      "missingDocs": 41,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-threat-descriptors",
+      "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+      "type": "Item",
+      "count": 54,
+      "missingDocs": 54,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-gifts",
+      "label": "BROKENTALES.Packs.BrokenOnesGifts",
+      "type": "Item",
+      "count": 26,
+      "missingDocs": 26,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-dark-egos",
+      "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+      "type": "Item",
+      "count": 13,
+      "missingDocs": 13,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-equipment",
+      "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+      "type": "Item",
+      "count": 85,
+      "missingDocs": 85,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-library",
+      "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+      "type": "JournalEntry",
+      "count": 3,
+      "missingDocs": 3,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-adventures",
+      "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+      "type": "JournalEntry",
+      "count": 7,
+      "missingDocs": 7,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-maps",
+      "label": "BROKENTALES.Packs.BrokenOnesMaps",
+      "type": "JournalEntry",
+      "count": 7,
+      "missingDocs": 7,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-scenes",
+      "label": "BROKENTALES.Packs.BrokenOnesScenes",
+      "type": "Scene",
+      "count": 7,
+      "missingDocs": 7,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.red-hood-iskra-support",
+      "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+      "type": "Item",
+      "count": 13,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.red-hood-iskra-maps",
+      "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+      "type": "JournalEntry",
+      "count": 4,
+      "missingDocs": 0,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.red-hood-iskra-audio",
+      "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+      "type": "Playlist",
+      "count": 2,
+      "missingDocs": 2,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-broken-ones.broken-ones-source-pdfs",
+      "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+      "type": "JournalEntry",
+      "count": 3,
+      "missingDocs": 3,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-hunters",
+      "label": "BROKENTALES.Packs.LostStoriesHunters",
+      "type": "Actor",
+      "count": 19,
+      "missingDocs": 19,
+      "missingItems": 245,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-actors",
+      "label": "BROKENTALES.Packs.LostStoriesActors",
+      "type": "Actor",
+      "count": 122,
+      "missingDocs": 122,
+      "missingItems": 289,
+      "docsWithGenericImg": 122,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-dark-presences",
+      "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+      "type": "Actor",
+      "count": 10,
+      "missingDocs": 10,
+      "missingItems": 40,
+      "docsWithGenericImg": 10,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-dark-presence-descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+      "type": "Item",
+      "count": 10,
+      "missingDocs": 10,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-threat-descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+      "type": "Item",
+      "count": 10,
+      "missingDocs": 10,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-descriptors",
+      "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+      "type": "Item",
+      "count": 66,
+      "missingDocs": 66,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-gifts",
+      "label": "BROKENTALES.Packs.LostStoriesGifts",
+      "type": "Item",
+      "count": 38,
+      "missingDocs": 38,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-dark-egos",
+      "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+      "type": "Item",
+      "count": 19,
+      "missingDocs": 19,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-equipment",
+      "label": "BROKENTALES.Packs.LostStoriesEquipment",
+      "type": "Item",
+      "count": 103,
+      "missingDocs": 103,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-library",
+      "label": "BROKENTALES.Packs.LostStoriesLibrary",
+      "type": "JournalEntry",
+      "count": 5,
+      "missingDocs": 5,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-adventures",
+      "label": "BROKENTALES.Packs.LostStoriesAdventures",
+      "type": "JournalEntry",
+      "count": 9,
+      "missingDocs": 9,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-maps",
+      "label": "BROKENTALES.Packs.LostStoriesMaps",
+      "type": "JournalEntry",
+      "count": 9,
+      "missingDocs": 9,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-scenes",
+      "label": "BROKENTALES.Packs.LostStoriesScenes",
+      "type": "Scene",
+      "count": 9,
+      "missingDocs": 9,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-source-pdfs",
+      "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+      "type": "JournalEntry",
+      "count": 5,
+      "missingDocs": 5,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+      "type": "Item",
+      "count": 10,
+      "missingDocs": 10,
+      "missingItems": 0,
+      "docsWithGenericImg": 0,
+      "dupes": []
+    }
+  ]
+}
