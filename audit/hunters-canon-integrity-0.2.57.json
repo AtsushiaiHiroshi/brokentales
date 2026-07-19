@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-07-19T07:20:41.397Z",
+  "version": "0.2.57",
+  "pack": "broken-tales.hunters",
+  "count": 15,
+  "expectedCount": 15,
+  "missingExpected": [],
+  "unexpected": [],
+  "duplicates": [],
+  "genericAvatars": [],
+  "actorsWithItemTranslationProblems": [],
+  "machiavelli": {
+    "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+    "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+    "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+    "genericAvatar": false,
+    "counts": {
+      "descriptor": 5,
+      "gift": 3,
+      "darkEgo": 1,
+      "equipment": 2
+    },
+    "itemProblems": []
+  },
+  "rows": [
+    {
+      "name": "James the Swordsman",
+      "esName": "Jaime el Espadachín",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "esName": "Garou el Viejo Lobo",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 3
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "esName": "El Asombroso Flautista sin Nombre",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "esName": "Baba Yaga la Niña Bruja",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "esName": "Regina la Ladrona de Corazones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Babai the Judge",
+      "esName": "Babai el Juez",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "The Woman from the Woods",
+      "esName": "La Dama de los Bosques",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 1
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "The Immortal",
+      "esName": "El Inmortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "esName": "Marina la Exploradora del Mar",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "esName": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "esName": "San Jorge el Matadragones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "esName": "Sun Wukong el Mono Asombroso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "esName": "Verdoux Barba Azul",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 8
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "esName": "Yukie Onn la Artista Viajera",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "itemProblems": []
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "genericAvatar": false,
+      "counts": {
+        "descriptor": 5,
+        "gift": 3,
+        "darkEgo": 1,
+        "equipment": 2
+      },
+      "itemProblems": []
+    }
+  ]
+}
