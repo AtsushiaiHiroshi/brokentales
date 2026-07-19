@@ -832,7 +832,7 @@ export async function createDeleteWorldActorsItemsMacro() {
 export async function createSyncWorldActorsMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.SyncWorldActors");
-  const command = "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true, importMissing: true, replaceExisting: true });";
+  const command = "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true, importMissing: false, replaceExisting: true });";
   const existing = game.macros.find((macro) => macro.name === name);
   if (existing) {
     if (existing.command !== command) await existing.update({ command, img: "icons/svg/upgrade.svg" });

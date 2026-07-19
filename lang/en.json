@@ -765,7 +765,7 @@
   "BROKENTALES.Macros.ImportPregens": "Import Broken Tales Pregens",
   "BROKENTALES.Macros.RepairDarkPresences": "Repair Broken Tales Dark Presences",
   "BROKENTALES.Macros.RepairPregens": "Repair Broken Tales Pregens",
-  "BROKENTALES.Macros.SyncWorldActors": "Sync Broken Tales World Actors",
+  "BROKENTALES.Macros.SyncWorldActors": "Repair Existing Broken Tales World Actors",
   "BROKENTALES.NegativeFace": "Negative Face",
   "BROKENTALES.NewItem": "New {type}",
   "BROKENTALES.Notes": "Notes",
