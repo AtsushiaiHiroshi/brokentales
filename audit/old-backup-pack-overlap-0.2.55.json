@@ -1,0 +1,640 @@
+{
+  "generatedAt": "2026-07-19T05:52:44.368Z",
+  "matches": [
+    {
+      "current": "broken-tales.hunters",
+      "label": "BROKENTALES.Packs.CoreHunters",
+      "type": "Actor",
+      "count": 15,
+      "bestOld": [
+        {
+          "old": "packs\\hunters-canon.db",
+          "oldBase": "hunters-canon",
+          "oldCount": 15,
+          "overlap": 15
+        },
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.support",
+      "label": "BROKENTALES.Packs.Support",
+      "type": "Item",
+      "count": 6,
+      "bestOld": [
+        {
+          "old": "packs\\support-canon.db",
+          "oldBase": "support-canon",
+          "oldCount": 6,
+          "overlap": 6
+        },
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\library-canon.db",
+          "oldBase": "library-canon",
+          "oldCount": 12,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts",
+      "label": "BROKENTALES.Packs.ScenarioGifts",
+      "type": "Item",
+      "count": 19,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 19
+        },
+        {
+          "old": "packs\\scenario-gifts-a-soldiers-duty.db",
+          "oldBase": "scenario-gifts-a-soldiers-duty",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-of-flesh-and-wood.db",
+          "oldBase": "scenario-gifts-of-flesh-and-wood",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-red-hood-iskra.db",
+          "oldBase": "scenario-gifts-red-hood-iskra",
+          "oldCount": 3,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\scenario-gifts-the-city-of-pigs.db",
+          "oldBase": "scenario-gifts-the-city-of-pigs",
+          "oldCount": 3,
+          "overlap": 2
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.hunter-gifts",
+      "label": "BROKENTALES.Packs.HunterGifts",
+      "type": "Item",
+      "count": 31,
+      "bestOld": [
+        {
+          "old": "packs\\hunter-gifts-canon.db",
+          "oldBase": "hunter-gifts-canon",
+          "oldCount": 31,
+          "overlap": 31
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\scenario-gifts-the-smile-in-the-darkness.db",
+          "oldBase": "scenario-gifts-the-smile-in-the-darkness",
+          "oldCount": 2,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.hunter-descriptors",
+      "label": "BROKENTALES.Packs.HunterDescriptors",
+      "type": "Item",
+      "count": 61,
+      "bestOld": [
+        {
+          "old": "packs\\hunter-descriptors-canon.db",
+          "oldBase": "hunter-descriptors-canon",
+          "oldCount": 61,
+          "overlap": 61
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.hunter-equipment",
+      "label": "BROKENTALES.Packs.HunterEquipment",
+      "type": "Item",
+      "count": 81,
+      "bestOld": [
+        {
+          "old": "packs\\hunter-equipment-canon.db",
+          "oldBase": "hunter-equipment-canon",
+          "oldCount": 81,
+          "overlap": 81
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.hunter-dark-egos",
+      "label": "BROKENTALES.Packs.HunterDarkEgos",
+      "type": "Item",
+      "count": 15,
+      "bestOld": [
+        {
+          "old": "packs\\hunter-dark-egos-canon.db",
+          "oldBase": "hunter-dark-egos-canon",
+          "oldCount": 15,
+          "overlap": 15
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.dark-presence-descriptors",
+      "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+      "type": "Item",
+      "count": 46,
+      "bestOld": [
+        {
+          "old": "packs\\dark-presence-descriptors-canon.db",
+          "oldBase": "dark-presence-descriptors-canon",
+          "oldCount": 46,
+          "overlap": 46
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.threat-descriptors",
+      "label": "BROKENTALES.Packs.ThreatDescriptors",
+      "type": "Item",
+      "count": 118,
+      "bestOld": [
+        {
+          "old": "packs\\threat-descriptors-canon.db",
+          "oldBase": "threat-descriptors-canon",
+          "oldCount": 118,
+          "overlap": 118
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.villager-descriptors",
+      "label": "BROKENTALES.Packs.VillagerDescriptors",
+      "type": "Item",
+      "count": 71,
+      "bestOld": [
+        {
+          "old": "packs\\villager-descriptors-canon.db",
+          "oldBase": "villager-descriptors-canon",
+          "oldCount": 71,
+          "overlap": 71
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.essence-descriptors",
+      "label": "BROKENTALES.Packs.EssenceDescriptors",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\essence-descriptors-canon.db",
+          "oldBase": "essence-descriptors-canon",
+          "oldCount": 3,
+          "overlap": 3
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.dark-presences",
+      "label": "BROKENTALES.Packs.DarkPresences",
+      "type": "Actor",
+      "count": 23,
+      "bestOld": [
+        {
+          "old": "packs\\dark-presences-canon.db",
+          "oldBase": "dark-presences-canon",
+          "oldCount": 23,
+          "overlap": 23
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-actors",
+      "label": "BROKENTALES.Packs.ScenarioActors",
+      "type": "Actor",
+      "count": 85,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-actors-canon.db",
+          "oldBase": "scenario-actors-canon",
+          "oldCount": 85,
+          "overlap": 85
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.library",
+      "label": "BROKENTALES.Packs.Library",
+      "type": "JournalEntry",
+      "count": 12,
+      "bestOld": [
+        {
+          "old": "packs\\library-canon.db",
+          "oldBase": "library-canon",
+          "oldCount": 12,
+          "overlap": 12
+        },
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 5
+        },
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\adventure-scenes-canon.db",
+          "oldBase": "adventure-scenes-canon",
+          "oldCount": 14,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\support-canon.db",
+          "oldBase": "support-canon",
+          "oldCount": 6,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.adventures",
+      "label": "BROKENTALES.Packs.Adventures",
+      "type": "JournalEntry",
+      "count": 11,
+      "bestOld": [
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 11
+        },
+        {
+          "old": "packs\\adventure-scenes-canon.db",
+          "oldBase": "adventure-scenes-canon",
+          "oldCount": 14,
+          "overlap": 11
+        },
+        {
+          "old": "packs\\adventures-canon.db",
+          "oldBase": "adventures-canon",
+          "oldCount": 11,
+          "overlap": 11
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.adventure-maps",
+      "label": "BROKENTALES.Packs.AdventureMaps",
+      "type": "JournalEntry",
+      "count": 13,
+      "bestOld": [
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 13
+        },
+        {
+          "old": "packs\\adventure-scenes-canon.db",
+          "oldBase": "adventure-scenes-canon",
+          "oldCount": 14,
+          "overlap": 12
+        },
+        {
+          "old": "packs\\adventures-canon.db",
+          "oldBase": "adventures-canon",
+          "oldCount": 11,
+          "overlap": 11
+        },
+        {
+          "old": "packs\\library-canon.db",
+          "oldBase": "library-canon",
+          "oldCount": 12,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 2
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.adventure-scenes",
+      "label": "BROKENTALES.Packs.AdventureScenes",
+      "type": "Scene",
+      "count": 14,
+      "bestOld": [
+        {
+          "old": "packs\\adventure-scenes-canon.db",
+          "oldBase": "adventure-scenes-canon",
+          "oldCount": 14,
+          "overlap": 14
+        },
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 12
+        },
+        {
+          "old": "packs\\adventures-canon.db",
+          "oldBase": "adventures-canon",
+          "oldCount": 11,
+          "overlap": 11
+        },
+        {
+          "old": "packs\\library-canon.db",
+          "oldBase": "library-canon",
+          "oldCount": 12,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.audit",
+      "label": "BROKENTALES.Packs.Audit",
+      "type": "JournalEntry",
+      "count": 1,
+      "bestOld": [
+        {
+          "old": "packs\\audit-canon.db",
+          "oldBase": "audit-canon",
+          "oldCount": 1,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.source-pdfs",
+      "label": "BROKENTALES.Packs.SourcePdfs",
+      "type": "JournalEntry",
+      "count": 47,
+      "bestOld": [
+        {
+          "old": "packs\\source-pdfs-canon.db",
+          "oldBase": "source-pdfs-canon",
+          "oldCount": 47,
+          "overlap": 47
+        },
+        {
+          "old": "packs\\library-canon.db",
+          "oldBase": "library-canon",
+          "oldCount": 12,
+          "overlap": 5
+        },
+        {
+          "old": "packs\\adventure-maps-canon.db",
+          "oldBase": "adventure-maps-canon",
+          "oldCount": 13,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\adventure-scenes-canon.db",
+          "oldBase": "adventure-scenes-canon",
+          "oldCount": 14,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\hunters-canon.db",
+          "oldBase": "hunters-canon",
+          "oldCount": 15,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-red-hood-iskra",
+      "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-red-hood-iskra.db",
+          "oldBase": "scenario-gifts-red-hood-iskra",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\scenario-gifts-the-smile-in-the-darkness.db",
+          "oldBase": "scenario-gifts-the-smile-in-the-darkness",
+          "oldCount": 2,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-of-flesh-and-wood",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-of-flesh-and-wood.db",
+          "oldBase": "scenario-gifts-of-flesh-and-wood",
+          "oldCount": 3,
+          "overlap": 3
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-the-smile-in-the-darkness",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+      "type": "Item",
+      "count": 2,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-the-smile-in-the-darkness.db",
+          "oldBase": "scenario-gifts-the-smile-in-the-darkness",
+          "oldCount": 2,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\hunter-gifts-canon.db",
+          "oldBase": "hunter-gifts-canon",
+          "oldCount": 31,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 1
+        },
+        {
+          "old": "packs\\scenario-gifts-red-hood-iskra.db",
+          "oldBase": "scenario-gifts-red-hood-iskra",
+          "oldCount": 3,
+          "overlap": 1
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-a-soldiers-duty",
+      "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-a-soldiers-duty.db",
+          "oldBase": "scenario-gifts-a-soldiers-duty",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 3
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-wonderbedlam",
+      "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-wonderbedlam.db",
+          "oldBase": "scenario-gifts-wonderbedlam",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 2
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-tuvstarrs-reflection",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+      "type": "Item",
+      "count": 2,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 2
+        },
+        {
+          "old": "packs\\scenario-gifts-tuvstarrs-reflection.db",
+          "oldBase": "scenario-gifts-tuvstarrs-reflection",
+          "oldCount": 2,
+          "overlap": 2
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-the-city-of-pigs",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-the-city-of-pigs.db",
+          "oldBase": "scenario-gifts-the-city-of-pigs",
+          "oldCount": 3,
+          "overlap": 3
+        },
+        {
+          "old": "packs\\scenario-gifts-canon.db",
+          "oldBase": "scenario-gifts-canon",
+          "oldCount": 19,
+          "overlap": 2
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-one-thousand-and-one-nightmares",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-one-thousand-and-one-nightmares.db",
+          "oldBase": "scenario-gifts-one-thousand-and-one-nightmares",
+          "oldCount": 3,
+          "overlap": 3
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-ozena-the-suffering-and-desperate",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+      "type": "Item",
+      "count": 9,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-ozena-the-suffering-and-desperate.db",
+          "oldBase": "scenario-gifts-ozena-the-suffering-and-desperate",
+          "oldCount": 9,
+          "overlap": 9
+        }
+      ]
+    },
+    {
+      "current": "broken-tales.scenario-gifts-saint-george-the-dragon-slayer",
+      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+      "type": "Item",
+      "count": 3,
+      "bestOld": [
+        {
+          "old": "packs\\scenario-gifts-saint-george-the-dragon-slayer.db",
+          "oldBase": "scenario-gifts-saint-george-the-dragon-slayer",
+          "oldCount": 3,
+          "overlap": 3
+        }
+      ]
+    }
+  ],
+  "version": "0.2.55"
+}

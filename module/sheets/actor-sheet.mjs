@@ -215,11 +215,12 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       return "";
     };
 
+    const configuredRaw = normalize(game.settings?.get?.("broken-tales", "contentLanguage"));
+    const configured = resolve(configuredRaw);
+    if (configured && configuredRaw !== "system") return configured;
+
     const core = resolve(game.settings?.get?.("core", "language"));
     if (core) return core;
-
-    const configured = resolve(game.settings?.get?.("broken-tales", "contentLanguage"));
-    if (configured) return configured;
 
     const i18n = resolve(game.i18n?.lang);
     if (i18n) return i18n;

@@ -76,6 +76,12 @@ function isBrokenTalesPackId(packId) {
   return BROKEN_TALES_PACK_PREFIXES.some((prefix) => String(packId ?? "").startsWith(prefix));
 }
 
+function normalizeBrokenTalesPackId(value) {
+  const raw = String(value ?? "");
+  if (isBrokenTalesPackId(raw)) return raw;
+  return raw.match(/(broken-tales(?:-[a-z0-9-]+)?\.[a-z0-9-]+)/i)?.[1] ?? "";
+}
+
 function applicationElement(element) {
   if (element instanceof HTMLElement) return element;
   if (element?.[0] instanceof HTMLElement) return element[0];
@@ -84,18 +90,20 @@ function applicationElement(element) {
 
 function packIdFromApplication(application) {
   const collectionMetadata = application?.collection?.metadata;
-  if (collectionMetadata?.id && isBrokenTalesPackId(collectionMetadata.id)) return collectionMetadata.id;
+  const metadataId = normalizeBrokenTalesPackId(collectionMetadata?.id);
+  if (metadataId) return metadataId;
   if (collectionMetadata?.packageName && collectionMetadata?.name) {
-    return collectionMetadata.packageName + "." + collectionMetadata.name;
+    return normalizeBrokenTalesPackId(collectionMetadata.packageName + "." + collectionMetadata.name);
   }
 
-  const direct = application?.collection?.collection
-    ?? application?.document?.collection?.metadata?.id
-    ?? application?.options?.collection
-    ?? application?.options?.pack
-    ?? application?.id
-    ?? "";
-  if (typeof direct === "string" && isBrokenTalesPackId(direct)) return direct;
+  const direct = [
+    application?.collection?.collection,
+    application?.document?.collection?.metadata?.id,
+    application?.options?.collection,
+    application?.options?.pack,
+    application?.id
+  ].map(normalizeBrokenTalesPackId).find(Boolean) ?? "";
+  if (direct) return direct;
 
   const title = String(application?.title ?? application?.window?.title ?? "").trim();
   if (title && game?.packs) {
@@ -108,13 +116,14 @@ function packIdFromApplication(application) {
     if (byTitle) return byTitle.collection;
   }
 
-  return typeof direct === "string" ? direct : "";
+  return "";
 }
 function packIdFromRoot(root) {
-  return root?.dataset?.pack
-    ?? root?.querySelector?.("[data-pack]")?.dataset?.pack
-    ?? root?.closest?.("[data-pack]")?.dataset?.pack
-    ?? "";
+  return [
+    root?.dataset?.pack,
+    root?.querySelector?.("[data-pack]")?.dataset?.pack,
+    root?.closest?.("[data-pack]")?.dataset?.pack
+  ].map(normalizeBrokenTalesPackId).find(Boolean) ?? "";
 }
 
 function enhanceBrokenTalesCompendiumMarkup(root) {
@@ -159,11 +168,12 @@ function selectedContentLanguage() {
   };
 
   try {
+    const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
+    const configured = resolve(configuredRaw);
+    if (configured && configuredRaw !== "system") return configured;
+
     const core = resolve(game.settings.get("core", "language"));
     if (core) return core;
-
-    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
-    if (configured) return configured;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }

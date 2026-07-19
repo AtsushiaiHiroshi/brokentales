@@ -834,3 +834,25 @@
     min-height: 150px;
   }
 }
+
+/* Long-name hardening for pregen pairs such as Machiavelli and Bischeri. */
+.bt-ink-title.bt-name-long .bt-name,
+.bt-ink-title.bt-name-very-long .bt-name,
+.bt-ink-title.bt-name-extreme .bt-name {
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+}
+
+.bt-ink-title.bt-name-extreme .bt-name {
+  font-size: 1.08rem;
+  min-height: 176px;
+  line-height: 1.12;
+}
+
+@container (max-width: 930px) {
+  .bt-ink-title.bt-name-extreme .bt-name {
+    font-size: 0.98rem;
+    min-height: 184px;
+  }
+}
