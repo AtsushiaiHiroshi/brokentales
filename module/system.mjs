@@ -41,6 +41,11 @@ import {
   repairDarkPresences,
   syncWorldActorsFromCompendia
 } from "./content.mjs";
+import {
+  auditBrokenTalesCompendia,
+  repairBrokenTalesCompendia,
+  repairEmptyBrokenTalesCompendia
+} from "./compendium-repair.mjs";
 
 const BROKEN_TALES_PACK_PREFIXES = [
   "broken-tales.",
@@ -540,7 +545,9 @@ Hooks.once("ready", async () => {
     createSupportImportMacro,
     importReferenceActors,
     createReferenceActorsImportMacro,
-    resetUtilityMacros
+    resetUtilityMacros,
+    auditCompendia: auditBrokenTalesCompendia,
+    repairCompendia: repairBrokenTalesCompendia
   };
 
   if (!game.user.isGM) return;
@@ -552,6 +559,7 @@ Hooks.once("ready", async () => {
       createSyncWorldActorsMacro()
     ]);
     await refreshPregenAssets({ notify: false });
+    await repairEmptyBrokenTalesCompendia();
   } catch (error) {
     console.warn("Broken Tales | Could not create utility macros.", error);
   }

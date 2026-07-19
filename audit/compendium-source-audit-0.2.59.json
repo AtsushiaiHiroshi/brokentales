@@ -1,0 +1,679 @@
+{
+  "generatedAt": "2026-07-19T16:08:41.958Z",
+  "note": "Source JSONL compendium audit. The runtime repair reads these sources and repopulates visible Foundry packs when their index is empty or mismatched.",
+  "packages": [
+    {
+      "kind": "local-system",
+      "id": "broken-tales",
+      "title": "Broken Tales",
+      "version": "0.2.59",
+      "packs": [
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.hunters",
+          "name": "hunters",
+          "label": "BROKENTALES.Packs.CoreHunters",
+          "type": "Actor",
+          "path": "packs/hunters-canon.db",
+          "exists": true,
+          "sourceCount": 15,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.support",
+          "name": "support",
+          "label": "BROKENTALES.Packs.Support",
+          "type": "Item",
+          "path": "packs/support-canon.db",
+          "exists": true,
+          "sourceCount": 6,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts",
+          "name": "scenario-gifts",
+          "label": "BROKENTALES.Packs.ScenarioGifts",
+          "type": "Item",
+          "path": "packs/scenario-gifts-canon.db",
+          "exists": true,
+          "sourceCount": 19,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.hunter-gifts",
+          "name": "hunter-gifts",
+          "label": "BROKENTALES.Packs.HunterGifts",
+          "type": "Item",
+          "path": "packs/hunter-gifts-canon.db",
+          "exists": true,
+          "sourceCount": 31,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.hunter-descriptors",
+          "name": "hunter-descriptors",
+          "label": "BROKENTALES.Packs.HunterDescriptors",
+          "type": "Item",
+          "path": "packs/hunter-descriptors-canon.db",
+          "exists": true,
+          "sourceCount": 61,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.hunter-equipment",
+          "name": "hunter-equipment",
+          "label": "BROKENTALES.Packs.HunterEquipment",
+          "type": "Item",
+          "path": "packs/hunter-equipment-canon.db",
+          "exists": true,
+          "sourceCount": 80,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.hunter-dark-egos",
+          "name": "hunter-dark-egos",
+          "label": "BROKENTALES.Packs.HunterDarkEgos",
+          "type": "Item",
+          "path": "packs/hunter-dark-egos-canon.db",
+          "exists": true,
+          "sourceCount": 15,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.dark-presence-descriptors",
+          "name": "dark-presence-descriptors",
+          "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+          "type": "Item",
+          "path": "packs/dark-presence-descriptors-canon.db",
+          "exists": true,
+          "sourceCount": 46,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.threat-descriptors",
+          "name": "threat-descriptors",
+          "label": "BROKENTALES.Packs.ThreatDescriptors",
+          "type": "Item",
+          "path": "packs/threat-descriptors-canon.db",
+          "exists": true,
+          "sourceCount": 118,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.villager-descriptors",
+          "name": "villager-descriptors",
+          "label": "BROKENTALES.Packs.VillagerDescriptors",
+          "type": "Item",
+          "path": "packs/villager-descriptors-canon.db",
+          "exists": true,
+          "sourceCount": 71,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.essence-descriptors",
+          "name": "essence-descriptors",
+          "label": "BROKENTALES.Packs.EssenceDescriptors",
+          "type": "Item",
+          "path": "packs/essence-descriptors-canon.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.dark-presences",
+          "name": "dark-presences",
+          "label": "BROKENTALES.Packs.DarkPresences",
+          "type": "Actor",
+          "path": "packs/dark-presences-canon.db",
+          "exists": true,
+          "sourceCount": 23,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-actors",
+          "name": "scenario-actors",
+          "label": "BROKENTALES.Packs.ScenarioActors",
+          "type": "Actor",
+          "path": "packs/scenario-actors-canon.db",
+          "exists": true,
+          "sourceCount": 85,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.library",
+          "name": "library",
+          "label": "BROKENTALES.Packs.Library",
+          "type": "JournalEntry",
+          "path": "packs/library-canon.db",
+          "exists": true,
+          "sourceCount": 12,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.adventures",
+          "name": "adventures",
+          "label": "BROKENTALES.Packs.Adventures",
+          "type": "JournalEntry",
+          "path": "packs/adventures-canon.db",
+          "exists": true,
+          "sourceCount": 11,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.adventure-maps",
+          "name": "adventure-maps",
+          "label": "BROKENTALES.Packs.AdventureMaps",
+          "type": "JournalEntry",
+          "path": "packs/adventure-maps-canon.db",
+          "exists": true,
+          "sourceCount": 13,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.adventure-scenes",
+          "name": "adventure-scenes",
+          "label": "BROKENTALES.Packs.AdventureScenes",
+          "type": "Scene",
+          "path": "packs/adventure-scenes-canon.db",
+          "exists": true,
+          "sourceCount": 14,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.audit",
+          "name": "audit",
+          "label": "BROKENTALES.Packs.Audit",
+          "type": "JournalEntry",
+          "path": "packs/audit-canon.db",
+          "exists": true,
+          "sourceCount": 1,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.source-pdfs",
+          "name": "source-pdfs",
+          "label": "BROKENTALES.Packs.SourcePdfs",
+          "type": "JournalEntry",
+          "path": "packs/source-pdfs-canon.db",
+          "exists": true,
+          "sourceCount": 47,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-red-hood-iskra",
+          "name": "scenario-gifts-red-hood-iskra",
+          "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+          "type": "Item",
+          "path": "packs/scenario-gifts-red-hood-iskra.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-of-flesh-and-wood",
+          "name": "scenario-gifts-of-flesh-and-wood",
+          "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+          "type": "Item",
+          "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-the-smile-in-the-darkness",
+          "name": "scenario-gifts-the-smile-in-the-darkness",
+          "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+          "type": "Item",
+          "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+          "exists": true,
+          "sourceCount": 2,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-a-soldiers-duty",
+          "name": "scenario-gifts-a-soldiers-duty",
+          "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+          "type": "Item",
+          "path": "packs/scenario-gifts-a-soldiers-duty.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-wonderbedlam",
+          "name": "scenario-gifts-wonderbedlam",
+          "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+          "type": "Item",
+          "path": "packs/scenario-gifts-wonderbedlam.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-tuvstarrs-reflection",
+          "name": "scenario-gifts-tuvstarrs-reflection",
+          "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+          "type": "Item",
+          "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+          "exists": true,
+          "sourceCount": 2,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-the-city-of-pigs",
+          "name": "scenario-gifts-the-city-of-pigs",
+          "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+          "type": "Item",
+          "path": "packs/scenario-gifts-the-city-of-pigs.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-one-thousand-and-one-nightmares",
+          "name": "scenario-gifts-one-thousand-and-one-nightmares",
+          "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+          "type": "Item",
+          "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-ozena-the-suffering-and-desperate",
+          "name": "scenario-gifts-ozena-the-suffering-and-desperate",
+          "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+          "type": "Item",
+          "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+          "exists": true,
+          "sourceCount": 9,
+          "error": ""
+        },
+        {
+          "package": "broken-tales",
+          "pack": "broken-tales.scenario-gifts-saint-george-the-dragon-slayer",
+          "name": "scenario-gifts-saint-george-the-dragon-slayer",
+          "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+          "type": "Item",
+          "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        }
+      ]
+    },
+    {
+      "kind": "local-module",
+      "id": "broken-tales-broken-ones",
+      "title": "Broken Tales - The Broken Ones",
+      "version": "0.2.21",
+      "packs": [
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-hunters",
+          "name": "broken-ones-hunters",
+          "label": "BROKENTALES.Packs.BrokenOnesHunters",
+          "type": "Actor",
+          "path": "packs/broken-ones-hunters.db",
+          "exists": true,
+          "sourceCount": 13,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-actors",
+          "name": "broken-ones-actors",
+          "label": "BROKENTALES.Packs.BrokenOnesActors",
+          "type": "Actor",
+          "path": "packs/broken-ones-actors.db",
+          "exists": true,
+          "sourceCount": 54,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-descriptors",
+          "name": "broken-ones-descriptors",
+          "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+          "type": "Item",
+          "path": "packs/broken-ones-descriptors.db",
+          "exists": true,
+          "sourceCount": 41,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-threat-descriptors",
+          "name": "broken-ones-threat-descriptors",
+          "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+          "type": "Item",
+          "path": "packs/broken-ones-threat-descriptors.db",
+          "exists": true,
+          "sourceCount": 54,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-gifts",
+          "name": "broken-ones-gifts",
+          "label": "BROKENTALES.Packs.BrokenOnesGifts",
+          "type": "Item",
+          "path": "packs/broken-ones-gifts.db",
+          "exists": true,
+          "sourceCount": 26,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-dark-egos",
+          "name": "broken-ones-dark-egos",
+          "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+          "type": "Item",
+          "path": "packs/broken-ones-dark-egos.db",
+          "exists": true,
+          "sourceCount": 13,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-equipment",
+          "name": "broken-ones-equipment",
+          "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+          "type": "Item",
+          "path": "packs/broken-ones-equipment.db",
+          "exists": true,
+          "sourceCount": 85,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-library",
+          "name": "broken-ones-library",
+          "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+          "type": "JournalEntry",
+          "path": "packs/broken-ones-library.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-adventures",
+          "name": "broken-ones-adventures",
+          "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+          "type": "JournalEntry",
+          "path": "packs/broken-ones-adventures.db",
+          "exists": true,
+          "sourceCount": 7,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-maps",
+          "name": "broken-ones-maps",
+          "label": "BROKENTALES.Packs.BrokenOnesMaps",
+          "type": "JournalEntry",
+          "path": "packs/broken-ones-maps.db",
+          "exists": true,
+          "sourceCount": 7,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-scenes",
+          "name": "broken-ones-scenes",
+          "label": "BROKENTALES.Packs.BrokenOnesScenes",
+          "type": "Scene",
+          "path": "packs/broken-ones-scenes.db",
+          "exists": true,
+          "sourceCount": 7,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.red-hood-iskra-support",
+          "name": "red-hood-iskra-support",
+          "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+          "type": "Item",
+          "path": "packs/red-hood-iskra-support.db",
+          "exists": true,
+          "sourceCount": 13,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.red-hood-iskra-maps",
+          "name": "red-hood-iskra-maps",
+          "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+          "type": "JournalEntry",
+          "path": "packs/red-hood-iskra-maps.db",
+          "exists": true,
+          "sourceCount": 4,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.red-hood-iskra-audio",
+          "name": "red-hood-iskra-audio",
+          "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+          "type": "Playlist",
+          "path": "packs/red-hood-iskra-audio.db",
+          "exists": true,
+          "sourceCount": 2,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-broken-ones",
+          "pack": "broken-tales-broken-ones.broken-ones-source-pdfs",
+          "name": "broken-ones-source-pdfs",
+          "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+          "type": "JournalEntry",
+          "path": "packs/broken-ones-source-pdfs.db",
+          "exists": true,
+          "sourceCount": 3,
+          "error": ""
+        }
+      ]
+    },
+    {
+      "kind": "local-module",
+      "id": "broken-tales-lost-stories",
+      "title": "Broken Tales - Lost Stories",
+      "version": "0.2.24",
+      "packs": [
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-hunters",
+          "name": "lost-stories-hunters",
+          "label": "BROKENTALES.Packs.LostStoriesHunters",
+          "type": "Actor",
+          "path": "packs/lost-stories-hunters.db",
+          "exists": true,
+          "sourceCount": 19,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-actors",
+          "name": "lost-stories-actors",
+          "label": "BROKENTALES.Packs.LostStoriesActors",
+          "type": "Actor",
+          "path": "packs/lost-stories-actors.db",
+          "exists": true,
+          "sourceCount": 122,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-dark-presences",
+          "name": "lost-stories-dark-presences",
+          "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+          "type": "Actor",
+          "path": "packs/lost-stories-dark-presences.db",
+          "exists": true,
+          "sourceCount": 10,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-dark-presence-descriptors",
+          "name": "lost-stories-dark-presence-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+          "type": "Item",
+          "path": "packs/lost-stories-dark-presence-descriptors.db",
+          "exists": true,
+          "sourceCount": 10,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-threat-descriptors",
+          "name": "lost-stories-threat-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+          "type": "Item",
+          "path": "packs/lost-stories-threat-descriptors.db",
+          "exists": true,
+          "sourceCount": 10,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-descriptors",
+          "name": "lost-stories-descriptors",
+          "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+          "type": "Item",
+          "path": "packs/lost-stories-descriptors.db",
+          "exists": true,
+          "sourceCount": 66,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-gifts",
+          "name": "lost-stories-gifts",
+          "label": "BROKENTALES.Packs.LostStoriesGifts",
+          "type": "Item",
+          "path": "packs/lost-stories-gifts.db",
+          "exists": true,
+          "sourceCount": 38,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-dark-egos",
+          "name": "lost-stories-dark-egos",
+          "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+          "type": "Item",
+          "path": "packs/lost-stories-dark-egos.db",
+          "exists": true,
+          "sourceCount": 19,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-equipment",
+          "name": "lost-stories-equipment",
+          "label": "BROKENTALES.Packs.LostStoriesEquipment",
+          "type": "Item",
+          "path": "packs/lost-stories-equipment.db",
+          "exists": true,
+          "sourceCount": 103,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-library",
+          "name": "lost-stories-library",
+          "label": "BROKENTALES.Packs.LostStoriesLibrary",
+          "type": "JournalEntry",
+          "path": "packs/lost-stories-library.db",
+          "exists": true,
+          "sourceCount": 5,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-adventures",
+          "name": "lost-stories-adventures",
+          "label": "BROKENTALES.Packs.LostStoriesAdventures",
+          "type": "JournalEntry",
+          "path": "packs/lost-stories-adventures.db",
+          "exists": true,
+          "sourceCount": 9,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-maps",
+          "name": "lost-stories-maps",
+          "label": "BROKENTALES.Packs.LostStoriesMaps",
+          "type": "JournalEntry",
+          "path": "packs/lost-stories-maps.db",
+          "exists": true,
+          "sourceCount": 9,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-scenes",
+          "name": "lost-stories-scenes",
+          "label": "BROKENTALES.Packs.LostStoriesScenes",
+          "type": "Scene",
+          "path": "packs/lost-stories-scenes.db",
+          "exists": true,
+          "sourceCount": 9,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-source-pdfs",
+          "name": "lost-stories-source-pdfs",
+          "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+          "type": "JournalEntry",
+          "path": "packs/lost-stories-source-pdfs.db",
+          "exists": true,
+          "sourceCount": 5,
+          "error": ""
+        },
+        {
+          "package": "broken-tales-lost-stories",
+          "pack": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+          "name": "lost-stories-scenario-gifts",
+          "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+          "type": "Item",
+          "path": "packs/lost-stories-scenario-gifts.db",
+          "exists": true,
+          "sourceCount": 10,
+          "error": ""
+        }
+      ]
+    }
+  ]
+}

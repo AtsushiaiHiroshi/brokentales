@@ -774,6 +774,7 @@
   "BROKENTALES.Notifications.DeleteCancelled": "Deletion cancelled.",
   "BROKENTALES.Notifications.DeleteWorldActorsItemsConfirm": "This will delete {actors} actors, {items} world items, and empty Actor/Item folders.",
   "BROKENTALES.Notifications.DuplicatesCleaned": "Broken Tales duplicate actors cleaned: {deleted} deleted.",
+  "BROKENTALES.GMOnly": "Only a GM can repair or import Broken Tales content.",
   "BROKENTALES.Notifications.GMOnly": "Only a GM can import Broken Tales content.",
   "BROKENTALES.Notifications.PregensImported": "Broken Tales pregens: {created} created, {skipped} skipped.",
   "BROKENTALES.Notifications.WorldActorsItemsDeleted": "Deleted {actors} actors and {items} world items.",
@@ -2141,5 +2142,6 @@
   },
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Scenario Gifts: Ozena, the Suffering and Desperate",
   "BROKENTALES.Macros.ResetComplete": "Broken Tales utility macros reset.",
+  "BROKENTALES.CompendiaRepairComplete": "Broken Tales compendium repair complete: {repaired} repaired, {errors} errors.",
   "BROKENTALES.MainDescriptor": "Main Descriptor"
 }
