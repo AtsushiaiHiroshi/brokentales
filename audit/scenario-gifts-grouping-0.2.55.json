@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-07-19T06:02:33.532Z",
+  "packs": [
+    {
+      "pack": "broken-tales.support",
+      "label": "BROKENTALES.Packs.Support",
+      "count": 6,
+      "groups": {
+        "(sin escenario)": 6
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts",
+      "label": "BROKENTALES.Packs.ScenarioGifts",
+      "count": 19,
+      "groups": {
+        "Red-Hood Iskra": 3,
+        "Of Flesh and Wood": 3,
+        "The Smile in the Darkness": 2,
+        "A Soldier’s Duty": 3,
+        "Wonderbedlam": 3,
+        "Tuvstarr’s Reflection": 2,
+        "The City of Pigs": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-red-hood-iskra",
+      "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+      "count": 3,
+      "groups": {
+        "Red-Hood Iskra": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-of-flesh-and-wood",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+      "count": 3,
+      "groups": {
+        "Of Flesh and Wood": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-the-smile-in-the-darkness",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+      "count": 2,
+      "groups": {
+        "The Smile in the Darkness": 2
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-a-soldiers-duty",
+      "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+      "count": 3,
+      "groups": {
+        "A Soldier’s Duty": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-wonderbedlam",
+      "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+      "count": 3,
+      "groups": {
+        "Wonderbedlam": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-tuvstarrs-reflection",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+      "count": 2,
+      "groups": {
+        "Tuvstarr’s Reflection": 2
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-the-city-of-pigs",
+      "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+      "count": 3,
+      "groups": {
+        "The City of Pigs": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-one-thousand-and-one-nightmares",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+      "count": 3,
+      "groups": {
+        "One Thousand and One Nightmares": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-ozena-the-suffering-and-desperate",
+      "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+      "count": 9,
+      "groups": {
+        "Ozena, the Suffering and Desperate - Part Three: The Emerald Village": 3,
+        "Ozena, the Suffering and Desperate - Part Two: The Red Village": 3,
+        "Ozena, the Suffering and Desperate - Part One: The Yellow Village": 3
+      }
+    },
+    {
+      "pack": "broken-tales.scenario-gifts-saint-george-the-dragon-slayer",
+      "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+      "count": 3,
+      "groups": {
+        "Saint George the Dragon Slayer": 3
+      }
+    },
+    {
+      "pack": "broken-tales-broken-ones.red-hood-iskra-support",
+      "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+      "count": 13,
+      "groups": {
+        "Red-Hood Iskra": 13
+      }
+    },
+    {
+      "pack": "broken-tales-lost-stories.lost-stories-scenario-gifts",
+      "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+      "count": 10,
+      "groups": {
+        "A Soldiers Duty": 3,
+        "Of Flesh and Wood": 3,
+        "The Smile In the Darkness": 2,
+        "Tuvstarrs Reflection": 2
+      }
+    }
+  ]
+}

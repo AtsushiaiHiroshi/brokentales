@@ -155,7 +155,8 @@ const SCENARIO_GIFT_PACK_IDS = new Set([
 ]);
 
 function isScenarioGiftPackId(packId) {
-  return SCENARIO_GIFT_PACK_IDS.has(packId);
+  return SCENARIO_GIFT_PACK_IDS.has(packId)
+    || /^broken-tales\.scenario-gifts(?:-|$)/i.test(String(packId ?? ""));
 }
 
 function selectedContentLanguage() {
