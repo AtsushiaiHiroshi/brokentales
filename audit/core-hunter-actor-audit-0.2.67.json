@@ -1,0 +1,419 @@
+{
+  "count": 15,
+  "namesBySource": {
+    "current": [
+      "Baba Yaga the Child Witch",
+      "Babai the Judge",
+      "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "Garou the Old Wolf",
+      "George the Holy Dragon Slayer",
+      "James the Swordsman",
+      "Marina the Sea Explorer",
+      "Niklaus von Krampus",
+      "Regina the Thief of Hearts",
+      "Sun Wukong the Amazing Monkey",
+      "The Astonishing Pied Piper Without a Name",
+      "The Immortal",
+      "The Woman from the Woods",
+      "Verdoux Bluebeard",
+      "Yukie Onn the Traveling Artist"
+    ],
+    "old": [
+      "Baba Yaga - The Child Witch",
+      "Babai - The Judge",
+      "Cunning Machiavelli The Fox & Sly Bischeri The Cat",
+      "Garou - The Old Wolf",
+      "George The Holy Dragon Slayer",
+      "James The Swordsman",
+      "Marina - The Sea Explorer",
+      "Niklaus Von Krampus",
+      "Regina - The Thief of Hearts",
+      "Sun Wukong - The Amazing Monkey",
+      "The Astonishing Pied Piper Without a Name",
+      "The Inmortal",
+      "The Woman from the Woods",
+      "Verdoux Bluebeard",
+      "Yukie Onn - The Traveling Artist"
+    ]
+  },
+  "problems": [],
+  "hunterSummaries": [
+    {
+      "name": "James the Swordsman",
+      "esName": "Jaime el Espadachín",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - I Will Have My Satisfaction"
+      ],
+      "equipmentCount": 7,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "esName": "Garou el Viejo Lobo",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Find Them Forever After",
+        "Wolf Among the Lambs"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Big Bad Wolf"
+      ],
+      "equipmentCount": 3,
+      "itemEsMissing": []
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "esName": "El Asombroso Flautista sin Nombre",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Soul Music",
+        "Skilled Acrobat"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Power of Music"
+      ],
+      "equipmentCount": 6,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "esName": "Baba Yaga la Niña Bruja",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Magic",
+        "Listen to my Words"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Evil Witch"
+      ],
+      "equipmentCount": 7,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "esName": "Regina la Ladrona de Corazones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "I Want It!",
+        "The Queen"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - As I Want!"
+      ],
+      "equipmentCount": 4,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Babai the Judge",
+      "esName": "Babai el Juez",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Eye of the Judge",
+        "Like a Shadow"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ],
+      "equipmentCount": 6,
+      "itemEsMissing": []
+    },
+    {
+      "name": "The Woman from the Woods",
+      "esName": "La Dama de los Bosques",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "The Woman from the Wood",
+        "Home Sweet Home"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - Soft and Succulent Flesh"
+      ],
+      "equipmentCount": 1,
+      "itemEsMissing": []
+    },
+    {
+      "name": "The Immortal",
+      "esName": "El Inmortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Memories of an Infinite Life",
+        "The Servant"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Immortal"
+      ],
+      "equipmentCount": 6,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "esName": "Marina la Exploradora del Mar",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Sea Magic",
+        "Mutable Appearance"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - Treasures of the Sea"
+      ],
+      "equipmentCount": 6,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "esName": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Exorcist",
+        "The Inner Demon"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Demon Revealed"
+      ],
+      "equipmentCount": 6,
+      "itemEsMissing": []
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "esName": "San Jorge el Matadragones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "The Dragon Slayer",
+        "Agent of the Papacy"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Saint"
+      ],
+      "equipmentCount": 7,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "esName": "Sun Wukong el Mono Asombroso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Guardian Disciple",
+        "Monkey King"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - Descendant of the Awakening of the Void and the Emptiness"
+      ],
+      "equipmentCount": 4,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "esName": "Verdoux Barba Azul",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Problem Solver",
+        "The Key to Each Door"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Unscrupulous Assassin"
+      ],
+      "equipmentCount": 8,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "esName": "Yukie Onn la Artista Viajera",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 4,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 2,
+      "gifts": [
+        "Otherworldly Charm",
+        "Blood-Hot"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - Ice-Cold"
+      ],
+      "equipmentCount": 7,
+      "itemEsMissing": []
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "imgLocal": true,
+      "imgRepo": true,
+      "descriptorCount": 5,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor3-don3.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftCount": 3,
+      "gifts": [
+        "Believe in Miracles (Cunning)",
+        "Rogue (Sly)",
+        "Partner in Crime (Common)"
+      ],
+      "darkEgoCount": 1,
+      "darkEgos": [
+        "Dark Ego - The Fox and the Cat"
+      ],
+      "equipmentCount": 2,
+      "itemEsMissing": []
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "sourceImageCount": 15,
+  "actorAvatarAudit": [
+    {
+      "name": "James the Swordsman",
+      "es": "Jaime el Espadachín",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "es": "Garou el Viejo Lobo",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "es": "El Asombroso Flautista sin Nombre",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "es": "Baba Yaga la Niña Bruja",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "es": "Regina la Ladrona de Corazones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Babai the Judge",
+      "es": "Babai el Juez",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "The Woman from the Woods",
+      "es": "La Dama de los Bosques",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "The Immortal",
+      "es": "El Inmortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "es": "Marina la Exploradora del Mar",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "es": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "es": "San Jorge el Matadragones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "es": "Sun Wukong el Mono Asombroso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "es": "Verdoux Barba Azul",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "es": "Yukie Onn la Artista Viajera",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "es": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "local": true,
+      "repo": true,
+      "generic": false
+    }
+  ],
+  "missing": []
+}

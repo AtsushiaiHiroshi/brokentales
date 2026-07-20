@@ -1,0 +1,77 @@
+[
+  {
+    "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/systems/broken-tales",
+    "id": "broken-tales",
+    "title": "Broken Tales",
+    "version": "0.2.67",
+    "manifest": true,
+    "packCount": 29,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones",
+    "id": "broken-tales-broken-ones",
+    "title": "Broken Tales - The Broken Ones",
+    "version": "0.2.23",
+    "manifest": true,
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories",
+    "id": "broken-tales-lost-stories",
+    "title": "Broken Tales - Lost Stories",
+    "version": "0.2.26",
+    "manifest": true,
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo",
+    "manifest": false,
+    "packCount": 0,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-broken-ones",
+    "id": "broken-tales-broken-ones",
+    "title": "Broken Tales - The Broken Ones",
+    "version": "0.2.22",
+    "manifest": true,
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-lost-stories",
+    "id": "broken-tales-lost-stories",
+    "title": "Broken Tales - Lost Stories",
+    "version": "0.2.25",
+    "manifest": true,
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  }
+]

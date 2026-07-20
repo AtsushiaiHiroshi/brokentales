@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.66",
+  "version": "0.2.68",
   "authors": [
     {
       "name": "Mesa local"
@@ -434,7 +434,6 @@
           "name": "Narrador y oposición",
           "sorting": "m",
           "packs": [
-            "threats-villagers-essences",
             "dark-presences",
             "scenario-actors",
             "dark-presence-descriptors",
@@ -467,9 +466,6 @@
           "sorting": "a",
           "packs": [
             "scenario-gifts-one-thousand-and-one-nightmares",
-            "scenario-gifts-ozena-the-suffering-and-desperate-part-one-the-yellow-village",
-            "scenario-gifts-ozena-the-suffering-and-desperate-part-three-the-emerald-village",
-            "scenario-gifts-ozena-the-suffering-and-desperate-part-two-the-red-village",
             "scenario-gifts-saint-george-the-dragon-slayer",
             "scenario-gifts-the-city-of-pigs",
             "scenario-gifts-wonderbedlam"

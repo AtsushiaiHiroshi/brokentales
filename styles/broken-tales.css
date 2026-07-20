@@ -1119,3 +1119,584 @@
     grid-column: 1 / -1;
   }
 }
+
+/* v0.2.67 hunter sheet reset: fixed printed-page geometry over the source sheet art. */
+.broken-tales.application,
+.broken-tales.window-app {
+  background: #070405 url("../assets/ui/broken-tales-book-alt.jpg") center / cover no-repeat;
+}
+
+.broken-tales .window-content,
+.broken-tales .standard-form {
+  padding: 0 !important;
+  overflow: auto !important;
+  background: #070405 !important;
+}
+
+.broken-tales .bt-sheet {
+  box-sizing: border-box;
+  width: 1024px !important;
+  min-width: 1024px !important;
+  max-width: 1024px !important;
+  min-height: 1448px;
+  height: auto !important;
+  margin: 0 auto;
+  padding: 56px 44px 154px;
+  overflow: visible !important;
+  color: var(--bt-ink);
+  background-color: #fbfaf4;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)),
+    image-set(
+      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
+      url("../assets/ui/broken-tales-sheet.png") type("image/png")
+    );
+  background-position: center top, center top;
+  background-size: 1024px 1448px, 1024px 1448px;
+  background-repeat: repeat-y, repeat-y;
+  container-type: normal;
+}
+
+.broken-tales .bt-sheet::before,
+.broken-tales .bt-sheet::after {
+  content: none;
+}
+
+.broken-tales .bt-sheet-head {
+  display: grid;
+  grid-template-columns: 132px 340px 1fr;
+  gap: 12px 18px;
+  align-items: start;
+  min-height: 176px;
+  margin: 0 0 36px;
+  padding: 0 0 18px;
+  border: 0;
+  border-bottom: 3px solid var(--bt-ink);
+  background: transparent;
+}
+
+.broken-tales .bt-portrait img {
+  width: 124px;
+  height: 124px;
+  object-fit: cover;
+  background: #fff;
+  border: 4px solid var(--bt-red);
+}
+
+.broken-tales .bt-portrait input {
+  width: 124px;
+  min-height: 24px;
+  padding: 2px 0;
+  color: var(--bt-ink);
+  font-size: 0.62rem;
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid var(--bt-red);
+  background: transparent;
+}
+
+.broken-tales .bt-identity {
+  width: 340px;
+  min-width: 0;
+}
+
+.broken-tales .bt-ink-title {
+  width: 340px;
+  margin: 0 0 10px;
+  padding: 0;
+  overflow: visible;
+  border-bottom: 3px solid var(--bt-red);
+  background: transparent;
+}
+
+.broken-tales .bt-name {
+  width: 340px;
+  min-height: 64px;
+  height: 64px;
+  padding: 0 0 4px;
+  overflow: hidden;
+  resize: none;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  color: #a6000f;
+  background-color: transparent !important;
+  background-image: linear-gradient(180deg, #fff 0%, #ffe4e4 18%, #df1b25 39%, #78000b 58%, #100004 64%, #c90016 100%);
+  background-size: 100% 245%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: var(--bt-display-font);
+  font-size: 2.36rem;
+  line-height: 0.92;
+  text-shadow: 0 0 2px #fff, 0 0 9px rgba(215, 25, 32, 0.82), 1px 1px 0 rgba(8, 6, 9, 0.32);
+  animation: btTextTide 7s ease-in-out infinite;
+}
+
+.broken-tales .bt-ink-title.bt-name-long .bt-name {
+  height: 86px;
+  font-size: 1.72rem;
+  line-height: 1.02;
+}
+
+.broken-tales .bt-ink-title.bt-name-very-long .bt-name {
+  height: 108px;
+  font-size: 1.34rem;
+  line-height: 1.08;
+}
+
+.broken-tales .bt-ink-title.bt-name-extreme .bt-name {
+  height: 132px;
+  font-size: 1.12rem;
+  line-height: 1.12;
+}
+
+.broken-tales .bt-line-fields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.broken-tales .bt-line-fields label,
+.broken-tales .bt-compact-fields label,
+.broken-tales .bt-villager label {
+  min-width: 0;
+}
+
+.broken-tales .bt-line-fields span,
+.broken-tales .bt-compact-fields span,
+.broken-tales .bt-villager label > span,
+.broken-tales .bt-featured-text h2,
+.broken-tales .bt-featured-descriptor h3,
+.broken-tales .bt-section-title h2,
+.broken-tales .bt-linked-item h3,
+.broken-tales .bt-circle span,
+.broken-tales .bt-circle input,
+.broken-tales .bt-wounds label > span {
+  color: #a6000f;
+  background-color: transparent !important;
+  background-image: linear-gradient(180deg, #fff 0%, #ffe5e5 17%, #d71920 41%, #6a0008 58%, #0d0003 64%, #bb0012 100%);
+  background-size: 100% 255%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: var(--bt-display-font);
+  letter-spacing: 0;
+  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.72), 0 0 17px rgba(112, 0, 7, 0.45);
+  animation: btTextTide 8s ease-in-out infinite;
+}
+
+.broken-tales .bt-line-fields input,
+.broken-tales .bt-compact-fields input,
+.broken-tales .bt-compact-fields select,
+.broken-tales .bt-villager input,
+.broken-tales .bt-villager textarea,
+.broken-tales .bt-wounds input,
+.broken-tales .bt-footer-notes textarea {
+  color: var(--bt-ink);
+  background: transparent !important;
+  border: 0;
+  border-bottom: 2px solid var(--bt-red);
+  box-shadow: none;
+}
+
+.broken-tales .bt-featured {
+  min-height: 150px;
+  padding: 0 0 0 18px;
+  border-left: 8px solid var(--bt-red);
+  background-color: transparent;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 25px, rgba(8, 6, 9, 0.18) 26px, transparent 27px);
+}
+
+.broken-tales .bt-featured-text h2,
+.broken-tales .bt-featured-descriptor h3 {
+  margin: 0 0 4px;
+  font-size: 1.16rem;
+}
+
+.broken-tales .bt-featured-descriptor + .bt-featured-descriptor {
+  margin-top: 8px;
+}
+
+.broken-tales .bt-featured .bt-rich {
+  max-height: 118px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.broken-tales .bt-rich,
+.broken-tales .bt-rich p,
+.broken-tales .bt-linked-item p,
+.broken-tales .bt-empty,
+.broken-tales .bt-footer-notes textarea {
+  color: var(--bt-ink);
+  background: transparent !important;
+  text-shadow: none;
+}
+
+.broken-tales .bt-descriptor-stack,
+.broken-tales .bt-lower-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.broken-tales .bt-card,
+.broken-tales .bt-descriptor-row {
+  min-height: 245px;
+  padding: 12px 12px 18px;
+  border: 0;
+  border-top: 3px solid var(--bt-ink);
+  background-color: transparent;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, rgba(8, 6, 9, 0.16) 28px, transparent 29px);
+}
+
+.broken-tales .bt-card::after,
+.broken-tales .bt-descriptor-row::after {
+  height: 3px;
+  background: var(--bt-ink);
+  opacity: 1;
+}
+
+.broken-tales .bt-section-title {
+  min-height: 32px;
+  margin-bottom: 6px;
+}
+
+.broken-tales .bt-section-title h2 {
+  font-size: 1.24rem;
+}
+
+.broken-tales .bt-section-title button,
+.broken-tales .bt-linked-item button,
+.broken-tales .bt-resource-circles > button {
+  width: 34px;
+  height: 34px;
+  color: #fff;
+  background: var(--bt-red);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 var(--bt-red-dark);
+}
+
+.broken-tales .bt-linked-item {
+  display: grid;
+  grid-template-columns: 36px 58px minmax(0, 1fr);
+  gap: 2px 10px;
+  align-items: start;
+  min-height: 112px;
+  margin: 4px 0 18px;
+  padding: 0;
+}
+
+.broken-tales .bt-linked-item button {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 4px;
+}
+
+.broken-tales .bt-linked-item .bt-item-icon {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  margin: 0;
+  transform: none;
+}
+
+.broken-tales .bt-linked-item.gift .bt-item-icon {
+  width: 34px;
+  height: 34px;
+  margin: 8px 0 0 10px;
+}
+
+.broken-tales .bt-linked-item h3 {
+  grid-column: 3;
+  grid-row: 1;
+  margin: 2px 0 4px;
+  font-size: 1.04rem;
+  line-height: 1.05;
+}
+
+.broken-tales .bt-linked-item .bt-rich,
+.broken-tales .bt-linked-item p {
+  grid-column: 3;
+  font-size: 1rem;
+  line-height: 1.28;
+}
+
+.broken-tales .bt-linked-item.slim {
+  grid-template-columns: 36px minmax(0, 1fr);
+  min-height: 54px;
+}
+
+.broken-tales .bt-linked-item.slim h3,
+.broken-tales .bt-linked-item.slim .bt-rich {
+  grid-column: 2;
+}
+
+.broken-tales .bt-dark-descriptor {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 2px 10px;
+}
+
+.broken-tales .bt-dark-descriptor .bt-item-icon.small {
+  width: 48px;
+  height: 48px;
+}
+
+.broken-tales .bt-resource-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 34px 26px 12px 0;
+  padding: 0;
+}
+
+.broken-tales .bt-resource-circles {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.broken-tales .bt-circle {
+  width: 94px;
+  height: 94px;
+  padding: 18px 12px 10px;
+  color: var(--bt-ink);
+  background: transparent url("../assets/icons/icon-circle.webp") center / contain no-repeat !important;
+  border: 0;
+}
+
+.broken-tales .bt-circle input {
+  width: 25px;
+  min-height: 20px;
+  padding: 0;
+  text-align: center;
+  border: 0;
+}
+
+.broken-tales .bt-footer-notes {
+  min-height: 140px;
+  padding: 0 26px 0 0;
+  background: transparent;
+}
+
+.broken-tales .bt-footer-notes h2 {
+  color: #a6000f;
+  font-family: var(--bt-display-font);
+}
+
+.broken-tales .bt-footer-notes textarea {
+  width: 100%;
+  min-height: 112px;
+  resize: vertical;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 25px, rgba(8, 6, 9, 0.18) 26px, transparent 27px) !important;
+}
+
+/* v0.2.68: printed hunter sheet alignment. Keep every field on a fixed page grid. */
+.broken-tales .bt-sheet.hunter {
+  width: 1024px !important;
+  min-width: 1024px !important;
+  max-width: 1024px !important;
+  min-height: 1448px;
+  padding: 58px 52px 156px;
+  background-color: #fbfaf4;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)),
+    image-set(
+      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
+      url("../assets/ui/broken-tales-sheet.png") type("image/png")
+    );
+  background-position: center top, center top;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 1024px 1448px, 1024px 1448px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-sheet-head {
+  grid-template-columns: 132px 378px 1fr;
+  gap: 12px 18px;
+  min-height: 202px;
+  margin-bottom: 28px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid var(--bt-ink);
+}
+
+.broken-tales .bt-sheet.hunter .bt-identity {
+  width: 378px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-portrait input {
+  display: none;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title {
+  width: 378px;
+  min-height: 74px;
+  margin-bottom: 8px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-name {
+  display: block;
+  width: 378px;
+  min-height: 74px;
+  height: 74px;
+  overflow: hidden;
+  font-size: 2.2rem;
+  line-height: 0.96;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
+  height: 92px;
+  font-size: 1.72rem;
+  line-height: 1.02;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
+  height: 112px;
+  font-size: 1.34rem;
+  line-height: 1.06;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
+  height: 134px;
+  font-size: 1.06rem;
+  line-height: 1.08;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields label {
+  display: grid;
+  grid-template-rows: 26px 34px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields input {
+  min-width: 0;
+  height: 34px;
+  padding: 2px 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured {
+  min-height: 166px;
+  max-height: 166px;
+  padding-left: 18px;
+  overflow: hidden;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 26px, rgba(8, 6, 9, 0.16) 27px, transparent 28px);
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
+  max-height: 124px;
+  overflow-y: auto;
+}
+
+.broken-tales .bt-sheet.hunter .bt-descriptor-stack {
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 22px;
+  align-items: start;
+  margin-bottom: 22px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-descriptor-row,
+.broken-tales .bt-sheet.hunter .bt-card {
+  min-height: 286px;
+  padding: 10px 12px 14px;
+  border-top: 3px solid var(--bt-ink);
+  background-color: transparent;
+  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, rgba(8, 6, 9, 0.15) 28px, transparent 29px);
+}
+
+.broken-tales .bt-sheet.hunter .bt-section-title {
+  min-height: 34px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-section-title h2 {
+  font-size: 1.28rem;
+  line-height: 1;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item {
+  grid-template-columns: 34px 64px minmax(0, 1fr);
+  gap: 2px 10px;
+  min-height: 112px;
+  margin-bottom: 18px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
+  width: 58px;
+  height: 58px;
+  margin-top: 0;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
+  width: 46px;
+  height: 46px;
+  margin: 5px 0 0 6px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item h3 {
+  min-height: 28px;
+  max-height: 56px;
+  overflow: hidden;
+  font-size: 1.08rem;
+  line-height: 1.08;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item .bt-rich {
+  max-height: 148px;
+  overflow-y: auto;
+}
+
+.broken-tales .bt-sheet.hunter .bt-dark-ego {
+  min-height: 330px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-dark-ego .bt-linked-item {
+  min-height: 250px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-dark-descriptor {
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  margin-bottom: 8px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-dark-descriptor .bt-rich {
+  grid-column: 2;
+  max-height: 92px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-wounds label {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 12px;
+  align-items: end;
+  height: 40px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-resource-footer {
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-resource-circles {
+  gap: 12px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-circle {
+  width: 96px;
+  height: 96px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-footer-notes {
+  min-height: 172px;
+  padding-right: 0;
+}

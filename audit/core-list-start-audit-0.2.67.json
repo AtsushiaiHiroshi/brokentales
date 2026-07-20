@@ -1,0 +1,625 @@
+{
+  "localAudit": {
+    "id": "broken-tales",
+    "version": "0.2.67",
+    "packs": [
+      {
+        "id": "hunters",
+        "type": "Actor",
+        "path": "packs/hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "support",
+        "type": "Item",
+        "path": "packs/support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 6,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts",
+        "type": "Item",
+        "path": "packs/scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-gifts",
+        "type": "Item",
+        "path": "packs/hunter-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 31,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-descriptors",
+        "type": "Item",
+        "path": "packs/hunter-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 61,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-equipment",
+        "type": "Item",
+        "path": "packs/hunter-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 80,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-dark-egos",
+        "type": "Item",
+        "path": "packs/hunter-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "dark-presence-descriptors",
+        "type": "Item",
+        "path": "packs/dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 46,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "threat-descriptors",
+        "type": "Item",
+        "path": "packs/threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 118,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "villager-descriptors",
+        "type": "Item",
+        "path": "packs/villager-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 71,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "essence-descriptors",
+        "type": "Item",
+        "path": "packs/essence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "dark-presences",
+        "type": "Actor",
+        "path": "packs/dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 23,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-actors",
+        "type": "Actor",
+        "path": "packs/scenario-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "library",
+        "type": "JournalEntry",
+        "path": "packs/library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 12,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventures",
+        "type": "JournalEntry",
+        "path": "packs/adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventure-maps",
+        "type": "JournalEntry",
+        "path": "packs/adventure-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventure-scenes",
+        "type": "Scene",
+        "path": "packs/adventure-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "audit",
+        "type": "JournalEntry",
+        "path": "packs/audit.db",
+        "ok": true,
+        "isFile": true,
+        "count": 1,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 47,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-red-hood-iskra",
+        "type": "Item",
+        "path": "packs/scenario-gifts-red-hood-iskra.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-of-flesh-and-wood",
+        "type": "Item",
+        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-the-smile-in-the-darkness",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-a-soldiers-duty",
+        "type": "Item",
+        "path": "packs/scenario-gifts-a-soldiers-duty.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-wonderbedlam",
+        "type": "Item",
+        "path": "packs/scenario-gifts-wonderbedlam.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-tuvstarrs-reflection",
+        "type": "Item",
+        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-the-city-of-pigs",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-city-of-pigs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-one-thousand-and-one-nightmares",
+        "type": "Item",
+        "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-ozena-the-suffering-and-desperate",
+        "type": "Item",
+        "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-saint-george-the-dragon-slayer",
+        "type": "Item",
+        "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  "repoAudit": {
+    "id": "broken-tales",
+    "version": "0.2.67",
+    "packs": [
+      {
+        "id": "hunters",
+        "type": "Actor",
+        "path": "packs/hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "support",
+        "type": "Item",
+        "path": "packs/support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 6,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts",
+        "type": "Item",
+        "path": "packs/scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-gifts",
+        "type": "Item",
+        "path": "packs/hunter-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 31,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-descriptors",
+        "type": "Item",
+        "path": "packs/hunter-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 61,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-equipment",
+        "type": "Item",
+        "path": "packs/hunter-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 80,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "hunter-dark-egos",
+        "type": "Item",
+        "path": "packs/hunter-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "dark-presence-descriptors",
+        "type": "Item",
+        "path": "packs/dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 46,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "threat-descriptors",
+        "type": "Item",
+        "path": "packs/threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 118,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "villager-descriptors",
+        "type": "Item",
+        "path": "packs/villager-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 71,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "essence-descriptors",
+        "type": "Item",
+        "path": "packs/essence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "dark-presences",
+        "type": "Actor",
+        "path": "packs/dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 23,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-actors",
+        "type": "Actor",
+        "path": "packs/scenario-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "library",
+        "type": "JournalEntry",
+        "path": "packs/library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 12,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventures",
+        "type": "JournalEntry",
+        "path": "packs/adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventure-maps",
+        "type": "JournalEntry",
+        "path": "packs/adventure-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "adventure-scenes",
+        "type": "Scene",
+        "path": "packs/adventure-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "audit",
+        "type": "JournalEntry",
+        "path": "packs/audit.db",
+        "ok": true,
+        "isFile": true,
+        "count": 1,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 47,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-red-hood-iskra",
+        "type": "Item",
+        "path": "packs/scenario-gifts-red-hood-iskra.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-of-flesh-and-wood",
+        "type": "Item",
+        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-the-smile-in-the-darkness",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-a-soldiers-duty",
+        "type": "Item",
+        "path": "packs/scenario-gifts-a-soldiers-duty.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-wonderbedlam",
+        "type": "Item",
+        "path": "packs/scenario-gifts-wonderbedlam.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-tuvstarrs-reflection",
+        "type": "Item",
+        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-the-city-of-pigs",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-city-of-pigs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-one-thousand-and-one-nightmares",
+        "type": "Item",
+        "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-ozena-the-suffering-and-desperate",
+        "type": "Item",
+        "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "scenario-gifts-saint-george-the-dragon-slayer",
+        "type": "Item",
+        "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  "hunters": {
+    "count": 0,
+    "names": [],
+    "oldSourceCount": 15,
+    "oldJsons": [
+      "Baba Yaga - The Child Witch.json",
+      "Babai - The Judge.json",
+      "Cunning Machiavelli The Fox & Sly Bischeri The Cat.json",
+      "Garou - The Old Wolf.json",
+      "George The Holy Dragon Slayer.json",
+      "James The Swordsman.json",
+      "Marina - The Sea Explorer.json",
+      "Niklaus Von Krampus.json",
+      "Regina - The Thief of Hearts.json",
+      "Sun Wukong - The Amazing Monkey.json",
+      "The Astonishing Pied Piper Without a Name.json",
+      "The Inmortal.json",
+      "The Woman from the Woods.json",
+      "Verdoux Bluebeard.json",
+      "Yukie Onn - The Traveling Artist.json"
+    ],
+    "avatarFiles": 15,
+    "problems": [],
+    "hunterSummaries": []
+  }
+}

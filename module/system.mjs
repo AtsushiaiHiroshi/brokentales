@@ -174,12 +174,12 @@ function selectedContentLanguage() {
   };
 
   try {
+    const core = resolve(game.settings.get("core", "language"));
+    if (core) return core;
+
     const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
     if (configured && configuredRaw !== "system") return configured;
-
-    const core = resolve(game.settings.get("core", "language"));
-    if (core) return core;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
@@ -203,6 +203,8 @@ async function translatedPackNames(packId, language) {
     const translatedName = document.flags?.["broken-tales"]?.translations?.[language]?.name;
     if (!translatedName) continue;
     names.set(document.uuid, translatedName);
+    names.set(`Compendium.${packId}.${document.id}`, translatedName);
+    names.set(`${packId}.${document.id}`, translatedName);
     names.set(document.id, translatedName);
     names.set(document._id, translatedName);
     names.set(document.name, translatedName);
@@ -224,7 +226,9 @@ async function localizeBrokenTalesPackIndexes() {
         if (!translatedName) continue;
         entry.name = translatedName;
         if (entry.label) entry.label = translatedName;
+        if (entry.title) entry.title = translatedName;
       }
+      pack.apps?.forEach?.((app) => app.render?.(false));
     } catch (error) {
       console.warn(`Broken Tales | Could not localize compendium index ${pack.collection}.`, error);
     }
@@ -250,7 +254,9 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
   ].join(", ");
 
   root.querySelectorAll(selector).forEach((entry) => {
-    const label = entry.querySelector(".entry-name, .document-name, .compendium-entry-name, .name, .title, h4, h3, a, span") ?? entry;
+    const label = entry.querySelector(".entry-name, .document-name, .compendium-entry-name, .name, .title, h4, h3, a")
+      ?? Array.from(entry.querySelectorAll("span")).find((span) => names.has(span.textContent?.trim()))
+      ?? entry;
     const keys = [
       entry.dataset.documentId,
       entry.dataset.documentUuid,
@@ -265,7 +271,8 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
       label.dataset?.id,
       label.dataset?.tooltip,
       label.textContent?.trim(),
-      entry.textContent?.trim()
+      entry.textContent?.trim(),
+      `Compendium.${packId}.${entry.dataset.documentId ?? entry.dataset.entryId ?? entry.dataset.id ?? ""}`
     ].filter(Boolean);
 
     const translatedName = keys.map((key) => names.get(key)).find(Boolean);

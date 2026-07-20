@@ -1,0 +1,416 @@
+{
+  "count": 15,
+  "expectedOldCount": 15,
+  "extraActive": [
+    "The Immortal"
+  ],
+  "gaps": [
+    {
+      "name": "James the Swordsman",
+      "esName": "Jaime el Espadachín",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.james-the-swordsman",
+        "don2.james-the-swordsman"
+      ],
+      "darkEgoKeys": [
+        "darkego.james-the-swordsman"
+      ]
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "esName": "Garou el Viejo Lobo",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 3,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.garou-the-old-wolf",
+        "don2.garou-the-old-wolf"
+      ],
+      "darkEgoKeys": [
+        "darkego.garou-the-old-wolf"
+      ]
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "esName": "El Asombroso Flautista sin Nombre",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.the-astonishing-pied-piper-without-a-name",
+        "don2.the-astonishing-pied-piper-without-a-name"
+      ],
+      "darkEgoKeys": [
+        "darkego.the-astonishing-pied-piper-without-a-name"
+      ]
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "esName": "Baba Yaga la Niña Bruja",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.baba-yaga-the-child-witch",
+        "don2.baba-yaga-the-child-witch"
+      ],
+      "darkEgoKeys": [
+        "darkego.baba-yaga-the-child-witch"
+      ]
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "esName": "Regina la Ladrona de Corazones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.regina-the-thief-of-hearts",
+        "don2.regina-the-thief-of-hearts"
+      ],
+      "darkEgoKeys": [
+        "darkego.regina-the-thief-of-hearts"
+      ]
+    },
+    {
+      "name": "Babai the Judge",
+      "esName": "Babai el Juez",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.babai-the-judge",
+        "don2.babai-the-judge"
+      ],
+      "darkEgoKeys": [
+        "darkego.babai-the-judge"
+      ]
+    },
+    {
+      "name": "The Woman from the Woods",
+      "esName": "La Dama de los Bosques",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 1,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.the-woman-from-the-woods",
+        "don2.the-woman-from-the-woods"
+      ],
+      "darkEgoKeys": [
+        "darkego.the-woman-from-the-woods"
+      ]
+    },
+    {
+      "name": "The Immortal",
+      "esName": "El Inmortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.theimmortal",
+        "don2.theimmortal"
+      ],
+      "darkEgoKeys": [
+        "darkego.theimmortal"
+      ]
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "esName": "Marina la Exploradora del Mar",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.marina-the-sea-explorer",
+        "don2.marina-the-sea-explorer"
+      ],
+      "darkEgoKeys": [
+        "darkego.marina-the-sea-explorer"
+      ]
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "esName": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.niklaus-von-krampus",
+        "don2.niklaus-von-krampus"
+      ],
+      "darkEgoKeys": [
+        "darkego.niklaus-von-krampus"
+      ]
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "esName": "San Jorge el Matadragones",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.george-the-holy-dragon-slayer",
+        "don2.george-the-holy-dragon-slayer"
+      ],
+      "darkEgoKeys": [
+        "darkego.george-the-holy-dragon-slayer"
+      ]
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "esName": "Sun Wukong el Mono Asombroso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.sun-wukong-the-amazing-monkey",
+        "don2.sun-wukong-the-amazing-monkey"
+      ],
+      "darkEgoKeys": [
+        "darkego.sun-wukong-the-amazing-monkey"
+      ]
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "esName": "Verdoux Barba Azul",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 8,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.verdoux-bluebeard",
+        "don2.verdoux-bluebeard"
+      ],
+      "darkEgoKeys": [
+        "darkego.verdoux-bluebeard"
+      ]
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "esName": "Yukie Onn la Artista Viajera",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "itemCounts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.yukie-onn-the-traveling-artist",
+        "don2.yukie-onn-the-traveling-artist"
+      ],
+      "darkEgoKeys": [
+        "darkego.yukie-onn-the-traveling-artist"
+      ]
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "itemCounts": {
+        "descriptor": 5,
+        "gift": 3,
+        "darkEgo": 1,
+        "storyElement": 1,
+        "equipment": 2
+      },
+      "missingItemEs": [],
+      "missingItemEsDesc": [],
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor3-don3.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftKeys": [
+        "don1.cunning-machiavelli-the-fox-and-sly-bischeri-the-cat",
+        "don2.cunning-machiavelli-the-fox-and-sly-bischeri-the-cat",
+        "don3.cunning-machiavelli-the-fox-and-sly-bischeri-the-cat"
+      ],
+      "darkEgoKeys": [
+        "darkego.cunning-machiavelli-the-fox-and-sly-bischeri-the-cat"
+      ]
+    }
+  ]
+}

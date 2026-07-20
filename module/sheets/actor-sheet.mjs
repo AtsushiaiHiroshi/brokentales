@@ -40,7 +40,8 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       itemGroups: this.#prepareItems(),
       descriptorRows: this.#prepareDescriptorRows(),
       extraGifts: this.#prepareExtraGifts(),
-      featuredDescriptor: this.#findFeaturedDescriptor(),
+      featuredDescriptors: this.#findPrincipalDescriptors(),
+      featuredFallbackDescription: this.#findFeaturedFallbackDescription(),
       darkEgoDescriptor: this.#findDarkEgoDescriptor(),
       darkEgo: this.#findDarkEgo(),
       isThreat: this.document.type === "threat",
@@ -134,10 +135,9 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   }
 
   #prepareDescriptorRows() {
-    const featuredText = this.#plainText(this.#featuredDescriptionText());
     const descriptors = this.document.items
       .filter((item) => this.#isUsableDescriptor(item) && !this.#isDarkEgoDescriptor(item))
-      .filter((item) => this.#plainText(this.#localizeItem(item).system?.description) !== featuredText)
+      .filter((item) => !this.#isPrincipalDescriptor(item))
       .sort((a, b) => this.#contentSort(a) - this.#contentSort(b));
     const gifts = this.document.items
       .filter((item) => this.#isUsableGift(item))
@@ -157,19 +157,22 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     return [];
   }
 
-  #findFeaturedDescriptor() {
-    const description = this.#featuredDescriptionText();
-    if (description) {
-      return {
-        _id: "actor-description",
-        name: game.i18n.localize("BROKENTALES.Description"),
-        type: "descriptor",
-        system: { description }
-      };
-    }
+  #findPrincipalDescriptors() {
+    return this.document.items
+      .filter((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item))
+      .sort((a, b) => this.#contentSort(a) - this.#contentSort(b))
+      .map((item) => this.#localizeItem(item));
+  }
 
-    const descriptor = this.document.items.find((item) => this.#isUsableDescriptor(item) && this.#isPrincipalDescriptor(item));
-    return descriptor ? this.#localizeItem(descriptor) : null;
+  #findFeaturedFallbackDescription() {
+    const description = this.#featuredDescriptionText();
+    if (!description) return null;
+    return {
+      _id: "actor-description",
+      name: game.i18n.localize("BROKENTALES.Description"),
+      type: "descriptor",
+      system: { description }
+    };
   }
 
   #featuredDescriptionText() {
@@ -221,11 +224,11 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     };
 
     const configuredRaw = normalize(game.settings?.get?.("broken-tales", "contentLanguage"));
-    const configured = resolve(configuredRaw);
-    if (configured && configuredRaw !== "system") return configured;
-
     const core = resolve(game.settings?.get?.("core", "language"));
     if (core) return core;
+
+    const configured = resolve(configuredRaw);
+    if (configured && configuredRaw !== "system") return configured;
 
     const i18n = resolve(game.i18n?.lang);
     if (i18n) return i18n;

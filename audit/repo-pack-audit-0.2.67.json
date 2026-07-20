@@ -1,0 +1,35 @@
+[
+  {
+    "root": "E:/respaldos/brokentales-repo",
+    "id": "broken-tales",
+    "version": "0.2.67",
+    "packCount": 29,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-broken-ones",
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.23",
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-lost-stories",
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.26",
+    "packCount": 15,
+    "empty": [],
+    "missing": [],
+    "nonDb": [],
+    "parseErrors": [],
+    "invalidFolderRefs": []
+  }
+]

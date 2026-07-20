@@ -1,0 +1,642 @@
+[
+  {
+    "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-broken-ones",
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.23",
+    "packs": [
+      {
+        "id": "broken-ones-hunters",
+        "type": "Actor",
+        "path": "packs/broken-ones-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-actors",
+        "type": "Actor",
+        "path": "packs/broken-ones-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-descriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 41,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-threat-descriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-gifts",
+        "type": "Item",
+        "path": "packs/broken-ones-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-dark-egos",
+        "type": "Item",
+        "path": "packs/broken-ones-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-equipment",
+        "type": "Item",
+        "path": "packs/broken-ones-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-library",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-adventures",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-maps",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-scenes",
+        "type": "Scene",
+        "path": "packs/broken-ones-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-support",
+        "type": "Item",
+        "path": "packs/red-hood-iskra-support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-maps",
+        "type": "JournalEntry",
+        "path": "packs/red-hood-iskra-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-audio",
+        "type": "Playlist",
+        "path": "packs/red-hood-iskra-audio.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  {
+    "root": "C:/Users/Gamer/AppData/Local/FoundryVTT/Data/modules/broken-tales-lost-stories",
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.26",
+    "packs": [
+      {
+        "id": "lost-stories-hunters",
+        "type": "Actor",
+        "path": "packs/lost-stories-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-actors",
+        "type": "Actor",
+        "path": "packs/lost-stories-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 122,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-presences",
+        "type": "Actor",
+        "path": "packs/lost-stories-dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-presence-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-threat-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 66,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-gifts",
+        "type": "Item",
+        "path": "packs/lost-stories-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 38,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-egos",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-equipment",
+        "type": "Item",
+        "path": "packs/lost-stories-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 103,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-library",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-adventures",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-maps",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-scenes",
+        "type": "Scene",
+        "path": "packs/lost-stories-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-scenario-gifts",
+        "type": "Item",
+        "path": "packs/lost-stories-scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-broken-ones",
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.23",
+    "packs": [
+      {
+        "id": "broken-ones-hunters",
+        "type": "Actor",
+        "path": "packs/broken-ones-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-actors",
+        "type": "Actor",
+        "path": "packs/broken-ones-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-descriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 41,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-threat-descriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-gifts",
+        "type": "Item",
+        "path": "packs/broken-ones-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-dark-egos",
+        "type": "Item",
+        "path": "packs/broken-ones-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-equipment",
+        "type": "Item",
+        "path": "packs/broken-ones-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-library",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-adventures",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-maps",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-scenes",
+        "type": "Scene",
+        "path": "packs/broken-ones-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-support",
+        "type": "Item",
+        "path": "packs/red-hood-iskra-support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-maps",
+        "type": "JournalEntry",
+        "path": "packs/red-hood-iskra-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "red-hood-iskra-audio",
+        "type": "Playlist",
+        "path": "packs/red-hood-iskra-audio.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "broken-ones-source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  {
+    "root": "E:/respaldos/brokentales-repo/modules/broken-tales-lost-stories",
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.26",
+    "packs": [
+      {
+        "id": "lost-stories-hunters",
+        "type": "Actor",
+        "path": "packs/lost-stories-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-actors",
+        "type": "Actor",
+        "path": "packs/lost-stories-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 122,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-presences",
+        "type": "Actor",
+        "path": "packs/lost-stories-dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-presence-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-threat-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-descriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 66,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-gifts",
+        "type": "Item",
+        "path": "packs/lost-stories-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 38,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-dark-egos",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-equipment",
+        "type": "Item",
+        "path": "packs/lost-stories-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 103,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-library",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-adventures",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-maps",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-scenes",
+        "type": "Scene",
+        "path": "packs/lost-stories-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-source-pdfs",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0
+      },
+      {
+        "id": "lost-stories-scenario-gifts",
+        "type": "Item",
+        "path": "packs/lost-stories-scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0
+      }
+    ],
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  }
+]

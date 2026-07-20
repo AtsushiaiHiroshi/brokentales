@@ -1,0 +1,34 @@
+{
+  "syntax": [
+    {
+      "file": "module/pregens.mjs",
+      "ok": true
+    },
+    {
+      "file": "module/system.mjs",
+      "ok": true
+    },
+    {
+      "file": "module/sheets/actor-sheet.mjs",
+      "ok": true
+    }
+  ],
+  "local": {
+    "version": "0.2.68",
+    "packs": 29,
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  "repo": {
+    "version": "0.2.68",
+    "packs": 29,
+    "empty": [],
+    "missing": [],
+    "parseErrors": []
+  },
+  "hunters": {
+    "count": 15,
+    "problems": []
+  }
+}

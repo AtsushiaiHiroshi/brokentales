@@ -42,10 +42,12 @@ function activeContentLanguage() {
   };
 
   try {
-    const configured = resolve(game.settings.get("broken-tales", "contentLanguage"));
-    if (configured) return configured;
     const core = resolve(game.settings.get("core", "language"));
     if (core) return core;
+
+    const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
+    const configured = resolve(configuredRaw);
+    if (configured && configuredRaw !== "system") return configured;
   } catch (_error) {
     // Settings can be unavailable during early initialization.
   }
