@@ -1,0 +1,1795 @@
+{
+  "system": {
+    "id": "broken-tales",
+    "version": "0.2.72",
+    "packCount": 29,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "hunters",
+        "label": "BROKENTALES.Packs.CoreHunters",
+        "type": "Actor",
+        "path": "packs/hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 17,
+        "folders": 2,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 2,
+          "hunter": 15
+        },
+        "documentNames": [
+          "James the Swordsman",
+          "Garou the Old Wolf",
+          "The Astonishing Pied Piper Without a Name",
+          "Baba Yaga the Child Witch",
+          "Regina the Thief of Hearts",
+          "Babai the Judge",
+          "The Woman from the Woods",
+          "The Immortal",
+          "Marina the Sea Explorer",
+          "Niklaus von Krampus",
+          "George the Holy Dragon Slayer",
+          "Sun Wukong the Amazing Monkey",
+          "Verdoux Bluebeard",
+          "Yukie Onn the Traveling Artist",
+          "Cunning Machiavelli the Fox and Sly Bischeri the Cat"
+        ]
+      },
+      {
+        "id": "support",
+        "label": "BROKENTALES.Packs.Support",
+        "type": "Item",
+        "path": "packs/support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 6,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "documentNames": [
+          "Scenario Gifts",
+          "Objects and Equipment",
+          "Order Treasure",
+          "Broken Europe Map",
+          "Villagers",
+          "Spirits and Essences"
+        ]
+      },
+      {
+        "id": "scenario-gifts",
+        "label": "BROKENTALES.Packs.ScenarioGifts",
+        "type": "Item",
+        "path": "packs/scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "folders": 7,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 7,
+          "gift": 19
+        },
+        "documentNames": [
+          "Voice of the Spirits (Red-Hood Iskra)",
+          "Wolf-killer",
+          "Where are you going all alone, sweetie? (Special Gift for Garou the Old Wolf)",
+          "Marionettes’ Destroyer",
+          "A True Friend",
+          "The Field of Miracles (Special Gift for The Fox and the Cat)",
+          "Voice of the Spirits (The Smile in the Darkness)",
+          "Exorcist",
+          "Blessing of the Sea",
+          "Art of Command",
+          "Coral of the Sea Fairy (Special Gift for Marina the Sea Explorer)",
+          "Friend of the Rabbits",
+          "Lucid Madness",
+          "The Forgotten Queen (Special Gift for Regina the Thief of Hearts)",
+          "Hugin and Munin",
+          "Lance of the Fallen Knight",
+          "The Meat of The God Under the Mine",
+          "The Brand of Greed",
+          "There Is No House That Can Stop Me (Special Gift for Garou the Old Wolf)"
+        ]
+      },
+      {
+        "id": "hunter-gifts",
+        "label": "BROKENTALES.Packs.HunterGifts",
+        "type": "Item",
+        "path": "packs/hunter-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 46,
+        "folders": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "gift": 31
+        },
+        "documentNames": [
+          "Magic",
+          "Listen to my Words",
+          "Eye of the Judge",
+          "Like a Shadow",
+          "Soul Music",
+          "Skilled Acrobat",
+          "Memories of an Infinite Life",
+          "The Servant",
+          "Find Them Forever After",
+          "Wolf Among the Lambs",
+          "With a Sword or a Smile",
+          "Tick-Tock, Here Comes The Beast",
+          "The Woman from the Wood",
+          "Home Sweet Home",
+          "Believe in Miracles (Cunning)",
+          "Rogue (Sly)",
+          "Partner in Crime (Common)",
+          "Sea Magic",
+          "Mutable Appearance",
+          "Exorcist",
+          "The Inner Demon",
+          "I Want It!",
+          "The Queen",
+          "The Dragon Slayer",
+          "Agent of the Papacy"
+        ]
+      },
+      {
+        "id": "hunter-descriptors",
+        "label": "BROKENTALES.Packs.HunterDescriptors",
+        "type": "Item",
+        "path": "packs/hunter-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 76,
+        "folders": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "descriptor": 61
+        },
+        "documentNames": [
+          "Baba Yaga the Child Witch - descriptor-darkego.cazador",
+          "Baba Yaga the Child Witch - descriptor-principal.cazador",
+          "Baba Yaga the Child Witch - descriptor1-don1",
+          "Baba Yaga the Child Witch - descriptor2-don2",
+          "Babai the Judge - descriptor-darkego.cazador",
+          "Babai the Judge - descriptor-principal.cazador",
+          "Babai the Judge - descriptor1-don1",
+          "Babai the Judge - descriptor2-don2",
+          "The Astonishing Pied Piper Without a Name - descriptor-darkego.cazador",
+          "The Astonishing Pied Piper Without a Name - descriptor-principal.cazador",
+          "The Astonishing Pied Piper Without a Name - descriptor1-don1",
+          "The Astonishing Pied Piper Without a Name - descriptor2-don2",
+          "The Immortal - descriptor-darkego.cazador",
+          "The Immortal - descriptor-principal.cazador",
+          "The Immortal - descriptor1-don1",
+          "The Immortal - descriptor2-don2",
+          "Garou the Old Wolf - descriptor-darkego.cazador",
+          "Garou the Old Wolf - descriptor-principal.cazador",
+          "Garou the Old Wolf - descriptor1-don1",
+          "Garou the Old Wolf - descriptor2-don2",
+          "James the Swordsman - descriptor-darkego.cazador",
+          "James the Swordsman - descriptor-principal.cazador",
+          "James the Swordsman - descriptor1-don1",
+          "James the Swordsman - descriptor2-don2",
+          "The Woman from the Woods - descriptor-darkego.cazador"
+        ]
+      },
+      {
+        "id": "hunter-equipment",
+        "label": "BROKENTALES.Packs.HunterEquipment",
+        "type": "Item",
+        "path": "packs/hunter-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 95,
+        "folders": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "equipment": 80
+        },
+        "documentNames": [
+          "Baba Yaga the Child Witch - equipment1",
+          "Baba Yaga the Child Witch - equipment2",
+          "Baba Yaga the Child Witch - equipment3",
+          "Baba Yaga the Child Witch - equipment4",
+          "Baba Yaga the Child Witch - equipment5",
+          "Baba Yaga the Child Witch - equipment6",
+          "Baba Yaga the Child Witch - equipment7",
+          "Babai the Judge - equipment1",
+          "Babai the Judge - equipment2",
+          "Babai the Judge - equipment3",
+          "Babai the Judge - equipment4",
+          "Babai the Judge - equipment5",
+          "Babai the Judge - equipment6",
+          "The Astonishing Pied Piper Without a Name - equipment1",
+          "The Astonishing Pied Piper Without a Name - equipment2",
+          "The Astonishing Pied Piper Without a Name - equipment3",
+          "The Astonishing Pied Piper Without a Name - equipment4",
+          "The Astonishing Pied Piper Without a Name - equipment5",
+          "The Astonishing Pied Piper Without a Name - equipment6",
+          "The Immortal - equipment1",
+          "The Immortal - equipment2",
+          "The Immortal - equipment3",
+          "The Immortal - equipment4",
+          "The Immortal - equipment5",
+          "The Immortal - equipment6"
+        ]
+      },
+      {
+        "id": "hunter-dark-egos",
+        "label": "BROKENTALES.Packs.HunterDarkEgos",
+        "type": "Item",
+        "path": "packs/hunter-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 30,
+        "folders": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "darkEgo": 15
+        },
+        "documentNames": [
+          "Dark Ego - The Evil Witch",
+          "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!",
+          "Dark Ego - The Power of Music",
+          "Dark Ego - The Immortal",
+          "Dark Ego - The Big Bad Wolf",
+          "Dark Ego - I Will Have My Satisfaction",
+          "Dark Ego - Soft and Succulent Flesh",
+          "Dark Ego - The Fox and the Cat",
+          "Dark Ego - Treasures of the Sea",
+          "Dark Ego - The Demon Revealed",
+          "Dark Ego - As I Want!",
+          "Dark Ego - The Saint",
+          "Dark Ego - Descendant of the Awakening of the Void and the Emptiness",
+          "Dark Ego - The Unscrupulous Assassin",
+          "Dark Ego - Ice-Cold"
+        ]
+      },
+      {
+        "id": "dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 69,
+        "folders": 23,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 23,
+          "descriptor": 46
+        },
+        "documentNames": [
+          "Alfred Leaves the Talking Ghost - descriptor-principal.dark-presence",
+          "Alfred Leaves the Talking Ghost - descriptor1-gift1.dark-presence",
+          "Ambrose the Sorcerer (Old Merlin) - descriptor-principal.dark-presence",
+          "Fire Eater the Puppeteer - descriptor-principal.dark-presence",
+          "Fire Eater the Puppeteer - descriptor1-gift1.dark-presence",
+          "Frog Face - descriptor-principal.dark-presence",
+          "Goldilocks and her War Bears - descriptor-principal.dark-presence",
+          "Goldilocks and her War Bears - descriptor1-gift1.dark-presence",
+          "Hua Mulan the Sword Demon - descriptor-principal.dark-presence",
+          "Hua Mulan the Sword Demon - descriptor1-gift1.dark-presence",
+          "Oakheart the Lady of the Woods - descriptor-principal.dark-presence",
+          "Orcus the Guardian - descriptor-principal.dark-presence",
+          "Orcus the Guardian - descriptor1-gift1.dark-presence",
+          "OZena (Dorothea Gray) - The Suffering - descriptor-principal.dark-presence",
+          "OZena (Dorothea Gray) - The Suffering - descriptor1-gift1.dark-presence",
+          "OZena (Dorothea Gray) - The Suffering - descriptor2-gift2.dark-presence",
+          "OZena (Dorothea Gray) - The Suffering - descriptor3-gift3.dark-presence",
+          "Saint George the Dragon Slayer - Ally - descriptor-principal.dark-presence",
+          "Saint George the Dragon Slayer - Ally - descriptor1-gift1.dark-presence",
+          "Saint George the Dragon Slayer - Ally - descriptor2-gift2.dark-presence",
+          "Saint George the Dragon Slayer - Ally - descriptor3-gift3.dark-presence",
+          "Saint George the Dragon Slayer - Opponent - descriptor-principal.dark-presence",
+          "Saint George the Dragon Slayer - Opponent - descriptor1-gift1.dark-presence",
+          "Saint George the Dragon Slayer - Opponent - descriptor2-gift2.dark-presence",
+          "Saint George the Dragon Slayer - Opponent - descriptor3-gift3.dark-presence"
+        ]
+      },
+      {
+        "id": "threat-descriptors",
+        "label": "BROKENTALES.Packs.ThreatDescriptors",
+        "type": "Item",
+        "path": "packs/threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 165,
+        "folders": 47,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 47,
+          "descriptor": 118
+        },
+        "documentNames": [
+          "Antonio Ciliegia - Gullible Alchemist - Descriptor",
+          "Arthur Browne - The Big Brother - Descriptor",
+          "Arthur Browne - The Big Brother - Descriptor 2",
+          "Black Wolves of Greskar's Pack - Descriptor",
+          "Canine Tigers - Deceptive Guardians - Descriptor",
+          "Canine Tigers - Deceptive Guardians - Descriptor 2",
+          "Canine Tigers - Deceptive Guardians - Descriptor 3",
+          "Canine Tigers - Deceptive Guardians - Descriptor 4",
+          "Carlo - The Living Puppet - Descriptor",
+          "Caterpillar of the Wonderful Lands - Descriptor",
+          "Caterpillar of the Wonderful Lands - Descriptor 2",
+          "Cheshire - The Faithful Lynx - Descriptor",
+          "Cheshire - The Faithful Lynx - Descriptor 2",
+          "Clarence Browne - The Younger Brother - Descriptor",
+          "Clarence Browne - The Younger Brother - Descriptor 2",
+          "Clarence Browne - The Younger Brother - Descriptor 3",
+          "Dose - The Tin Man - Descriptor",
+          "Dose - The Tin Man - Descriptor 2",
+          "Dose - The Tin Man - Descriptor 3",
+          "Dose the Giant in Love - The Transformed Tin Man - Descriptor",
+          "Dose the Giant in Love - The Transformed Tin Man - Descriptor 2",
+          "Dose the Giant in Love - The Transformed Tin Man - Descriptor 3",
+          "Dose the Giant in Love - The Transformed Tin Man - Descriptor 4",
+          "Dose the Tin Man - Original Version - Descriptor",
+          "Dose the Tin Man - Original Version - Descriptor 2"
+        ]
+      },
+      {
+        "id": "villager-descriptors",
+        "label": "BROKENTALES.Packs.VillagerDescriptors",
+        "type": "Item",
+        "path": "packs/villager-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 109,
+        "folders": 38,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 38,
+          "descriptor": 71
+        },
+        "documentNames": [
+          "Alicia - The Young Girl in Love - Descriptor",
+          "Alicia - The Young Girl in Love - Descriptor 2",
+          "Alissa of Norfolk - Descriptor",
+          "Alissa of Norfolk - Descriptor 2",
+          "Alissa of Norfolk - Descriptor 3",
+          "Alizée - The Fugitive Nun - Descriptor",
+          "Amabile Burromo - Innkeeper - Descriptor",
+          "Andersen - The Former Commander - Descriptor",
+          "Andersen - The Former Commander - Descriptor 2",
+          "Angry Little Girl - Descriptor",
+          "Angry Little Girl - Descriptor 2",
+          "Anne the Little Chatterer - Descriptor",
+          "Bardolf Greed - The Wealthy Industrialist - Descriptor",
+          "Bardolf Greed - The Wealthy Industrialist - Descriptor 2",
+          "Christian the Relentless - Descriptor",
+          "Corinne the Housekeeper - Descriptor",
+          "Dead Pirates - Descriptor",
+          "Didier the Grumpy Old Man - Descriptor",
+          "Edward - The Miners' Chief - Descriptor",
+          "Edward - The Miners' Chief - Descriptor 2",
+          "Edward - The Miners' Chief - Descriptor 3",
+          "Edward - The Miners' Chief - Descriptor 4",
+          "Emma - The Childhood Friend - Descriptor",
+          "Emma - The Childhood Friend - Descriptor 2",
+          "Emma - The Childhood Friend - Descriptor 3"
+        ]
+      },
+      {
+        "id": "essence-descriptors",
+        "label": "BROKENTALES.Packs.EssenceDescriptors",
+        "type": "Item",
+        "path": "packs/essence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 3
+        },
+        "documentNames": [
+          "Spirit / Essence - Nature",
+          "Spirit / Essence - Anchor",
+          "Spirit / Essence - Manifestation"
+        ]
+      },
+      {
+        "id": "dark-presences",
+        "label": "BROKENTALES.Packs.DarkPresences",
+        "type": "Actor",
+        "path": "packs/dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 24,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "threat": 23
+        },
+        "documentNames": [
+          "Alfred Leaves the Talking Ghost",
+          "Ambrose the Sorcerer (Old Merlin)",
+          "Fire Eater the Puppeteer",
+          "Frog Face",
+          "Goldilocks and her War Bears",
+          "Hua Mulan the Sword Demon",
+          "Oakheart the Lady of the Woods",
+          "Orcus the Guardian",
+          "OZena (Dorothea Gray) - The Suffering",
+          "Saint George the Dragon Slayer - Ally",
+          "Saint George the Dragon Slayer - Opponent",
+          "Sherazade - The Weaver of Tales",
+          "Sinbad the Traveler of a Thousand Seas",
+          "The Ancient Enemy (Draco the Dragon)",
+          "The Bremen Musicians (The Haunted Inn)",
+          "The King's Unlikely Tailor",
+          "The Masked Swashbuckler (Puss in Boots)",
+          "The Mothers of Fate (Cloris, Panis, Galis)",
+          "The Periwinkle Peer",
+          "The Returning Wolf",
+          "The Silent (The Mermaid Assassin)",
+          "The Wild Swans Gang",
+          "The Wise Fox"
+        ]
+      },
+      {
+        "id": "scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors",
+        "type": "Actor",
+        "path": "packs/scenario-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 88,
+        "folders": 3,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 3,
+          "villager": 38,
+          "threat": 47
+        },
+        "documentNames": [
+          "Alicia - The Young Girl in Love",
+          "Alissa of Norfolk",
+          "Alizée - The Fugitive Nun",
+          "Amabile Burromo - Innkeeper",
+          "Andersen - The Former Commander",
+          "Angry Little Girl",
+          "Anne the Little Chatterer",
+          "Antonio Ciliegia - Gullible Alchemist",
+          "Arthur Browne - The Big Brother",
+          "Bardolf Greed - The Wealthy Industrialist",
+          "Black Wolves of Greskar's Pack",
+          "Canine Tigers - Deceptive Guardians",
+          "Carlo - The Living Puppet",
+          "Caterpillar of the Wonderful Lands",
+          "Cheshire - The Faithful Lynx",
+          "Christian the Relentless",
+          "Clarence Browne - The Younger Brother",
+          "Corinne the Housekeeper",
+          "Dead Pirates",
+          "Didier the Grumpy Old Man",
+          "Dose - The Tin Man",
+          "Dose the Giant in Love - The Transformed Tin Man",
+          "Dose the Tin Man - Original Version",
+          "Edward - The Miners' Chief",
+          "Elizaveta - The Cruel Bride"
+        ]
+      },
+      {
+        "id": "library",
+        "label": "BROKENTALES.Packs.Library",
+        "type": "JournalEntry",
+        "path": "packs/library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 12,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "documentNames": [
+          "bt-corebook-1-eng-final-screen-fixed",
+          "bt-cb-sheets-eng-final-screen",
+          "bt-cb-foxcat-sheet-eng-final-screen",
+          "Broken Europe Map",
+          "Broken Tales - Bookmarks",
+          "Broken Tales - Hunter's Sheet",
+          "Broken Tales - Map",
+          "Broken Tales - Scenario Summary Sheet",
+          "Broken Tales - Hojas de Cazador",
+          "Broken Tales - Manual Básico",
+          "Mapa Europa Rota",
+          "Broken Tales - Storyteller's Screen (OEF)"
+        ]
+      },
+      {
+        "id": "adventures",
+        "label": "BROKENTALES.Packs.Adventures",
+        "type": "JournalEntry",
+        "path": "packs/adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "documentNames": [
+          "Red-hood / Iskra",
+          "Of Flesh and Wood",
+          "The Smile in the Darkness",
+          "A Soldier's Duty",
+          "Wonderbedlam",
+          "Tuvstarr's Reflection",
+          "One Thousand and One Nightmares",
+          "The City of Pigs",
+          "Saint George the Dragon Slayer",
+          "OZena the Suffering and Desperate",
+          "The Newcomer's Crown"
+        ]
+      },
+      {
+        "id": "adventure-maps",
+        "label": "BROKENTALES.Packs.AdventureMaps",
+        "type": "JournalEntry",
+        "path": "packs/adventure-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "documentNames": [
+          "Red-hood / Iskra",
+          "Of Flesh and Wood",
+          "The Smile in the Darkness",
+          "A Soldier's Duty",
+          "Wonderbedlam",
+          "Tuvstarr's Reflection",
+          "One Thousand and One Nightmares",
+          "The City of Pigs",
+          "Saint George the Dragon Slayer",
+          "OZena the Suffering and Desperate",
+          "The Newcomer's Crown",
+          "Broken Europe Map",
+          "Mapa Europa Rota"
+        ]
+      },
+      {
+        "id": "adventure-scenes",
+        "label": "BROKENTALES.Packs.AdventureScenes",
+        "type": "Scene",
+        "path": "packs/adventure-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "documentNames": [
+          "Red-hood / Iskra",
+          "Of Flesh and Wood",
+          "The Smile in the Darkness",
+          "A Soldier's Duty",
+          "Wonderbedlam",
+          "Tuvstarr's Reflection",
+          "One Thousand and One Nightmares",
+          "The City of Pigs",
+          "Saint George the Dragon Slayer",
+          "OZena the Suffering and Desperate",
+          "The Newcomer's Crown",
+          "Broken Europe Map (English)",
+          "Mapa Europa Rota",
+          "Broken Europe Map (Spanish)"
+        ]
+      },
+      {
+        "id": "audit",
+        "label": "BROKENTALES.Packs.Audit",
+        "type": "JournalEntry",
+        "path": "packs/audit.db",
+        "ok": true,
+        "isFile": true,
+        "count": 1,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "documentNames": [
+          "PDF Content Audit"
+        ]
+      },
+      {
+        "id": "source-pdfs",
+        "label": "BROKENTALES.Packs.SourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 47,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "documentNames": [
+          "Broken Tales Book ALT",
+          "San Jorge, el Matadragones",
+          "Quickstart Jugadores",
+          "Quickstart Jugadores-1",
+          "La Experiencia en una Campaña",
+          "Sun Wukong, el Mono Asombroso",
+          "Broken Tales - Manual Básico",
+          "Iskra de la Caperucita Roja",
+          "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+          "Como usar los Cazadores",
+          "Broken Tales - Devir - Manual Jugadores y Narrador",
+          "Broken Tales - Bookmarks [2022-06-30]",
+          "Broken Tales - Basic Hunters Sheets",
+          "El Inmortal",
+          "Broken Tales - Core Rulebook",
+          "Creación de Presencias Oscuras y Ejemplos",
+          "Mapa Europa Rota",
+          "Babai, el Juez",
+          "Broken Tales - Map [2022-06-30]",
+          "Broken Tales - Devir - Hojas de Cazador [BT002]",
+          "Broken Europe Map",
+          "Broken Tales Book",
+          "Yukie Onn, la Artista Viajera",
+          "The Newcomer's Crown [2022-06-28]",
+          "Ayuda del Mapa de la Europa Rota y Encuentros"
+        ]
+      },
+      {
+        "id": "scenario-gifts-red-hood-iskra",
+        "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+        "type": "Item",
+        "path": "packs/scenario-gifts-red-hood-iskra.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Voice of the Spirits",
+          "Wolf-killer",
+          "Where are you going all alone, sweetie? (Special Gift for Garou the Old Wolf)"
+        ]
+      },
+      {
+        "id": "scenario-gifts-of-flesh-and-wood",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+        "type": "Item",
+        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Marionettes’ Destroyer",
+          "A True Friend",
+          "The Field of Miracles (Special Gift for The Fox and the Cat)"
+        ]
+      },
+      {
+        "id": "scenario-gifts-the-smile-in-the-darkness",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "documentNames": [
+          "Voice of the Spirits",
+          "Exorcist"
+        ]
+      },
+      {
+        "id": "scenario-gifts-a-soldiers-duty",
+        "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+        "type": "Item",
+        "path": "packs/scenario-gifts-a-soldiers-duty.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Blessing of the Sea",
+          "Art of Command",
+          "Coral of the Sea Fairy (Special Gift for Marina the Sea Explorer)"
+        ]
+      },
+      {
+        "id": "scenario-gifts-wonderbedlam",
+        "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+        "type": "Item",
+        "path": "packs/scenario-gifts-wonderbedlam.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Friend of the Rabbits",
+          "Lucid Madness",
+          "The Forgotten Queen"
+        ]
+      },
+      {
+        "id": "scenario-gifts-tuvstarrs-reflection",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+        "type": "Item",
+        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "documentNames": [
+          "Hugin and Munin",
+          "Lance of the Fallen Knight"
+        ]
+      },
+      {
+        "id": "scenario-gifts-the-city-of-pigs",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-city-of-pigs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "The Brand of Greed",
+          "The Meat of The God Under the Mine",
+          "There Is No House That Can Stop Me"
+        ]
+      },
+      {
+        "id": "scenario-gifts-one-thousand-and-one-nightmares",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+        "type": "Item",
+        "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Shadow Hunter",
+          "Truth Beneath Tales",
+          "Story Breaker"
+        ]
+      },
+      {
+        "id": "scenario-gifts-ozena-the-suffering-and-desperate",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+        "type": "Item",
+        "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 9
+        },
+        "documentNames": [
+          "Time Thief",
+          "Fragment of the Red Compass",
+          "Companion's Transformation",
+          "The Wishing Well's Price",
+          "Sanctuary of Gelb",
+          "Traveler from Tomorrow",
+          "Manycorpses' Tragedy",
+          "Fragment of the Yellow Compass",
+          "Infusion of Purity"
+        ]
+      },
+      {
+        "id": "scenario-gifts-saint-george-the-dragon-slayer",
+        "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+        "type": "Item",
+        "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "documentNames": [
+          "Paladin's Oath",
+          "Memory of the Dragon",
+          "The Saint's Blessing"
+        ]
+      }
+    ]
+  },
+  "brokenOnes": {
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.25",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "broken-ones-hunters",
+        "label": "BROKENTALES.Packs.BrokenOnesHunters",
+        "type": "Actor",
+        "path": "packs/broken-ones-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "hunter": 13
+        },
+        "documentNames": [
+          "Talia the Sleeper",
+          "The Gang of three Pigs",
+          "Yvonne of the Dark",
+          "Hatta Carter",
+          "Iskra the Young Wolf",
+          "Bloodwhite",
+          "Sherazade the Weaver of Tales",
+          "Morgana of the Lake",
+          "Wound. Carlo the LivingPuppet",
+          "Alice of Other Worlds",
+          "Beauty and her Beast",
+          "The Knight with a Hundred Heads",
+          "OZena the Suffering"
+        ]
+      },
+      {
+        "id": "broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors",
+        "type": "Actor",
+        "path": "packs/broken-ones-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 61,
+        "folders": 7,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 7,
+          "threat": 54
+        },
+        "documentNames": [
+          "Hanse",
+          "Crazed Maws",
+          "Hedge Labyrinth",
+          "Bruna the Poor Witch",
+          "Bella’s Servants",
+          "Aleksandr Pták",
+          "Arne the Captain",
+          "Mercenary and Researcher of Renowned Fame",
+          "Seal of the Cauldron Fae",
+          "Althea the Agent of the Order",
+          "Talia the Sleeper",
+          "The Count Azul of Vigo",
+          "Ostromir Malý",
+          "Nature Rises Up",
+          "Francisca and Marta the Vengeful Sisters",
+          "Pietro Gonsalva Regent of Capodimonte",
+          "Cernobog Potmešil The Child",
+          "Lisbet",
+          "Georg Slanina the Helper",
+          "Akim the Tamer",
+          "The Doves",
+          "George Carnarvon",
+          "Pack of Mastiffs",
+          "Georg the Survivor",
+          "Dioniso Gonsalva called the Beast"
+        ]
+      },
+      {
+        "id": "broken-ones-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "folders": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "descriptor": 41
+        },
+        "documentNames": [
+          "Talia the Sleeper - Main Descriptor",
+          "Talia the Sleeper - Gift 1 Descriptor",
+          "Talia the Sleeper - Gift 2 Descriptor",
+          "Talia the Sleeper - Dark Ego Descriptor",
+          "the Gang of Three Pigs - Main Descriptor",
+          "the Gang of Three Pigs - Gift 1 Descriptor",
+          "the Gang of Three Pigs - Gift 2 Descriptor",
+          "the Gang of Three Pigs - Dark Ego Descriptor",
+          "Yvonne of the Dark - Main Descriptor",
+          "Yvonne of the Dark - Gift 1 Descriptor",
+          "Hatta Carter - Main Descriptor",
+          "Hatta Carter - Gift 1 Descriptor",
+          "Iskra the Young Wolf - Main Descriptor",
+          "Iskra the Young Wolf - Gift 1 Descriptor",
+          "Iskra the Young Wolf - Gift 2 Descriptor",
+          "Iskra the Young Wolf - Dark Ego Descriptor",
+          "Bloodwhite - Main Descriptor",
+          "Bloodwhite - Gift 1 Descriptor",
+          "Bloodwhite - Gift 2 Descriptor",
+          "Sherazade the Weaver of Tales - Main Descriptor",
+          "Sherazade the Weaver of Tales - Gift 1 Descriptor",
+          "Sherazade the Weaver of Tales - Gift 2 Descriptor",
+          "Sherazade the Weaver of Tales - Dark Ego Descriptor",
+          "Morgana of the Lake - Main Descriptor",
+          "Morgana of the Lake - Gift 1 Descriptor"
+        ]
+      },
+      {
+        "id": "broken-ones-threat-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 108,
+        "folders": 54,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 54,
+          "descriptor": 54
+        },
+        "documentNames": [
+          "Abel the Young Lover - Descriptor",
+          "Akim the Tamer - Descriptor",
+          "Aleksandr Pták - Descriptor",
+          "Alexandra the Mother - Descriptor",
+          "Althea the Agent of the Order - Descriptor",
+          "Arne the Captain - Descriptor",
+          "Basil the Survivor - Descriptor",
+          "Beáta Czernin the Noblewoman - Descriptor",
+          "Bella’s Handmaids - Descriptor",
+          "Bella’s Servants - Descriptor",
+          "Berend the Crazed Captain - Descriptor",
+          "Berto the Bear - Descriptor",
+          "Bianca Karenmann - Descriptor",
+          "Bruna the Poor Witch - Descriptor",
+          "Cernobog Potmešil The Child - Descriptor",
+          "Crazed Maws - Descriptor",
+          "Dioniso Gonsalva called the Beast - Descriptor",
+          "Dionysus’ Mastiffs - Descriptor",
+          "Director of the Theater - Descriptor",
+          "Eduardo and Felipe - Descriptor",
+          "Father Cristoforo - Descriptor",
+          "Francesca Cantalupo - Descriptor",
+          "Francisca and Marta the Vengeful Sisters - Descriptor",
+          "Georg Slanina the Helper - Descriptor",
+          "Georg the Survivor - Descriptor"
+        ]
+      },
+      {
+        "id": "broken-ones-gifts",
+        "label": "BROKENTALES.Packs.BrokenOnesGifts",
+        "type": "Item",
+        "path": "packs/broken-ones-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 39,
+        "folders": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "gift": 26
+        },
+        "documentNames": [
+          "The Cloak",
+          "In the Dream",
+          "Gang",
+          "Eating the Divine",
+          "Light the Flame",
+          "Innocent Smile",
+          "Time Watches",
+          "Playmates",
+          "The Red Hood",
+          "Pack",
+          "Mutant",
+          "Mutagenic Touch",
+          "The Tale",
+          "Words Like Honey",
+          "Weaver of Destiny",
+          "Illusion",
+          "Lies",
+          "Always in the Middle of Trouble",
+          "Physician",
+          "Cheshire the Lynx",
+          "The Beast",
+          "The Beauty",
+          "Ordog the Trusty Horse",
+          "The Bridge",
+          "The Silver Shoes"
+        ]
+      },
+      {
+        "id": "broken-ones-dark-egos",
+        "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+        "type": "Item",
+        "path": "packs/broken-ones-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "folders": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "darkEgo": 13
+        },
+        "documentNames": [
+          "Dark Ego - The Sleeping Will",
+          "Dark Ego - Our Home",
+          "Dark Ego – Solitary Ghost",
+          "Dark Ego - Mad like a Hatter",
+          "Dark Ego - The Young Wolf",
+          "Dark Ego - Pure Innocence",
+          "Dark Ego - One Thousand and One Nights",
+          "Dark Ego - The Supreme Fairy",
+          "Dark Ego - Soulless Puppet",
+          "Dark Ego - Alice of Other Worlds",
+          "Dark Ego - Beasts in Body and Soul",
+          "Dark Ego - The Headless Knight",
+          "Dark Ego - From Another World"
+        ]
+      },
+      {
+        "id": "broken-ones-equipment",
+        "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+        "type": "Item",
+        "path": "packs/broken-ones-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 98,
+        "folders": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "equipment": 85
+        },
+        "documentNames": [
+          "A large nun’s cloak",
+          "A long hood with a veil hiding my face",
+          "Objects and small things that float under my cloak",
+          "A piece of ivy that has remained clinging to my left arm",
+          "The diary in which I wrote about my sad life before the curse",
+          "Pig’s head masks",
+          "Carpenter’s tool bags",
+          "Lots of bricks",
+          "Lots of wood",
+          "Lots of dried straw",
+          "Picks and hammers",
+          "Miners’ lanterns",
+          "Heavy leather work coats",
+          "A reinforced case containing the flesh of the God Under the Mine",
+          "Three keys",
+          "A worn-out cape",
+          "A bag full of candles",
+          "A tinderbox and dry sticks",
+          "Alcohol and other flammable substances",
+          "Some coins received as charity",
+          "A small rosary donated by someone I don’t remember",
+          "A valuable and improbably tall top hat",
+          "Evening clothes",
+          "Watchmaker’s shirts and glasses",
+          "A complete set of over twenty watches"
+        ]
+      },
+      {
+        "id": "broken-ones-library",
+        "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "documentNames": [
+          "Broken Tales - The Broken Ones - Villager's Sheet",
+          "bt-tbo-sheets-eng-final-screen",
+          "bt-tbo-1-eng-final-screen"
+        ]
+      },
+      {
+        "id": "broken-ones-adventures",
+        "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "documentNames": [
+          "I Will Stay with You Always",
+          "In Your Eyes, with Your Feet",
+          "Hunger Island",
+          "The House of Roses",
+          "I Don't Believe",
+          "Stegeborg's Quiet",
+          "Bloodwhite's Heart"
+        ]
+      },
+      {
+        "id": "broken-ones-maps",
+        "label": "BROKENTALES.Packs.BrokenOnesMaps",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "documentNames": [
+          "I Will Stay with You Always",
+          "I Don't Believe",
+          "Bloodwhite's Heart",
+          "Stegeborg's Quiet",
+          "In Your Eyes, with Your Feet",
+          "The House of Roses",
+          "Hunger Island"
+        ]
+      },
+      {
+        "id": "broken-ones-scenes",
+        "label": "BROKENTALES.Packs.BrokenOnesScenes",
+        "type": "Scene",
+        "path": "packs/broken-ones-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "documentNames": [
+          "In Your Eyes, with Your Feet",
+          "Stegeborg's Quiet",
+          "I Will Stay with You Always",
+          "The House of Roses",
+          "Hunger Island",
+          "I Don't Believe",
+          "Bloodwhite's Heart"
+        ]
+      },
+      {
+        "id": "red-hood-iskra-support",
+        "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+        "type": "Item",
+        "path": "packs/red-hood-iskra-support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 16,
+        "folders": 3,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 3,
+          "gift": 3,
+          "storyElement": 10
+        },
+        "documentNames": [
+          "Where are you going all alone, sweetie?",
+          "Iskra's Pendant",
+          "Iskra's Wolf Mask",
+          "Gerard's Letter to the Papacy",
+          "Iskra's Red Cape",
+          "Voice of the Spirits",
+          "Elizaveta's Poison",
+          "Blood Drawings in the Den",
+          "Portrait of Patrick Dubois",
+          "Wolf-killer",
+          "Wolf Tracks and Child's Footprints",
+          "Pile of Bones and Corpses",
+          "Secret Passageway Map"
+        ]
+      },
+      {
+        "id": "red-hood-iskra-maps",
+        "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+        "type": "JournalEntry",
+        "path": "packs/red-hood-iskra-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 4
+        },
+        "documentNames": [
+          "Cemetery - Red-Hood Iskra",
+          "Durfort - Red-Hood Iskra",
+          "Wolf Den - Red-Hood Iskra",
+          "Gevaudan - Red-Hood Iskra"
+        ]
+      },
+      {
+        "id": "red-hood-iskra-audio",
+        "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+        "type": "Playlist",
+        "path": "packs/red-hood-iskra-audio.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 2
+        },
+        "documentNames": [
+          "Broken Tales OST",
+          "Broken Tales - Iskra SFX"
+        ]
+      },
+      {
+        "id": "broken-ones-source-pdfs",
+        "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "documentNames": [
+          "Broken Tales - The Broken Ones",
+          "Broken Tales - The Broken Ones Hunters Sheets",
+          "Broken Tales - The Broken Ones - Villager's Sheet [2022-06-30]"
+        ]
+      }
+    ]
+  },
+  "lostStories": {
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.27",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "lost-stories-hunters",
+        "label": "BROKENTALES.Packs.LostStoriesHunters",
+        "type": "Actor",
+        "path": "packs/lost-stories-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 21,
+        "folders": 2,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 2,
+          "hunter": 19
+        },
+        "documentNames": [
+          "The Respectable Mr. and Mrs. Mars",
+          "Princess Viola of Altomonte",
+          "Magnifico the Naked Emperor",
+          "Thumbking the King of Crime",
+          "Nema the Beastslayer",
+          "Prince Trollo the Innocent",
+          "Karasu Kuroi the Wandering Monk",
+          "Vivienne of the Lake",
+          "The Pale Medic",
+          "Moriarty the Gentleman Thief",
+          "The 7 Hessian Mercenaries",
+          "Tremoteus Rumpel",
+          "Loki the Deceiver",
+          "Miss Snow and Lady Storm",
+          "The Silent Mother",
+          "Doctor V. Frankenstein",
+          "Captain William of Nottingham",
+          "Pietrik and the Cauldron Fae",
+          "Circe the Alchemist"
+        ]
+      },
+      {
+        "id": "lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors",
+        "type": "Actor",
+        "path": "packs/lost-stories-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 131,
+        "folders": 9,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 9,
+          "threat": 122
+        },
+        "documentNames": [
+          "The Green Knight",
+          "Robbers",
+          "The Magic Lake Portal",
+          "Ivory Seeking Pirates",
+          "3: Mikko",
+          "The Imposter",
+          "Haunted House",
+          "Helpers",
+          "Fury and Wrath, the Two Deadly Twins",
+          "Fredrika Okland",
+          "The Four Daughters of Hazir",
+          "Ice Golem",
+          "Hazir the Poor Merchant",
+          "Dark Waters",
+          "Rotten Wreck",
+          "Anselm Wagner",
+          "Baba the Poor Conman",
+          "The Alchemical Door",
+          "The Merchant",
+          "Ice Layer",
+          "Demonic Dogs",
+          "Father Neron Lobo",
+          "City Chaos",
+          "Nikola’s Bats",
+          "Uther Pendragon"
+        ]
+      },
+      {
+        "id": "lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+        "type": "Actor",
+        "path": "packs/lost-stories-dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "threat": 10
+        },
+        "documentNames": [
+          "White Rose and Red Rose",
+          "Brunhilde the Fighter",
+          "The Roc",
+          "Polonia “the Fairy” and Perez “the Rat”",
+          "Hans the Handsome",
+          "Poor Nello and The Faithful Patrasche",
+          "Gemba Tanuki and Mayu Kitsune",
+          "The Regiment of Giants",
+          "Harlequin the Servant",
+          "The Little Oni"
+        ]
+      },
+      {
+        "id": "lost-stories-dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 10
+        },
+        "documentNames": [
+          "White Rose and Red Rose - Descriptor",
+          "The Little Oni - Descriptor",
+          "Brunhilde the Fighter - Descriptor",
+          "The Roc - Descriptor",
+          "Poor Nello and The Faithful Patrasche - Descriptor",
+          "Gemba Tanuki and Mayu Kitsune - Descriptor",
+          "Hans the Handsome - Descriptor",
+          "Polonia “the Fairy” and Perez “the Rat” - Descriptor",
+          "The Regiment of Giants - Descriptor",
+          "Harlequin the Servant - Descriptor"
+        ]
+      },
+      {
+        "id": "lost-stories-threat-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "folders": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 10
+        },
+        "documentNames": [
+          "Poor Nello and The Faithful Patrasche - Descriptor",
+          "Gemba Tanuki and Mayu Kitsune - Descriptor",
+          "The Regiment of Giants - Descriptor",
+          "Brunhilde the Fighter - Descriptor",
+          "The Roc - Descriptor",
+          "White Rose and Red Rose - Descriptor",
+          "Polonia “the Fairy” and Perez “the Rat” - Descriptor",
+          "The Little Oni - Descriptor",
+          "Harlequin the Servant - Descriptor",
+          "Hans the Handsome - Descriptor"
+        ]
+      },
+      {
+        "id": "lost-stories-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "folders": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "descriptor": 66
+        },
+        "documentNames": [
+          "the Respectable Mr and Mrs Mars - Main Descriptor",
+          "the Respectable Mr and Mrs Mars - Gift 1 Descriptor",
+          "the Respectable Mr and Mrs Mars - Gift 2 Descriptor",
+          "the Respectable Mr and Mrs Mars - Dark Ego Descriptor",
+          "Lost Stories Exclusives Hunter 6 - Main Descriptor",
+          "Lost Stories Exclusives Hunter 6 - Gift 1 Descriptor",
+          "Lost Stories Exclusives Hunter 6 - Gift 2 Descriptor",
+          "Lost Stories Exclusives Hunter 9 - Main Descriptor",
+          "Lost Stories Exclusives Hunter 9 - Gift 1 Descriptor",
+          "Lost Stories Exclusives Hunter 9 - Gift 2 Descriptor",
+          "Lost Stories Exclusives Hunter 7 - Main Descriptor",
+          "Lost Stories Exclusives Hunter 7 - Gift 1 Descriptor",
+          "Lost Stories Exclusives Hunter 7 - Gift 2 Descriptor",
+          "Lost Stories Exclusives Hunter 7 - Dark Ego Descriptor",
+          "Lost Stories Exclusives Hunter 8 - Main Descriptor",
+          "Lost Stories Exclusives Hunter 8 - Gift 1 Descriptor",
+          "Lost Stories Exclusives Hunter 8 - Gift 2 Descriptor",
+          "Prince Trollo the Innocent - Main Descriptor",
+          "Prince Trollo the Innocent - Gift 1 Descriptor",
+          "Prince Trollo the Innocent - Gift 2 Descriptor",
+          "Prince Trollo the Innocent - Dark Ego Descriptor",
+          "Karasu Kuroi the Wandering Monk - Main Descriptor",
+          "Karasu Kuroi the Wandering Monk - Gift 1 Descriptor",
+          "Karasu Kuroi the Wandering Monk - Gift 2 Descriptor",
+          "Karasu Kuroi the Wandering Monk - Dark Ego Descriptor"
+        ]
+      },
+      {
+        "id": "lost-stories-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 57,
+        "folders": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "gift": 38
+        },
+        "documentNames": [
+          "Incognito Agents",
+          "Informants",
+          "Porziella the Faithful Flea",
+          "The Magic of the Seven",
+          "What I Want to See",
+          "What I Don’t Want to See",
+          "Tiny",
+          "In the Right Place at the Right Time",
+          "Hunting Companion",
+          "Stalking",
+          "Noble Birth",
+          "Good Heart",
+          "Monk",
+          "Moral Rigor",
+          "Blessing of the Defeated",
+          "The Lady’s Champion",
+          "Cursed Blood",
+          "Welcome to My House",
+          "Diabolical Plan",
+          "Dark Eminence",
+          "The Team",
+          "On Mission",
+          "Examine the Evidence",
+          "Your Honor",
+          "Thousand Faces"
+        ]
+      },
+      {
+        "id": "lost-stories-dark-egos",
+        "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 38,
+        "folders": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "darkEgo": 19
+        },
+        "documentNames": [
+          "Dark Ego - Alien Technology",
+          "Dark Ego - Taking Destiny into My Own Hands",
+          "Dark Ego - All Eyes on Me",
+          "Dark Ego - Infallible Cunning",
+          "Dark Ego - It’s Time to Kill the Beast",
+          "Dark Ego - Oknytt’s Legacy",
+          "Dark Ego - You Are What You Fight",
+          "Dark Ego - Water Fairy",
+          "Dark Ego - The Vampire",
+          "Dark Ego - The Napoleon of Crime",
+          "Dark Ego - Heigh-ho, Heigh-ho",
+          "Dark Ego - Shattered Pact",
+          "Dark Ego - The Great Deception",
+          "Dark Ego - Snow Queen",
+          "Dark Ego - The Caring Mother",
+          "Dark Ego - Reanimator",
+          "Dark Ego - Capture the Outlaws",
+          "Dark Ego - The Magic of Disbelief",
+          "Dark Ego - Goddess Blood"
+        ]
+      },
+      {
+        "id": "lost-stories-equipment",
+        "label": "BROKENTALES.Packs.LostStoriesEquipment",
+        "type": "Item",
+        "path": "packs/lost-stories-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 118,
+        "folders": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "equipment": 103
+        },
+        "documentNames": [
+          "Well-made clothes",
+          "Walking umbrella and pipe",
+          "A small vase with a strange bright red seedling",
+          "A box of excellent chocolates",
+          "Various fake identity documents",
+          "A portrait of a couple commissioned from a famous painter",
+          "Clothes of fine workmanship",
+          "A small wooden crown painted with gold, given to me by my father",
+          "A splendid short sword",
+          "A bag containing everything needed to process milk and make butter",
+          "A precious bracelet engraved with a cradle, a gift from my mother",
+          "A well-worn blanket that I love and use as a cloak",
+          "A bag full of coins and valuables that I often lose",
+          "My prized traveling Shakujō",
+          "My prized Hauchiwa fan",
+          "A Tengu-gui raven mask",
+          "A theater mask with a long nose that I use to hide my Asian features",
+          "A katana that belonged to a famous samurai",
+          "A traveling bag containing boiled rice and bean paste",
+          "Fine clothes",
+          "Wigs, tricks, and masks",
+          "A few trinkets the Order insists on calling “Treasures”",
+          "A small portrait of the only human I ever loved",
+          "A dark doctor’s uniform",
+          "A pair of fine dark glasses"
+        ]
+      },
+      {
+        "id": "lost-stories-library",
+        "label": "BROKENTALES.Packs.LostStoriesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "documentNames": [
+          "Broken Tales Lost Stories OEF,",
+          "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN",
+          "Broken Tales Lost Stories Hunters Sheets OEF,",
+          "bt-ls-book-1-ENG-SCREEN",
+          "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters"
+        ]
+      },
+      {
+        "id": "lost-stories-adventures",
+        "label": "BROKENTALES.Packs.LostStoriesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "documentNames": [
+          "Rome, City of the Order",
+          "The Last Wish",
+          "A Frozen Reflection",
+          "A Mother's Heart",
+          "Isolde the Singer of Lost Love",
+          "Nemesis",
+          "The King's Awakening",
+          "Nikola's Pledge",
+          "Journey of a Thousand and One Nights"
+        ]
+      },
+      {
+        "id": "lost-stories-maps",
+        "label": "BROKENTALES.Packs.LostStoriesMaps",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "documentNames": [
+          "The Last Wish",
+          "Nemesis",
+          "Journey of a Thousand and One Nights",
+          "A Mother's Heart",
+          "Nikola's Pledge",
+          "Rome, City of the Order",
+          "The King's Awakening",
+          "Isolde the Singer of Lost Love",
+          "A Frozen Reflection"
+        ]
+      },
+      {
+        "id": "lost-stories-scenes",
+        "label": "BROKENTALES.Packs.LostStoriesScenes",
+        "type": "Scene",
+        "path": "packs/lost-stories-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "documentNames": [
+          "Journey of a Thousand and One Nights",
+          "Nemesis",
+          "Isolde the Singer of Lost Love",
+          "Rome, City of the Order",
+          "A Mother's Heart",
+          "Nikola's Pledge",
+          "A Frozen Reflection",
+          "The King's Awakening",
+          "The Last Wish"
+        ]
+      },
+      {
+        "id": "lost-stories-source-pdfs",
+        "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "folders": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "documentNames": [
+          "bt-ls-book-1-ENG-SCREEN",
+          "Broken_Tales_Lost_Stories_OEF,_2024_10_09,_book_1_ENG_SCREEN",
+          "Broken Tales - Lost Stories - Exclusive Pre-Gen Hunters",
+          "Broken_Tales_Lost_Stories_Hunters_Sheets_OEF,_2024_09_24,_1_2_ENG",
+          "bt-ls-hunters-sheets-1.2-eng-BASE-SCREEN"
+        ]
+      },
+      {
+        "id": "lost-stories-scenario-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "folders": 4,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 4,
+          "gift": 10
+        },
+        "documentNames": [
+          "Blessing of the Sea",
+          "Art of Command",
+          "Coral of the Sea Fairy",
+          "Marionettes' Destroyer",
+          "A True Friend",
+          "The Field of Miracles",
+          "Voice of the Spirits",
+          "Exorcist",
+          "Hugin and Munin",
+          "Lance of the Fallen Knight"
+        ]
+      }
+    ]
+  },
+  "missingImages": {
+    "system": [],
+    "brokenOnes": [],
+    "lostStories": []
+  }
+}
