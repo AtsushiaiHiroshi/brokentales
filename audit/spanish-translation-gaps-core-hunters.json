@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-20T07:23:28.939Z",
+  "note": "Suspiciously short or missing Spanish translations in core hunter active pack. Length-based audit only; verify against Spanish PDF/OCR.",
+  "issues": [
+    {
+      "actor": "The Astonishing Pied Piper Without a Name",
+      "rows": [
+        {
+          "kind": "actor",
+          "name": "The Astonishing Pied Piper Without a Name",
+          "esName": "El Asombroso Flautista sin Nombre",
+          "enLen": 708,
+          "esLen": 124
+        },
+        {
+          "kind": "descriptor",
+          "name": "The Astonishing Pied Piper Without a Name - descriptor-principal.cazador",
+          "esName": "El Asombroso Flautista sin Nombre - descriptor-principal.cazador",
+          "key": "descriptor-principal.cazador",
+          "enLen": 708,
+          "esLen": 124,
+          "ratio": 0.18
+        }
+      ]
+    },
+    {
+      "actor": "Sun Wukong the Amazing Monkey",
+      "rows": [
+        {
+          "kind": "actor",
+          "name": "Sun Wukong the Amazing Monkey",
+          "esName": "Sun Wukong el Mono Asombroso",
+          "enLen": 592,
+          "esLen": 28
+        },
+        {
+          "kind": "descriptor",
+          "name": "Sun Wukong the Amazing Monkey - descriptor-principal.cazador",
+          "esName": "Sun Wukong el Mono Asombroso - descriptor-principal.cazador",
+          "key": "descriptor-principal.cazador",
+          "enLen": 592,
+          "esLen": 28,
+          "ratio": 0.05
+        }
+      ]
+    },
+    {
+      "actor": "George the Holy Dragon Slayer",
+      "rows": [
+        {
+          "kind": "actor",
+          "name": "George the Holy Dragon Slayer",
+          "esName": "San Jorge el Matadragones",
+          "enLen": 741,
+          "esLen": 96
+        },
+        {
+          "kind": "descriptor",
+          "name": "George the Holy Dragon Slayer - descriptor-principal.cazador",
+          "esName": "San Jorge el Matadragones - descriptor-principal.cazador",
+          "key": "descriptor-principal.cazador",
+          "enLen": 741,
+          "esLen": 96,
+          "ratio": 0.13
+        }
+      ]
+    }
+  ]
+}
