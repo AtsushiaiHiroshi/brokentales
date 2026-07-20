@@ -2,7 +2,7 @@
   "id": "broken-tales",
   "title": "Broken Tales",
   "description": "Unofficial local community system for playing Broken Tales in Foundry VTT, centered on Position Checks, Descriptors, Soma, Gifts, Dark Ego, and Wounds.",
-  "version": "0.2.61",
+  "version": "0.2.62",
   "authors": [
     {
       "name": "Mesa local"
@@ -66,7 +66,7 @@
     {
       "name": "hunters",
       "label": "BROKENTALES.Packs.CoreHunters",
-      "path": "packs/hunters-canon.db",
+      "path": "packs/hunters",
       "type": "Actor",
       "system": "broken-tales",
       "ownership": {
@@ -78,7 +78,7 @@
     {
       "name": "support",
       "label": "BROKENTALES.Packs.Support",
-      "path": "packs/support-canon.db",
+      "path": "packs/support",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -90,7 +90,7 @@
     {
       "name": "scenario-gifts",
       "label": "BROKENTALES.Packs.ScenarioGifts",
-      "path": "packs/scenario-gifts-canon.db",
+      "path": "packs/scenario-gifts",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -102,7 +102,7 @@
     {
       "name": "hunter-gifts",
       "label": "BROKENTALES.Packs.HunterGifts",
-      "path": "packs/hunter-gifts-canon.db",
+      "path": "packs/hunter-gifts",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -114,7 +114,7 @@
     {
       "name": "hunter-descriptors",
       "label": "BROKENTALES.Packs.HunterDescriptors",
-      "path": "packs/hunter-descriptors-canon.db",
+      "path": "packs/hunter-descriptors",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -126,7 +126,7 @@
     {
       "name": "hunter-equipment",
       "label": "BROKENTALES.Packs.HunterEquipment",
-      "path": "packs/hunter-equipment-canon.db",
+      "path": "packs/hunter-equipment",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -138,7 +138,7 @@
     {
       "name": "hunter-dark-egos",
       "label": "BROKENTALES.Packs.HunterDarkEgos",
-      "path": "packs/hunter-dark-egos-canon.db",
+      "path": "packs/hunter-dark-egos",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -150,7 +150,7 @@
     {
       "name": "dark-presence-descriptors",
       "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
-      "path": "packs/dark-presence-descriptors-canon.db",
+      "path": "packs/dark-presence-descriptors",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -162,7 +162,7 @@
     {
       "name": "threat-descriptors",
       "label": "BROKENTALES.Packs.ThreatDescriptors",
-      "path": "packs/threat-descriptors-canon.db",
+      "path": "packs/threat-descriptors",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -174,7 +174,7 @@
     {
       "name": "villager-descriptors",
       "label": "BROKENTALES.Packs.VillagerDescriptors",
-      "path": "packs/villager-descriptors-canon.db",
+      "path": "packs/villager-descriptors",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -186,7 +186,7 @@
     {
       "name": "essence-descriptors",
       "label": "BROKENTALES.Packs.EssenceDescriptors",
-      "path": "packs/essence-descriptors-canon.db",
+      "path": "packs/essence-descriptors",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -198,7 +198,7 @@
     {
       "name": "dark-presences",
       "label": "BROKENTALES.Packs.DarkPresences",
-      "path": "packs/dark-presences-canon.db",
+      "path": "packs/dark-presences",
       "type": "Actor",
       "system": "broken-tales",
       "ownership": {
@@ -210,7 +210,7 @@
     {
       "name": "scenario-actors",
       "label": "BROKENTALES.Packs.ScenarioActors",
-      "path": "packs/scenario-actors-canon.db",
+      "path": "packs/scenario-actors",
       "type": "Actor",
       "system": "broken-tales",
       "ownership": {
@@ -222,7 +222,7 @@
     {
       "name": "library",
       "label": "BROKENTALES.Packs.Library",
-      "path": "packs/library-canon.db",
+      "path": "packs/library",
       "type": "JournalEntry",
       "system": "broken-tales",
       "ownership": {
@@ -234,7 +234,7 @@
     {
       "name": "adventures",
       "label": "BROKENTALES.Packs.Adventures",
-      "path": "packs/adventures-canon.db",
+      "path": "packs/adventures",
       "type": "JournalEntry",
       "system": "broken-tales",
       "ownership": {
@@ -246,7 +246,7 @@
     {
       "name": "adventure-maps",
       "label": "BROKENTALES.Packs.AdventureMaps",
-      "path": "packs/adventure-maps-canon.db",
+      "path": "packs/adventure-maps",
       "type": "JournalEntry",
       "system": "broken-tales",
       "ownership": {
@@ -258,7 +258,7 @@
     {
       "name": "adventure-scenes",
       "label": "BROKENTALES.Packs.AdventureScenes",
-      "path": "packs/adventure-scenes-canon.db",
+      "path": "packs/adventure-scenes",
       "type": "Scene",
       "system": "broken-tales",
       "ownership": {
@@ -270,7 +270,7 @@
     {
       "name": "audit",
       "label": "BROKENTALES.Packs.Audit",
-      "path": "packs/audit-canon.db",
+      "path": "packs/audit",
       "type": "JournalEntry",
       "system": "broken-tales",
       "ownership": {
@@ -282,7 +282,7 @@
     {
       "name": "source-pdfs",
       "label": "BROKENTALES.Packs.SourcePdfs",
-      "path": "packs/source-pdfs-canon.db",
+      "path": "packs/source-pdfs",
       "type": "JournalEntry",
       "system": "broken-tales",
       "ownership": {
@@ -295,7 +295,7 @@
     {
       "name": "scenario-gifts-red-hood-iskra",
       "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
-      "path": "packs/scenario-gifts-red-hood-iskra.db",
+      "path": "packs/scenario-gifts-red-hood-iskra",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -306,7 +306,7 @@
     {
       "name": "scenario-gifts-of-flesh-and-wood",
       "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
-      "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+      "path": "packs/scenario-gifts-of-flesh-and-wood",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -317,7 +317,7 @@
     {
       "name": "scenario-gifts-the-smile-in-the-darkness",
       "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
-      "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+      "path": "packs/scenario-gifts-the-smile-in-the-darkness",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -328,7 +328,7 @@
     {
       "name": "scenario-gifts-a-soldiers-duty",
       "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
-      "path": "packs/scenario-gifts-a-soldiers-duty.db",
+      "path": "packs/scenario-gifts-a-soldiers-duty",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -339,7 +339,7 @@
     {
       "name": "scenario-gifts-wonderbedlam",
       "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
-      "path": "packs/scenario-gifts-wonderbedlam.db",
+      "path": "packs/scenario-gifts-wonderbedlam",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -350,7 +350,7 @@
     {
       "name": "scenario-gifts-tuvstarrs-reflection",
       "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
-      "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+      "path": "packs/scenario-gifts-tuvstarrs-reflection",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -361,7 +361,7 @@
     {
       "name": "scenario-gifts-the-city-of-pigs",
       "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
-      "path": "packs/scenario-gifts-the-city-of-pigs.db",
+      "path": "packs/scenario-gifts-the-city-of-pigs",
       "type": "Item",
       "system": "broken-tales",
       "ownership": {
@@ -373,19 +373,22 @@
       "name": "scenario-gifts-one-thousand-and-one-nightmares",
       "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
       "type": "Item",
-      "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db"
+      "path": "packs/scenario-gifts-one-thousand-and-one-nightmares",
+      "system": "broken-tales"
     },
     {
       "name": "scenario-gifts-ozena-the-suffering-and-desperate",
       "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
       "type": "Item",
-      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db"
+      "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate",
+      "system": "broken-tales"
     },
     {
       "name": "scenario-gifts-saint-george-the-dragon-slayer",
       "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
       "type": "Item",
-      "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db"
+      "path": "packs/scenario-gifts-saint-george-the-dragon-slayer",
+      "system": "broken-tales"
     }
   ],
   "languages": [

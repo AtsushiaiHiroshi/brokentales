@@ -51,6 +51,22 @@ async function readJsonl(filePath) {
   return text.trim() ? text.trim().split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line)) : [];
 }
 
+async function sourceDbPath(root, pack) {
+  const candidates = [];
+  if (pack.path.endsWith(".db")) candidates.push(pack.path);
+  else {
+    candidates.push(`${pack.path}-canon.db`);
+    candidates.push(`${pack.path}.db`);
+  }
+
+  for (const candidate of candidates) {
+    const filePath = path.join(root, candidate);
+    if (await exists(filePath)) return filePath;
+  }
+
+  throw new Error(`No JSONL source found for ${pack.name}. Tried: ${candidates.join(", ")}`);
+}
+
 function documentCollection(doc) {
   if (doc.prototypeToken || Array.isArray(doc.items)) return "actors";
   if (doc.pages !== undefined) return "journal";
@@ -110,14 +126,20 @@ async function writeLevelPack(targetDir, docs) {
 }
 
 async function syncPack(root, pack, timestamp) {
-  const sourcePath = path.join(root, pack.path);
+  const sourcePath = await sourceDbPath(root, pack);
   const docs = await readJsonl(sourcePath);
+  const destination = path.join(root, pack.path);
   const packRoot = path.join(root, "packs");
-  const destinations = new Set(activeOnly ? [pack.name] : [pack.name, path.basename(pack.path, ".db")]);
+  const destinations = new Set([destination]);
   const results = [];
 
-  for (const destinationName of destinations) {
-    const destination = path.join(packRoot, destinationName);
+  if (!activeOnly && pack.path.endsWith(".db")) {
+    destinations.add(path.join(packRoot, pack.name));
+    destinations.add(path.join(packRoot, path.basename(pack.path, ".db")));
+  }
+
+  for (const destination of destinations) {
+    const destinationName = path.relative(packRoot, destination);
     const backupRoot = path.join(packRoot, `_backup-leveldb-${timestamp}`);
 
     if (await exists(destination)) {
