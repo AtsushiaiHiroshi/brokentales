@@ -211,6 +211,26 @@ async function translatedPackNames(packId, language) {
   return names;
 }
 
+async function localizeBrokenTalesPackIndexes() {
+  const language = selectedContentLanguage();
+  if (!language || language === "en" || !game?.packs) return;
+
+  for (const pack of game.packs) {
+    if (!isBrokenTalesPackId(pack.collection)) continue;
+    try {
+      const index = await pack.getIndex({ fields: ["flags.broken-tales.translations"] });
+      for (const entry of index) {
+        const translatedName = entry.flags?.["broken-tales"]?.translations?.[language]?.name;
+        if (!translatedName) continue;
+        entry.name = translatedName;
+        if (entry.label) entry.label = translatedName;
+      }
+    } catch (error) {
+      console.warn(`Broken Tales | Could not localize compendium index ${pack.collection}.`, error);
+    }
+  }
+}
+
 async function localizeBrokenTalesCompendiumNames(root, packId) {
   const language = selectedContentLanguage();
   if (!root || !packId || language === "en") return;
@@ -549,6 +569,12 @@ Hooks.once("ready", async () => {
     auditCompendia: auditBrokenTalesCompendia,
     repairCompendia: repairBrokenTalesCompendia
   };
+
+  try {
+    await localizeBrokenTalesPackIndexes();
+  } catch (error) {
+    console.warn("Broken Tales | Could not localize compendium indexes.", error);
+  }
 
   if (!game.user.isGM) return;
   try {
