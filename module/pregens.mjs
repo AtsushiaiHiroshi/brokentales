@@ -32,6 +32,25 @@ function looseName(value) {
   return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
+function actorAliasNames(data) {
+  const aliases = new Set();
+  const add = (value) => {
+    const clean = oneLine(value);
+    if (clean) aliases.add(clean);
+  };
+
+  add(data?.name);
+  add(data?.system?.details?.origin);
+
+  const translations = data?.flags?.["broken-tales"]?.translations ?? {};
+  for (const translation of Object.values(translations)) {
+    add(translation?.name);
+    add(translation?.system?.details?.origin);
+  }
+
+  return [...aliases];
+}
+
 function activeContentLanguage() {
   const normalize = (value) => String(value ?? "").toLowerCase();
   const resolve = (value) => {
@@ -275,23 +294,28 @@ async function loadPregenRecords(collection = "core") {
   return loadPregenActors(collection);
 }
 
-function findExistingPregens(slug, name) {
-  const loose = looseName(name);
+function findExistingPregens(slug, aliases) {
+  const canonicalNames = new Set(
+    (Array.isArray(aliases) ? aliases : [aliases])
+      .map((entry) => looseName(entry))
+      .filter(Boolean)
+  );
   return game.actors.filter((actor) => (
     actor.type === "hunter"
     && (
       actor.getFlag("broken-tales", IMPORT_FLAG) === slug
-      || actor.name === name
-      || actor.system?.details?.origin === name
-      || looseName(actor.name) === loose
-      || looseName(actor.system?.details?.origin) === loose
+      || canonicalNames.has(looseName(actor.name))
+      || canonicalNames.has(looseName(actor.system?.details?.origin))
     )
   ));
 }
 
-function findRepairPregens(slug, name, allNames = []) {
-  const canonicalNames = new Set(allNames.map((entry) => looseName(entry)).filter(Boolean));
-  canonicalNames.add(looseName(name));
+function findRepairPregens(slug, aliases = []) {
+  const canonicalNames = new Set(
+    (Array.isArray(aliases) ? aliases : [aliases])
+      .map((entry) => looseName(entry))
+      .filter(Boolean)
+  );
   return game.actors.filter((actor) => {
     if (actor.type !== "hunter") return false;
     const actorSlug = actor.getFlag("broken-tales", IMPORT_FLAG);
@@ -299,6 +323,21 @@ function findRepairPregens(slug, name, allNames = []) {
     const actorOrigin = looseName(actor.system?.details?.origin);
     return actorSlug === slug || canonicalNames.has(actorName) || canonicalNames.has(actorOrigin);
   });
+}
+
+async function pruneImportedPregensOutsideSelection(selected) {
+  const selectedSlugs = new Set(
+    selected
+      .map((actorData) => actorData.flags?.["broken-tales"]?.[IMPORT_FLAG])
+      .filter(Boolean)
+  );
+  const removable = game.actors.filter((actor) => (
+    actor.type === "hunter"
+    && actor.getFlag("broken-tales", IMPORT_FLAG)
+    && !selectedSlugs.has(actor.getFlag("broken-tales", IMPORT_FLAG))
+  ));
+  for (const actor of removable) await actor.delete();
+  return removable.length;
 }
 
 function hasUsefulPregenContent(actor) {
@@ -311,23 +350,24 @@ function hasUsefulPregenContent(actor) {
   });
 }
 
-export async function importPregens({ collection = "core", overwrite = false } = {}) {
+export async function importPregens({ collection = "core", overwrite = false, pruneOtherImportedPregens = false } = {}) {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
     return [];
   }
 
   const selected = await loadPregenActors(collection);
-  const selectedNames = selected.map((actorData) => actorData.name);
+  const pruned = pruneOtherImportedPregens ? await pruneImportedPregensOutsideSelection(selected) : 0;
   const created = [];
   const skipped = [];
   const ActorClass = Actor.implementation ?? Actor;
 
   for (const actorData of selected) {
     const slug = actorData.flags["broken-tales"][IMPORT_FLAG];
+    const aliases = actorAliasNames(actorData);
     const existing = overwrite
-      ? findRepairPregens(slug, actorData.name, selectedNames)
-      : findExistingPregens(slug, actorData.name);
+      ? findRepairPregens(slug, aliases)
+      : findExistingPregens(slug, aliases);
     const hasBrokenExisting = existing.some((actor) => !hasUsefulPregenContent(actor));
     const shouldReplace = overwrite || hasBrokenExisting || existing.length > 1;
 
@@ -345,13 +385,13 @@ export async function importPregens({ collection = "core", overwrite = false } =
 
   ui.notifications.info(game.i18n.format("BROKENTALES.Notifications.PregensImported", {
     created: created.length,
-    skipped: skipped.length
+    skipped: skipped.length + pruned
   }));
   return created;
 }
 
-export async function repairPregens({ collection = "core" } = {}) {
-  return importPregens({ collection, overwrite: true });
+export async function repairPregens({ collection = "core", pruneOtherImportedPregens = false } = {}) {
+  return importPregens({ collection, overwrite: true, pruneOtherImportedPregens });
 }
 
 export async function refreshPregenAssets({ collection = "core", notify = true } = {}) {
@@ -367,7 +407,7 @@ export async function refreshPregenAssets({ collection = "core", notify = true }
     const img = pregen.img;
     if (!img) continue;
 
-    const actors = findExistingPregens(slug, actorName);
+    const actors = findExistingPregens(slug, actorAliasNames(pregen));
     for (const actor of actors) {
       const genericActorImg = /icons\/svg\/(mystery-man|angel)\.svg/i.test(actor.img ?? "");
       if (genericActorImg || actor.img !== img) {
@@ -421,6 +461,6 @@ export async function createPregenRepairMacro() {
     name,
     type: "script",
     img: "icons/svg/upgrade.svg",
-    command: "await game.brokenTales.repairPregens();"
+    command: "await game.brokenTales.repairPregens({ collection: \"core\", pruneOtherImportedPregens: true });"
   });
 }
