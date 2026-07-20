@@ -1,0 +1,44 @@
+{
+  "baselineCommit": "d3c69c9e67a1ca9014b6d9bae32fde5aa2656b06",
+  "baselineCoreJsonPath": "packs/actors/pre-generated hunters/*.json",
+  "note": "Legacy equipment is a single text field; current actors split it into equipment items. Legacy descriptor array includes gift descriptors and the Dark Ego descriptor; current actors keep main background plus those descriptors as descriptor items.",
+  "oldCoreHunterCount": 15,
+  "currentCanonHunterCount": 15,
+  "currentLegacySourceJsonCount": 15,
+  "enrichedFallbackTotal": 47,
+  "enrichedFallbackCoreCount": 15,
+  "missingFromCurrent": [],
+  "extraInCurrentCanon": [],
+  "contentMismatches": [],
+  "machiavelliCurrent": {
+    "items": 12,
+    "descriptors": 5,
+    "gifts": 3,
+    "darkEgo": 1,
+    "equipment": 2,
+    "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp"
+  },
+  "importDefaultsCore": {
+    "local": true,
+    "repo": true
+  },
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "checkedAt": "2026-07-20T06:05:46.966Z",
+  "acceptedCorrections": [
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "reason": "The first GitHub JSON has 4 total descriptors when counting background, but the PDF/user-corrected model requires 5: one main descriptor, one descriptor for each of 3 gifts, and one Dark Ego descriptor.",
+      "current": {
+        "items": 12,
+        "descriptors": 5,
+        "gifts": 3,
+        "darkEgo": 1,
+        "equipment": 2,
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp"
+      }
+    }
+  ]
+}
