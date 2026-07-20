@@ -1700,3 +1700,167 @@
   min-height: 172px;
   padding-right: 0;
 }
+
+/* v0.2.70: hard alignment pass for the printed Hunter's Sheet geometry. */
+.broken-tales .bt-sheet.hunter {
+  box-sizing: border-box;
+  width: 1024px !important;
+  min-width: 1024px !important;
+  max-width: 1024px !important;
+  min-height: 1448px;
+  padding: 62px 50px 168px;
+  background-color: #fbfaf4 !important;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
+    image-set(
+      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
+      url("../assets/ui/broken-tales-sheet.png") type("image/png")
+    ) !important;
+  background-position: center top, center top !important;
+  background-repeat: repeat-y, repeat-y !important;
+  background-size: 1024px 1448px, 1024px 1448px !important;
+}
+
+.broken-tales .bt-sheet.hunter .bt-sheet-head {
+  display: grid;
+  grid-template-columns: 126px 500px 1fr !important;
+  grid-template-rows: 176px;
+  gap: 14px 18px;
+  align-items: start;
+  min-height: 202px;
+  margin: 0 0 24px;
+  padding: 16px 8px 12px;
+  border-top: 0;
+  border-bottom: 3px solid var(--bt-ink);
+}
+
+.broken-tales .bt-sheet.hunter .bt-portrait {
+  width: 126px;
+  min-width: 126px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-portrait img {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid var(--bt-red);
+}
+
+.broken-tales .bt-sheet.hunter .bt-identity,
+.broken-tales .bt-sheet.hunter .bt-ink-title,
+.broken-tales .bt-sheet.hunter .bt-name {
+  width: 500px !important;
+  max-width: 500px !important;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title {
+  min-height: 70px;
+  height: 70px;
+  margin: 0 0 8px;
+  overflow: visible;
+}
+
+.broken-tales .bt-sheet.hunter .bt-name {
+  min-height: 70px;
+  height: 70px;
+  padding: 0 6px 0 0;
+  overflow: hidden;
+  resize: none;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 2.06rem;
+  line-height: 0.98;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long,
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
+  min-height: 86px;
+  height: 86px;
+  font-size: 1.62rem;
+  line-height: 1.02;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long,
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
+  min-height: 104px;
+  height: 104px;
+  font-size: 1.32rem;
+  line-height: 1.04;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme,
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
+  min-height: 124px;
+  height: 124px;
+  font-size: 1.08rem;
+  line-height: 1.05;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 500px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields label {
+  min-width: 0;
+}
+
+.broken-tales .bt-sheet.hunter .bt-line-fields span,
+.broken-tales .bt-sheet.hunter .bt-line-fields input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured {
+  min-width: 0;
+  min-height: 176px;
+  max-height: 176px;
+  padding: 0 0 0 18px;
+  overflow: hidden;
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
+  max-height: 132px;
+  overflow-y: auto;
+}
+
+.broken-tales .bt-sheet.hunter .bt-descriptor-stack,
+.broken-tales .bt-sheet.hunter .bt-lower-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 18px 20px;
+  align-items: start;
+}
+
+.broken-tales .bt-sheet.hunter .bt-descriptor-row,
+.broken-tales .bt-sheet.hunter .bt-card {
+  box-sizing: border-box;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item {
+  display: grid;
+  grid-template-columns: 34px 82px minmax(0, 1fr);
+  column-gap: 10px;
+  align-items: start;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
+  width: 76px;
+  height: 76px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
+  width: 64px;
+  height: 64px;
+  margin-left: 6px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item h3 {
+  overflow-wrap: anywhere;
+}
