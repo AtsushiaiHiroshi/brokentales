@@ -1,0 +1,231 @@
+{
+  "oldCount": 15,
+  "currentCount": 15,
+  "compare": [
+    {
+      "name": "James the Swordsman",
+      "oldName": "James the Swordsman",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewomen. After years of successes and victories, a mysterious child defeated me with deception. This despicable boy led me into the lair of a dangerous beast and, after imprisoning me, left me to be eaten by the monster. I survived, though I lost a hand... I know for certain he who I seek is no human, and I joined the Order to hunt down the child I hate above all else, and thus have my revenge.",
+      "oldBg": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewomen. After years of successes and victories, a mysterious child defeated me with deception. This despicable boy led me into the lair of a dangerous beast and, after imprisoning me, left me to be eaten by the monster. I survived, though I lost a hand... I know for certain he who I seek is no human, and I joined the Order to hunt down the child I hate above all else, and thus have my revenge."
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "oldName": "Garou the Old Wolf",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 3,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived proudly at the head of my pack, leading a thousand raids and eating succulent, tender morsels of human flesh. But I am not so old I cannot face those who hate me the most, though I may be hunted and reviled. Now that I’m part of the Order, I use my strength to defend the weak hunters who are my companions, knowing that with a single bite I could end their insignificant lives.",
+      "oldBg": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived proudly at the head of my pack, leading a thousand raids and eating succulent, tender morsels of human flesh. But I am not so old I cannot face those who hate me the most, though I may be hunted and reviled. Now that I’m part of the Order, I use my strength to defend the weak hunters who are my companions, knowing that with a single bite I could end their insignificant lives."
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "oldName": "The Astonishing Pied Piper Without a Name",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned to use the power of music to reach into the souls of both humans and animals. Unfortunately, I have lost count of the number of times I have performed dishonorable acts while pursuing the perfect melody. Having been guilty of various crimes and having taken revenge on those who mocked my sincere love for music, I serenely waited for my execution. The Order freed me in exchange for a promise to serve them and put my skills to work in the fight against Darkness. It was in the darkest moments that I glimpsed the perfect melody, so perhaps as a Hunter, I can find it and make it my own.",
+      "oldBg": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned to use the power of music to reach into the souls of both humans and animals. Unfortunately, I have lost count of the number of times I have performed dishonorable acts while pursuing the perfect melody. Having been guilty of various crimes and having taken revenge on those who mocked my sincere love for music, I serenely waited for my execution. The Order freed me in exchange for a promise to serve them and put my skills to work in the fight against Darkness. It was in the darkest moments that I glimpsed the perfect melody, so perhaps as a Hunter, I can find it and make it my own."
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "oldName": "Baba Yaga the Child Witch",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware of my abilities. To most, I seem cynical and cruel. That is because they do not understand that they are pawns, insignificant pieces in the bloody games that witches and warlocks play. The Order does not look down on my age, which is why it has given me the leadership I deserve.",
+      "oldBg": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware of my abilities. To most, I seem cynical and cruel. That is because they do not understand that they are pawns, insignificant pieces in the bloody games that witches and warlocks play. The Order does not look down on my age, which is why it has given me the leadership I deserve."
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "oldName": "Regina the Thief of Hearts",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. Lacking the benefit of noble birth, the power I held was pried from the hands of those less deserving to wield it, no matter the cost. I ruled armies of thugs, and broke the hearts of both men and women. After each conquest, I set out in search of a bigger challenge. Because there is still so much out there that should be rightfully mine, I always want more. The Order has given me a new purpose, a new perspective, and new creatures to enslave.",
+      "oldBg": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. Lacking the benefit of noble birth, the power I held was pried from the hands of those less deserving to wield it, no matter the cost. I ruled armies of thugs, and broke the hearts of both men and women. After each conquest, I set out in search of a bigger challenge. Because there is still so much out there that should be rightfully mine, I always want more. The Order has given me a new purpose, a new perspective, and new creatures to enslave."
+    },
+    {
+      "name": "Babai the Judge",
+      "oldName": "Babai the Judge",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare mutation and fear is now unknown to me. People have always called me Bogeyman, fearing the justice that I represented. Perhaps my own absence of fear made me even more terrifying in the eyes of mortals. The Order has given me a new assignment because even in the fight against darkness, someone needs to be ready to judge what is right and what is wrong.",
+      "oldBg": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare mutation and fear is now unknown to me. People have always called me Bogeyman, fearing the justice that I represented. Perhaps my own absence of fear made me even more terrifying in the eyes of mortals. The Order has given me a new assignment because even in the fight against darkness, someone needs to be ready to judge what is right and what is wrong."
+    },
+    {
+      "name": "The Woman from the Woods",
+      "oldName": "The Woman from the Woods",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 1,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood. I possess extraordinary strength and a feral instinct, such that any civilized society ought to chain me like a monster. I know that in my past is a sin so great, my memory could not bear the weight of it. But, I want to remember and perhaps by serving the Order I will be able to do so. I have a natural soft spot for children, and I can’t stand to see them get hurt. The Order uses me as a weapon in the most serious matters when it is necessary to act decisively and demonstrate that a Hunter is a force to be reckoned with.",
+      "oldBg": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood. I possess extraordinary strength and a feral instinct, such that any civilized society ought to chain me like a monster. I know that in my past is a sin so great, my memory could not bear the weight of it. But, I want to remember and perhaps by serving the Order I will be able to do so. I have a natural soft spot for children, and I can’t stand to see them get hurt. The Order uses me as a weapon in the most serious matters when it is necessary to act decisively and demonstrate that a Hunter is a force to be reckoned with."
+    },
+    {
+      "name": "The Immortal",
+      "oldName": "The Immortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursuit, I have been stained by every sin. The secret behind my unending existence is that I have hidden my soul, removing it from my body. Unfortunately, the Order found its hiding place and now it is held beyond my reach in a fortified church, leaving me no choice but to submit to their commands. Guilty of one thousand and one crimes, the Order demands I balance each with one thousand and one acts of virtue. According to those foolish preachers, they are leading me down the path of redemption. In truth, the Order treats me as a servant, giving to me only the most thankless tasks, knowing that I can not be subdued by death. I remain humble and silent, waiting for the day when I will discover where they have hidden my soul. Then I will unleash my revenge and annihilate the entire Papacy...",
+      "oldBg": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursuit, I have been stained by every sin. The secret behind my unending existence is that I have hidden my soul, removing it from my body. Unfortunately, the Order found its hiding place and now it is held beyond my reach in a fortified church, leaving me no choice but to submit to their commands. Guilty of one thousand and one crimes, the Order demands I balance each with one thousand and one acts of virtue. According to those foolish preachers, they are leading me down the path of redemption. In truth, the Order treats me as a servant, giving to me only the most thankless tasks, knowing that I can not be subdued by death. I remain humble and silent, waiting for the day when I will discover where they have hidden my soul. Then I will unleash my revenge and annihilate the entire Papacy..."
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "oldName": "Marina the Sea Explorer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed me to easily hide my talents as a witch from prying eyes. Year after year, I have accumulated all kinds of magical and mundane wealth. But the Order found me and forced me to sign the most one-sided contract of my entire career as a trader. Now I must put my skills and my charisma at the service of the Order, trying to earn as much as possible to redeem the enormous debt that they have made me incur through deceit.",
+      "oldBg": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed me to easily hide my talents as a witch from prying eyes. Year after year, I have accumulated all kinds of magical and mundane wealth. But the Order found me and forced me to sign the most one-sided contract of my entire career as a trader. Now I must put my skills and my charisma at the service of the Order, trying to earn as much as possible to redeem the enormous debt that they have made me incur through deceit."
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "oldName": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented exorcist and this vocation of mine led me to the remote village of Borgo Maleanime. There, I fought a particularly insidious demon, who concealed itself among the ranks of a gang of young thugs who merely pretended to be demons to scare people. It was a tough fight, but I finally got the better of the fiend. Or so I thought. Something in the exorcism did not go as expected and now the demon dwells inside me, sowing fear and pain whenever it re-emerges. The Order welcomed me into its ranks as an exorcist and I gladly accepted this role, with the hope that the missions entrusted to me would allow me to find a way to rid myself, once and for all, of that which hides within me.",
+      "oldBg": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented exorcist and this vocation of mine led me to the remote village of Borgo Maleanime. There, I fought a particularly insidious demon, who concealed itself among the ranks of a gang of young thugs who merely pretended to be demons to scare people. It was a tough fight, but I finally got the better of the fiend. Or so I thought. Something in the exorcism did not go as expected and now the demon dwells inside me, sowing fear and pain whenever it re-emerges. The Order welcomed me into its ranks as an exorcist and I gladly accepted this role, with the hope that the missions entrusted to me would allow me to find a way to rid myself, once and for all, of that which hides within me."
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "oldName": "George the Holy Dragon Slayer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight against darkness never falters. As a child, I fell into a river and almost drowned, but was saved by a creature that I later discovered was a dragon. When I grew up, I took holy vows and joined the Church. In doing so, I discovered that what I believed to be my savior was actually a creature of darkness, ready to steal my soul. I vowed to fight the darkness, suppressing the feeling of gratitude toward the dragon that saved me, which has always plagued me. Such weakness represents a crack through which evil could slither in. No mercy for monsters, no forgiveness for those who would join and serve the forces of evil.",
+      "oldBg": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight against darkness never falters. As a child, I fell into a river and almost drowned, but was saved by a creature that I later discovered was a dragon. When I grew up, I took holy vows and joined the Church. In doing so, I discovered that what I believed to be my savior was actually a creature of darkness, ready to steal my soul. I vowed to fight the darkness, suppressing the feeling of gratitude toward the dragon that saved me, which has always plagued me. Such weakness represents a crack through which evil could slither in. No mercy for monsters, no forgiveness for those who would join and serve the forces of evil."
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "oldName": "Sun Wukong the Amazing Monkey",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my beloved China. I grew up as a circus animal at London’s Royal Circus but, deep within I carry the conviction that I am destined for something else. I rebelled by killing all my captors, fleeing across a vast and labyrinthine city. When the Order reached me, I thought it was the end, but the Hunters took me with them as their guardian and defender. The more I live as a Hunter, the closer I draw to transcendence. Now I am aware that, someday, I will discover who I really am.",
+      "oldBg": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my beloved China. I grew up as a circus animal at London’s Royal Circus but, deep within I carry the conviction that I am destined for something else. I rebelled by killing all my captors, fleeing across a vast and labyrinthine city. When the Order reached me, I thought it was the end, but the Hunters took me with them as their guardian and defender. The more I live as a Hunter, the closer I draw to transcendence. Now I am aware that, someday, I will discover who I really am."
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "oldName": "Verdoux Bluebeard",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 8,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived an unconventional life, between accomplishing impossible tasks and keeping unspeakable secrets. It has opened my eyes to the world beyond the prosaic limits to which most are accustomed. In an effort to escape my adventurous life, I have more than once tried to start a family. However, my efforts have always ended in ruin, a price I must pay for the secrets I keep. I have lost six lovers, each killed by enemies and dangers that I naively hoped I could exclude from my life. That is why I volunteered for the Order, took an oath to weed out the darkness in this world, and sought revenge for the lives that were stolen from me.",
+      "oldBg": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived an unconventional life, between accomplishing impossible tasks and keeping unspeakable secrets. It has opened my eyes to the world beyond the prosaic limits to which most are accustomed. In an effort to escape my adventurous life, I have more than once tried to start a family. However, my efforts have always ended in ruin, a price I must pay for the secrets I keep. I have lost six lovers, each killed by enemies and dangers that I naively hoped I could exclude from my life. That is why I volunteered for the Order, took an oath to weed out the darkness in this world, and sought revenge for the lives that were stolen from me."
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "oldName": "Yukie Onn the Traveling Artist",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "currentItems": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "oldItems": {},
+      "bg": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I found true love with Akihiro, son of a powerful noble family. When they forbade him from seeing me, we fled together to the remote region of Ezo. Even there we were not beyond the reach of Akihiro’s family and they pursued us into the high, snow-capped mountains. We had escaped every assassin, but could not outwit the snowstorm that trapped us. I survived, but only because Akihiro sacrificed the warmth of his life to save mine. But the cold has left me changed. It has become part of me and now the only thing that can make me feel warm is the hot blood of others. After taking revenge on all those who took Akihiro from me, I fled far away, using my talent for art to gain prestige and the protection of wealthy western nobles. Now, in the service of the Order, I save others from suffering the injustice that I have experienced, by punishing selfishness and wickedness.",
+      "oldBg": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I found true love with Akihiro, son of a powerful noble family. When they forbade him from seeing me, we fled together to the remote region of Ezo. Even there we were not beyond the reach of Akihiro’s family and they pursued us into the high, snow-capped mountains. We had escaped every assassin, but could not outwit the snowstorm that trapped us. I survived, but only because Akihiro sacrificed the warmth of his life to save mine. But the cold has left me changed. It has become part of me and now the only thing that can make me feel warm is the hot blood of others. After taking revenge on all those who took Akihiro from me, I fled far away, using my talent for art to gain prestige and the protection of wealthy western nobles. Now, in the service of the Order, I save others from suffering the injustice that I have experienced, by punishing selfishness and wickedness."
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "oldName": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "currentItems": {
+        "descriptor": 5,
+        "gift": 3,
+        "darkEgo": 1,
+        "storyElement": 1,
+        "equipment": 2
+      },
+      "oldItems": {},
+      "bg": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mistake by choosing a weird old lady as a mark. She turned out to be a goddamn witch. The witch cursed us… And from that day on, every twelve hours, one becomes a Fox and the other a Cat. Bound by this spell, we found a way to make a lot of money, deceiving stupid nobles and rich merchants. The Order has noticed us and taken us under its wing, with the promise of breaking the curse that afflicts us.",
+      "oldBg": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mistake by choosing a weird old lady as a mark. She turned out to be a goddamn witch. The witch cursed us… And from that day on, every twelve hours, one becomes a Fox and the other a Cat. Bound by this spell, we found a way to make a lot of money, deceiving stupid nobles and rich merchants. The Order has noticed us and taken us under its wing, with the promise of breaking the curse that afflicts us."
+    }
+  ]
+}

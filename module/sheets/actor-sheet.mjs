@@ -29,6 +29,10 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     }
   };
 
+  get title() {
+    return this.#localizeData(this.document.toObject()).name ?? this.document.name;
+  }
+
   async _prepareContext(options) {
     const source = this.document.toObject();
     const localizedActor = this.#localizeData(source);
@@ -146,7 +150,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     return Array.from({ length: rowCount }, (_value, index) => {
       const descriptor = this.#descriptorForGiftIndex(descriptors, index + 1);
       return {
-        index: index + 1,
+        index: index + 2,
         descriptor: descriptor ? this.#localizeItem(descriptor) : null,
         gift: gifts[index] ? this.#localizeItem(gifts[index]) : null
       };
@@ -223,15 +227,15 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       return "";
     };
 
-    const configuredRaw = normalize(game.settings?.get?.("broken-tales", "contentLanguage"));
-    const core = resolve(game.settings?.get?.("core", "language"));
-    if (core) return core;
+    const i18n = resolve(game.i18n?.lang);
+    if (i18n) return i18n;
 
+    const configuredRaw = normalize(game.settings?.get?.("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
     if (configured && configuredRaw !== "system") return configured;
 
-    const i18n = resolve(game.i18n?.lang);
-    if (i18n) return i18n;
+    const core = resolve(game.settings?.get?.("core", "language"));
+    if (core) return core;
 
     const system = resolve(game.brokenTales?.contentLanguage?.());
     if (system) return system;

@@ -1,0 +1,434 @@
+{
+  "systemLocal": [
+    {
+      "pack": "hunters",
+      "folders": 2,
+      "docs": 15
+    },
+    {
+      "pack": "scenario-gifts",
+      "folders": 7,
+      "docs": 19
+    },
+    {
+      "pack": "hunter-gifts",
+      "folders": 15,
+      "docs": 31
+    },
+    {
+      "pack": "hunter-descriptors",
+      "folders": 15,
+      "docs": 61
+    },
+    {
+      "pack": "hunter-equipment",
+      "folders": 15,
+      "docs": 80
+    },
+    {
+      "pack": "hunter-dark-egos",
+      "folders": 15,
+      "docs": 15
+    },
+    {
+      "pack": "dark-presence-descriptors",
+      "folders": 23,
+      "docs": 46
+    },
+    {
+      "pack": "threat-descriptors",
+      "folders": 47,
+      "docs": 118
+    },
+    {
+      "pack": "villager-descriptors",
+      "folders": 38,
+      "docs": 71
+    },
+    {
+      "pack": "essence-descriptors",
+      "folders": 1,
+      "docs": 3
+    },
+    {
+      "pack": "dark-presences",
+      "folders": 1,
+      "docs": 23
+    },
+    {
+      "pack": "scenario-actors",
+      "folders": 3,
+      "docs": 85
+    }
+  ],
+  "systemRepo": [
+    {
+      "pack": "hunters",
+      "folders": 2,
+      "docs": 15
+    },
+    {
+      "pack": "scenario-gifts",
+      "folders": 7,
+      "docs": 19
+    },
+    {
+      "pack": "hunter-gifts",
+      "folders": 15,
+      "docs": 31
+    },
+    {
+      "pack": "hunter-descriptors",
+      "folders": 15,
+      "docs": 61
+    },
+    {
+      "pack": "hunter-equipment",
+      "folders": 15,
+      "docs": 80
+    },
+    {
+      "pack": "hunter-dark-egos",
+      "folders": 15,
+      "docs": 15
+    },
+    {
+      "pack": "dark-presence-descriptors",
+      "folders": 23,
+      "docs": 46
+    },
+    {
+      "pack": "threat-descriptors",
+      "folders": 47,
+      "docs": 118
+    },
+    {
+      "pack": "villager-descriptors",
+      "folders": 38,
+      "docs": 71
+    },
+    {
+      "pack": "essence-descriptors",
+      "folders": 1,
+      "docs": 3
+    },
+    {
+      "pack": "dark-presences",
+      "folders": 1,
+      "docs": 23
+    },
+    {
+      "pack": "scenario-actors",
+      "folders": 3,
+      "docs": 85
+    }
+  ],
+  "brokenOnesLocal": [
+    {
+      "pack": "broken-ones-hunters",
+      "folders": 1,
+      "docs": 13
+    },
+    {
+      "pack": "broken-ones-actors",
+      "folders": 7,
+      "docs": 54
+    },
+    {
+      "pack": "broken-ones-descriptors",
+      "folders": 13,
+      "docs": 41
+    },
+    {
+      "pack": "broken-ones-threat-descriptors",
+      "folders": 54,
+      "docs": 54
+    },
+    {
+      "pack": "broken-ones-gifts",
+      "folders": 13,
+      "docs": 26
+    },
+    {
+      "pack": "broken-ones-dark-egos",
+      "folders": 13,
+      "docs": 13
+    },
+    {
+      "pack": "broken-ones-equipment",
+      "folders": 13,
+      "docs": 85
+    },
+    {
+      "pack": "broken-ones-library",
+      "folders": 0,
+      "docs": 3
+    },
+    {
+      "pack": "broken-ones-adventures",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "broken-ones-maps",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "broken-ones-scenes",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "red-hood-iskra-support",
+      "folders": 0,
+      "docs": 13
+    },
+    {
+      "pack": "red-hood-iskra-maps",
+      "folders": 0,
+      "docs": 4
+    },
+    {
+      "pack": "red-hood-iskra-audio",
+      "folders": 0,
+      "docs": 2
+    },
+    {
+      "pack": "broken-ones-source-pdfs",
+      "folders": 0,
+      "docs": 3
+    }
+  ],
+  "brokenOnesRepo": [
+    {
+      "pack": "broken-ones-hunters",
+      "folders": 1,
+      "docs": 13
+    },
+    {
+      "pack": "broken-ones-actors",
+      "folders": 7,
+      "docs": 54
+    },
+    {
+      "pack": "broken-ones-descriptors",
+      "folders": 13,
+      "docs": 41
+    },
+    {
+      "pack": "broken-ones-threat-descriptors",
+      "folders": 54,
+      "docs": 54
+    },
+    {
+      "pack": "broken-ones-gifts",
+      "folders": 13,
+      "docs": 26
+    },
+    {
+      "pack": "broken-ones-dark-egos",
+      "folders": 13,
+      "docs": 13
+    },
+    {
+      "pack": "broken-ones-equipment",
+      "folders": 13,
+      "docs": 85
+    },
+    {
+      "pack": "broken-ones-library",
+      "folders": 0,
+      "docs": 3
+    },
+    {
+      "pack": "broken-ones-adventures",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "broken-ones-maps",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "broken-ones-scenes",
+      "folders": 0,
+      "docs": 7
+    },
+    {
+      "pack": "red-hood-iskra-support",
+      "folders": 0,
+      "docs": 13
+    },
+    {
+      "pack": "red-hood-iskra-maps",
+      "folders": 0,
+      "docs": 4
+    },
+    {
+      "pack": "red-hood-iskra-audio",
+      "folders": 0,
+      "docs": 2
+    },
+    {
+      "pack": "broken-ones-source-pdfs",
+      "folders": 0,
+      "docs": 3
+    }
+  ],
+  "lostStoriesLocal": [
+    {
+      "pack": "lost-stories-hunters",
+      "folders": 2,
+      "docs": 19
+    },
+    {
+      "pack": "lost-stories-actors",
+      "folders": 9,
+      "docs": 122
+    },
+    {
+      "pack": "lost-stories-dark-presences",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-dark-presence-descriptors",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-threat-descriptors",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-descriptors",
+      "folders": 19,
+      "docs": 66
+    },
+    {
+      "pack": "lost-stories-gifts",
+      "folders": 19,
+      "docs": 38
+    },
+    {
+      "pack": "lost-stories-dark-egos",
+      "folders": 19,
+      "docs": 19
+    },
+    {
+      "pack": "lost-stories-equipment",
+      "folders": 15,
+      "docs": 103
+    },
+    {
+      "pack": "lost-stories-library",
+      "folders": 0,
+      "docs": 5
+    },
+    {
+      "pack": "lost-stories-adventures",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-maps",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-scenes",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-source-pdfs",
+      "folders": 0,
+      "docs": 5
+    },
+    {
+      "pack": "lost-stories-scenario-gifts",
+      "folders": 4,
+      "docs": 10
+    }
+  ],
+  "lostStoriesRepo": [
+    {
+      "pack": "lost-stories-hunters",
+      "folders": 2,
+      "docs": 19
+    },
+    {
+      "pack": "lost-stories-actors",
+      "folders": 9,
+      "docs": 122
+    },
+    {
+      "pack": "lost-stories-dark-presences",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-dark-presence-descriptors",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-threat-descriptors",
+      "folders": 1,
+      "docs": 10
+    },
+    {
+      "pack": "lost-stories-descriptors",
+      "folders": 19,
+      "docs": 66
+    },
+    {
+      "pack": "lost-stories-gifts",
+      "folders": 19,
+      "docs": 38
+    },
+    {
+      "pack": "lost-stories-dark-egos",
+      "folders": 19,
+      "docs": 19
+    },
+    {
+      "pack": "lost-stories-equipment",
+      "folders": 15,
+      "docs": 103
+    },
+    {
+      "pack": "lost-stories-library",
+      "folders": 0,
+      "docs": 5
+    },
+    {
+      "pack": "lost-stories-adventures",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-maps",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-scenes",
+      "folders": 0,
+      "docs": 9
+    },
+    {
+      "pack": "lost-stories-source-pdfs",
+      "folders": 0,
+      "docs": 5
+    },
+    {
+      "pack": "lost-stories-scenario-gifts",
+      "folders": 4,
+      "docs": 10
+    }
+  ]
+}

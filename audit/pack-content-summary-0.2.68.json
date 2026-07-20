@@ -1,0 +1,2250 @@
+{
+  "localSystem": {
+    "id": "broken-tales",
+    "version": "0.2.68",
+    "packCount": 29,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "hunters",
+        "label": "BROKENTALES.Packs.CoreHunters",
+        "type": "Actor",
+        "path": "packs/hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 15
+        },
+        "actorsByActorType": {
+          "hunter": 15
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "support",
+        "label": "BROKENTALES.Packs.Support",
+        "type": "Item",
+        "path": "packs/support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 6,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts",
+        "label": "BROKENTALES.Packs.ScenarioGifts",
+        "type": "Item",
+        "path": "packs/scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 19
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 19
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-gifts",
+        "label": "BROKENTALES.Packs.HunterGifts",
+        "type": "Item",
+        "path": "packs/hunter-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 31,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 31
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 31
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-descriptors",
+        "label": "BROKENTALES.Packs.HunterDescriptors",
+        "type": "Item",
+        "path": "packs/hunter-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 61,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 61
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 61
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-equipment",
+        "label": "BROKENTALES.Packs.HunterEquipment",
+        "type": "Item",
+        "path": "packs/hunter-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 80,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 80
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 80
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-dark-egos",
+        "label": "BROKENTALES.Packs.HunterDarkEgos",
+        "type": "Item",
+        "path": "packs/hunter-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 15
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 15
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 46,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 46
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 46
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "threat-descriptors",
+        "label": "BROKENTALES.Packs.ThreatDescriptors",
+        "type": "Item",
+        "path": "packs/threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 118,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 118
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 118
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "villager-descriptors",
+        "label": "BROKENTALES.Packs.VillagerDescriptors",
+        "type": "Item",
+        "path": "packs/villager-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 71,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 71
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 71
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "essence-descriptors",
+        "label": "BROKENTALES.Packs.EssenceDescriptors",
+        "type": "Item",
+        "path": "packs/essence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "dark-presences",
+        "label": "BROKENTALES.Packs.DarkPresences",
+        "type": "Actor",
+        "path": "packs/dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 23,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 23
+        },
+        "actorsByActorType": {
+          "threat": 23
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors",
+        "type": "Actor",
+        "path": "packs/scenario-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "actorsByActorType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "library",
+        "label": "BROKENTALES.Packs.Library",
+        "type": "JournalEntry",
+        "path": "packs/library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 12,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventures",
+        "label": "BROKENTALES.Packs.Adventures",
+        "type": "JournalEntry",
+        "path": "packs/adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventure-maps",
+        "label": "BROKENTALES.Packs.AdventureMaps",
+        "type": "JournalEntry",
+        "path": "packs/adventure-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventure-scenes",
+        "label": "BROKENTALES.Packs.AdventureScenes",
+        "type": "Scene",
+        "path": "packs/adventure-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "audit",
+        "label": "BROKENTALES.Packs.Audit",
+        "type": "JournalEntry",
+        "path": "packs/audit.db",
+        "ok": true,
+        "isFile": true,
+        "count": 1,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "source-pdfs",
+        "label": "BROKENTALES.Packs.SourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 47,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-red-hood-iskra",
+        "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+        "type": "Item",
+        "path": "packs/scenario-gifts-red-hood-iskra.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-of-flesh-and-wood",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+        "type": "Item",
+        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-the-smile-in-the-darkness",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 2
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-a-soldiers-duty",
+        "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+        "type": "Item",
+        "path": "packs/scenario-gifts-a-soldiers-duty.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-wonderbedlam",
+        "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+        "type": "Item",
+        "path": "packs/scenario-gifts-wonderbedlam.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-tuvstarrs-reflection",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+        "type": "Item",
+        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 2
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-the-city-of-pigs",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-city-of-pigs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-one-thousand-and-one-nightmares",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+        "type": "Item",
+        "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-ozena-the-suffering-and-desperate",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+        "type": "Item",
+        "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 9
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-saint-george-the-dragon-slayer",
+        "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+        "type": "Item",
+        "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      }
+    ]
+  },
+  "repoSystem": {
+    "id": "broken-tales",
+    "version": "0.2.68",
+    "packCount": 29,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "hunters",
+        "label": "BROKENTALES.Packs.CoreHunters",
+        "type": "Actor",
+        "path": "packs/hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 15
+        },
+        "actorsByActorType": {
+          "hunter": 15
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "support",
+        "label": "BROKENTALES.Packs.Support",
+        "type": "Item",
+        "path": "packs/support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 6,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts",
+        "label": "BROKENTALES.Packs.ScenarioGifts",
+        "type": "Item",
+        "path": "packs/scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 19
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 19
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-gifts",
+        "label": "BROKENTALES.Packs.HunterGifts",
+        "type": "Item",
+        "path": "packs/hunter-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 31,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 31
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 31
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-descriptors",
+        "label": "BROKENTALES.Packs.HunterDescriptors",
+        "type": "Item",
+        "path": "packs/hunter-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 61,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 61
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 61
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-equipment",
+        "label": "BROKENTALES.Packs.HunterEquipment",
+        "type": "Item",
+        "path": "packs/hunter-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 80,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 80
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 80
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "hunter-dark-egos",
+        "label": "BROKENTALES.Packs.HunterDarkEgos",
+        "type": "Item",
+        "path": "packs/hunter-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 15,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 15
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 15
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.DarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 46,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 46
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 46
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "threat-descriptors",
+        "label": "BROKENTALES.Packs.ThreatDescriptors",
+        "type": "Item",
+        "path": "packs/threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 118,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 118
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 118
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "villager-descriptors",
+        "label": "BROKENTALES.Packs.VillagerDescriptors",
+        "type": "Item",
+        "path": "packs/villager-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 71,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 71
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 71
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "essence-descriptors",
+        "label": "BROKENTALES.Packs.EssenceDescriptors",
+        "type": "Item",
+        "path": "packs/essence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "dark-presences",
+        "label": "BROKENTALES.Packs.DarkPresences",
+        "type": "Actor",
+        "path": "packs/dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 23,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 23
+        },
+        "actorsByActorType": {
+          "threat": 23
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors",
+        "type": "Actor",
+        "path": "packs/scenario-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "actorsByActorType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "library",
+        "label": "BROKENTALES.Packs.Library",
+        "type": "JournalEntry",
+        "path": "packs/library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 12,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventures",
+        "label": "BROKENTALES.Packs.Adventures",
+        "type": "JournalEntry",
+        "path": "packs/adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 11,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventure-maps",
+        "label": "BROKENTALES.Packs.AdventureMaps",
+        "type": "JournalEntry",
+        "path": "packs/adventure-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "adventure-scenes",
+        "label": "BROKENTALES.Packs.AdventureScenes",
+        "type": "Scene",
+        "path": "packs/adventure-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 14,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "audit",
+        "label": "BROKENTALES.Packs.Audit",
+        "type": "JournalEntry",
+        "path": "packs/audit.db",
+        "ok": true,
+        "isFile": true,
+        "count": 1,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "source-pdfs",
+        "label": "BROKENTALES.Packs.SourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 47,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-red-hood-iskra",
+        "label": "BROKENTALES.Packs.ScenarioGifts.RedHoodIskra",
+        "type": "Item",
+        "path": "packs/scenario-gifts-red-hood-iskra.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-of-flesh-and-wood",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OfFleshAndWood",
+        "type": "Item",
+        "path": "packs/scenario-gifts-of-flesh-and-wood.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-the-smile-in-the-darkness",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheSmileInTheDarkness",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 2
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-a-soldiers-duty",
+        "label": "BROKENTALES.Packs.ScenarioGifts.ASoldiersDuty",
+        "type": "Item",
+        "path": "packs/scenario-gifts-a-soldiers-duty.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-wonderbedlam",
+        "label": "BROKENTALES.Packs.ScenarioGifts.Wonderbedlam",
+        "type": "Item",
+        "path": "packs/scenario-gifts-wonderbedlam.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-tuvstarrs-reflection",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TuvstarrsReflection",
+        "type": "Item",
+        "path": "packs/scenario-gifts-tuvstarrs-reflection.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 2
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-the-city-of-pigs",
+        "label": "BROKENTALES.Packs.ScenarioGifts.TheCityOfPigs",
+        "type": "Item",
+        "path": "packs/scenario-gifts-the-city-of-pigs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-one-thousand-and-one-nightmares",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OneThousandAndOneNightmares",
+        "type": "Item",
+        "path": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-ozena-the-suffering-and-desperate",
+        "label": "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate",
+        "type": "Item",
+        "path": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 9
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "scenario-gifts-saint-george-the-dragon-slayer",
+        "label": "BROKENTALES.Packs.ScenarioGifts.SaintGeorgeTheDragonSlayer",
+        "type": "Item",
+        "path": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3
+        },
+        "duplicateNames": []
+      }
+    ]
+  },
+  "localBrokenOnes": {
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.23",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "broken-ones-hunters",
+        "label": "BROKENTALES.Packs.BrokenOnesHunters",
+        "type": "Actor",
+        "path": "packs/broken-ones-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 13
+        },
+        "actorsByActorType": {
+          "hunter": 13
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors",
+        "type": "Actor",
+        "path": "packs/broken-ones-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 54
+        },
+        "actorsByActorType": {
+          "threat": 54
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 41,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 41
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 41
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-threat-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 54
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 54
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-gifts",
+        "label": "BROKENTALES.Packs.BrokenOnesGifts",
+        "type": "Item",
+        "path": "packs/broken-ones-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 26
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 26
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-dark-egos",
+        "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+        "type": "Item",
+        "path": "packs/broken-ones-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 13
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 13
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-equipment",
+        "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+        "type": "Item",
+        "path": "packs/broken-ones-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 85
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 85
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-library",
+        "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-adventures",
+        "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-maps",
+        "label": "BROKENTALES.Packs.BrokenOnesMaps",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-scenes",
+        "label": "BROKENTALES.Packs.BrokenOnesScenes",
+        "type": "Scene",
+        "path": "packs/broken-ones-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-support",
+        "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+        "type": "Item",
+        "path": "packs/red-hood-iskra-support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3,
+          "storyElement": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3,
+          "storyElement": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-maps",
+        "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+        "type": "JournalEntry",
+        "path": "packs/red-hood-iskra-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 4
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-audio",
+        "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+        "type": "Playlist",
+        "path": "packs/red-hood-iskra-audio.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-source-pdfs",
+        "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      }
+    ]
+  },
+  "localLostStories": {
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.26",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "lost-stories-hunters",
+        "label": "BROKENTALES.Packs.LostStoriesHunters",
+        "type": "Actor",
+        "path": "packs/lost-stories-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 19
+        },
+        "actorsByActorType": {
+          "hunter": 19
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors",
+        "type": "Actor",
+        "path": "packs/lost-stories-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 122,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 122
+        },
+        "actorsByActorType": {
+          "threat": 122
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+        "type": "Actor",
+        "path": "packs/lost-stories-dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 10
+        },
+        "actorsByActorType": {
+          "threat": 10
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-threat-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 66,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 66
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 66
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 38,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 38
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 38
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-egos",
+        "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 19
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 19
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-equipment",
+        "label": "BROKENTALES.Packs.LostStoriesEquipment",
+        "type": "Item",
+        "path": "packs/lost-stories-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 103,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 103
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 103
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-library",
+        "label": "BROKENTALES.Packs.LostStoriesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-adventures",
+        "label": "BROKENTALES.Packs.LostStoriesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-maps",
+        "label": "BROKENTALES.Packs.LostStoriesMaps",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-scenes",
+        "label": "BROKENTALES.Packs.LostStoriesScenes",
+        "type": "Scene",
+        "path": "packs/lost-stories-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-source-pdfs",
+        "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-scenario-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 10
+        },
+        "duplicateNames": []
+      }
+    ]
+  },
+  "repoBrokenOnes": {
+    "id": "broken-tales-broken-ones",
+    "version": "0.2.23",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "broken-ones-hunters",
+        "label": "BROKENTALES.Packs.BrokenOnesHunters",
+        "type": "Actor",
+        "path": "packs/broken-ones-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 13
+        },
+        "actorsByActorType": {
+          "hunter": 13
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors",
+        "type": "Actor",
+        "path": "packs/broken-ones-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 54
+        },
+        "actorsByActorType": {
+          "threat": 54
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 41,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 41
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 41
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-threat-descriptors",
+        "label": "BROKENTALES.Packs.BrokenOnesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/broken-ones-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 54,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 54
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 54
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-gifts",
+        "label": "BROKENTALES.Packs.BrokenOnesGifts",
+        "type": "Item",
+        "path": "packs/broken-ones-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 26,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 26
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 26
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-dark-egos",
+        "label": "BROKENTALES.Packs.BrokenOnesDarkEgos",
+        "type": "Item",
+        "path": "packs/broken-ones-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 13
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 13
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-equipment",
+        "label": "BROKENTALES.Packs.BrokenOnesEquipment",
+        "type": "Item",
+        "path": "packs/broken-ones-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 85,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 85
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 85
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-library",
+        "label": "BROKENTALES.Packs.BrokenOnesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-adventures",
+        "label": "BROKENTALES.Packs.BrokenOnesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-maps",
+        "label": "BROKENTALES.Packs.BrokenOnesMaps",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-scenes",
+        "label": "BROKENTALES.Packs.BrokenOnesScenes",
+        "type": "Scene",
+        "path": "packs/broken-ones-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 7,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-support",
+        "label": "BROKENTALES.Packs.RedHoodIskraSupport",
+        "type": "Item",
+        "path": "packs/red-hood-iskra-support.db",
+        "ok": true,
+        "isFile": true,
+        "count": 13,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 3,
+          "storyElement": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 3,
+          "storyElement": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-maps",
+        "label": "BROKENTALES.Packs.RedHoodIskraMaps",
+        "type": "JournalEntry",
+        "path": "packs/red-hood-iskra-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 4,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 4
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "red-hood-iskra-audio",
+        "label": "BROKENTALES.Packs.RedHoodIskraAudio",
+        "type": "Playlist",
+        "path": "packs/red-hood-iskra-audio.db",
+        "ok": true,
+        "isFile": true,
+        "count": 2,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 2
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "broken-ones-source-pdfs",
+        "label": "BROKENTALES.Packs.BrokenOnesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/broken-ones-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 3,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      }
+    ]
+  },
+  "repoLostStories": {
+    "id": "broken-tales-lost-stories",
+    "version": "0.2.26",
+    "packCount": 15,
+    "duplicateLabels": [],
+    "empty": [],
+    "missing": [],
+    "parseErrors": [],
+    "packs": [
+      {
+        "id": "lost-stories-hunters",
+        "label": "BROKENTALES.Packs.LostStoriesHunters",
+        "type": "Actor",
+        "path": "packs/lost-stories-hunters.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "hunter": 19
+        },
+        "actorsByActorType": {
+          "hunter": 19
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors",
+        "type": "Actor",
+        "path": "packs/lost-stories-actors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 122,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 122
+        },
+        "actorsByActorType": {
+          "threat": 122
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences",
+        "type": "Actor",
+        "path": "packs/lost-stories-dark-presences.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "threat": 10
+        },
+        "actorsByActorType": {
+          "threat": 10
+        },
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-presence-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresenceDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-presence-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-threat-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesThreatDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-threat-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 10
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-descriptors",
+        "label": "BROKENTALES.Packs.LostStoriesDescriptors",
+        "type": "Item",
+        "path": "packs/lost-stories-descriptors.db",
+        "ok": true,
+        "isFile": true,
+        "count": 66,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "descriptor": 66
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "descriptor": 66
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 38,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 38
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 38
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-dark-egos",
+        "label": "BROKENTALES.Packs.LostStoriesDarkEgos",
+        "type": "Item",
+        "path": "packs/lost-stories-dark-egos.db",
+        "ok": true,
+        "isFile": true,
+        "count": 19,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "darkEgo": 19
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "darkEgo": 19
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-equipment",
+        "label": "BROKENTALES.Packs.LostStoriesEquipment",
+        "type": "Item",
+        "path": "packs/lost-stories-equipment.db",
+        "ok": true,
+        "isFile": true,
+        "count": 103,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "equipment": 103
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "equipment": 103
+        },
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-library",
+        "label": "BROKENTALES.Packs.LostStoriesLibrary",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-library.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-adventures",
+        "label": "BROKENTALES.Packs.LostStoriesAdventures",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-adventures.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-maps",
+        "label": "BROKENTALES.Packs.LostStoriesMaps",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-maps.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-scenes",
+        "label": "BROKENTALES.Packs.LostStoriesScenes",
+        "type": "Scene",
+        "path": "packs/lost-stories-scenes.db",
+        "ok": true,
+        "isFile": true,
+        "count": 9,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-source-pdfs",
+        "label": "BROKENTALES.Packs.LostStoriesSourcePdfs",
+        "type": "JournalEntry",
+        "path": "packs/lost-stories-source-pdfs.db",
+        "ok": true,
+        "isFile": true,
+        "count": 5,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {},
+        "duplicateNames": []
+      },
+      {
+        "id": "lost-stories-scenario-gifts",
+        "label": "BROKENTALES.Packs.LostStoriesScenarioGifts",
+        "type": "Item",
+        "path": "packs/lost-stories-scenario-gifts.db",
+        "ok": true,
+        "isFile": true,
+        "count": 10,
+        "parseErrors": 0,
+        "folders": 0,
+        "byType": {
+          "gift": 10
+        },
+        "actorsByActorType": {},
+        "itemsByItemType": {
+          "gift": 10
+        },
+        "duplicateNames": []
+      }
+    ]
+  }
+}
