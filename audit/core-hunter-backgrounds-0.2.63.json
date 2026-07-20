@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-07-20T07:08:41.504Z",
+  "version": "0.2.63",
+  "purpose": "Verify core hunter pack is legacy-based, contains only 15 core hunters, and all actors have system.background populated from descriptor-principal.cazador.",
+  "sourcePack": "packs/hunters-canon.db",
+  "activePack": "packs/hunters",
+  "uid": "broken-tales.hunters",
+  "hunterCount": 15,
+  "backgroundsEmpty": 0,
+  "spanishBackgroundsEmpty": 0,
+  "hunters": [
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "backgroundLength": 996,
+      "spanishBackgroundLength": 1250
+    },
+    {
+      "name": "Babai the Judge",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "backgroundLength": 475,
+      "spanishBackgroundLength": 822
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "backgroundLength": 565,
+      "spanishBackgroundLength": 754
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "backgroundLength": 708,
+      "spanishBackgroundLength": 131
+    },
+    {
+      "name": "James the Swordsman",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "backgroundLength": 512,
+      "spanishBackgroundLength": 510
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "backgroundLength": 399,
+      "spanishBackgroundLength": 592
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "backgroundLength": 496,
+      "spanishBackgroundLength": 536
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "backgroundLength": 592,
+      "spanishBackgroundLength": 35
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "backgroundLength": 750,
+      "spanishBackgroundLength": 1124
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "backgroundLength": 539,
+      "spanishBackgroundLength": 734
+    },
+    {
+      "name": "The Woman from the Woods",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "backgroundLength": 649,
+      "spanishBackgroundLength": 660
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "backgroundLength": 520,
+      "spanishBackgroundLength": 522
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "backgroundLength": 800,
+      "spanishBackgroundLength": 849
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "backgroundLength": 741,
+      "spanishBackgroundLength": 103
+    },
+    {
+      "name": "The Immortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "backgroundLength": 914,
+      "spanishBackgroundLength": 949
+    }
+  ]
+}
