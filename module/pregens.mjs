@@ -3,6 +3,7 @@ const PREGENS_PATH = "systems/broken-tales/pregens/enriched-pregens.json";
 const PREGENS_PACK = "broken-tales.hunters";
 const DESCRIPTOR_ICON = "systems/broken-tales/assets/icons/descriptor-improvement.webp";
 const GIFT_ICON = "systems/broken-tales/assets/icons/icon-gift.webp";
+const CORE_PREGEN_COLLECTIONS = new Set(["Core Book", "Core Book: Fox and Cat"]);
 
 function html(value) {
   return String(value ?? "")
@@ -239,14 +240,20 @@ function actorDataFromPregen(pregen) {
   };
 }
 
-async function loadPregenActors(collection) {
+function matchesPregenCollection(pregenCollection, collection) {
+  if (collection === "all") return true;
+  if (collection === "core") return CORE_PREGEN_COLLECTIONS.has(pregenCollection);
+  return pregenCollection === collection;
+}
+
+async function loadPregenActors(collection = "core") {
   const pack = game.packs.get(PREGENS_PACK);
   if (pack) {
     const documents = await pack.getDocuments();
     return documents
       .filter((document) => {
         const pregenCollection = document.getFlag("broken-tales", "pregenCollection") ?? document.system?.details?.concept;
-        return collection === "all" || pregenCollection === collection;
+        return matchesPregenCollection(pregenCollection, collection);
       })
       .map(packActorData);
   }
@@ -255,11 +262,11 @@ async function loadPregenActors(collection) {
   if (!response.ok) throw new Error(`Could not load ${PREGENS_PATH}`);
   const data = await response.json();
   return (data.actors ?? [])
-    .filter((pregen) => collection === "all" || pregen.collection === collection)
+    .filter((pregen) => matchesPregenCollection(pregen.collection, collection))
     .map(actorDataFromPregen);
 }
 
-async function loadPregenRecords(collection = "all") {
+async function loadPregenRecords(collection = "core") {
   return loadPregenActors(collection);
 }
 
@@ -299,7 +306,7 @@ function hasUsefulPregenContent(actor) {
   });
 }
 
-export async function importPregens({ collection = "all", overwrite = false } = {}) {
+export async function importPregens({ collection = "core", overwrite = false } = {}) {
   if (!game.user.isGM) {
     ui.notifications.warn(game.i18n.localize("BROKENTALES.Notifications.GMOnly"));
     return [];
@@ -338,11 +345,11 @@ export async function importPregens({ collection = "all", overwrite = false } = 
   return created;
 }
 
-export async function repairPregens({ collection = "all" } = {}) {
+export async function repairPregens({ collection = "core" } = {}) {
   return importPregens({ collection, overwrite: true });
 }
 
-export async function refreshPregenAssets({ collection = "all", notify = true } = {}) {
+export async function refreshPregenAssets({ collection = "core", notify = true } = {}) {
   if (!game.user.isGM) return { actors: 0, items: 0 };
 
   const records = await loadPregenRecords(collection);
