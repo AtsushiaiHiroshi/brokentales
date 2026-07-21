@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Baba Yaga the Child Witch",
+    "found": true,
+    "old": {
+      "name": "Baba Yaga the Child Witch",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware of my abilities. To most, I seem cynical and cruel. That is because they do not understand that they are pawns, insignificant pieces in the bloody games that witches and warlocks play. The Order does not look down on my age, which is why it has given me the leadership I deserve.",
+      "descriptorFields": {
+        "background": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware of my abilities. To most, I seem cynical and cruel. That is because they do not understand that they are pawns, insignificant pieces in the bloody games that witches and warlocks p",
+        "equipment": "An old and worn-out black cloak, a bag of magical ingredients, a small curved dagger, a rag doll, the Ring of the Order, a lucky elderberry branch, and the keys of a strange hut in a tree which is always in my vicinity.",
+        "descriptors": "[\"I am a sorceress and my magical powers allow me to do whatever I want. I need the right amount of time to cast my spells.\",\"I am very skilled at reading people, that is why the Order has chosen me as leader of the Hunters. I love manipulating people and I often do it merely to amuse myself.\",\"Like",
+        "gifts": "[\"Magic: When you want to achieve something, you may use witchcraft. Choose what you want with a sentence like: I want to fly on that old broom, or I want to look like a demon in the eyes of those fools. Your spell must be focused on an object in your possession, such as a broom to fly or a mask you",
+        "darkEgo": "{\"trigger\":\"Scare ordinary people or dispense punishment through your magic.\",\"gift\":\"The Evil Witch: Receive 1 Additional Success on any Check when you use one of your spells, either through the Magic Gift or by inserting it into your narrative through the Descriptors. Moreover, you can unleash you"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Baba Yaga the Child Witch",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "esName": "Baba Yaga la Niña Bruja",
+      "concept": "Core Book",
+      "origin": "Baba yaga The Child Witch",
+      "notesLen": 399,
+      "descriptors": [
+        {
+          "name": "Baba Yaga the Child Witch - descriptor-principal.cazador",
+          "text": "I am a child witch, and my power is equal only to my ambition. I did not have a childhood, for I was born already aware ",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a sorceress and my magical powers allow me to do whatever I want. I need the right amount of time to cast my spells",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I am very skilled at reading people, that is why the Order has chosen me as leader of the Hunters. I love manipulating p",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "Like any respectable sorceress, I carry my trusty bag full of herbs, poisons, and all kinds of magic tools. My childlike",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Magic",
+          "text": "When you want to achieve something, you may use witchcraft. Choose what you want with a sentence like: I want to fly on "
+        },
+        {
+          "name": "Listen to my Words",
+          "text": "Once per Scene, when you talk to someone, you can ask the Storyteller a question about them. The question must be regard"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Evil Witch",
+          "trigger": "Scare ordinary people or dispense punishment through your magic.",
+          "text": "Receive 1 Additional Success on any Check when you use one of your spells, either through the Magic Gift or by inserting"
+        }
+      ],
+      "equipment": [
+        "An old and worn-out black cloak",
+        "a bag of magical ingredients",
+        "a small curved dagger",
+        "a rag doll",
+        "the Ring of the Order",
+        "a lucky elderberry branch",
+        "the keys of a strange hut in a tree which is always in my vicinity"
+      ]
+    }
+  },
+  {
+    "name": "Babai the Judge",
+    "found": true,
+    "old": {
+      "name": "Babai the Judge",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "equipment",
+        "conditions",
+        "notes"
+      ],
+      "background": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare mutation and fear is now unknown to me. People have always called me Bogeyman, fearing the justice that I represented. Perhaps my own absence of fear made me even more terrifying in the eyes of mortals. The Order has given me a new assignment because even in the fight against darkness, someone needs to be ready to judge what is right and what is wrong.",
+      "descriptorFields": {
+        "background": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare mutation and fear is now unknown to me. People have always called me Bogeyman, fearing the justice that I represented. Perhaps my own absence of fear made me even more terrifying ",
+        "descriptors": "[\"I am good at understanding, evaluating, and grasping every hidden detail, which is why the Order wanted me as a judge. I am cold, methodical, and cannot stand when plans change abruptly.\",\"My body is made of pure shadow and I can become intangible for brief moments. I hate sunlight and cannot prop",
+        "gifts": "[\"Eye of the Judge: Once per Scene, when you meet a group of NPCs you will immediately understand who is the most and the least capable of them. Moreover, the Storyteller will also reveal to you if there are relationships such as love, hate, or fidelity between two NPCs of your choice. Receive 1 Add",
+        "darkEgo": "{\"trigger\":\"Enter or leave a shadow by manifesting your true nature and scaring someone.\",\"gift\":\"If you don’t Stop, I’ll Call the Bogeyman!: You are like a sinuous shadow that can reach anywhere. During a Scene, you can arrive at a location by covering any distance and overcoming any obstacle if on",
+        "equipment": "A precious elegant black dress, a cape and a top hat, a sturdy cane with a hidden blade, a monocle lens, an exquisitely crafted Larva (typical mask of the Venice Carnival), an accurate pocket watch."
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Babai the Judge",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "esName": "Babai el Juez",
+      "concept": "Core Book",
+      "origin": "Babai the Judge",
+      "notesLen": 475,
+      "descriptors": [
+        {
+          "name": "Babai the Judge - descriptor-principal.cazador",
+          "text": "After years of honorable service as State Inquisitor of the Republic of Venice, my body and spirit have undergone a rare",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am good at understanding, evaluating, and grasping every hidden detail, which is why the Order wanted me as a judge. I",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "My body is made of pure shadow and I can become intangible for brief moments. I hate sunlight and cannot properly focus ",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "My presence intimidates people, touching the fear that dwells deep in their hearts. The presence of children and their i",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Eye of the Judge",
+          "text": "Once per Scene, when you meet a group of NPCs you will immediately understand who is the most and the least capable of t"
+        },
+        {
+          "name": "Like a Shadow",
+          "text": "You can spend 1 Soma to manipulate the shadows to your advantage, choose from: 1. Acquire a small object, even if it is "
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!",
+          "trigger": "Enter or leave a shadow by manifesting your true nature and scaring someone.",
+          "text": "You are like a sinuous shadow that can reach anywhere. During a Scene, you can arrive at a location by covering any dist"
+        }
+      ],
+      "equipment": [
+        "A precious elegant black dress",
+        "a cape and a top hat",
+        "a sturdy cane with a hidden blade",
+        "a monocle lens",
+        "an exquisitely crafted Larva (typical mask of the Venice Carnival)",
+        "an accurate pocket watch"
+      ]
+    }
+  },
+  {
+    "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+    "found": true,
+    "old": {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes",
+        "systemNote"
+      ],
+      "background": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mistake by choosing a weird old lady as a mark. She turned out to be a goddamn witch. The witch cursed us… And from that day on, every twelve hours, one becomes a Fox and the other a Cat. Bound by this spell, we found a way to make a lot of money, deceiving stupid nobles and rich merchants. The Order has noticed us and taken us under its wing, with the promise of breaking the curse that afflicts us.",
+      "descriptorFields": {
+        "background": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mistake by choosing a weird old lady as a mark. She turned out to be a goddamn witch. The witch cursed us… And from that day on, every twelve hours, one becomes a Fox and the other a",
+        "equipment": "Night (Cunning): Comfortable and light clothes, hidden small knives, counterfeit cards and stamps, fake coins and jewelry, a volume of the Biblioteca Universale Sacro-Profana Encyclopedia.\n\nDay (Sly): Worn-out clothes, sharp long knife, old stick to pretend to be blind, torn purse with a hole, sack ",
+        "descriptors": "[\"Cunning's Descriptor: I have a natural talent for telling lies, which the Order often uses to its advantage. Despite my origins, I know a great deal about many things because lying requires planning and preparation.\",\"Sly's Descriptor: A life on the road has taught me to be a skilled thief. Everyo",
+        "gifts": "[\"Believe in Miracles (Cunning): Once per Scene, you can tell everyone something that will be accepted without question until the lie is uncovered. The deception becomes obvious at the end of the Scene or once exposed. Gain +1 Success on any Check where you exploit the lie.\",\"Rogue (Sly): By pretend",
+        "darkEgo": "{\"trigger\":\"Trick or deceive someone, taking advantage of your partner's support.\",\"gift\":\"The Fox and the Cat: You and your partner share Soma and Wounds. The human form can spend 1 Soma to use the Gift of the animal form. Once per Scene, if your partner helps you, you gain +2 Additional Successes "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso",
+      "concept": "Core Book: Fox and Cat",
+      "origin": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "notesLen": 520,
+      "descriptors": [
+        {
+          "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat - descriptor-principal.cazador",
+          "text": "We are two boys who survived and thrived on the street through trickery and deceit. Unfortunately, we made a terrible mi",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "Cunning's Descriptor: I have a natural talent for telling lies, which the Order often uses to its advantage. Despite my ",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "Sly's Descriptor: A life on the road has taught me to be a skilled thief. Everyone for themselves is my motto.",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 4",
+          "text": "Common Descriptor: I will stop at nothing to get what I want, and it only takes me a few seconds to evaluate what is hap",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "Like it or not, we are bound by magic. We can share thoughts, each see what the other sees, and thanks to this we can wo",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Believe in Miracles (Cunning)",
+          "text": "Once per Scene, you can tell everyone something that will be accepted without question until the lie is uncovered. The d"
+        },
+        {
+          "name": "Rogue (Sly)",
+          "text": "By pretending to be weak during a Scene, NPCs will overlook you unless you acted against them. By spending 1 Soma, you c"
+        },
+        {
+          "name": "Partner in Crime (Common)",
+          "text": "Once per Scene, when an ally acts with your support, they receive +1 Additional Success. Additionally, if an ally achiev"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Fox and the Cat",
+          "trigger": "Trick or deceive someone, taking advantage of your partner's support.",
+          "text": "You and your partner share Soma and Wounds. The human form can spend 1 Soma to use the Gift of the animal form. Once per"
+        }
+      ],
+      "equipment": [
+        "Cunning Machiavelli the Fox and Sly Bischeri the Cat - equipment1",
+        "Cunning Machiavelli the Fox and Sly Bischeri the Cat - equipment2"
+      ]
+    }
+  },
+  {
+    "name": "Garou the Old Wolf",
+    "found": true,
+    "old": {
+      "name": "Garou the Old Wolf",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived proudly at the head of my pack, leading a thousand raids and eating succulent, tender morsels of human flesh. But I am not so old I cannot face those who hate me the most, though I may be hunted and reviled. Now that I’m part of the Order, I use my strength to defend the weak hunters who are my companions, knowing that with a single bite I could end their insignificant lives.",
+      "descriptorFields": {
+        "background": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived proudly at the head of my pack, leading a thousand raids and eating succulent, tender morsels of human flesh. But I am not so old I cannot face those who hate me the most, though I m",
+        "equipment": "Fangs and claws (natural weapons), a necklace of stones and wood that I carry in a paw—token of the only human I do not consider food, knick-knacks, keys, and other junk that I sometimes vomit up from my large stomach.",
+        "descriptors": "[\"My senses are unfailing. Nothing can escape my sense of smell and that is why the Order uses me as a guardian. I hate strong smells and loud noises because they feel like burning irons to acute senses.\",\"A true predator knows how to appear as the most helpless of lambs. I know how to disguise myse",
+        "gifts": "[\"Find Them Forever After: Once you catch someone’s scent, you never forget it. During a Scene, you can spend 1 Soma to memorize the scent of a person you are interacting with. You will always recognize it and it will be easy for you to follow its traces even after some time. If you concentrate, you",
+        "darkEgo": "{\"trigger\":\"You assume the form of a Wolf or reveal yourself for what you really are, scaring off weak humans.\",\"gift\":\"The Big Bad Wolf: You are hardened by a lifetime in the great mountains and your skill is matched only by your courage. When you unleash your rage, create a Descriptor for it that "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Garou the Old Wolf",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "esName": "Garou el Viejo Lobo",
+      "concept": "Core Book",
+      "origin": "Garou the Old Wolf",
+      "notesLen": 496,
+      "descriptors": [
+        {
+          "name": "Garou the Old Wolf - descriptor-principal.cazador",
+          "text": "I am a mountain wolf and far more cunning than the stupid villagers who tremble at the mere sight of me. I have lived pr",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "My senses are unfailing. Nothing can escape my sense of smell and that is why the Order uses me as a guardian. I hate st",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "A true predator knows how to appear as the most helpless of lambs. I know how to disguise myself. My confidence is bound",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I am fiercer and more powerful than any human and my fangs can pierce even metal. My proud wolf spirit is everything to ",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Find Them Forever After",
+          "text": "Once you catch someone’s scent, you never forget it. During a Scene, you can spend 1 Soma to memorize the scent of a per"
+        },
+        {
+          "name": "Wolf Among the Lambs",
+          "text": "You may spend 1 Soma to assume the shape of a common human. Create a Descriptor that represents you and includes at leas"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Big Bad Wolf",
+          "trigger": "You assume the form of a Wolf or reveal yourself for what you really are, scaring off weak humans.",
+          "text": "You are hardened by a lifetime in the great mountains and your skill is matched only by your courage. When you unleash y"
+        }
+      ],
+      "equipment": [
+        "Fangs and claws (natural weapons)",
+        "a necklace of stones and wood that I carry in a paw—token of the only human I do not consider food",
+        "knick-knacks, keys, and other junk that I sometimes vomit up from my large stomach"
+      ]
+    }
+  },
+  {
+    "name": "George the Holy Dragon Slayer",
+    "found": true,
+    "old": {
+      "name": "George the Holy Dragon Slayer",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight against darkness never falters. As a child, I fell into a river and almost drowned, but was saved by a creature that I later discovered was a dragon. When I grew up, I took holy vows and joined the Church. In doing so, I discovered that what I believed to be my savior was actually a creature of darkness, ready to steal my soul. I vowed to fight the darkness, suppressing the feeling of gratitude toward the dragon that saved me, which has always plagued me. Such weakness represents a crack through which evil could slither in. No mercy for monsters, no forgiveness for those who would join and serve the forces of evil.",
+      "descriptorFields": {
+        "background": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight against darkness never falters. As a child, I fell into a river and almost drowned, but was saved by a creature that I later discovered was a dragon. When I grew up, I took holy vow",
+        "equipment": "Sacred armor, a sword and a spear blessed by the Pope himself, my proud war stallion, a cross engraved with the Keys of Saint Peter (universal symbol of power), Aldebrand the faithful squire, papal papers and seals, a cloak of fine workmanship.",
+        "descriptors": "[\"I have dedicated my life to slaying monsters and aberrations, honing my body and my skill for that purpose. My strict discipline makes me rarely inclined to forgive the mistakes of others.\",\"I have vowed to eradicate all evil from this world and nothing can escape my inquisitive gaze. I hate all s",
+        "gifts": "[\"The Dragon Slayer: You’re skilled at slaying monsters and demonic creatures in the name of faith. You start each Scenario with 1 Fervor Token. When facing an enemy that is obviously monstrous, if you get a successful Outcome on a Position Check, you can spend 1 Fervor Token to inflict 1 additional",
+        "darkEgo": "{\"trigger\":\"Invoke holy divine power by reproaching all sinners and providing an example of purity and righteousness.\",\"gift\":\"The Saint: When you channel sacred divine power, everyone bows their heads. Ordinary people will show you reverence, while weaker enemy NPCs (at the Storyteller’s discretion"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "George the Holy Dragon Slayer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "esName": "San Jorge el Matadragones",
+      "concept": "Core Book",
+      "origin": "George the Holy Dragon Slayer",
+      "notesLen": 741,
+      "descriptors": [
+        {
+          "name": "George the Holy Dragon Slayer - descriptor-principal.cazador",
+          "text": "I am the most skilled and trusted agent of the Papacy and as such, it is my responsibility to make sure that the fight a",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I have dedicated my life to slaying monsters and aberrations, honing my body and my skill for that purpose. My strict di",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I have vowed to eradicate all evil from this world and nothing can escape my inquisitive gaze. I hate all secrets, for I",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I am a saint in the eyes of ordinary people and no door remains closed for me. My word is that of the Church itself. Wha",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "The Dragon Slayer",
+          "text": "You’re skilled at slaying monsters and demonic creatures in the name of faith. You start each Scenario with 1 Fervor Tok"
+        },
+        {
+          "name": "Agent of the Papacy",
+          "text": "When you speak to a crowd you can infuse their hearts with the light of faith. Spend 1 Fervor Token and you can create a"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Saint",
+          "trigger": "Invoke holy divine power by reproaching all sinners and providing an example of purity and righteousness.",
+          "text": "When you channel sacred divine power, everyone bows their heads. Ordinary people will show you reverence, while weaker e"
+        }
+      ],
+      "equipment": [
+        "Sacred armor",
+        "a sword and a spear blessed by the Pope himself",
+        "my proud war stallion",
+        "a cross engraved with the Keys of Saint Peter (universal symbol of power)",
+        "Aldebrand the faithful squire",
+        "papal papers and seals",
+        "a cloak of fine workmanship"
+      ]
+    }
+  },
+  {
+    "name": "James the Swordsman",
+    "found": true,
+    "old": {
+      "name": "James the Swordsman",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewomen. After years of successes and victories, a mysterious child defeated me with deception. This despicable boy led me into the lair of a dangerous beast and, after imprisoning me, left me to be eaten by the monster. I survived, though I lost a hand... I know for certain he who I seek is no human, and I joined the Order to hunt down the child I hate above all else, and thus have my revenge.",
+      "descriptorFields": {
+        "background": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewomen. After years of successes and victories, a mysterious child defeated me with deception. This despicable boy led me into the lair of a dangerous beast and, after imprisoning me, ",
+        "equipment": "A fine dueling blade, a black powder gun, a finely crafted hook, a purple-red cloak, traveling boots, a precious pair of binoculars, and several valuable rings.",
+        "descriptors": "[\"I am a skilled swordsman and possess fine manners, which is why the Order considers me an excellent candidate to move among High Society. I love indulging in good food and dissolute company.\",\"I have learned to face monsters and aberrations without being intimidated. The Beast is on my trail becau",
+        "gifts": "[\"With a Sword or a Smile: Once per Scene you may perform a gesture of extreme precision with your weapon, such as slipping an object off someone or writing something on a surface. The person observing your skill will either be impressed or intimidated, depending on the Storyteller’s decision. You r",
+        "darkEgo": "{\"trigger\":\"You challenge an enemy or otherwise make clear who and how skilled you are.\",\"gift\":\"I Will Have My Satisfaction: When you choose an opponent, there is no escape for them. Once per Scene, you can take an additional action against the target of your challenge (even if you had already acte"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "James the Swordsman",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "esName": "Jaime el Espadachín",
+      "concept": "Core Book",
+      "origin": "James the Swordsman",
+      "notesLen": 512,
+      "descriptors": [
+        {
+          "name": "James the Swordsman - descriptor-principal.cazador",
+          "text": "I have been a lot of things in my life: ship captain, duellist of great renown, and lover of the most beautiful noblewom",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a skilled swordsman and possess fine manners, which is why the Order considers me an excellent candidate to move am",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I have learned to face monsters and aberrations without being intimidated. The Beast is on my trail because, having tast",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I am a man of the world and nothing can really surprise me anymore. I never question myself. After all, I’m the best at ",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "With a Sword or a Smile",
+          "text": "Once per Scene you may perform a gesture of extreme precision with your weapon, such as slipping an object off someone o"
+        },
+        {
+          "name": "Tick-Tock, Here Comes The Beast",
+          "text": "While outdoors, you may ask the Storyteller for the Beast to come in search of your flesh. The Beast is a monstrous NPC "
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - I Will Have My Satisfaction",
+          "trigger": "You challenge an enemy or otherwise make clear who and how skilled you are.",
+          "text": "When you choose an opponent, there is no escape for them. Once per Scene, you can take an additional action against the "
+        }
+      ],
+      "equipment": [
+        "A fine dueling blade",
+        "a black powder gun",
+        "a finely crafted hook",
+        "a purple-red cloak",
+        "traveling boots",
+        "a precious pair of binoculars",
+        "several valuable rings"
+      ]
+    }
+  },
+  {
+    "name": "Marina the Sea Explorer",
+    "found": true,
+    "old": {
+      "name": "Marina the Sea Explorer",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed me to easily hide my talents as a witch from prying eyes. Year after year, I have accumulated all kinds of magical and mundane wealth. But the Order found me and forced me to sign the most one-sided contract of my entire career as a trader. Now I must put my skills and my charisma at the service of the Order, trying to earn as much as possible to redeem the enormous debt that they have made me incur through deceit.",
+      "descriptorFields": {
+        "background": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed me to easily hide my talents as a witch from prying eyes. Year after year, I have accumulated all kinds of magical and mundane wealth. But the Order found me and forced me to sign",
+        "equipment": "Exotic and colorful dresses, a large bag full of treasures, a travel bag, rings and fine jewelry made out of seashells, a vial of sea water, cosmetics and perfumes.",
+        "descriptors": "[\"I am a sea witch, and as such, I have the power to shape water and move it at will. I hate enclosed places, cut off from the presence of my beloved sea.\",\"Nobody knows my true form, which I hide under an appearance of eternal youth. I can change shape to some extent, while still remaining in human",
+        "gifts": "[\"Sea Magic: You can unleash your witch powers and control seawater, manipulating it as if it were solid. You can use it as a weapon or as an object to support your actions, giving it the consistency of a whip that can reach up to thirty feet. When you act, you can take a second supporting action, s",
+        "darkEgo": "{\"trigger\":\"Turn a request for help or a conversation into a negotiation, making it clear how amazing your treasures are.\",\"gift\":\"Treasures of the Sea: At the beginning of the Scenario, you receive 2 Treasure Tokens. When you show off your Treasures, spend 1 Treasure Token and 1 Soma, and create a "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Marina the Sea Explorer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "esName": "Marina la Exploradora del Mar",
+      "concept": "Core Book",
+      "origin": "Marina the Sea Explorer",
+      "notesLen": 539,
+      "descriptors": [
+        {
+          "name": "Marina the Sea Explorer - descriptor-principal.cazador",
+          "text": "I am a traveler, and, over the years, I have visited every location known to man. Being a traveling merchant has allowed",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a sea witch, and as such, I have the power to shape water and move it at will. I hate enclosed places, cut off from",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "Nobody knows my true form, which I hide under an appearance of eternal youth. I can change shape to some extent, while s",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I have a massive collection of magical relics and treasures. I am very stingy with my collection and constantly seeking ",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Sea Magic",
+          "text": "You can unleash your witch powers and control seawater, manipulating it as if it were solid. You can use it as a weapon "
+        },
+        {
+          "name": "Mutable Appearance",
+          "text": "Once per Scene you can change your appearance. Create a Descriptor that represents your new appearance. Nobody can pierc"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - Treasures of the Sea",
+          "trigger": "Turn a request for help or a conversation into a negotiation, making it clear how amazing your treasures are.",
+          "text": "At the beginning of the Scenario, you receive 2 Treasure Tokens. When you show off your Treasures, spend 1 Treasure Toke"
+        }
+      ],
+      "equipment": [
+        "Exotic and colorful dresses",
+        "a large bag full of treasures",
+        "a travel bag",
+        "rings and fine jewelry made out of seashells",
+        "a vial of sea water",
+        "cosmetics and perfumes"
+      ]
+    }
+  },
+  {
+    "name": "Niklaus von Krampus",
+    "found": true,
+    "old": {
+      "name": "Niklaus von Krampus",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented exorcist and this vocation of mine led me to the remote village of Borgo Maleanime. There, I fought a particularly insidious demon, who concealed itself among the ranks of a gang of young thugs who merely pretended to be demons to scare people. It was a tough fight, but I finally got the better of the fiend. Or so I thought. Something in the exorcism did not go as expected and now the demon dwells inside me, sowing fear and pain whenever it re-emerges. The Order welcomed me into its ranks as an exorcist and I gladly accepted this role, with the hope that the missions entrusted to me would allow me to find a way to rid myself, once and for all, of that which hides within me.",
+      "descriptorFields": {
+        "background": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented exorcist and this vocation of mine led me to the remote village of Borgo Maleanime. There, I fought a particularly insidious demon, who concealed itself among the ranks of a gang of ",
+        "equipment": "An old cassock worn from many travels, exorcism vestments and tools, a shepherd’s curved staff of wood and iron to beat the devil with, an old pouch containing mysterious items taken while the demon is in control, precious small relics received as offerings, and an old, time-worn bible.",
+        "descriptors": "[\"I am a skilled exorcist. I know how to identify and fight evil through prayer and the sacred arts. Despite what I am, I hate holy places and manifestations of faith and religion, as they cause the demon inside me to stir.\",\"I am good at understanding people and helping them. Now, thanks to the dem",
+        "gifts": "[\"Exorcist: When you face a clearly supernatural being, you gain 1 Additional Success on all Checks. You can also invoke sacred rites and prayers to disturb the evil you face. If a subject, artifact, or supernatural manifestation uses a Gift that you know of or have already seen in action, you can s",
+        "darkEgo": "{\"trigger\":\"Give free rein to your demonic side or listen to the sound of bells or cowbells for at least one minute.\",\"gift\":\"The Demon Revealed: While generally retaining control, every now and then you have to allow the demon to manifest and unleash its anger. Create a Descriptor that represents y"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "esName": "Niklaus von Krampus",
+      "concept": "Core Book",
+      "origin": "Niklaus von Krampus",
+      "notesLen": 800,
+      "descriptors": [
+        {
+          "name": "Niklaus von Krampus - descriptor-principal.cazador",
+          "text": "I am a devoted clergyman who has always dedicated his life to helping others. Over the years I have become a talented ex",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a skilled exorcist. I know how to identify and fight evil through prayer and the sacred arts. Despite what I am, I ",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I am good at understanding people and helping them. Now, thanks to the demon that dwells in me, I can even perceive the ",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "The demon in me grants me its power, allowing me to act with savage strength and speed. It is not easy to contain this f",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Exorcist",
+          "text": "When you face a clearly supernatural being, you gain 1 Additional Success on all Checks. You can also invoke sacred rite"
+        },
+        {
+          "name": "The Inner Demon",
+          "text": "Once per Scene, you can release the inner demon, whether that’d be yours or someone else’s. In your case, create a Descr"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Demon Revealed",
+          "trigger": "Give free rein to your demonic side or listen to the sound of bells or cowbells for at least one minute.",
+          "text": "While generally retaining control, every now and then you have to allow the demon to manifest and unleash its anger. Cre"
+        }
+      ],
+      "equipment": [
+        "An old cassock worn from many travels",
+        "exorcism vestments and tools",
+        "a shepherd’s curved staff of wood and iron to beat the devil with",
+        "an old pouch containing mysterious items taken while the demon is in control",
+        "precious small relics received as offerings",
+        "an old, time-worn bible"
+      ]
+    }
+  },
+  {
+    "name": "Regina the Thief of Hearts",
+    "found": true,
+    "old": {
+      "name": "Regina the Thief of Hearts",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. Lacking the benefit of noble birth, the power I held was pried from the hands of those less deserving to wield it, no matter the cost. I ruled armies of thugs, and broke the hearts of both men and women. After each conquest, I set out in search of a bigger challenge. Because there is still so much out there that should be rightfully mine, I always want more. The Order has given me a new purpose, a new perspective, and new creatures to enslave.",
+      "descriptorFields": {
+        "background": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. Lacking the benefit of noble birth, the power I held was pried from the hands of those less deserving to wield it, no matter the cost. I ruled armies of thugs, and broke the hearts o",
+        "equipment": "A long leather whip with metal studs and spikes, a beautiful fan to hide my face, dresses for every occasion, a long burgundy cape, gold and jewels gifted by countless suitors, and a sharp stiletto I wear as a hairpin.",
+        "descriptors": "[\"I am determined to get what I want, and nothing will get in my way. I will kill, humiliate, or conquer anything that stands between me and my objective. As you can imagine, I sincerely hate being told no!\",\"Thanks to my contacts and charisma, I always have an ace up my sleeve: followers ready to h",
+        "gifts": "[\"I Want It!: When you act with clear and direct intention to achieve an objective, you get 1 Additional Success on each Position Check. Once per Session, you can turn a Failure into an Outcome with Increment. Describe how you grit your teeth and fight to get what you want.\",\"The Queen: During a Sce",
+        "darkEgo": "{\"trigger\":\"Take control of a situation and impose your decisions by dramatically drawing attention to yourself.\",\"gift\":\"As I Want!: You know that your way is the only right way to do things. During the Scene, as an additional action, you can choose another character who will be issued a command. I"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Regina the Thief of Hearts",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "esName": "Regina la Ladrona de Corazones",
+      "concept": "Core Book",
+      "origin": "Regina The Thief Of Hearts",
+      "notesLen": 565,
+      "descriptors": [
+        {
+          "name": "Regina the Thief of Hearts - descriptor-principal.cazador",
+          "text": "I was born to be a leader and I have always surrounded myself with faithful followers ready to satisfy my every whim. La",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am determined to get what I want, and nothing will get in my way. I will kill, humiliate, or conquer anything that sta",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "Thanks to my contacts and charisma, I always have an ace up my sleeve: followers ready to help me and allies who owe me ",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I have an enviable charm and love to dress up to fit the role I have chosen. Even when I try to restrain myself, I never",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "I Want It!",
+          "text": "When you act with clear and direct intention to achieve an objective, you get 1 Additional Success on each Position Chec"
+        },
+        {
+          "name": "The Queen",
+          "text": "During a Scene you always have a couple of trusted servants with you, ready to execute your every order. Create a Descri"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - As I Want!",
+          "trigger": "Take control of a situation and impose your decisions by dramatically drawing attention to yourself.",
+          "text": "You know that your way is the only right way to do things. During the Scene, as an additional action, you can choose ano"
+        }
+      ],
+      "equipment": [
+        "A long leather whip with metal studs and spikes",
+        "a beautiful fan to hide my face, dresses for every occasion",
+        "a long burgundy cape, gold and jewels gifted by countless suitors",
+        "a sharp stiletto I wear as a hairpin"
+      ]
+    }
+  },
+  {
+    "name": "Sun Wukong the Amazing Monkey",
+    "found": true,
+    "old": {
+      "name": "Sun Wukong the Amazing Monkey",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my beloved China. I grew up as a circus animal at London’s Royal Circus but, deep within I carry the conviction that I am destined for something else. I rebelled by killing all my captors, fleeing across a vast and labyrinthine city. When the Order reached me, I thought it was the end, but the Hunters took me with them as their guardian and defender. The more I live as a Hunter, the closer I draw to transcendence. Now I am aware that, someday, I will discover who I really am.",
+      "descriptorFields": {
+        "background": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my beloved China. I grew up as a circus animal at London’s Royal Circus but, deep within I carry the conviction that I am destined for something else. I rebelled by killing all my captors,",
+        "equipment": "A circus stick with three extendable segments, old and worn circus clothes, a golden diadem so tight on my forehead that it cannot be removed, and a sheet with the drawing of a Chinese landscape — gift from a child who once watched one of my shows.",
+        "descriptors": "[\"I am a skilled guardian. My body is strong and hardened, my senses sharp and alert. Years of captivity have made me submissive, and I struggle not to follow every order I am given.\",\"I am stronger and faster than any human and I am a highly skilled fighter. I don’t shy away from a challenge becaus",
+        "gifts": "[\"Guardian Disciple: You can intercept a danger before it overwhelms your ally. You may spend 1 Soma to get between an ally and a danger by standing in their place. Receive 1 Additional Success to any Defense Check you have to perform doing so. Once per Scenario, you can ignore 1 Wound you suffer.\",",
+        "darkEgo": "{\"trigger\":\"Act with passion and strength, showing everyone the incredible power that lies within your body.\",\"gift\":\"Descendant of the Awakening of the Void and the Emptiness: When you release your true power, your body emits a divine light and no one can stop you. Take 1 Wound to get 2 Additional "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Sun Wukong the Amazing Monkey",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "esName": "Sun Wukong el Mono Asombroso",
+      "concept": "Core Book",
+      "origin": "Sun Wukong the Amazing Monkey",
+      "notesLen": 592,
+      "descriptors": [
+        {
+          "name": "Sun Wukong the Amazing Monkey - descriptor-principal.cazador",
+          "text": "I have no memory of my life before my captivity, although I often dream of the forests and snow-capped peaks of my belov",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a skilled guardian. My body is strong and hardened, my senses sharp and alert. Years of captivity have made me subm",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I am stronger and faster than any human and I am a highly skilled fighter. I don’t shy away from a challenge because I a",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "My essence is magical, and this makes me resistant to enchantments that might snare stupid humans. My spiritual presence",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Guardian Disciple",
+          "text": "You can intercept a danger before it overwhelms your ally. You may spend 1 Soma to get between an ally and a danger by s"
+        },
+        {
+          "name": "Monkey King",
+          "text": "You are able to perform athletic feats unthinkable to a mere mortal. You may spend 1 Soma and choose an effect: 1. You c"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - Descendant of the Awakening of the Void and the Emptiness",
+          "trigger": "Act with passion and strength, showing everyone the incredible power that lies within your body.",
+          "text": "When you release your true power, your body emits a divine light and no one can stop you. Take 1 Wound to get 2 Addition"
+        }
+      ],
+      "equipment": [
+        "A circus stick with three extendable segments",
+        "old and worn circus clothes",
+        "a golden diadem so tight on my forehead that it cannot be removed",
+        "a sheet with the drawing of a Chinese landscape — gift from a child who once watched one of my shows"
+      ]
+    }
+  },
+  {
+    "name": "The Astonishing Pied Piper Without a Name",
+    "found": true,
+    "old": {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned to use the power of music to reach into the souls of both humans and animals. Unfortunately, I have lost count of the number of times I have performed dishonorable acts while pursuing the perfect melody. Having been guilty of various crimes and having taken revenge on those who mocked my sincere love for music, I serenely waited for my execution. The Order freed me in exchange for a promise to serve them and put my skills to work in the fight against Darkness. It was in the darkest moments that I glimpsed the perfect melody, so perhaps as a Hunter, I can find it and make it my own.",
+      "descriptorFields": {
+        "background": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned to use the power of music to reach into the souls of both humans and animals. Unfortunately, I have lost count of the number of times I have performed dishonorable acts while pursu",
+        "equipment": "A precious pipe of the finest workmanship, a theater mask, a cloak of many colors, multicolored chalks and powders, an old ocarina (the first instrument I ever played), and Hamelin, my faithful trained mouse.",
+        "descriptors": "[\"With my pipe I can play any melody and touch the hearts of living beings. Art needs time to express itself.\",\"I am a skilled acrobat and musician. My talent is unrivaled and the Order has chosen me for my ability to capture people’s attention and stimulate their emotions. When I am in the grip of ",
+        "gifts": "[\"Soul Music: When you play your pipes you can spend 1 Soma to sing a special melody. Choose from:\\n1. Imparting an emotion: Create a Descriptor that represents the emotional state you wish to convey. Everybody present will receive that Descriptor for the current Scene. You may have to make a Positi",
+        "darkEgo": "{\"trigger\":\"Demonstrate your art to its fullest extent, with a show that cannot be ignored.\",\"gift\":\"The Power of Music: Once per Scene, you can make a sound that can be heard by whomever you wish, even from a great distance. Everyone who hears it suffers 1 Wound, fragile objects break, and frighten"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "esName": "El Asombroso Flautista sin Nombre",
+      "concept": "Core Book",
+      "origin": "The Astonishing Pied Piper Without a Name",
+      "notesLen": 708,
+      "descriptors": [
+        {
+          "name": "The Astonishing Pied Piper Without a Name - descriptor-principal.cazador",
+          "text": "I have always made my art my reason for living. I can play so skillfully that it might as well be magic. I have learned ",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "With my pipe I can play any melody and touch the hearts of living beings. Art needs time to express itself.",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I am a skilled acrobat and musician. My talent is unrivaled and the Order has chosen me for my ability to capture people",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "As an artist I have traveled to many places and I know many myths and legends. I’m hungry for knowledge and I’m fascinat",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Soul Music",
+          "text": "When you play your pipes you can spend 1 Soma to sing a special melody. Choose from: 1. Imparting an emotion: Create a D"
+        },
+        {
+          "name": "Skilled Acrobat",
+          "text": "When you sing, dance, or move with grace, you always put on a great show. As an additional action, you can spend 1 Soma "
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Power of Music",
+          "trigger": "Demonstrate your art to its fullest extent, with a show that cannot be ignored.",
+          "text": "Once per Scene, you can make a sound that can be heard by whomever you wish, even from a great distance. Everyone who he"
+        }
+      ],
+      "equipment": [
+        "A precious pipe of the finest workmanship",
+        "a theater mask",
+        "a cloak of many colors",
+        "multicolored chalks and powders",
+        "an old ocarina (the first instrument I ever played), and Hamelin",
+        "my faithful trained mouse"
+      ]
+    }
+  },
+  {
+    "name": "The Immortal",
+    "found": true,
+    "old": {
+      "name": "The Immortal",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursuit, I have been stained by every sin. The secret behind my unending existence is that I have hidden my soul, removing it from my body. Unfortunately, the Order found its hiding place and now it is held beyond my reach in a fortified church, leaving me no choice but to submit to their commands. Guilty of one thousand and one crimes, the Order demands I balance each with one thousand and one acts of virtue. According to those foolish preachers, they are leading me down the path of redemption. In truth, the Order treats me as a servant, giving to me only the most thankless tasks, knowing that I can not be subdued by death. I remain humble and silent, waiting for the day when I will discover where they have hidden my soul. Then I will unleash my revenge and annihilate the entire Papacy...",
+      "descriptorFields": {
+        "background": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursuit, I have been stained by every sin. The secret behind my unending existence is that I have hidden my soul, removing it from my body. Unfortunately, the Order found its hiding plac",
+        "equipment": "Poor clothes, a worn out sickle (reminder of times past), a small bag with precious items collected during adventures, a key that opens one of many secret refuges, a papal ring as a symbol of indenture to the Church, and a little toy given by someone helped with the first good deed.",
+        "descriptors": "[\"I have knowledge and wisdom drawn from centuries of existence, which I can conjure to mind when needed. I often get lost in the memories of my past glories, forgetting about the world around me.\",\"The Order uses my powers for their own purposes and I have had to become skilled at understanding and",
+        "gifts": "[\"Memories of an Infinite Life: You have been alive for an indefinite time and know almost everything. Once per Scene, you may ask for information about the past or a specific subject or place, which is only available to you due to your long history. The Storyteller will provide relevant and useful ",
+        "darkEgo": "{\"trigger\":\"Use your indifference to pain or death to your advantage, revealing your true nature for anyone to see.\",\"gift\":\"The Immortal: When you suffer 1 Wound, you can immediately spend 1 Soma to remain conscious, allowing you to suffer many Wounds without dying. You are in full control of your "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "The Immortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "esName": "El Inmortal",
+      "concept": "Core Book",
+      "origin": "TheImmortal",
+      "notesLen": 914,
+      "descriptors": [
+        {
+          "name": "The Immortal - descriptor-principal.cazador",
+          "text": "I am a sorcerer who has found the key to immortality. Long life has only whetted my appetite for power and in its pursui",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I have knowledge and wisdom drawn from centuries of existence, which I can conjure to mind when needed. I often get lost",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "The Order uses my powers for their own purposes and I have had to become skilled at understanding and supporting the nee",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "My body is but a tool which I can manipulate at will, far beyond common human limits. In spite of my old and emaciated a",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Memories of an Infinite Life",
+          "text": "You have been alive for an indefinite time and know almost everything. Once per Scene, you may ask for information about"
+        },
+        {
+          "name": "The Servant",
+          "text": "Once per Scene, as an additional action, you can grant 1 Additional Success to an ally’s action if you can narratively s"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Immortal",
+          "trigger": "Use your indifference to pain or death to your advantage, revealing your true nature for anyone to see.",
+          "text": "When you suffer 1 Wound, you can immediately spend 1 Soma to remain conscious, allowing you to suffer many Wounds withou"
+        }
+      ],
+      "equipment": [
+        "Poor clothes",
+        "a worn out sickle (reminder of times past)",
+        "a small bag with precious items collected during adventures",
+        "a key that opens one of many secret refuges",
+        "a papal ring as a symbol of indenture to the Church",
+        "a little toy given by someone helped with the first good deed"
+      ]
+    }
+  },
+  {
+    "name": "The Woman from the Woods",
+    "found": true,
+    "old": {
+      "name": "The Woman from the Woods",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood. I possess extraordinary strength and a feral instinct, such that any civilized society ought to chain me like a monster. I know that in my past is a sin so great, my memory could not bear the weight of it. But, I want to remember and perhaps by serving the Order I will be able to do so. I have a natural soft spot for children, and I can’t stand to see them get hurt. The Order uses me as a weapon in the most serious matters when it is necessary to act decisively and demonstrate that a Hunter is a force to be reckoned with.",
+      "descriptorFields": {
+        "background": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood. I possess extraordinary strength and a feral instinct, such that any civilized society ought to chain me like a monster. I know that in my past is a sin so great, my memory could",
+        "equipment": "A doll and a little wooden soldier — the only items I had with me when I was found. A worn-out gray travel dress stained with blood. A sharp butcher’s knife. A hair ribbon, gift from a Hunter of the Order. A cookbook filled with recipes for cakes and sweets.",
+        "descriptors": "[\"I am incredibly strong. Despite my petite looks, I am tougher than the sturdiest of men. I struggle to control my strength and often end up damaging things unintentionally.\",\"Sometimes I manifest strange abilities, the legacy of a past that I no longer remember. But, when I need it, the world arou",
+        "gifts": "[\"The Woman from the Wood: You receive 1 Additional Success to any Position Check that requires you to resort to your strength. If you eliminate a living being by causing a Wound, you can do it in an extremely disturbing way. Anyone who witnesses it, at the discretion of the Storyteller, will lower ",
+        "darkEgo": "{\"trigger\":\"Blatantly manifest your desire to devour human flesh, regardless of the consequences.\",\"gift\":\"Soft and Succulent Flesh: The truth is that you crave human flesh, especially when raw and taken from evil people. When you inflict a Wound through violent action on someone you deem evil, and "
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "The Woman from the Woods",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "esName": "La Dama de los Bosques",
+      "concept": "Core Book",
+      "origin": "The Woman from the Woods",
+      "notesLen": 649,
+      "descriptors": [
+        {
+          "name": "The Woman from the Woods - descriptor-principal.cazador",
+          "text": "My memory is gone. The first thing I remember is the Order finding me, wandering in the woods naked and covered in blood",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am incredibly strong. Despite my petite looks, I am tougher than the sturdiest of men. I struggle to control my streng",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "Sometimes I manifest strange abilities, the legacy of a past that I no longer remember. But, when I need it, the world a",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "I love human flesh and can gain insight about people just looking at them. I am helplessly attracted to those who have a",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "The Woman from the Wood",
+          "text": "You receive 1 Additional Success to any Position Check that requires you to resort to your strength. If you eliminate a "
+        },
+        {
+          "name": "Home Sweet Home",
+          "text": "You can spend 1 Soma to draw on the strange powers of the witch you once were. When you do so, choose one of the followi"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - Soft and Succulent Flesh",
+          "trigger": "Blatantly manifest your desire to devour human flesh, regardless of the consequences.",
+          "text": "The truth is that you crave human flesh, especially when raw and taken from evil people. When you inflict a Wound throug"
+        }
+      ],
+      "equipment": [
+        "A doll and a little wooden soldier — the only items I had with me when I was found. A worn-out gray travel dress stained with blood. A sharp butcher’s knife. A hair ribbon, gift from a Hunter of the Order. A cookbook filled with recipes for cakes and sweets"
+      ]
+    }
+  },
+  {
+    "name": "Verdoux Bluebeard",
+    "found": true,
+    "old": {
+      "name": "Verdoux Bluebeard",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived an unconventional life, between accomplishing impossible tasks and keeping unspeakable secrets. It has opened my eyes to the world beyond the prosaic limits to which most are accustomed. In an effort to escape my adventurous life, I have more than once tried to start a family. However, my efforts have always ended in ruin, a price I must pay for the secrets I keep. I have lost six lovers, each killed by enemies and dangers that I naively hoped I could exclude from my life. That is why I volunteered for the Order, took an oath to weed out the darkness in this world, and sought revenge for the lives that were stolen from me.",
+      "descriptorFields": {
+        "background": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived an unconventional life, between accomplishing impossible tasks and keeping unspeakable secrets. It has opened my eyes to the world beyond the prosaic limits to which most are accus",
+        "equipment": "Nobleman’s clothes, a long black cape, a large bunch of keys, a fine dueling blade, snuff of excellent quality, a few doses of deadly Aqua Tofana, a large amount of coins and precious trinkets, and a heart-shaped locket hanging from a gold chain with the names of my lost loves engraved within.",
+        "descriptors": "[\"My specialty is problem solving and I have a talent for analyzing every situation, allowing me to find resources and discover clues. Managing danger requires calm and concentration, and so I hate acting precipitously.\",\"I am an educated man who has studied the arts and sciences. I use this knowled",
+        "gifts": "[\"Problem Solver: If you’ve seen it once, you can do it yourself even better. You may spend 1 Soma to replicate the effect of a Gift from a Hunter or NPC you witnessed during the Scenario. Particular Gifts may still be off limits or only yield a part of their effect at the Storyteller’s discretion. ",
+        "darkEgo": "{\"trigger\":\"Reveal your dark side by injuring someone or acting aggressively despite your outwardly calm and staid appearance.\",\"gift\":\"The Unscrupulous Assassin: You may appear as a civilized gentleman, but appearances can be deceiving. When necessary, you will not hesitate to kill. If you eliminat"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Verdoux Bluebeard",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "esName": "Verdoux Barba Azul",
+      "concept": "Core Book",
+      "origin": "Verdoux Bluebeard",
+      "notesLen": 750,
+      "descriptors": [
+        {
+          "name": "Verdoux Bluebeard - descriptor-principal.cazador",
+          "text": "I am a French aristocrat, called upon by my sovereign to manage the most devious and disreputable matters. I have lived ",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "My specialty is problem solving and I have a talent for analyzing every situation, allowing me to find resources and dis",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I am an educated man who has studied the arts and sciences. I use this knowledge to uncover truths and reveal mysteries.",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "Under the facade of a respectable man hides a skilled, unscrupulous problem-solver. I know how to kill and how to act wi",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Problem Solver",
+          "text": "If you’ve seen it once, you can do it yourself even better. You may spend 1 Soma to replicate the effect of a Gift from "
+        },
+        {
+          "name": "The Key to Each Door",
+          "text": "Once per Scene, you can use one of the magic keys you own. Choose an effect: 1. Open a closed door, no matter how many l"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - The Unscrupulous Assassin",
+          "trigger": "Reveal your dark side by injuring someone or acting aggressively despite your outwardly calm and staid appearance.",
+          "text": "You may appear as a civilized gentleman, but appearances can be deceiving. When necessary, you will not hesitate to kill"
+        }
+      ],
+      "equipment": [
+        "Nobleman’s clothes",
+        "a long black cape",
+        "a large bunch of keys",
+        "a fine dueling blade",
+        "snuff of excellent quality",
+        "a few doses of deadly Aqua Tofana",
+        "a large amount of coins and precious trinkets",
+        "a heart-shaped locket hanging from a gold chain with the names of my lost loves engraved within"
+      ]
+    }
+  },
+  {
+    "name": "Yukie Onn the Traveling Artist",
+    "found": true,
+    "old": {
+      "name": "Yukie Onn the Traveling Artist",
+      "type": "character",
+      "dataKeys": [
+        "attributes",
+        "background",
+        "equipment",
+        "descriptors",
+        "gifts",
+        "darkEgo",
+        "conditions",
+        "notes"
+      ],
+      "background": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I found true love with Akihiro, son of a powerful noble family. When they forbade him from seeing me, we fled together to the remote region of Ezo. Even there we were not beyond the reach of Akihiro’s family and they pursued us into the high, snow-capped mountains. We had escaped every assassin, but could not outwit the snowstorm that trapped us. I survived, but only because Akihiro sacrificed the warmth of his life to save mine. But the cold has left me changed. It has become part of me and now the only thing that can make me feel warm is the hot blood of others. After taking revenge on all those who took Akihiro from me, I fled far away, using my talent for art to gain prestige and the protection of wealthy western nobles. Now, in the service of the Order, I save others from suffering the injustice that I have experienced, by punishing selfishness and wickedness.",
+      "descriptorFields": {
+        "background": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I found true love with Akihiro, son of a powerful noble family. When they forbade him from seeing me, we fled together to the remote region of Ezo. Even there we were not beyond the",
+        "equipment": "A travel kimono, a stage kimono and theatrical effects, a small ice sphere that never melts, a butterfly-shaped hair clip (reminder of Akihiro), a finely crafted shamisen, a pair of fine fans, and several daggers hidden in the kimono.",
+        "descriptors": "[\"I am a highly skilled artist. Music, dance, and painting hold no mysteries for me. My otherworldly charm captivates ordinary people, always drawing attention to me.\",\"I cannot feel pain and my frail appearance hides surprising physical abilities. Blood is the only thing that can warm me and its sm",
+        "gifts": "[\"Otherworldly Charm: When you perform or flaunt your talents, all eyes will be on you. Receive 1 Additional Success for each Position Check you make to attract attention or charm someone. If you get an Outcome with an Increment, you may declare that a subject who has seen you has fallen in love wit",
+        "darkEgo": "{\"trigger\":\"Shed your disguise as a simple artist and reveal your true, bitterly cold form or react passionately when fear and intimidation are used for selfish reasons.\",\"gift\":\"Ice-Cold: You have control over your body temperature and, consequently, you can freeze the environment or objects in you"
+      },
+      "itemCount": 0,
+      "itemTypes": {},
+      "itemNames": []
+    },
+    "current": {
+      "name": "Yukie Onn the Traveling Artist",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "esName": "Yukie Onn la Artista Viajera",
+      "concept": "Core Book",
+      "origin": "Yukie Onn the Traveling Artist",
+      "notesLen": 996,
+      "descriptors": [
+        {
+          "name": "Yukie Onn the Traveling Artist - descriptor-principal.cazador",
+          "text": "I am a traveling artist who has known fame and honor in my homeland, Japan. That prestige meant nothing, however, when I",
+          "role": "principal-descriptor"
+        },
+        {
+          "name": "Descriptor 2",
+          "text": "I am a highly skilled artist. Music, dance, and painting hold no mysteries for me. My otherworldly charm captivates ordi",
+          "role": ""
+        },
+        {
+          "name": "Descriptor 3",
+          "text": "I cannot feel pain and my frail appearance hides surprising physical abilities. Blood is the only thing that can warm me",
+          "role": ""
+        },
+        {
+          "name": "Dark Ego Descriptor",
+          "text": "My body is pure ice and, because of this, I can manipulate ice as I please. However, I hate to manifest my power because",
+          "role": ""
+        }
+      ],
+      "gifts": [
+        {
+          "name": "Otherworldly Charm",
+          "text": "When you perform or flaunt your talents, all eyes will be on you. Receive 1 Additional Success for each Position Check y"
+        },
+        {
+          "name": "Blood-Hot",
+          "text": "Once per Scene, you can consume a person’s blood when inflicting 1 non-fatal Wound. You recover 1 Wound, 1 Soma and rece"
+        }
+      ],
+      "darkEgos": [
+        {
+          "name": "Dark Ego - Ice-Cold",
+          "trigger": "Shed your disguise as a simple artist and reveal your true, bitterly cold form or react passionately when fear and intimidation are used for selfish reasons.",
+          "text": "You have control over your body temperature and, consequently, you can freeze the environment or objects in your immedia"
+        }
+      ],
+      "equipment": [
+        "A travel kimono",
+        "a stage kimono and theatrical effects",
+        "a small ice sphere that never melts",
+        "a butterfly-shaped hair clip (reminder of Akihiro)",
+        "a finely crafted shamisen",
+        "a pair of fine fans",
+        "several daggers hidden in the kimono"
+      ]
+    }
+  }
+]

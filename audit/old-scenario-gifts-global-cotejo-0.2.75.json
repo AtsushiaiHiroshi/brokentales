@@ -1,0 +1,49 @@
+{
+  "globalScenarioCompare": {
+    "oldCount": 31,
+    "currentScenarioDocs": 76,
+    "missingInAllScenarioPacks": [],
+    "currentOnly": [
+      "Voice of the Spirits (Red-Hood Iskra)",
+      "Wolf-killer",
+      "Where are you going all alone, sweetie? (Special Gift for Garou the Old Wolf)",
+      "The Field of Miracles (Special Gift for The Fox and the Cat)",
+      "Voice of the Spirits (The Smile in the Darkness)",
+      "Coral of the Sea Fairy (Special Gift for Marina the Sea Explorer)",
+      "The Forgotten Queen (Special Gift for Regina the Thief of Hearts)",
+      "There Is No House That Can Stop Me (Special Gift for Garou the Old Wolf)",
+      "Where are you going all alone, sweetie?",
+      "Iskra's Pendant",
+      "Iskra's Wolf Mask",
+      "Gerard's Letter to the Papacy",
+      "Iskra's Red Cape",
+      "Elizaveta's Poison",
+      "Blood Drawings in the Den",
+      "Portrait of Patrick Dubois",
+      "Wolf Tracks and Child's Footprints",
+      "Pile of Bones and Corpses",
+      "Secret Passageway Map"
+    ],
+    "currentByPack": {
+      "broken-tales.scenario-gifts": 19,
+      "broken-tales.scenario-gifts-red-hood-iskra": 3,
+      "broken-tales.scenario-gifts-of-flesh-and-wood": 3,
+      "broken-tales.scenario-gifts-the-smile-in-the-darkness": 2,
+      "broken-tales.scenario-gifts-a-soldiers-duty": 3,
+      "broken-tales.scenario-gifts-wonderbedlam": 3,
+      "broken-tales.scenario-gifts-tuvstarrs-reflection": 2,
+      "broken-tales.scenario-gifts-the-city-of-pigs": 3,
+      "broken-tales.scenario-gifts-one-thousand-and-one-nightmares": 3,
+      "broken-tales.scenario-gifts-ozena-the-suffering-and-desperate": 9,
+      "broken-tales.scenario-gifts-saint-george-the-dragon-slayer": 3,
+      "broken-tales-broken-ones.red-hood-iskra-support": 13,
+      "broken-tales-lost-stories.lost-stories-scenario-gifts": 10
+    }
+  },
+  "preCompare": {
+    "oldCount": 15,
+    "currentCount": 15,
+    "missing": [],
+    "extra": []
+  }
+}
