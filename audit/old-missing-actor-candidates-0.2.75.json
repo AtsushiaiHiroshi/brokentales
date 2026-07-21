@@ -1,0 +1,288 @@
+[
+  {
+    "oldName": "Andersen - The Commander",
+    "candidates": [
+      {
+        "score": 10,
+        "name": "Andersen - The Former Commander",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Dr. Norman Henkle - The False Wizard",
+    "candidates": [
+      {
+        "score": 15,
+        "name": "Dr. Norman Henkle - The Powerful Wizard",
+        "type": "threat",
+        "pack": "broken-tales-broken-ones.broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Adam - The Chatty Servant",
+    "candidates": [
+      {
+        "score": 5,
+        "name": "Joanna called Nana the Servant",
+        "type": "threat",
+        "pack": "broken-tales-broken-ones.broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors"
+      },
+      {
+        "score": 5,
+        "name": "Harlequin the Servant",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences"
+      }
+    ]
+  },
+  {
+    "oldName": "Erik - The Innocent",
+    "candidates": [
+      {
+        "score": 25,
+        "name": "Erik",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Prince Trollo the Innocent",
+        "type": "hunter",
+        "pack": "broken-tales-lost-stories.lost-stories-hunters",
+        "label": "BROKENTALES.Packs.LostStoriesHunters"
+      }
+    ]
+  },
+  {
+    "oldName": "Satu - The Broken Dancer",
+    "candidates": [
+      {
+        "score": 25,
+        "name": "Satu",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Dead Pirates - Hook's Crew",
+    "candidates": [
+      {
+        "score": 30,
+        "name": "Dead Pirates",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Ivory Seeking Pirates",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      },
+      {
+        "score": 5,
+        "name": "Captain of the Ivory Seeking Pirates",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Dose the Tin Man - The Giant in Love",
+    "candidates": [
+      {
+        "score": 35,
+        "name": "Dose - The Tin Man",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 25,
+        "name": "Dose the Giant in Love - The Transformed Tin Man",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 15,
+        "name": "Dose the Tin Man - Original Version",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Alicia - The Young Girl in Love",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Didier the Grumpy Old Man",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Hirnloser the Scarecrow - The Genius",
+    "candidates": [
+      {
+        "score": 30,
+        "name": "Hirnloser - The Scarecrow",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 15,
+        "name": "Hirnloser the Genius - The Transformed Scarecrow",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 10,
+        "name": "Hirnloser the Scarecrow - Original Version",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      }
+    ]
+  },
+  {
+    "oldName": "Lowe the Coward - The Brave Fighter",
+    "candidates": [
+      {
+        "score": 30,
+        "name": "Lowe the Coward",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 20,
+        "name": "Lowe the Brave Fighter - The Transformed Coward",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 10,
+        "name": "Lowe the Coward - Original Version",
+        "type": "threat",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Jasmina the Brave",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      },
+      {
+        "score": 5,
+        "name": "Brunhilde the Fighter",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences"
+      }
+    ]
+  },
+  {
+    "oldName": "Sea Fairy - The Compassionate",
+    "candidates": [
+      {
+        "score": 30,
+        "name": "Sea Fairy",
+        "type": "villager",
+        "pack": "broken-tales.scenario-actors",
+        "label": "BROKENTALES.Packs.ScenarioActors"
+      },
+      {
+        "score": 5,
+        "name": "Marina the Sea Explorer",
+        "type": "hunter",
+        "pack": "broken-tales.hunters",
+        "label": "BROKENTALES.Packs.CoreHunters"
+      },
+      {
+        "score": 5,
+        "name": "Mtyrya the Fairy also called the Cauldron Fae",
+        "type": "threat",
+        "pack": "broken-tales-broken-ones.broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors"
+      },
+      {
+        "score": 5,
+        "name": "Subjects of great skill who serve the Wise Fairy to uphold justice",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      },
+      {
+        "score": 5,
+        "name": "Polonia “the Fairy” and Perez “the Rat”",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-dark-presences",
+        "label": "BROKENTALES.Packs.LostStoriesDarkPresences"
+      }
+    ]
+  },
+  {
+    "oldName": "Azzurra De Baciocchi - The Spirit Who Spurns Death",
+    "candidates": [
+      {
+        "score": 10,
+        "name": "Azzurra De Baciocchi - The Spirit of the Witch",
+        "type": "threat",
+        "pack": "broken-tales-broken-ones.broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors"
+      },
+      {
+        "score": 5,
+        "name": "Yvonne - The Spirit Who Longs for Revenge",
+        "type": "threat",
+        "pack": "broken-tales-broken-ones.broken-ones-actors",
+        "label": "BROKENTALES.Packs.BrokenOnesActors"
+      },
+      {
+        "score": 5,
+        "name": "Conquers Death for Love",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      },
+      {
+        "score": 5,
+        "name": "Subjects of great skill who serve the Wise Fairy to uphold justice",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      },
+      {
+        "score": 5,
+        "name": "The Eyes of the Order are men and women of faith who gather useful clues to ferret out hum",
+        "type": "threat",
+        "pack": "broken-tales-lost-stories.lost-stories-actors",
+        "label": "BROKENTALES.Packs.LostStoriesActors"
+      }
+    ]
+  }
+]

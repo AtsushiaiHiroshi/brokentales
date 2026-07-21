@@ -1,0 +1,68 @@
+[
+  {
+    "oldName": "Andersen - The Commander",
+    "currentName": "Andersen - The Former Commander",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Dr. Norman Henkle - The False Wizard",
+    "currentName": "Dr. Norman Henkle - The Powerful Wizard",
+    "pack": "modules\\broken-tales-broken-ones\\packs\\broken-ones-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Adam - The Chatty Servant",
+    "currentName": "Adam - The Chatty Servant",
+    "pack": "packs\\scenario-actors.db",
+    "status": "added"
+  },
+  {
+    "oldName": "Erik - The Innocent",
+    "currentName": "Erik",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Satu - The Broken Dancer",
+    "currentName": "Satu",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Dead Pirates - Hook's Crew",
+    "currentName": "Dead Pirates",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Dose the Tin Man - The Giant in Love",
+    "currentName": "Dose the Giant in Love - The Transformed Tin Man",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Hirnloser the Scarecrow - The Genius",
+    "currentName": "Hirnloser the Genius - The Transformed Scarecrow",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Lowe the Coward - The Brave Fighter",
+    "currentName": "Lowe the Brave Fighter - The Transformed Coward",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Sea Fairy - The Compassionate",
+    "currentName": "Sea Fairy",
+    "pack": "packs\\scenario-actors.db",
+    "status": "replaced"
+  },
+  {
+    "oldName": "Azzurra De Baciocchi - The Spirit Who Spurns Death",
+    "currentName": "Azzurra De Baciocchi - The Spirit of the Witch",
+    "pack": "modules\\broken-tales-broken-ones\\packs\\broken-ones-actors.db",
+    "status": "replaced"
+  }
+]

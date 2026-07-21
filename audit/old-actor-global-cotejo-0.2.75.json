@@ -1,0 +1,105 @@
+{
+  "currentActorDocs": 354,
+  "currentByPack": {
+    "broken-tales.hunters": 15,
+    "broken-tales.dark-presences": 23,
+    "broken-tales.scenario-actors": 85,
+    "broken-tales-broken-ones.broken-ones-hunters": 13,
+    "broken-tales-broken-ones.broken-ones-actors": 67,
+    "broken-tales-lost-stories.lost-stories-hunters": 19,
+    "broken-tales-lost-stories.lost-stories-actors": 122,
+    "broken-tales-lost-stories.lost-stories-dark-presences": 10
+  },
+  "globalActorComparisons": [
+    {
+      "file": "Adversaries.db",
+      "oldCount": 33,
+      "missingInAllCurrent": [],
+      "currentMatches": 33
+    },
+    {
+      "file": "Adversaries 1.db",
+      "oldCount": 41,
+      "missingInAllCurrent": [
+        "Andersen - The Commander",
+        "Dr. Norman Henkle - The False Wizard"
+      ],
+      "currentMatches": 39
+    },
+    {
+      "file": "Adversaries 2.db",
+      "oldCount": 41,
+      "missingInAllCurrent": [
+        "Andersen - The Commander",
+        "Dr. Norman Henkle - The False Wizard"
+      ],
+      "currentMatches": 39
+    },
+    {
+      "file": "Villager.db",
+      "oldCount": 38,
+      "missingInAllCurrent": [],
+      "currentMatches": 38
+    },
+    {
+      "file": "Villager 1.db",
+      "oldCount": 41,
+      "missingInAllCurrent": [
+        "Adam - The Chatty Servant",
+        "Erik - The Innocent",
+        "Satu - The Broken Dancer"
+      ],
+      "currentMatches": 38
+    },
+    {
+      "file": "Creatures.db",
+      "oldCount": 14,
+      "missingInAllCurrent": [],
+      "currentMatches": 14
+    },
+    {
+      "file": "Creatures 1.db",
+      "oldCount": 22,
+      "missingInAllCurrent": [
+        "Dead Pirates - Hook's Crew",
+        "Dose the Tin Man - The Giant in Love",
+        "Hirnloser the Scarecrow - The Genius",
+        "Lowe the Coward - The Brave Fighter"
+      ],
+      "currentMatches": 18
+    },
+    {
+      "file": "Dark Presences.db",
+      "oldCount": 23,
+      "missingInAllCurrent": [],
+      "currentMatches": 23
+    },
+    {
+      "file": "Dark Presences 1.db",
+      "oldCount": 29,
+      "missingInAllCurrent": [
+        "Sea Fairy - The Compassionate",
+        "Azzurra De Baciocchi - The Spirit Who Spurns Death"
+      ],
+      "currentMatches": 27
+    },
+    {
+      "file": "Broken Ones.db",
+      "oldCount": 13,
+      "missingInAllCurrent": [],
+      "currentMatches": 13
+    },
+    {
+      "file": "Broken Ones 1.db",
+      "oldCount": 13,
+      "missingInAllCurrent": [],
+      "currentMatches": 13
+    },
+    {
+      "file": "Pre-Generated Hunters.db",
+      "oldCount": 15,
+      "missingInAllCurrent": [],
+      "currentMatches": 15
+    }
+  ]
+}

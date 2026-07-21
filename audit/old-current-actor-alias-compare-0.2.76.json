@@ -1,0 +1,380 @@
+[
+  {
+    "oldName": "Andersen - The Commander",
+    "oldFile": "Adversaries 1.db",
+    "currName": "Andersen - The Former Commander",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "villager",
+    "oldNpcType": "adversary",
+    "currConcept": "Scenario Villager",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 3,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "Captain Andersen is a former Carolean commander and war hero who led his company through the bloody Swedish-Russian war. Six years ago, driven by jealousy and strict religious discipline, he ordered the brutal punishment of Private Enar—cutting off his leg and throwing him into the sea—for deserting to be with Satu, a dancer Andersen himself secretly loved. ",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a war veteran with strong leadership skills",
+      "I am a capable fighter trained in Carolean military tactics",
+      "I carry the weight of terrible sins from my past",
+      "I will do anything to protect my new family"
+    ],
+    "currDescriptors": [
+      "Andersen - The Former Commander - Descriptor",
+      "Andersen - The Former Commander - Descriptor 2"
+    ],
+    "oldGifts": [
+      "Commander"
+    ],
+    "currGifts": [
+      "Commander"
+    ]
+  },
+  {
+    "oldName": "Dr. Norman Henkle - The False Wizard",
+    "oldFile": "Adversaries 1.db",
+    "currName": "Dr. Norman Henkle - The Powerful Wizard",
+    "currPack": "broken-tales-broken-ones.broken-ones-actors",
+    "oldType": "npc",
+    "currType": "threat",
+    "oldNpcType": "adversary",
+    "currConcept": "Legacy Broken One",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 2,
+      "extra": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "oldBio": "Dr. Norman Henkle was a researcher in early 1900s America studying mental illness. He discovered the Compass Rose in his asylum's archives, recognized its power, and experimented on patients (Lowe, Hirnloser, Dose, Dorothea). The Rose malfunctioned, throwing them backward in time to 1780 Germany. Trapped and terrified, Henkle hid his ignorance behind knowled",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am false wizard from the future (1900s) trapped in 1780, using future knowledge to fake magic",
+      "I orchestrated everything: experimenting on patients, causing time displacement, manipulating OZena",
+      "My Hot-Air Balloon powered by Time Tokens is my escape plan back to my era or to rule this one",
+      "I murdered/drove out Griselda and fortified Smaragd, now collecting Compass Rose pieces",
+      "I am master manipulator with Silver Tongue but plagiarist—vulnerable when facing true experts"
+    ],
+    "currDescriptors": [
+      "Descriptor",
+      "Descriptor 2",
+      "Descriptor 3",
+      "Descriptor 4"
+    ],
+    "oldGifts": [
+      "Hot-Air Balloon (Time Tokens)",
+      "Silver Tongue",
+      "Plagiarist (Weakness)"
+    ],
+    "currGifts": [
+      "Hot-Air Balloon",
+      "Silver Tongue"
+    ]
+  },
+  {
+    "oldName": "Erik - The Innocent",
+    "oldFile": "Villager 1.db",
+    "currName": "Erik",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "villager",
+    "oldNpcType": "villager",
+    "currConcept": "Scenario Villager",
+    "oldOpposition": 3,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 1,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "Erik is a lively, curious six-year-old boy who can never sit still. He is the son of Satu and Captain Andersen, conceived through rape six years ago, though Erik knows nothing of his dark origins. For most of his life, Erik lived in poverty with his mother, working alongside her in difficult conditions. Then, months ago, a wealthy man—Andersen—appeared and t",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a lively child who can never sit still",
+      "I am curious about everything and everyone",
+      "I collect shells and know the stories about the Sea Fairy",
+      "I don't understand why my mother is so sad"
+    ],
+    "currDescriptors": [
+      "Erik - Descriptor"
+    ],
+    "oldGifts": [],
+    "currGifts": []
+  },
+  {
+    "oldName": "Satu - The Broken Dancer",
+    "oldFile": "Villager 1.db",
+    "currName": "Satu",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "villager",
+    "oldNpcType": "villager",
+    "currConcept": "Scenario Villager",
+    "oldOpposition": 3,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 1,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "Satu was once a beautiful and talented dancer in Vaasa, a small Finnish coastal town, where she performed and brought joy to audiences. Six years ago, she fell deeply in love with Private Enar, a young Carolean soldier stationed there. When Enar deserted to stay with her, his comrades discovered him and Captain Andersen ordered his brutal execution—cutting o",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a former dancer who has lost everything",
+      "I am but a shadow of my former self",
+      "I carry the trauma of what Andersen did to me",
+      "My son Erik is the only reason I keep going"
+    ],
+    "currDescriptors": [
+      "Satu - Descriptor"
+    ],
+    "oldGifts": [],
+    "currGifts": []
+  },
+  {
+    "oldName": "Dead Pirates - Hook's Crew",
+    "oldFile": "Creatures 1.db",
+    "currName": "Dead Pirates",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "villager",
+    "oldNpcType": "creature",
+    "currConcept": "Scenario Villager",
+    "oldOpposition": 3,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 1,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "A dozen pirates died in the caves beneath the cliff after their ship was wrecked on the rocks. Their souls, unable to find peace, now haunt the tunnel network leading to the Sea Fairy's central pool. These walking corpses are heaps of swollen, rotten flesh that move slowly but relentlessly. They recognize James the Swordsman if he is present—he killed their ",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a lost soul who only wishes for revenge on those who are still alive",
+      "My body is a heap of swollen and rotten flesh that moves slowly",
+      "I am part of Hook's crew, doomed to haunt these caves forever",
+      "Even dismembered, my body parts continue to attack"
+    ],
+    "currDescriptors": [
+      "Dead Pirates - Descriptor"
+    ],
+    "oldGifts": [
+      "Walking Dead"
+    ],
+    "currGifts": []
+  },
+  {
+    "oldName": "Dose the Tin Man - The Giant in Love",
+    "oldFile": "Creatures 1.db",
+    "currName": "Dose the Giant in Love - The Transformed Tin Man",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "threat",
+    "oldNpcType": "creature",
+    "currConcept": "Scenario Adversary",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 3,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "Dose suffers from leprosy and other contagious diseases. In early 1900s America, to protect others from infection, he made the agonizing decision to seal himself inside crude metal armor—plates bolted and strapped onto his body, covering him completely except for a small door over his heart. The armor protected others but isolated him completely. He could no",
+    "currBio": "",
+    "oldDescriptors": [
+      "I suffer from leprosy encased in metal armor to protect others from contagion",
+      "I cannot feel anything through the metal and fear I'm becoming hollow inside",
+      "I desperately want to feel human connection again but armor keeps me isolated",
+      "By Part Three: I've fallen in love and my armor is being replaced by living flesh where love touches"
+    ],
+    "currDescriptors": [
+      "Dose the Giant in Love - The Transformed Tin Man - Descriptor",
+      "Dose the Giant in Love - The Transformed Tin Man - Descriptor 2",
+      "Dose the Giant in Love - The Transformed Tin Man - Descriptor 3",
+      "Dose the Giant in Love - The Transformed Tin Man - Descriptor 4"
+    ],
+    "oldGifts": [
+      "Of Steel (Parts One and Two)",
+      "Giant",
+      "Of Steel and Love (Part Three Transformation)"
+    ],
+    "currGifts": [
+      "Of Steel and Love"
+    ]
+  },
+  {
+    "oldName": "Hirnloser the Scarecrow - The Genius",
+    "oldFile": "Creatures 1.db",
+    "currName": "Hirnloser the Genius - The Transformed Scarecrow",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "threat",
+    "oldNpcType": "creature",
+    "currConcept": "Scenario Adversary",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 3,
+      "extra": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "oldBio": "Hirnloser was a psychiatric patient in early 1900s America. The doctors diagnosed him as mentally ill, saying his brain didn't work correctly. After years of being told he was mad and broken, Hirnloser came to believe he literally had no brain at all—a delusion that paradoxically freed his mind. In the asylum, he developed an unusual way of perceiving the wo",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a psychiatric patient from early 1900s—they said I was mad, that my brain didn't work right",
+      "Now I believe I have no brain at all, but I see things others cannot",
+      "I speak in riddles and move like a scarecrow, but I perceive the truth beneath surfaces",
+      "By Part Three, I realize my mind is my greatest weapon—I am a genius"
+    ],
+    "currDescriptors": [
+      "Hirnloser the Genius - The Transformed Scarecrow - Descriptor",
+      "Hirnloser the Genius - The Transformed Scarecrow - Descriptor 2",
+      "Hirnloser the Genius - The Transformed Scarecrow - Descriptor 3",
+      "Hirnloser the Genius - The Transformed Scarecrow - Descriptor 4"
+    ],
+    "oldGifts": [
+      "Genius (Part Three Transformation)"
+    ],
+    "currGifts": [
+      "Genius"
+    ]
+  },
+  {
+    "oldName": "Lowe the Coward - The Brave Fighter",
+    "oldFile": "Creatures 1.db",
+    "currName": "Lowe the Brave Fighter - The Transformed Coward",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "threat",
+    "oldNpcType": "creature",
+    "currConcept": "Scenario Adversary",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 2,
+      "extra": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "oldBio": "Lowe suffers from leontiasis, a rare disease that causes his facial bones to grow abnormally, making his face resemble a lion's. In early 1900s America, he was mocked, feared, and called a coward because he learned to adapt and survive by siding with whoever held power. When Dr. Henkle's Compass Rose malfunctioned and threw them to 1780, Lowe found himself i",
+    "currBio": "",
+    "oldDescriptors": [
+      "I suffer from leontiasis, a disease that makes my face look like a lion's",
+      "People call me a coward because I adapt to survive—I'll side with whoever is winning",
+      "I just want to belong somewhere and protect those who accept me",
+      "I'm more rational than my companions but too afraid to speak up"
+    ],
+    "currDescriptors": [
+      "Lowe the Brave Fighter - The Transformed Coward - Descriptor",
+      "Lowe the Brave Fighter - The Transformed Coward - Descriptor 2",
+      "Lowe the Brave Fighter - The Transformed Coward - Descriptor 3",
+      "Lowe the Brave Fighter - The Transformed Coward - Descriptor 4"
+    ],
+    "oldGifts": [
+      "Hero (Part Three Transformation)"
+    ],
+    "currGifts": [
+      "Hero"
+    ]
+  },
+  {
+    "oldName": "Sea Fairy - The Compassionate",
+    "oldFile": "Dark Presences 1.db",
+    "currName": "Sea Fairy",
+    "currPack": "broken-tales.scenario-actors",
+    "oldType": "npc",
+    "currType": "villager",
+    "oldNpcType": "dark_presence",
+    "currConcept": "Scenario Villager",
+    "oldOpposition": 5,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 3,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "The Sea Fairy is an ancient and powerful being whose entire existence is tied to the ocean. She dwells in a pool at the center of a cave network beneath the steep cliffs, a place accessible only to those brave or desperate enough to navigate the dangerous descent and submerged tunnels. Six years ago, as Enar's body was consumed by fish in the depths, his hea",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am a fairy of the sea and my magic allows me to perform true miracles",
+      "My entire existence is tied to the sea and leaving it would destroy me",
+      "I am sorrowful that my gift to Enar was twisted by his hatred",
+      "I have heard of Marina and know her reputation for selfishness"
+    ],
+    "currDescriptors": [
+      "Sea Fairy - Descriptor"
+    ],
+    "oldGifts": [
+      "Sea Magic"
+    ],
+    "currGifts": []
+  },
+  {
+    "oldName": "Azzurra De Baciocchi - The Spirit Who Spurns Death",
+    "oldFile": "Dark Presences 1.db",
+    "currName": "Azzurra De Baciocchi - The Spirit of the Witch",
+    "currPack": "broken-tales-broken-ones.broken-ones-actors",
+    "oldType": "npc",
+    "currType": "threat",
+    "oldNpcType": "dark_presence",
+    "currConcept": "Legacy Broken One",
+    "oldOpposition": 7,
+    "currOpposition": "",
+    "oldWounds": {
+      "current": 0,
+      "max": 3,
+      "extra": {
+        "value": 0,
+        "max": 1
+      }
+    },
+    "oldBio": "Azzurra De Baciocchi was a noblewoman burned at the stake in 1513 for witchcraft after being accused of sacrificing young women in search of eternal youth. Her soul refused to pass on, anchoring itself to Villa Cilesterino, the manor that was once her home. For centuries she has wandered as a spirit, trapped between worlds, longing for her past glories and t",
+    "currBio": "",
+    "oldDescriptors": [
+      "I am the spirit of an old and powerful witch",
+      "My powers allow me to summon the souls of the dead and bind them to my will",
+      "I am connected to Villa Cilesterino and aware of all who enter",
+      "I will reclaim the life that was stolen from me"
+    ],
+    "currDescriptors": [
+      "Descriptor"
+    ],
+    "oldGifts": [
+      "Ancient Spirit",
+      "Villa Guardian"
+    ],
+    "currGifts": [
+      "Ancient Spirit"
+    ]
+  }
+]
