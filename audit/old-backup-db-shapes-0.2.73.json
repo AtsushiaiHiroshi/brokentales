@@ -1,0 +1,338 @@
+{
+  "Adversaries.db": {
+    "count": 33,
+    "typeCounts": {
+      "npc": 33
+    },
+    "sample": [
+      {
+        "name": "Shadow of Sherazade",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "oppositionLevel",
+          "isMainNPC",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "background"
+        ],
+        "itemCount": 0,
+        "img": "icons/magic/unholy/silhouette-robe-evil-power.webp"
+      },
+      {
+        "name": "Elizaveta - The Cruel Bride",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "oppositionLevel",
+          "wounds",
+          "soma",
+          "xp",
+          "background",
+          "descriptors",
+          "gifts",
+          "agenda",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/female.svg"
+      },
+      {
+        "name": "Gerard Dubois the Incapable Noble",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "oppositionLevel",
+          "wounds",
+          "soma",
+          "xp",
+          "background",
+          "descriptors",
+          "gifts",
+          "agenda",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      }
+    ]
+  },
+  "Dark Presences.db": {
+    "count": 23,
+    "typeCounts": {
+      "npc": 23
+    },
+    "sample": [
+      {
+        "name": "Alfred Leaves the Talking Ghost",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "isMainNPC",
+          "oppositionLevel",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "background",
+          "notes",
+          "conditions"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      },
+      {
+        "name": "Ambrose the Sorcerer (Old Merlin)",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "isMainNPC",
+          "oppositionLevel",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "background",
+          "notes",
+          "conditions"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      },
+      {
+        "name": "Fire Eater the Puppeteer",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "isMainNPC",
+          "oppositionLevel",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "background",
+          "notes",
+          "conditions"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      }
+    ]
+  },
+  "Villager.db": {
+    "count": 38,
+    "typeCounts": {
+      "npc": 38
+    },
+    "sample": [
+      {
+        "name": "Anne the Little Chatterer",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "background",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "darkEgo",
+          "weapons",
+          "objects",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      },
+      {
+        "name": "Corinne the Housekeeper",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "background",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "darkEgo",
+          "weapons",
+          "objects",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      },
+      {
+        "name": "Didier the Grumpy Old Man",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "background",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "darkEgo",
+          "weapons",
+          "objects",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/mystery-man.svg"
+      }
+    ]
+  },
+  "Broken Ones.db": {
+    "count": 13,
+    "typeCounts": {
+      "npc": 13
+    },
+    "sample": [
+      {
+        "name": "Anastazia the Sorrowful Spirit",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "oppositionLevel",
+          "wounds",
+          "soma",
+          "xp",
+          "background",
+          "descriptors",
+          "gifts",
+          "agenda",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/ghost.svg"
+      },
+      {
+        "name": "Iskra the Young Wolf",
+        "type": "npc",
+        "systemKeys": [
+          "attributes",
+          "background",
+          "equipment",
+          "descriptors",
+          "gifts",
+          "darkEgo",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0
+      },
+      {
+        "name": "Red-Hood Iskra",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/blood.svg"
+      }
+    ]
+  },
+  "Creatures.db": {
+    "count": 14,
+    "typeCounts": {
+      "npc": 14
+    },
+    "sample": [
+      {
+        "name": "Black Wolves of Greskar's Pack",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/pawprint.svg"
+      },
+      {
+        "name": "Greskar the Big Black Wolf",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "attributes",
+          "background",
+          "descriptors",
+          "agenda",
+          "gifts",
+          "darkEgo",
+          "weapons",
+          "objects",
+          "conditions",
+          "notes"
+        ],
+        "itemCount": 0,
+        "img": "icons/svg/pawprint.svg"
+      },
+      {
+        "name": "Spawn of The God Under the Mine",
+        "type": "npc",
+        "systemKeys": [
+          "npcType",
+          "oppositionLevel",
+          "isMainNPC",
+          "attributes",
+          "descriptors",
+          "gifts",
+          "background"
+        ],
+        "itemCount": 0,
+        "img": "icons/creatures/tentacles/tentacles-eyes-pink.webp"
+      }
+    ]
+  },
+  "pre-generated-npcs.db": {
+    "count": 16,
+    "typeCounts": {
+      "(none)": 15,
+      "npc": 1
+    },
+    "sample": [
+      {
+        "systemKeys": [],
+        "itemCount": 0
+      },
+      {
+        "systemKeys": [],
+        "itemCount": 0
+      },
+      {
+        "systemKeys": [],
+        "itemCount": 0
+      }
+    ]
+  },
+  "Scenario Gifts.db": {
+    "count": 1,
+    "typeCounts": {
+      "(none)": 1
+    },
+    "sample": [
+      {
+        "systemKeys": [],
+        "itemCount": 0
+      }
+    ]
+  }
+}

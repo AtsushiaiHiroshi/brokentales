@@ -1,0 +1,45 @@
+{
+  "adversaries": {
+    "oldCount": 33,
+    "curCandidateCount": 108,
+    "missing": [],
+    "present": 33
+  },
+  "darkPresences": {
+    "oldCount": 23,
+    "curCandidateCount": 23,
+    "missing": [],
+    "present": 23
+  },
+  "villagers": {
+    "oldCount": 38,
+    "curCandidateCount": 85,
+    "missing": [],
+    "present": 38
+  },
+  "brokenOnes": {
+    "oldCount": 13,
+    "curCandidateCount": 317,
+    "missing": [
+      "Anastazia the Sorrowful Spirit",
+      "Red-Hood Iskra",
+      "The God Under the Mine",
+      "Azzurra De Baciocchi - The Spirit of the Witch",
+      "Margareta Westen - The Good Witch",
+      "Dr. Norman Henkle - The Powerful Wizard",
+      "Helga - The Red Witch",
+      "Yvonne - The Spirit Who Longs for Revenge",
+      "Enar - The Eternal Soldier",
+      "Princess Tuvstarr - The Child Princess",
+      "The Hulder - Corrupted Forest Spirit",
+      "Alice Liddell - The Director"
+    ],
+    "present": 1
+  },
+  "creatures": {
+    "oldCount": 14,
+    "curCandidateCount": 108,
+    "missing": [],
+    "present": 14
+  }
+}

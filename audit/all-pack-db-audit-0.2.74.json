@@ -1,0 +1,712 @@
+{
+  "summary": {
+    "totalPacks": 78,
+    "empty": [],
+    "parseErrors": [],
+    "duplicates": []
+  },
+  "packs": [
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-actors.db",
+      "bytes": 407359,
+      "docs": 75,
+      "named": 67,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-adventures.db",
+      "bytes": 261566,
+      "docs": 7,
+      "named": 7,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-dark-egos.db",
+      "bytes": 23643,
+      "docs": 26,
+      "named": 13,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-descriptors.db",
+      "bytes": 66693,
+      "docs": 54,
+      "named": 41,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-equipment.db",
+      "bytes": 81888,
+      "docs": 98,
+      "named": 85,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-gifts.db",
+      "bytes": 40780,
+      "docs": 39,
+      "named": 26,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-hunters.db",
+      "bytes": 226313,
+      "docs": 14,
+      "named": 13,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-library.db",
+      "bytes": 548108,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-maps.db",
+      "bytes": 8792,
+      "docs": 7,
+      "named": 7,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-scenes.db",
+      "bytes": 7997,
+      "docs": 7,
+      "named": 7,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-source-pdfs.db",
+      "bytes": 4098,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/broken-ones-threat-descriptors.db",
+      "bytes": 76075,
+      "docs": 108,
+      "named": 54,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/red-hood-iskra-audio.db",
+      "bytes": 3665,
+      "docs": 2,
+      "named": 2,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/red-hood-iskra-maps.db",
+      "bytes": 6342,
+      "docs": 4,
+      "named": 4,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-broken-ones",
+      "rel": "packs/red-hood-iskra-support.db",
+      "bytes": 22890,
+      "docs": 16,
+      "named": 13,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-actors.db",
+      "bytes": 659854,
+      "docs": 131,
+      "named": 122,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-adventures.db",
+      "bytes": 440660,
+      "docs": 9,
+      "named": 9,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-dark-egos.db",
+      "bytes": 41695,
+      "docs": 38,
+      "named": 19,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-dark-presence-descriptors.db",
+      "bytes": 9546,
+      "docs": 11,
+      "named": 10,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-dark-presences.db",
+      "bytes": 104476,
+      "docs": 11,
+      "named": 10,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-descriptors.db",
+      "bytes": 102888,
+      "docs": 85,
+      "named": 66,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-equipment.db",
+      "bytes": 102710,
+      "docs": 118,
+      "named": 103,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-gifts.db",
+      "bytes": 59535,
+      "docs": 57,
+      "named": 38,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-hunters.db",
+      "bytes": 323747,
+      "docs": 21,
+      "named": 19,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-library.db",
+      "bytes": 1412763,
+      "docs": 5,
+      "named": 5,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-maps.db",
+      "bytes": 11025,
+      "docs": 9,
+      "named": 9,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-scenario-gifts.db",
+      "bytes": 18104,
+      "docs": 14,
+      "named": 10,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-scenes.db",
+      "bytes": 10301,
+      "docs": 9,
+      "named": 9,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-source-pdfs.db",
+      "bytes": 6897,
+      "docs": 5,
+      "named": 5,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales-lost-stories",
+      "rel": "packs/lost-stories-threat-descriptors.db",
+      "bytes": 9476,
+      "docs": 11,
+      "named": 10,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventure-maps-canon.db",
+      "bytes": 16460,
+      "docs": 13,
+      "named": 13,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventure-maps.db",
+      "bytes": 16460,
+      "docs": 13,
+      "named": 13,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventure-scenes-canon.db",
+      "bytes": 16202,
+      "docs": 14,
+      "named": 14,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventure-scenes.db",
+      "bytes": 16202,
+      "docs": 14,
+      "named": 14,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventures-canon.db",
+      "bytes": 340733,
+      "docs": 11,
+      "named": 11,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/adventures.db",
+      "bytes": 340733,
+      "docs": 11,
+      "named": 11,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/audit-canon.db",
+      "bytes": 4535,
+      "docs": 1,
+      "named": 1,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/audit.db",
+      "bytes": 4535,
+      "docs": 1,
+      "named": 1,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/dark-presence-descriptors-canon.db",
+      "bytes": 57616,
+      "docs": 46,
+      "named": 46,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/dark-presence-descriptors.db",
+      "bytes": 63557,
+      "docs": 69,
+      "named": 46,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/dark-presences-canon.db",
+      "bytes": 296698,
+      "docs": 23,
+      "named": 23,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/dark-presences.db",
+      "bytes": 297251,
+      "docs": 24,
+      "named": 23,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/essence-descriptors-canon.db",
+      "bytes": 2510,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/essence-descriptors.db",
+      "bytes": 2739,
+      "docs": 4,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-dark-egos-canon.db",
+      "bytes": 39798,
+      "docs": 15,
+      "named": 15,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-dark-egos.db",
+      "bytes": 43947,
+      "docs": 30,
+      "named": 15,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-descriptors-canon.db",
+      "bytes": 135672,
+      "docs": 61,
+      "named": 61,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-descriptors.db",
+      "bytes": 140175,
+      "docs": 76,
+      "named": 61,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-equipment-canon.db",
+      "bytes": 91472,
+      "docs": 80,
+      "named": 80,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-equipment.db",
+      "bytes": 96479,
+      "docs": 95,
+      "named": 80,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-gifts-canon.db",
+      "bytes": 69927,
+      "docs": 31,
+      "named": 31,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunter-gifts.db",
+      "bytes": 74300,
+      "docs": 46,
+      "named": 31,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunters-canon.db",
+      "bytes": 427492,
+      "docs": 15,
+      "named": 15,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/hunters.db",
+      "bytes": 427238,
+      "docs": 17,
+      "named": 15,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/library-canon.db",
+      "bytes": 1839432,
+      "docs": 12,
+      "named": 12,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/library.db",
+      "bytes": 1839432,
+      "docs": 12,
+      "named": 12,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-actors-canon.db",
+      "bytes": 735023,
+      "docs": 85,
+      "named": 85,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-actors.db",
+      "bytes": 736948,
+      "docs": 88,
+      "named": 85,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-a-soldiers-duty.db",
+      "bytes": 8167,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-canon.db",
+      "bytes": 49197,
+      "docs": 19,
+      "named": 19,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-of-flesh-and-wood.db",
+      "bytes": 7096,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-one-thousand-and-one-nightmares.db",
+      "bytes": 6559,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-ozena-the-suffering-and-desperate.db",
+      "bytes": 19149,
+      "docs": 9,
+      "named": 9,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-red-hood-iskra.db",
+      "bytes": 7320,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-saint-george-the-dragon-slayer.db",
+      "bytes": 8043,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-the-city-of-pigs.db",
+      "bytes": 11832,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-the-smile-in-the-darkness.db",
+      "bytes": 5034,
+      "docs": 2,
+      "named": 2,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-tuvstarrs-reflection.db",
+      "bytes": 5449,
+      "docs": 2,
+      "named": 2,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts-wonderbedlam.db",
+      "bytes": 13031,
+      "docs": 3,
+      "named": 3,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/scenario-gifts.db",
+      "bytes": 50977,
+      "docs": 26,
+      "named": 19,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/source-pdfs-canon.db",
+      "bytes": 59634,
+      "docs": 47,
+      "named": 47,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/source-pdfs.db",
+      "bytes": 59634,
+      "docs": 47,
+      "named": 47,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/support-canon.db",
+      "bytes": 4143,
+      "docs": 6,
+      "named": 6,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/support.db",
+      "bytes": 4143,
+      "docs": 6,
+      "named": 6,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/threat-descriptors-canon.db",
+      "bytes": 136121,
+      "docs": 118,
+      "named": 118,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/threat-descriptors.db",
+      "bytes": 148670,
+      "docs": 165,
+      "named": 118,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/villager-descriptors-canon.db",
+      "bytes": 80387,
+      "docs": 71,
+      "named": 71,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    },
+    {
+      "root": "broken-tales",
+      "rel": "packs/villager-descriptors.db",
+      "bytes": 89728,
+      "docs": 109,
+      "named": 71,
+      "parseErrors": 0,
+      "duplicateNameSlugs": []
+    }
+  ]
+}

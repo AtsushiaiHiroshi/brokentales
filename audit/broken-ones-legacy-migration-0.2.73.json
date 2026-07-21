@@ -1,0 +1,266 @@
+{
+  "local": {
+    "path": "C:\\Users\\Gamer\\AppData\\Local\\FoundryVTT\\Data\\modules\\broken-tales-broken-ones\\packs\\broken-ones-actors.db",
+    "docs": 75,
+    "parseErrors": 0,
+    "duplicateNameSlugs": [],
+    "legacyCount": 14,
+    "legacy": [
+      {
+        "name": "Legacy Broken Ones (Backup)",
+        "type": "Folder",
+        "items": 0,
+        "folder": null
+      },
+      {
+        "name": "Anastazia the Sorrowful Spirit",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Iskra the Young Wolf",
+        "type": "threat",
+        "items": 7,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 5,
+        "wounds": 3
+      },
+      {
+        "name": "Red-Hood Iskra",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 5,
+        "wounds": 4
+      },
+      {
+        "name": "The God Under the Mine",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 6
+      },
+      {
+        "name": "Azzurra De Baciocchi - The Spirit of the Witch",
+        "type": "threat",
+        "items": 2,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Margareta Westen - The Good Witch",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 1
+      },
+      {
+        "name": "Dr. Norman Henkle - The Powerful Wizard",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 2
+      },
+      {
+        "name": "Helga - The Red Witch",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Yvonne - The Spirit Who Longs for Revenge",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 3
+      },
+      {
+        "name": "Enar - The Eternal Soldier",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 4
+      },
+      {
+        "name": "Princess Tuvstarr - The Child Princess",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 2
+      },
+      {
+        "name": "The Hulder - Corrupted Forest Spirit",
+        "type": "threat",
+        "items": 5,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Alice Liddell - The Director",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 3
+      }
+    ]
+  },
+  "repo": {
+    "path": "E:\\respaldos\\brokentales-repo\\modules\\broken-tales-broken-ones\\packs\\broken-ones-actors.db",
+    "docs": 75,
+    "parseErrors": 0,
+    "duplicateNameSlugs": [],
+    "legacyCount": 14,
+    "legacy": [
+      {
+        "name": "Legacy Broken Ones (Backup)",
+        "type": "Folder",
+        "items": 0,
+        "folder": null
+      },
+      {
+        "name": "Anastazia the Sorrowful Spirit",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Iskra the Young Wolf",
+        "type": "threat",
+        "items": 7,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 5,
+        "wounds": 3
+      },
+      {
+        "name": "Red-Hood Iskra",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Broken One",
+        "opp": 5,
+        "wounds": 4
+      },
+      {
+        "name": "The God Under the Mine",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 6
+      },
+      {
+        "name": "Azzurra De Baciocchi - The Spirit of the Witch",
+        "type": "threat",
+        "items": 2,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Margareta Westen - The Good Witch",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 1
+      },
+      {
+        "name": "Dr. Norman Henkle - The Powerful Wizard",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 2
+      },
+      {
+        "name": "Helga - The Red Witch",
+        "type": "threat",
+        "items": 6,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Yvonne - The Spirit Who Longs for Revenge",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 3
+      },
+      {
+        "name": "Enar - The Eternal Soldier",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 4
+      },
+      {
+        "name": "Princess Tuvstarr - The Child Princess",
+        "type": "threat",
+        "items": 4,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 2
+      },
+      {
+        "name": "The Hulder - Corrupted Forest Spirit",
+        "type": "threat",
+        "items": 5,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 7,
+        "wounds": 3
+      },
+      {
+        "name": "Alice Liddell - The Director",
+        "type": "threat",
+        "items": 3,
+        "folder": "SGY01ijY2YAU13Df",
+        "role": "Main NPC",
+        "opp": 5,
+        "wounds": 3
+      }
+    ]
+  }
+}
