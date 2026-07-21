@@ -151,6 +151,7 @@ function enhanceBrokenTalesCompendiumMarkup(root) {
 }
 
 const LOCALIZED_PACK_NAME_CACHE = new Map();
+const LOCALIZED_PACK_IMAGE_CACHE = new Map();
 const SCENARIO_GIFT_GROUP_CACHE = new Map();
 const LOCALIZED_COMPENDIUM_OBSERVERS = new WeakSet();
 const SCENARIO_GIFT_PACK_IDS = new Set([
@@ -173,9 +174,6 @@ function selectedContentLanguage() {
     return "";
   };
 
-  const i18n = resolve(game.i18n?.lang);
-  if (i18n) return i18n;
-
   try {
     const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
@@ -186,6 +184,9 @@ function selectedContentLanguage() {
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
+
+  const i18n = resolve(game.i18n?.lang);
+  if (i18n) return i18n;
 
   return "en";
 }
@@ -213,6 +214,29 @@ async function translatedPackNames(packId, language) {
   return names;
 }
 
+async function translatedPackImages(packId, language) {
+  if (!packId || !language || language === "en") return new Map();
+  const cacheKey = `${packId}:${language}`;
+  if (LOCALIZED_PACK_IMAGE_CACHE.has(cacheKey)) return LOCALIZED_PACK_IMAGE_CACHE.get(cacheKey);
+
+  const pack = game.packs.get(packId);
+  if (!pack) return new Map();
+  const documents = await pack.getDocuments();
+  const images = new Map();
+  for (const document of documents) {
+    const translatedImage = document.flags?.["broken-tales"]?.translations?.[language]?.img ?? document.img;
+    if (!translatedImage) continue;
+    images.set(document.uuid, translatedImage);
+    images.set(`Compendium.${packId}.${document.id}`, translatedImage);
+    images.set(`${packId}.${document.id}`, translatedImage);
+    images.set(document.id, translatedImage);
+    images.set(document._id, translatedImage);
+    images.set(document.name, translatedImage);
+  }
+  LOCALIZED_PACK_IMAGE_CACHE.set(cacheKey, images);
+  return images;
+}
+
 async function localizeBrokenTalesPackIndexes() {
   const language = selectedContentLanguage();
   if (!language || language === "en" || !game?.packs) return;
@@ -222,11 +246,13 @@ async function localizeBrokenTalesPackIndexes() {
     try {
       const index = await pack.getIndex({ fields: ["flags.broken-tales.translations"] });
       for (const entry of index) {
-        const translatedName = entry.flags?.["broken-tales"]?.translations?.[language]?.name;
-        if (!translatedName) continue;
-        entry.name = translatedName;
-        if (entry.label) entry.label = translatedName;
-        if (entry.title) entry.title = translatedName;
+        const translation = entry.flags?.["broken-tales"]?.translations?.[language];
+        if (translation?.name) {
+          entry.name = translation.name;
+          if (entry.label) entry.label = translation.name;
+          if (entry.title) entry.title = translation.name;
+        }
+        if (translation?.img) entry.img = translation.img;
       }
       pack.apps?.forEach?.((app) => app.render?.(false));
     } catch (error) {
@@ -239,7 +265,8 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
   const language = selectedContentLanguage();
   if (!root || !packId || language === "en") return;
   const names = await translatedPackNames(packId, language);
-  if (!names.size) return;
+  const images = await translatedPackImages(packId, language);
+  if (!names.size && !images.size) return;
 
   const selector = [
     "[data-document-id]",
@@ -276,10 +303,19 @@ async function localizeBrokenTalesCompendiumNames(root, packId) {
     ].filter(Boolean);
 
     const translatedName = keys.map((key) => names.get(key)).find(Boolean);
-    if (!translatedName) return;
-    label.textContent = translatedName;
-    if (entry.dataset.tooltip) entry.dataset.tooltip = translatedName;
-    if (entry.title) entry.title = translatedName;
+    const translatedImage = keys.map((key) => images.get(key)).find(Boolean);
+    if (translatedName) {
+      label.textContent = translatedName;
+      if (entry.dataset.tooltip) entry.dataset.tooltip = translatedName;
+      if (entry.title) entry.title = translatedName;
+    }
+    if (translatedImage) {
+      const image = entry.querySelector("img");
+      if (image) {
+        image.src = translatedImage;
+        image.alt = translatedName ?? image.alt ?? "";
+      }
+    }
   });
 
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {

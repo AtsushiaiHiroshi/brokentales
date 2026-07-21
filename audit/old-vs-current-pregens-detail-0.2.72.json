@@ -1,0 +1,943 @@
+{
+  "oldCount": 15,
+  "currentCount": 15,
+  "missingOldToCurrent": [],
+  "mismatchedCounts": [
+    {
+      "slug": "baba-yaga-the-child-witch",
+      "oldName": "Baba Yaga the Child Witch",
+      "curName": "Baba Yaga the Child Witch",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 219
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Magic",
+        "Listen to my Words"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Evil Witch"
+      ]
+    },
+    {
+      "slug": "babai-the-judge",
+      "oldName": "Babai the Judge",
+      "curName": "Babai the Judge",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 198
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Eye of the Judge",
+        "Like a Shadow"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "slug": "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat",
+      "oldName": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "curName": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 3,
+        "darkEgo": 0,
+        "equipment": 320
+      },
+      "curCounts": {
+        "descriptors": 5,
+        "gifts": 3,
+        "darkEgo": 1,
+        "equipment": 2
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor3-don3.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Believe in Miracles (Cunning)",
+        "Rogue (Sly)",
+        "Partner in Crime (Common)"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Fox and the Cat"
+      ]
+    },
+    {
+      "slug": "garou-the-old-wolf",
+      "oldName": "Garou the Old Wolf",
+      "curName": "Garou the Old Wolf",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 218
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 3
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Find Them Forever After",
+        "Wolf Among the Lambs"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Big Bad Wolf"
+      ]
+    },
+    {
+      "slug": "george-the-holy-dragon-slayer",
+      "oldName": "George the Holy Dragon Slayer",
+      "curName": "George the Holy Dragon Slayer",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 244
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "The Dragon Slayer",
+        "Agent of the Papacy"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Saint"
+      ]
+    },
+    {
+      "slug": "james-the-swordsman",
+      "oldName": "James the Swordsman",
+      "curName": "James the Swordsman",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 160
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - I Will Have My Satisfaction"
+      ]
+    },
+    {
+      "slug": "marina-the-sea-explorer",
+      "oldName": "Marina the Sea Explorer",
+      "curName": "Marina the Sea Explorer",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 164
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Sea Magic",
+        "Mutable Appearance"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Treasures of the Sea"
+      ]
+    },
+    {
+      "slug": "niklaus-von-krampus",
+      "oldName": "Niklaus von Krampus",
+      "curName": "Niklaus von Krampus",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 287
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Exorcist",
+        "The Inner Demon"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Demon Revealed"
+      ]
+    },
+    {
+      "slug": "regina-the-thief-of-hearts",
+      "oldName": "Regina the Thief of Hearts",
+      "curName": "Regina the Thief of Hearts",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 218
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "I Want It!",
+        "The Queen"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - As I Want!"
+      ]
+    },
+    {
+      "slug": "sun-wukong-the-amazing-monkey",
+      "oldName": "Sun Wukong the Amazing Monkey",
+      "curName": "Sun Wukong the Amazing Monkey",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 248
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Guardian Disciple",
+        "Monkey King"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Descendant of the Awakening of the Void and the Emptiness"
+      ]
+    },
+    {
+      "slug": "the-astonishing-pied-piper-without-a-name",
+      "oldName": "The Astonishing Pied Piper Without a Name",
+      "curName": "The Astonishing Pied Piper Without a Name",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 208
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Soul Music",
+        "Skilled Acrobat"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Power of Music"
+      ]
+    },
+    {
+      "slug": "the-immortal",
+      "oldName": "The Immortal",
+      "curName": "The Immortal",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 283
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Memories of an Infinite Life",
+        "The Servant"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Immortal"
+      ]
+    },
+    {
+      "slug": "the-woman-from-the-woods",
+      "oldName": "The Woman from the Woods",
+      "curName": "The Woman from the Woods",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 258
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 1
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "The Woman from the Wood",
+        "Home Sweet Home"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Soft and Succulent Flesh"
+      ]
+    },
+    {
+      "slug": "verdoux-bluebeard",
+      "oldName": "Verdoux Bluebeard",
+      "curName": "Verdoux Bluebeard",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 294
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 8
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Problem Solver",
+        "The Key to Each Door"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Unscrupulous Assassin"
+      ]
+    },
+    {
+      "slug": "yukie-onn-the-traveling-artist",
+      "oldName": "Yukie Onn the Traveling Artist",
+      "curName": "Yukie Onn the Traveling Artist",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 234
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Otherworldly Charm",
+        "Blood-Hot"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Ice-Cold"
+      ]
+    }
+  ],
+  "compare": [
+    {
+      "slug": "baba-yaga-the-child-witch",
+      "oldName": "Baba Yaga the Child Witch",
+      "curName": "Baba Yaga the Child Witch",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 219
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Magic",
+        "Listen to my Words"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Evil Witch"
+      ]
+    },
+    {
+      "slug": "babai-the-judge",
+      "oldName": "Babai the Judge",
+      "curName": "Babai the Judge",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 198
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Eye of the Judge",
+        "Like a Shadow"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - If you don’t Stop, I’ll Call the Bogeyman!"
+      ]
+    },
+    {
+      "slug": "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat",
+      "oldName": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "curName": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 3,
+        "darkEgo": 0,
+        "equipment": 320
+      },
+      "curCounts": {
+        "descriptors": 5,
+        "gifts": 3,
+        "darkEgo": 1,
+        "equipment": 2
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor3-don3.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Believe in Miracles (Cunning)",
+        "Rogue (Sly)",
+        "Partner in Crime (Common)"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Fox and the Cat"
+      ]
+    },
+    {
+      "slug": "garou-the-old-wolf",
+      "oldName": "Garou the Old Wolf",
+      "curName": "Garou the Old Wolf",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 218
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 3
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Find Them Forever After",
+        "Wolf Among the Lambs"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Big Bad Wolf"
+      ]
+    },
+    {
+      "slug": "george-the-holy-dragon-slayer",
+      "oldName": "George the Holy Dragon Slayer",
+      "curName": "George the Holy Dragon Slayer",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 244
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "The Dragon Slayer",
+        "Agent of the Papacy"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Saint"
+      ]
+    },
+    {
+      "slug": "james-the-swordsman",
+      "oldName": "James the Swordsman",
+      "curName": "James the Swordsman",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 160
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "With a Sword or a Smile",
+        "Tick-Tock, Here Comes The Beast"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - I Will Have My Satisfaction"
+      ]
+    },
+    {
+      "slug": "marina-the-sea-explorer",
+      "oldName": "Marina the Sea Explorer",
+      "curName": "Marina the Sea Explorer",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 164
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Sea Magic",
+        "Mutable Appearance"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Treasures of the Sea"
+      ]
+    },
+    {
+      "slug": "niklaus-von-krampus",
+      "oldName": "Niklaus von Krampus",
+      "curName": "Niklaus von Krampus",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 287
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Exorcist",
+        "The Inner Demon"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Demon Revealed"
+      ]
+    },
+    {
+      "slug": "regina-the-thief-of-hearts",
+      "oldName": "Regina the Thief of Hearts",
+      "curName": "Regina the Thief of Hearts",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 218
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "I Want It!",
+        "The Queen"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - As I Want!"
+      ]
+    },
+    {
+      "slug": "sun-wukong-the-amazing-monkey",
+      "oldName": "Sun Wukong the Amazing Monkey",
+      "curName": "Sun Wukong the Amazing Monkey",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 248
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 4
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Guardian Disciple",
+        "Monkey King"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Descendant of the Awakening of the Void and the Emptiness"
+      ]
+    },
+    {
+      "slug": "the-astonishing-pied-piper-without-a-name",
+      "oldName": "The Astonishing Pied Piper Without a Name",
+      "curName": "The Astonishing Pied Piper Without a Name",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 208
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Soul Music",
+        "Skilled Acrobat"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Power of Music"
+      ]
+    },
+    {
+      "slug": "the-immortal",
+      "oldName": "The Immortal",
+      "curName": "The Immortal",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 283
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 6
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Memories of an Infinite Life",
+        "The Servant"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Immortal"
+      ]
+    },
+    {
+      "slug": "the-woman-from-the-woods",
+      "oldName": "The Woman from the Woods",
+      "curName": "The Woman from the Woods",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 258
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 1
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "The Woman from the Wood",
+        "Home Sweet Home"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Soft and Succulent Flesh"
+      ]
+    },
+    {
+      "slug": "verdoux-bluebeard",
+      "oldName": "Verdoux Bluebeard",
+      "curName": "Verdoux Bluebeard",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 294
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 8
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Problem Solver",
+        "The Key to Each Door"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - The Unscrupulous Assassin"
+      ]
+    },
+    {
+      "slug": "yukie-onn-the-traveling-artist",
+      "oldName": "Yukie Onn the Traveling Artist",
+      "curName": "Yukie Onn the Traveling Artist",
+      "oldCounts": {
+        "descriptors": 3,
+        "gifts": 2,
+        "darkEgo": 0,
+        "equipment": 234
+      },
+      "curCounts": {
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgo": 1,
+        "equipment": 7
+      },
+      "missingCur": false,
+      "descriptorKeys": [
+        "descriptor-principal.cazador",
+        "descriptor1-don1.cazador",
+        "descriptor2-don2.cazador",
+        "descriptor-darkego.cazador"
+      ],
+      "giftNames": [
+        "Otherworldly Charm",
+        "Blood-Hot"
+      ],
+      "darkEgoNames": [
+        "Dark Ego - Ice-Cold"
+      ]
+    }
+  ]
+}

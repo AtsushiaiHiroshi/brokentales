@@ -1,0 +1,268 @@
+{
+  "oldCount": 0,
+  "curCount": 15,
+  "oldNames": [],
+  "curNames": [
+    "James the Swordsman",
+    "Garou the Old Wolf",
+    "The Astonishing Pied Piper Without a Name",
+    "Baba Yaga the Child Witch",
+    "Regina the Thief of Hearts",
+    "Babai the Judge",
+    "The Woman from the Woods",
+    "The Immortal",
+    "Marina the Sea Explorer",
+    "Niklaus von Krampus",
+    "George the Holy Dragon Slayer",
+    "Sun Wukong the Amazing Monkey",
+    "Verdoux Bluebeard",
+    "Yukie Onn the Traveling Artist",
+    "Cunning Machiavelli the Fox and Sly Bischeri the Cat"
+  ],
+  "missingFromCurrentBySlug": [],
+  "extraCurrentBySlug": [
+    "james-the-swordsman",
+    "garou-the-old-wolf",
+    "the-astonishing-pied-piper-without-a-name",
+    "baba-yaga-the-child-witch",
+    "regina-the-thief-of-hearts",
+    "babai-the-judge",
+    "the-woman-from-the-woods",
+    "the-immortal",
+    "marina-the-sea-explorer",
+    "niklaus-von-krampus",
+    "george-the-holy-dragon-slayer",
+    "sun-wukong-the-amazing-monkey",
+    "verdoux-bluebeard",
+    "yukie-onn-the-traveling-artist",
+    "cunning-machiavelli-the-fox-and-sly-bischeri-the-cat"
+  ],
+  "currentItemCounts": [
+    {
+      "name": "James the Swordsman",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Garou the Old Wolf",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 3,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "The Astonishing Pied Piper Without a Name",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Baba Yaga the Child Witch",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Regina the Thief of Hearts",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Babai the Judge",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "The Woman from the Woods",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 1,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "The Immortal",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Marina the Sea Explorer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Niklaus von Krampus",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 6,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "George the Holy Dragon Slayer",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Sun Wukong the Amazing Monkey",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 4,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Verdoux Bluebeard",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 8,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Yukie Onn the Traveling Artist",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+      "counts": {
+        "descriptor": 4,
+        "gift": 2,
+        "darkEgo": 1,
+        "equipment": 7,
+        "storyElement": 1
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    },
+    {
+      "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+      "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+      "counts": {
+        "descriptor": 5,
+        "gift": 3,
+        "darkEgo": 1,
+        "storyElement": 1,
+        "equipment": 2
+      },
+      "translationLanguages": [
+        "es"
+      ],
+      "backgroundLen": 120
+    }
+  ],
+  "oldItemCounts": []
+}

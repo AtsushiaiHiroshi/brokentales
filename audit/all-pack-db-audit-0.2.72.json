@@ -1,0 +1,1475 @@
+{
+  "summary": {
+    "system": {
+      "packs": 48,
+      "empty": [],
+      "parseErrors": [],
+      "duplicateNames": []
+    },
+    "repoSystem": {
+      "packs": 48,
+      "empty": [],
+      "parseErrors": [],
+      "duplicateNames": []
+    },
+    "brokenOnes": {
+      "packs": 15,
+      "empty": [],
+      "parseErrors": [],
+      "duplicateNames": []
+    },
+    "lostStories": {
+      "packs": 15,
+      "empty": [],
+      "parseErrors": [],
+      "duplicateNames": []
+    }
+  },
+  "details": {
+    "system": [
+      {
+        "rel": "packs\\adventure-maps-canon.db",
+        "count": 13,
+        "docCount": 13,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-maps.db",
+        "count": 13,
+        "docCount": 13,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-scenes-canon.db",
+        "count": 14,
+        "docCount": 14,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-scenes.db",
+        "count": 14,
+        "docCount": 14,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventures-canon.db",
+        "count": 11,
+        "docCount": 11,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventures.db",
+        "count": 11,
+        "docCount": 11,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\audit-canon.db",
+        "count": 1,
+        "docCount": 1,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\audit.db",
+        "count": 1,
+        "docCount": 1,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presence-descriptors-canon.db",
+        "count": 46,
+        "docCount": 46,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 46
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presence-descriptors.db",
+        "count": 69,
+        "docCount": 46,
+        "folderCount": 23,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 23,
+          "descriptor": 46
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presences-canon.db",
+        "count": 23,
+        "docCount": 23,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "threat": 23
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presences.db",
+        "count": 24,
+        "docCount": 23,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "threat": 23
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\essence-descriptors-canon.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\essence-descriptors.db",
+        "count": 4,
+        "docCount": 3,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-dark-egos-canon.db",
+        "count": 15,
+        "docCount": 15,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "darkEgo": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-dark-egos.db",
+        "count": 30,
+        "docCount": 15,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "darkEgo": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-descriptors-canon.db",
+        "count": 61,
+        "docCount": 61,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 61
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-descriptors.db",
+        "count": 76,
+        "docCount": 61,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "descriptor": 61
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-equipment-canon.db",
+        "count": 80,
+        "docCount": 80,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "equipment": 80
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-equipment.db",
+        "count": 95,
+        "docCount": 80,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "equipment": 80
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-gifts-canon.db",
+        "count": 31,
+        "docCount": 31,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 31
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-gifts.db",
+        "count": 46,
+        "docCount": 31,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "gift": 31
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunters-canon.db",
+        "count": 15,
+        "docCount": 15,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "hunter": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunters.db",
+        "count": 17,
+        "docCount": 15,
+        "folderCount": 2,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 2,
+          "hunter": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\library-canon.db",
+        "count": 12,
+        "docCount": 12,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\library.db",
+        "count": 12,
+        "docCount": 12,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-actors-canon.db",
+        "count": 85,
+        "docCount": 85,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-actors.db",
+        "count": 88,
+        "docCount": 85,
+        "folderCount": 3,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 3,
+          "villager": 38,
+          "threat": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-a-soldiers-duty.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-canon.db",
+        "count": 19,
+        "docCount": 19,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-of-flesh-and-wood.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-one-thousand-and-one-nightmares.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "count": 9,
+        "docCount": 9,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 9
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-red-hood-iskra.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-saint-george-the-dragon-slayer.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-the-city-of-pigs.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-the-smile-in-the-darkness.db",
+        "count": 2,
+        "docCount": 2,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-tuvstarrs-reflection.db",
+        "count": 2,
+        "docCount": 2,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-wonderbedlam.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts.db",
+        "count": 26,
+        "docCount": 19,
+        "folderCount": 7,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 7,
+          "gift": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\source-pdfs-canon.db",
+        "count": 47,
+        "docCount": 47,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\source-pdfs.db",
+        "count": 47,
+        "docCount": 47,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\support-canon.db",
+        "count": 6,
+        "docCount": 6,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\support.db",
+        "count": 6,
+        "docCount": 6,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\threat-descriptors-canon.db",
+        "count": 118,
+        "docCount": 118,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 118
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\threat-descriptors.db",
+        "count": 165,
+        "docCount": 118,
+        "folderCount": 47,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 47,
+          "descriptor": 118
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\villager-descriptors-canon.db",
+        "count": 71,
+        "docCount": 71,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 71
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\villager-descriptors.db",
+        "count": 109,
+        "docCount": 71,
+        "folderCount": 38,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 38,
+          "descriptor": 71
+        },
+        "dupNames": []
+      }
+    ],
+    "repoSystem": [
+      {
+        "rel": "packs\\adventure-maps-canon.db",
+        "count": 13,
+        "docCount": 13,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-maps.db",
+        "count": 13,
+        "docCount": 13,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-scenes-canon.db",
+        "count": 14,
+        "docCount": 14,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventure-scenes.db",
+        "count": 14,
+        "docCount": 14,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 14
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventures-canon.db",
+        "count": 11,
+        "docCount": 11,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\adventures.db",
+        "count": 11,
+        "docCount": 11,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 11
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\audit-canon.db",
+        "count": 1,
+        "docCount": 1,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\audit.db",
+        "count": 1,
+        "docCount": 1,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presence-descriptors-canon.db",
+        "count": 46,
+        "docCount": 46,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 46
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presence-descriptors.db",
+        "count": 69,
+        "docCount": 46,
+        "folderCount": 23,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 23,
+          "descriptor": 46
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presences-canon.db",
+        "count": 23,
+        "docCount": 23,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "threat": 23
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\dark-presences.db",
+        "count": 24,
+        "docCount": 23,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "threat": 23
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\essence-descriptors-canon.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\essence-descriptors.db",
+        "count": 4,
+        "docCount": 3,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-dark-egos-canon.db",
+        "count": 15,
+        "docCount": 15,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "darkEgo": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-dark-egos.db",
+        "count": 30,
+        "docCount": 15,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "darkEgo": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-descriptors-canon.db",
+        "count": 61,
+        "docCount": 61,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 61
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-descriptors.db",
+        "count": 76,
+        "docCount": 61,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "descriptor": 61
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-equipment-canon.db",
+        "count": 80,
+        "docCount": 80,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "equipment": 80
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-equipment.db",
+        "count": 95,
+        "docCount": 80,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "equipment": 80
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-gifts-canon.db",
+        "count": 31,
+        "docCount": 31,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 31
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunter-gifts.db",
+        "count": 46,
+        "docCount": 31,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "gift": 31
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunters-canon.db",
+        "count": 15,
+        "docCount": 15,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "hunter": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\hunters.db",
+        "count": 17,
+        "docCount": 15,
+        "folderCount": 2,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 2,
+          "hunter": 15
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\library-canon.db",
+        "count": 12,
+        "docCount": 12,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\library.db",
+        "count": 12,
+        "docCount": 12,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 12
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-actors-canon.db",
+        "count": 85,
+        "docCount": 85,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "villager": 38,
+          "threat": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-actors.db",
+        "count": 88,
+        "docCount": 85,
+        "folderCount": 3,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 3,
+          "villager": 38,
+          "threat": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-a-soldiers-duty.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-canon.db",
+        "count": 19,
+        "docCount": 19,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-of-flesh-and-wood.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-one-thousand-and-one-nightmares.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-ozena-the-suffering-and-desperate.db",
+        "count": 9,
+        "docCount": 9,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 9
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-red-hood-iskra.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-saint-george-the-dragon-slayer.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-the-city-of-pigs.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-the-smile-in-the-darkness.db",
+        "count": 2,
+        "docCount": 2,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-tuvstarrs-reflection.db",
+        "count": 2,
+        "docCount": 2,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 2
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts-wonderbedlam.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "gift": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\scenario-gifts.db",
+        "count": 26,
+        "docCount": 19,
+        "folderCount": 7,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 7,
+          "gift": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\source-pdfs-canon.db",
+        "count": 47,
+        "docCount": 47,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\source-pdfs.db",
+        "count": 47,
+        "docCount": 47,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 47
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\support-canon.db",
+        "count": 6,
+        "docCount": 6,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\support.db",
+        "count": 6,
+        "docCount": 6,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "storyElement": 5,
+          "equipment": 1
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\threat-descriptors-canon.db",
+        "count": 118,
+        "docCount": 118,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 118
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\threat-descriptors.db",
+        "count": 165,
+        "docCount": 118,
+        "folderCount": 47,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 47,
+          "descriptor": 118
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\villager-descriptors-canon.db",
+        "count": 71,
+        "docCount": 71,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "descriptor": 71
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\villager-descriptors.db",
+        "count": 109,
+        "docCount": 71,
+        "folderCount": 38,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 38,
+          "descriptor": 71
+        },
+        "dupNames": []
+      }
+    ],
+    "brokenOnes": [
+      {
+        "rel": "packs\\broken-ones-actors.db",
+        "count": 61,
+        "docCount": 54,
+        "folderCount": 7,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 7,
+          "threat": 54
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-adventures.db",
+        "count": 7,
+        "docCount": 7,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-dark-egos.db",
+        "count": 26,
+        "docCount": 13,
+        "folderCount": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "darkEgo": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-descriptors.db",
+        "count": 54,
+        "docCount": 41,
+        "folderCount": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "descriptor": 41
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-equipment.db",
+        "count": 98,
+        "docCount": 85,
+        "folderCount": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "equipment": 85
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-gifts.db",
+        "count": 39,
+        "docCount": 26,
+        "folderCount": 13,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 13,
+          "gift": 26
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-hunters.db",
+        "count": 14,
+        "docCount": 13,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "hunter": 13
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-library.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-maps.db",
+        "count": 7,
+        "docCount": 7,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-scenes.db",
+        "count": 7,
+        "docCount": 7,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 7
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-source-pdfs.db",
+        "count": 3,
+        "docCount": 3,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 3
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\broken-ones-threat-descriptors.db",
+        "count": 108,
+        "docCount": 54,
+        "folderCount": 54,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 54,
+          "descriptor": 54
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\red-hood-iskra-audio.db",
+        "count": 2,
+        "docCount": 2,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 2
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\red-hood-iskra-maps.db",
+        "count": 4,
+        "docCount": 4,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 4
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\red-hood-iskra-support.db",
+        "count": 16,
+        "docCount": 13,
+        "folderCount": 3,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 3,
+          "gift": 3,
+          "storyElement": 10
+        },
+        "dupNames": []
+      }
+    ],
+    "lostStories": [
+      {
+        "rel": "packs\\lost-stories-actors.db",
+        "count": 131,
+        "docCount": 122,
+        "folderCount": 9,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 9,
+          "threat": 122
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-adventures.db",
+        "count": 9,
+        "docCount": 9,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-dark-egos.db",
+        "count": 38,
+        "docCount": 19,
+        "folderCount": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "darkEgo": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-dark-presence-descriptors.db",
+        "count": 11,
+        "docCount": 10,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 10
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-dark-presences.db",
+        "count": 11,
+        "docCount": 10,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "threat": 10
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-descriptors.db",
+        "count": 85,
+        "docCount": 66,
+        "folderCount": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "descriptor": 66
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-equipment.db",
+        "count": 118,
+        "docCount": 103,
+        "folderCount": 15,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 15,
+          "equipment": 103
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-gifts.db",
+        "count": 57,
+        "docCount": 38,
+        "folderCount": 19,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 19,
+          "gift": 38
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-hunters.db",
+        "count": 21,
+        "docCount": 19,
+        "folderCount": 2,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 2,
+          "hunter": 19
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-library.db",
+        "count": 5,
+        "docCount": 5,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-maps.db",
+        "count": 9,
+        "docCount": 9,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-scenario-gifts.db",
+        "count": 14,
+        "docCount": 10,
+        "folderCount": 4,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 4,
+          "gift": 10
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-scenes.db",
+        "count": 9,
+        "docCount": 9,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 9
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-source-pdfs.db",
+        "count": 5,
+        "docCount": 5,
+        "folderCount": 0,
+        "parseErrors": 0,
+        "byType": {
+          "(none)": 5
+        },
+        "dupNames": []
+      },
+      {
+        "rel": "packs\\lost-stories-threat-descriptors.db",
+        "count": 11,
+        "docCount": 10,
+        "folderCount": 1,
+        "parseErrors": 0,
+        "byType": {
+          "Folder": 1,
+          "descriptor": 10
+        },
+        "dupNames": []
+      }
+    ]
+  }
+}

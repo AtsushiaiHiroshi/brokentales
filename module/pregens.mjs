@@ -60,9 +60,6 @@ function activeContentLanguage() {
     return "";
   };
 
-  const i18n = resolve(game.i18n?.lang);
-  if (i18n) return i18n;
-
   try {
     const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
@@ -73,6 +70,9 @@ function activeContentLanguage() {
   } catch (_error) {
     // Settings can be unavailable during early initialization.
   }
+
+  const i18n = resolve(game.i18n?.lang);
+  if (i18n) return i18n;
 
   return "en";
 }

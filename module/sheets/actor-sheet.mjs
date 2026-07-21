@@ -227,15 +227,15 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
       return "";
     };
 
-    const i18n = resolve(game.i18n?.lang);
-    if (i18n) return i18n;
-
     const configuredRaw = normalize(game.settings?.get?.("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
     if (configured && configuredRaw !== "system") return configured;
 
     const core = resolve(game.settings?.get?.("core", "language"));
     if (core) return core;
+
+    const i18n = resolve(game.i18n?.lang);
+    if (i18n) return i18n;
 
     const system = resolve(game.brokenTales?.contentLanguage?.());
     if (system) return system;
@@ -259,7 +259,7 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
     if (translations.system) localized.system = foundry.utils.mergeObject(
       localized.system ?? {},
       translations.system,
-      { inplace: false }
+      { inplace: false, recursive: true }
     );
     if (translations.description) {
       localized.system ??= {};
