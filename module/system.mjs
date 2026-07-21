@@ -581,8 +581,23 @@ function enhanceBrokenTalesApplication(application, element) {
   if (isScenarioGiftPackId(domPackId)) groupScenarioGiftCompendium(root, domPackId);
 }
 
+function enhanceBrokenTalesCompendiumDirectory(application, element) {
+  const root = applicationElement(element);
+  if (!root) return;
+  enhanceBrokenTalesCompendiumMarkup(root);
+  const rerenderOpenPacks = () => {
+    for (const pack of game.packs ?? []) {
+      if (!isBrokenTalesPackId(pack.collection)) continue;
+      pack.apps?.forEach?.((app) => app.render?.(false));
+    }
+  };
+  for (const delay of [50, 200, 500]) window.setTimeout(rerenderOpenPacks, delay);
+}
+
 Hooks.on("renderApplicationV2", enhanceBrokenTalesApplication);
 Hooks.on("renderCompendium", enhanceBrokenTalesApplication);
+Hooks.on("renderCompendiumDirectory", enhanceBrokenTalesCompendiumDirectory);
+Hooks.on("renderSidebarTab", enhanceBrokenTalesCompendiumDirectory);
 
 Hooks.once("ready", async () => {
   game.brokenTales = {

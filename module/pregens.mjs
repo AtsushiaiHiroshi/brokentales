@@ -61,12 +61,12 @@ function activeContentLanguage() {
   };
 
   try {
+    const core = resolve(game.settings.get("core", "language"));
+    if (core) return core;
+
     const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
     if (configured && configuredRaw !== "system") return configured;
-
-    const core = resolve(game.settings.get("core", "language"));
-    if (core) return core;
   } catch (_error) {
     // Settings can be unavailable during early initialization.
   }
@@ -455,13 +455,17 @@ export async function createPregenImportMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.ImportPregens");
   const existing = game.macros.find((macro) => macro.name === name);
-  if (existing) return existing;
+  const command = "await game.brokenTales.importPregens();";
+  if (existing) {
+    if (existing.command !== command) await existing.update({ command });
+    return existing;
+  }
   const MacroClass = Macro.implementation ?? Macro;
   return MacroClass.create({
     name,
     type: "script",
     img: "icons/svg/d20.svg",
-    command: "await game.brokenTales.importPregens();"
+    command
   });
 }
 
@@ -469,12 +473,16 @@ export async function createPregenRepairMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.RepairPregens");
   const existing = game.macros.find((macro) => macro.name === name);
-  if (existing) return existing;
+  const command = "await game.brokenTales.repairPregens({ collection: \"core\", pruneOtherImportedPregens: true });";
+  if (existing) {
+    if (existing.command !== command) await existing.update({ command });
+    return existing;
+  }
   const MacroClass = Macro.implementation ?? Macro;
   return MacroClass.create({
     name,
     type: "script",
     img: "icons/svg/upgrade.svg",
-    command: "await game.brokenTales.repairPregens({ collection: \"core\", pruneOtherImportedPregens: true });"
+    command
   });
 }
