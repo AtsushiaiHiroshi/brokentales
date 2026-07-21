@@ -1864,3 +1864,82 @@
 .broken-tales .bt-sheet.hunter .bt-linked-item h3 {
   overflow-wrap: anywhere;
 }
+
+/* 0.2.75: final stability pass after legacy visual reset. */
+.broken-tales.actor-sheet .window-content {
+  overflow: hidden;
+}
+
+.broken-tales .bt-sheet.hunter {
+  background-position: center -126px, center -126px !important;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.broken-tales .bt-sheet.hunter .bt-sheet-head {
+  grid-template-columns: 126px 480px 1fr !important;
+}
+
+.broken-tales .bt-sheet.hunter .bt-identity,
+.broken-tales .bt-sheet.hunter .bt-ink-title,
+.broken-tales .bt-sheet.hunter .bt-name,
+.broken-tales .bt-sheet.hunter .bt-line-fields {
+  width: 480px !important;
+  max-width: 480px !important;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title,
+.broken-tales .bt-sheet.hunter .bt-name {
+  height: auto !important;
+  overflow: visible;
+}
+
+.broken-tales .bt-sheet.hunter .bt-name {
+  min-height: 78px;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  text-overflow: clip;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
+  min-height: 92px;
+  font-size: 1.78rem;
+  line-height: 1.02;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
+  min-height: 112px;
+  font-size: 1.44rem;
+  line-height: 1.05;
+}
+
+.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
+  min-height: 144px;
+  font-size: 1.2rem;
+  line-height: 1.08;
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured {
+  min-height: 186px;
+  max-height: 186px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
+  max-height: 142px;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item {
+  grid-template-columns: 34px 94px minmax(0, 1fr);
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
+  width: 94px;
+  height: 94px;
+  margin-left: 0;
+}
+
+.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
+  width: 78px;
+  height: 78px;
+  margin-left: 0;
+}

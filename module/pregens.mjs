@@ -276,6 +276,7 @@ async function loadPregenActors(collection = "core") {
     const documents = await pack.getDocuments();
     return documents
       .filter((document) => {
+        if (document.type !== "hunter") return false;
         const pregenCollection = document.getFlag("broken-tales", "pregenCollection") ?? document.system?.details?.concept;
         return matchesPregenCollection(pregenCollection, collection);
       })
@@ -331,11 +332,24 @@ async function pruneImportedPregensOutsideSelection(selected) {
       .map((actorData) => actorData.flags?.["broken-tales"]?.[IMPORT_FLAG])
       .filter(Boolean)
   );
-  const removable = game.actors.filter((actor) => (
-    actor.type === "hunter"
-    && actor.getFlag("broken-tales", IMPORT_FLAG)
-    && !selectedSlugs.has(actor.getFlag("broken-tales", IMPORT_FLAG))
-  ));
+  const selectedNames = new Set();
+  for (const actorData of selected) {
+    for (const alias of actorAliasNames(actorData)) selectedNames.add(looseName(alias));
+  }
+
+  const removable = game.actors.filter((actor) => {
+    if (actor.type !== "hunter") return false;
+
+    const actorSlug = actor.getFlag("broken-tales", IMPORT_FLAG);
+    if (actorSlug) return !selectedSlugs.has(actorSlug);
+
+    const actorName = looseName(actor.name);
+    const actorOrigin = looseName(actor.system?.details?.origin);
+    const actorCollection = actor.getFlag("broken-tales", "pregenCollection") ?? actor.system?.details?.concept;
+    const isKnownPregen = Boolean(actorCollection) || selectedNames.has(actorName) || selectedNames.has(actorOrigin);
+    const isSelected = selectedNames.has(actorName) || selectedNames.has(actorOrigin);
+    return isKnownPregen && !isSelected;
+  });
   for (const actor of removable) await actor.delete();
   return removable.length;
 }

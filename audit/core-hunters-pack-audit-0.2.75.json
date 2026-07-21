@@ -1,0 +1,354 @@
+{
+  "local": {
+    "totalDocs": 17,
+    "actors": 15,
+    "folders": [
+      "Core Book",
+      "Core Book: Fox and Cat"
+    ],
+    "extras": [],
+    "actorIssues": [
+      {
+        "name": "James the Swordsman",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Jaime el Espadachín"
+      },
+      {
+        "name": "Garou the Old Wolf",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 3,
+        "hasEsName": true,
+        "esName": "Garou el Viejo Lobo"
+      },
+      {
+        "name": "The Astonishing Pied Piper Without a Name",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "El Asombroso Flautista sin Nombre"
+      },
+      {
+        "name": "Baba Yaga the Child Witch",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Baba Yaga la Niña Bruja"
+      },
+      {
+        "name": "Regina the Thief of Hearts",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4,
+        "hasEsName": true,
+        "esName": "Regina la Ladrona de Corazones"
+      },
+      {
+        "name": "Babai the Judge",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Babai el Juez"
+      },
+      {
+        "name": "The Woman from the Woods",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 1,
+        "hasEsName": true,
+        "esName": "La Dama de los Bosques"
+      },
+      {
+        "name": "The Immortal",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "El Inmortal"
+      },
+      {
+        "name": "Marina the Sea Explorer",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Marina la Exploradora del Mar"
+      },
+      {
+        "name": "Niklaus von Krampus",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Niklaus von Krampus"
+      },
+      {
+        "name": "George the Holy Dragon Slayer",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "San Jorge el Matadragones"
+      },
+      {
+        "name": "Sun Wukong the Amazing Monkey",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4,
+        "hasEsName": true,
+        "esName": "Sun Wukong el Mono Asombroso"
+      },
+      {
+        "name": "Verdoux Bluebeard",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 8,
+        "hasEsName": true,
+        "esName": "Verdoux Barba Azul"
+      },
+      {
+        "name": "Yukie Onn the Traveling Artist",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Yukie Onn la Artista Viajera"
+      },
+      {
+        "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+        "collection": "Core Book: Fox and Cat",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+        "descriptors": 5,
+        "gifts": 3,
+        "darkEgos": 1,
+        "equipment": 2,
+        "hasEsName": true,
+        "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso"
+      }
+    ]
+  },
+  "repo": {
+    "totalDocs": 17,
+    "actors": 15,
+    "folders": [
+      "Core Book",
+      "Core Book: Fox and Cat"
+    ],
+    "extras": [],
+    "actorIssues": [
+      {
+        "name": "James the Swordsman",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/james-el-espadachin.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Jaime el Espadachín"
+      },
+      {
+        "name": "Garou the Old Wolf",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/garou-el-viejo-lobo.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 3,
+        "hasEsName": true,
+        "esName": "Garou el Viejo Lobo"
+      },
+      {
+        "name": "The Astonishing Pied Piper Without a Name",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-asombroso-flautista-sin-nombre.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "El Asombroso Flautista sin Nombre"
+      },
+      {
+        "name": "Baba Yaga the Child Witch",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/baba-yaga-la-nina-bruja.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Baba Yaga la Niña Bruja"
+      },
+      {
+        "name": "Regina the Thief of Hearts",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/regina-la-ladrona-de-corazones.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4,
+        "hasEsName": true,
+        "esName": "Regina la Ladrona de Corazones"
+      },
+      {
+        "name": "Babai the Judge",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/babai-el-juez.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Babai el Juez"
+      },
+      {
+        "name": "The Woman from the Woods",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/la-dama-de-los-bosques.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 1,
+        "hasEsName": true,
+        "esName": "La Dama de los Bosques"
+      },
+      {
+        "name": "The Immortal",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/el-inmortal.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "El Inmortal"
+      },
+      {
+        "name": "Marina the Sea Explorer",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/marina-la-exploradora-del-mar.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Marina la Exploradora del Mar"
+      },
+      {
+        "name": "Niklaus von Krampus",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/niklaus-von-krampus.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 6,
+        "hasEsName": true,
+        "esName": "Niklaus von Krampus"
+      },
+      {
+        "name": "George the Holy Dragon Slayer",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/san-jorge-el-matadragones.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "San Jorge el Matadragones"
+      },
+      {
+        "name": "Sun Wukong the Amazing Monkey",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/sun-wukong-el-mono-asombroso.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 4,
+        "hasEsName": true,
+        "esName": "Sun Wukong el Mono Asombroso"
+      },
+      {
+        "name": "Verdoux Bluebeard",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/verdoux-barba-azul.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 8,
+        "hasEsName": true,
+        "esName": "Verdoux Barba Azul"
+      },
+      {
+        "name": "Yukie Onn the Traveling Artist",
+        "collection": "Core Book",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/yukie-onn-la-artista-viajera.webp",
+        "descriptors": 4,
+        "gifts": 2,
+        "darkEgos": 1,
+        "equipment": 7,
+        "hasEsName": true,
+        "esName": "Yukie Onn la Artista Viajera"
+      },
+      {
+        "name": "Cunning Machiavelli the Fox and Sly Bischeri the Cat",
+        "collection": "Core Book: Fox and Cat",
+        "img": "systems/broken-tales/assets/avatars/pregens/es-core/machiavelli-el-astuto-bischeri-el-malicioso.webp",
+        "descriptors": 5,
+        "gifts": 3,
+        "darkEgos": 1,
+        "equipment": 2,
+        "hasEsName": true,
+        "esName": "Machiavelli el Zorro Astuto y Bischeri el Gato Malicioso"
+      }
+    ]
+  }
+}

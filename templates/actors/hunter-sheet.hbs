@@ -169,6 +169,7 @@
     </div>
     {{#each extraGifts as |gift|}}
     <div class="bt-linked-item gift" data-item-id="{{gift._id}}">
+      <img class="bt-item-icon" src="{{gift.img}}" alt="" />
       <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
       <h3>{{gift.name}}</h3>
       <div class="bt-rich">{{{gift.system.description}}}</div>
