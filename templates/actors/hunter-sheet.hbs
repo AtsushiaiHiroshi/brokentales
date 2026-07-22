@@ -1,7 +1,7 @@
 <section class="bt-sheet {{actor.type}}">
   <div class="bt-page-masthead" aria-hidden="true">
     <span class="bt-print-title">{{localize "BROKENTALES.HunterSheet"}}</span>
-    <span class="bt-logo-mark">Broken<br />Tales</span>
+    <span class="bt-logo-mark notranslate" translate="no">Broken<br />Tales</span>
     <span class="bt-description-title">{{localize "BROKENTALES.Description"}}</span>
   </div>
 
@@ -59,6 +59,9 @@
         {{/if}}
         {{/if}}
       </div>
+      <button class="bt-header-roll" type="button" data-action="rollOpposition" title="{{localize "BROKENTALES.Roll.PositionCheck"}}">
+        <i class="fa-solid fa-dice-d6"></i>
+      </button>
     </section>
   </header>
 
@@ -216,21 +219,21 @@
       {{/if}}
     </article>
 
-    <article class="bt-card">
+    <article class="bt-card bt-wound-boxes-card">
       <div class="bt-section-title">
-        <h2>{{localize "BROKENTALES.Bookmark"}}</h2>
+        <h2>{{localize "BROKENTALES.Wounds"}}</h2>
       </div>
-      <div class="bt-wounds">
-        <label><span>1</span><input type="text" name="system.bookmark.wound1" value="{{system.bookmark.wound1}}" {{fieldDisabled}} /></label>
-        <label><span>2</span><input type="text" name="system.bookmark.wound2" value="{{system.bookmark.wound2}}" {{fieldDisabled}} /></label>
-        <label><span>3</span><input type="text" name="system.bookmark.wound3" value="{{system.bookmark.wound3}}" {{fieldDisabled}} /></label>
-        <label><span>{{localize "BROKENTALES.ExtraWound"}}</span><input type="text" name="system.bookmark.extraWound" value="{{system.bookmark.extraWound}}" {{fieldDisabled}} /></label>
+      <div class="bt-wound-boxes">
+        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound1" value="{{system.bookmark.wound1}}" {{fieldDisabled}} /><span>1.</span><em></em></label>
+        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound2" value="{{system.bookmark.wound2}}" {{fieldDisabled}} /><span>2.</span><em></em></label>
+        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound3" value="{{system.bookmark.wound3}}" {{fieldDisabled}} /><span>3.</span><em></em></label>
+        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.extraWound" value="{{system.bookmark.extraWound}}" {{fieldDisabled}} /><span>{{localize "BROKENTALES.ExtraWound"}}</span><em></em></label>
       </div>
     </article>
   </section>
 
   <section class="bt-lower-grid">
-    <article class="bt-card">
+    <article class="bt-card bt-equipment-card">
       <div class="bt-section-title">
         <h2>{{localize "BROKENTALES.ItemTypes.Equipment"}}</h2>
         <button type="button" data-action="createItem" data-type="equipment" title="{{localize "BROKENTALES.ItemTypes.Equipment"}}">
@@ -248,7 +251,7 @@
       {{/each}}
     </article>
 
-    <article class="bt-card">
+    <article class="bt-card bt-story-card">
       <div class="bt-section-title">
         <h2>{{localize "BROKENTALES.ItemTypes.StoryElement"}}</h2>
         <button type="button" data-action="createItem" data-type="storyElement" title="{{localize "BROKENTALES.ItemTypes.StoryElement"}}">
@@ -273,19 +276,10 @@
         <small>/</small>
         <input type="number" name="system.resources.soma.max" value="{{system.resources.soma.max}}" min="0" {{fieldDisabled}} />
       </label>
-      <label class="bt-circle wounds">
-        <span>{{localize "BROKENTALES.Wounds"}}</span>
-        <input type="number" name="system.resources.wounds.value" value="{{system.resources.wounds.value}}" min="0" {{fieldDisabled}} />
-        <small>/</small>
-        <input type="number" name="system.resources.wounds.max" value="{{system.resources.wounds.max}}" min="0" {{fieldDisabled}} />
-      </label>
       <label class="bt-circle xp">
         <span>{{localize "BROKENTALES.XP"}}</span>
         <input type="number" name="system.resources.xp" value="{{system.resources.xp}}" min="0" {{fieldDisabled}} />
       </label>
-      <button type="button" data-action="rollOpposition" title="{{localize "BROKENTALES.Roll.PositionCheck"}}">
-        <i class="fa-solid fa-dice-d6"></i>
-      </button>
     </div>
   </section>
 

@@ -108,8 +108,9 @@
   min-width: 1024px;
   min-height: 1448px;
   margin: 0 auto;
-  padding: 62px 64px 248px;
-  overflow: visible;
+  padding: 62px 64px 120px;
+  overflow: hidden;
+  isolation: isolate;
   background-color: var(--bt-paper);
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.76)),
@@ -393,8 +394,9 @@
   box-sizing: border-box;
   min-width: 0;
   padding: 8px 10px 12px;
-  overflow: hidden;
+  overflow: visible;
   border-top: 3px solid var(--bt-ink);
+  background-color: rgba(255, 255, 255, 0.54);
   background-image: var(--bt-line);
 }
 
@@ -449,11 +451,11 @@
 }
 
 .bt-descriptor-row {
-  min-height: 346px;
+  min-height: 0;
 }
 
 .bt-lower-grid .bt-card {
-  min-height: 266px;
+  min-height: 0;
 }
 
 .bt-section-title {
@@ -537,9 +539,9 @@
 .bt-linked-item h3 {
   grid-column: 2;
   grid-row: 1;
-  max-height: 42px;
+  max-height: none;
   margin: 0 0 2px;
-  overflow: hidden;
+  overflow: visible;
   font-size: 1.1rem;
   line-height: 1.06;
   overflow-wrap: anywhere;
@@ -548,9 +550,9 @@
 .bt-linked-item .bt-rich,
 .bt-linked-item p {
   grid-column: 2;
-  max-height: 142px;
+  max-height: none;
   margin: 0;
-  overflow: auto;
+  overflow: visible;
 }
 
 .bt-linked-item.slim {
@@ -568,7 +570,7 @@
 }
 
 .bt-dark-ego .bt-linked-item {
-  min-height: 250px;
+  min-height: 0;
 }
 
 .bt-dark-descriptor {
@@ -595,8 +597,8 @@
 
 .bt-dark-descriptor .bt-rich {
   grid-column: 2;
-  max-height: 84px;
-  overflow: auto;
+  max-height: none;
+  overflow: visible;
 }
 
 .bt-wounds {
@@ -764,4 +766,70 @@
 .bt-linked-item:not(.descriptor):not(.gift) .bt-item-icon {
   width: 42px;
   height: 42px;
+}
+
+
+.bt-header-roll {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--bt-red);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(215, 25, 32, 0.5);
+}
+
+.bt-wound-boxes {
+  display: grid;
+  gap: 9px;
+  margin-top: 8px;
+}
+
+.bt-wound-boxes label {
+  display: grid;
+  grid-template-columns: 32px 92px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+  min-height: 34px;
+}
+
+.bt-wound-boxes span {
+  color: var(--bt-ink);
+  font-weight: 700;
+}
+
+.bt-wound-boxes em {
+  display: block;
+  height: 1px;
+  border-bottom: 2px solid var(--bt-red);
+}
+
+.bt-wound-mark {
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--bt-ink) !important;
+  border-radius: 0;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.bt-equipment-card .bt-linked-item.slim,
+.bt-story-card .bt-linked-item.slim {
+  grid-template-columns: 32px minmax(0, 1fr);
+  min-height: 0;
+  margin-bottom: 10px;
+}
+
+.bt-resource-footer {
+  background-color: rgba(255, 255, 255, 0.54);
+}
+
+.bt-footer-notes {
+  margin-top: 14px;
+  padding: 10px 8px 0;
+  background-color: rgba(255, 255, 255, 0.54);
 }
