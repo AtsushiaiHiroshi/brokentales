@@ -455,7 +455,7 @@ export async function createPregenImportMacro() {
   if (!game.user.isGM) return null;
   const name = game.i18n.localize("BROKENTALES.Macros.ImportPregens");
   const existing = game.macros.find((macro) => macro.name === name);
-  const command = "await game.brokenTales.importPregens();";
+  const command = "await game.brokenTales.repairPregens({ collection: \"core\", pruneOtherImportedPregens: true });";
   if (existing) {
     if (existing.command !== command) await existing.update({ command });
     return existing;

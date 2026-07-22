@@ -50,11 +50,12 @@ export class BrokenTalesItemSheet extends api.HandlebarsApplicationMixin(sheets.
     };
 
     try {
+      const core = resolve(game.settings.get("core", "language"));
+      if (core) return core;
+
       const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
       const configured = resolve(configuredRaw);
       if (configured && configuredRaw !== "system") return configured;
-      const core = resolve(game.settings.get("core", "language"));
-      if (core) return core;
     } catch (_error) {
       // Settings can be unavailable during early initialization.
     }
