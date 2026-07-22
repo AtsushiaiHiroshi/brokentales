@@ -5,6 +5,16 @@ const SYSTEM_LANG_ROOTS = {
 };
 
 function targetLanguage() {
+  try {
+    if (game.system?.id === "broken-tales") {
+      const configured = String(game.settings.get("broken-tales", "contentLanguage") ?? "").toLowerCase();
+      if (configured === "es" || configured.startsWith("es-") || configured === "spanish" || configured === "español") return "es";
+      if (configured === "en" || configured.startsWith("en-") || configured === "english" || configured === "inglés") return "en";
+    }
+  } catch (_error) {
+    // Broken Tales settings may not be registered yet during early startup.
+  }
+
   const lang = game.i18n?.lang ?? "en";
   if (lang.startsWith("es")) return "es";
   return lang;
@@ -36,10 +46,11 @@ export class I18nGlossary {
       ]);
       const dict = {};
       for (const [key, source] of Object.entries(en)) {
-        if (!key.startsWith("BROKENTALES.Content.") && !key.startsWith("BROKENTALES.ContentText.")) continue;
+        if (!key.startsWith("BROKENTALES.")) continue;
         const translated = target[key];
         if (!source || !translated || source === translated) continue;
         dict[source] = translated;
+        dict[key] = translated;
       }
       this.#cache[systemId] = dict;
       console.log(`Traductor Universal | Glosario i18n ${systemId}: ${Object.keys(dict).length} entradas.`);
