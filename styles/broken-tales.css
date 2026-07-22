@@ -19,52 +19,39 @@
   initial-value: 112%;
 }
 
-@keyframes btInkTide {
-  0% {
-    --bt-ink-tide: 104%;
-    --bt-ink-swell: 110%;
-  }
-  45% {
-    --bt-ink-tide: 63%;
-    --bt-ink-swell: 58%;
-  }
-  100% {
-    --bt-ink-tide: 46%;
-    --bt-ink-swell: 52%;
-  }
-}
-
-@keyframes btBloodPulse {
-  0%, 100% {
-    color: #7c0006;
-    text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.82), 0 0 15px rgba(140, 0, 12, 0.55);
-  }
-  50% {
-    color: #d71920;
-    text-shadow: 0 0 3px #fff, 0 0 12px rgba(255, 38, 45, 0.95), 0 0 25px rgba(140, 0, 12, 0.78);
-  }
-}
-
 @keyframes btTextTide {
   0%, 100% {
     background-position: 0 0;
-    text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.78), 0 0 14px rgba(112, 0, 7, 0.45);
+    text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.72), 0 0 14px rgba(112, 0, 7, 0.42);
   }
   50% {
     background-position: 0 100%;
-    text-shadow: 0 0 3px #fff, 0 0 12px rgba(255, 38, 45, 0.88), 0 0 23px rgba(112, 0, 7, 0.68);
+    text-shadow: 0 0 3px #fff, 0 0 12px rgba(255, 38, 45, 0.88), 0 0 24px rgba(112, 0, 7, 0.62);
+  }
+}
+
+@keyframes btInkFill {
+  0%, 100% {
+    --bt-ink-tide: 110%;
+    --bt-ink-swell: 118%;
+  }
+  50% {
+    --bt-ink-tide: 48%;
+    --bt-ink-swell: 54%;
   }
 }
 
 .broken-tales {
   --bt-paper: #fbfaf4;
   --bt-ink: #080609;
-  --bt-faded: rgba(8, 6, 9, 0.45);
+  --bt-faded: rgba(8, 6, 9, 0.48);
+  --bt-rule: rgba(8, 6, 9, 0.18);
   --bt-red: #d71920;
-  --bt-red-dark: #700007;
-  --bt-rule: rgba(8, 6, 9, 0.22);
-  --bt-display-font: "Grobe Deutschmeister", "IM Fell English", Georgia, serif;
+  --bt-red-dark: #790008;
+  --bt-display-font: "Grobe Deutschmeister", Georgia, serif;
   --bt-body-font: "IM Fell English", "Cormorant Garamond", Georgia, serif;
+  --bt-line: repeating-linear-gradient(to bottom, transparent 0, transparent 26px, var(--bt-rule) 27px, transparent 28px);
+  color: var(--bt-ink);
   font-family: var(--bt-body-font);
 }
 
@@ -73,11 +60,13 @@
   background: #060305 url("../assets/ui/broken-tales-book-alt.jpg") center / cover no-repeat;
 }
 
+.broken-tales.actor-sheet .window-content,
 .broken-tales .window-content,
 .broken-tales .standard-form {
-  background: #070506;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
+  background: #070506;
+  scrollbar-color: #8d0011 rgba(8, 6, 9, 0.28);
 }
 
 .broken-tales input,
@@ -100,59 +89,62 @@
 .broken-tales input:focus,
 .broken-tales textarea:focus,
 .broken-tales select:focus {
-  outline: 1px solid rgba(215, 25, 32, 0.5);
+  outline: 1px solid rgba(215, 25, 32, 0.55);
   box-shadow: 0 0 0 2px rgba(215, 25, 32, 0.14);
 }
 
 .broken-tales button {
   border: 0;
+  border-radius: 5px;
+  background: var(--bt-red);
+  color: #fff;
+  cursor: pointer;
 }
 
 .bt-sheet {
+  box-sizing: border-box;
   position: relative;
-  height: 100%;
-  min-width: 1040px;
-  padding: 42px 44px 260px;
-  overflow-y: auto;
-  overflow-x: auto;
-  color: var(--bt-ink);
+  width: 1024px;
+  min-width: 1024px;
+  min-height: 1448px;
+  margin: 0 auto;
+  padding: 62px 64px 248px;
+  overflow: visible;
   background-color: var(--bt-paper);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.88)),
+    linear-gradient(rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.76)),
     image-set(
       url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
       url("../assets/ui/broken-tales-sheet.png") type("image/png")
     );
   background-position: center top, center top;
-  background-size: 100% 100%, min(100%, 1024px) auto;
-  background-repeat: repeat-y;
-  scrollbar-color: #8d0011 rgba(8, 6, 9, 0.08);
-  container-type: inline-size;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 1024px 1448px, 1024px 1448px;
 }
 
 .bt-sheet::before,
 .bt-sheet::after {
   content: "";
   position: absolute;
-  left: 26px;
-  right: 26px;
-  z-index: 0;
+  left: 28px;
+  right: 28px;
   pointer-events: none;
+  z-index: 0;
 }
 
 .bt-sheet::before {
-  top: 16px;
-  height: 18px;
-  border-top: 6px solid var(--bt-ink);
-  border-bottom: 4px solid rgba(8, 6, 9, 0.74);
-  clip-path: polygon(0 0, 15% 10%, 23% 0, 36% 25%, 44% 0, 59% 12%, 72% 0, 86% 23%, 100% 4%, 100% 100%, 0 100%);
+  top: 18px;
+  height: 22px;
+  border-top: 7px solid var(--bt-ink);
+  border-bottom: 4px solid rgba(8, 6, 9, 0.72);
+  clip-path: polygon(0 0, 12% 18%, 21% 0, 33% 25%, 46% 0, 57% 14%, 70% 0, 83% 26%, 100% 4%, 100% 100%, 0 100%);
 }
 
 .bt-sheet::after {
-  bottom: 26px;
-  height: 14px;
-  border-bottom: 7px solid var(--bt-ink);
-  clip-path: polygon(0 20%, 12% 0, 25% 25%, 42% 0, 57% 18%, 71% 0, 83% 28%, 100% 4%, 100% 100%, 0 100%);
+  bottom: 28px;
+  height: 22px;
+  border-bottom: 8px solid var(--bt-ink);
+  clip-path: polygon(0 24%, 11% 0, 25% 28%, 41% 0, 57% 18%, 72% 0, 84% 30%, 100% 5%, 100% 100%, 0 100%);
 }
 
 .bt-sheet > * {
@@ -160,35 +152,104 @@
   z-index: 1;
 }
 
+.bt-page-masthead {
+  display: grid;
+  grid-template-columns: 330px 1fr 360px;
+  align-items: start;
+  height: 120px;
+  margin-bottom: 14px;
+}
+
+.bt-print-title,
+.bt-logo-mark,
+.bt-description-title,
+.bt-name,
+.bt-line-fields span,
+.bt-compact-fields span,
+.bt-villager label > span,
+.bt-featured-text h2,
+.bt-descriptors-banner span,
+.bt-section-title h2,
+.bt-linked-item h3,
+.bt-dark-descriptor strong,
+.bt-circle span,
+.bt-circle input,
+.bt-wounds label > span,
+.bt-footer-notes h2 {
+  color: var(--bt-red-dark);
+  font-family: var(--bt-display-font);
+  line-height: 0.95;
+  background-image: linear-gradient(180deg, #fff 0%, #ffd9d9 17%, #d71920 38%, #6b0008 56%, #100003 65%, #a9000e 100%);
+  background-size: 100% 250%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.76), 0 0 17px rgba(112, 0, 7, 0.44);
+  animation: btTextTide 8s ease-in-out infinite;
+}
+
+.bt-print-title {
+  display: block;
+  padding-top: 12px;
+  font-size: 2.1rem;
+}
+
+.bt-logo-mark {
+  justify-self: center;
+  display: block;
+  width: 210px;
+  padding-top: 2px;
+  color: #090809;
+  font-size: 3.1rem;
+  text-align: center;
+  line-height: 0.72;
+  background-image: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  text-shadow: none;
+  animation: none;
+}
+
+.bt-description-title {
+  display: block;
+  padding-top: 10px;
+  font-size: 1.55rem;
+}
+
 .bt-sheet-head {
   display: grid;
-  grid-template-columns: 132px minmax(530px, 1fr) minmax(320px, 0.72fr);
+  grid-template-columns: 132px 402px 1fr;
   gap: 16px 18px;
-  align-items: start;
+  min-height: 170px;
+  margin: -92px 0 22px;
+  padding: 104px 0 18px;
   border-bottom: 3px solid var(--bt-ink);
-  padding-bottom: 20px;
-  margin-bottom: 16px;
 }
 
 .bt-portrait {
   display: grid;
-  gap: 8px;
+  grid-template-rows: 118px 24px;
+  gap: 7px;
+  width: 124px;
 }
 
 .bt-portrait img {
-  width: 124px;
-  height: 124px;
+  width: 118px;
+  height: 118px;
   object-fit: cover;
-  background: var(--bt-ink);
+  object-position: center;
   border: 4px solid var(--bt-red);
+  background: #fff;
 }
 
 .bt-portrait input {
-  width: 124px;
-  min-height: 24px;
-  font-size: 0.72rem;
-  text-align: center;
+  width: 118px;
+  height: 22px;
+  overflow: hidden;
   border-bottom: 2px solid var(--bt-red);
+  font-size: 0.64rem;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .bt-identity {
@@ -196,67 +257,75 @@
 }
 
 .bt-ink-title {
-  position: relative;
-  overflow: visible;
-  margin-bottom: 10px;
-  padding-right: 6px;
+  width: 402px;
+  min-height: 66px;
+  margin: 0 0 12px;
+  overflow: hidden;
   border-bottom: 3px solid var(--bt-red);
 }
 
 .bt-name {
   display: block;
   width: 100%;
-  height: auto;
+  height: 62px;
   min-height: 62px;
-  field-sizing: content;
+  padding: 0 4px 0 0;
   resize: none;
   overflow: hidden;
-  font-family: var(--bt-display-font);
-  font-size: 2.72rem;
-  line-height: 0.9;
-  color: #a00010;
-  background-image: linear-gradient(180deg, #fff 0%, #fbe9e9 18%, #d71920 38%, #6a0008 58%, #120004 62%, #b30011 100%);
-  background-size: 100% 220%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-shadow: 0 0 2px #fff, 0 0 9px rgba(215, 25, 32, 0.8), 2px 2px 0 rgba(8, 6, 9, 0.28);
-  animation: btTextTide 7s ease-in-out infinite;
+  border: 0;
+  color: var(--bt-red-dark) !important;
+  -webkit-text-fill-color: var(--bt-red-dark);
+  font-size: 2.55rem;
+  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.8), 0 0 18px rgba(112, 0, 7, 0.5);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
-.bt-ink-title.bt-name-long .bt-name,
+.bt-ink-title.bt-name-long .bt-name {
+  font-size: 1.92rem;
+  line-height: 1.02;
+}
+
 .bt-ink-title.bt-name-very-long .bt-name {
-  font-size: 1.5rem;
-  min-height: 112px;
-  line-height: 1.08;
+  font-size: 1.44rem;
+  line-height: 1.04;
+}
+
+.bt-ink-title.bt-name-extreme {
+  min-height: 82px;
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 0.98rem;
-  min-height: 164px;
-  line-height: 1.14;
+  height: 80px;
+  min-height: 80px;
+  font-size: 1.12rem;
+  line-height: 1.08;
 }
 
 .bt-line-fields,
 .bt-compact-fields {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  gap: 9px;
 }
 
 .bt-line-fields label,
 .bt-compact-fields label,
 .bt-villager label {
   display: grid;
-  gap: 4px;
+  gap: 3px;
   min-width: 0;
 }
 
 .bt-line-fields span,
 .bt-compact-fields span,
 .bt-villager label > span {
-  font-family: var(--bt-display-font);
-  font-size: 1.15rem;
-  line-height: 1;
+  min-height: 20px;
+  overflow: hidden;
+  font-size: 1.08rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .bt-line-fields input,
@@ -264,201 +333,218 @@
 .bt-compact-fields select,
 .bt-villager input,
 .bt-villager textarea {
-  min-height: 34px;
-  padding: 3px 4px;
+  min-width: 0;
+  min-height: 29px;
+  padding: 1px 3px;
+  overflow: hidden;
   border-bottom: 2px solid var(--bt-red);
-  font-size: 1.04rem;
+  font-size: 1rem;
   text-overflow: ellipsis;
 }
 
-.bt-villager textarea {
-  min-height: 72px;
-  resize: vertical;
-}
-
 .bt-featured {
-  min-height: 126px;
+  min-height: 138px;
+  max-height: 138px;
+  padding: 2px 10px 0 18px;
+  overflow: hidden;
   border-left: 8px solid var(--bt-red);
-  padding: 0 0 0 16px;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent 28px,
-    var(--bt-rule) 29px,
-    transparent 30px
-  );
+  background-image: var(--bt-line);
 }
 
-.bt-featured-text h2,
-.bt-section-title h2,
-.bt-linked-item h3,
-.bt-circle span,
-.bt-circle input,
-.bt-wounds label > span {
-  position: relative;
-  display: inline-block;
-  max-width: 100%;
-  color: #9f000c;
-  font-family: var(--bt-display-font);
-  line-height: 1;
-  background-image: linear-gradient(180deg, #fff 0%, #f6dfdf 20%, #d71920 40%, #650006 58%, #120004 63%, #a8000d 100%);
-  background-size: 100% 220%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.76), 0 0 17px rgba(112, 0, 7, 0.42);
-  animation: btTextTide 8s ease-in-out infinite;
+.bt-featured-text h2 {
+  margin: 0 0 4px;
+  font-size: 1.35rem;
 }
 
-.bt-featured-text h2::after,
-.bt-section-title h2::after,
-.bt-linked-item h3::after,
-.bt-circle span::after,
-.bt-wounds label > span::after {
-  content: none;
-}
-
-.bt-featured .bt-rich,
-.bt-rich {
-  color: var(--bt-ink);
-  font-size: 1.04rem;
-  line-height: 1.35;
-  text-shadow: none;
+.bt-featured-descriptor h3 {
+  display: none;
 }
 
 .bt-featured .bt-rich {
-  max-height: 116px;
-  overflow-y: auto;
-  padding-right: 8px;
+  max-height: 104px;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.28;
+}
+
+.bt-rich,
+.bt-rich p,
+.bt-linked-item p,
+.bt-empty {
+  color: var(--bt-ink);
+  font-size: 1rem;
+  line-height: 1.28;
+  text-shadow: none;
 }
 
 .bt-rich p {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.35rem;
 }
 
 .bt-empty {
-  color: rgba(8, 6, 9, 0.62);
+  margin: 0.2rem 0 0.65rem;
+  color: rgba(8, 6, 9, 0.58);
   font-style: italic;
 }
 
 .bt-card,
-.bt-descriptor-row {
-  position: relative;
-  padding: 14px 14px 16px;
+.bt-descriptor-row,
+.bt-villager {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 8px 10px 12px;
+  overflow: hidden;
   border-top: 3px solid var(--bt-ink);
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.07) 0,
-    rgba(255, 255, 255, 0.07) 29px,
-    var(--bt-rule) 30px,
-    rgba(255, 255, 255, 0.02) 31px
-  );
+  background-image: var(--bt-line);
 }
 
 .bt-card::after,
-.bt-descriptor-row::after {
+.bt-descriptor-row::after,
+.bt-villager::after {
   content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  display: block;
+  height: 2px;
+  margin-top: 8px;
+  background: rgba(8, 6, 9, 0.84);
+}
+
+.bt-compact-fields,
+.bt-villager {
+  margin-bottom: 18px;
+}
+
+.bt-villager textarea {
+  min-height: 66px;
+  resize: vertical;
+}
+
+.bt-descriptors-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 10px 0 12px;
+}
+
+.bt-descriptors-banner::before,
+.bt-descriptors-banner::after {
+  content: "";
+  flex: 1;
   height: 2px;
   background: var(--bt-ink);
-  opacity: 0.88;
-  pointer-events: none;
+}
+
+.bt-descriptors-banner span {
+  font-size: 1.95rem;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .bt-descriptor-stack,
 .bt-lower-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin-bottom: 18px;
+  gap: 16px 18px;
+  align-items: start;
+  margin-bottom: 16px;
+}
+
+.bt-descriptor-row {
+  min-height: 346px;
+}
+
+.bt-lower-grid .bt-card {
+  min-height: 266px;
 }
 
 .bt-section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  min-height: 34px;
-  margin-bottom: 8px;
+  min-height: 31px;
+  gap: 8px;
 }
 
-.bt-section-title h2,
-.bt-featured-text h2 {
+.bt-section-title h2 {
   margin: 0;
-  font-size: 1.45rem;
+  font-size: 1.32rem;
 }
 
 .bt-section-title button,
-.bt-linked-item button,
+.bt-linked-item > button,
 .bt-resource-circles > button {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  padding: 0;
   display: inline-grid;
   place-items: center;
-  flex: 0 0 auto;
-  width: 32px;
-  height: 32px;
-  color: #fff;
   background: var(--bt-red);
-  border-radius: 4px;
-  box-shadow: 0 2px 0 var(--bt-red-dark);
-  cursor: pointer;
+  color: #fff;
+  font-size: 0.95rem;
 }
 
 .bt-linked-item {
   display: grid;
-  grid-template-columns: 34px 78px minmax(0, 1fr);
-  gap: 6px 12px;
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 4px 10px;
   align-items: start;
-  margin: 7px 0 14px;
-  min-height: 72px;
+  min-height: 96px;
+  margin: 3px 0 12px;
+}
+
+.bt-linked-item > button {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .bt-linked-item .bt-item-icon {
-  grid-column: 2;
-  grid-row: 1 / span 2;
-  width: 62px;
-  height: 62px;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  justify-self: center;
+  align-self: start;
   object-fit: contain;
+  background: transparent;
+  border: 0;
+  max-width: 62px;
+  max-height: 62px;
 }
 
 .bt-linked-item.descriptor .bt-item-icon {
-  width: 88px;
-  height: 88px;
-  margin-left: -10px;
+  width: 62px;
+  height: 62px;
+  margin: 2px 0 0 8px;
+  content: url("../assets/icons/descriptor-improvement.webp");
 }
 
 .bt-linked-item.gift .bt-item-icon {
-  width: 82px;
-  height: 82px;
-  transform: scale(1.05);
-  transform-origin: center;
-}
-
-.bt-linked-item .bt-item-icon.small {
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
+  margin: 6px 0 0 8px;
+  content: url("../assets/icons/icon-gift.webp");
 }
 
 .bt-linked-item h3 {
-  grid-column: 3;
-  margin: 3px 0 0;
-  font-size: 1.24rem;
+  grid-column: 2;
+  grid-row: 1;
+  max-height: 42px;
+  margin: 0 0 2px;
+  overflow: hidden;
+  font-size: 1.1rem;
+  line-height: 1.06;
   overflow-wrap: anywhere;
 }
 
 .bt-linked-item .bt-rich,
 .bt-linked-item p {
-  grid-column: 3;
-}
-
-.bt-dark-descriptor {
-  grid-column: 1 / -1;
+  grid-column: 2;
+  max-height: 142px;
+  margin: 0;
+  overflow: auto;
 }
 
 .bt-linked-item.slim {
-  grid-template-columns: 34px minmax(0, 1fr);
-  margin-bottom: 12px;
+  grid-template-columns: 32px minmax(0, 1fr);
+  min-height: 54px;
 }
 
 .bt-linked-item.slim h3,
@@ -466,47 +552,69 @@
   grid-column: 2;
 }
 
+.bt-dark-ego {
+  min-height: 324px;
+}
+
+.bt-dark-ego .bt-linked-item {
+  min-height: 250px;
+}
+
 .bt-dark-descriptor {
+  grid-column: 2;
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  gap: 6px 10px;
-  margin: 6px 0 10px;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 2px 8px;
+  margin: 0 0 8px;
+}
+
+.bt-dark-descriptor .bt-item-icon.small {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  content: url("../assets/icons/descriptor-improvement.webp");
 }
 
 .bt-dark-descriptor strong {
-  font-family: var(--bt-display-font);
-  font-size: 1.1rem;
+  grid-column: 2;
+  font-size: 1rem;
 }
 
 .bt-dark-descriptor .bt-rich {
   grid-column: 2;
-}
-
-.bt-extra-gifts {
-  margin-bottom: 18px;
+  max-height: 84px;
+  overflow: auto;
 }
 
 .bt-wounds {
   display: grid;
-  gap: 9px;
+  gap: 8px;
+  margin-top: 6px;
 }
 
 .bt-wounds label {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  align-items: center;
+  grid-template-columns: 94px minmax(0, 1fr);
   gap: 12px;
+  align-items: end;
+  min-height: 38px;
+}
+
+.bt-wounds label > span {
+  font-size: 1.08rem;
 }
 
 .bt-wounds input {
-  min-height: 31px;
+  height: 30px;
   border-bottom: 2px solid var(--bt-red);
 }
 
 .bt-resource-footer {
   display: flex;
   justify-content: flex-end;
-  margin: 30px 0 12px;
+  margin: 30px 56px 12px 0;
 }
 
 .bt-resource-circles {
@@ -517,30 +625,25 @@
 
 .bt-circle {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto 1fr;
   place-items: center;
-  width: 86px;
-  height: 86px;
-  padding: 10px 8px;
-  border: 3px solid var(--bt-red);
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.18);
+  align-content: center;
+  width: 96px;
+  height: 96px;
+  padding: 14px 10px 8px;
+  background: transparent url("../assets/icons/icon-circle.webp") center / contain no-repeat;
 }
 
 .bt-circle span {
-  grid-column: 1 / -1;
-  font-size: 1.25rem;
+  font-size: 1.18rem;
 }
 
 .bt-circle input {
-  width: 24px;
-  min-width: 0;
+  width: 26px;
+  min-height: 20px;
   padding: 0;
-  text-align: center;
-  font-size: 1.08rem;
   border: 0;
-  animation-duration: 6.5s;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .bt-circle small {
@@ -552,1645 +655,102 @@
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(215, 25, 32, 0.22);
 }
 
 .bt-footer-notes {
+  min-height: 168px;
+  padding-top: 10px;
   border-top: 3px solid var(--bt-ink);
-  padding-top: 12px;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent 27px,
-    var(--bt-rule) 28px,
-    transparent 29px
-  );
+  background-image: var(--bt-line);
 }
 
 .bt-footer-notes h2 {
-  margin: 0 0 8px;
-  color: var(--bt-ink);
-  font-family: var(--bt-display-font);
-  font-size: 1.45rem;
+  margin: 0 0 6px;
+  font-size: 1.25rem;
 }
 
 .bt-footer-notes textarea {
+  display: block;
   width: 100%;
-  min-height: 150px;
+  min-height: 120px;
   resize: vertical;
-  color: var(--bt-ink);
-  font-size: 1rem;
-  line-height: 1.35;
-  background: transparent;
-}
-
-.bt-item-sheet {
-  min-width: 420px;
-  padding: 28px 32px 160px;
-  overflow-y: auto;
-  color: var(--bt-ink);
-  background-color: var(--bt-paper);
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.88)),
-    image-set(
-      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
-      url("../assets/ui/broken-tales-sheet.png") type("image/png")
-    );
-  background-size: cover, min(100%, 1024px) auto;
-  background-position: center top;
-}
-
-.bt-item-sheet .bt-item-header {
-  display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
-  gap: 14px;
-  align-items: end;
-  border-bottom: 3px solid var(--bt-red);
-  margin-bottom: 14px;
-}
-
-.bt-item-sheet .bt-item-header img {
-  width: 88px;
-  height: 88px;
-  object-fit: contain;
-}
-
-.bt-item-sheet .bt-item-header input[name="name"] {
-  font-family: var(--bt-display-font);
-  font-size: 2rem;
-  color: #9f000c;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.8);
-}
-
-.bt-item-sheet label {
-  display: grid;
-  gap: 4px;
-  margin-bottom: 10px;
-}
-
-.bt-item-sheet label > span {
-  font-family: var(--bt-display-font);
-  color: #9f000c;
-  text-shadow: 0 0 2px #fff, 0 0 6px rgba(215, 25, 32, 0.7);
-}
-
-.bt-item-sheet input,
-.bt-item-sheet textarea,
-.bt-item-sheet select {
-  border-bottom: 2px solid var(--bt-red);
-}
-
-.bt-item-sheet textarea {
-  min-height: 110px;
-  resize: vertical;
-}
-
-.broken-tales .directory-item .entry-name,
-.broken-tales .directory-item .document-name,
-.broken-tales .directory-item h4,
-.broken-tales .compendium .directory-item,
-.broken-tales .sidebar-tab .directory-item {
-  font-family: var(--bt-body-font);
-  color: #ffe9e9;
-  text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.7);
-}
-
-.broken-tales .journal-entry-page,
-.broken-tales .journal-entry-content {
-  font-family: var(--bt-body-font);
-}
-
-@media (max-width: 920px) {
-  .bt-sheet {
-    min-width: 0;
-    padding: 34px 28px 300px;
-  }
-
-  .bt-sheet-head {
-    grid-template-columns: 112px minmax(0, 1fr);
-  }
-
-  .bt-featured {
-    grid-column: 1 / -1;
-  }
-
-  .bt-descriptor-stack,
-  .bt-lower-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .bt-line-fields,
-  .bt-compact-fields {
-    grid-template-columns: 1fr;
-  }
-
-  .bt-resource-footer {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 620px) {
-  .bt-sheet {
-    padding-inline: 18px;
-  }
-
-  .bt-sheet-head {
-    grid-template-columns: 1fr;
-  }
-
-  .bt-portrait {
-    width: 112px;
-  }
-
-  .bt-linked-item {
-    grid-template-columns: 48px 32px minmax(0, 1fr);
-  }
-
-  .bt-resource-circles {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
-
-@container (max-width: 930px) {
-  .bt-sheet-head {
-    grid-template-columns: 132px minmax(0, 1fr);
-  }
-
-  .bt-featured {
-    grid-column: 1 / -1;
-  }
-
-  .bt-identity {
-    min-width: 0;
-  }
-
-  .bt-name {
-    font-size: 2.28rem;
-  }
-
-  .bt-ink-title.bt-name-long .bt-name,
-  .bt-ink-title.bt-name-very-long .bt-name {
-    font-size: 1.62rem;
-    min-height: 92px;
-  }
-
-  .bt-ink-title.bt-name-extreme .bt-name {
-    font-size: 1.16rem;
-    min-height: 126px;
-  }
-}
-
-/* Sheet fidelity overrides: keep the hunter sheet readable on the printed-page layout. */
-.bt-sheet-head {
-  grid-template-columns: 132px minmax(560px, 1.25fr) minmax(300px, 0.75fr);
-}
-
-.bt-name {
-  white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: normal;
-}
-
-.bt-ink-title.bt-name-long .bt-name {
-  font-size: 1.88rem;
-  min-height: 104px;
-  line-height: 1.02;
-}
-
-.bt-ink-title.bt-name-very-long .bt-name {
-  font-size: 1.55rem;
-  min-height: 126px;
-  line-height: 1.04;
-}
-
-.bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.28rem;
-  min-height: 154px;
-  line-height: 1.07;
-}
-
-.bt-featured {
-  min-height: 150px;
-}
-
-.bt-featured .bt-rich {
-  max-height: 138px;
-}
-
-.bt-linked-item {
-  grid-template-columns: 40px 104px minmax(0, 1fr);
-  min-height: 112px;
-}
-
-.bt-linked-item.descriptor .bt-item-icon,
-.bt-linked-item.gift .bt-item-icon {
-  width: 96px;
-  height: 96px;
-  margin-left: 0;
-}
-
-.bt-linked-item .bt-item-icon.small {
-  width: 56px;
-  height: 56px;
-}
-
-.bt-linked-item h3 {
-  font-size: 1.18rem;
-  line-height: 1.05;
-}
-
-.bt-dark-descriptor {
-  grid-template-columns: 64px minmax(0, 1fr);
-}
-
-.bt-dark-descriptor .bt-item-icon.small {
-  width: 54px;
-  height: 54px;
-}
-
-@container (max-width: 930px) {
-  .bt-sheet-head {
-    grid-template-columns: 132px minmax(360px, 1fr);
-  }
-
-  .bt-featured {
-    grid-column: 1 / -1;
-  }
-
-  .bt-ink-title.bt-name-long .bt-name {
-    font-size: 1.74rem;
-    min-height: 104px;
-  }
-
-  .bt-ink-title.bt-name-very-long .bt-name {
-    font-size: 1.42rem;
-    min-height: 126px;
-  }
-
-  .bt-ink-title.bt-name-extreme .bt-name {
-    font-size: 1.12rem;
-    min-height: 150px;
-  }
-}
-
-/* Long-name hardening for pregen pairs such as Machiavelli and Bischeri. */
-.bt-ink-title.bt-name-long .bt-name,
-.bt-ink-title.bt-name-very-long .bt-name,
-.bt-ink-title.bt-name-extreme .bt-name {
-  height: auto;
-  overflow: visible;
-  white-space: normal;
-}
-
-.bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.08rem;
-  min-height: 176px;
-  line-height: 1.12;
-}
-
-@container (max-width: 930px) {
-  .bt-ink-title.bt-name-extreme .bt-name {
-    font-size: 0.98rem;
-    min-height: 184px;
-  }
-}
-
-/* Hunter-sheet reset, v0.2.65: printed page first, effects only on labels/titles. */
-.broken-tales .window-content,
-.broken-tales .standard-form {
-  background: #080506;
-}
-
-.bt-sheet {
-  min-width: 900px;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 46px 40px 330px;
-  background-color: #fbfaf4;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.78)),
-    image-set(
-      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
-      url("../assets/ui/broken-tales-sheet.png") type("image/png")
-    );
-  background-position: center top, center top;
-  background-size: cover, 100% auto;
-  background-repeat: repeat-y, repeat-y;
-}
-
-.bt-sheet::before {
-  top: 12px;
-  left: 22px;
-  right: 22px;
-  height: 26px;
-  border-top: 7px solid var(--bt-ink);
-  border-bottom: 3px solid var(--bt-red);
-}
-
-.bt-sheet::after {
-  left: 22px;
-  right: 22px;
-  bottom: 22px;
-}
-
-.bt-sheet-head {
-  grid-template-columns: 126px minmax(320px, 0.92fr) minmax(310px, 1fr);
-  gap: 12px 18px;
-  padding: 16px 18px 22px;
-  margin-bottom: 18px;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 3px solid var(--bt-ink);
-  background: transparent;
-}
-
-.bt-portrait img {
-  width: 118px;
-  height: 118px;
-  background: transparent;
-  border: 4px solid var(--bt-red);
-}
-
-.bt-portrait input {
-  width: 118px;
-  color: var(--bt-ink);
-  font-size: 0.62rem;
-}
-
-.bt-ink-title {
-  min-height: 58px;
-  border-bottom: 3px solid var(--bt-red);
-}
-
-.bt-name {
-  min-height: 58px;
-  max-height: none;
-  overflow: hidden;
-  white-space: pre-wrap;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  background-color: transparent;
-}
-
-.bt-ink-title.bt-name-long .bt-name {
-  font-size: 1.66rem;
-  min-height: 82px;
-  line-height: 1.04;
-}
-
-.bt-ink-title.bt-name-very-long .bt-name {
-  font-size: 1.32rem;
-  min-height: 104px;
-  line-height: 1.08;
-}
-
-.bt-ink-title.bt-name-extreme .bt-name {
-  font-size: 1.06rem;
-  min-height: 128px;
-  line-height: 1.12;
-}
-
-.bt-line-fields {
-  gap: 8px;
-}
-
-.bt-line-fields span,
-.bt-compact-fields span,
-.bt-villager label > span,
-.bt-featured-text h2,
-.bt-section-title h2,
-.bt-linked-item h3,
-.bt-circle span,
-.bt-circle input,
-.bt-wounds label > span {
-  color: #9f000c;
-  background-image: linear-gradient(180deg, #fff 0%, #ffd9d9 18%, #d71920 40%, #650006 59%, #0f0002 66%, #b30011 100%);
-  background-size: 100% 260%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.76), 0 0 16px rgba(112, 0, 7, 0.45);
-  animation: btTextTide 7s ease-in-out infinite;
-}
-
-.bt-line-fields input,
-.bt-compact-fields input,
-.bt-compact-fields select,
-.bt-villager input,
-.bt-villager textarea {
-  background: transparent;
-  border-bottom: 2px solid var(--bt-red);
-}
-
-.bt-featured {
-  min-height: 140px;
-  padding-left: 16px;
-  border-left: 8px solid var(--bt-red);
-  background-color: transparent;
-}
-
-.bt-featured .bt-rich {
-  max-height: 128px;
-}
-
-.bt-descriptor-stack,
-.bt-lower-grid {
-  gap: 16px;
-}
-
-.bt-card,
-.bt-descriptor-row {
-  padding: 14px 12px 18px;
-  border-top: 3px solid var(--bt-ink);
-  background-color: transparent;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0,
-    transparent 28px,
-    rgba(8, 6, 9, 0.18) 29px,
-    transparent 30px
-  );
-}
-
-.bt-section-title {
-  margin-bottom: 4px;
-}
-
-.bt-section-title h2,
-.bt-featured-text h2 {
-  font-size: 1.34rem;
-}
-
-.bt-linked-item {
-  grid-template-columns: 38px 54px minmax(0, 1fr);
-  gap: 4px 10px;
-  min-height: 88px;
-  margin: 6px 0 16px;
-}
-
-.bt-linked-item .bt-item-icon,
-.bt-linked-item.descriptor .bt-item-icon,
-.bt-linked-item.gift .bt-item-icon {
-  grid-column: 2;
-  width: 48px;
-  height: 48px;
-  margin: 2px 0 0;
-  object-fit: contain;
-  transform: none;
-}
-
-.bt-linked-item.gift .bt-item-icon {
-  width: 34px;
-  height: 34px;
-  margin: 8px 0 0 7px;
-}
-
-.bt-linked-item .bt-item-icon.small {
-  width: 38px;
-  height: 38px;
-}
-
-.bt-linked-item h3 {
-  margin-top: 0;
-  font-size: 1.1rem;
-}
-
-.bt-linked-item .bt-rich,
-.bt-linked-item p,
-.bt-featured .bt-rich,
-.bt-footer-notes textarea {
-  color: var(--bt-ink);
-  text-shadow: none;
-  background: transparent;
-}
-
-.bt-linked-item.slim {
-  grid-template-columns: 38px minmax(0, 1fr);
-}
-
-.bt-dark-descriptor {
-  grid-template-columns: 48px minmax(0, 1fr);
-}
-
-.bt-resource-footer {
-  margin-top: 32px;
-  padding-right: 24px;
-}
-
-.bt-circle {
-  width: 92px;
-  height: 92px;
-  background: rgba(255, 255, 255, 0.24);
-  background-image: url("../assets/icons/icon-circle.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
   border: 0;
-}
-
-.bt-circle input {
   background: transparent;
-  border: 0;
-}
-
-.bt-resource-circles > button {
-  background: var(--bt-red);
-  border-radius: 50%;
-}
-
-.bt-footer-notes {
-  min-height: 190px;
-  background-color: transparent;
-}
-
-@container (max-width: 930px) {
-  .bt-sheet {
-    min-width: 0;
-    padding: 40px 28px 340px;
-  }
-
-  .bt-sheet-head {
-    grid-template-columns: 126px minmax(0, 1fr);
-  }
-
-  .bt-featured {
-    grid-column: 1 / -1;
-  }
-}
-
-/* v0.2.67 hunter sheet reset: fixed printed-page geometry over the source sheet art. */
-.broken-tales.application,
-.broken-tales.window-app {
-  background: #070405 url("../assets/ui/broken-tales-book-alt.jpg") center / cover no-repeat;
-}
-
-.broken-tales .window-content,
-.broken-tales .standard-form {
-  padding: 0 !important;
-  overflow: auto !important;
-  background: #070405 !important;
-}
-
-.broken-tales .bt-sheet {
-  box-sizing: border-box;
-  width: 1024px !important;
-  min-width: 1024px !important;
-  max-width: 1024px !important;
-  min-height: 1448px;
-  height: auto !important;
-  margin: 0 auto;
-  padding: 56px 44px 154px;
-  overflow: visible !important;
-  color: var(--bt-ink);
-  background-color: #fbfaf4;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)),
-    image-set(
-      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
-      url("../assets/ui/broken-tales-sheet.png") type("image/png")
-    );
-  background-position: center top, center top;
-  background-size: 1024px 1448px, 1024px 1448px;
-  background-repeat: repeat-y, repeat-y;
-  container-type: normal;
-}
-
-.broken-tales .bt-sheet::before,
-.broken-tales .bt-sheet::after {
-  content: none;
-}
-
-.broken-tales .bt-sheet-head {
-  display: grid;
-  grid-template-columns: 132px 340px 1fr;
-  gap: 12px 18px;
-  align-items: start;
-  min-height: 176px;
-  margin: 0 0 36px;
-  padding: 0 0 18px;
-  border: 0;
-  border-bottom: 3px solid var(--bt-ink);
-  background: transparent;
-}
-
-.broken-tales .bt-portrait img {
-  width: 124px;
-  height: 124px;
-  object-fit: cover;
-  background: #fff;
-  border: 4px solid var(--bt-red);
-}
-
-.broken-tales .bt-portrait input {
-  width: 124px;
-  min-height: 24px;
-  padding: 2px 0;
-  color: var(--bt-ink);
-  font-size: 0.62rem;
-  text-align: center;
-  border: 0;
-  border-bottom: 2px solid var(--bt-red);
-  background: transparent;
-}
-
-.broken-tales .bt-identity {
-  width: 340px;
-  min-width: 0;
-}
-
-.broken-tales .bt-ink-title {
-  width: 340px;
-  margin: 0 0 10px;
-  padding: 0;
-  overflow: visible;
-  border-bottom: 3px solid var(--bt-red);
-  background: transparent;
-}
-
-.broken-tales .bt-name {
-  width: 340px;
-  min-height: 64px;
-  height: 64px;
-  padding: 0 0 4px;
-  overflow: hidden;
-  resize: none;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  color: #a6000f;
-  background-color: transparent !important;
-  background-image: linear-gradient(180deg, #fff 0%, #ffe4e4 18%, #df1b25 39%, #78000b 58%, #100004 64%, #c90016 100%);
-  background-size: 100% 245%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: var(--bt-display-font);
-  font-size: 2.36rem;
-  line-height: 0.92;
-  text-shadow: 0 0 2px #fff, 0 0 9px rgba(215, 25, 32, 0.82), 1px 1px 0 rgba(8, 6, 9, 0.32);
-  animation: btTextTide 7s ease-in-out infinite;
-}
-
-.broken-tales .bt-ink-title.bt-name-long .bt-name {
-  height: 86px;
-  font-size: 1.72rem;
-  line-height: 1.02;
-}
-
-.broken-tales .bt-ink-title.bt-name-very-long .bt-name {
-  height: 108px;
-  font-size: 1.34rem;
-  line-height: 1.08;
-}
-
-.broken-tales .bt-ink-title.bt-name-extreme .bt-name {
-  height: 132px;
-  font-size: 1.12rem;
-  line-height: 1.12;
-}
-
-.broken-tales .bt-line-fields {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-
-.broken-tales .bt-line-fields label,
-.broken-tales .bt-compact-fields label,
-.broken-tales .bt-villager label {
-  min-width: 0;
-}
-
-.broken-tales .bt-line-fields span,
-.broken-tales .bt-compact-fields span,
-.broken-tales .bt-villager label > span,
-.broken-tales .bt-featured-text h2,
-.broken-tales .bt-featured-descriptor h3,
-.broken-tales .bt-section-title h2,
-.broken-tales .bt-linked-item h3,
-.broken-tales .bt-circle span,
-.broken-tales .bt-circle input,
-.broken-tales .bt-wounds label > span {
-  color: #a6000f;
-  background-color: transparent !important;
-  background-image: linear-gradient(180deg, #fff 0%, #ffe5e5 17%, #d71920 41%, #6a0008 58%, #0d0003 64%, #bb0012 100%);
-  background-size: 100% 255%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: var(--bt-display-font);
-  letter-spacing: 0;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.72), 0 0 17px rgba(112, 0, 7, 0.45);
-  animation: btTextTide 8s ease-in-out infinite;
-}
-
-.broken-tales .bt-line-fields input,
-.broken-tales .bt-compact-fields input,
-.broken-tales .bt-compact-fields select,
-.broken-tales .bt-villager input,
-.broken-tales .bt-villager textarea,
-.broken-tales .bt-wounds input,
-.broken-tales .bt-footer-notes textarea {
-  color: var(--bt-ink);
-  background: transparent !important;
-  border: 0;
-  border-bottom: 2px solid var(--bt-red);
-  box-shadow: none;
-}
-
-.broken-tales .bt-featured {
-  min-height: 150px;
-  padding: 0 0 0 18px;
-  border-left: 8px solid var(--bt-red);
-  background-color: transparent;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 25px, rgba(8, 6, 9, 0.18) 26px, transparent 27px);
-}
-
-.broken-tales .bt-featured-text h2,
-.broken-tales .bt-featured-descriptor h3 {
-  margin: 0 0 4px;
-  font-size: 1.16rem;
-}
-
-.broken-tales .bt-featured-descriptor + .bt-featured-descriptor {
-  margin-top: 8px;
-}
-
-.broken-tales .bt-featured .bt-rich {
-  max-height: 118px;
-  overflow-y: auto;
-  padding-right: 8px;
-}
-
-.broken-tales .bt-rich,
-.broken-tales .bt-rich p,
-.broken-tales .bt-linked-item p,
-.broken-tales .bt-empty,
-.broken-tales .bt-footer-notes textarea {
-  color: var(--bt-ink);
-  background: transparent !important;
-  text-shadow: none;
-}
-
-.broken-tales .bt-descriptor-stack,
-.broken-tales .bt-lower-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px;
-  margin-bottom: 22px;
-}
-
-.broken-tales .bt-card,
-.broken-tales .bt-descriptor-row {
-  min-height: 245px;
-  padding: 12px 12px 18px;
-  border: 0;
-  border-top: 3px solid var(--bt-ink);
-  background-color: transparent;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, rgba(8, 6, 9, 0.16) 28px, transparent 29px);
-}
-
-.broken-tales .bt-card::after,
-.broken-tales .bt-descriptor-row::after {
-  height: 3px;
-  background: var(--bt-ink);
-  opacity: 1;
-}
-
-.broken-tales .bt-section-title {
-  min-height: 32px;
-  margin-bottom: 6px;
-}
-
-.broken-tales .bt-section-title h2 {
-  font-size: 1.24rem;
-}
-
-.broken-tales .bt-section-title button,
-.broken-tales .bt-linked-item button,
-.broken-tales .bt-resource-circles > button {
-  width: 34px;
-  height: 34px;
-  color: #fff;
-  background: var(--bt-red);
-  border: 0;
-  border-radius: 4px;
-  box-shadow: 0 2px 0 var(--bt-red-dark);
-}
-
-.broken-tales .bt-linked-item {
-  display: grid;
-  grid-template-columns: 36px 58px minmax(0, 1fr);
-  gap: 2px 10px;
-  align-items: start;
-  min-height: 112px;
-  margin: 4px 0 18px;
-  padding: 0;
-}
-
-.broken-tales .bt-linked-item button {
-  grid-column: 1;
-  grid-row: 1;
-  margin-top: 4px;
-}
-
-.broken-tales .bt-linked-item .bt-item-icon {
-  grid-column: 2;
-  grid-row: 1 / span 3;
-  width: 54px;
-  height: 54px;
-  object-fit: contain;
-  margin: 0;
-  transform: none;
-}
-
-.broken-tales .bt-linked-item.gift .bt-item-icon {
-  width: 34px;
-  height: 34px;
-  margin: 8px 0 0 10px;
-}
-
-.broken-tales .bt-linked-item h3 {
-  grid-column: 3;
-  grid-row: 1;
-  margin: 2px 0 4px;
-  font-size: 1.04rem;
-  line-height: 1.05;
-}
-
-.broken-tales .bt-linked-item .bt-rich,
-.broken-tales .bt-linked-item p {
-  grid-column: 3;
   font-size: 1rem;
   line-height: 1.28;
 }
 
-.broken-tales .bt-linked-item.slim {
-  grid-template-columns: 36px minmax(0, 1fr);
-  min-height: 54px;
-}
-
-.broken-tales .bt-linked-item.slim h3,
-.broken-tales .bt-linked-item.slim .bt-rich {
-  grid-column: 2;
-}
-
-.broken-tales .bt-dark-descriptor {
-  display: grid;
-  grid-template-columns: 58px minmax(0, 1fr);
-  gap: 2px 10px;
-}
-
-.broken-tales .bt-dark-descriptor .bt-item-icon.small {
-  width: 48px;
-  height: 48px;
-}
-
-.broken-tales .bt-resource-footer {
-  display: flex;
-  justify-content: flex-end;
-  margin: 34px 26px 12px 0;
-  padding: 0;
-}
-
-.broken-tales .bt-resource-circles {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-.broken-tales .bt-circle {
-  width: 94px;
-  height: 94px;
-  padding: 18px 12px 10px;
+/* Item sheets */
+.broken-tales .bt-item-sheet {
+  min-width: 420px;
+  min-height: 620px;
+  padding: 26px;
+  overflow: auto;
   color: var(--bt-ink);
-  background: transparent url("../assets/icons/icon-circle.webp") center / contain no-repeat !important;
-  border: 0;
-}
-
-.broken-tales .bt-circle input {
-  width: 25px;
-  min-height: 20px;
-  padding: 0;
-  text-align: center;
-  border: 0;
-}
-
-.broken-tales .bt-footer-notes {
-  min-height: 140px;
-  padding: 0 26px 0 0;
-  background: transparent;
-}
-
-.broken-tales .bt-footer-notes h2 {
-  color: #a6000f;
-  font-family: var(--bt-display-font);
-}
-
-.broken-tales .bt-footer-notes textarea {
-  width: 100%;
-  min-height: 112px;
-  resize: vertical;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 25px, rgba(8, 6, 9, 0.18) 26px, transparent 27px) !important;
-}
-
-/* v0.2.68: printed hunter sheet alignment. Keep every field on a fixed page grid. */
-.broken-tales .bt-sheet.hunter {
-  width: 1024px !important;
-  min-width: 1024px !important;
-  max-width: 1024px !important;
-  min-height: 1448px;
-  padding: 58px 52px 156px;
-  background-color: #fbfaf4;
+  background-color: var(--bt-paper);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)),
+    linear-gradient(rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.78)),
     image-set(
       url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
       url("../assets/ui/broken-tales-sheet.png") type("image/png")
     );
-  background-position: center top, center top;
-  background-repeat: repeat-y, repeat-y;
-  background-size: 1024px 1448px, 1024px 1448px;
+  background-size: cover, cover;
 }
 
-.broken-tales .bt-sheet.hunter .bt-sheet-head {
-  grid-template-columns: 132px 430px 1fr;
-  gap: 12px 18px;
-  min-height: 214px;
-  margin-bottom: 28px;
-  padding-bottom: 14px;
-  border-bottom: 3px solid var(--bt-ink);
-}
-
-.broken-tales .bt-sheet.hunter .bt-identity {
-  width: 430px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-portrait input {
-  display: none;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title {
-  width: 430px;
-  min-height: 84px;
-  margin-bottom: 8px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-name {
-  display: block;
-  width: 430px;
-  min-height: 84px;
-  height: 84px;
-  overflow: hidden;
-  font-size: 2.2rem;
-  line-height: 0.96;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
-  height: 100px;
-  font-size: 1.82rem;
-  line-height: 1.02;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
-  height: 118px;
-  font-size: 1.46rem;
-  line-height: 1.06;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
-  height: 136px;
-  font-size: 1.18rem;
-  line-height: 1.08;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields label {
-  display: grid;
-  grid-template-rows: 26px 34px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields input {
-  min-width: 0;
-  height: 34px;
-  padding: 2px 4px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured {
-  min-height: 166px;
-  max-height: 166px;
-  padding-left: 18px;
-  overflow: hidden;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 26px, rgba(8, 6, 9, 0.16) 27px, transparent 28px);
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
-  max-height: 124px;
-  overflow-y: auto;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-stack {
-  grid-template-columns: 1fr 1fr;
-  gap: 18px 22px;
-  align-items: start;
-  margin-bottom: 22px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-row,
-.broken-tales .bt-sheet.hunter .bt-card {
-  min-height: 286px;
-  padding: 10px 12px 14px;
-  border-top: 3px solid var(--bt-ink);
-  background-color: transparent;
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, rgba(8, 6, 9, 0.15) 28px, transparent 29px);
-}
-
-.broken-tales .bt-sheet.hunter .bt-section-title {
-  min-height: 34px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-section-title h2 {
-  font-size: 1.28rem;
-  line-height: 1;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item {
-  grid-template-columns: 36px 76px minmax(0, 1fr);
-  gap: 2px 10px;
-  min-height: 112px;
-  margin-bottom: 18px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
-  width: 70px;
-  height: 70px;
-  margin-top: 0;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
-  width: 58px;
-  height: 58px;
-  margin: 2px 0 0 9px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item h3 {
-  min-height: 28px;
-  max-height: 56px;
-  overflow: hidden;
-  font-size: 1.08rem;
-  line-height: 1.08;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item .bt-rich {
-  max-height: 148px;
-  overflow-y: auto;
-}
-
-.broken-tales .bt-sheet.hunter .bt-dark-ego {
-  min-height: 330px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-dark-ego .bt-linked-item {
-  min-height: 250px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-dark-descriptor {
-  grid-column: 3;
-  display: grid;
-  grid-template-columns: 52px minmax(0, 1fr);
-  margin-bottom: 8px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-dark-descriptor .bt-rich {
-  grid-column: 2;
-  max-height: 92px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-wounds label {
-  display: grid;
-  grid-template-columns: 92px 1fr;
-  gap: 12px;
-  align-items: end;
-  height: 40px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-resource-footer {
-  justify-content: flex-end;
-  margin-top: 30px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-resource-circles {
-  gap: 12px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-circle {
-  width: 96px;
-  height: 96px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-footer-notes {
-  min-height: 172px;
-  padding-right: 0;
-}
-
-/* v0.2.70: hard alignment pass for the printed Hunter's Sheet geometry. */
-.broken-tales .bt-sheet.hunter {
-  box-sizing: border-box;
-  width: 1024px !important;
-  min-width: 1024px !important;
-  max-width: 1024px !important;
-  min-height: 1448px;
-  padding: 62px 50px 168px;
-  background-color: #fbfaf4 !important;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
-    image-set(
-      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
-      url("../assets/ui/broken-tales-sheet.png") type("image/png")
-    ) !important;
-  background-position: center top, center top !important;
-  background-repeat: repeat-y, repeat-y !important;
-  background-size: 1024px 1448px, 1024px 1448px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-sheet-head {
-  display: grid;
-  grid-template-columns: 126px 500px 1fr !important;
-  grid-template-rows: 176px;
-  gap: 14px 18px;
-  align-items: start;
-  min-height: 202px;
-  margin: 0 0 24px;
-  padding: 16px 8px 12px;
-  border-top: 0;
-  border-bottom: 3px solid var(--bt-ink);
-}
-
-.broken-tales .bt-sheet.hunter .bt-portrait {
-  width: 126px;
-  min-width: 126px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-portrait img {
-  width: 112px;
-  height: 112px;
-  object-fit: cover;
-  object-position: center;
+.broken-tales .bt-item-sheet img.profile-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  background: transparent;
   border: 4px solid var(--bt-red);
 }
 
-.broken-tales .bt-sheet.hunter .bt-identity,
-.broken-tales .bt-sheet.hunter .bt-ink-title,
-.broken-tales .bt-sheet.hunter .bt-name {
-  width: 500px !important;
-  max-width: 500px !important;
+.broken-tales .bt-item-sheet h1,
+.broken-tales .bt-item-sheet h2,
+.broken-tales .bt-item-sheet label > span {
+  font-family: var(--bt-display-font);
+  color: var(--bt-red-dark);
+  text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.72);
 }
 
-.broken-tales .bt-sheet.hunter .bt-ink-title {
-  min-height: 70px;
-  height: 70px;
-  margin: 0 0 8px;
-  overflow: visible;
+.broken-tales .bt-item-sheet input,
+.broken-tales .bt-item-sheet textarea,
+.broken-tales .bt-item-sheet select {
+  width: 100%;
+  border-bottom: 2px solid var(--bt-red);
 }
 
-.broken-tales .bt-sheet.hunter .bt-name {
-  min-height: 70px;
-  height: 70px;
-  padding: 0 6px 0 0;
-  overflow: hidden;
-  resize: none;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-  font-size: 2.06rem;
-  line-height: 0.98;
+.broken-tales .bt-item-sheet textarea {
+  min-height: 130px;
+  resize: vertical;
+  background-image: var(--bt-line);
 }
 
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
-  min-height: 86px;
-  height: 86px;
-  font-size: 1.62rem;
-  line-height: 1.02;
+/* Compendium and sidebar theming. Data remains in .db packs; this only improves readability. */
+.broken-tales-pack-list,
+.compendium-sidebar .directory-item.compendium[data-pack^="broken-tales"],
+.compendium-sidebar .directory-item.compendium[data-pack^="broken-tales-broken-ones"],
+.compendium-sidebar .directory-item.compendium[data-pack^="broken-tales-lost-stories"] {
+  color: #f7eeee;
+  text-shadow: 0 0 7px rgba(215, 25, 32, 0.58);
 }
 
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
-  min-height: 104px;
-  height: 104px;
-  font-size: 1.32rem;
-  line-height: 1.04;
+.broken-tales-scenario-gift-group {
+  padding: 7px 10px;
+  color: #fff;
+  background: rgba(112, 0, 7, 0.72);
+  font-family: var(--bt-display-font);
+  letter-spacing: 0;
 }
 
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
-  min-height: 124px;
-  height: 124px;
-  font-size: 1.08rem;
-  line-height: 1.05;
+@media (max-width: 1080px) {
+  .bt-sheet {
+    margin: 0;
+  }
 }
 
-.broken-tales .bt-sheet.hunter .bt-line-fields {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  width: 500px;
-}
 
-.broken-tales .bt-sheet.hunter .bt-line-fields label {
-  min-width: 0;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields span,
-.broken-tales .bt-sheet.hunter .bt-line-fields input {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured {
-  min-width: 0;
-  min-height: 176px;
-  max-height: 176px;
-  padding: 0 0 0 18px;
-  overflow: hidden;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
-  max-height: 132px;
-  overflow-y: auto;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-stack,
-.broken-tales .bt-sheet.hunter .bt-lower-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 18px 20px;
-  align-items: start;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-row,
-.broken-tales .bt-sheet.hunter .bt-card {
-  box-sizing: border-box;
-  min-width: 0;
-  overflow: hidden;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item {
-  display: grid;
-  grid-template-columns: 34px 82px minmax(0, 1fr);
-  column-gap: 10px;
-  align-items: start;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
-  width: 76px;
-  height: 76px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
-  width: 64px;
-  height: 64px;
-  margin-left: 6px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item h3 {
-  overflow-wrap: anywhere;
-}
-
-/* 0.2.75: final stability pass after legacy visual reset. */
-.broken-tales.actor-sheet .window-content {
-  overflow: hidden;
-}
-
-.broken-tales .bt-sheet.hunter {
-  background-position: center -126px, center -126px !important;
-  overflow-x: auto;
-  overflow-y: auto;
-}
-
-.broken-tales .bt-sheet.hunter .bt-sheet-head {
-  grid-template-columns: 126px 480px 1fr !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-identity,
-.broken-tales .bt-sheet.hunter .bt-ink-title,
-.broken-tales .bt-sheet.hunter .bt-name,
-.broken-tales .bt-sheet.hunter .bt-line-fields {
-  width: 480px !important;
-  max-width: 480px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title,
-.broken-tales .bt-sheet.hunter .bt-name {
-  height: auto !important;
-  overflow: visible;
-}
-
-.broken-tales .bt-sheet.hunter .bt-name {
-  min-height: 78px;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  text-overflow: clip;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
-  min-height: 92px;
-  font-size: 1.78rem;
-  line-height: 1.02;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
-  min-height: 112px;
-  font-size: 1.44rem;
-  line-height: 1.05;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
-  min-height: 144px;
-  font-size: 1.2rem;
-  line-height: 1.08;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured {
-  min-height: 186px;
-  max-height: 186px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
-  max-height: 142px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item {
-  grid-template-columns: 34px 94px minmax(0, 1fr);
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
-  width: 94px;
-  height: 94px;
-  margin-left: 0;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
-  width: 78px;
-  height: 78px;
-  margin-left: 0;
-}
-
-/* 0.2.78: final Hunter's Sheet reset. Keeps the Blood Ink text effect, but
-   fixes the sheet to a printed-page layout so resizing the window does not
-   move fields away from the form structure. */
-.broken-tales .bt-sheet.hunter {
-  box-sizing: border-box;
-  width: 1024px !important;
-  min-width: 1024px !important;
-  max-width: 1024px !important;
-  min-height: 1448px;
-  padding: 64px 56px 190px !important;
-  color: #0b0909;
-  background-color: #fbfaf4 !important;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.76)),
-    image-set(
-      url("../assets/ui/broken-tales-sheet.webp") type("image/webp"),
-      url("../assets/ui/broken-tales-sheet.png") type("image/png")
-    ) !important;
-  background-size: 1024px 1448px, 1024px 1448px !important;
-  background-position: center top, center top !important;
-  background-repeat: repeat-y, repeat-y !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-sheet-head {
-  display: grid !important;
-  grid-template-columns: 128px 420px 1fr !important;
-  grid-template-rows: 156px !important;
-  gap: 14px 18px !important;
-  min-height: 174px !important;
-  margin: 0 0 22px !important;
-  padding: 0 0 20px !important;
-  border-top: 4px solid #d71920;
-  border-bottom: 3px solid #070606 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-portrait {
-  width: 128px;
-  height: 148px;
-  padding-top: 18px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-portrait img {
-  width: 112px !important;
-  height: 112px !important;
-  object-fit: cover;
-  border: 4px solid #d71920;
-  background: #fff;
-}
-
-.broken-tales .bt-sheet.hunter .bt-identity,
-.broken-tales .bt-sheet.hunter .bt-ink-title,
-.broken-tales .bt-sheet.hunter .bt-line-fields {
-  width: 420px !important;
-  max-width: 420px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-identity {
-  padding-top: 18px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title {
-  min-height: 58px !important;
-  height: 58px !important;
-  margin: 0 0 10px !important;
-  border-bottom: 3px solid #d71920 !important;
-  overflow: hidden !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-name {
-  width: 420px !important;
-  min-height: 54px !important;
-  height: 54px !important;
-  font-size: 2.35rem !important;
-  line-height: 0.9 !important;
-  white-space: normal !important;
-  overflow: hidden !important;
-  text-overflow: clip;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme {
-  height: 76px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-long .bt-name {
-  height: 74px !important;
-  font-size: 1.92rem !important;
-  line-height: 0.96 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name,
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
-  height: 74px !important;
-  font-size: 1.5rem !important;
-  line-height: 1 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields {
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 8px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-line-fields input,
-.broken-tales .bt-sheet.hunter .bt-compact-fields input,
-.broken-tales .bt-sheet.hunter .bt-compact-fields select,
-.broken-tales .bt-sheet.hunter .bt-villager input,
-.broken-tales .bt-sheet.hunter .bt-villager textarea,
-.broken-tales .bt-sheet.hunter .bt-wounds input,
-.broken-tales .bt-sheet.hunter .bt-footer-notes textarea {
-  color: #0b0909 !important;
-  background: transparent !important;
-  border: 0 !important;
-  border-bottom: 2px solid #d71920 !important;
-  box-shadow: none !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured {
-  min-height: 130px !important;
-  max-height: 136px !important;
-  padding: 16px 12px 8px 18px !important;
-  overflow: hidden !important;
-  border-left: 8px solid #d71920 !important;
-  background: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, rgba(8, 6, 9, 0.22) 28px, transparent 29px) !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-featured .bt-rich {
-  max-height: 92px !important;
-  overflow: hidden !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-stack,
-.broken-tales .bt-sheet.hunter .bt-lower-grid {
-  grid-template-columns: 1fr 1fr !important;
-  gap: 16px 18px !important;
-  align-items: start;
-}
-
-.broken-tales .bt-sheet.hunter .bt-descriptor-row,
-.broken-tales .bt-sheet.hunter .bt-card {
-  min-height: 300px;
-  padding: 14px 12px 16px !important;
-  border: 0 !important;
-  border-top: 3px solid #070606 !important;
-  box-shadow: none !important;
-  background: repeating-linear-gradient(to bottom, transparent 0, transparent 28px, rgba(8, 6, 9, 0.16) 29px, transparent 30px) !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-section-title h2,
-.broken-tales .bt-sheet.hunter .bt-featured-text h2,
-.broken-tales .bt-sheet.hunter .bt-linked-item h3,
-.broken-tales .bt-sheet.hunter .bt-circle span,
-.broken-tales .bt-sheet.hunter .bt-wounds label > span {
-  color: #d71920;
-  text-shadow: 0 0 2px #fff, 0 0 8px rgba(215, 25, 32, 0.82), 0 0 16px rgba(112, 0, 7, 0.44);
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item {
-  grid-template-columns: 32px 84px minmax(0, 1fr) !important;
-  gap: 6px 10px !important;
-  min-height: 88px !important;
-  margin: 5px 0 13px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item button {
-  grid-column: 1;
-  width: 30px !important;
-  height: 30px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.descriptor .bt-item-icon {
-  grid-column: 2;
-  width: 72px !important;
-  height: 72px !important;
-  margin: 0 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
-  grid-column: 2;
-  width: 36px !important;
-  height: 36px !important;
-  margin: 2px 0 0 18px !important;
-  transform: none !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item h3,
-.broken-tales .bt-sheet.hunter .bt-linked-item .bt-rich,
-.broken-tales .bt-sheet.hunter .bt-linked-item p {
-  grid-column: 3 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-rich {
-  color: #0b0909 !important;
-  font-size: 1rem !important;
-  line-height: 1.28 !important;
-  text-shadow: none !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-resource-footer {
-  justify-content: flex-end !important;
-  margin: 36px 0 18px !important;
-  padding-right: 58px;
-}
-
-.broken-tales .bt-sheet.hunter .bt-circle {
-  width: 92px !important;
-  height: 92px !important;
-  background: transparent !important;
-  border: 3px solid #d71920 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-footer-notes {
-  min-height: 180px;
-  border-top: 3px solid #070606 !important;
-  background: repeating-linear-gradient(to bottom, transparent 0, transparent 28px, rgba(8, 6, 9, 0.16) 29px, transparent 30px) !important;
-}
-
-/* 0.2.79: keep long hunter names readable and make printed icons legible. */
-.broken-tales .bt-sheet.hunter .bt-name {
-  resize: none !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme {
-  height: 88px !important;
-  min-height: 88px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-extreme .bt-name {
-  height: 86px !important;
-  min-height: 86px !important;
-  font-size: 1.22rem !important;
-  line-height: 1.05 !important;
-  overflow: hidden !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-ink-title.bt-name-very-long .bt-name {
-  font-size: 1.36rem !important;
-  line-height: 1.04 !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-linked-item.gift .bt-item-icon {
-  width: 48px !important;
-  height: 48px !important;
-  margin: 0 0 0 12px !important;
-}
-
-.broken-tales .bt-sheet.hunter .bt-dark-descriptor .bt-item-icon.small {
-  width: 46px !important;
-  height: 46px !important;
+.bt-linked-item:not(.descriptor):not(.gift) .bt-item-icon {
+  width: 42px;
+  height: 42px;
 }

@@ -2386,10 +2386,14 @@
         "specialFor": "Don Especial para Garou el Viejo Lobo"
       }
     },
-    "Description": "Descripción"
+    "Description": "Descripción",
+    "HunterSheet": "Hoja de Cazador",
+    "DescriptorsAndGifts": "Descriptores y Dones",
+    "MainDescriptor": "Descriptor principal"
   },
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Dones de escenario: Ozena, la sufrida y desesperada",
   "BROKENTALES.Macros.ResetComplete": "Macros de Broken Tales restablecidas.",
   "BROKENTALES.CompendiaRepairComplete": "Reparación de compendios de Broken Tales completa: {repaired} reparados, {errors} errores.",
-  "BROKENTALES.MainDescriptor": "Descriptor principal"
+  "BROKENTALES.MainDescriptor": "Descriptor principal",
+  "BROKENTALES.DescriptorsAndGifts": "Descriptores y Dones"
 }

@@ -1,4 +1,10 @@
 <section class="bt-sheet {{actor.type}}">
+  <div class="bt-page-masthead" aria-hidden="true">
+    <span class="bt-print-title">{{localize "BROKENTALES.HunterSheet"}}</span>
+    <span class="bt-logo-mark">Broken<br />Tales</span>
+    <span class="bt-description-title">{{localize "BROKENTALES.Description"}}</span>
+  </div>
+
   <header class="bt-sheet-head">
     <div class="bt-portrait">
       <img src="{{actor.img}}" alt="{{actor.name}}" />
@@ -116,6 +122,10 @@
     </label>
   </section>
   {{/if}}
+
+  <div class="bt-descriptors-banner" aria-hidden="true">
+    <span>{{localize "BROKENTALES.DescriptorsAndGifts"}}</span>
+  </div>
 
   <section class="bt-descriptor-stack">
     {{#each descriptorRows as |row|}}

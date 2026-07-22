@@ -2138,10 +2138,15 @@
         "Spirit / Essence - Anchor": "Spirit / Essence - Anchor",
         "Spirit / Essence - Manifestation": "Spirit / Essence - Manifestation"
       }
-    }
+    },
+    "HunterSheet": "Hunter's Sheet",
+    "Description": "Description",
+    "DescriptorsAndGifts": "Descriptors and Gifts",
+    "MainDescriptor": "Main Descriptor"
   },
   "BROKENTALES.Packs.ScenarioGifts.OzenaTheSufferingAndDesperate": "Broken Tales - Scenario Gifts: Ozena, the Suffering and Desperate",
   "BROKENTALES.Macros.ResetComplete": "Broken Tales utility macros reset.",
   "BROKENTALES.CompendiaRepairComplete": "Broken Tales compendium repair complete: {repaired} repaired, {errors} errors.",
-  "BROKENTALES.MainDescriptor": "Main Descriptor"
+  "BROKENTALES.MainDescriptor": "Main Descriptor",
+  "BROKENTALES.DescriptorsAndGifts": "Descriptors and Gifts"
 }
