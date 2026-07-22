@@ -55,13 +55,11 @@ const BROKEN_TALES_PACK_PREFIXES = [
 
 const ESSENTIAL_MACRO_COMMANDS = new Set([
   "await game.brokenTales.repairPregens({ collection: \"core\", pruneOtherImportedPregens: true });",
-  "await game.brokenTales.syncWorldActorsFromCompendia({ cleanupDuplicates: true, importMissing: false, replaceExisting: true });",
   "await game.brokenTales.deleteWorldActorsAndItems();"
 ]);
 
 const ESSENTIAL_MACRO_NAME_KEYS = [
   "BROKENTALES.Macros.RepairPregens",
-  "BROKENTALES.Macros.SyncWorldActors",
   "BROKENTALES.Macros.DeleteWorldActorsItems"
 ];
 
@@ -175,12 +173,12 @@ function selectedContentLanguage() {
   };
 
   try {
-    const core = resolve(game.settings.get("core", "language"));
-    if (core) return core;
-
     const configuredRaw = normalize(game.settings.get("broken-tales", "contentLanguage"));
     const configured = resolve(configuredRaw);
     if (configured && configuredRaw !== "system") return configured;
+
+    const core = resolve(game.settings.get("core", "language"));
+    if (core) return core;
   } catch (_error) {
     // Settings are not available before ready; fall back to Foundry's UI language.
   }
@@ -420,8 +418,7 @@ async function resetUtilityMacros() {
   await cleanupLegacyBrokenTalesMacros();
   await Promise.all([
     createPregenRepairMacro(),
-    createDeleteWorldActorsItemsMacro(),
-    createSyncWorldActorsMacro()
+    createDeleteWorldActorsItemsMacro()
   ]);
   ui.notifications.info(game.i18n.localize("BROKENTALES.Macros.ResetComplete"));
 }
@@ -639,8 +636,7 @@ Hooks.once("ready", async () => {
     await cleanupLegacyBrokenTalesMacros();
     await Promise.all([
       createPregenRepairMacro(),
-      createDeleteWorldActorsItemsMacro(),
-      createSyncWorldActorsMacro()
+      createDeleteWorldActorsItemsMacro()
     ]);
     await refreshPregenAssets({ notify: false });
     await repairEmptyBrokenTalesCompendia();

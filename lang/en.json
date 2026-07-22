@@ -16361,5 +16361,15 @@
   "BROKENTALES.Macros.ResetComplete": "Broken Tales utility macros reset.",
   "BROKENTALES.CompendiaRepairComplete": "Broken Tales compendium repair complete: {repaired} repaired, {errors} errors.",
   "BROKENTALES.MainDescriptor": "Main Descriptor",
-  "BROKENTALES.DescriptorsAndGifts": "Descriptors and Gifts"
+  "BROKENTALES.DescriptorsAndGifts": "Descriptors and Gifts",
+  "BROKENTALES.Content.Support.Scenario Gifts": "Scenario Gifts",
+  "BROKENTALES.Content.Support.Objects and Equipment": "Objects and Equipment",
+  "BROKENTALES.Content.Support.Order Treasure": "Order Treasure",
+  "BROKENTALES.Content.Support.Broken Europe Map": "Broken Europe Map",
+  "BROKENTALES.Content.Support.Villagers": "Villagers",
+  "BROKENTALES.Content.Support.Spirits and Essences": "Spirits and Essences",
+  "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Nature": "Spirit / Essence - Nature",
+  "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Anchor": "Spirit / Essence - Anchor",
+  "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Manifestation": "Spirit / Essence - Manifestation",
+  "BROKENTALES.HunterSheet": "Hunter's Sheet"
 }

@@ -210,6 +210,11 @@
   animation: none;
 }
 
+.bt-logo-mark::before {
+  content: "Broken\A Tales";
+  white-space: pre;
+}
+
 .bt-description-title {
   display: block;
   padding-top: 10px;
@@ -259,17 +264,17 @@
 
 .bt-ink-title {
   width: 402px;
-  min-height: 66px;
+  min-height: 76px;
   margin: 0 0 12px;
-  overflow: hidden;
+  overflow: visible;
   border-bottom: 3px solid var(--bt-red);
 }
 
 .bt-name {
   display: block;
   width: 100%;
-  height: 62px;
-  min-height: 62px;
+  height: 72px;
+  min-height: 72px;
   padding: 0 4px 0 0;
   resize: none;
   overflow: hidden;
@@ -294,13 +299,13 @@
 }
 
 .bt-ink-title.bt-name-extreme {
-  min-height: 82px;
+  min-height: 94px;
 }
 
 .bt-ink-title.bt-name-extreme .bt-name {
-  height: 80px;
-  min-height: 80px;
-  font-size: 1.12rem;
+  height: 92px;
+  min-height: 92px;
+  font-size: 1rem;
   line-height: 1.08;
 }
 

@@ -1,7 +1,7 @@
 <section class="bt-sheet {{actor.type}}">
   <div class="bt-page-masthead" aria-hidden="true">
     <span class="bt-print-title">{{localize "BROKENTALES.HunterSheet"}}</span>
-    <span class="bt-logo-mark notranslate" translate="no">Broken<br />Tales</span>
+    <span class="bt-logo-mark notranslate" translate="no" aria-label="Broken Tales"></span>
     <span class="bt-description-title">{{localize "BROKENTALES.Description"}}</span>
   </div>
 
@@ -44,6 +44,9 @@
     <section class="bt-featured">
       <div class="bt-featured-text">
         <h2>{{localize "BROKENTALES.MainDescriptor"}}</h2>
+        {{#if featuredFallbackDescription}}
+        <div class="bt-rich">{{{featuredFallbackDescription.system.description}}}</div>
+        {{else}}
         {{#if featuredDescriptors.length}}
         {{#each featuredDescriptors as |descriptor|}}
         <article class="bt-featured-descriptor" data-item-id="{{descriptor._id}}">
@@ -51,9 +54,6 @@
           <div class="bt-rich">{{{descriptor.system.description}}}</div>
         </article>
         {{/each}}
-        {{else}}
-        {{#if featuredFallbackDescription}}
-        <div class="bt-rich">{{{featuredFallbackDescription.system.description}}}</div>
         {{else}}
         <p class="bt-empty">{{localize "BROKENTALES.Empty.Descriptors"}}</p>
         {{/if}}
