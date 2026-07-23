@@ -64,6 +64,16 @@ export class BrokenTalesActorSheet extends api.HandlebarsApplicationMixin(sheets
   _onRender(context, options) {
     super._onRender(context, options);
     const root = this.element instanceof HTMLElement ? this.element : this.element?.[0];
+    for (const input of root?.querySelectorAll("[data-bt-wound]") ?? []) {
+      input.addEventListener("change", async (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        const field = event.currentTarget.dataset.btWound;
+        if (!field) return;
+        await this.document.update({ [field]: event.currentTarget.checked ? "x" : "" });
+      });
+    }
+
     root?.querySelector("[data-bt-threat-rank]")?.addEventListener("change", (event) => {
       const level = CONFIG.BROKENTALES.threatRankOpposition[event.currentTarget.value];
       const levelInput = root.querySelector("[name='system.threat.oppositionLevel']");

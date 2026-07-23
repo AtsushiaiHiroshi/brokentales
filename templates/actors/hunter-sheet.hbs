@@ -224,10 +224,10 @@
         <h2>{{localize "BROKENTALES.Wounds"}}</h2>
       </div>
       <div class="bt-wound-boxes">
-        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound1" value="{{system.bookmark.wound1}}" {{fieldDisabled}} /><span>1.</span><em></em></label>
-        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound2" value="{{system.bookmark.wound2}}" {{fieldDisabled}} /><span>2.</span><em></em></label>
-        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.wound3" value="{{system.bookmark.wound3}}" {{fieldDisabled}} /><span>3.</span><em></em></label>
-        <label><input class="bt-wound-mark" maxlength="1" type="text" name="system.bookmark.extraWound" value="{{system.bookmark.extraWound}}" {{fieldDisabled}} /><span>{{localize "BROKENTALES.ExtraWound"}}</span><em></em></label>
+        <label><input class="bt-wound-mark" type="checkbox" data-bt-wound="system.bookmark.wound1" {{checked system.bookmark.wound1}} {{fieldDisabled}} /><span>1.</span><em></em></label>
+        <label><input class="bt-wound-mark" type="checkbox" data-bt-wound="system.bookmark.wound2" {{checked system.bookmark.wound2}} {{fieldDisabled}} /><span>2.</span><em></em></label>
+        <label><input class="bt-wound-mark" type="checkbox" data-bt-wound="system.bookmark.wound3" {{checked system.bookmark.wound3}} {{fieldDisabled}} /><span>3.</span><em></em></label>
+        <label><input class="bt-wound-mark" type="checkbox" data-bt-wound="system.bookmark.extraWound" {{checked system.bookmark.extraWound}} {{fieldDisabled}} /><span>{{localize "BROKENTALES.ExtraWound"}}</span><em></em></label>
       </div>
     </article>
   </section>
@@ -241,7 +241,7 @@
         </button>
       </div>
       {{#each itemGroups.equipment as |item|}}
-      <div class="bt-linked-item slim" data-item-id="{{item._id}}">
+      <div class="bt-linked-item slim bt-equipment-line" data-item-id="{{item._id}}">
         <button type="button" data-action="editItem"><i class="fa-solid fa-pen-to-square"></i></button>
         <h3>{{item.name}}</h3>
         <div class="bt-rich">{{{item.system.description}}}</div>
