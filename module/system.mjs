@@ -47,6 +47,117 @@ import {
   repairEmptyBrokenTalesCompendia
 } from "./compendium-repair.mjs";
 
+const BROKEN_TALES_LOCALIZATION_FALLBACKS = {
+  en: {
+    "BROKENTALES.ActorTypes.Essence": "Spirit / Essence",
+    "BROKENTALES.ActorTypes.Hunter": "Hunter",
+    "BROKENTALES.ActorTypes.NPC": "NPC",
+    "BROKENTALES.ActorTypes.Threat": "Threat",
+    "BROKENTALES.ActorTypes.Villager": "Villager",
+    "BROKENTALES.AdditionalGifts": "Additional Gifts",
+    "BROKENTALES.Age": "Age",
+    "BROKENTALES.Bond": "Bond",
+    "BROKENTALES.Concept": "Concept",
+    "BROKENTALES.ContactWithBrokenTales": "Contact with Broken Tales",
+    "BROKENTALES.DarkEgo": "Dark Ego",
+    "BROKENTALES.Description": "Description",
+    "BROKENTALES.DescriptorsAndGifts": "Descriptors and Gifts",
+    "BROKENTALES.DistinguishingFeatures": "Distinguishing Features",
+    "BROKENTALES.Empty.Descriptors": "No descriptors yet.",
+    "BROKENTALES.Empty.Gifts": "No gifts yet.",
+    "BROKENTALES.EssenceAnchor": "Anchor",
+    "BROKENTALES.EssenceManifestation": "Manifestation",
+    "BROKENTALES.EssenceNature": "Nature",
+    "BROKENTALES.ExtraWound": "Extra Wound",
+    "BROKENTALES.HunterSheet": "Hunter's Sheet",
+    "BROKENTALES.ItemTypes.Descriptor": "Descriptor",
+    "BROKENTALES.ItemTypes.Equipment": "Equipment",
+    "BROKENTALES.ItemTypes.Gift": "Gift",
+    "BROKENTALES.ItemTypes.StoryElement": "Story Element",
+    "BROKENTALES.MainDescriptor": "Main Descriptor",
+    "BROKENTALES.Notes": "Notes",
+    "BROKENTALES.Origin": "Origin Tale",
+    "BROKENTALES.Roll.OppositionLevel": "Opposition Level",
+    "BROKENTALES.Roll.PositionCheck": "Position Check",
+    "BROKENTALES.Soma": "Soma",
+    "BROKENTALES.ThreatImpulse": "Impulse",
+    "BROKENTALES.ThreatRank": "Rank",
+    "BROKENTALES.Trigger": "Trigger",
+    "BROKENTALES.Wounds": "Wounds",
+    "BROKENTALES.XP": "XP"
+  },
+  es: {
+    "BROKENTALES.ActorTypes.Essence": "Espiritu / Esencia",
+    "BROKENTALES.ActorTypes.Hunter": "Cazador",
+    "BROKENTALES.ActorTypes.NPC": "PNJ",
+    "BROKENTALES.ActorTypes.Threat": "Amenaza",
+    "BROKENTALES.ActorTypes.Villager": "Aldeano",
+    "BROKENTALES.AdditionalGifts": "Dones adicionales",
+    "BROKENTALES.Age": "Edad",
+    "BROKENTALES.Bond": "Vinculo",
+    "BROKENTALES.Concept": "Concepto",
+    "BROKENTALES.ContactWithBrokenTales": "Contacto con los cuentos rotos",
+    "BROKENTALES.DarkEgo": "Ego oscuro",
+    "BROKENTALES.Description": "Descripcion",
+    "BROKENTALES.DescriptorsAndGifts": "Descriptores y Dones",
+    "BROKENTALES.DistinguishingFeatures": "Rasgos distintivos",
+    "BROKENTALES.Empty.Descriptors": "Sin descriptores todavia.",
+    "BROKENTALES.Empty.Gifts": "Sin dones todavia.",
+    "BROKENTALES.EssenceAnchor": "Ancla",
+    "BROKENTALES.EssenceManifestation": "Manifestacion",
+    "BROKENTALES.EssenceNature": "Naturaleza",
+    "BROKENTALES.ExtraWound": "Herida adicional",
+    "BROKENTALES.HunterSheet": "Hoja de Cazador",
+    "BROKENTALES.ItemTypes.Descriptor": "Descriptor",
+    "BROKENTALES.ItemTypes.Equipment": "Equipo",
+    "BROKENTALES.ItemTypes.Gift": "Don",
+    "BROKENTALES.ItemTypes.StoryElement": "Elemento de historia",
+    "BROKENTALES.MainDescriptor": "Descriptor principal",
+    "BROKENTALES.Notes": "Notas",
+    "BROKENTALES.Origin": "Cuento de origen",
+    "BROKENTALES.Roll.OppositionLevel": "Nivel de oposicion",
+    "BROKENTALES.Roll.PositionCheck": "Prueba de posicion",
+    "BROKENTALES.Soma": "Soma",
+    "BROKENTALES.ThreatImpulse": "Impulso",
+    "BROKENTALES.ThreatRank": "Rango",
+    "BROKENTALES.Trigger": "Disparador",
+    "BROKENTALES.Wounds": "Heridas",
+    "BROKENTALES.XP": "XP"
+  }
+};
+
+function brokenTalesLocalizationLanguage() {
+  let configured = "";
+  try {
+    configured = String(game.settings?.get?.("broken-tales", "contentLanguage") ?? "").toLowerCase();
+  } catch (_error) {
+    configured = "";
+  }
+  if (configured === "es" || configured.startsWith("es")) return "es";
+  if (configured === "en" || configured.startsWith("en")) return "en";
+  return String(game.i18n?.lang ?? "en").startsWith("es") ? "es" : "en";
+}
+
+function resolveBrokenTalesLocalization(key) {
+  if (!String(key ?? "").startsWith("BROKENTALES.")) return null;
+  const language = brokenTalesLocalizationLanguage();
+  const translated = foundry.utils.getProperty(game.i18n.translations ?? {}, key)
+    ?? foundry.utils.getProperty(game.i18n._fallback ?? {}, key)
+    ?? BROKEN_TALES_LOCALIZATION_FALLBACKS[language]?.[key]
+    ?? BROKEN_TALES_LOCALIZATION_FALLBACKS.en[key];
+  return translated && translated !== key ? translated : null;
+}
+
+function registerBrokenTalesLocalizationFallback() {
+  if (!globalThis.Handlebars) return;
+  const original = Handlebars.helpers.localize;
+  Handlebars.registerHelper("localize", function(key, options) {
+    const value = typeof original === "function" ? original.call(this, key, options) : game.i18n.localize(key);
+    if (value && value !== key) return value;
+    return resolveBrokenTalesLocalization(key) ?? value ?? key;
+  });
+}
+
 const BROKEN_TALES_PACK_PREFIXES = [
   "broken-tales.",
   "broken-tales-broken-ones.",
@@ -424,6 +535,8 @@ async function resetUtilityMacros() {
 }
 
 Hooks.once("init", () => {
+  registerBrokenTalesLocalizationFallback();
+
   CONFIG.BROKENTALES = {
     actorTypeLabels: {
       hunter: "BROKENTALES.ActorTypes.Hunter",
