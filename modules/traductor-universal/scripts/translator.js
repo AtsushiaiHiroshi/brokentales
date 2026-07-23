@@ -128,7 +128,9 @@ export class Translator {
   }
 
   static translateElement(root, namespaces = "generic") {
-    if (!game.settings.get(MODULE_ID, "enableHardTranslation")) return;
+    const namespaceList = [].concat(namespaces).filter(Boolean);
+    const isBrokenTales = namespaceList.includes("brokenTales");
+    if (!isBrokenTales && !game.settings.get(MODULE_ID, "enableHardTranslation")) return;
     const element = globalThis.jQuery && root instanceof globalThis.jQuery ? root[0] : root;
     if (!element) return;
     const dict = this.dictionaries(namespaces);

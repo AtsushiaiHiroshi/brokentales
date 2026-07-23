@@ -2,7 +2,7 @@
   "id": "traductor-universal",
   "title": "Traductor Universal",
   "description": "Traducción latinoamericana y regional para Foundry VTT: sistemas, módulos, texto no localizado, Plutonium, compendios e importaciones.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "Atsu"
