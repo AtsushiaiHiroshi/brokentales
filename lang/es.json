@@ -16371,5 +16371,9 @@
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Nature": "Espíritu / Esencia - Naturaleza",
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Anchor": "Espíritu / Esencia - Ancla",
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Manifestation": "Espíritu / Esencia - Manifestación",
-  "BROKENTALES.HunterSheet": "Hoja de Cazador"
+  "BROKENTALES.HunterSheet": "Hoja de Cazador",
+  "BROKENTALES.Roll.FinalOppositionLevel": "Nivel de Oposicion final",
+  "BROKENTALES.Roll.GiftModifier": "Modificador de Don",
+  "BROKENTALES.Roll.SomaSuccesses": "Exitos comprados con Soma",
+  "BROKENTALES.Roll.RiskSuccesses": "Exitos por dados de riesgo"
 }

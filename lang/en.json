@@ -16371,5 +16371,9 @@
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Nature": "Spirit / Essence - Nature",
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Anchor": "Spirit / Essence - Anchor",
   "BROKENTALES.Content.EssenceDescriptors.Spirit / Essence - Manifestation": "Spirit / Essence - Manifestation",
-  "BROKENTALES.HunterSheet": "Hunter's Sheet"
+  "BROKENTALES.HunterSheet": "Hunter's Sheet",
+  "BROKENTALES.Roll.FinalOppositionLevel": "Final Opposition Level",
+  "BROKENTALES.Roll.GiftModifier": "Gift Modifier",
+  "BROKENTALES.Roll.SomaSuccesses": "Successes bought with Soma",
+  "BROKENTALES.Roll.RiskSuccesses": "Risk Dice Successes"
 }

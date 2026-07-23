@@ -59,7 +59,7 @@ BROKENTALES.giftTypes = {
 BROKENTALES.dice = {
   successThreshold: 2, // Results >= 2 are successes
   criticalFailure: 1, // Rolling a 1 negates all successes
-  maxDice: 10, // Maximum dice that can be rolled
+  maxDice: 20, // Maximum dice that can be rolled
   minDice: 1, // Minimum dice that can be rolled
 };
 
@@ -68,10 +68,9 @@ BROKENTALES.dice = {
  */
 BROKENTALES.difficulties = {
   none: 0,
-  easy: 2,
-  normal: 3,
-  hard: 5,
-  veryHard: 7,
+  easy: 3,
+  normal: 5,
+  hard: 7,
 };
 
 /**

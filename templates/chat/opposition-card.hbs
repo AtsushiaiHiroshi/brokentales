@@ -5,12 +5,18 @@
   </header>
 
   <dl>
+    <dt>{{localize "BROKENTALES.Roll.Character"}}</dt>
+    <dd>{{actor.name}}</dd>
     <dt>{{localize "BROKENTALES.Roll.Descriptor"}}</dt>
     <dd>{{#if descriptor}}{{descriptor.name}}{{else}}{{localize "BROKENTALES.Roll.NoDescriptor"}}{{/if}}</dd>
     <dt>{{localize "BROKENTALES.Roll.BaseSuccesses"}}</dt>
     <dd>{{baseSuccesses}}</dd>
     <dt>{{localize "BROKENTALES.Roll.OppositionLevel"}}</dt>
-    <dd>{{oppositionLevel}} {{#if modifier}}({{modifier}}){{/if}} = {{finalOppositionLevel}}</dd>
+    <dd>{{oppositionLevel}}</dd>
+    <dt>{{localize "BROKENTALES.Roll.GiftModifier"}}</dt>
+    <dd>{{#if modifier}}{{modifier}}{{else}}0{{/if}}</dd>
+    <dt>{{localize "BROKENTALES.Roll.FinalOppositionLevel"}}</dt>
+    <dd>{{finalOppositionLevel}}</dd>
     <dt>{{localize "BROKENTALES.Soma"}}</dt>
     <dd>+{{somaSpent}}</dd>
     <dt>{{localize "BROKENTALES.Roll.GiftSuccesses"}}</dt>
@@ -25,6 +31,8 @@
         -
       {{/if}}
     </dd>
+    <dt>{{localize "BROKENTALES.Roll.RiskSuccesses"}}</dt>
+    <dd>+{{riskSuccesses}}</dd>
     <dt>{{localize "BROKENTALES.Roll.TotalSuccesses"}}</dt>
     <dd>{{totalSuccesses}}</dd>
   </dl>

@@ -875,3 +875,66 @@
 .bt-footer-notes {
   break-inside: avoid;
 }
+
+.bt-chat-card {
+  padding: 10px;
+  color: var(--bt-ink);
+  background: rgba(255, 255, 255, 0.92);
+  border-top: 4px solid var(--bt-red);
+  background-image: var(--bt-line);
+}
+
+.bt-chat-card header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+  border-bottom: 2px solid var(--bt-ink);
+}
+
+.bt-chat-card h3,
+.bt-chat-card header span {
+  margin: 0;
+  color: var(--bt-red-dark);
+  font-family: var(--bt-display-font);
+  text-shadow: 0 0 2px #fff, 0 0 7px rgba(215, 25, 32, 0.65);
+}
+
+.bt-chat-card dl {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 4px 10px;
+  margin: 8px 0;
+}
+
+.bt-chat-card dt {
+  font-weight: 700;
+}
+
+.bt-chat-card dd {
+  margin: 0;
+}
+
+.bt-die {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 3px 3px 0;
+  border: 2px solid var(--bt-ink);
+  background: #fff;
+  color: var(--bt-ink);
+  font-weight: 800;
+}
+
+.bt-die.one {
+  border-color: var(--bt-red);
+  color: #fff;
+  background: var(--bt-red-dark);
+}
+
+.bt-warning {
+  margin: 8px 0 0;
+  color: var(--bt-red-dark);
+  font-weight: 800;
+}
