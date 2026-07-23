@@ -60,7 +60,7 @@ BROKENTALES.dice = {
   successThreshold: 2, // Results >= 2 are successes
   criticalFailure: 1, // Rolling a 1 negates all successes
   maxDice: 20, // Maximum dice that can be rolled
-  minDice: 1, // Minimum dice that can be rolled
+  minDice: 0, // Automatic successes can resolve a check without rolling dice
 };
 
 /**

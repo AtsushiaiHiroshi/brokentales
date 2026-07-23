@@ -18,8 +18,11 @@ export class BrokenTalesActor extends Actor {
       oppositionLevel: difficulty,
       somaSpent: somaBonus,
       giftSuccesses: options.giftSuccesses ?? 0,
+      descriptorSuccesses: options.descriptorSuccesses ?? 0,
       penalties: options.penalties ?? 0,
-      riskDice: diceCount,
+      diceCount,
+      narrativeMode: options.narrativeMode ?? "flat",
+      manualDescriptors: options.manualDescriptors ?? [],
       modifier: options.modifier ?? 0
     });
   }
@@ -32,14 +35,29 @@ export class BrokenTalesActor extends Actor {
       `<option value="${index}"${index === 0 ? " selected" : ""}>${index}</option>`
     ).join("");
 
+    const descriptorRow = (index) => `
+      <div class="bt-roll-descriptor-row" data-descriptor-row>
+        <input type="text" name="manualDescriptorName${index}" placeholder="${game.i18n.localize("BROKENTALES.Roll.DescriptorBonusPlaceholder")}" />
+        <input type="number" name="manualDescriptorSuccesses${index}" value="0" min="0" max="20" step="1" aria-label="${game.i18n.localize("BROKENTALES.Roll.DescriptorSuccesses")}" />
+      </div>
+    `;
+
     const content = `
-      <form class="broken-tales roll-dialog">
+      <div class="broken-tales roll-dialog">
         <div class="form-group">
           <label>${game.i18n.localize("BROKENTALES.Roll.CheckType")}</label>
           <select name="checkType">
             <option value="position">${game.i18n.localize("BROKENTALES.Roll.PositionCheck")}</option>
             <option value="opposition">${game.i18n.localize("BROKENTALES.Roll.OppositionCheck")}</option>
             <option value="defense">${game.i18n.localize("BROKENTALES.Roll.DefenseCheck")}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>${game.i18n.localize("BROKENTALES.Roll.NarrativeMode")}</label>
+          <select name="narrativeMode">
+            <option value="cost">${game.i18n.localize("BROKENTALES.Roll.NarrativeCost")}</option>
+            <option value="flat" selected>${game.i18n.localize("BROKENTALES.Roll.FlatRoll")}</option>
+            <option value="advantage">${game.i18n.localize("BROKENTALES.Roll.NarrativeAdvantage")}</option>
           </select>
         </div>
         <div class="form-group">
@@ -58,6 +76,19 @@ export class BrokenTalesActor extends Actor {
           </select>
         </div>
         <div class="form-group">
+          <label>${game.i18n.localize("BROKENTALES.Roll.DiceCount")}</label>
+          <select name="diceCount">${diceOptions}</select>
+        </div>
+        <fieldset class="bt-roll-descriptor-bonuses">
+          <legend>${game.i18n.localize("BROKENTALES.Roll.ManualDescriptors")}</legend>
+          <div data-descriptor-rows>
+            ${descriptorRow(1)}
+          </div>
+          <button type="button" class="bt-roll-add-descriptor" data-action="add-manual-descriptor" data-tooltip="${game.i18n.localize("BROKENTALES.Roll.AddDescriptor")}">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </fieldset>
+        <div class="form-group">
           <label>${game.i18n.localize("BROKENTALES.Roll.GiftModifier")}</label>
           <input type="number" name="modifier" value="0" min="-20" max="20" step="1" />
         </div>
@@ -73,11 +104,7 @@ export class BrokenTalesActor extends Actor {
           <label>${game.i18n.localize("BROKENTALES.Roll.Penalties")}</label>
           <input type="number" name="penalties" value="0" min="0" max="20" step="1" />
         </div>
-        <div class="form-group">
-          <label>${game.i18n.localize("BROKENTALES.Roll.RiskDice")}</label>
-          <select name="riskDice">${diceOptions}</select>
-        </div>
-      </form>
+      </div>
     `;
 
     const formData = await foundry.applications.api.DialogV2.input({
@@ -85,10 +112,20 @@ export class BrokenTalesActor extends Actor {
       content,
       ok: {
         label: game.i18n.localize("BROKENTALES.Roll.Roll")
+      },
+      render: (_event, dialog) => {
+        dialog.element.querySelector("[data-action='add-manual-descriptor']")?.addEventListener("click", () => {
+          const rows = dialog.element.querySelector("[data-descriptor-rows]");
+          if (!rows) return;
+          const next = rows.querySelectorAll("[data-descriptor-row]").length + 1;
+          if (next > 10) return;
+          rows.insertAdjacentHTML("beforeend", descriptorRow(next));
+        });
       }
     });
 
     if (!formData) return null;
+    const manualDescriptors = this.#collectManualDescriptorBonuses(formData);
     return this.rollOpposition({
       checkType: formData.checkType || "position",
       descriptorId: formData.descriptorId || "",
@@ -96,8 +133,11 @@ export class BrokenTalesActor extends Actor {
       modifier: Number(formData.modifier || 0),
       somaSpent: Number(formData.somaSpent || 0),
       giftSuccesses: Number(formData.giftSuccesses || 0),
+      descriptorSuccesses: manualDescriptors.reduce((total, descriptor) => total + descriptor.successes, 0),
       penalties: Number(formData.penalties || 0),
-      riskDice: Number(formData.riskDice || 0)
+      diceCount: Number(formData.diceCount || 0),
+      narrativeMode: formData.narrativeMode || "flat",
+      manualDescriptors
     });
   }
 
@@ -108,39 +148,50 @@ export class BrokenTalesActor extends Actor {
     modifier = 0,
     somaSpent = 0,
     giftSuccesses = 0,
+    descriptorSuccesses = 0,
     penalties = 0,
-    riskDice = 0
+    diceCount,
+    riskDice,
+    narrativeMode = "flat",
+    manualDescriptors = []
   } = {}) {
     const descriptor = descriptorId ? this.items.get(descriptorId) : null;
-    const hasDescriptor = Boolean(descriptor);
-    const baseSuccesses = hasDescriptor ? 3 : 1;
+    const baseSuccesses = 1;
     const currentSoma = Number(this.system.resources?.soma?.value ?? 0);
     const requestedSoma = this.#clampNumber(somaSpent, 0, 20);
     const actualSomaSpent = Math.min(requestedSoma, currentSoma);
     const normalizedOppositionLevel = [3, 5, 7].includes(Number(oppositionLevel)) ? Number(oppositionLevel) : 5;
     const normalizedModifier = this.#clampNumber(modifier, -20, 20);
     const finalOppositionLevel = Math.max(1, normalizedOppositionLevel + normalizedModifier);
-    const diceCount = this.#clampNumber(riskDice, 0, 20);
+    const normalizedDiceCount = this.#clampNumber(diceCount ?? riskDice ?? 0, 0, CONFIG.BROKENTALES?.dice?.maxDice ?? 20);
     const normalizedGiftSuccesses = this.#clampNumber(giftSuccesses, 0, 20);
+    const normalizedDescriptorSuccesses = this.#clampNumber(descriptorSuccesses, 0, 20);
     const normalizedPenalties = this.#clampNumber(penalties, 0, 20);
+    const normalizedManualDescriptors = Array.isArray(manualDescriptors)
+      ? manualDescriptors.map((entry) => ({
+        name: String(entry?.name ?? "").trim(),
+        successes: this.#clampNumber(entry?.successes ?? 0, 0, 20)
+      })).filter((entry) => entry.name || entry.successes > 0)
+      : [];
 
     let roll = null;
     let diceResults = [];
-    if (diceCount > 0) {
-      roll = await new Roll(`${diceCount}d6`).evaluate({ async: true });
+    if (normalizedDiceCount > 0) {
+      roll = await new Roll(`${normalizedDiceCount}d6`).evaluate({ async: true });
       diceResults = roll.dice.flatMap((die) => die.results.map((result) => result.result));
     }
 
     const diceDisplay = diceResults.map((result) => ({
       result,
-      isOne: result === 1
+      isOne: result === CONFIG.BROKENTALES?.dice?.criticalFailure
     }));
-    const riskSuccesses = diceResults.filter((result) => result > 1).length;
-    const hasBotch = diceResults.includes(1);
+    const diceSuccesses = diceResults.filter((result) => result >= (CONFIG.BROKENTALES?.dice?.successThreshold ?? 2)).length;
+    const hasBotch = diceResults.includes(CONFIG.BROKENTALES?.dice?.criticalFailure ?? 1);
     const calculatedSuccesses = baseSuccesses
       + actualSomaSpent
       + normalizedGiftSuccesses
-      + riskSuccesses
+      + normalizedDescriptorSuccesses
+      + diceSuccesses
       - normalizedPenalties;
     const totalSuccesses = hasBotch ? 0 : calculatedSuccesses;
     const margin = totalSuccesses - finalOppositionLevel;
@@ -158,15 +209,19 @@ export class BrokenTalesActor extends Actor {
       baseSuccesses,
       somaSpent: actualSomaSpent,
       giftSuccesses: normalizedGiftSuccesses,
+      descriptorSuccesses: normalizedDescriptorSuccesses,
+      manualDescriptors: normalizedManualDescriptors,
       penalties: normalizedPenalties,
-      riskDice: diceCount,
+      diceCount: normalizedDiceCount,
       diceResults,
       diceDisplay,
-      riskSuccesses,
+      diceSuccesses,
       hasBotch,
       oppositionLevel: normalizedOppositionLevel,
       modifier: normalizedModifier,
       finalOppositionLevel,
+      narrativeMode,
+      narrativeModeLabel: this.#narrativeModeLabel(narrativeMode),
       totalSuccesses,
       margin,
       outcome,
@@ -179,8 +234,12 @@ export class BrokenTalesActor extends Actor {
       flags: {
         "broken-tales": {
           checkType,
-          diceCount,
+          narrativeMode,
+          diceCount: normalizedDiceCount,
           diceResults,
+          diceSuccesses,
+          manualDescriptors: normalizedManualDescriptors,
+          descriptorSuccesses: normalizedDescriptorSuccesses,
           oppositionLevel: normalizedOppositionLevel,
           modifier: normalizedModifier,
           finalOppositionLevel,
@@ -189,6 +248,16 @@ export class BrokenTalesActor extends Actor {
         }
       }
     });
+  }
+
+  #collectManualDescriptorBonuses(formData = {}) {
+    const descriptors = [];
+    for (let index = 1; index <= 10; index += 1) {
+      const name = String(formData[`manualDescriptorName${index}`] ?? "").trim();
+      const successes = this.#clampNumber(formData[`manualDescriptorSuccesses${index}`] ?? 0, 0, 20);
+      if (name || successes > 0) descriptors.push({ name, successes });
+    }
+    return descriptors;
   }
 
   #clampNumber(value, min, max) {
@@ -203,6 +272,14 @@ export class BrokenTalesActor extends Actor {
       opposition: "BROKENTALES.Roll.OppositionCheck",
       position: "BROKENTALES.Roll.PositionCheck"
     }[checkType] ?? "BROKENTALES.Roll.PositionCheck";
+  }
+
+  #narrativeModeLabel(narrativeMode) {
+    return {
+      advantage: "BROKENTALES.Roll.NarrativeAdvantage",
+      cost: "BROKENTALES.Roll.NarrativeCost",
+      flat: "BROKENTALES.Roll.FlatRoll"
+    }[narrativeMode] ?? "BROKENTALES.Roll.FlatRoll";
   }
 
   #getOppositionOutcome({ hasBotch, margin }) {

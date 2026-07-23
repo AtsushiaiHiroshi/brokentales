@@ -915,6 +915,15 @@
   margin: 0;
 }
 
+.bt-chat-descriptors {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.bt-chat-descriptors li {
+  margin: 0 0 2px;
+}
+
 .bt-die {
   display: inline-grid;
   place-items: center;
@@ -937,4 +946,35 @@
   margin: 8px 0 0;
   color: var(--bt-red-dark);
   font-weight: 800;
+}
+
+.roll-dialog .bt-roll-descriptor-bonuses {
+  position: relative;
+  margin: 8px 0;
+  padding: 8px 42px 8px 8px;
+  border: 1px solid var(--bt-red);
+}
+
+.roll-dialog .bt-roll-descriptor-bonuses legend {
+  padding: 0 4px;
+  color: var(--bt-red-dark);
+  font-family: var(--bt-display-font);
+}
+
+.roll-dialog .bt-roll-descriptor-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 72px;
+  gap: 6px;
+  margin: 0 0 6px;
+}
+
+.roll-dialog .bt-roll-add-descriptor {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
 }

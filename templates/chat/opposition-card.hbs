@@ -9,8 +9,22 @@
     <dd>{{actor.name}}</dd>
     <dt>{{localize "BROKENTALES.Roll.Descriptor"}}</dt>
     <dd>{{#if descriptor}}{{descriptor.name}}{{else}}{{localize "BROKENTALES.Roll.NoDescriptor"}}{{/if}}</dd>
+    <dt>{{localize "BROKENTALES.Roll.NarrativeMode"}}</dt>
+    <dd>{{localize narrativeModeLabel}}</dd>
     <dt>{{localize "BROKENTALES.Roll.BaseSuccesses"}}</dt>
     <dd>{{baseSuccesses}}</dd>
+    <dt>{{localize "BROKENTALES.Roll.DescriptorSuccesses"}}</dt>
+    <dd>+{{descriptorSuccesses}}</dd>
+    {{#if manualDescriptors.length}}
+    <dt>{{localize "BROKENTALES.Roll.ManualDescriptors"}}</dt>
+    <dd>
+      <ul class="bt-chat-descriptors">
+        {{#each manualDescriptors as |entry|}}
+        <li>{{#if entry.name}}{{entry.name}}{{else}}{{localize "BROKENTALES.Roll.Descriptor"}}{{/if}} <strong>+{{entry.successes}}</strong></li>
+        {{/each}}
+      </ul>
+    </dd>
+    {{/if}}
     <dt>{{localize "BROKENTALES.Roll.OppositionLevel"}}</dt>
     <dd>{{oppositionLevel}}</dd>
     <dt>{{localize "BROKENTALES.Roll.GiftModifier"}}</dt>
@@ -23,7 +37,7 @@
     <dd>+{{giftSuccesses}}</dd>
     <dt>{{localize "BROKENTALES.Roll.Penalties"}}</dt>
     <dd>-{{penalties}}</dd>
-    <dt>{{localize "BROKENTALES.Roll.RiskDice"}}</dt>
+    <dt>{{localize "BROKENTALES.Roll.DiceCount"}}</dt>
     <dd>
       {{#if diceDisplay.length}}
         {{#each diceDisplay as |die|}}<span class="bt-die {{#if die.isOne}}one{{/if}}">{{die.result}}</span>{{/each}}
@@ -31,8 +45,8 @@
         -
       {{/if}}
     </dd>
-    <dt>{{localize "BROKENTALES.Roll.RiskSuccesses"}}</dt>
-    <dd>+{{riskSuccesses}}</dd>
+    <dt>{{localize "BROKENTALES.Roll.DiceSuccesses"}}</dt>
+    <dd>+{{diceSuccesses}}</dd>
     <dt>{{localize "BROKENTALES.Roll.TotalSuccesses"}}</dt>
     <dd>{{totalSuccesses}}</dd>
   </dl>
